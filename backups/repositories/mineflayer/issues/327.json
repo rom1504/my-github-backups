@@ -1,0 +1,172 @@
+{
+    "assignee": null,
+    "body": "When navigating using mineflayer-navigate, the bot is unable to jump as fast as necessary, due to physics.js preventing jumping from happening too quickly:  https://github.com/andrewrk/mineflayer/blob/master/lib/plugins/physics.js#L99\r\n\r\nThis bug causes this: https://github.com/Darthfett/helperbot/issues/41",
+    "closed_at": null,
+    "comment_data": [
+        {
+            "body": "Ah, good point !\r\nThat check was added to prevent the bot to jump to quickly was added to fix andrewrk/mineflayer#114 (which it did).\r\nBut apparently that's not exactly the correct fix.\r\n\r\nWe need to find the right way to allow both things to work correctly.",
+            "created_at": "2015-08-31T03:43:38Z",
+            "html_url": "https://github.com/andrewrk/mineflayer/issues/327#issuecomment-136243913",
+            "id": 136243913,
+            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/327",
+            "updated_at": "2015-08-31T03:43:38Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/136243913",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "body": "I wonder if physics.js is setting the bot.entity.onGround too quickly?  It\nseems like the reason constantly jumping wouldn't work is because the\nserver doesn't realize we landed.\n\nIt would probably be good to look at the positions sent by the Notchian\nclient and mineflayer client and compare.  Maybe we could send a second\nposition update with the on-ground position when we are supposed to have\nlanded.\nOn Aug 30, 2015 8:43 PM, \"Romain Beaumont\" <notifications@github.com> wrote:\n\n> Ah, good point !\n> That check was added to prevent the bot to jump to quickly was added to\n> fix andrewrk/mineflayer#114\n> <https://github.com/andrewrk/mineflayer/issues/114> (which it did).\n> But apparently that's not exactly the correct fix.\n>\n> We need to find the right way to allow both things to work correctly.\n>\n> —\n> Reply to this email directly or view it on GitHub\n> <https://github.com/andrewrk/mineflayer/issues/327#issuecomment-136243913>\n> .\n>\n",
+            "created_at": "2015-08-31T04:12:22Z",
+            "html_url": "https://github.com/andrewrk/mineflayer/issues/327#issuecomment-136247581",
+            "id": 136247581,
+            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/327",
+            "updated_at": "2015-08-31T04:12:22Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/136247581",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/412436?v=3",
+                "events_url": "https://api.github.com/users/Darthfett/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Darthfett/followers",
+                "following_url": "https://api.github.com/users/Darthfett/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Darthfett/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Darthfett",
+                "id": 412436,
+                "login": "Darthfett",
+                "organizations_url": "https://api.github.com/users/Darthfett/orgs",
+                "received_events_url": "https://api.github.com/users/Darthfett/received_events",
+                "repos_url": "https://api.github.com/users/Darthfett/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Darthfett/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Darthfett/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Darthfett"
+            }
+        }
+    ],
+    "comments": 2,
+    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/327/comments",
+    "created_at": "2015-08-31T02:57:25Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-08-31T03:43:47Z",
+            "event": "labeled",
+            "id": 396276676,
+            "label": {
+                "color": "e10c02",
+                "name": "bug"
+            },
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/396276676"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-08-31T03:43:47Z",
+            "event": "labeled",
+            "id": 396276677,
+            "label": {
+                "color": "006b75",
+                "name": "physics"
+            },
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/396276677"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/327/events",
+    "html_url": "https://github.com/andrewrk/mineflayer/issues/327",
+    "id": 103976754,
+    "labels": [
+        {
+            "color": "e10c02",
+            "name": "bug",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/bug"
+        },
+        {
+            "color": "006b75",
+            "name": "physics",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/physics"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/327/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 327,
+    "state": "open",
+    "title": "Bot cannot jump repeatedly",
+    "updated_at": "2015-08-31T04:12:22Z",
+    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/327",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/412436?v=3",
+        "events_url": "https://api.github.com/users/Darthfett/events{/privacy}",
+        "followers_url": "https://api.github.com/users/Darthfett/followers",
+        "following_url": "https://api.github.com/users/Darthfett/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Darthfett/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/Darthfett",
+        "id": 412436,
+        "login": "Darthfett",
+        "organizations_url": "https://api.github.com/users/Darthfett/orgs",
+        "received_events_url": "https://api.github.com/users/Darthfett/received_events",
+        "repos_url": "https://api.github.com/users/Darthfett/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/Darthfett/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Darthfett/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/Darthfett"
+    }
+}

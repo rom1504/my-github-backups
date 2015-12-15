@@ -1,0 +1,172 @@
+{
+    "assignee": null,
+    "body": "You can catch all messages by the `message` event. Also, you can add regular expressions to parse server messages. Messages parsed as `whisper` or `chat` will emit their respective events.\r\n\r\nMy question, or maybe a feature request is:\r\n\r\nIt would be great to have a callback for my own message (eg. auction message):\r\n\r\n    //Assign chat pattern (this works)\r\n    bot.chatAddPattern(/^\\[ Auction\\] (.*)$/, \"auction\", \"Auction info\");\r\n    //Possible way to implement it:\r\n    bot.chatOn(\"auction\", function(message) {if(show_auctions)console.log(message);});\r\n\r\nAnd finally there could be a callback for messages that didn't match any of the registered chat patterns:\r\n\r\n    bot.chatOnUnparsed(function(message) {console.log(\"SERVER: \"+message);});",
+    "closed_at": null,
+    "comment_data": [
+        {
+            "body": "This is actually already possible, but not documented anywhere I think. See https://github.com/andrewrk/mineflayer/blob/master/lib/plugins/chat.js#L40\r\n\r\nThis only needs documentation.",
+            "created_at": "2015-07-21T05:02:57Z",
+            "html_url": "https://github.com/andrewrk/mineflayer/issues/303#issuecomment-123161683",
+            "id": 123161683,
+            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/303",
+            "updated_at": "2015-07-21T05:02:57Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/123161683",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "body": "Yeah, I already discovered. I should've added it. But in the meantime I came into another needed enhancement: event for messages that didn't match any regexp. Something like `message_unparsed`.\r\n\r\nShall I start new issue for that?",
+            "created_at": "2015-07-21T19:23:03Z",
+            "html_url": "https://github.com/andrewrk/mineflayer/issues/303#issuecomment-123453195",
+            "id": 123453195,
+            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/303",
+            "updated_at": "2015-07-21T19:23:03Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/123453195",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5508988?v=3",
+                "events_url": "https://api.github.com/users/Darker/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Darker/followers",
+                "following_url": "https://api.github.com/users/Darker/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Darker/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Darker",
+                "id": 5508988,
+                "login": "Darker",
+                "organizations_url": "https://api.github.com/users/Darker/orgs",
+                "received_events_url": "https://api.github.com/users/Darker/received_events",
+                "repos_url": "https://api.github.com/users/Darker/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Darker/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Darker/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Darker"
+            }
+        }
+    ],
+    "comments": 2,
+    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/303/comments",
+    "created_at": "2015-07-09T16:39:46Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-07-21T04:59:21Z",
+            "event": "labeled",
+            "id": 360769528,
+            "label": {
+                "color": "bfd4f2",
+                "name": "chat"
+            },
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/360769528"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-07-21T05:03:14Z",
+            "event": "labeled",
+            "id": 360770864,
+            "label": {
+                "color": "d4c5f9",
+                "name": "documentation"
+            },
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/360770864"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/303/events",
+    "html_url": "https://github.com/andrewrk/mineflayer/issues/303",
+    "id": 94097518,
+    "labels": [
+        {
+            "color": "bfd4f2",
+            "name": "chat",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/chat"
+        },
+        {
+            "color": "d4c5f9",
+            "name": "documentation",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/documentation"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/303/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 303,
+    "state": "open",
+    "title": "Event to catch unparsed messages and to parse custom message groups",
+    "updated_at": "2015-07-21T19:23:03Z",
+    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/303",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/5508988?v=3",
+        "events_url": "https://api.github.com/users/Darker/events{/privacy}",
+        "followers_url": "https://api.github.com/users/Darker/followers",
+        "following_url": "https://api.github.com/users/Darker/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Darker/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/Darker",
+        "id": 5508988,
+        "login": "Darker",
+        "organizations_url": "https://api.github.com/users/Darker/orgs",
+        "received_events_url": "https://api.github.com/users/Darker/received_events",
+        "repos_url": "https://api.github.com/users/Darker/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/Darker/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Darker/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/Darker"
+    }
+}

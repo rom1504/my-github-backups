@@ -1,0 +1,79 @@
+{
+    "assignee": null,
+    "body": "For example\r\nInstead of\r\n```js\r\nplayer._client.on('chat', ({message} = {}) => {\r\n    if(message[0]==\"/\") {\r\n      var command = message.slice(1);\r\n      player.handleCommand(command);\r\n    }\r\n    else {\r\n      serv.broadcast('<' + player.username + '>' + ' ' + message);\r\n      player.emit(\"chat\",message);\r\n    }\r\n  });\r\n```\r\n\r\nWe could do\r\n\r\n```js\r\nfunction retransmitChat() {\r\nplayer._client.on('chat', ({message} = {}) => {\r\n    if(message[0]==\"/\") {\r\n      var command = message.slice(1);\r\n      player.handleCommand(command);\r\n    }\r\n    else {\r\n      serv.broadcast('<' + player.username + '>' + ' ' + message);\r\n      player.emit(\"chat\",message);\r\n    }\r\n  });\r\n}\r\n```\r\n\r\nThis would allow to enable only the desired behaviors, and make things more modular.\r\n\r\n(Just an idea I want to experiment with, it doesn't necessarily change what we planned about plugins and all)\r\n\r\nThe general idea is that one thing I like about mineflayer is that it does basically nothing by default. I'm wondering whether it could apply to flying-squid or a server lib. The benefit is that it let people organize things as they like.",
+    "closed_at": null,
+    "comment_data": [],
+    "comments": 0,
+    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/96/comments",
+    "created_at": "2015-11-13T09:45:23Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-11-17T12:46:27Z",
+            "event": "labeled",
+            "id": 466630255,
+            "label": {
+                "color": "006b75",
+                "name": "refactoring"
+            },
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/466630255"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/96/events",
+    "html_url": "https://github.com/mhsjlw/flying-squid/issues/96",
+    "id": 116734628,
+    "labels": [
+        {
+            "color": "006b75",
+            "name": "refactoring",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/refactoring"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/96/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 96,
+    "state": "open",
+    "title": "Experiment defining function to enable behavior",
+    "updated_at": "2015-11-17T12:46:27Z",
+    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/96",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

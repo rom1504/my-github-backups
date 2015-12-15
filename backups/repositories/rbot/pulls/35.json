@@ -1,0 +1,279 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/rom1504/rbot/issues/35/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/rom1504/rbot/pulls/35/commits"
+        },
+        "html": {
+            "href": "https://github.com/rom1504/rbot/pull/35"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/rom1504/rbot/issues/35"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/rom1504/rbot/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/rom1504/rbot/pulls/35/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/rom1504/rbot/pulls/35"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/rom1504/rbot/statuses/7259f3684056cad9e6a2c40e9acc87bd62f87410"
+        }
+    },
+    "assignee": null,
+    "base": {
+        "label": "rom1504:master",
+        "ref": "master",
+        "repo": {
+            "archive_url": "https://api.github.com/repos/rom1504/rbot/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/rom1504/rbot/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/rom1504/rbot/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/rom1504/rbot/branches{/branch}",
+            "clone_url": "https://github.com/rom1504/rbot.git",
+            "collaborators_url": "https://api.github.com/repos/rom1504/rbot/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/rom1504/rbot/comments{/number}",
+            "commits_url": "https://api.github.com/repos/rom1504/rbot/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/rom1504/rbot/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/rom1504/rbot/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/rom1504/rbot/contributors",
+            "created_at": "2013-01-18T22:44:10Z",
+            "default_branch": "master",
+            "description": "bot made with mineflayer which can do task",
+            "downloads_url": "https://api.github.com/repos/rom1504/rbot/downloads",
+            "events_url": "https://api.github.com/repos/rom1504/rbot/events",
+            "fork": false,
+            "forks": 6,
+            "forks_count": 6,
+            "forks_url": "https://api.github.com/repos/rom1504/rbot/forks",
+            "full_name": "rom1504/rbot",
+            "git_commits_url": "https://api.github.com/repos/rom1504/rbot/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/rom1504/rbot/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/rom1504/rbot/git/tags{/sha}",
+            "git_url": "git://github.com/rom1504/rbot.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_wiki": true,
+            "homepage": null,
+            "hooks_url": "https://api.github.com/repos/rom1504/rbot/hooks",
+            "html_url": "https://github.com/rom1504/rbot",
+            "id": 7695853,
+            "issue_comment_url": "https://api.github.com/repos/rom1504/rbot/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/rom1504/rbot/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/rom1504/rbot/issues{/number}",
+            "keys_url": "https://api.github.com/repos/rom1504/rbot/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/rom1504/rbot/labels{/name}",
+            "language": "JavaScript",
+            "languages_url": "https://api.github.com/repos/rom1504/rbot/languages",
+            "merges_url": "https://api.github.com/repos/rom1504/rbot/merges",
+            "milestones_url": "https://api.github.com/repos/rom1504/rbot/milestones{/number}",
+            "mirror_url": null,
+            "name": "rbot",
+            "notifications_url": "https://api.github.com/repos/rom1504/rbot/notifications{?since,all,participating}",
+            "open_issues": 19,
+            "open_issues_count": 19,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/rom1504/rbot/pulls{/number}",
+            "pushed_at": "2015-10-12T21:39:12Z",
+            "releases_url": "https://api.github.com/repos/rom1504/rbot/releases{/id}",
+            "size": 563,
+            "ssh_url": "git@github.com:rom1504/rbot.git",
+            "stargazers_count": 20,
+            "stargazers_url": "https://api.github.com/repos/rom1504/rbot/stargazers",
+            "statuses_url": "https://api.github.com/repos/rom1504/rbot/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/rom1504/rbot/subscribers",
+            "subscription_url": "https://api.github.com/repos/rom1504/rbot/subscription",
+            "svn_url": "https://github.com/rom1504/rbot",
+            "tags_url": "https://api.github.com/repos/rom1504/rbot/tags",
+            "teams_url": "https://api.github.com/repos/rom1504/rbot/teams",
+            "trees_url": "https://api.github.com/repos/rom1504/rbot/git/trees{/sha}",
+            "updated_at": "2015-08-05T09:10:08Z",
+            "url": "https://api.github.com/repos/rom1504/rbot",
+            "watchers": 20,
+            "watchers_count": 20
+        },
+        "sha": "6e5deaf42513e53bf99ae42f7432ea0fb05b3c8a",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+            "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+            "followers_url": "https://api.github.com/users/rom1504/followers",
+            "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/rom1504",
+            "id": 2346494,
+            "login": "rom1504",
+            "organizations_url": "https://api.github.com/users/rom1504/orgs",
+            "received_events_url": "https://api.github.com/users/rom1504/received_events",
+            "repos_url": "https://api.github.com/users/rom1504/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/rom1504"
+        }
+    },
+    "body": "v0.12.6 on Windows 7 crashes on setImmeidate(x) where x is undefined. \r\nTherefore, check for undefined before calling setImmediate()",
+    "closed_at": "2015-07-10T04:47:51Z",
+    "comment_data": [],
+    "comments_url": "https://api.github.com/repos/rom1504/rbot/issues/35/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/4744124?v=3",
+                "events_url": "https://api.github.com/users/nixnax/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nixnax/followers",
+                "following_url": "https://api.github.com/users/nixnax/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nixnax/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nixnax",
+                "id": 4744124,
+                "login": "nixnax",
+                "organizations_url": "https://api.github.com/users/nixnax/orgs",
+                "received_events_url": "https://api.github.com/users/nixnax/received_events",
+                "repos_url": "https://api.github.com/users/nixnax/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nixnax/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nixnax/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nixnax"
+            },
+            "comments_url": "https://api.github.com/repos/rom1504/rbot/commits/7259f3684056cad9e6a2c40e9acc87bd62f87410/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-07-09T18:41:54Z",
+                    "email": "nixnax@caraudio.com",
+                    "name": "nixnax"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-07-09T18:41:54Z",
+                    "email": "nixnax@caraudio.com",
+                    "name": "nixnax"
+                },
+                "message": "Test to avoid setImmediate( undefined )",
+                "tree": {
+                    "sha": "dac9b96865999164541ac6f593ad1bb4cc7aa5b1",
+                    "url": "https://api.github.com/repos/rom1504/rbot/git/trees/dac9b96865999164541ac6f593ad1bb4cc7aa5b1"
+                },
+                "url": "https://api.github.com/repos/rom1504/rbot/git/commits/7259f3684056cad9e6a2c40e9acc87bd62f87410"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/4744124?v=3",
+                "events_url": "https://api.github.com/users/nixnax/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nixnax/followers",
+                "following_url": "https://api.github.com/users/nixnax/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nixnax/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nixnax",
+                "id": 4744124,
+                "login": "nixnax",
+                "organizations_url": "https://api.github.com/users/nixnax/orgs",
+                "received_events_url": "https://api.github.com/users/nixnax/received_events",
+                "repos_url": "https://api.github.com/users/nixnax/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nixnax/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nixnax/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nixnax"
+            },
+            "html_url": "https://github.com/rom1504/rbot/commit/7259f3684056cad9e6a2c40e9acc87bd62f87410",
+            "parents": [
+                {
+                    "html_url": "https://github.com/rom1504/rbot/commit/6e5deaf42513e53bf99ae42f7432ea0fb05b3c8a",
+                    "sha": "6e5deaf42513e53bf99ae42f7432ea0fb05b3c8a",
+                    "url": "https://api.github.com/repos/rom1504/rbot/commits/6e5deaf42513e53bf99ae42f7432ea0fb05b3c8a"
+                }
+            ],
+            "sha": "7259f3684056cad9e6a2c40e9acc87bd62f87410",
+            "url": "https://api.github.com/repos/rom1504/rbot/commits/7259f3684056cad9e6a2c40e9acc87bd62f87410"
+        }
+    ],
+    "commits_url": "https://api.github.com/repos/rom1504/rbot/pulls/35/commits",
+    "created_at": "2015-07-09T18:48:34Z",
+    "diff_url": "https://github.com/rom1504/rbot/pull/35.diff",
+    "head": {
+        "label": "nixnax:master",
+        "ref": "master",
+        "repo": null,
+        "sha": "7259f3684056cad9e6a2c40e9acc87bd62f87410",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/4744124?v=3",
+            "events_url": "https://api.github.com/users/nixnax/events{/privacy}",
+            "followers_url": "https://api.github.com/users/nixnax/followers",
+            "following_url": "https://api.github.com/users/nixnax/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nixnax/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/nixnax",
+            "id": 4744124,
+            "login": "nixnax",
+            "organizations_url": "https://api.github.com/users/nixnax/orgs",
+            "received_events_url": "https://api.github.com/users/nixnax/received_events",
+            "repos_url": "https://api.github.com/users/nixnax/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/nixnax/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nixnax/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/nixnax"
+        }
+    },
+    "html_url": "https://github.com/rom1504/rbot/pull/35",
+    "id": 39615337,
+    "issue_url": "https://api.github.com/repos/rom1504/rbot/issues/35",
+    "locked": false,
+    "merge_commit_sha": "e29ad547149f2e92bab34fc2afed2ac02f2c8268",
+    "merged_at": null,
+    "milestone": null,
+    "number": 35,
+    "patch_url": "https://github.com/rom1504/rbot/pull/35.patch",
+    "review_comment_url": "https://api.github.com/repos/rom1504/rbot/pulls/comments{/number}",
+    "review_comments_url": "https://api.github.com/repos/rom1504/rbot/pulls/35/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/rom1504/rbot/statuses/7259f3684056cad9e6a2c40e9acc87bd62f87410",
+    "title": "Avoid setImmediate( undefined )",
+    "updated_at": "2015-07-10T04:47:51Z",
+    "url": "https://api.github.com/repos/rom1504/rbot/pulls/35",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/4744124?v=3",
+        "events_url": "https://api.github.com/users/nixnax/events{/privacy}",
+        "followers_url": "https://api.github.com/users/nixnax/followers",
+        "following_url": "https://api.github.com/users/nixnax/following{/other_user}",
+        "gists_url": "https://api.github.com/users/nixnax/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/nixnax",
+        "id": 4744124,
+        "login": "nixnax",
+        "organizations_url": "https://api.github.com/users/nixnax/orgs",
+        "received_events_url": "https://api.github.com/users/nixnax/received_events",
+        "repos_url": "https://api.github.com/users/nixnax/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/nixnax/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/nixnax/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/nixnax"
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "assignee": null,
+    "body": "Handle 0x34, 0x35, 0x36, 0x37, and 0x3c correctly so that `blockAt` is always accurate.",
+    "closed_at": "2013-01-09T15:21:00Z",
+    "comment_data": [
+        {
+            "body": "yes this is needed : currently if you dig underneath the bot for example, blockAt doesn't indicate the block has become air (until reconnection)",
+            "created_at": "2013-01-08T18:53:44Z",
+            "html_url": "https://github.com/andrewrk/mineflayer/issues/71#issuecomment-12011246",
+            "id": 12011246,
+            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/71",
+            "updated_at": "2013-01-08T18:53:44Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/12011246",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "body": "fixed in [0.0.5](https://github.com/superjoe30/mineflayer/blob/master/doc/history.md#005)",
+            "created_at": "2013-01-09T15:21:00Z",
+            "html_url": "https://github.com/andrewrk/mineflayer/issues/71#issuecomment-12048621",
+            "id": 12048621,
+            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/71",
+            "updated_at": "2013-01-09T15:21:00Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/12048621",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+                "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+                "followers_url": "https://api.github.com/users/andrewrk/followers",
+                "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+                "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/andrewrk",
+                "id": 106511,
+                "login": "andrewrk",
+                "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+                "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+                "repos_url": "https://api.github.com/users/andrewrk/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/andrewrk"
+            }
+        }
+    ],
+    "comments": 2,
+    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/71/comments",
+    "created_at": "2013-01-08T11:29:23Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+                "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+                "followers_url": "https://api.github.com/users/andrewrk/followers",
+                "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+                "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/andrewrk",
+                "id": 106511,
+                "login": "andrewrk",
+                "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+                "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+                "repos_url": "https://api.github.com/users/andrewrk/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/andrewrk"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2013-01-09T15:21:00Z",
+            "event": "closed",
+            "id": 33849855,
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/33849855"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/71/events",
+    "html_url": "https://github.com/andrewrk/mineflayer/issues/71",
+    "id": 9765420,
+    "labels": [
+        {
+            "color": "444444",
+            "name": "new feature",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/new%20feature"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/71/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 71,
+    "state": "closed",
+    "title": "blocks: not all packets are handled",
+    "updated_at": "2013-01-09T15:21:00Z",
+    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/71",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+        "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+        "followers_url": "https://api.github.com/users/andrewrk/followers",
+        "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/andrewrk",
+        "id": 106511,
+        "login": "andrewrk",
+        "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+        "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+        "repos_url": "https://api.github.com/users/andrewrk/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/andrewrk"
+    }
+}

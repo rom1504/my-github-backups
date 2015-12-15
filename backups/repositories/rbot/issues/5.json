@@ -1,0 +1,104 @@
+{
+    "assignee": null,
+    "body": "find a block next to the wanted to new block.\r\nthen build the block to the given position",
+    "closed_at": "2013-02-07T07:17:33Z",
+    "comment_data": [
+        {
+            "body": "it's implemented as build <position> instead (it's possible to use the equip command before if needed)",
+            "created_at": "2013-02-07T07:17:33Z",
+            "html_url": "https://github.com/rom1504/rbot/issues/5#issuecomment-13224563",
+            "id": 13224563,
+            "issue_url": "https://api.github.com/repos/rom1504/rbot/issues/5",
+            "updated_at": "2013-02-07T07:17:33Z",
+            "url": "https://api.github.com/repos/rom1504/rbot/issues/comments/13224563",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        }
+    ],
+    "comments": 1,
+    "comments_url": "https://api.github.com/repos/rom1504/rbot/issues/5/comments",
+    "created_at": "2013-02-03T07:07:47Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2013-02-07T07:17:33Z",
+            "event": "closed",
+            "id": 37015618,
+            "url": "https://api.github.com/repos/rom1504/rbot/issues/events/37015618"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/rom1504/rbot/issues/5/events",
+    "html_url": "https://github.com/rom1504/rbot/issues/5",
+    "id": 10581776,
+    "labels": [
+        {
+            "color": "84b6eb",
+            "name": "enhancement",
+            "url": "https://api.github.com/repos/rom1504/rbot/labels/enhancement"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/rom1504/rbot/issues/5/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 5,
+    "state": "closed",
+    "title": "a build <blockType> <position> command",
+    "updated_at": "2013-02-07T07:17:33Z",
+    "url": "https://api.github.com/repos/rom1504/rbot/issues/5",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

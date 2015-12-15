@@ -1,0 +1,1311 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/29/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/29/commits"
+        },
+        "html": {
+            "href": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/29"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/29"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/29/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/29"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/statuses/fdc01db82504cd81b7467988e37e6f22b544ed50"
+        }
+    },
+    "assignee": null,
+    "base": {
+        "label": "PrismarineJS:master",
+        "ref": "master",
+        "repo": {
+            "archive_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/branches{/branch}",
+            "clone_url": "https://github.com/PrismarineJS/node-minecraft-protocol.git",
+            "collaborators_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/comments{/number}",
+            "commits_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/contributors",
+            "created_at": "2013-01-01T09:17:05Z",
+            "default_branch": "master",
+            "description": "Parse and serialize minecraft packets, plus authentication and encryption.",
+            "downloads_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/downloads",
+            "events_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/events",
+            "fork": false,
+            "forks": 51,
+            "forks_count": 51,
+            "forks_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/forks",
+            "full_name": "PrismarineJS/node-minecraft-protocol",
+            "git_commits_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/tags{/sha}",
+            "git_url": "git://github.com/PrismarineJS/node-minecraft-protocol.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_wiki": true,
+            "homepage": "http://prismarinejs.github.io/",
+            "hooks_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/hooks",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol",
+            "id": 7394347,
+            "issue_comment_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues{/number}",
+            "keys_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/labels{/name}",
+            "language": "JavaScript",
+            "languages_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/languages",
+            "merges_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/merges",
+            "milestones_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/milestones{/number}",
+            "mirror_url": null,
+            "name": "node-minecraft-protocol",
+            "notifications_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/notifications{?since,all,participating}",
+            "open_issues": 22,
+            "open_issues_count": 22,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/11053411?v=3",
+                "events_url": "https://api.github.com/users/PrismarineJS/events{/privacy}",
+                "followers_url": "https://api.github.com/users/PrismarineJS/followers",
+                "following_url": "https://api.github.com/users/PrismarineJS/following{/other_user}",
+                "gists_url": "https://api.github.com/users/PrismarineJS/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/PrismarineJS",
+                "id": 11053411,
+                "login": "PrismarineJS",
+                "organizations_url": "https://api.github.com/users/PrismarineJS/orgs",
+                "received_events_url": "https://api.github.com/users/PrismarineJS/received_events",
+                "repos_url": "https://api.github.com/users/PrismarineJS/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/PrismarineJS/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/PrismarineJS/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/PrismarineJS"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls{/number}",
+            "pushed_at": "2015-12-11T14:01:37Z",
+            "releases_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/releases{/id}",
+            "size": 986,
+            "ssh_url": "git@github.com:PrismarineJS/node-minecraft-protocol.git",
+            "stargazers_count": 197,
+            "stargazers_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/stargazers",
+            "statuses_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/subscribers",
+            "subscription_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/subscription",
+            "svn_url": "https://github.com/PrismarineJS/node-minecraft-protocol",
+            "tags_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/tags",
+            "teams_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/teams",
+            "trees_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees{/sha}",
+            "updated_at": "2015-12-13T05:06:04Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol",
+            "watchers": 197,
+            "watchers_count": 197
+        },
+        "sha": "484a2bd34fb656438544945550690a92ecc62723",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/11053411?v=3",
+            "events_url": "https://api.github.com/users/PrismarineJS/events{/privacy}",
+            "followers_url": "https://api.github.com/users/PrismarineJS/followers",
+            "following_url": "https://api.github.com/users/PrismarineJS/following{/other_user}",
+            "gists_url": "https://api.github.com/users/PrismarineJS/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/PrismarineJS",
+            "id": 11053411,
+            "login": "PrismarineJS",
+            "organizations_url": "https://api.github.com/users/PrismarineJS/orgs",
+            "received_events_url": "https://api.github.com/users/PrismarineJS/received_events",
+            "repos_url": "https://api.github.com/users/PrismarineJS/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/PrismarineJS/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/PrismarineJS/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/PrismarineJS"
+        }
+    },
+    "body": "Remove asserts from server code as to avoid crashes.",
+    "closed_at": "2013-01-29T17:42:48Z",
+    "comment_data": [
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/29#discussion_r2812081"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/29"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/2812081"
+                }
+            },
+            "body": "Can we simply pass the original error here? `error: readResults.error`",
+            "commit_id": "fdc01db82504cd81b7467988e37e6f22b544ed50",
+            "created_at": "2013-01-29T17:24:28Z",
+            "diff_hunk": "@@ -1198,14 +1213,28 @@ function parsePacket(buffer, isServer) {\n   var size = 1;\n   var results = { id: packetId };\n   var packetInfo = get(packetId, isServer);\n-  assert.ok(packetInfo, \"Unrecognized packetId: \" + packetId);\n+  if (packetInfo == null) {\n+    return {\n+      error: new Error(\"Unrecognized packetId: \" + packetId)\n+    }\n+  }\n   var i, fieldInfo, read, readResults;\n   for (i = 0; i < packetInfo.length; ++i) {\n     fieldInfo = packetInfo[i];\n     read = types[fieldInfo.type][0];\n-    assert.ok(read, \"missing reader for data type: \" + fieldInfo.type);\n+    if (!read) {\n+      return {\n+        error: new Error(\"missing reader for data type: \" + fieldInfo.type)\n+      }\n+    }\n     readResults = read(buffer, size);\n     if (readResults) {\n+      // if readResults.error is undef, error stays undef'd\n+      if (readResults.error) {\n+        return {\n+          error: new Error(\"reader failed : \" + readResults.error)",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/29#discussion_r2812081",
+            "id": 2812081,
+            "original_commit_id": "d6b3a9175160104ba3a42635df744d4dc2cb5b48",
+            "original_position": 77,
+            "path": "lib/protocol.js",
+            "position": null,
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/29",
+            "updated_at": "2013-01-29T17:41:04Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/2812081",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+                "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+                "followers_url": "https://api.github.com/users/andrewrk/followers",
+                "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+                "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/andrewrk",
+                "id": 106511,
+                "login": "andrewrk",
+                "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+                "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+                "repos_url": "https://api.github.com/users/andrewrk/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/andrewrk"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/29#discussion_r2812122"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/29"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/2812122"
+                }
+            },
+            "body": "I think this should be:\r\n\r\n```js\r\nif (parsed.error) {\r\n  this.emit('error', parsed.error);\r\n  this.end(\"ProtocolError\");\r\n  return;\r\n}\r\n```\r\n(don't forget the `return`)\r\n\r\nAlso this way your server can do something like:\r\n\r\n```js\r\nclient.on('error', function(err) {\r\n  // do something with err.message, err.stack, or both.\r\n  // or not\r\n});\r\n```\r\n\r\nAnd if the server does not add an 'error' event, the server will crash with the error message. This is idiomatic node.js.",
+            "commit_id": "fdc01db82504cd81b7467988e37e6f22b544ed50",
+            "created_at": "2013-01-29T17:27:47Z",
+            "diff_hunk": "@@ -29,6 +29,7 @@ Client.prototype.setSocket = function(socket) {\n     while (true) {\n       parsed = parsePacket(incomingBuffer, self.isServer);\n       if (! parsed) break;\n+      if (parsed.error) this.end(parsed.error.message);",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/29#discussion_r2812122",
+            "id": 2812122,
+            "original_commit_id": "d6b3a9175160104ba3a42635df744d4dc2cb5b48",
+            "original_position": 4,
+            "path": "lib/client.js",
+            "position": null,
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/29",
+            "updated_at": "2013-01-29T17:41:04Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/2812122",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+                "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+                "followers_url": "https://api.github.com/users/andrewrk/followers",
+                "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+                "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/andrewrk",
+                "id": 106511,
+                "login": "andrewrk",
+                "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+                "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+                "repos_url": "https://api.github.com/users/andrewrk/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/andrewrk"
+            }
+        }
+    ],
+    "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/29/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/b5516a81b3711d3b31fdc22ac06a374ff6ff947c/comments",
+            "commit": {
+                "author": {
+                    "date": "2013-01-27T11:47:35Z",
+                    "email": "robinpub@googlemail.com",
+                    "name": "Robin Lambertz"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2013-01-28T22:46:29Z",
+                    "email": "robinlambertz.dev@gmail.com",
+                    "name": "Robin Lambertz"
+                },
+                "message": "Fixes #20 for real this time...",
+                "tree": {
+                    "sha": "39c28b47f45e3632c1d209cfad2d30467f91fc44",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/39c28b47f45e3632c1d209cfad2d30467f91fc44"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/b5516a81b3711d3b31fdc22ac06a374ff6ff947c"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/b5516a81b3711d3b31fdc22ac06a374ff6ff947c",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/e8e78e29426bcf9422be9a70d1de5fdd07c78348",
+                    "sha": "e8e78e29426bcf9422be9a70d1de5fdd07c78348",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/e8e78e29426bcf9422be9a70d1de5fdd07c78348"
+                }
+            ],
+            "sha": "b5516a81b3711d3b31fdc22ac06a374ff6ff947c",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/b5516a81b3711d3b31fdc22ac06a374ff6ff947c"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834636?v=3",
+                "events_url": "https://api.github.com/users/buschtoens/events{/privacy}",
+                "followers_url": "https://api.github.com/users/buschtoens/followers",
+                "following_url": "https://api.github.com/users/buschtoens/following{/other_user}",
+                "gists_url": "https://api.github.com/users/buschtoens/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/buschtoens",
+                "id": 834636,
+                "login": "buschtoens",
+                "organizations_url": "https://api.github.com/users/buschtoens/orgs",
+                "received_events_url": "https://api.github.com/users/buschtoens/received_events",
+                "repos_url": "https://api.github.com/users/buschtoens/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/buschtoens/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/buschtoens/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/buschtoens"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/e8e78e29426bcf9422be9a70d1de5fdd07c78348/comments",
+            "commit": {
+                "author": {
+                    "date": "2013-01-27T23:56:59Z",
+                    "email": "buschtoens@gmail.com",
+                    "name": "Jan Buschtöns"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2013-01-28T22:46:29Z",
+                    "email": "robinlambertz.dev@gmail.com",
+                    "name": "Robin Lambertz"
+                },
+                "message": "Add latency measurement to lib/ping.js",
+                "tree": {
+                    "sha": "ed23d0a3a65f418a2aa01c6ad24a4b44901bcae1",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/ed23d0a3a65f418a2aa01c6ad24a4b44901bcae1"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/e8e78e29426bcf9422be9a70d1de5fdd07c78348"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/e8e78e29426bcf9422be9a70d1de5fdd07c78348",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/77e84b15fc1206771aff00abed85b7a15ea64498",
+                    "sha": "77e84b15fc1206771aff00abed85b7a15ea64498",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/77e84b15fc1206771aff00abed85b7a15ea64498"
+                }
+            ],
+            "sha": "e8e78e29426bcf9422be9a70d1de5fdd07c78348",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/e8e78e29426bcf9422be9a70d1de5fdd07c78348"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+                "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+                "followers_url": "https://api.github.com/users/andrewrk/followers",
+                "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+                "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/andrewrk",
+                "id": 106511,
+                "login": "andrewrk",
+                "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+                "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+                "repos_url": "https://api.github.com/users/andrewrk/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/andrewrk"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/79e61a48901a653a529ee36153989e8de83863cd/comments",
+            "commit": {
+                "author": {
+                    "date": "2013-01-28T00:36:22Z",
+                    "email": "superjoe30@gmail.com",
+                    "name": "Andrew Kelley"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2013-01-28T22:46:30Z",
+                    "email": "robinlambertz.dev@gmail.com",
+                    "name": "Robin Lambertz"
+                },
+                "message": "fix ping module to pass tests",
+                "tree": {
+                    "sha": "5edecda712cf4fc16617579223d4f71916f68202",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/5edecda712cf4fc16617579223d4f71916f68202"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/79e61a48901a653a529ee36153989e8de83863cd"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/79e61a48901a653a529ee36153989e8de83863cd",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/b5516a81b3711d3b31fdc22ac06a374ff6ff947c",
+                    "sha": "b5516a81b3711d3b31fdc22ac06a374ff6ff947c",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/b5516a81b3711d3b31fdc22ac06a374ff6ff947c"
+                }
+            ],
+            "sha": "79e61a48901a653a529ee36153989e8de83863cd",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/79e61a48901a653a529ee36153989e8de83863cd"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+                "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+                "followers_url": "https://api.github.com/users/andrewrk/followers",
+                "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+                "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/andrewrk",
+                "id": 106511,
+                "login": "andrewrk",
+                "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+                "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+                "repos_url": "https://api.github.com/users/andrewrk/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/andrewrk"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/3402260b7b0a1479b20f57d13f34033ef1977aa1/comments",
+            "commit": {
+                "author": {
+                    "date": "2013-01-28T00:40:56Z",
+                    "email": "superjoe30@gmail.com",
+                    "name": "Andrew Kelley"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2013-01-28T22:46:31Z",
+                    "email": "robinlambertz.dev@gmail.com",
+                    "name": "Robin Lambertz"
+                },
+                "message": "Release 0.6.6",
+                "tree": {
+                    "sha": "79e947fc87393fbadc4d421b7bba2f8fac547bf1",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/79e947fc87393fbadc4d421b7bba2f8fac547bf1"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/3402260b7b0a1479b20f57d13f34033ef1977aa1"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/3402260b7b0a1479b20f57d13f34033ef1977aa1",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/79e61a48901a653a529ee36153989e8de83863cd",
+                    "sha": "79e61a48901a653a529ee36153989e8de83863cd",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/79e61a48901a653a529ee36153989e8de83863cd"
+                }
+            ],
+            "sha": "3402260b7b0a1479b20f57d13f34033ef1977aa1",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/3402260b7b0a1479b20f57d13f34033ef1977aa1"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/eaa895120ae612ac2524926d821f20e832fd6b17/comments",
+            "commit": {
+                "author": {
+                    "date": "2013-01-29T00:44:00Z",
+                    "email": "robinpub@googlemail.com",
+                    "name": "Robin Lambertz"
+                },
+                "comment_count": 5,
+                "committer": {
+                    "date": "2013-01-29T00:44:00Z",
+                    "email": "robinpub@googlemail.com",
+                    "name": "Robin Lambertz"
+                },
+                "message": "Original skeleton changes.",
+                "tree": {
+                    "sha": "1c48f4c432d9d55b373d56c44f217bc20479a626",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/1c48f4c432d9d55b373d56c44f217bc20479a626"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/eaa895120ae612ac2524926d821f20e832fd6b17"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/eaa895120ae612ac2524926d821f20e832fd6b17",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/3402260b7b0a1479b20f57d13f34033ef1977aa1",
+                    "sha": "3402260b7b0a1479b20f57d13f34033ef1977aa1",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/3402260b7b0a1479b20f57d13f34033ef1977aa1"
+                }
+            ],
+            "sha": "eaa895120ae612ac2524926d821f20e832fd6b17",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/eaa895120ae612ac2524926d821f20e832fd6b17"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/f5144800877ae31b802a672f11c1ebe595574ab6/comments",
+            "commit": {
+                "author": {
+                    "date": "2013-01-29T00:44:35Z",
+                    "email": "robinpub@googlemail.com",
+                    "name": "Robin Lambertz"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2013-01-29T00:44:35Z",
+                    "email": "robinpub@googlemail.com",
+                    "name": "Robin Lambertz"
+                },
+                "message": "Merge remote-tracking branch 'original/master' into bugfix-serverAsserts",
+                "tree": {
+                    "sha": "cba3320fec2dffdaf9d26b7562864a67faf0eaea",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/cba3320fec2dffdaf9d26b7562864a67faf0eaea"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/f5144800877ae31b802a672f11c1ebe595574ab6"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/f5144800877ae31b802a672f11c1ebe595574ab6",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/eaa895120ae612ac2524926d821f20e832fd6b17",
+                    "sha": "eaa895120ae612ac2524926d821f20e832fd6b17",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/eaa895120ae612ac2524926d821f20e832fd6b17"
+                },
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/484a2bd34fb656438544945550690a92ecc62723",
+                    "sha": "484a2bd34fb656438544945550690a92ecc62723",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/484a2bd34fb656438544945550690a92ecc62723"
+                }
+            ],
+            "sha": "f5144800877ae31b802a672f11c1ebe595574ab6",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/f5144800877ae31b802a672f11c1ebe595574ab6"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/619a2cded11ca5a071c61b64c3fdb17bbdddbfb4/comments",
+            "commit": {
+                "author": {
+                    "date": "2013-01-29T00:45:21Z",
+                    "email": "robinpub@googlemail.com",
+                    "name": "Robin Lambertz"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2013-01-29T00:45:21Z",
+                    "email": "robinpub@googlemail.com",
+                    "name": "Robin Lambertz"
+                },
+                "message": "Merge remote-tracking branch 'original/master'",
+                "tree": {
+                    "sha": "f813611b2c9779baad9914ab7baf399da98c0265",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/f813611b2c9779baad9914ab7baf399da98c0265"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/619a2cded11ca5a071c61b64c3fdb17bbdddbfb4"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/619a2cded11ca5a071c61b64c3fdb17bbdddbfb4",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/3402260b7b0a1479b20f57d13f34033ef1977aa1",
+                    "sha": "3402260b7b0a1479b20f57d13f34033ef1977aa1",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/3402260b7b0a1479b20f57d13f34033ef1977aa1"
+                },
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/484a2bd34fb656438544945550690a92ecc62723",
+                    "sha": "484a2bd34fb656438544945550690a92ecc62723",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/484a2bd34fb656438544945550690a92ecc62723"
+                }
+            ],
+            "sha": "619a2cded11ca5a071c61b64c3fdb17bbdddbfb4",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/619a2cded11ca5a071c61b64c3fdb17bbdddbfb4"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/5b67cec4e0edca65df3ce75af748c0df8d1162c7/comments",
+            "commit": {
+                "author": {
+                    "date": "2013-01-29T00:48:01Z",
+                    "email": "robinpub@googlemail.com",
+                    "name": "Robin Lambertz"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2013-01-29T00:48:01Z",
+                    "email": "robinpub@googlemail.com",
+                    "name": "Robin Lambertz"
+                },
+                "message": "ups. Fixed a syntax error.",
+                "tree": {
+                    "sha": "0b766dc02fe42793bd1edfcda6f816f1e18c75eb",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/0b766dc02fe42793bd1edfcda6f816f1e18c75eb"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/5b67cec4e0edca65df3ce75af748c0df8d1162c7"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/5b67cec4e0edca65df3ce75af748c0df8d1162c7",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/f5144800877ae31b802a672f11c1ebe595574ab6",
+                    "sha": "f5144800877ae31b802a672f11c1ebe595574ab6",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/f5144800877ae31b802a672f11c1ebe595574ab6"
+                }
+            ],
+            "sha": "5b67cec4e0edca65df3ce75af748c0df8d1162c7",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/5b67cec4e0edca65df3ce75af748c0df8d1162c7"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/529355782e45f01dbe4649d2d677db1783fa5bed/comments",
+            "commit": {
+                "author": {
+                    "date": "2013-01-29T01:05:33Z",
+                    "email": "robinpub@googlemail.com",
+                    "name": "Robin Lambertz"
+                },
+                "comment_count": 2,
+                "committer": {
+                    "date": "2013-01-29T01:05:33Z",
+                    "email": "robinpub@googlemail.com",
+                    "name": "Robin Lambertz"
+                },
+                "message": "Added errors in case of wrong MetaData or wrong Chunk Data",
+                "tree": {
+                    "sha": "c84f6290627169f3f6dde4bfc3b767b609ca077a",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/c84f6290627169f3f6dde4bfc3b767b609ca077a"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/529355782e45f01dbe4649d2d677db1783fa5bed"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/529355782e45f01dbe4649d2d677db1783fa5bed",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/5b67cec4e0edca65df3ce75af748c0df8d1162c7",
+                    "sha": "5b67cec4e0edca65df3ce75af748c0df8d1162c7",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/5b67cec4e0edca65df3ce75af748c0df8d1162c7"
+                }
+            ],
+            "sha": "529355782e45f01dbe4649d2d677db1783fa5bed",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/529355782e45f01dbe4649d2d677db1783fa5bed"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/866e489914c4fc2101184f9ed8adf2929dc1e960/comments",
+            "commit": {
+                "author": {
+                    "date": "2013-01-29T01:23:06Z",
+                    "email": "robinpub@googlemail.com",
+                    "name": "Robin Lambertz"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2013-01-29T01:23:06Z",
+                    "email": "robinpub@googlemail.com",
+                    "name": "Robin Lambertz"
+                },
+                "message": "Merge branch 'master' into bugfix-serverAsserts",
+                "tree": {
+                    "sha": "c84f6290627169f3f6dde4bfc3b767b609ca077a",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/c84f6290627169f3f6dde4bfc3b767b609ca077a"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/866e489914c4fc2101184f9ed8adf2929dc1e960"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/866e489914c4fc2101184f9ed8adf2929dc1e960",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/529355782e45f01dbe4649d2d677db1783fa5bed",
+                    "sha": "529355782e45f01dbe4649d2d677db1783fa5bed",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/529355782e45f01dbe4649d2d677db1783fa5bed"
+                },
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/619a2cded11ca5a071c61b64c3fdb17bbdddbfb4",
+                    "sha": "619a2cded11ca5a071c61b64c3fdb17bbdddbfb4",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/619a2cded11ca5a071c61b64c3fdb17bbdddbfb4"
+                }
+            ],
+            "sha": "866e489914c4fc2101184f9ed8adf2929dc1e960",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/866e489914c4fc2101184f9ed8adf2929dc1e960"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/997071ef419dca3ce355dd8340a4aea040bf31fd/comments",
+            "commit": {
+                "author": {
+                    "date": "2013-01-29T08:53:23Z",
+                    "email": "robinpub@googlemail.com",
+                    "name": "Robin Lambertz"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2013-01-29T08:53:23Z",
+                    "email": "robinpub@googlemail.com",
+                    "name": "Robin Lambertz"
+                },
+                "message": "Changed if(typeof var === undefined) to if(var). Made errors error objects.",
+                "tree": {
+                    "sha": "acd067dfb4497aab7c60c3a91191643a488a5ab7",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/acd067dfb4497aab7c60c3a91191643a488a5ab7"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/997071ef419dca3ce355dd8340a4aea040bf31fd"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/997071ef419dca3ce355dd8340a4aea040bf31fd",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/866e489914c4fc2101184f9ed8adf2929dc1e960",
+                    "sha": "866e489914c4fc2101184f9ed8adf2929dc1e960",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/866e489914c4fc2101184f9ed8adf2929dc1e960"
+                }
+            ],
+            "sha": "997071ef419dca3ce355dd8340a4aea040bf31fd",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/997071ef419dca3ce355dd8340a4aea040bf31fd"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/d6b3a9175160104ba3a42635df744d4dc2cb5b48/comments",
+            "commit": {
+                "author": {
+                    "date": "2013-01-29T11:05:10Z",
+                    "email": "robinpub@googlemail.com",
+                    "name": "Robin Lambertz"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2013-01-29T11:05:10Z",
+                    "email": "robinpub@googlemail.com",
+                    "name": "Robin Lambertz"
+                },
+                "message": "client.end should have a string argument, not an Error object.",
+                "tree": {
+                    "sha": "279324da5e3e787b5604242e0eeee9ba37e5efb2",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/279324da5e3e787b5604242e0eeee9ba37e5efb2"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/d6b3a9175160104ba3a42635df744d4dc2cb5b48"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/d6b3a9175160104ba3a42635df744d4dc2cb5b48",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/997071ef419dca3ce355dd8340a4aea040bf31fd",
+                    "sha": "997071ef419dca3ce355dd8340a4aea040bf31fd",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/997071ef419dca3ce355dd8340a4aea040bf31fd"
+                }
+            ],
+            "sha": "d6b3a9175160104ba3a42635df744d4dc2cb5b48",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/d6b3a9175160104ba3a42635df744d4dc2cb5b48"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/fdc01db82504cd81b7467988e37e6f22b544ed50/comments",
+            "commit": {
+                "author": {
+                    "date": "2013-01-29T17:39:33Z",
+                    "email": "robinpub@googlemail.com",
+                    "name": "Robin Lambertz"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2013-01-29T17:39:33Z",
+                    "email": "robinpub@googlemail.com",
+                    "name": "Robin Lambertz"
+                },
+                "message": "Pass the original error around, and emit an error event on the client",
+                "tree": {
+                    "sha": "a0a87d687a9b9e23a506e8a223f782e646b191a8",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/a0a87d687a9b9e23a506e8a223f782e646b191a8"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/fdc01db82504cd81b7467988e37e6f22b544ed50"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/fdc01db82504cd81b7467988e37e6f22b544ed50",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/d6b3a9175160104ba3a42635df744d4dc2cb5b48",
+                    "sha": "d6b3a9175160104ba3a42635df744d4dc2cb5b48",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/d6b3a9175160104ba3a42635df744d4dc2cb5b48"
+                }
+            ],
+            "sha": "fdc01db82504cd81b7467988e37e6f22b544ed50",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/fdc01db82504cd81b7467988e37e6f22b544ed50"
+        }
+    ],
+    "commits_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/29/commits",
+    "created_at": "2013-01-29T01:09:15Z",
+    "diff_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/29.diff",
+    "head": {
+        "label": "roblabla:bugfix-serverAsserts",
+        "ref": "bugfix-serverAsserts",
+        "repo": {
+            "archive_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/branches{/branch}",
+            "clone_url": "https://github.com/roblabla/node-minecraft-protocol.git",
+            "collaborators_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/comments{/number}",
+            "commits_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/contributors",
+            "created_at": "2013-01-26T19:58:42Z",
+            "default_branch": "master",
+            "description": "Parse and serialize minecraft packets, plus authentication and encryption.",
+            "downloads_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/downloads",
+            "events_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/events",
+            "fork": true,
+            "forks": 2,
+            "forks_count": 2,
+            "forks_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/forks",
+            "full_name": "roblabla/node-minecraft-protocol",
+            "git_commits_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/git/tags{/sha}",
+            "git_url": "git://github.com/roblabla/node-minecraft-protocol.git",
+            "has_downloads": true,
+            "has_issues": false,
+            "has_pages": false,
+            "has_wiki": true,
+            "homepage": "",
+            "hooks_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/hooks",
+            "html_url": "https://github.com/roblabla/node-minecraft-protocol",
+            "id": 7842851,
+            "issue_comment_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/issues{/number}",
+            "keys_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/labels{/name}",
+            "language": "JavaScript",
+            "languages_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/languages",
+            "merges_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/merges",
+            "milestones_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/milestones{/number}",
+            "mirror_url": null,
+            "name": "node-minecraft-protocol",
+            "notifications_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/notifications{?since,all,participating}",
+            "open_issues": 0,
+            "open_issues_count": 0,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/pulls{/number}",
+            "pushed_at": "2015-11-19T19:53:25Z",
+            "releases_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/releases{/id}",
+            "size": 818,
+            "ssh_url": "git@github.com:roblabla/node-minecraft-protocol.git",
+            "stargazers_count": 3,
+            "stargazers_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/stargazers",
+            "statuses_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/subscribers",
+            "subscription_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/subscription",
+            "svn_url": "https://github.com/roblabla/node-minecraft-protocol",
+            "tags_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/tags",
+            "teams_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/teams",
+            "trees_url": "https://api.github.com/repos/roblabla/node-minecraft-protocol/git/trees{/sha}",
+            "updated_at": "2015-05-04T12:50:57Z",
+            "url": "https://api.github.com/repos/roblabla/node-minecraft-protocol",
+            "watchers": 3,
+            "watchers_count": 3
+        },
+        "sha": "fdc01db82504cd81b7467988e37e6f22b544ed50",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+            "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+            "followers_url": "https://api.github.com/users/roblabla/followers",
+            "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+            "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/roblabla",
+            "id": 1069318,
+            "login": "roblabla",
+            "organizations_url": "https://api.github.com/users/roblabla/orgs",
+            "received_events_url": "https://api.github.com/users/roblabla/received_events",
+            "repos_url": "https://api.github.com/users/roblabla/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/roblabla"
+        }
+    },
+    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/29",
+    "id": 3877959,
+    "issue_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/29",
+    "locked": false,
+    "merge_commit_sha": "8efa1403014ff8faba55a560d5359807e3a9bf3b",
+    "merged_at": "2013-01-29T17:42:48Z",
+    "milestone": null,
+    "number": 29,
+    "patch_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/29.patch",
+    "review_comment_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments{/number}",
+    "review_comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/29/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/statuses/fdc01db82504cd81b7467988e37e6f22b544ed50",
+    "title": "Bugfix server asserts",
+    "updated_at": "2013-01-29T17:52:56Z",
+    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/29",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+        "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+        "followers_url": "https://api.github.com/users/roblabla/followers",
+        "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+        "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/roblabla",
+        "id": 1069318,
+        "login": "roblabla",
+        "organizations_url": "https://api.github.com/users/roblabla/orgs",
+        "received_events_url": "https://api.github.com/users/roblabla/received_events",
+        "repos_url": "https://api.github.com/users/roblabla/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/roblabla"
+    }
+}

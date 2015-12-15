@@ -1,0 +1,494 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/issues/137/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/137/commits"
+        },
+        "html": {
+            "href": "https://github.com/andrewrk/mineflayer/pull/137"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/issues/137"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/137/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/137"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/statuses/5cec884cdb7b876e909ebfa3eed44f675bc3b330"
+        }
+    },
+    "assignee": null,
+    "base": {
+        "label": "andrewrk:master",
+        "ref": "master",
+        "repo": {
+            "archive_url": "https://api.github.com/repos/andrewrk/mineflayer/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/andrewrk/mineflayer/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/andrewrk/mineflayer/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/andrewrk/mineflayer/branches{/branch}",
+            "clone_url": "https://github.com/andrewrk/mineflayer.git",
+            "collaborators_url": "https://api.github.com/repos/andrewrk/mineflayer/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/comments{/number}",
+            "commits_url": "https://api.github.com/repos/andrewrk/mineflayer/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/andrewrk/mineflayer/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/andrewrk/mineflayer/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/andrewrk/mineflayer/contributors",
+            "created_at": "2011-01-23T09:41:55Z",
+            "default_branch": "master",
+            "description": "Create Minecraft bots with a powerful, stable, and high level JavaScript API.",
+            "downloads_url": "https://api.github.com/repos/andrewrk/mineflayer/downloads",
+            "events_url": "https://api.github.com/repos/andrewrk/mineflayer/events",
+            "fork": false,
+            "forks": 63,
+            "forks_count": 63,
+            "forks_url": "https://api.github.com/repos/andrewrk/mineflayer/forks",
+            "full_name": "andrewrk/mineflayer",
+            "git_commits_url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/andrewrk/mineflayer/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/andrewrk/mineflayer/git/tags{/sha}",
+            "git_url": "git://github.com/andrewrk/mineflayer.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_wiki": true,
+            "homepage": "",
+            "hooks_url": "https://api.github.com/repos/andrewrk/mineflayer/hooks",
+            "html_url": "https://github.com/andrewrk/mineflayer",
+            "id": 1284185,
+            "issue_comment_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/andrewrk/mineflayer/issues{/number}",
+            "keys_url": "https://api.github.com/repos/andrewrk/mineflayer/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/labels{/name}",
+            "language": "JavaScript",
+            "languages_url": "https://api.github.com/repos/andrewrk/mineflayer/languages",
+            "merges_url": "https://api.github.com/repos/andrewrk/mineflayer/merges",
+            "milestones_url": "https://api.github.com/repos/andrewrk/mineflayer/milestones{/number}",
+            "mirror_url": null,
+            "name": "mineflayer",
+            "notifications_url": "https://api.github.com/repos/andrewrk/mineflayer/notifications{?since,all,participating}",
+            "open_issues": 51,
+            "open_issues_count": 51,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+                "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+                "followers_url": "https://api.github.com/users/andrewrk/followers",
+                "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+                "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/andrewrk",
+                "id": 106511,
+                "login": "andrewrk",
+                "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+                "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+                "repos_url": "https://api.github.com/users/andrewrk/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/andrewrk"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls{/number}",
+            "pushed_at": "2015-12-11T12:23:23Z",
+            "releases_url": "https://api.github.com/repos/andrewrk/mineflayer/releases{/id}",
+            "size": 10258,
+            "ssh_url": "git@github.com:andrewrk/mineflayer.git",
+            "stargazers_count": 259,
+            "stargazers_url": "https://api.github.com/repos/andrewrk/mineflayer/stargazers",
+            "statuses_url": "https://api.github.com/repos/andrewrk/mineflayer/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/andrewrk/mineflayer/subscribers",
+            "subscription_url": "https://api.github.com/repos/andrewrk/mineflayer/subscription",
+            "svn_url": "https://github.com/andrewrk/mineflayer",
+            "tags_url": "https://api.github.com/repos/andrewrk/mineflayer/tags",
+            "teams_url": "https://api.github.com/repos/andrewrk/mineflayer/teams",
+            "trees_url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees{/sha}",
+            "updated_at": "2015-12-14T13:21:10Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer",
+            "watchers": 259,
+            "watchers_count": 259
+        },
+        "sha": "f350da6693cca9c10e21c9851b022e0fd0f97f81",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+            "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+            "followers_url": "https://api.github.com/users/andrewrk/followers",
+            "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/andrewrk",
+            "id": 106511,
+            "login": "andrewrk",
+            "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+            "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+            "repos_url": "https://api.github.com/users/andrewrk/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/andrewrk"
+        }
+    },
+    "body": "I parsed http://www.minecraftwiki.net/wiki/Crafting/CompleteList then merged the file I got with yours (I added recipes only for items not in your file).\r\nHopefully there are no mistakes...",
+    "closed_at": "2013-02-17T23:37:26Z",
+    "comment_data": [],
+    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/137/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/9be1bc8ac7de77926924d9eead5483e4522145c0/comments",
+            "commit": {
+                "author": {
+                    "date": "2013-02-16T14:10:38Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "rom1504"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2013-02-16T14:10:38Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "rom1504"
+                },
+                "message": "add new recipes",
+                "tree": {
+                    "sha": "c7f9ec11d1f4fc37a70346e93d48172179bce034",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/c7f9ec11d1f4fc37a70346e93d48172179bce034"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/9be1bc8ac7de77926924d9eead5483e4522145c0"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/9be1bc8ac7de77926924d9eead5483e4522145c0",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/de085490af1c884ef5f85fbf0f617e274300d0a9",
+                    "sha": "de085490af1c884ef5f85fbf0f617e274300d0a9",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/de085490af1c884ef5f85fbf0f617e274300d0a9"
+                }
+            ],
+            "sha": "9be1bc8ac7de77926924d9eead5483e4522145c0",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/9be1bc8ac7de77926924d9eead5483e4522145c0"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/e25adcef158aee9a5e76f9bc85e8339df3e6ab46/comments",
+            "commit": {
+                "author": {
+                    "date": "2013-02-16T14:23:33Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "rom1504"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2013-02-16T14:23:33Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "rom1504"
+                },
+                "message": "correct recipe file due to modification of items.json and blocks.json",
+                "tree": {
+                    "sha": "81c72abaa98cd3dff659eb99b3a12ef4cf44fc05",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/81c72abaa98cd3dff659eb99b3a12ef4cf44fc05"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/e25adcef158aee9a5e76f9bc85e8339df3e6ab46"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/e25adcef158aee9a5e76f9bc85e8339df3e6ab46",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/9be1bc8ac7de77926924d9eead5483e4522145c0",
+                    "sha": "9be1bc8ac7de77926924d9eead5483e4522145c0",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/9be1bc8ac7de77926924d9eead5483e4522145c0"
+                }
+            ],
+            "sha": "e25adcef158aee9a5e76f9bc85e8339df3e6ab46",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/e25adcef158aee9a5e76f9bc85e8339df3e6ab46"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/3470b1a812cf6594ad57cfc8d97b6f83508a051b/comments",
+            "commit": {
+                "author": {
+                    "date": "2013-02-16T22:41:16Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "rom1504"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2013-02-16T22:41:16Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "rom1504"
+                },
+                "message": "Merge remote-tracking branch 'upstream/master'",
+                "tree": {
+                    "sha": "a2404236a92e06ddbab34d18ca877adc11dd2c23",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/a2404236a92e06ddbab34d18ca877adc11dd2c23"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/3470b1a812cf6594ad57cfc8d97b6f83508a051b"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/3470b1a812cf6594ad57cfc8d97b6f83508a051b",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/e25adcef158aee9a5e76f9bc85e8339df3e6ab46",
+                    "sha": "e25adcef158aee9a5e76f9bc85e8339df3e6ab46",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/e25adcef158aee9a5e76f9bc85e8339df3e6ab46"
+                },
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/f350da6693cca9c10e21c9851b022e0fd0f97f81",
+                    "sha": "f350da6693cca9c10e21c9851b022e0fd0f97f81",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/f350da6693cca9c10e21c9851b022e0fd0f97f81"
+                }
+            ],
+            "sha": "3470b1a812cf6594ad57cfc8d97b6f83508a051b",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/3470b1a812cf6594ad57cfc8d97b6f83508a051b"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/5cec884cdb7b876e909ebfa3eed44f675bc3b330/comments",
+            "commit": {
+                "author": {
+                    "date": "2013-02-16T22:45:46Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "rom1504"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2013-02-16T22:45:46Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "rom1504"
+                },
+                "message": "add scripts for parsing the recipes from the wiki",
+                "tree": {
+                    "sha": "aa72a9b4b9dedb931c6fb0d77570d946731e871b",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/aa72a9b4b9dedb931c6fb0d77570d946731e871b"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/5cec884cdb7b876e909ebfa3eed44f675bc3b330"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/5cec884cdb7b876e909ebfa3eed44f675bc3b330",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/3470b1a812cf6594ad57cfc8d97b6f83508a051b",
+                    "sha": "3470b1a812cf6594ad57cfc8d97b6f83508a051b",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/3470b1a812cf6594ad57cfc8d97b6f83508a051b"
+                }
+            ],
+            "sha": "5cec884cdb7b876e909ebfa3eed44f675bc3b330",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/5cec884cdb7b876e909ebfa3eed44f675bc3b330"
+        }
+    ],
+    "commits_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/137/commits",
+    "created_at": "2013-02-16T14:13:21Z",
+    "diff_url": "https://github.com/andrewrk/mineflayer/pull/137.diff",
+    "head": {
+        "label": "rom1504:master",
+        "ref": "master",
+        "repo": null,
+        "sha": "5cec884cdb7b876e909ebfa3eed44f675bc3b330",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+            "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+            "followers_url": "https://api.github.com/users/rom1504/followers",
+            "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/rom1504",
+            "id": 2346494,
+            "login": "rom1504",
+            "organizations_url": "https://api.github.com/users/rom1504/orgs",
+            "received_events_url": "https://api.github.com/users/rom1504/received_events",
+            "repos_url": "https://api.github.com/users/rom1504/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/rom1504"
+        }
+    },
+    "html_url": "https://github.com/andrewrk/mineflayer/pull/137",
+    "id": 4177807,
+    "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/137",
+    "locked": false,
+    "merge_commit_sha": "1637735768e6162a39646b3bb8530fd4fe5e323d",
+    "merged_at": "2013-02-17T23:37:26Z",
+    "milestone": null,
+    "number": 137,
+    "patch_url": "https://github.com/andrewrk/mineflayer/pull/137.patch",
+    "review_comment_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/comments{/number}",
+    "review_comments_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/137/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/andrewrk/mineflayer/statuses/5cec884cdb7b876e909ebfa3eed44f675bc3b330",
+    "title": "add new recipes",
+    "updated_at": "2014-07-03T21:13:27Z",
+    "url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/137",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

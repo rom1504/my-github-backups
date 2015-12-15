@@ -1,0 +1,163 @@
+{
+    "assignee": null,
+    "body": "We need to fix this. If you kill another player, they are invisible to the original player (the respawned player can still see the original player, however).",
+    "closed_at": "2015-11-06T18:17:57Z",
+    "comment_data": [
+        {
+            "body": "For some reason playerToAdd (https://github.com/mhsjlw/flying-squid/blob/master/src/lib/playerPlugins/login.js#L31) is empty when respawning, not sure why that happens, maybe something wrong with position + getNearby()",
+            "created_at": "2015-11-06T02:06:38Z",
+            "html_url": "https://github.com/mhsjlw/flying-squid/issues/91#issuecomment-154262370",
+            "id": 154262370,
+            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/91",
+            "updated_at": "2015-11-06T02:06:47Z",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/154262370",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "body": "Side note: Might want to rename `nearbyPlayers` to `localPlayers` or `visiblePlayers` since there are cases (or plugins) where we might not want to spawn a nearby player.",
+            "created_at": "2015-11-06T08:41:37Z",
+            "html_url": "https://github.com/mhsjlw/flying-squid/issues/91#issuecomment-154345228",
+            "id": 154345228,
+            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/91",
+            "updated_at": "2015-11-06T08:41:37Z",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/154345228",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            }
+        }
+    ],
+    "comments": 2,
+    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/91/comments",
+    "created_at": "2015-11-06T01:45:06Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-11-06T16:11:25Z",
+            "event": "labeled",
+            "id": 457075708,
+            "label": {
+                "color": "fbca04",
+                "name": "players"
+            },
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/457075708"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": "a647e34078d668a210664aa303e8c231199187fd",
+            "commit_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/a647e34078d668a210664aa303e8c231199187fd",
+            "created_at": "2015-11-06T18:17:57Z",
+            "event": "closed",
+            "id": 457213031,
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/457213031"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/91/events",
+    "html_url": "https://github.com/mhsjlw/flying-squid/issues/91",
+    "id": 115416960,
+    "labels": [
+        {
+            "color": "fbca04",
+            "name": "players",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/players"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/91/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 91,
+    "state": "closed",
+    "title": "Invisible on respawn",
+    "updated_at": "2015-11-06T18:17:57Z",
+    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/91",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+        "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+        "followers_url": "https://api.github.com/users/demipixel/followers",
+        "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/demipixel",
+        "id": 7506359,
+        "login": "demipixel",
+        "organizations_url": "https://api.github.com/users/demipixel/orgs",
+        "received_events_url": "https://api.github.com/users/demipixel/received_events",
+        "repos_url": "https://api.github.com/users/demipixel/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/demipixel"
+    }
+}

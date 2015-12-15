@@ -1,0 +1,131 @@
+{
+    "assignee": null,
+    "body": "This is due to relying on packet 0x2a which is unreliable. We'll need to set timers or something.",
+    "closed_at": "2013-01-05T05:49:37Z",
+    "comment_data": [
+        {
+            "body": "irrelevent after switch to node.js",
+            "created_at": "2013-01-05T05:49:37Z",
+            "html_url": "https://github.com/andrewrk/mineflayer/issues/37#issuecomment-11910507",
+            "id": 11910507,
+            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/37",
+            "updated_at": "2013-01-05T05:49:37Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/11910507",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+                "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+                "followers_url": "https://api.github.com/users/andrewrk/followers",
+                "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+                "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/andrewrk",
+                "id": 106511,
+                "login": "andrewrk",
+                "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+                "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+                "repos_url": "https://api.github.com/users/andrewrk/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/andrewrk"
+            }
+        }
+    ],
+    "comments": 1,
+    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/37/comments",
+    "created_at": "2011-11-01T06:02:42Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
+                "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
+                "followers_url": "https://api.github.com/users/thejoshwolfe/followers",
+                "following_url": "https://api.github.com/users/thejoshwolfe/following{/other_user}",
+                "gists_url": "https://api.github.com/users/thejoshwolfe/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/thejoshwolfe",
+                "id": 87436,
+                "login": "thejoshwolfe",
+                "organizations_url": "https://api.github.com/users/thejoshwolfe/orgs",
+                "received_events_url": "https://api.github.com/users/thejoshwolfe/received_events",
+                "repos_url": "https://api.github.com/users/thejoshwolfe/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/thejoshwolfe/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/thejoshwolfe/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/thejoshwolfe"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2011-11-01T06:02:42Z",
+            "event": "subscribed",
+            "id": 4885695,
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/4885695"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+                "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+                "followers_url": "https://api.github.com/users/andrewrk/followers",
+                "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+                "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/andrewrk",
+                "id": 106511,
+                "login": "andrewrk",
+                "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+                "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+                "repos_url": "https://api.github.com/users/andrewrk/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/andrewrk"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2013-01-05T05:49:37Z",
+            "event": "closed",
+            "id": 33493309,
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/33493309"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/37/events",
+    "html_url": "https://github.com/andrewrk/mineflayer/issues/37",
+    "id": 2107638,
+    "labels": [
+        {
+            "color": "e10c02",
+            "name": "bug",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/bug"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/37/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 37,
+    "state": "closed",
+    "title": "mf.onRemoveEntityStatus is unreliable",
+    "updated_at": "2013-01-05T05:49:37Z",
+    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/37",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
+        "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
+        "followers_url": "https://api.github.com/users/thejoshwolfe/followers",
+        "following_url": "https://api.github.com/users/thejoshwolfe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/thejoshwolfe/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/thejoshwolfe",
+        "id": 87436,
+        "login": "thejoshwolfe",
+        "organizations_url": "https://api.github.com/users/thejoshwolfe/orgs",
+        "received_events_url": "https://api.github.com/users/thejoshwolfe/received_events",
+        "repos_url": "https://api.github.com/users/thejoshwolfe/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/thejoshwolfe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/thejoshwolfe/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/thejoshwolfe"
+    }
+}

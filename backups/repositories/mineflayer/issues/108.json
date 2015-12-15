@@ -1,0 +1,267 @@
+{
+    "assignee": null,
+    "body": " * [ ] Ability to sneak\r\n * [ ] When using `placeBlock`, make sure we are sneaking during the placement.\r\n * [ ] When using `activateBlock`, make sure we are *not* sneaking during the activation.",
+    "closed_at": null,
+    "comment_data": [
+        {
+            "body": "This will be dependent on the physics working correctly, because sneaking status is based on stance.\r\nReference to currently physics issue: https://github.com/andrewrk/mineflayer/issues/174\r\n\r\n----\r\nURL of interest: http://wiki.vg/Pre-release_protocol\r\n\r\n#### 14w06a\r\n##### Serverbound\r\n* Removed 'HeadY' from Player Position\r\n* Removed 'HeadY' from Player Position And Look\r\n\r\nSo it would seem in the future our physics implementation will change again. ",
+            "created_at": "2014-04-22T00:14:58Z",
+            "html_url": "https://github.com/andrewrk/mineflayer/issues/108#issuecomment-40991328",
+            "id": 40991328,
+            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/108",
+            "updated_at": "2014-04-22T00:14:58Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/40991328",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            }
+        },
+        {
+            "body": "Some information http://minecraft.gamepedia.com/Sneaking",
+            "created_at": "2015-05-28T08:24:59Z",
+            "html_url": "https://github.com/andrewrk/mineflayer/issues/108#issuecomment-106228841",
+            "id": 106228841,
+            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/108",
+            "updated_at": "2015-05-28T08:24:59Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/106228841",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        }
+    ],
+    "comments": 2,
+    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/108/comments",
+    "created_at": "2013-01-27T22:37:41Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2014-04-22T00:10:18Z",
+            "event": "milestoned",
+            "id": 113688122,
+            "milestone": {
+                "title": "Stable 1.7"
+            },
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/113688122"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-03-24T14:06:26Z",
+            "event": "labeled",
+            "id": 263529269,
+            "label": {
+                "color": "006b75",
+                "name": "physics"
+            },
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/263529269"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-03-27T12:39:43Z",
+            "event": "labeled",
+            "id": 266842170,
+            "label": {
+                "color": "5319e7",
+                "name": "block"
+            },
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/266842170"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-03-31T11:22:14Z",
+            "event": "demilestoned",
+            "id": 269463807,
+            "milestone": {
+                "title": "1.1.0"
+            },
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/269463807"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-03-31T11:22:14Z",
+            "event": "demilestoned",
+            "id": 269463808,
+            "milestone": {
+                "title": "1.1.0"
+            },
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/269463808"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/108/events",
+    "html_url": "https://github.com/andrewrk/mineflayer/issues/108",
+    "id": 10360258,
+    "labels": [
+        {
+            "color": "5319e7",
+            "name": "block",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/block"
+        },
+        {
+            "color": "444444",
+            "name": "new feature",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/new%20feature"
+        },
+        {
+            "color": "006b75",
+            "name": "physics",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/physics"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/108/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 108,
+    "state": "open",
+    "title": "sneaking, placeBlock, and activateBlock",
+    "updated_at": "2015-05-28T08:24:59Z",
+    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/108",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+        "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+        "followers_url": "https://api.github.com/users/andrewrk/followers",
+        "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/andrewrk",
+        "id": 106511,
+        "login": "andrewrk",
+        "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+        "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+        "repos_url": "https://api.github.com/users/andrewrk/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/andrewrk"
+    }
+}

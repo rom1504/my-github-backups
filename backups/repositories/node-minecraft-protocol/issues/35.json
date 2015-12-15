@@ -1,0 +1,131 @@
+{
+    "assignee": null,
+    "body": "```\r\nassert.js:102\r\n  throw new assert.AssertionError({\r\n        ^\r\nAssertionError: value is larger than maximum value for type\r\n    at verifuint (buffer.js:857:10)\r\n    at Buffer.writeUInt8 (buffer.js:875:5)\r\n    at performTwosCompliment (/home/andy/dev/mc-proxy/node_modules/minecraft-protocol/index.js:362:16)\r\n    at mcHexDigest (/home/andy/dev/mc-proxy/node_modules/minecraft-protocol/index.js:347:17)\r\n    at verifyUsername (/home/andy/dev/mc-proxy/node_modules/minecraft-protocol/index.js:157:22)\r\n    at Client.onEncryptionKeyResponse (/home/andy/dev/mc-proxy/node_modules/minecraft-protocol/index.js:154:7)\r\n    at Client.g (events.js:192:14)\r\n    at Client.EventEmitter.emit (events.js:96:17)\r\n    at Socket.Client.setSocket.ended (/home/andy/dev/mc-proxy/node_modules/minecraft-protocol/lib/client.js:39:12)\r\n    at Socket.EventEmitter.emit (events.js:96:17)\r\n    at TCP.onread (net.js:397:14)\r\n```",
+    "closed_at": "2013-04-07T18:58:49Z",
+    "comment_data": [
+        {
+            "body": "My [proxy server](https://github.com/superjoe30/mc-proxy) using this module crashed when someone tried to log in.",
+            "created_at": "2013-02-05T23:50:33Z",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/issues/35#issuecomment-13159327",
+            "id": 13159327,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/35",
+            "updated_at": "2013-02-05T23:50:33Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/comments/13159327",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+                "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+                "followers_url": "https://api.github.com/users/andrewrk/followers",
+                "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+                "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/andrewrk",
+                "id": 106511,
+                "login": "andrewrk",
+                "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+                "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+                "repos_url": "https://api.github.com/users/andrewrk/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/andrewrk"
+            }
+        }
+    ],
+    "comments": 1,
+    "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/35/comments",
+    "created_at": "2013-02-05T23:46:50Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1878434?v=3",
+                "events_url": "https://api.github.com/users/zuazo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zuazo/followers",
+                "following_url": "https://api.github.com/users/zuazo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zuazo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zuazo",
+                "id": 1878434,
+                "login": "zuazo",
+                "organizations_url": "https://api.github.com/users/zuazo/orgs",
+                "received_events_url": "https://api.github.com/users/zuazo/received_events",
+                "repos_url": "https://api.github.com/users/zuazo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zuazo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zuazo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zuazo"
+            },
+            "commit_id": "a9afd32ad37a2cebc7fad46be2ee12576552f005",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/a9afd32ad37a2cebc7fad46be2ee12576552f005",
+            "created_at": "2013-04-07T10:21:19Z",
+            "event": "referenced",
+            "id": 44296965,
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/events/44296965"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+                "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+                "followers_url": "https://api.github.com/users/andrewrk/followers",
+                "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+                "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/andrewrk",
+                "id": 106511,
+                "login": "andrewrk",
+                "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+                "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+                "repos_url": "https://api.github.com/users/andrewrk/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/andrewrk"
+            },
+            "commit_id": "a9afd32ad37a2cebc7fad46be2ee12576552f005",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/a9afd32ad37a2cebc7fad46be2ee12576552f005",
+            "created_at": "2013-04-07T18:58:49Z",
+            "event": "closed",
+            "id": 44312623,
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/events/44312623"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/35/events",
+    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/issues/35",
+    "id": 10673907,
+    "labels": [
+        {
+            "color": "fc2929",
+            "name": "bug",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/labels/bug"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/35/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 35,
+    "state": "closed",
+    "title": "crash: AssertionError: value is larger than maximum value for type",
+    "updated_at": "2013-04-07T18:58:49Z",
+    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/35",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+        "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+        "followers_url": "https://api.github.com/users/andrewrk/followers",
+        "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/andrewrk",
+        "id": 106511,
+        "login": "andrewrk",
+        "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+        "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+        "repos_url": "https://api.github.com/users/andrewrk/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/andrewrk"
+    }
+}

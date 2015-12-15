@@ -1,0 +1,279 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/roblabla/ProtoDef/issues/5/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/roblabla/ProtoDef/pulls/5/commits"
+        },
+        "html": {
+            "href": "https://github.com/roblabla/ProtoDef/pull/5"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/roblabla/ProtoDef/issues/5"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/roblabla/ProtoDef/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/roblabla/ProtoDef/pulls/5/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/roblabla/ProtoDef/pulls/5"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/roblabla/ProtoDef/statuses/8c7a233686c9bcdc301f879d03a3c588eb9d967c"
+        }
+    },
+    "assignee": null,
+    "base": {
+        "label": "roblabla:master",
+        "ref": "master",
+        "repo": {
+            "archive_url": "https://api.github.com/repos/roblabla/ProtoDef/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/roblabla/ProtoDef/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/roblabla/ProtoDef/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/roblabla/ProtoDef/branches{/branch}",
+            "clone_url": "https://github.com/roblabla/ProtoDef.git",
+            "collaborators_url": "https://api.github.com/repos/roblabla/ProtoDef/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/roblabla/ProtoDef/comments{/number}",
+            "commits_url": "https://api.github.com/repos/roblabla/ProtoDef/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/roblabla/ProtoDef/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/roblabla/ProtoDef/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/roblabla/ProtoDef/contributors",
+            "created_at": "2014-08-19T13:05:48Z",
+            "default_branch": "master",
+            "description": "Describe your protocol, and read it with ease.",
+            "downloads_url": "https://api.github.com/repos/roblabla/ProtoDef/downloads",
+            "events_url": "https://api.github.com/repos/roblabla/ProtoDef/events",
+            "fork": false,
+            "forks": 1,
+            "forks_count": 1,
+            "forks_url": "https://api.github.com/repos/roblabla/ProtoDef/forks",
+            "full_name": "roblabla/ProtoDef",
+            "git_commits_url": "https://api.github.com/repos/roblabla/ProtoDef/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/roblabla/ProtoDef/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/roblabla/ProtoDef/git/tags{/sha}",
+            "git_url": "git://github.com/roblabla/ProtoDef.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_wiki": true,
+            "homepage": null,
+            "hooks_url": "https://api.github.com/repos/roblabla/ProtoDef/hooks",
+            "html_url": "https://github.com/roblabla/ProtoDef",
+            "id": 23110398,
+            "issue_comment_url": "https://api.github.com/repos/roblabla/ProtoDef/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/roblabla/ProtoDef/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/roblabla/ProtoDef/issues{/number}",
+            "keys_url": "https://api.github.com/repos/roblabla/ProtoDef/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/roblabla/ProtoDef/labels{/name}",
+            "language": "JavaScript",
+            "languages_url": "https://api.github.com/repos/roblabla/ProtoDef/languages",
+            "merges_url": "https://api.github.com/repos/roblabla/ProtoDef/merges",
+            "milestones_url": "https://api.github.com/repos/roblabla/ProtoDef/milestones{/number}",
+            "mirror_url": null,
+            "name": "ProtoDef",
+            "notifications_url": "https://api.github.com/repos/roblabla/ProtoDef/notifications{?since,all,participating}",
+            "open_issues": 16,
+            "open_issues_count": 16,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/roblabla/ProtoDef/pulls{/number}",
+            "pushed_at": "2015-12-05T02:06:02Z",
+            "releases_url": "https://api.github.com/repos/roblabla/ProtoDef/releases{/id}",
+            "size": 133,
+            "ssh_url": "git@github.com:roblabla/ProtoDef.git",
+            "stargazers_count": 5,
+            "stargazers_url": "https://api.github.com/repos/roblabla/ProtoDef/stargazers",
+            "statuses_url": "https://api.github.com/repos/roblabla/ProtoDef/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/roblabla/ProtoDef/subscribers",
+            "subscription_url": "https://api.github.com/repos/roblabla/ProtoDef/subscription",
+            "svn_url": "https://github.com/roblabla/ProtoDef",
+            "tags_url": "https://api.github.com/repos/roblabla/ProtoDef/tags",
+            "teams_url": "https://api.github.com/repos/roblabla/ProtoDef/teams",
+            "trees_url": "https://api.github.com/repos/roblabla/ProtoDef/git/trees{/sha}",
+            "updated_at": "2015-10-23T04:52:57Z",
+            "url": "https://api.github.com/repos/roblabla/ProtoDef",
+            "watchers": 5,
+            "watchers_count": 5
+        },
+        "sha": "58be985db26be18b51cae23aaeeb68d5f8eb9ffd",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+            "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+            "followers_url": "https://api.github.com/users/roblabla/followers",
+            "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+            "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/roblabla",
+            "id": 1069318,
+            "login": "roblabla",
+            "organizations_url": "https://api.github.com/users/roblabla/orgs",
+            "received_events_url": "https://api.github.com/users/roblabla/received_events",
+            "repos_url": "https://api.github.com/users/roblabla/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/roblabla"
+        }
+    },
+    "body": "### roblabla/Protocols now has a Chat Room on Gitter\n\n@roblabla has just created a chat room. You can visit it here: [https://gitter.im/roblabla/Protocols](https://gitter.im/roblabla/Protocols?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&content=body_link).\n\nThis pull-request adds this badge to your README.md:\n\n\n[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/roblabla/Protocols?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge)\n\nIf my aim is a little off, please [let me know](https://github.com/gitterHQ/readme-badger/issues).\n\nHappy chatting.\n\n\nPS: [Click here](https://gitter.im/settings/badger/opt-out) if you would prefer not to receive automatic pull-requests from Gitter in future.\n",
+    "closed_at": "2015-04-05T08:18:54Z",
+    "comment_data": [],
+    "comments_url": "https://api.github.com/repos/roblabla/ProtoDef/issues/5/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8518239?v=3",
+                "events_url": "https://api.github.com/users/gitter-badger/events{/privacy}",
+                "followers_url": "https://api.github.com/users/gitter-badger/followers",
+                "following_url": "https://api.github.com/users/gitter-badger/following{/other_user}",
+                "gists_url": "https://api.github.com/users/gitter-badger/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/gitter-badger",
+                "id": 8518239,
+                "login": "gitter-badger",
+                "organizations_url": "https://api.github.com/users/gitter-badger/orgs",
+                "received_events_url": "https://api.github.com/users/gitter-badger/received_events",
+                "repos_url": "https://api.github.com/users/gitter-badger/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/gitter-badger/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/gitter-badger/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/gitter-badger"
+            },
+            "comments_url": "https://api.github.com/repos/roblabla/ProtoDef/commits/8c7a233686c9bcdc301f879d03a3c588eb9d967c/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-04-05T07:57:43Z",
+                    "email": "badger@gitter.im",
+                    "name": "The Gitter Badger"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-04-05T07:57:43Z",
+                    "email": "badger@gitter.im",
+                    "name": "The Gitter Badger"
+                },
+                "message": "Added Gitter badge",
+                "tree": {
+                    "sha": "4c41f313c45f67d9ad9db5cba1fb26ef31cf4bbc",
+                    "url": "https://api.github.com/repos/roblabla/ProtoDef/git/trees/4c41f313c45f67d9ad9db5cba1fb26ef31cf4bbc"
+                },
+                "url": "https://api.github.com/repos/roblabla/ProtoDef/git/commits/8c7a233686c9bcdc301f879d03a3c588eb9d967c"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8518239?v=3",
+                "events_url": "https://api.github.com/users/gitter-badger/events{/privacy}",
+                "followers_url": "https://api.github.com/users/gitter-badger/followers",
+                "following_url": "https://api.github.com/users/gitter-badger/following{/other_user}",
+                "gists_url": "https://api.github.com/users/gitter-badger/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/gitter-badger",
+                "id": 8518239,
+                "login": "gitter-badger",
+                "organizations_url": "https://api.github.com/users/gitter-badger/orgs",
+                "received_events_url": "https://api.github.com/users/gitter-badger/received_events",
+                "repos_url": "https://api.github.com/users/gitter-badger/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/gitter-badger/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/gitter-badger/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/gitter-badger"
+            },
+            "html_url": "https://github.com/roblabla/ProtoDef/commit/8c7a233686c9bcdc301f879d03a3c588eb9d967c",
+            "parents": [
+                {
+                    "html_url": "https://github.com/roblabla/ProtoDef/commit/58be985db26be18b51cae23aaeeb68d5f8eb9ffd",
+                    "sha": "58be985db26be18b51cae23aaeeb68d5f8eb9ffd",
+                    "url": "https://api.github.com/repos/roblabla/ProtoDef/commits/58be985db26be18b51cae23aaeeb68d5f8eb9ffd"
+                }
+            ],
+            "sha": "8c7a233686c9bcdc301f879d03a3c588eb9d967c",
+            "url": "https://api.github.com/repos/roblabla/ProtoDef/commits/8c7a233686c9bcdc301f879d03a3c588eb9d967c"
+        }
+    ],
+    "commits_url": "https://api.github.com/repos/roblabla/ProtoDef/pulls/5/commits",
+    "created_at": "2015-04-05T07:57:43Z",
+    "diff_url": "https://github.com/roblabla/ProtoDef/pull/5.diff",
+    "head": {
+        "label": "gitter-badger:gitter-badge",
+        "ref": "gitter-badge",
+        "repo": null,
+        "sha": "8c7a233686c9bcdc301f879d03a3c588eb9d967c",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/8518239?v=3",
+            "events_url": "https://api.github.com/users/gitter-badger/events{/privacy}",
+            "followers_url": "https://api.github.com/users/gitter-badger/followers",
+            "following_url": "https://api.github.com/users/gitter-badger/following{/other_user}",
+            "gists_url": "https://api.github.com/users/gitter-badger/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/gitter-badger",
+            "id": 8518239,
+            "login": "gitter-badger",
+            "organizations_url": "https://api.github.com/users/gitter-badger/orgs",
+            "received_events_url": "https://api.github.com/users/gitter-badger/received_events",
+            "repos_url": "https://api.github.com/users/gitter-badger/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/gitter-badger/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/gitter-badger/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/gitter-badger"
+        }
+    },
+    "html_url": "https://github.com/roblabla/ProtoDef/pull/5",
+    "id": 32645671,
+    "issue_url": "https://api.github.com/repos/roblabla/ProtoDef/issues/5",
+    "locked": false,
+    "merge_commit_sha": "b949a14a98e5e9abc896747ddc7afee926fec87a",
+    "merged_at": "2015-04-05T08:18:54Z",
+    "milestone": null,
+    "number": 5,
+    "patch_url": "https://github.com/roblabla/ProtoDef/pull/5.patch",
+    "review_comment_url": "https://api.github.com/repos/roblabla/ProtoDef/pulls/comments{/number}",
+    "review_comments_url": "https://api.github.com/repos/roblabla/ProtoDef/pulls/5/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/roblabla/ProtoDef/statuses/8c7a233686c9bcdc301f879d03a3c588eb9d967c",
+    "title": "Add a Gitter chat badge to README.md",
+    "updated_at": "2015-04-05T08:18:54Z",
+    "url": "https://api.github.com/repos/roblabla/ProtoDef/pulls/5",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/8518239?v=3",
+        "events_url": "https://api.github.com/users/gitter-badger/events{/privacy}",
+        "followers_url": "https://api.github.com/users/gitter-badger/followers",
+        "following_url": "https://api.github.com/users/gitter-badger/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gitter-badger/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/gitter-badger",
+        "id": 8518239,
+        "login": "gitter-badger",
+        "organizations_url": "https://api.github.com/users/gitter-badger/orgs",
+        "received_events_url": "https://api.github.com/users/gitter-badger/received_events",
+        "repos_url": "https://api.github.com/users/gitter-badger/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/gitter-badger/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gitter-badger/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/gitter-badger"
+    }
+}

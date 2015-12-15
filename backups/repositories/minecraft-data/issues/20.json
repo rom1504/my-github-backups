@@ -1,0 +1,172 @@
+{
+    "assignee": null,
+    "body": "It might be interesting to have variations of name/displayName of blocks/items, that might be useful to parse what an user is saying.\r\nIt could look like that : \r\n```json\r\n{\r\n   \"variation\":\"unique_identifier\",\r\n}\r\n```\r\nThat could be extracted from : \r\n* redirect pages in the wiki\r\n* links labels in the wiki",
+    "closed_at": null,
+    "comment_data": [
+        {
+            "body": "This might better be put into a separate repository, as it is not directly Minecraft related.",
+            "created_at": "2015-05-03T22:59:24Z",
+            "html_url": "https://github.com/PrismarineJS/minecraft-data/issues/20#issuecomment-98554432",
+            "id": 98554432,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/20",
+            "updated_at": "2015-05-03T22:59:24Z",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/comments/98554432",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2612164?v=3",
+                "events_url": "https://api.github.com/users/Gjum/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Gjum/followers",
+                "following_url": "https://api.github.com/users/Gjum/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Gjum/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Gjum",
+                "id": 2612164,
+                "login": "Gjum",
+                "organizations_url": "https://api.github.com/users/Gjum/orgs",
+                "received_events_url": "https://api.github.com/users/Gjum/received_events",
+                "repos_url": "https://api.github.com/users/Gjum/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Gjum/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Gjum/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Gjum"
+            }
+        },
+        {
+            "body": "Well this would be data useful for minecraft bots, but not data *of* minecraft yeah.",
+            "created_at": "2015-05-03T23:04:59Z",
+            "html_url": "https://github.com/PrismarineJS/minecraft-data/issues/20#issuecomment-98554628",
+            "id": 98554628,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/20",
+            "updated_at": "2015-05-03T23:04:59Z",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/comments/98554628",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        }
+    ],
+    "comments": 2,
+    "comments_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/20/comments",
+    "created_at": "2015-05-03T22:57:30Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-05-03T23:22:20Z",
+            "event": "labeled",
+            "id": 295866238,
+            "label": {
+                "color": "bfd4f2",
+                "name": "new data"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/events/295866238"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-05-03T23:22:28Z",
+            "event": "labeled",
+            "id": 295866251,
+            "label": {
+                "color": "0052cc",
+                "name": "long term"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/events/295866251"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/20/events",
+    "html_url": "https://github.com/PrismarineJS/minecraft-data/issues/20",
+    "id": 72879057,
+    "labels": [
+        {
+            "color": "0052cc",
+            "name": "long term",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/labels/long%20term"
+        },
+        {
+            "color": "bfd4f2",
+            "name": "new data",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/labels/new%20data"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/20/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 20,
+    "state": "open",
+    "title": "A variations.json file ?",
+    "updated_at": "2015-05-03T23:22:28Z",
+    "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/20",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

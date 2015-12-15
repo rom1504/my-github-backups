@@ -1,0 +1,108 @@
+{
+    "assignee": null,
+    "body": "* example works\r\n* bench gets stuck (only one \"data\" fired)\r\n\r\nI think there's probably a bug in #37 anyway, #38 seems to show this.",
+    "closed_at": null,
+    "comment_data": [
+        {
+            "body": "kind of fixed it (see https://github.com/MatAtBread/fast-async/issues/1#issuecomment-161848799 )",
+            "created_at": "2015-12-04T02:18:08Z",
+            "html_url": "https://github.com/roblabla/ProtoDef/pull/40#issuecomment-161851885",
+            "id": 161851885,
+            "issue_url": "https://api.github.com/repos/roblabla/ProtoDef/issues/40",
+            "updated_at": "2015-12-04T02:18:08Z",
+            "url": "https://api.github.com/repos/roblabla/ProtoDef/issues/comments/161851885",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        }
+    ],
+    "comments": 1,
+    "comments_url": "https://api.github.com/repos/roblabla/ProtoDef/issues/40/comments",
+    "created_at": "2015-12-03T12:05:04Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-12-04T14:17:43Z",
+            "event": "renamed",
+            "id": 482673153,
+            "rename": {
+                "from": "trying with fast-async 1.0.3 + babel5",
+                "to": "fast-async 1.0.3 babel5 bluebird"
+            },
+            "url": "https://api.github.com/repos/roblabla/ProtoDef/issues/events/482673153"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/roblabla/ProtoDef/issues/40/events",
+    "html_url": "https://github.com/roblabla/ProtoDef/pull/40",
+    "id": 120155861,
+    "labels": [],
+    "labels_url": "https://api.github.com/repos/roblabla/ProtoDef/issues/40/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 40,
+    "pull_request": {
+        "diff_url": "https://github.com/roblabla/ProtoDef/pull/40.diff",
+        "html_url": "https://github.com/roblabla/ProtoDef/pull/40",
+        "patch_url": "https://github.com/roblabla/ProtoDef/pull/40.patch",
+        "url": "https://api.github.com/repos/roblabla/ProtoDef/pulls/40"
+    },
+    "state": "open",
+    "title": "fast-async 1.0.3 babel5 bluebird",
+    "updated_at": "2015-12-04T14:17:43Z",
+    "url": "https://api.github.com/repos/roblabla/ProtoDef/issues/40",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

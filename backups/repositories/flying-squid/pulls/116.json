@@ -1,0 +1,419 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/mhsjlw/flying-squid/issues/116/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/116/commits"
+        },
+        "html": {
+            "href": "https://github.com/mhsjlw/flying-squid/pull/116"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/mhsjlw/flying-squid/issues/116"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/116/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/116"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/mhsjlw/flying-squid/statuses/c01c0b9cb402e0475b6c0f4654885615422ab776"
+        }
+    },
+    "assignee": null,
+    "base": {
+        "label": "mhsjlw:master",
+        "ref": "master",
+        "repo": {
+            "archive_url": "https://api.github.com/repos/mhsjlw/flying-squid/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/mhsjlw/flying-squid/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/mhsjlw/flying-squid/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/mhsjlw/flying-squid/branches{/branch}",
+            "clone_url": "https://github.com/mhsjlw/flying-squid.git",
+            "collaborators_url": "https://api.github.com/repos/mhsjlw/flying-squid/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/comments{/number}",
+            "commits_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/mhsjlw/flying-squid/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/mhsjlw/flying-squid/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/mhsjlw/flying-squid/contributors",
+            "created_at": "2015-08-25T23:30:19Z",
+            "default_branch": "master",
+            "description": "A minecraft server written in node.js, modularized",
+            "downloads_url": "https://api.github.com/repos/mhsjlw/flying-squid/downloads",
+            "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/events",
+            "fork": false,
+            "forks": 13,
+            "forks_count": 13,
+            "forks_url": "https://api.github.com/repos/mhsjlw/flying-squid/forks",
+            "full_name": "mhsjlw/flying-squid",
+            "git_commits_url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/mhsjlw/flying-squid/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/mhsjlw/flying-squid/git/tags{/sha}",
+            "git_url": "git://github.com/mhsjlw/flying-squid.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_wiki": true,
+            "homepage": "",
+            "hooks_url": "https://api.github.com/repos/mhsjlw/flying-squid/hooks",
+            "html_url": "https://github.com/mhsjlw/flying-squid",
+            "id": 41393164,
+            "issue_comment_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues{/number}",
+            "keys_url": "https://api.github.com/repos/mhsjlw/flying-squid/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/labels{/name}",
+            "language": "JavaScript",
+            "languages_url": "https://api.github.com/repos/mhsjlw/flying-squid/languages",
+            "merges_url": "https://api.github.com/repos/mhsjlw/flying-squid/merges",
+            "milestones_url": "https://api.github.com/repos/mhsjlw/flying-squid/milestones{/number}",
+            "mirror_url": null,
+            "name": "flying-squid",
+            "notifications_url": "https://api.github.com/repos/mhsjlw/flying-squid/notifications{?since,all,participating}",
+            "open_issues": 43,
+            "open_issues_count": 43,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8526903?v=3",
+                "events_url": "https://api.github.com/users/mhsjlw/events{/privacy}",
+                "followers_url": "https://api.github.com/users/mhsjlw/followers",
+                "following_url": "https://api.github.com/users/mhsjlw/following{/other_user}",
+                "gists_url": "https://api.github.com/users/mhsjlw/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/mhsjlw",
+                "id": 8526903,
+                "login": "mhsjlw",
+                "organizations_url": "https://api.github.com/users/mhsjlw/orgs",
+                "received_events_url": "https://api.github.com/users/mhsjlw/received_events",
+                "repos_url": "https://api.github.com/users/mhsjlw/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/mhsjlw/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/mhsjlw/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/mhsjlw"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls{/number}",
+            "pushed_at": "2015-12-14T23:20:22Z",
+            "releases_url": "https://api.github.com/repos/mhsjlw/flying-squid/releases{/id}",
+            "size": 569,
+            "ssh_url": "git@github.com:mhsjlw/flying-squid.git",
+            "stargazers_count": 29,
+            "stargazers_url": "https://api.github.com/repos/mhsjlw/flying-squid/stargazers",
+            "statuses_url": "https://api.github.com/repos/mhsjlw/flying-squid/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/mhsjlw/flying-squid/subscribers",
+            "subscription_url": "https://api.github.com/repos/mhsjlw/flying-squid/subscription",
+            "svn_url": "https://github.com/mhsjlw/flying-squid",
+            "tags_url": "https://api.github.com/repos/mhsjlw/flying-squid/tags",
+            "teams_url": "https://api.github.com/repos/mhsjlw/flying-squid/teams",
+            "trees_url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees{/sha}",
+            "updated_at": "2015-12-14T23:20:38Z",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid",
+            "watchers": 29,
+            "watchers_count": 29
+        },
+        "sha": "00244db976c66421162823d616c6c0469bd47a3f",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/8526903?v=3",
+            "events_url": "https://api.github.com/users/mhsjlw/events{/privacy}",
+            "followers_url": "https://api.github.com/users/mhsjlw/followers",
+            "following_url": "https://api.github.com/users/mhsjlw/following{/other_user}",
+            "gists_url": "https://api.github.com/users/mhsjlw/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/mhsjlw",
+            "id": 8526903,
+            "login": "mhsjlw",
+            "organizations_url": "https://api.github.com/users/mhsjlw/orgs",
+            "received_events_url": "https://api.github.com/users/mhsjlw/received_events",
+            "repos_url": "https://api.github.com/users/mhsjlw/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/mhsjlw/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/mhsjlw/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/mhsjlw"
+        }
+    },
+    "body": "~~Not yet finished.~~\r\n\r\nFinished as much as I can. Entities need to be fixed before dropping can possibly work.\r\n\r\nInventory:\r\n- [X] Allow player to move items around in survival.\r\n- [x] Stack picked up items.\r\n\r\n- ~~Dropping items~~ (Put in another branch)",
+    "closed_at": "2015-11-24T22:43:02Z",
+    "comment_data": [],
+    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/116/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
+                "events_url": "https://api.github.com/users/109C/events{/privacy}",
+                "followers_url": "https://api.github.com/users/109C/followers",
+                "following_url": "https://api.github.com/users/109C/following{/other_user}",
+                "gists_url": "https://api.github.com/users/109C/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/109C",
+                "id": 9680886,
+                "login": "109C",
+                "organizations_url": "https://api.github.com/users/109C/orgs",
+                "received_events_url": "https://api.github.com/users/109C/received_events",
+                "repos_url": "https://api.github.com/users/109C/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/109C/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/109C/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/109C"
+            },
+            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/c1571c1bd3498ceb0d2e373976ec7eb02507f603/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-11-23T15:22:15Z",
+                    "email": "yemerrynonsense@gmail.com",
+                    "name": "C109"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-11-23T15:22:15Z",
+                    "email": "yemerrynonsense@gmail.com",
+                    "name": "C109"
+                },
+                "message": "Skeletal code for survival inventory clicks",
+                "tree": {
+                    "sha": "3a1c5ba8b4ede650e25ec2e6407cc412d03dbeb3",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/3a1c5ba8b4ede650e25ec2e6407cc412d03dbeb3"
+                },
+                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/c1571c1bd3498ceb0d2e373976ec7eb02507f603"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
+                "events_url": "https://api.github.com/users/109C/events{/privacy}",
+                "followers_url": "https://api.github.com/users/109C/followers",
+                "following_url": "https://api.github.com/users/109C/following{/other_user}",
+                "gists_url": "https://api.github.com/users/109C/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/109C",
+                "id": 9680886,
+                "login": "109C",
+                "organizations_url": "https://api.github.com/users/109C/orgs",
+                "received_events_url": "https://api.github.com/users/109C/received_events",
+                "repos_url": "https://api.github.com/users/109C/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/109C/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/109C/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/109C"
+            },
+            "html_url": "https://github.com/mhsjlw/flying-squid/commit/c1571c1bd3498ceb0d2e373976ec7eb02507f603",
+            "parents": [
+                {
+                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/00244db976c66421162823d616c6c0469bd47a3f",
+                    "sha": "00244db976c66421162823d616c6c0469bd47a3f",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/00244db976c66421162823d616c6c0469bd47a3f"
+                }
+            ],
+            "sha": "c1571c1bd3498ceb0d2e373976ec7eb02507f603",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/c1571c1bd3498ceb0d2e373976ec7eb02507f603"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
+                "events_url": "https://api.github.com/users/109C/events{/privacy}",
+                "followers_url": "https://api.github.com/users/109C/followers",
+                "following_url": "https://api.github.com/users/109C/following{/other_user}",
+                "gists_url": "https://api.github.com/users/109C/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/109C",
+                "id": 9680886,
+                "login": "109C",
+                "organizations_url": "https://api.github.com/users/109C/orgs",
+                "received_events_url": "https://api.github.com/users/109C/received_events",
+                "repos_url": "https://api.github.com/users/109C/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/109C/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/109C/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/109C"
+            },
+            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/06eda4e2fcf1a00aa3ec38fbbb95aa76264b9be3/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-11-23T16:00:09Z",
+                    "email": "yemerrynonsense@gmail.com",
+                    "name": "C109"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-11-23T16:00:09Z",
+                    "email": "yemerrynonsense@gmail.com",
+                    "name": "C109"
+                },
+                "message": "More skeletal code",
+                "tree": {
+                    "sha": "2ab00f364b1e0e45818084a19d6d8da42c55b9e2",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/2ab00f364b1e0e45818084a19d6d8da42c55b9e2"
+                },
+                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/06eda4e2fcf1a00aa3ec38fbbb95aa76264b9be3"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
+                "events_url": "https://api.github.com/users/109C/events{/privacy}",
+                "followers_url": "https://api.github.com/users/109C/followers",
+                "following_url": "https://api.github.com/users/109C/following{/other_user}",
+                "gists_url": "https://api.github.com/users/109C/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/109C",
+                "id": 9680886,
+                "login": "109C",
+                "organizations_url": "https://api.github.com/users/109C/orgs",
+                "received_events_url": "https://api.github.com/users/109C/received_events",
+                "repos_url": "https://api.github.com/users/109C/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/109C/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/109C/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/109C"
+            },
+            "html_url": "https://github.com/mhsjlw/flying-squid/commit/06eda4e2fcf1a00aa3ec38fbbb95aa76264b9be3",
+            "parents": [
+                {
+                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/c1571c1bd3498ceb0d2e373976ec7eb02507f603",
+                    "sha": "c1571c1bd3498ceb0d2e373976ec7eb02507f603",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/c1571c1bd3498ceb0d2e373976ec7eb02507f603"
+                }
+            ],
+            "sha": "06eda4e2fcf1a00aa3ec38fbbb95aa76264b9be3",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/06eda4e2fcf1a00aa3ec38fbbb95aa76264b9be3"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
+                "events_url": "https://api.github.com/users/109C/events{/privacy}",
+                "followers_url": "https://api.github.com/users/109C/followers",
+                "following_url": "https://api.github.com/users/109C/following{/other_user}",
+                "gists_url": "https://api.github.com/users/109C/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/109C",
+                "id": 9680886,
+                "login": "109C",
+                "organizations_url": "https://api.github.com/users/109C/orgs",
+                "received_events_url": "https://api.github.com/users/109C/received_events",
+                "repos_url": "https://api.github.com/users/109C/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/109C/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/109C/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/109C"
+            },
+            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/c01c0b9cb402e0475b6c0f4654885615422ab776/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-11-23T23:21:13Z",
+                    "email": "yemerrynonsense@gmail.com",
+                    "name": "C109"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-11-23T23:21:13Z",
+                    "email": "yemerrynonsense@gmail.com",
+                    "name": "C109"
+                },
+                "message": "Items now stack",
+                "tree": {
+                    "sha": "7d669ed7d0a6474df61398e2e9c41fe9965cde3b",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/7d669ed7d0a6474df61398e2e9c41fe9965cde3b"
+                },
+                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/c01c0b9cb402e0475b6c0f4654885615422ab776"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
+                "events_url": "https://api.github.com/users/109C/events{/privacy}",
+                "followers_url": "https://api.github.com/users/109C/followers",
+                "following_url": "https://api.github.com/users/109C/following{/other_user}",
+                "gists_url": "https://api.github.com/users/109C/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/109C",
+                "id": 9680886,
+                "login": "109C",
+                "organizations_url": "https://api.github.com/users/109C/orgs",
+                "received_events_url": "https://api.github.com/users/109C/received_events",
+                "repos_url": "https://api.github.com/users/109C/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/109C/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/109C/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/109C"
+            },
+            "html_url": "https://github.com/mhsjlw/flying-squid/commit/c01c0b9cb402e0475b6c0f4654885615422ab776",
+            "parents": [
+                {
+                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/06eda4e2fcf1a00aa3ec38fbbb95aa76264b9be3",
+                    "sha": "06eda4e2fcf1a00aa3ec38fbbb95aa76264b9be3",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/06eda4e2fcf1a00aa3ec38fbbb95aa76264b9be3"
+                }
+            ],
+            "sha": "c01c0b9cb402e0475b6c0f4654885615422ab776",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/c01c0b9cb402e0475b6c0f4654885615422ab776"
+        }
+    ],
+    "commits_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/116/commits",
+    "created_at": "2015-11-23T16:04:03Z",
+    "diff_url": "https://github.com/mhsjlw/flying-squid/pull/116.diff",
+    "head": {
+        "label": "109C:master",
+        "ref": "master",
+        "repo": null,
+        "sha": "c01c0b9cb402e0475b6c0f4654885615422ab776",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
+            "events_url": "https://api.github.com/users/109C/events{/privacy}",
+            "followers_url": "https://api.github.com/users/109C/followers",
+            "following_url": "https://api.github.com/users/109C/following{/other_user}",
+            "gists_url": "https://api.github.com/users/109C/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/109C",
+            "id": 9680886,
+            "login": "109C",
+            "organizations_url": "https://api.github.com/users/109C/orgs",
+            "received_events_url": "https://api.github.com/users/109C/received_events",
+            "repos_url": "https://api.github.com/users/109C/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/109C/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/109C/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/109C"
+        }
+    },
+    "html_url": "https://github.com/mhsjlw/flying-squid/pull/116",
+    "id": 51542224,
+    "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/116",
+    "locked": false,
+    "merge_commit_sha": "5e8ed03ca41b43184c95825cce96b11f2da11d19",
+    "merged_at": "2015-11-24T22:43:02Z",
+    "milestone": null,
+    "number": 116,
+    "patch_url": "https://github.com/mhsjlw/flying-squid/pull/116.patch",
+    "review_comment_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments{/number}",
+    "review_comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/116/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/mhsjlw/flying-squid/statuses/c01c0b9cb402e0475b6c0f4654885615422ab776",
+    "title": "Add survival inventory handling for players",
+    "updated_at": "2015-11-24T22:43:02Z",
+    "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/116",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
+        "events_url": "https://api.github.com/users/109C/events{/privacy}",
+        "followers_url": "https://api.github.com/users/109C/followers",
+        "following_url": "https://api.github.com/users/109C/following{/other_user}",
+        "gists_url": "https://api.github.com/users/109C/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/109C",
+        "id": 9680886,
+        "login": "109C",
+        "organizations_url": "https://api.github.com/users/109C/orgs",
+        "received_events_url": "https://api.github.com/users/109C/received_events",
+        "repos_url": "https://api.github.com/users/109C/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/109C/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/109C/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/109C"
+    }
+}

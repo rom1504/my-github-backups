@@ -1,0 +1,199 @@
+{
+    "assignee": null,
+    "body": "Steps to reproduce bug:\r\n\r\n* start server.\r\n* break block.\r\n* 100% cpu usage and eventually the clients time out.\r\n\r\nHappens in both survival and creative.\r\nThis *might* be related to #99, however I'm not sure so that's why I made a separate Issue.",
+    "closed_at": "2015-11-19T20:56:09Z",
+    "comment_data": [
+        {
+            "body": "Is that in gamemode 0 ?",
+            "created_at": "2015-11-19T16:06:31Z",
+            "html_url": "https://github.com/mhsjlw/flying-squid/issues/103#issuecomment-158102055",
+            "id": 158102055,
+            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/103",
+            "updated_at": "2015-11-19T16:06:31Z",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/158102055",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "body": "No, it's in creative *and* survival.",
+            "created_at": "2015-11-19T16:11:09Z",
+            "html_url": "https://github.com/mhsjlw/flying-squid/issues/103#issuecomment-158103304",
+            "id": 158103304,
+            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/103",
+            "updated_at": "2015-11-19T16:11:09Z",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/158103304",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
+                "events_url": "https://api.github.com/users/109C/events{/privacy}",
+                "followers_url": "https://api.github.com/users/109C/followers",
+                "following_url": "https://api.github.com/users/109C/following{/other_user}",
+                "gists_url": "https://api.github.com/users/109C/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/109C",
+                "id": 9680886,
+                "login": "109C",
+                "organizations_url": "https://api.github.com/users/109C/orgs",
+                "received_events_url": "https://api.github.com/users/109C/received_events",
+                "repos_url": "https://api.github.com/users/109C/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/109C/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/109C/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/109C"
+            }
+        }
+    ],
+    "comments": 2,
+    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/103/comments",
+    "created_at": "2015-11-19T16:02:02Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-11-19T16:16:01Z",
+            "event": "labeled",
+            "id": 469348237,
+            "label": {
+                "color": "fc2929",
+                "name": "bug"
+            },
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/469348237"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-11-19T16:16:24Z",
+            "event": "labeled",
+            "id": 469348749,
+            "label": {
+                "color": "c7def8",
+                "name": "blocks"
+            },
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/469348749"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": "477d5ff3b161a273826ae1b5e141baf77884c330",
+            "commit_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/477d5ff3b161a273826ae1b5e141baf77884c330",
+            "created_at": "2015-11-19T20:56:09Z",
+            "event": "closed",
+            "id": 469671449,
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/469671449"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/103/events",
+    "html_url": "https://github.com/mhsjlw/flying-squid/issues/103",
+    "id": 117845205,
+    "labels": [
+        {
+            "color": "c7def8",
+            "name": "blocks",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/blocks"
+        },
+        {
+            "color": "fc2929",
+            "name": "bug",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/bug"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/103/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 103,
+    "state": "closed",
+    "title": "Infinite loop whenever a block is broken",
+    "updated_at": "2015-11-19T20:56:09Z",
+    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/103",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
+        "events_url": "https://api.github.com/users/109C/events{/privacy}",
+        "followers_url": "https://api.github.com/users/109C/followers",
+        "following_url": "https://api.github.com/users/109C/following{/other_user}",
+        "gists_url": "https://api.github.com/users/109C/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/109C",
+        "id": 9680886,
+        "login": "109C",
+        "organizations_url": "https://api.github.com/users/109C/orgs",
+        "received_events_url": "https://api.github.com/users/109C/received_events",
+        "repos_url": "https://api.github.com/users/109C/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/109C/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/109C/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/109C"
+    }
+}

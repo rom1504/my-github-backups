@@ -1,0 +1,108 @@
+{
+    "assignee": null,
+    "body": "`Client: TypeError: Write error for play.toClient.entity_head_rotation.headYaw : value is out of bounds`\r\nis nice, but it would be nicer with the value.",
+    "closed_at": null,
+    "comment_data": [
+        {
+            "body": "I believe this is mostly about adding a try catch in https://github.com/roblabla/ProtoDef/blob/master/src/datatypes/numeric.js",
+            "created_at": "2015-11-20T11:31:19Z",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/issues/284#issuecomment-158368537",
+            "id": 158368537,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/284",
+            "updated_at": "2015-11-20T11:31:19Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/comments/158368537",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        }
+    ],
+    "comments": 1,
+    "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/284/comments",
+    "created_at": "2015-10-12T21:12:50Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-11-15T16:46:58Z",
+            "event": "labeled",
+            "id": 464819837,
+            "label": {
+                "color": "fef2c0",
+                "name": "error handling"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/events/464819837"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/284/events",
+    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/issues/284",
+    "id": 111057506,
+    "labels": [
+        {
+            "color": "fef2c0",
+            "name": "error handling",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/labels/error%20handling"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/284/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 284,
+    "state": "open",
+    "title": "print the value for out of bound error",
+    "updated_at": "2015-11-20T11:31:19Z",
+    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/284",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

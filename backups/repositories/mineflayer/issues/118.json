@@ -1,0 +1,140 @@
+{
+    "assignee": null,
+    "body": "The rules for when you can and cannot use `bot.inventory` while another window is open are confusing and undocumented. This is very not obvious and error prone. Make it so that accessing inventory 'just works' even while interacting with other open windows.",
+    "closed_at": null,
+    "comment_data": [
+        {
+            "body": "From my understanding, any GUI that shows that is not the inventory, does not directly interact with the inventory, a GUI can show however many inventory items as it sees fit to do so.\r\n\r\nInterfacing with a Window that is not the inventory should not be assumed to be the inventory, and all inventory interaction should actually be unavailable ALWAYS when another window is displayed.\r\n\r\nThere should be some helpful functions provided to window that allow moving items around. But a bot should treat every GUI uniquely. I believe the server will update the client on the change of inventory items when an item is moved.\r\n\r\nDo you know if there are edge cases where the server does not update the player's GUI when an item is moved ? ",
+            "created_at": "2014-04-21T23:43:50Z",
+            "html_url": "https://github.com/andrewrk/mineflayer/issues/118#issuecomment-40989470",
+            "id": 40989470,
+            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/118",
+            "updated_at": "2014-04-21T23:43:50Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/40989470",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            }
+        }
+    ],
+    "comments": 1,
+    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/118/comments",
+    "created_at": "2013-02-07T02:19:40Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+                "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+                "followers_url": "https://api.github.com/users/andrewrk/followers",
+                "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+                "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/andrewrk",
+                "id": 106511,
+                "login": "andrewrk",
+                "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+                "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+                "repos_url": "https://api.github.com/users/andrewrk/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/andrewrk"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2013-02-07T16:42:54Z",
+            "event": "referenced",
+            "id": 37074355,
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/37074355"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-03-24T14:04:33Z",
+            "event": "labeled",
+            "id": 263527453,
+            "label": {
+                "color": "c7def8",
+                "name": "inventory"
+            },
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/263527453"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/118/events",
+    "html_url": "https://github.com/andrewrk/mineflayer/issues/118",
+    "id": 10721488,
+    "labels": [
+        {
+            "color": "c7def8",
+            "name": "inventory",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/inventory"
+        },
+        {
+            "color": "444444",
+            "name": "new feature",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/new%20feature"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/118/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 118,
+    "state": "open",
+    "title": "inventory API is confusing when a window is open",
+    "updated_at": "2015-03-24T14:04:33Z",
+    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/118",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+        "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+        "followers_url": "https://api.github.com/users/andrewrk/followers",
+        "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/andrewrk",
+        "id": 106511,
+        "login": "andrewrk",
+        "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+        "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+        "repos_url": "https://api.github.com/users/andrewrk/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/andrewrk"
+    }
+}

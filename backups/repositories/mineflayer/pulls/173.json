@@ -1,0 +1,1314 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/issues/173/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/173/commits"
+        },
+        "html": {
+            "href": "https://github.com/andrewrk/mineflayer/pull/173"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/issues/173"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/173/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/173"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/statuses/b935e618b0200f469a5adaef906bc32164c11c2e"
+        }
+    },
+    "assignee": null,
+    "base": {
+        "label": "andrewrk:master",
+        "ref": "master",
+        "repo": {
+            "archive_url": "https://api.github.com/repos/andrewrk/mineflayer/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/andrewrk/mineflayer/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/andrewrk/mineflayer/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/andrewrk/mineflayer/branches{/branch}",
+            "clone_url": "https://github.com/andrewrk/mineflayer.git",
+            "collaborators_url": "https://api.github.com/repos/andrewrk/mineflayer/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/comments{/number}",
+            "commits_url": "https://api.github.com/repos/andrewrk/mineflayer/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/andrewrk/mineflayer/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/andrewrk/mineflayer/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/andrewrk/mineflayer/contributors",
+            "created_at": "2011-01-23T09:41:55Z",
+            "default_branch": "master",
+            "description": "Create Minecraft bots with a powerful, stable, and high level JavaScript API.",
+            "downloads_url": "https://api.github.com/repos/andrewrk/mineflayer/downloads",
+            "events_url": "https://api.github.com/repos/andrewrk/mineflayer/events",
+            "fork": false,
+            "forks": 63,
+            "forks_count": 63,
+            "forks_url": "https://api.github.com/repos/andrewrk/mineflayer/forks",
+            "full_name": "andrewrk/mineflayer",
+            "git_commits_url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/andrewrk/mineflayer/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/andrewrk/mineflayer/git/tags{/sha}",
+            "git_url": "git://github.com/andrewrk/mineflayer.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_wiki": true,
+            "homepage": "",
+            "hooks_url": "https://api.github.com/repos/andrewrk/mineflayer/hooks",
+            "html_url": "https://github.com/andrewrk/mineflayer",
+            "id": 1284185,
+            "issue_comment_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/andrewrk/mineflayer/issues{/number}",
+            "keys_url": "https://api.github.com/repos/andrewrk/mineflayer/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/labels{/name}",
+            "language": "JavaScript",
+            "languages_url": "https://api.github.com/repos/andrewrk/mineflayer/languages",
+            "merges_url": "https://api.github.com/repos/andrewrk/mineflayer/merges",
+            "milestones_url": "https://api.github.com/repos/andrewrk/mineflayer/milestones{/number}",
+            "mirror_url": null,
+            "name": "mineflayer",
+            "notifications_url": "https://api.github.com/repos/andrewrk/mineflayer/notifications{?since,all,participating}",
+            "open_issues": 51,
+            "open_issues_count": 51,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+                "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+                "followers_url": "https://api.github.com/users/andrewrk/followers",
+                "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+                "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/andrewrk",
+                "id": 106511,
+                "login": "andrewrk",
+                "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+                "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+                "repos_url": "https://api.github.com/users/andrewrk/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/andrewrk"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls{/number}",
+            "pushed_at": "2015-12-11T12:23:23Z",
+            "releases_url": "https://api.github.com/repos/andrewrk/mineflayer/releases{/id}",
+            "size": 10258,
+            "ssh_url": "git@github.com:andrewrk/mineflayer.git",
+            "stargazers_count": 259,
+            "stargazers_url": "https://api.github.com/repos/andrewrk/mineflayer/stargazers",
+            "statuses_url": "https://api.github.com/repos/andrewrk/mineflayer/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/andrewrk/mineflayer/subscribers",
+            "subscription_url": "https://api.github.com/repos/andrewrk/mineflayer/subscription",
+            "svn_url": "https://github.com/andrewrk/mineflayer",
+            "tags_url": "https://api.github.com/repos/andrewrk/mineflayer/tags",
+            "teams_url": "https://api.github.com/repos/andrewrk/mineflayer/teams",
+            "trees_url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees{/sha}",
+            "updated_at": "2015-12-14T13:21:10Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer",
+            "watchers": 259,
+            "watchers_count": 259
+        },
+        "sha": "3fa3141dc54f2e74b4bce291511ab6b67c1e11f2",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+            "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+            "followers_url": "https://api.github.com/users/andrewrk/followers",
+            "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/andrewrk",
+            "id": 106511,
+            "login": "andrewrk",
+            "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+            "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+            "repos_url": "https://api.github.com/users/andrewrk/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/andrewrk"
+        }
+    },
+    "body": "Been updating mineflayer in order to bring 1.7 support (and to find bugs in node-minecraft-protocol 1.7). Currently, all the packet definitions in the plugins have been updated to use the packet name, and the fields were modified to reflect new names when they changed. All tests pass, but it's almost a guarantee that there is still a bunch of bugs left here and there. I'll be testing things left and right. \r\n\r\nBurger is currently broken with 1.7 and all. I'll try to fix it, but no guarantees can be made. \r\n\r\nAlso, note that the package.json currently uses git URL instead of version for node-minecraft-protocol due to changes not yet pushed to NPM. \r\n\r\nWhat needs fixing : \r\n- [x] Chat module parsing needs a lot of improvement. It should recursively parse the \"with\" and extras.\r\n- [x] Navigation is currently broken. It seems like the physics module isn't triggered at all.\r\n- [x] Bot is unable to respawn\r\n- ~~Sometimes, generally after teleporting, entities are removed from the entity list when they shouldn't be.~~ Moved to: #181\r\n\r\n(probably a lot more, list will grow as I find more bugs).\r\n\r\n3rd party states : \r\n- Navigate doesn't work.\r\n- Radar works partially, navigation doesn't work.\r\n\r\nDidn't test the rest, those are the top two priority for me, since they test the most essential part of the bot.\r\n\r\n----\r\n#### Issue Dependency Graph\r\n![Issue Dependency](http://i.imgur.com/pDySd9S.png)\r\n\r\nHas most the issues for the Stable 1.7 milestone, just to give some visual overview what needs to be done\r\n\r\n-NeverCast",
+    "closed_at": "2014-04-27T06:02:39Z",
+    "comment_data": [],
+    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/173/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/54b5920bed652a1ebbe6e3cd4d2e04ee8740ea1a/comments",
+            "commit": {
+                "author": {
+                    "date": "2014-04-13T16:45:41Z",
+                    "email": "robinlambertz.dev@gmail.com",
+                    "name": "roblabla"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2014-04-13T16:45:41Z",
+                    "email": "robinlambertz.dev@gmail.com",
+                    "name": "roblabla"
+                },
+                "message": "Preliminary work for 1.7 support",
+                "tree": {
+                    "sha": "0a96042e09c555be48c577eaa566e73e5c6c210a",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/0a96042e09c555be48c577eaa566e73e5c6c210a"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/54b5920bed652a1ebbe6e3cd4d2e04ee8740ea1a"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/54b5920bed652a1ebbe6e3cd4d2e04ee8740ea1a",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/3fa3141dc54f2e74b4bce291511ab6b67c1e11f2",
+                    "sha": "3fa3141dc54f2e74b4bce291511ab6b67c1e11f2",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/3fa3141dc54f2e74b4bce291511ab6b67c1e11f2"
+                }
+            ],
+            "sha": "54b5920bed652a1ebbe6e3cd4d2e04ee8740ea1a",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/54b5920bed652a1ebbe6e3cd4d2e04ee8740ea1a"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/2bf52ce1c651078e95f2e8098879fbd7bbe816b4/comments",
+            "commit": {
+                "author": {
+                    "date": "2014-04-19T07:26:59Z",
+                    "email": "j.nevercast@gmail.com",
+                    "name": "Josh Lloyd"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2014-04-19T07:26:59Z",
+                    "email": "j.nevercast@gmail.com",
+                    "name": "Josh Lloyd"
+                },
+                "message": "Update to 1.7 chat message, impl. ChatMessage class",
+                "tree": {
+                    "sha": "bca359fef773347ca22626b28e101c16e8e3d697",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/bca359fef773347ca22626b28e101c16e8e3d697"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/2bf52ce1c651078e95f2e8098879fbd7bbe816b4"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/2bf52ce1c651078e95f2e8098879fbd7bbe816b4",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/54b5920bed652a1ebbe6e3cd4d2e04ee8740ea1a",
+                    "sha": "54b5920bed652a1ebbe6e3cd4d2e04ee8740ea1a",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/54b5920bed652a1ebbe6e3cd4d2e04ee8740ea1a"
+                }
+            ],
+            "sha": "2bf52ce1c651078e95f2e8098879fbd7bbe816b4",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/2bf52ce1c651078e95f2e8098879fbd7bbe816b4"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/821a3c29a5ef4e122c61cbdb7be7a160dbd10973/comments",
+            "commit": {
+                "author": {
+                    "date": "2014-04-19T08:20:18Z",
+                    "email": "j.nevercast@gmail.com",
+                    "name": "Josh Lloyd"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2014-04-19T08:20:18Z",
+                    "email": "j.nevercast@gmail.com",
+                    "name": "Josh Lloyd"
+                },
+                "message": "Change packet id",
+                "tree": {
+                    "sha": "fe18c14b08ceb1a4996ac18c95a5d3c9f45722ca",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/fe18c14b08ceb1a4996ac18c95a5d3c9f45722ca"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/821a3c29a5ef4e122c61cbdb7be7a160dbd10973"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/821a3c29a5ef4e122c61cbdb7be7a160dbd10973",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/2bf52ce1c651078e95f2e8098879fbd7bbe816b4",
+                    "sha": "2bf52ce1c651078e95f2e8098879fbd7bbe816b4",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/2bf52ce1c651078e95f2e8098879fbd7bbe816b4"
+                }
+            ],
+            "sha": "821a3c29a5ef4e122c61cbdb7be7a160dbd10973",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/821a3c29a5ef4e122c61cbdb7be7a160dbd10973"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/1a254765d7963400f9d5d91614233679abf4fb38/comments",
+            "commit": {
+                "author": {
+                    "date": "2014-04-20T22:08:01Z",
+                    "email": "j.nevercast@gmail.com",
+                    "name": "Josh Lloyd"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2014-04-20T22:08:01Z",
+                    "email": "j.nevercast@gmail.com",
+                    "name": "Josh Lloyd"
+                },
+                "message": "Refresh ChatMessage class to be recursive\n\nSplit 1.6 and 1.7 implementation in chat plugin\nIntroduce new bot event, 'message'.",
+                "tree": {
+                    "sha": "70525a18015a54ce2ae94d9cf54b1d9ecd6d2311",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/70525a18015a54ce2ae94d9cf54b1d9ecd6d2311"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/1a254765d7963400f9d5d91614233679abf4fb38"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/1a254765d7963400f9d5d91614233679abf4fb38",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/821a3c29a5ef4e122c61cbdb7be7a160dbd10973",
+                    "sha": "821a3c29a5ef4e122c61cbdb7be7a160dbd10973",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/821a3c29a5ef4e122c61cbdb7be7a160dbd10973"
+                }
+            ],
+            "sha": "1a254765d7963400f9d5d91614233679abf4fb38",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/1a254765d7963400f9d5d91614233679abf4fb38"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/59c33d9c23a5fe50e2ccc437ccc6357e828296f3/comments",
+            "commit": {
+                "author": {
+                    "date": "2014-04-20T22:11:57Z",
+                    "email": "j.nevercast@gmail.com",
+                    "name": "Josh Lloyd"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2014-04-20T22:11:57Z",
+                    "email": "j.nevercast@gmail.com",
+                    "name": "Josh Lloyd"
+                },
+                "message": "Quick message event fix\n\n1.6 will still emit the same events as before\n1.7 will emit a ChatMessage object with 'message'.\n'chat' and 'whisper' work as expected",
+                "tree": {
+                    "sha": "7f0d2e742cac0943d18b9926ccd56973845478c9",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/7f0d2e742cac0943d18b9926ccd56973845478c9"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/59c33d9c23a5fe50e2ccc437ccc6357e828296f3"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/59c33d9c23a5fe50e2ccc437ccc6357e828296f3",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/1a254765d7963400f9d5d91614233679abf4fb38",
+                    "sha": "1a254765d7963400f9d5d91614233679abf4fb38",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/1a254765d7963400f9d5d91614233679abf4fb38"
+                }
+            ],
+            "sha": "59c33d9c23a5fe50e2ccc437ccc6357e828296f3",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/59c33d9c23a5fe50e2ccc437ccc6357e828296f3"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/b7bd60d623213a61a428c7bd3f2c46af3bdaa256/comments",
+            "commit": {
+                "author": {
+                    "date": "2014-04-21T00:32:49Z",
+                    "email": "j.nevercast@gmail.com",
+                    "name": "Josh Lloyd"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2014-04-21T00:32:49Z",
+                    "email": "j.nevercast@gmail.com",
+                    "name": "Josh Lloyd"
+                },
+                "message": "Auto-Respawn and packet fixes",
+                "tree": {
+                    "sha": "cd95913861784cfadac18010f8c1a9f0c5b3f386",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/cd95913861784cfadac18010f8c1a9f0c5b3f386"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/b7bd60d623213a61a428c7bd3f2c46af3bdaa256"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/b7bd60d623213a61a428c7bd3f2c46af3bdaa256",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/59c33d9c23a5fe50e2ccc437ccc6357e828296f3",
+                    "sha": "59c33d9c23a5fe50e2ccc437ccc6357e828296f3",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/59c33d9c23a5fe50e2ccc437ccc6357e828296f3"
+                }
+            ],
+            "sha": "b7bd60d623213a61a428c7bd3f2c46af3bdaa256",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/b7bd60d623213a61a428c7bd3f2c46af3bdaa256"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/fb391c43d424277da74822480e527cf7a023da8f/comments",
+            "commit": {
+                "author": {
+                    "date": "2014-04-21T00:32:55Z",
+                    "email": "j.nevercast@gmail.com",
+                    "name": "Josh Lloyd"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2014-04-21T00:32:55Z",
+                    "email": "j.nevercast@gmail.com",
+                    "name": "Josh Lloyd"
+                },
+                "message": "Some physics fixes",
+                "tree": {
+                    "sha": "f52b2d9237f648ab446f0e9498de8dc377c0841f",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/f52b2d9237f648ab446f0e9498de8dc377c0841f"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/fb391c43d424277da74822480e527cf7a023da8f"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/fb391c43d424277da74822480e527cf7a023da8f",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/b7bd60d623213a61a428c7bd3f2c46af3bdaa256",
+                    "sha": "b7bd60d623213a61a428c7bd3f2c46af3bdaa256",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/b7bd60d623213a61a428c7bd3f2c46af3bdaa256"
+                }
+            ],
+            "sha": "fb391c43d424277da74822480e527cf7a023da8f",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/fb391c43d424277da74822480e527cf7a023da8f"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/952456d58a7c6e580439b1736207ada97ffb9fd9/comments",
+            "commit": {
+                "author": {
+                    "date": "2014-04-21T00:38:27Z",
+                    "email": "j.nevercast@gmail.com",
+                    "name": "Josh Lloyd"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2014-04-21T00:38:27Z",
+                    "email": "j.nevercast@gmail.com",
+                    "name": "Josh Lloyd"
+                },
+                "message": "Fix parsing, with is optional with translate\n\nExample: Changing game mode.",
+                "tree": {
+                    "sha": "210309b080bfeae9d2eb046a82c5f6483c6f7bae",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/210309b080bfeae9d2eb046a82c5f6483c6f7bae"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/952456d58a7c6e580439b1736207ada97ffb9fd9"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/952456d58a7c6e580439b1736207ada97ffb9fd9",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/fb391c43d424277da74822480e527cf7a023da8f",
+                    "sha": "fb391c43d424277da74822480e527cf7a023da8f",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/fb391c43d424277da74822480e527cf7a023da8f"
+                }
+            ],
+            "sha": "952456d58a7c6e580439b1736207ada97ffb9fd9",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/952456d58a7c6e580439b1736207ada97ffb9fd9"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/b75e6f701b47d5f85b389c5c9e63d5cf9d989724/comments",
+            "commit": {
+                "author": {
+                    "date": "2014-04-21T02:39:33Z",
+                    "email": "j.nevercast@gmail.com",
+                    "name": "Josh Lloyd"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2014-04-21T02:39:33Z",
+                    "email": "j.nevercast@gmail.com",
+                    "name": "Josh Lloyd"
+                },
+                "message": "More fixes towards 1.7 compliance, success!\n\nPhysics now working, logging in now working, movement NOW WORKING!",
+                "tree": {
+                    "sha": "71054e71af592e01d4a2eb5e1f37559d1d68a763",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/71054e71af592e01d4a2eb5e1f37559d1d68a763"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/b75e6f701b47d5f85b389c5c9e63d5cf9d989724"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/b75e6f701b47d5f85b389c5c9e63d5cf9d989724",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/952456d58a7c6e580439b1736207ada97ffb9fd9",
+                    "sha": "952456d58a7c6e580439b1736207ada97ffb9fd9",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/952456d58a7c6e580439b1736207ada97ffb9fd9"
+                }
+            ],
+            "sha": "b75e6f701b47d5f85b389c5c9e63d5cf9d989724",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/b75e6f701b47d5f85b389c5c9e63d5cf9d989724"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/d25200435db99d065da1736db6b902b23390e08f/comments",
+            "commit": {
+                "author": {
+                    "date": "2014-04-21T02:49:28Z",
+                    "email": "j.nevercast@gmail.com",
+                    "name": "Josh Lloyd"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2014-04-21T02:49:28Z",
+                    "email": "j.nevercast@gmail.com",
+                    "name": "Josh Lloyd"
+                },
+                "message": "Strip debug information",
+                "tree": {
+                    "sha": "c7c6302f8b26e6e60197d1c1368f0010e8cde7f1",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/c7c6302f8b26e6e60197d1c1368f0010e8cde7f1"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/d25200435db99d065da1736db6b902b23390e08f"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/d25200435db99d065da1736db6b902b23390e08f",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/b75e6f701b47d5f85b389c5c9e63d5cf9d989724",
+                    "sha": "b75e6f701b47d5f85b389c5c9e63d5cf9d989724",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/b75e6f701b47d5f85b389c5c9e63d5cf9d989724"
+                }
+            ],
+            "sha": "d25200435db99d065da1736db6b902b23390e08f",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/d25200435db99d065da1736db6b902b23390e08f"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/1d05edc4fe068400dabfad2eb5fda8acdb8bf4b5/comments",
+            "commit": {
+                "author": {
+                    "date": "2014-04-21T05:58:26Z",
+                    "email": "j.nevercast@gmail.com",
+                    "name": "Josh Lloyd"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2014-04-21T05:58:26Z",
+                    "email": "j.nevercast@gmail.com",
+                    "name": "Josh Lloyd"
+                },
+                "message": "Some old API breaking changes\n\n* bot.players is now a lookup function, the caching of entities was bad.\n* entity's now have an isValid property, plugins should check this.\nIgnore an entity if it's not valid (Set to false when destroyed)\n* bot.players takes a string, regular expression or function to filter\nyour lookups, quite handy. No argument will return all players. Most\narguments will return an Array of entities, except for a String when it\nmatches exactly to a player's name, in which case just that player is\nreturned.\n* Player Entities are now not a thing, they are just entities, player\ninformation is stored in the entity property, entity.playerInfo. EG.\nentity.playerInfo.ping",
+                "tree": {
+                    "sha": "4387ef5758fa7b9ab2e3d6ada53f26d1fceb3b8c",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/4387ef5758fa7b9ab2e3d6ada53f26d1fceb3b8c"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/1d05edc4fe068400dabfad2eb5fda8acdb8bf4b5"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/1d05edc4fe068400dabfad2eb5fda8acdb8bf4b5",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/d25200435db99d065da1736db6b902b23390e08f",
+                    "sha": "d25200435db99d065da1736db6b902b23390e08f",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/d25200435db99d065da1736db6b902b23390e08f"
+                }
+            ],
+            "sha": "1d05edc4fe068400dabfad2eb5fda8acdb8bf4b5",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/1d05edc4fe068400dabfad2eb5fda8acdb8bf4b5"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/2f9e9fb5e3649dfe39b68e0daf29500c421c3fc2/comments",
+            "commit": {
+                "author": {
+                    "date": "2014-04-21T06:25:46Z",
+                    "email": "j.nevercast@gmail.com",
+                    "name": "Josh Lloyd"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2014-04-21T06:25:46Z",
+                    "email": "j.nevercast@gmail.com",
+                    "name": "Josh Lloyd"
+                },
+                "message": "Reverted bot.players, added bot.findPlayers\n\n* Remove some debugging stuff\n* Added inventory assertion\n* Previous search function changed to bot.findPlayers\n* Aliases as bot.findPlayer\n* bot.players returned to previous functionality to support entities\nthat are out of range.]",
+                "tree": {
+                    "sha": "d150cf232b7f87e81b29c0b4f31edb0fc2b29bdd",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/d150cf232b7f87e81b29c0b4f31edb0fc2b29bdd"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/2f9e9fb5e3649dfe39b68e0daf29500c421c3fc2"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/2f9e9fb5e3649dfe39b68e0daf29500c421c3fc2",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/1d05edc4fe068400dabfad2eb5fda8acdb8bf4b5",
+                    "sha": "1d05edc4fe068400dabfad2eb5fda8acdb8bf4b5",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/1d05edc4fe068400dabfad2eb5fda8acdb8bf4b5"
+                }
+            ],
+            "sha": "2f9e9fb5e3649dfe39b68e0daf29500c421c3fc2",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/2f9e9fb5e3649dfe39b68e0daf29500c421c3fc2"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/a7e831b868c54b04bf1096a12283bc6e7738c9ad/comments",
+            "commit": {
+                "author": {
+                    "date": "2014-04-21T07:17:16Z",
+                    "email": "j.nevercast@gmail.com",
+                    "name": "Josh Lloyd"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2014-04-21T07:17:16Z",
+                    "email": "j.nevercast@gmail.com",
+                    "name": "Josh Lloyd"
+                },
+                "message": "Fix broken heldItem/selectedSlot\n\n* Reimplement equiping by type",
+                "tree": {
+                    "sha": "2426ebcb1539427166a5dd0f96bb8e392f05b34e",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/2426ebcb1539427166a5dd0f96bb8e392f05b34e"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/a7e831b868c54b04bf1096a12283bc6e7738c9ad"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+                "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nevercast/followers",
+                "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nevercast",
+                "id": 834342,
+                "login": "nevercast",
+                "organizations_url": "https://api.github.com/users/nevercast/orgs",
+                "received_events_url": "https://api.github.com/users/nevercast/received_events",
+                "repos_url": "https://api.github.com/users/nevercast/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nevercast"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/a7e831b868c54b04bf1096a12283bc6e7738c9ad",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/2f9e9fb5e3649dfe39b68e0daf29500c421c3fc2",
+                    "sha": "2f9e9fb5e3649dfe39b68e0daf29500c421c3fc2",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/2f9e9fb5e3649dfe39b68e0daf29500c421c3fc2"
+                }
+            ],
+            "sha": "a7e831b868c54b04bf1096a12283bc6e7738c9ad",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/a7e831b868c54b04bf1096a12283bc6e7738c9ad"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/b935e618b0200f469a5adaef906bc32164c11c2e/comments",
+            "commit": {
+                "author": {
+                    "date": "2014-04-21T21:32:11Z",
+                    "email": "robinlambertz.dev@gmail.com",
+                    "name": "Robin Lambertz"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2014-04-21T21:32:11Z",
+                    "email": "robinlambertz.dev@gmail.com",
+                    "name": "Robin Lambertz"
+                },
+                "message": "Merge pull request #2 from nevercast/feature-1.7\n\nMerge nevercast/feature-1.7",
+                "tree": {
+                    "sha": "2426ebcb1539427166a5dd0f96bb8e392f05b34e",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/2426ebcb1539427166a5dd0f96bb8e392f05b34e"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/b935e618b0200f469a5adaef906bc32164c11c2e"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/b935e618b0200f469a5adaef906bc32164c11c2e",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/54b5920bed652a1ebbe6e3cd4d2e04ee8740ea1a",
+                    "sha": "54b5920bed652a1ebbe6e3cd4d2e04ee8740ea1a",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/54b5920bed652a1ebbe6e3cd4d2e04ee8740ea1a"
+                },
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/a7e831b868c54b04bf1096a12283bc6e7738c9ad",
+                    "sha": "a7e831b868c54b04bf1096a12283bc6e7738c9ad",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/a7e831b868c54b04bf1096a12283bc6e7738c9ad"
+                }
+            ],
+            "sha": "b935e618b0200f469a5adaef906bc32164c11c2e",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/b935e618b0200f469a5adaef906bc32164c11c2e"
+        }
+    ],
+    "commits_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/173/commits",
+    "created_at": "2014-04-13T16:49:48Z",
+    "diff_url": "https://github.com/andrewrk/mineflayer/pull/173.diff",
+    "head": {
+        "label": "roblabla:feature-1.7",
+        "ref": "feature-1.7",
+        "repo": {
+            "archive_url": "https://api.github.com/repos/roblabla/mineflayer/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/roblabla/mineflayer/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/roblabla/mineflayer/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/roblabla/mineflayer/branches{/branch}",
+            "clone_url": "https://github.com/roblabla/mineflayer.git",
+            "collaborators_url": "https://api.github.com/repos/roblabla/mineflayer/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/roblabla/mineflayer/comments{/number}",
+            "commits_url": "https://api.github.com/repos/roblabla/mineflayer/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/roblabla/mineflayer/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/roblabla/mineflayer/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/roblabla/mineflayer/contributors",
+            "created_at": "2014-04-12T17:26:03Z",
+            "default_branch": "master",
+            "description": "Create Minecraft bots with a powerful, stable, and high level JavaScript API.",
+            "downloads_url": "https://api.github.com/repos/roblabla/mineflayer/downloads",
+            "events_url": "https://api.github.com/repos/roblabla/mineflayer/events",
+            "fork": true,
+            "forks": 0,
+            "forks_count": 0,
+            "forks_url": "https://api.github.com/repos/roblabla/mineflayer/forks",
+            "full_name": "roblabla/mineflayer",
+            "git_commits_url": "https://api.github.com/repos/roblabla/mineflayer/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/roblabla/mineflayer/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/roblabla/mineflayer/git/tags{/sha}",
+            "git_url": "git://github.com/roblabla/mineflayer.git",
+            "has_downloads": true,
+            "has_issues": false,
+            "has_pages": false,
+            "has_wiki": true,
+            "homepage": "",
+            "hooks_url": "https://api.github.com/repos/roblabla/mineflayer/hooks",
+            "html_url": "https://github.com/roblabla/mineflayer",
+            "id": 18709919,
+            "issue_comment_url": "https://api.github.com/repos/roblabla/mineflayer/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/roblabla/mineflayer/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/roblabla/mineflayer/issues{/number}",
+            "keys_url": "https://api.github.com/repos/roblabla/mineflayer/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/roblabla/mineflayer/labels{/name}",
+            "language": "JavaScript",
+            "languages_url": "https://api.github.com/repos/roblabla/mineflayer/languages",
+            "merges_url": "https://api.github.com/repos/roblabla/mineflayer/merges",
+            "milestones_url": "https://api.github.com/repos/roblabla/mineflayer/milestones{/number}",
+            "mirror_url": null,
+            "name": "mineflayer",
+            "notifications_url": "https://api.github.com/repos/roblabla/mineflayer/notifications{?since,all,participating}",
+            "open_issues": 0,
+            "open_issues_count": 0,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/roblabla/mineflayer/pulls{/number}",
+            "pushed_at": "2015-03-16T11:25:37Z",
+            "releases_url": "https://api.github.com/repos/roblabla/mineflayer/releases{/id}",
+            "size": 9912,
+            "ssh_url": "git@github.com:roblabla/mineflayer.git",
+            "stargazers_count": 1,
+            "stargazers_url": "https://api.github.com/repos/roblabla/mineflayer/stargazers",
+            "statuses_url": "https://api.github.com/repos/roblabla/mineflayer/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/roblabla/mineflayer/subscribers",
+            "subscription_url": "https://api.github.com/repos/roblabla/mineflayer/subscription",
+            "svn_url": "https://github.com/roblabla/mineflayer",
+            "tags_url": "https://api.github.com/repos/roblabla/mineflayer/tags",
+            "teams_url": "https://api.github.com/repos/roblabla/mineflayer/teams",
+            "trees_url": "https://api.github.com/repos/roblabla/mineflayer/git/trees{/sha}",
+            "updated_at": "2014-04-27T06:02:39Z",
+            "url": "https://api.github.com/repos/roblabla/mineflayer",
+            "watchers": 1,
+            "watchers_count": 1
+        },
+        "sha": "b935e618b0200f469a5adaef906bc32164c11c2e",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+            "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+            "followers_url": "https://api.github.com/users/roblabla/followers",
+            "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+            "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/roblabla",
+            "id": 1069318,
+            "login": "roblabla",
+            "organizations_url": "https://api.github.com/users/roblabla/orgs",
+            "received_events_url": "https://api.github.com/users/roblabla/received_events",
+            "repos_url": "https://api.github.com/users/roblabla/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/roblabla"
+        }
+    },
+    "html_url": "https://github.com/andrewrk/mineflayer/pull/173",
+    "id": 14695703,
+    "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/173",
+    "locked": false,
+    "merge_commit_sha": "576a60e0d9f4c5f7dc1538081078cdadb0a05cef",
+    "merged_at": "2014-04-27T06:02:39Z",
+    "milestone": {
+        "closed_at": null,
+        "closed_issues": 12,
+        "created_at": "2014-04-21T22:45:16Z",
+        "creator": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
+            "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
+            "followers_url": "https://api.github.com/users/nevercast/followers",
+            "following_url": "https://api.github.com/users/nevercast/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nevercast/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/nevercast",
+            "id": 834342,
+            "login": "nevercast",
+            "organizations_url": "https://api.github.com/users/nevercast/orgs",
+            "received_events_url": "https://api.github.com/users/nevercast/received_events",
+            "repos_url": "https://api.github.com/users/nevercast/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/nevercast/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nevercast/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/nevercast"
+        },
+        "description": "Minecraft 1.8.x compliant bot\r\nAll examples should work and code thoroughly checked",
+        "due_on": null,
+        "html_url": "https://github.com/andrewrk/mineflayer/milestones/1.1.0",
+        "id": 636181,
+        "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/milestones/1/labels",
+        "number": 1,
+        "open_issues": 0,
+        "state": "open",
+        "title": "1.1.0",
+        "updated_at": "2015-04-15T17:01:24Z",
+        "url": "https://api.github.com/repos/andrewrk/mineflayer/milestones/1"
+    },
+    "number": 173,
+    "patch_url": "https://github.com/andrewrk/mineflayer/pull/173.patch",
+    "review_comment_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/comments{/number}",
+    "review_comments_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/173/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/andrewrk/mineflayer/statuses/b935e618b0200f469a5adaef906bc32164c11c2e",
+    "title": "[WIP] 1.7 Support",
+    "updated_at": "2014-10-15T18:36:18Z",
+    "url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/173",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+        "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+        "followers_url": "https://api.github.com/users/roblabla/followers",
+        "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+        "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/roblabla",
+        "id": 1069318,
+        "login": "roblabla",
+        "organizations_url": "https://api.github.com/users/roblabla/orgs",
+        "received_events_url": "https://api.github.com/users/roblabla/received_events",
+        "repos_url": "https://api.github.com/users/roblabla/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/roblabla"
+    }
+}

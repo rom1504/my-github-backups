@@ -1,0 +1,162 @@
+{
+    "assignee": null,
+    "body": "So this is not really a nmp issue : there is nothing to fix in nmp in this issue, but it's an issue that can concern several nmp users.\r\n\r\nThe starting point of this issue is to see that mineflayer provide an high-level api for clients, flying-squid is starting to provide an high-level api for servers, and some things are common in these two implementations.\r\n\r\nSo what is common ?\r\n\r\nThere are 4 main things that are done with nmp : \r\n1) reading client bound packets\r\n2) writing server bound packets\r\n3) reading server bound packets\r\n4) writing client bound packets\r\n\r\nMineflayer is doing 1 and 2 and flying-squid is doing 3 and 4.\r\n\r\nNow there's a third kind of nmp users : proxies, like the one @Egoscio is building. And proxies actually do these 4 things : they need to understand the 2 direction and send packets to the 2.\r\n\r\nMineflayer and flying-squid can both use certain type of representation to store information, for example prisimarine-block, prisimarine-entity, prisimarine-world, node-vec3. \r\n\r\nNow the handling of reading and writing packets is different with just the storing information part.\r\n\r\nI think what would be interesting for all these users would be to provide methods that would make it easier to read and write the packets at a higher level. For example the block_place packet contain a direction number and a reference block position, it would be interesting to transform that into an event containing the position of the future block, and a direction vector instead of the direction number. This is just one example ( and I will add more) but this is the kind of things that would make writing mineflayer and flying-squid easier.\r\n\r\nSo basically the idea is to provide methods to facilitate writing packets and reading packets from a higher level perspective.\r\n\r\nIn a second stage it might be interesting to have 2 back ends for that representation : mcpc and mcpe. That way it would be easier to write bots, servers and proxies that would work for both mcpc and mcpe.\r\n\r\nThis is the basic idea and I'll add more examples later to make sure and prove that having a higher level representation of these network operations make sense.\r\n\r\n",
+    "closed_at": null,
+    "comment_data": [
+        {
+            "body": "Some ideas : \r\n* transform field type like block id, entity id, position to their corresponding classes (prismarine-block, prisimarine-entity, vec3)\r\n* group some packets like the spawn entity packet\r\n* compare mcpc and mcpe protocols to have ideas about how to build a common representation\r\n\r\nI think that representation should be made available to users but the low level representation should still be available even if we would encourage users to use only the high level representation if possible.\r\n",
+            "created_at": "2015-09-10T15:36:14Z",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/issues/231#issuecomment-139283797",
+            "id": 139283797,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/231",
+            "updated_at": "2015-09-10T15:36:14Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/comments/139283797",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        }
+    ],
+    "comments": 1,
+    "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/231/comments",
+    "created_at": "2015-09-10T06:43:56Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/3950951?v=3",
+                "events_url": "https://api.github.com/users/Egoscio/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Egoscio/followers",
+                "following_url": "https://api.github.com/users/Egoscio/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Egoscio/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Egoscio",
+                "id": 3950951,
+                "login": "Egoscio",
+                "organizations_url": "https://api.github.com/users/Egoscio/orgs",
+                "received_events_url": "https://api.github.com/users/Egoscio/received_events",
+                "repos_url": "https://api.github.com/users/Egoscio/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Egoscio/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Egoscio/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Egoscio"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-09-10T06:43:56Z",
+            "event": "mentioned",
+            "id": 405610922,
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/events/405610922"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/3950951?v=3",
+                "events_url": "https://api.github.com/users/Egoscio/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Egoscio/followers",
+                "following_url": "https://api.github.com/users/Egoscio/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Egoscio/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Egoscio",
+                "id": 3950951,
+                "login": "Egoscio",
+                "organizations_url": "https://api.github.com/users/Egoscio/orgs",
+                "received_events_url": "https://api.github.com/users/Egoscio/received_events",
+                "repos_url": "https://api.github.com/users/Egoscio/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Egoscio/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Egoscio/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Egoscio"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-09-10T06:43:56Z",
+            "event": "subscribed",
+            "id": 405610923,
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/events/405610923"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-11-15T17:08:15Z",
+            "event": "labeled",
+            "id": 464824743,
+            "label": {
+                "color": "0052cc",
+                "name": "use case"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/events/464824743"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/231/events",
+    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/issues/231",
+    "id": 105741916,
+    "labels": [
+        {
+            "color": "0052cc",
+            "name": "use case",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/labels/use%20case"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/231/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 231,
+    "state": "open",
+    "title": "High level abstractions above nmp",
+    "updated_at": "2015-11-15T17:08:15Z",
+    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/231",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

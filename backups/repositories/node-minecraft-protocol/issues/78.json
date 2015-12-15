@@ -1,0 +1,233 @@
+{
+    "assignee": null,
+    "body": "Right now, we have two string types, string and ustring. The former is limited to 255 characters, while the other isn't limited at all. The whole problem is, minecraft limits the length of certain fields to a certain amount of characters. Generally speaking, the limit is 255 characters, but that is not always the case.\r\n\r\nUnfortunately, this has caused many issues in the library in the past, where a field would be marked as a \"string\" when it could receive input longer than 255 characters.  To make matters worse, wiki.vg doesn't really give much insight in which fields are limited in length.\r\n\r\nI suggest we simply remove the limit from the packets entirely. It should be the user's responsibility to make sure the other side doesn't give unwanted input, and thus sanitize the input. ",
+    "closed_at": "2015-05-23T13:27:26Z",
+    "comment_data": [
+        {
+            "body": "It seems all client->server string are limited.\r\nA fix to this would be adding a \"length\" typearg to the string type and having it default to infinity (useful for server->client string fields)",
+            "created_at": "2015-05-23T00:01:00Z",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/issues/78#issuecomment-104804495",
+            "id": 104804495,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/78",
+            "updated_at": "2015-05-23T00:01:00Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/comments/104804495",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        }
+    ],
+    "comments": 1,
+    "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/78/comments",
+    "created_at": "2014-03-16T18:01:02Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2014-03-16T18:01:02Z",
+            "event": "labeled",
+            "id": 102411674,
+            "label": {
+                "color": "cc317c",
+                "name": "question"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/events/102411674"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2014-03-16T18:01:33Z",
+            "event": "labeled",
+            "id": 102411718,
+            "label": {
+                "color": "84b6eb",
+                "name": "enhancement"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/events/102411718"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2014-04-12T10:31:26Z",
+            "event": "unlabeled",
+            "id": 111149731,
+            "label": {
+                "color": "84b6eb",
+                "name": "enhancement"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/events/111149731"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2014-04-12T10:31:27Z",
+            "event": "labeled",
+            "id": 111149732,
+            "label": {
+                "color": "fc2929",
+                "name": "bug"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/events/111149732"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-05-23T13:27:26Z",
+            "event": "closed",
+            "id": 312319485,
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/events/312319485"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/78/events",
+    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/issues/78",
+    "id": 29522077,
+    "labels": [
+        {
+            "color": "fc2929",
+            "name": "bug",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/labels/bug"
+        },
+        {
+            "color": "cc317c",
+            "name": "question",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/labels/question"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/78/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 78,
+    "state": "closed",
+    "title": "The string dilemna",
+    "updated_at": "2015-05-23T13:27:26Z",
+    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/78",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+        "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+        "followers_url": "https://api.github.com/users/roblabla/followers",
+        "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+        "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/roblabla",
+        "id": 1069318,
+        "login": "roblabla",
+        "organizations_url": "https://api.github.com/users/roblabla/orgs",
+        "received_events_url": "https://api.github.com/users/roblabla/received_events",
+        "repos_url": "https://api.github.com/users/roblabla/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/roblabla"
+    }
+}

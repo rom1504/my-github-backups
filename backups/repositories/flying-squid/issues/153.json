@@ -1,0 +1,135 @@
+{
+    "assignee": null,
+    "body": "Stuff that are not related to network (~= nmp) are fairly independent from plugins and fit in lib/.\r\nFor example https://github.com/mhsjlw/flying-squid/blob/master/src/lib/plugins/experience.js#L59\r\n\r\nIt can then be exported in index.js and used as `var experience = require(\"flying-squid\").experience;`",
+    "closed_at": "2015-12-10T00:50:39Z",
+    "comment_data": [
+        {
+            "body": "done by ad7253d36deaab56002786841c1c11c019faa3e4",
+            "created_at": "2015-12-10T00:50:39Z",
+            "html_url": "https://github.com/mhsjlw/flying-squid/issues/153#issuecomment-163451511",
+            "id": 163451511,
+            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/153",
+            "updated_at": "2015-12-10T00:50:39Z",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/163451511",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        }
+    ],
+    "comments": 1,
+    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/153/comments",
+    "created_at": "2015-12-10T00:31:50Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-12-10T00:32:07Z",
+            "event": "labeled",
+            "id": 487615631,
+            "label": {
+                "color": "006b75",
+                "name": "refactoring"
+            },
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/487615631"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-12-10T00:50:39Z",
+            "event": "closed",
+            "id": 487628363,
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/487628363"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/153/events",
+    "html_url": "https://github.com/mhsjlw/flying-squid/issues/153",
+    "id": 121374082,
+    "labels": [
+        {
+            "color": "006b75",
+            "name": "refactoring",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/refactoring"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/153/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 153,
+    "state": "closed",
+    "title": "Move some things to lib/",
+    "updated_at": "2015-12-10T00:50:39Z",
+    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/153",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

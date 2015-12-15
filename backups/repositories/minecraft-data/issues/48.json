@@ -1,0 +1,115 @@
+{
+    "assignee": null,
+    "body": "\"hasInventory\": {true|false}\r\n\r\nExtractable from drops (\"plus content\") http://minecraft.gamepedia.com/index.php?title=Chest&action=edit",
+    "closed_at": null,
+    "comment_data": [],
+    "comments": 0,
+    "comments_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/48/comments",
+    "created_at": "2015-08-26T16:06:34Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-08-26T16:06:41Z",
+            "event": "labeled",
+            "id": 393038914,
+            "label": {
+                "color": "bfd4f2",
+                "name": "new data"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/events/393038914"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-08-26T16:06:41Z",
+            "event": "labeled",
+            "id": 393038915,
+            "label": {
+                "color": "5319e7",
+                "name": "schema change"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/events/393038915"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/48/events",
+    "html_url": "https://github.com/PrismarineJS/minecraft-data/issues/48",
+    "id": 103306831,
+    "labels": [
+        {
+            "color": "bfd4f2",
+            "name": "new data",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/labels/new%20data"
+        },
+        {
+            "color": "5319e7",
+            "name": "schema change",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/labels/schema%20change"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/48/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 48,
+    "state": "open",
+    "title": "Add hasInventory property in blocks.json",
+    "updated_at": "2015-08-26T16:06:41Z",
+    "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/48",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

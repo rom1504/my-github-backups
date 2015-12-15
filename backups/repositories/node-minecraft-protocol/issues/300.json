@@ -1,0 +1,108 @@
+{
+    "assignee": null,
+    "body": "\"string\" is more convenient to write than 4\r\n\r\nhttps://github.com/PrismarineJS/minecraft-data/blob/master/data/1.8/protocol.json#L29",
+    "closed_at": null,
+    "comment_data": [
+        {
+            "body": "I'm not 100% sure about this, it means adding more subjective names to protocol.json",
+            "created_at": "2015-11-19T14:25:20Z",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/issues/300#issuecomment-158072161",
+            "id": 158072161,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/300",
+            "updated_at": "2015-11-19T14:25:20Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/comments/158072161",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        }
+    ],
+    "comments": 1,
+    "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/300/comments",
+    "created_at": "2015-11-09T16:30:32Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-11-15T17:06:03Z",
+            "event": "labeled",
+            "id": 464823850,
+            "label": {
+                "color": "fad8c7",
+                "name": "refactoring"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/events/464823850"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/300/events",
+    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/issues/300",
+    "id": 115913372,
+    "labels": [
+        {
+            "color": "fad8c7",
+            "name": "refactoring",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/labels/refactoring"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/300/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 300,
+    "state": "open",
+    "title": "Use the new mapper datatype in entity metadata",
+    "updated_at": "2015-11-19T14:25:21Z",
+    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/300",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

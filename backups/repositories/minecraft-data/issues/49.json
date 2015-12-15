@@ -1,0 +1,79 @@
+{
+    "assignee": null,
+    "body": "## Main issue\r\nCurrently each version has its own schema.\r\n\r\nWhat would be nice is having a common schema for every version.\r\n\r\nProblem is : new things will be added and older versions didn't have as much data.\r\n\r\nAn other problem : some files, for examples blocks.json contain too many things which is annoying when creating extraction scripts (and possibly when reading it too)\r\n\r\nOne solution : keep things meaningful, split big files.\r\n\r\nFor example we might have a blockVariation.json instead of storing all the variations in blocks.json.\r\n\r\nThat would allow to have one common schema for all the versions. Some version just wouldn't have some of the data files.\r\n\r\n\r\n## Related/ideas\r\n* database schema are usually split when putting it in https://en.wikipedia.org/wiki/Database_normalization#Normal_forms\r\n* knowledge bases avoid that problem by putting data in its atomic form : triples\r\n\r\nThe knowledge base way is close to what we are doing (for example `<1,name,stone>`)\r\nand it's even possible to convert all our data to a knowledge base forma (like n triples) by using json ld (http://json-ld.org/)\r\n\r\nAlso see http://wikiba.se/",
+    "closed_at": null,
+    "comment_data": [],
+    "comments": 0,
+    "comments_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/49/comments",
+    "created_at": "2015-08-27T13:43:33Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-08-27T13:43:38Z",
+            "event": "labeled",
+            "id": 394029286,
+            "label": {
+                "color": "5319e7",
+                "name": "schema change"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/events/394029286"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/49/events",
+    "html_url": "https://github.com/PrismarineJS/minecraft-data/issues/49",
+    "id": 103512592,
+    "labels": [
+        {
+            "color": "5319e7",
+            "name": "schema change",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/labels/schema%20change"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/49/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 49,
+    "state": "open",
+    "title": "Keeping file size reasonable and schema independance",
+    "updated_at": "2015-09-04T16:57:46Z",
+    "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/49",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

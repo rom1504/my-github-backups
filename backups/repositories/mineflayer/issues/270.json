@@ -1,0 +1,200 @@
+{
+    "assignee": null,
+    "body": "The description for item nbt data (https://github.com/andrewrk/mineflayer/blob/master/doc/api.md#itemnbt) is just, \"Buffer\".",
+    "closed_at": null,
+    "comment_data": [
+        {
+            "body": "That nbt data is defined in [fromNotch](https://github.com/andrewrk/mineflayer/blob/7890055e1046098487d8ce6ac5ded811813ea7b9/lib/item.js#L50) which is used when [reading set_slot packet](https://github.com/andrewrk/mineflayer/blob/e5b3455b6c433e8d57c93d8e6f579b1e71afc19c/lib/plugins/inventory.js#L412)\r\nThat's defined when [reading a slot](https://github.com/PrismarineJS/node-minecraft-protocol/blob/master/src/protocol.js#L1140) and in particular when [reading nbt](https://github.com/PrismarineJS/node-minecraft-protocol/blob/master/src/protocol.js#L975)\r\n\r\nThat's done in [prismarine-nbt](https://github.com/PrismarineJS/prismarine-nbt/blob/master/nbt.js#L235)\r\nwhich doesn't have much documentation and neither does [nbt.js](https://github.com/sjmulder/nbt-js)\r\n\r\nMaybe the [wiki page](http://wiki.vg/NBT) would be useful to understand and then to document in mineflayer how to use that nbt data.\r\n\r\nAnyway yes we should document this better, I don't think mineflayer currently use any of that nbt data ? (just checked : no it doesn't)",
+            "created_at": "2015-04-23T09:58:42Z",
+            "html_url": "https://github.com/andrewrk/mineflayer/issues/270#issuecomment-95520060",
+            "id": 95520060,
+            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/270",
+            "updated_at": "2015-04-23T10:07:35Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/95520060",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "body": "Setting NBT is relevant for creative slot setting, and for looking if a tool is enchanted. Even though mineflayer itself does not use it currently, it might be a good idea to provide some NBT system that interfaces well with mineflayer, as bot devs certainly will make use of NBT. This does not mean it has to be included in mineflayer, but to be easy to use together with mineflayer.",
+            "created_at": "2015-04-23T22:08:37Z",
+            "html_url": "https://github.com/andrewrk/mineflayer/issues/270#issuecomment-95732385",
+            "id": 95732385,
+            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/270",
+            "updated_at": "2015-04-23T22:08:37Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/95732385",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2612164?v=3",
+                "events_url": "https://api.github.com/users/Gjum/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Gjum/followers",
+                "following_url": "https://api.github.com/users/Gjum/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Gjum/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Gjum",
+                "id": 2612164,
+                "login": "Gjum",
+                "organizations_url": "https://api.github.com/users/Gjum/orgs",
+                "received_events_url": "https://api.github.com/users/Gjum/received_events",
+                "repos_url": "https://api.github.com/users/Gjum/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Gjum/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Gjum/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Gjum"
+            }
+        },
+        {
+            "body": "Yeah sure, actually I think we should probably simply improve the doc of https://github.com/PrismarineJS/prismarine-nbt (or https://github.com/sjmulder/nbt-js) and use that.\r\n",
+            "created_at": "2015-04-23T22:13:57Z",
+            "html_url": "https://github.com/andrewrk/mineflayer/issues/270#issuecomment-95733174",
+            "id": 95733174,
+            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/270",
+            "updated_at": "2015-04-23T22:13:57Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/95733174",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        }
+    ],
+    "comments": 3,
+    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/270/comments",
+    "created_at": "2015-04-23T04:52:25Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-04-23T15:35:48Z",
+            "event": "labeled",
+            "id": 288438179,
+            "label": {
+                "color": "c7def8",
+                "name": "inventory"
+            },
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/288438179"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-04-23T15:35:56Z",
+            "event": "labeled",
+            "id": 288438325,
+            "label": {
+                "color": "d4c5f9",
+                "name": "documentation"
+            },
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/288438325"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/270/events",
+    "html_url": "https://github.com/andrewrk/mineflayer/issues/270",
+    "id": 70307423,
+    "labels": [
+        {
+            "color": "d4c5f9",
+            "name": "documentation",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/documentation"
+        },
+        {
+            "color": "c7def8",
+            "name": "inventory",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/inventory"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/270/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 270,
+    "state": "open",
+    "title": "NBT documentation unclear",
+    "updated_at": "2015-04-23T22:13:57Z",
+    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/270",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1331014?v=3",
+        "events_url": "https://api.github.com/users/Plazmaz/events{/privacy}",
+        "followers_url": "https://api.github.com/users/Plazmaz/followers",
+        "following_url": "https://api.github.com/users/Plazmaz/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Plazmaz/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/Plazmaz",
+        "id": 1331014,
+        "login": "Plazmaz",
+        "organizations_url": "https://api.github.com/users/Plazmaz/orgs",
+        "received_events_url": "https://api.github.com/users/Plazmaz/received_events",
+        "repos_url": "https://api.github.com/users/Plazmaz/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/Plazmaz/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Plazmaz/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/Plazmaz"
+    }
+}

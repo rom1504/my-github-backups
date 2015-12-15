@@ -1,0 +1,115 @@
+{
+    "assignee": null,
+    "body": "Currently, buffer \"hides\" the countType field. Need to find a simple way to reveal it. A suggestion rom1504 made : make type `array counted by <countType>`.",
+    "closed_at": null,
+    "comment_data": [],
+    "comments": 0,
+    "comments_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/60/comments",
+    "created_at": "2015-09-03T15:03:48Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-09-03T15:03:48Z",
+            "event": "labeled",
+            "id": 400172116,
+            "label": {
+                "color": "fef2c0",
+                "name": "documentation"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/events/400172116"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-09-03T15:03:48Z",
+            "event": "labeled",
+            "id": 400172117,
+            "label": {
+                "color": "d4c5f9",
+                "name": "protocol"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/events/400172117"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/60/events",
+    "html_url": "https://github.com/PrismarineJS/minecraft-data/issues/60",
+    "id": 104716238,
+    "labels": [
+        {
+            "color": "fef2c0",
+            "name": "documentation",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/labels/documentation"
+        },
+        {
+            "color": "d4c5f9",
+            "name": "protocol",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/labels/protocol"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/60/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 60,
+    "state": "open",
+    "title": "Expand buffer countType field",
+    "updated_at": "2015-09-03T15:03:48Z",
+    "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/60",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+        "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+        "followers_url": "https://api.github.com/users/roblabla/followers",
+        "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+        "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/roblabla",
+        "id": 1069318,
+        "login": "roblabla",
+        "organizations_url": "https://api.github.com/users/roblabla/orgs",
+        "received_events_url": "https://api.github.com/users/roblabla/received_events",
+        "repos_url": "https://api.github.com/users/roblabla/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/roblabla"
+    }
+}

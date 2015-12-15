@@ -1,0 +1,580 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/63/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/PrismarineJS/minecraft-data/pulls/63/commits"
+        },
+        "html": {
+            "href": "https://github.com/PrismarineJS/minecraft-data/pull/63"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/63"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/PrismarineJS/minecraft-data/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/PrismarineJS/minecraft-data/pulls/63/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/PrismarineJS/minecraft-data/pulls/63"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/PrismarineJS/minecraft-data/statuses/7699aaa1a6cb7669a46f96bbafddedb1efee8dd7"
+        }
+    },
+    "assignee": null,
+    "base": {
+        "label": "PrismarineJS:1.8",
+        "ref": "1.8",
+        "repo": {
+            "archive_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/branches{/branch}",
+            "clone_url": "https://github.com/PrismarineJS/minecraft-data.git",
+            "collaborators_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/comments{/number}",
+            "commits_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/contributors",
+            "created_at": "2015-03-23T15:38:19Z",
+            "default_branch": "master",
+            "description": "Language independent module providing minecraft data for minecraft clients, servers and libraries.",
+            "downloads_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/downloads",
+            "events_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/events",
+            "fork": false,
+            "forks": 10,
+            "forks_count": 10,
+            "forks_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/forks",
+            "full_name": "PrismarineJS/minecraft-data",
+            "git_commits_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/git/tags{/sha}",
+            "git_url": "git://github.com/PrismarineJS/minecraft-data.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": true,
+            "has_wiki": true,
+            "homepage": "http://prismarinejs.github.io/minecraft-data/",
+            "hooks_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/hooks",
+            "html_url": "https://github.com/PrismarineJS/minecraft-data",
+            "id": 32741498,
+            "issue_comment_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues{/number}",
+            "keys_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/labels{/name}",
+            "language": null,
+            "languages_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/languages",
+            "merges_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/merges",
+            "milestones_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/milestones{/number}",
+            "mirror_url": null,
+            "name": "minecraft-data",
+            "notifications_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/notifications{?since,all,participating}",
+            "open_issues": 33,
+            "open_issues_count": 33,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/11053411?v=3",
+                "events_url": "https://api.github.com/users/PrismarineJS/events{/privacy}",
+                "followers_url": "https://api.github.com/users/PrismarineJS/followers",
+                "following_url": "https://api.github.com/users/PrismarineJS/following{/other_user}",
+                "gists_url": "https://api.github.com/users/PrismarineJS/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/PrismarineJS",
+                "id": 11053411,
+                "login": "PrismarineJS",
+                "organizations_url": "https://api.github.com/users/PrismarineJS/orgs",
+                "received_events_url": "https://api.github.com/users/PrismarineJS/received_events",
+                "repos_url": "https://api.github.com/users/PrismarineJS/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/PrismarineJS/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/PrismarineJS/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/PrismarineJS"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/pulls{/number}",
+            "pushed_at": "2015-11-15T16:37:31Z",
+            "releases_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/releases{/id}",
+            "size": 958,
+            "ssh_url": "git@github.com:PrismarineJS/minecraft-data.git",
+            "stargazers_count": 16,
+            "stargazers_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/stargazers",
+            "statuses_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/subscribers",
+            "subscription_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/subscription",
+            "svn_url": "https://github.com/PrismarineJS/minecraft-data",
+            "tags_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/tags",
+            "teams_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/teams",
+            "trees_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/git/trees{/sha}",
+            "updated_at": "2015-11-16T22:15:47Z",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data",
+            "watchers": 16,
+            "watchers_count": 16
+        },
+        "sha": "f184c73bad487d3b731f215fc1a1ab2bdafa6292",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/11053411?v=3",
+            "events_url": "https://api.github.com/users/PrismarineJS/events{/privacy}",
+            "followers_url": "https://api.github.com/users/PrismarineJS/followers",
+            "following_url": "https://api.github.com/users/PrismarineJS/following{/other_user}",
+            "gists_url": "https://api.github.com/users/PrismarineJS/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/PrismarineJS",
+            "id": 11053411,
+            "login": "PrismarineJS",
+            "organizations_url": "https://api.github.com/users/PrismarineJS/orgs",
+            "received_events_url": "https://api.github.com/users/PrismarineJS/received_events",
+            "repos_url": "https://api.github.com/users/PrismarineJS/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/PrismarineJS/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/PrismarineJS/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/PrismarineJS"
+        }
+    },
+    "body": "Finally a path forward for compatibility ! Fixes half of https://github.com/PrismarineJS/node-minecraft-protocol/issues/225 (mainly, entityMetadata). Slot is probably here to stay.",
+    "closed_at": "2015-09-10T00:54:44Z",
+    "comment_data": [],
+    "comments_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/63/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/commits/6118cd1144b0539f174f9b717697b5dbaef575f9/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-09-07T02:13:11Z",
+                    "email": "robinlambertz+dev@gmail.com",
+                    "name": "roblabla"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-09-08T13:06:03Z",
+                    "email": "robinlambertz+dev@gmail.com",
+                    "name": "roblabla"
+                },
+                "message": "Add bitfields, use it to define position and entityMetadata",
+                "tree": {
+                    "sha": "fcd21b4e3418aaf894ed5d261382327a59809974",
+                    "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/git/trees/fcd21b4e3418aaf894ed5d261382327a59809974"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/git/commits/6118cd1144b0539f174f9b717697b5dbaef575f9"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "html_url": "https://github.com/PrismarineJS/minecraft-data/commit/6118cd1144b0539f174f9b717697b5dbaef575f9",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/minecraft-data/commit/4f3ff3059bc5a52eb84a68ee014a0f297d045a6d",
+                    "sha": "4f3ff3059bc5a52eb84a68ee014a0f297d045a6d",
+                    "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/commits/4f3ff3059bc5a52eb84a68ee014a0f297d045a6d"
+                }
+            ],
+            "sha": "6118cd1144b0539f174f9b717697b5dbaef575f9",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/commits/6118cd1144b0539f174f9b717697b5dbaef575f9"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/commits/b260d7d3ab5dd1b27d5aec63ad931581bc40f95d/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-09-09T23:25:42Z",
+                    "email": "robinlambertz+dev@gmail.com",
+                    "name": "roblabla"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-09-09T23:25:42Z",
+                    "email": "robinlambertz+dev@gmail.com",
+                    "name": "roblabla"
+                },
+                "message": "Protocol schema, implemented bitfield, anon struct, entityMetadata",
+                "tree": {
+                    "sha": "0ec3a17c2a316efea6c0f5e9efe573683d996c61",
+                    "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/git/trees/0ec3a17c2a316efea6c0f5e9efe573683d996c61"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/git/commits/b260d7d3ab5dd1b27d5aec63ad931581bc40f95d"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "html_url": "https://github.com/PrismarineJS/minecraft-data/commit/b260d7d3ab5dd1b27d5aec63ad931581bc40f95d",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/minecraft-data/commit/6118cd1144b0539f174f9b717697b5dbaef575f9",
+                    "sha": "6118cd1144b0539f174f9b717697b5dbaef575f9",
+                    "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/commits/6118cd1144b0539f174f9b717697b5dbaef575f9"
+                }
+            ],
+            "sha": "b260d7d3ab5dd1b27d5aec63ad931581bc40f95d",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/commits/b260d7d3ab5dd1b27d5aec63ad931581bc40f95d"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/commits/05bbc0d649538964c020133e9ded9af67e8de5bb/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-09-09T23:45:33Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-09-09T23:45:33Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "message": "simplify the schema a bit by using oneOf\n\ninstead of not and anyOf",
+                "tree": {
+                    "sha": "28d38ba572e5b5d71ae2517e7e43b815cc961a3e",
+                    "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/git/trees/28d38ba572e5b5d71ae2517e7e43b815cc961a3e"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/git/commits/05bbc0d649538964c020133e9ded9af67e8de5bb"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "html_url": "https://github.com/PrismarineJS/minecraft-data/commit/05bbc0d649538964c020133e9ded9af67e8de5bb",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/minecraft-data/commit/b260d7d3ab5dd1b27d5aec63ad931581bc40f95d",
+                    "sha": "b260d7d3ab5dd1b27d5aec63ad931581bc40f95d",
+                    "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/commits/b260d7d3ab5dd1b27d5aec63ad931581bc40f95d"
+                }
+            ],
+            "sha": "05bbc0d649538964c020133e9ded9af67e8de5bb",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/commits/05bbc0d649538964c020133e9ded9af67e8de5bb"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/commits/7699aaa1a6cb7669a46f96bbafddedb1efee8dd7/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-09-09T23:49:08Z",
+                    "email": "robinlambertz+dev@gmail.com",
+                    "name": "Robin Lambertz"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-09-09T23:49:08Z",
+                    "email": "robinlambertz+dev@gmail.com",
+                    "name": "Robin Lambertz"
+                },
+                "message": "Merge pull request #4 from rom1504/patch-1\n\nsimplify the schema a bit by using oneOf",
+                "tree": {
+                    "sha": "28d38ba572e5b5d71ae2517e7e43b815cc961a3e",
+                    "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/git/trees/28d38ba572e5b5d71ae2517e7e43b815cc961a3e"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/git/commits/7699aaa1a6cb7669a46f96bbafddedb1efee8dd7"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "html_url": "https://github.com/PrismarineJS/minecraft-data/commit/7699aaa1a6cb7669a46f96bbafddedb1efee8dd7",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/minecraft-data/commit/b260d7d3ab5dd1b27d5aec63ad931581bc40f95d",
+                    "sha": "b260d7d3ab5dd1b27d5aec63ad931581bc40f95d",
+                    "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/commits/b260d7d3ab5dd1b27d5aec63ad931581bc40f95d"
+                },
+                {
+                    "html_url": "https://github.com/PrismarineJS/minecraft-data/commit/05bbc0d649538964c020133e9ded9af67e8de5bb",
+                    "sha": "05bbc0d649538964c020133e9ded9af67e8de5bb",
+                    "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/commits/05bbc0d649538964c020133e9ded9af67e8de5bb"
+                }
+            ],
+            "sha": "7699aaa1a6cb7669a46f96bbafddedb1efee8dd7",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/commits/7699aaa1a6cb7669a46f96bbafddedb1efee8dd7"
+        }
+    ],
+    "commits_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/pulls/63/commits",
+    "created_at": "2015-09-07T12:08:27Z",
+    "diff_url": "https://github.com/PrismarineJS/minecraft-data/pull/63.diff",
+    "head": {
+        "label": "roblabla:1.8-feature-bitfields",
+        "ref": "1.8-feature-bitfields",
+        "repo": {
+            "archive_url": "https://api.github.com/repos/roblabla/minecraft-data/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/roblabla/minecraft-data/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/roblabla/minecraft-data/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/roblabla/minecraft-data/branches{/branch}",
+            "clone_url": "https://github.com/roblabla/minecraft-data.git",
+            "collaborators_url": "https://api.github.com/repos/roblabla/minecraft-data/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/roblabla/minecraft-data/comments{/number}",
+            "commits_url": "https://api.github.com/repos/roblabla/minecraft-data/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/roblabla/minecraft-data/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/roblabla/minecraft-data/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/roblabla/minecraft-data/contributors",
+            "created_at": "2015-08-13T11:20:51Z",
+            "default_branch": "master",
+            "description": "Language independent module providing minecraft data for minecraft clients, servers and libraries.",
+            "downloads_url": "https://api.github.com/repos/roblabla/minecraft-data/downloads",
+            "events_url": "https://api.github.com/repos/roblabla/minecraft-data/events",
+            "fork": true,
+            "forks": 1,
+            "forks_count": 1,
+            "forks_url": "https://api.github.com/repos/roblabla/minecraft-data/forks",
+            "full_name": "roblabla/minecraft-data",
+            "git_commits_url": "https://api.github.com/repos/roblabla/minecraft-data/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/roblabla/minecraft-data/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/roblabla/minecraft-data/git/tags{/sha}",
+            "git_url": "git://github.com/roblabla/minecraft-data.git",
+            "has_downloads": true,
+            "has_issues": false,
+            "has_pages": true,
+            "has_wiki": true,
+            "homepage": "http://prismarinejs.github.io/minecraft-data/",
+            "hooks_url": "https://api.github.com/repos/roblabla/minecraft-data/hooks",
+            "html_url": "https://github.com/roblabla/minecraft-data",
+            "id": 40654825,
+            "issue_comment_url": "https://api.github.com/repos/roblabla/minecraft-data/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/roblabla/minecraft-data/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/roblabla/minecraft-data/issues{/number}",
+            "keys_url": "https://api.github.com/repos/roblabla/minecraft-data/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/roblabla/minecraft-data/labels{/name}",
+            "language": "JavaScript",
+            "languages_url": "https://api.github.com/repos/roblabla/minecraft-data/languages",
+            "merges_url": "https://api.github.com/repos/roblabla/minecraft-data/merges",
+            "milestones_url": "https://api.github.com/repos/roblabla/minecraft-data/milestones{/number}",
+            "mirror_url": null,
+            "name": "minecraft-data",
+            "notifications_url": "https://api.github.com/repos/roblabla/minecraft-data/notifications{?since,all,participating}",
+            "open_issues": 0,
+            "open_issues_count": 0,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/roblabla/minecraft-data/pulls{/number}",
+            "pushed_at": "2015-09-23T17:27:16Z",
+            "releases_url": "https://api.github.com/repos/roblabla/minecraft-data/releases{/id}",
+            "size": 578,
+            "ssh_url": "git@github.com:roblabla/minecraft-data.git",
+            "stargazers_count": 0,
+            "stargazers_url": "https://api.github.com/repos/roblabla/minecraft-data/stargazers",
+            "statuses_url": "https://api.github.com/repos/roblabla/minecraft-data/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/roblabla/minecraft-data/subscribers",
+            "subscription_url": "https://api.github.com/repos/roblabla/minecraft-data/subscription",
+            "svn_url": "https://github.com/roblabla/minecraft-data",
+            "tags_url": "https://api.github.com/repos/roblabla/minecraft-data/tags",
+            "teams_url": "https://api.github.com/repos/roblabla/minecraft-data/teams",
+            "trees_url": "https://api.github.com/repos/roblabla/minecraft-data/git/trees{/sha}",
+            "updated_at": "2015-08-13T11:20:51Z",
+            "url": "https://api.github.com/repos/roblabla/minecraft-data",
+            "watchers": 0,
+            "watchers_count": 0
+        },
+        "sha": "7699aaa1a6cb7669a46f96bbafddedb1efee8dd7",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+            "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+            "followers_url": "https://api.github.com/users/roblabla/followers",
+            "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+            "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/roblabla",
+            "id": 1069318,
+            "login": "roblabla",
+            "organizations_url": "https://api.github.com/users/roblabla/orgs",
+            "received_events_url": "https://api.github.com/users/roblabla/received_events",
+            "repos_url": "https://api.github.com/users/roblabla/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/roblabla"
+        }
+    },
+    "html_url": "https://github.com/PrismarineJS/minecraft-data/pull/63",
+    "id": 44348893,
+    "issue_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/63",
+    "locked": false,
+    "merge_commit_sha": "d3be349f1f673ee154cbe70f14a2606ddb830a22",
+    "merged_at": "2015-09-10T00:54:44Z",
+    "milestone": null,
+    "number": 63,
+    "patch_url": "https://github.com/PrismarineJS/minecraft-data/pull/63.patch",
+    "review_comment_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/pulls/comments{/number}",
+    "review_comments_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/pulls/63/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/statuses/7699aaa1a6cb7669a46f96bbafddedb1efee8dd7",
+    "title": "Add bitfields, use it to define position and entityMetadata",
+    "updated_at": "2015-09-10T00:54:44Z",
+    "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/pulls/63",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+        "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+        "followers_url": "https://api.github.com/users/roblabla/followers",
+        "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+        "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/roblabla",
+        "id": 1069318,
+        "login": "roblabla",
+        "organizations_url": "https://api.github.com/users/roblabla/orgs",
+        "received_events_url": "https://api.github.com/users/roblabla/received_events",
+        "repos_url": "https://api.github.com/users/roblabla/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/roblabla"
+    }
+}

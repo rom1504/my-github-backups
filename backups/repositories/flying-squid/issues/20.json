@@ -1,0 +1,135 @@
+{
+    "assignee": null,
+    "body": "Maybe add a basic example too.",
+    "closed_at": "2015-08-30T18:22:11Z",
+    "comment_data": [
+        {
+            "body": "done",
+            "created_at": "2015-08-30T18:22:11Z",
+            "html_url": "https://github.com/mhsjlw/flying-squid/issues/20#issuecomment-136168119",
+            "id": 136168119,
+            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/20",
+            "updated_at": "2015-08-30T18:22:11Z",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/136168119",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        }
+    ],
+    "comments": 1,
+    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/20/comments",
+    "created_at": "2015-08-27T22:57:05Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-08-27T22:57:10Z",
+            "event": "labeled",
+            "id": 394554614,
+            "label": {
+                "color": "1a74ca",
+                "name": "documentation"
+            },
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/394554614"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-08-30T18:22:11Z",
+            "event": "closed",
+            "id": 396097803,
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/396097803"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/20/events",
+    "html_url": "https://github.com/mhsjlw/flying-squid/issues/20",
+    "id": 103611664,
+    "labels": [
+        {
+            "color": "1a74ca",
+            "name": "documentation",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/documentation"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/20/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 20,
+    "state": "closed",
+    "title": "Add documentation on how to use craftyjs as a server lib and npm publish it",
+    "updated_at": "2015-08-30T18:22:11Z",
+    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/20",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

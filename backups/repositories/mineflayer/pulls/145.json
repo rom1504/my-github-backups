@@ -1,0 +1,279 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/issues/145/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/145/commits"
+        },
+        "html": {
+            "href": "https://github.com/andrewrk/mineflayer/pull/145"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/issues/145"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/145/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/145"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/statuses/90036b50518ae59ec401ee6975fceb977915072b"
+        }
+    },
+    "assignee": null,
+    "base": {
+        "label": "andrewrk:master",
+        "ref": "master",
+        "repo": {
+            "archive_url": "https://api.github.com/repos/andrewrk/mineflayer/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/andrewrk/mineflayer/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/andrewrk/mineflayer/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/andrewrk/mineflayer/branches{/branch}",
+            "clone_url": "https://github.com/andrewrk/mineflayer.git",
+            "collaborators_url": "https://api.github.com/repos/andrewrk/mineflayer/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/comments{/number}",
+            "commits_url": "https://api.github.com/repos/andrewrk/mineflayer/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/andrewrk/mineflayer/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/andrewrk/mineflayer/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/andrewrk/mineflayer/contributors",
+            "created_at": "2011-01-23T09:41:55Z",
+            "default_branch": "master",
+            "description": "Create Minecraft bots with a powerful, stable, and high level JavaScript API.",
+            "downloads_url": "https://api.github.com/repos/andrewrk/mineflayer/downloads",
+            "events_url": "https://api.github.com/repos/andrewrk/mineflayer/events",
+            "fork": false,
+            "forks": 63,
+            "forks_count": 63,
+            "forks_url": "https://api.github.com/repos/andrewrk/mineflayer/forks",
+            "full_name": "andrewrk/mineflayer",
+            "git_commits_url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/andrewrk/mineflayer/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/andrewrk/mineflayer/git/tags{/sha}",
+            "git_url": "git://github.com/andrewrk/mineflayer.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_wiki": true,
+            "homepage": "",
+            "hooks_url": "https://api.github.com/repos/andrewrk/mineflayer/hooks",
+            "html_url": "https://github.com/andrewrk/mineflayer",
+            "id": 1284185,
+            "issue_comment_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/andrewrk/mineflayer/issues{/number}",
+            "keys_url": "https://api.github.com/repos/andrewrk/mineflayer/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/labels{/name}",
+            "language": "JavaScript",
+            "languages_url": "https://api.github.com/repos/andrewrk/mineflayer/languages",
+            "merges_url": "https://api.github.com/repos/andrewrk/mineflayer/merges",
+            "milestones_url": "https://api.github.com/repos/andrewrk/mineflayer/milestones{/number}",
+            "mirror_url": null,
+            "name": "mineflayer",
+            "notifications_url": "https://api.github.com/repos/andrewrk/mineflayer/notifications{?since,all,participating}",
+            "open_issues": 51,
+            "open_issues_count": 51,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+                "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+                "followers_url": "https://api.github.com/users/andrewrk/followers",
+                "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+                "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/andrewrk",
+                "id": 106511,
+                "login": "andrewrk",
+                "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+                "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+                "repos_url": "https://api.github.com/users/andrewrk/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/andrewrk"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls{/number}",
+            "pushed_at": "2015-12-11T12:23:23Z",
+            "releases_url": "https://api.github.com/repos/andrewrk/mineflayer/releases{/id}",
+            "size": 10258,
+            "ssh_url": "git@github.com:andrewrk/mineflayer.git",
+            "stargazers_count": 259,
+            "stargazers_url": "https://api.github.com/repos/andrewrk/mineflayer/stargazers",
+            "statuses_url": "https://api.github.com/repos/andrewrk/mineflayer/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/andrewrk/mineflayer/subscribers",
+            "subscription_url": "https://api.github.com/repos/andrewrk/mineflayer/subscription",
+            "svn_url": "https://github.com/andrewrk/mineflayer",
+            "tags_url": "https://api.github.com/repos/andrewrk/mineflayer/tags",
+            "teams_url": "https://api.github.com/repos/andrewrk/mineflayer/teams",
+            "trees_url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees{/sha}",
+            "updated_at": "2015-12-14T13:21:10Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer",
+            "watchers": 259,
+            "watchers_count": 259
+        },
+        "sha": "278444404fdcf74c070fadebdaf6b0d641000df8",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+            "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+            "followers_url": "https://api.github.com/users/andrewrk/followers",
+            "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/andrewrk",
+            "id": 106511,
+            "login": "andrewrk",
+            "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+            "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+            "repos_url": "https://api.github.com/users/andrewrk/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/andrewrk"
+        }
+    },
+    "body": "Would be nice for commandline arguments to be used by default. I use this in all of my scripts at the moment.\r\n\r\nInstead of having to modify the scripts by hand, they would all be usable as follows:\r\n\r\n$ node script.js [host] [port] [username] [email] [password]",
+    "closed_at": "2013-02-28T17:22:31Z",
+    "comment_data": [],
+    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/145/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/917680?v=3",
+                "events_url": "https://api.github.com/users/ruany/events{/privacy}",
+                "followers_url": "https://api.github.com/users/ruany/followers",
+                "following_url": "https://api.github.com/users/ruany/following{/other_user}",
+                "gists_url": "https://api.github.com/users/ruany/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/ruany",
+                "id": 917680,
+                "login": "ruany",
+                "organizations_url": "https://api.github.com/users/ruany/orgs",
+                "received_events_url": "https://api.github.com/users/ruany/received_events",
+                "repos_url": "https://api.github.com/users/ruany/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/ruany/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/ruany/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/ruany"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/90036b50518ae59ec401ee6975fceb977915072b/comments",
+            "commit": {
+                "author": {
+                    "date": "2013-02-28T12:17:41Z",
+                    "email": "ruan942@gmail.com",
+                    "name": "Ruan"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2013-02-28T12:17:41Z",
+                    "email": "ruan942@gmail.com",
+                    "name": "Ruan"
+                },
+                "message": "Make createBot() use args",
+                "tree": {
+                    "sha": "7e75de8d592be83cf8025b442bf5349d07bf56b8",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/7e75de8d592be83cf8025b442bf5349d07bf56b8"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/90036b50518ae59ec401ee6975fceb977915072b"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/917680?v=3",
+                "events_url": "https://api.github.com/users/ruany/events{/privacy}",
+                "followers_url": "https://api.github.com/users/ruany/followers",
+                "following_url": "https://api.github.com/users/ruany/following{/other_user}",
+                "gists_url": "https://api.github.com/users/ruany/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/ruany",
+                "id": 917680,
+                "login": "ruany",
+                "organizations_url": "https://api.github.com/users/ruany/orgs",
+                "received_events_url": "https://api.github.com/users/ruany/received_events",
+                "repos_url": "https://api.github.com/users/ruany/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/ruany/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/ruany/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/ruany"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/90036b50518ae59ec401ee6975fceb977915072b",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/278444404fdcf74c070fadebdaf6b0d641000df8",
+                    "sha": "278444404fdcf74c070fadebdaf6b0d641000df8",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/278444404fdcf74c070fadebdaf6b0d641000df8"
+                }
+            ],
+            "sha": "90036b50518ae59ec401ee6975fceb977915072b",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/90036b50518ae59ec401ee6975fceb977915072b"
+        }
+    ],
+    "commits_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/145/commits",
+    "created_at": "2013-02-28T12:19:35Z",
+    "diff_url": "https://github.com/andrewrk/mineflayer/pull/145.diff",
+    "head": {
+        "label": "ruany:patch-1",
+        "ref": "patch-1",
+        "repo": null,
+        "sha": "90036b50518ae59ec401ee6975fceb977915072b",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/917680?v=3",
+            "events_url": "https://api.github.com/users/ruany/events{/privacy}",
+            "followers_url": "https://api.github.com/users/ruany/followers",
+            "following_url": "https://api.github.com/users/ruany/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ruany/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/ruany",
+            "id": 917680,
+            "login": "ruany",
+            "organizations_url": "https://api.github.com/users/ruany/orgs",
+            "received_events_url": "https://api.github.com/users/ruany/received_events",
+            "repos_url": "https://api.github.com/users/ruany/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/ruany/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ruany/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/ruany"
+        }
+    },
+    "html_url": "https://github.com/andrewrk/mineflayer/pull/145",
+    "id": 4370803,
+    "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/145",
+    "locked": false,
+    "merge_commit_sha": "7447565d2bcc3d014d5814f7afd0e0fed0a7dfc3",
+    "merged_at": null,
+    "milestone": null,
+    "number": 145,
+    "patch_url": "https://github.com/andrewrk/mineflayer/pull/145.patch",
+    "review_comment_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/comments{/number}",
+    "review_comments_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/145/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/andrewrk/mineflayer/statuses/90036b50518ae59ec401ee6975fceb977915072b",
+    "title": "Make createBot() use args",
+    "updated_at": "2014-07-26T21:59:41Z",
+    "url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/145",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/917680?v=3",
+        "events_url": "https://api.github.com/users/ruany/events{/privacy}",
+        "followers_url": "https://api.github.com/users/ruany/followers",
+        "following_url": "https://api.github.com/users/ruany/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ruany/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/ruany",
+        "id": 917680,
+        "login": "ruany",
+        "organizations_url": "https://api.github.com/users/ruany/orgs",
+        "received_events_url": "https://api.github.com/users/ruany/received_events",
+        "repos_url": "https://api.github.com/users/ruany/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/ruany/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ruany/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/ruany"
+    }
+}

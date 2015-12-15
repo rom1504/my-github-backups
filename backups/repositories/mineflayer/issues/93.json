@@ -1,0 +1,104 @@
+{
+    "assignee": null,
+    "body": " 1. equip torso chestplate\r\n 2. equip hand sword\r\n 3. equip hand chestplate\r\n\r\n tries to put the sword in the armor slot and fails.\r\n\r\n",
+    "closed_at": "2013-01-31T04:48:09Z",
+    "comment_data": [
+        {
+            "body": "This is no longer an issue in 0.0.19 - you have to unequip something before you can equip it somewhere else.",
+            "created_at": "2013-01-31T04:48:09Z",
+            "html_url": "https://github.com/andrewrk/mineflayer/issues/93#issuecomment-12927766",
+            "id": 12927766,
+            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/93",
+            "updated_at": "2013-01-31T04:48:09Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/12927766",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+                "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+                "followers_url": "https://api.github.com/users/andrewrk/followers",
+                "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+                "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/andrewrk",
+                "id": 106511,
+                "login": "andrewrk",
+                "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+                "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+                "repos_url": "https://api.github.com/users/andrewrk/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/andrewrk"
+            }
+        }
+    ],
+    "comments": 1,
+    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/93/comments",
+    "created_at": "2013-01-17T07:25:35Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+                "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+                "followers_url": "https://api.github.com/users/andrewrk/followers",
+                "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+                "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/andrewrk",
+                "id": 106511,
+                "login": "andrewrk",
+                "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+                "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+                "repos_url": "https://api.github.com/users/andrewrk/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/andrewrk"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2013-01-31T04:48:09Z",
+            "event": "closed",
+            "id": 36213006,
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/36213006"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/93/events",
+    "html_url": "https://github.com/andrewrk/mineflayer/issues/93",
+    "id": 10048591,
+    "labels": [
+        {
+            "color": "e10c02",
+            "name": "bug",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/bug"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/93/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 93,
+    "state": "closed",
+    "title": "inventory: equip fails sometimes when armor is involved",
+    "updated_at": "2013-01-31T04:48:09Z",
+    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/93",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+        "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+        "followers_url": "https://api.github.com/users/andrewrk/followers",
+        "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/andrewrk",
+        "id": 106511,
+        "login": "andrewrk",
+        "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+        "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+        "repos_url": "https://api.github.com/users/andrewrk/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/andrewrk"
+    }
+}

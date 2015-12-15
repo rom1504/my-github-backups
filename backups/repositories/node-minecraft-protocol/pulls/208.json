@@ -1,0 +1,1416 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/208/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208/commits"
+        },
+        "html": {
+            "href": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/208"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/statuses/145c6b4840e84ca651cff374aff49f80359053c2"
+        }
+    },
+    "assignee": null,
+    "base": {
+        "label": "PrismarineJS:master",
+        "ref": "master",
+        "repo": {
+            "archive_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/branches{/branch}",
+            "clone_url": "https://github.com/PrismarineJS/node-minecraft-protocol.git",
+            "collaborators_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/comments{/number}",
+            "commits_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/contributors",
+            "created_at": "2013-01-01T09:17:05Z",
+            "default_branch": "master",
+            "description": "Parse and serialize minecraft packets, plus authentication and encryption.",
+            "downloads_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/downloads",
+            "events_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/events",
+            "fork": false,
+            "forks": 51,
+            "forks_count": 51,
+            "forks_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/forks",
+            "full_name": "PrismarineJS/node-minecraft-protocol",
+            "git_commits_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/tags{/sha}",
+            "git_url": "git://github.com/PrismarineJS/node-minecraft-protocol.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_wiki": true,
+            "homepage": "http://prismarinejs.github.io/",
+            "hooks_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/hooks",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol",
+            "id": 7394347,
+            "issue_comment_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues{/number}",
+            "keys_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/labels{/name}",
+            "language": "JavaScript",
+            "languages_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/languages",
+            "merges_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/merges",
+            "milestones_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/milestones{/number}",
+            "mirror_url": null,
+            "name": "node-minecraft-protocol",
+            "notifications_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/notifications{?since,all,participating}",
+            "open_issues": 22,
+            "open_issues_count": 22,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/11053411?v=3",
+                "events_url": "https://api.github.com/users/PrismarineJS/events{/privacy}",
+                "followers_url": "https://api.github.com/users/PrismarineJS/followers",
+                "following_url": "https://api.github.com/users/PrismarineJS/following{/other_user}",
+                "gists_url": "https://api.github.com/users/PrismarineJS/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/PrismarineJS",
+                "id": 11053411,
+                "login": "PrismarineJS",
+                "organizations_url": "https://api.github.com/users/PrismarineJS/orgs",
+                "received_events_url": "https://api.github.com/users/PrismarineJS/received_events",
+                "repos_url": "https://api.github.com/users/PrismarineJS/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/PrismarineJS/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/PrismarineJS/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/PrismarineJS"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls{/number}",
+            "pushed_at": "2015-12-11T14:01:37Z",
+            "releases_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/releases{/id}",
+            "size": 986,
+            "ssh_url": "git@github.com:PrismarineJS/node-minecraft-protocol.git",
+            "stargazers_count": 197,
+            "stargazers_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/stargazers",
+            "statuses_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/subscribers",
+            "subscription_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/subscription",
+            "svn_url": "https://github.com/PrismarineJS/node-minecraft-protocol",
+            "tags_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/tags",
+            "teams_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/teams",
+            "trees_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees{/sha}",
+            "updated_at": "2015-12-13T05:06:04Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol",
+            "watchers": 197,
+            "watchers_count": 197
+        },
+        "sha": "9c35951d15ad41c1a96f440cbb88e7f8bd5d1ee3",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/11053411?v=3",
+            "events_url": "https://api.github.com/users/PrismarineJS/events{/privacy}",
+            "followers_url": "https://api.github.com/users/PrismarineJS/followers",
+            "following_url": "https://api.github.com/users/PrismarineJS/following{/other_user}",
+            "gists_url": "https://api.github.com/users/PrismarineJS/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/PrismarineJS",
+            "id": 11053411,
+            "login": "PrismarineJS",
+            "organizations_url": "https://api.github.com/users/PrismarineJS/orgs",
+            "received_events_url": "https://api.github.com/users/PrismarineJS/received_events",
+            "repos_url": "https://api.github.com/users/PrismarineJS/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/PrismarineJS/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/PrismarineJS/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/PrismarineJS"
+        }
+    },
+    "body": "I took the commit independant from 1.9 and rebased them into a new branch.\r\nThat's useful since we don't know when 1.9 is going to be released (might be in 6 months).\r\n\r\n(I'll fix the actual 1.9 branch to work, it should now be only a few commits)",
+    "closed_at": "2015-08-08T12:53:23Z",
+    "comment_data": [
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36118091"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36118091"
+                }
+            },
+            "body": "```if (err && err.stack) console.log(err.stack);```",
+            "commit_id": "145c6b4840e84ca651cff374aff49f80359053c2",
+            "created_at": "2015-08-03T18:56:58Z",
+            "diff_hunk": "@@ -167,9 +171,10 @@ srv.on('login', function(client) {\n     if(!endedClient)\n       client.end(\"End\");\n   });\n-  targetClient.on('error', function() {\n+  targetClient.on('error', function(err) {\n     endedTargetClient = true;\n-    console.log('Connection error by server', '(' + addr + ')');\n+    console.log('Connection error by server', '(' + addr + ') ',err);\n+    console.log(err.stack);",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36118091",
+            "id": 36118091,
+            "original_commit_id": "d2435c8dcdf6de9441a38cf7f605fbda691359be",
+            "original_position": 27,
+            "path": "examples/proxy/proxy.js",
+            "position": 27,
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208",
+            "updated_at": "2015-08-05T22:04:59Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36118091",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36118273"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36118273"
+                }
+            },
+            "body": "This looks like debug that should go away.",
+            "commit_id": "145c6b4840e84ca651cff374aff49f80359053c2",
+            "created_at": "2015-08-03T18:58:41Z",
+            "diff_hunk": "@@ -24,7 +24,14 @@ function generateFunctions(bufferReader,bufferWriter,size)\n     };\n   };\n   var writer=function(value, buffer, offset) {\n-    buffer[bufferWriter](value, offset);\n+    try {",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36118273",
+            "id": 36118273,
+            "original_commit_id": "d2435c8dcdf6de9441a38cf7f605fbda691359be",
+            "original_position": 5,
+            "path": "src/datatypes/numeric.js",
+            "position": null,
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208",
+            "updated_at": "2015-08-05T22:04:59Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36118273",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36118300"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36118300"
+                }
+            },
+            "body": "same here.",
+            "commit_id": "145c6b4840e84ca651cff374aff49f80359053c2",
+            "created_at": "2015-08-03T18:58:53Z",
+            "diff_hunk": "@@ -84,7 +84,16 @@ function writeContainer(value, buffer, offset, typeArgs, rootNode) {\n       debug(new Error(\"Missing Property \" + typeArgs.fields[index].name).stack);\n       console.log(context);\n     }\n-    offset = this.write(context[typeArgs.fields[index].name], buffer, offset, typeArgs.fields[index], rootNode);\n+    try {\n+      offset = this.write(context[typeArgs.fields[index].name], buffer, offset, typeArgs.fields[index], rootNode);\n+    }\n+    catch(err)\n+    {\n+      console.log(\"typeArgs : \" + JSON.stringify(typeArgs.fields[index]));\n+      console.log(\"context : \"+JSON.stringify(context));\n+      console.log(\"value : \" + JSON.stringify(context[typeArgs.fields[index].name]));\n+      throw err;\n+    }",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36118300",
+            "id": 36118300,
+            "original_commit_id": "d2435c8dcdf6de9441a38cf7f605fbda691359be",
+            "original_position": 14,
+            "path": "src/datatypes/structures.js",
+            "position": null,
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208",
+            "updated_at": "2015-08-05T22:04:59Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36118300",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36127045"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36127045"
+                }
+            },
+            "body": "It's an error, there's always an err. Well I mean the only time we emit it there's the err param, does something else emit error event to Client ?",
+            "commit_id": "145c6b4840e84ca651cff374aff49f80359053c2",
+            "created_at": "2015-08-03T20:24:28Z",
+            "diff_hunk": "@@ -167,9 +171,10 @@ srv.on('login', function(client) {\n     if(!endedClient)\n       client.end(\"End\");\n   });\n-  targetClient.on('error', function() {\n+  targetClient.on('error', function(err) {\n     endedTargetClient = true;\n-    console.log('Connection error by server', '(' + addr + ')');\n+    console.log('Connection error by server', '(' + addr + ') ',err);\n+    console.log(err.stack);",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36127045",
+            "id": 36127045,
+            "original_commit_id": "d2435c8dcdf6de9441a38cf7f605fbda691359be",
+            "original_position": 27,
+            "path": "examples/proxy/proxy.js",
+            "position": 27,
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208",
+            "updated_at": "2015-08-05T22:04:59Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36127045",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36127378"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36127378"
+                }
+            },
+            "body": "hmm that's pretty useful for debugging precisely, gives more context than when the error is eventually caught, way later.",
+            "commit_id": "145c6b4840e84ca651cff374aff49f80359053c2",
+            "created_at": "2015-08-03T20:27:51Z",
+            "diff_hunk": "@@ -24,7 +24,14 @@ function generateFunctions(bufferReader,bufferWriter,size)\n     };\n   };\n   var writer=function(value, buffer, offset) {\n-    buffer[bufferWriter](value, offset);\n+    try {",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36127378",
+            "id": 36127378,
+            "original_commit_id": "d2435c8dcdf6de9441a38cf7f605fbda691359be",
+            "original_position": 5,
+            "path": "src/datatypes/numeric.js",
+            "position": null,
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208",
+            "updated_at": "2015-08-05T22:04:59Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36127378",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36127481"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36127481"
+                }
+            },
+            "body": "same answer, that gives context to the error\r\nit basically isn't triggered unless there's something going wrong with nmp",
+            "commit_id": "145c6b4840e84ca651cff374aff49f80359053c2",
+            "created_at": "2015-08-03T20:28:57Z",
+            "diff_hunk": "@@ -84,7 +84,16 @@ function writeContainer(value, buffer, offset, typeArgs, rootNode) {\n       debug(new Error(\"Missing Property \" + typeArgs.fields[index].name).stack);\n       console.log(context);\n     }\n-    offset = this.write(context[typeArgs.fields[index].name], buffer, offset, typeArgs.fields[index], rootNode);\n+    try {\n+      offset = this.write(context[typeArgs.fields[index].name], buffer, offset, typeArgs.fields[index], rootNode);\n+    }\n+    catch(err)\n+    {\n+      console.log(\"typeArgs : \" + JSON.stringify(typeArgs.fields[index]));\n+      console.log(\"context : \"+JSON.stringify(context));\n+      console.log(\"value : \" + JSON.stringify(context[typeArgs.fields[index].name]));\n+      throw err;\n+    }",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36127481",
+            "id": 36127481,
+            "original_commit_id": "d2435c8dcdf6de9441a38cf7f605fbda691359be",
+            "original_position": 14,
+            "path": "src/datatypes/structures.js",
+            "position": null,
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208",
+            "updated_at": "2015-08-05T22:04:59Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36127481",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36128964"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36128964"
+                }
+            },
+            "body": "Maybe it should be something else than a console.log though but I'm not sure what",
+            "commit_id": "145c6b4840e84ca651cff374aff49f80359053c2",
+            "created_at": "2015-08-03T20:42:08Z",
+            "diff_hunk": "@@ -24,7 +24,14 @@ function generateFunctions(bufferReader,bufferWriter,size)\n     };\n   };\n   var writer=function(value, buffer, offset) {\n-    buffer[bufferWriter](value, offset);\n+    try {",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36128964",
+            "id": 36128964,
+            "original_commit_id": "d2435c8dcdf6de9441a38cf7f605fbda691359be",
+            "original_position": 5,
+            "path": "src/datatypes/numeric.js",
+            "position": null,
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208",
+            "updated_at": "2015-08-05T22:04:59Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36128964",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36167100"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36167100"
+                }
+            },
+            "body": "If you want to add debugging information, use the `debug` function. I still think this one is out-of-place. Might as well add debug info in every single reader.",
+            "commit_id": "145c6b4840e84ca651cff374aff49f80359053c2",
+            "created_at": "2015-08-04T08:30:21Z",
+            "diff_hunk": "@@ -24,7 +24,14 @@ function generateFunctions(bufferReader,bufferWriter,size)\n     };\n   };\n   var writer=function(value, buffer, offset) {\n-    buffer[bufferWriter](value, offset);\n+    try {",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36167100",
+            "id": 36167100,
+            "original_commit_id": "d2435c8dcdf6de9441a38cf7f605fbda691359be",
+            "original_position": 5,
+            "path": "src/datatypes/numeric.js",
+            "position": null,
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208",
+            "updated_at": "2015-08-05T22:04:59Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36167100",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36167309"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36167309"
+                }
+            },
+            "body": "Nevermind, didn't see it was in the example.",
+            "commit_id": "145c6b4840e84ca651cff374aff49f80359053c2",
+            "created_at": "2015-08-04T08:33:32Z",
+            "diff_hunk": "@@ -167,9 +171,10 @@ srv.on('login', function(client) {\n     if(!endedClient)\n       client.end(\"End\");\n   });\n-  targetClient.on('error', function() {\n+  targetClient.on('error', function(err) {\n     endedTargetClient = true;\n-    console.log('Connection error by server', '(' + addr + ')');\n+    console.log('Connection error by server', '(' + addr + ') ',err);\n+    console.log(err.stack);",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36167309",
+            "id": 36167309,
+            "original_commit_id": "d2435c8dcdf6de9441a38cf7f605fbda691359be",
+            "original_position": 27,
+            "path": "examples/proxy/proxy.js",
+            "position": 27,
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208",
+            "updated_at": "2015-08-05T22:04:59Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36167309",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36167905"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36167905"
+                }
+            },
+            "body": "For debugging info, the `debug` function should be used.\r\n\r\nI still don't see what gain you have from logging every single number. Structures and Arrays could use some logging to get more context, but numbers ? A try/catch gets a small performance penalty because the function containing it cannot be optimized by v8, so it's a good idea to avoid putting it everywhere.\r\n\r\nWhat would be a good idea is adding context to the Errors inside of Array and Structure readers/writers, so we know exactly which fieldInfo caused the trouble",
+            "commit_id": "145c6b4840e84ca651cff374aff49f80359053c2",
+            "created_at": "2015-08-04T08:43:08Z",
+            "diff_hunk": "@@ -24,7 +24,14 @@ function generateFunctions(bufferReader,bufferWriter,size)\n     };\n   };\n   var writer=function(value, buffer, offset) {\n-    buffer[bufferWriter](value, offset);\n+    try {",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36167905",
+            "id": 36167905,
+            "original_commit_id": "d2435c8dcdf6de9441a38cf7f605fbda691359be",
+            "original_position": 5,
+            "path": "src/datatypes/numeric.js",
+            "position": null,
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208",
+            "updated_at": "2015-08-05T22:04:59Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36167905",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36168076"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36168076"
+                }
+            },
+            "body": "Having something like https://github.com/roblabla/Protocols/blob/master/lib/protocols.js#L98-L105 would help to get more debug information here. The structural fields (Structure and Array) could use it to add context as to where the error occured in the fieldInfo chain.\r\n\r\nalso, same as before, `debug` is the function to use for debugging info",
+            "commit_id": "145c6b4840e84ca651cff374aff49f80359053c2",
+            "created_at": "2015-08-04T08:45:57Z",
+            "diff_hunk": "@@ -84,7 +84,16 @@ function writeContainer(value, buffer, offset, typeArgs, rootNode) {\n       debug(new Error(\"Missing Property \" + typeArgs.fields[index].name).stack);\n       console.log(context);\n     }\n-    offset = this.write(context[typeArgs.fields[index].name], buffer, offset, typeArgs.fields[index], rootNode);\n+    try {\n+      offset = this.write(context[typeArgs.fields[index].name], buffer, offset, typeArgs.fields[index], rootNode);\n+    }\n+    catch(err)\n+    {\n+      console.log(\"typeArgs : \" + JSON.stringify(typeArgs.fields[index]));\n+      console.log(\"context : \"+JSON.stringify(context));\n+      console.log(\"value : \" + JSON.stringify(context[typeArgs.fields[index].name]));\n+      throw err;\n+    }",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36168076",
+            "id": 36168076,
+            "original_commit_id": "d2435c8dcdf6de9441a38cf7f605fbda691359be",
+            "original_position": 14,
+            "path": "src/datatypes/structures.js",
+            "position": null,
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208",
+            "updated_at": "2015-08-05T22:04:59Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36168076",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36169087"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36169087"
+                }
+            },
+            "body": "Hmm there was something wrong with numbers due to something else I think. Yeah you're right that one should be removed.\r\n\r\nI turned the return {error:} to a throw Error in write because of https://github.com/PrismarineJS/node-minecraft-protocol/blob/4752a0d759d3828bd358bad389c1f587feffbfa7/src/transforms/serializer.js#L92 , so I guess that should be fixed one way or the other.\r\n\r\nAdding context through that error object would do it indeed.\r\n\r\nThe problem with the debugging function is it displays every packet, kind of hard to find the interesting part in the ouput when enabled, but yeah I see your point.",
+            "commit_id": "145c6b4840e84ca651cff374aff49f80359053c2",
+            "created_at": "2015-08-04T09:00:03Z",
+            "diff_hunk": "@@ -24,7 +24,14 @@ function generateFunctions(bufferReader,bufferWriter,size)\n     };\n   };\n   var writer=function(value, buffer, offset) {\n-    buffer[bufferWriter](value, offset);\n+    try {",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36169087",
+            "id": 36169087,
+            "original_commit_id": "d2435c8dcdf6de9441a38cf7f605fbda691359be",
+            "original_position": 5,
+            "path": "src/datatypes/numeric.js",
+            "position": null,
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208",
+            "updated_at": "2015-08-05T22:04:59Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36169087",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36169224"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36169224"
+                }
+            },
+            "body": "Yeah okay, I'll fix it using something similar to what protocols does.",
+            "commit_id": "145c6b4840e84ca651cff374aff49f80359053c2",
+            "created_at": "2015-08-04T09:01:37Z",
+            "diff_hunk": "@@ -84,7 +84,16 @@ function writeContainer(value, buffer, offset, typeArgs, rootNode) {\n       debug(new Error(\"Missing Property \" + typeArgs.fields[index].name).stack);\n       console.log(context);\n     }\n-    offset = this.write(context[typeArgs.fields[index].name], buffer, offset, typeArgs.fields[index], rootNode);\n+    try {\n+      offset = this.write(context[typeArgs.fields[index].name], buffer, offset, typeArgs.fields[index], rootNode);\n+    }\n+    catch(err)\n+    {\n+      console.log(\"typeArgs : \" + JSON.stringify(typeArgs.fields[index]));\n+      console.log(\"context : \"+JSON.stringify(context));\n+      console.log(\"value : \" + JSON.stringify(context[typeArgs.fields[index].name]));\n+      throw err;\n+    }",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36169224",
+            "id": 36169224,
+            "original_commit_id": "d2435c8dcdf6de9441a38cf7f605fbda691359be",
+            "original_position": 14,
+            "path": "src/datatypes/structures.js",
+            "position": null,
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208",
+            "updated_at": "2015-08-05T22:04:59Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36169224",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36191853"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36191853"
+                }
+            },
+            "body": "We could use [debug](https://github.com/visionmedia/debug) module to fix this. By making multiple debug modules for each part of the application, we could remove the spammy logging done.\r\n\r\nIt might also be a good idea to just remove the spam per-packet in general. I don't think it's actually useful, and can be turned back on when we need it ?",
+            "commit_id": "145c6b4840e84ca651cff374aff49f80359053c2",
+            "created_at": "2015-08-04T14:13:22Z",
+            "diff_hunk": "@@ -24,7 +24,14 @@ function generateFunctions(bufferReader,bufferWriter,size)\n     };\n   };\n   var writer=function(value, buffer, offset) {\n-    buffer[bufferWriter](value, offset);\n+    try {",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208#discussion_r36191853",
+            "id": 36191853,
+            "original_commit_id": "d2435c8dcdf6de9441a38cf7f605fbda691359be",
+            "original_position": 5,
+            "path": "src/datatypes/numeric.js",
+            "position": null,
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208",
+            "updated_at": "2015-08-05T22:04:59Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/36191853",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            }
+        }
+    ],
+    "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/208/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/57f5b9d23d8dfaf3ea23915cfb547060820a624c/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-07-29T16:37:16Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-08-02T13:38:40Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "message": "Fix some version related problems (in test.js and circle.yml)",
+                "tree": {
+                    "sha": "78791d16559f6a3b658de78c7dabc305497fe40a",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/78791d16559f6a3b658de78c7dabc305497fe40a"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/57f5b9d23d8dfaf3ea23915cfb547060820a624c"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/57f5b9d23d8dfaf3ea23915cfb547060820a624c",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/9c35951d15ad41c1a96f440cbb88e7f8bd5d1ee3",
+                    "sha": "9c35951d15ad41c1a96f440cbb88e7f8bd5d1ee3",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/9c35951d15ad41c1a96f440cbb88e7f8bd5d1ee3"
+                }
+            ],
+            "sha": "57f5b9d23d8dfaf3ea23915cfb547060820a624c",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/57f5b9d23d8dfaf3ea23915cfb547060820a624c"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/a3c65de9a4a92c31e7573c78fb504b8ed4982d34/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-07-30T00:41:49Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-08-02T16:14:52Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "message": "Display more information in proxy.js",
+                "tree": {
+                    "sha": "5122d67deb5a66e45debd2ae49be3b4f18cbd811",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/5122d67deb5a66e45debd2ae49be3b4f18cbd811"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/a3c65de9a4a92c31e7573c78fb504b8ed4982d34"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/a3c65de9a4a92c31e7573c78fb504b8ed4982d34",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/57f5b9d23d8dfaf3ea23915cfb547060820a624c",
+                    "sha": "57f5b9d23d8dfaf3ea23915cfb547060820a624c",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/57f5b9d23d8dfaf3ea23915cfb547060820a624c"
+                }
+            ],
+            "sha": "a3c65de9a4a92c31e7573c78fb504b8ed4982d34",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/a3c65de9a4a92c31e7573c78fb504b8ed4982d34"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/4466bedac9a347bd960537866d48e6b7c90c9de5/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-07-30T02:05:08Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-08-02T16:14:58Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "message": "Fix entityMetadata : container is ambiguous",
+                "tree": {
+                    "sha": "94f598953a77c22ec8a29269e82940e9c82d2196",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/94f598953a77c22ec8a29269e82940e9c82d2196"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/4466bedac9a347bd960537866d48e6b7c90c9de5"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/4466bedac9a347bd960537866d48e6b7c90c9de5",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/a3c65de9a4a92c31e7573c78fb504b8ed4982d34",
+                    "sha": "a3c65de9a4a92c31e7573c78fb504b8ed4982d34",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/a3c65de9a4a92c31e7573c78fb504b8ed4982d34"
+                }
+            ],
+            "sha": "4466bedac9a347bd960537866d48e6b7c90c9de5",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/4466bedac9a347bd960537866d48e6b7c90c9de5"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/f625cd8e8b16ee25bacc99ecfb5df77a7aa245ed/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-07-30T02:09:15Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-08-02T16:14:58Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "message": "Remove some console.log",
+                "tree": {
+                    "sha": "514f1cf88d2b09a172056645aea077577e605fcc",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/514f1cf88d2b09a172056645aea077577e605fcc"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/f625cd8e8b16ee25bacc99ecfb5df77a7aa245ed"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/f625cd8e8b16ee25bacc99ecfb5df77a7aa245ed",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/4466bedac9a347bd960537866d48e6b7c90c9de5",
+                    "sha": "4466bedac9a347bd960537866d48e6b7c90c9de5",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/4466bedac9a347bd960537866d48e6b7c90c9de5"
+                }
+            ],
+            "sha": "f625cd8e8b16ee25bacc99ecfb5df77a7aa245ed",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/f625cd8e8b16ee25bacc99ecfb5df77a7aa245ed"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/d2435c8dcdf6de9441a38cf7f605fbda691359be/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-07-30T02:42:07Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-08-02T16:14:58Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "message": "Add some debug information (useful to update to an updated protocol)",
+                "tree": {
+                    "sha": "c225e780a6c84eab1f5c872a7dc663723fa6caac",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/c225e780a6c84eab1f5c872a7dc663723fa6caac"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/d2435c8dcdf6de9441a38cf7f605fbda691359be"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/d2435c8dcdf6de9441a38cf7f605fbda691359be",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/f625cd8e8b16ee25bacc99ecfb5df77a7aa245ed",
+                    "sha": "f625cd8e8b16ee25bacc99ecfb5df77a7aa245ed",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/f625cd8e8b16ee25bacc99ecfb5df77a7aa245ed"
+                }
+            ],
+            "sha": "d2435c8dcdf6de9441a38cf7f605fbda691359be",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/d2435c8dcdf6de9441a38cf7f605fbda691359be"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/5743cd8b647be4303ad3a303be888d0f1295b9ce/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-08-05T21:30:04Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-08-05T21:30:04Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "message": "Revert \"Add some debug information (useful to update to an updated protocol)\"\n\nThis reverts commit d2435c8dcdf6de9441a38cf7f605fbda691359be.",
+                "tree": {
+                    "sha": "514f1cf88d2b09a172056645aea077577e605fcc",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/514f1cf88d2b09a172056645aea077577e605fcc"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/5743cd8b647be4303ad3a303be888d0f1295b9ce"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/5743cd8b647be4303ad3a303be888d0f1295b9ce",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/d2435c8dcdf6de9441a38cf7f605fbda691359be",
+                    "sha": "d2435c8dcdf6de9441a38cf7f605fbda691359be",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/d2435c8dcdf6de9441a38cf7f605fbda691359be"
+                }
+            ],
+            "sha": "5743cd8b647be4303ad3a303be888d0f1295b9ce",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/5743cd8b647be4303ad3a303be888d0f1295b9ce"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/145c6b4840e84ca651cff374aff49f80359053c2/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-08-05T22:04:53Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-08-05T22:04:53Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "message": "add a little info in the proxy example",
+                "tree": {
+                    "sha": "1d91d4e466e32402fde8473013a41ce33b346f54",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/1d91d4e466e32402fde8473013a41ce33b346f54"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/145c6b4840e84ca651cff374aff49f80359053c2"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/145c6b4840e84ca651cff374aff49f80359053c2",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/5743cd8b647be4303ad3a303be888d0f1295b9ce",
+                    "sha": "5743cd8b647be4303ad3a303be888d0f1295b9ce",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/5743cd8b647be4303ad3a303be888d0f1295b9ce"
+                }
+            ],
+            "sha": "145c6b4840e84ca651cff374aff49f80359053c2",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/145c6b4840e84ca651cff374aff49f80359053c2"
+        }
+    ],
+    "commits_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208/commits",
+    "created_at": "2015-08-02T16:20:29Z",
+    "diff_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208.diff",
+    "head": {
+        "label": "rom1504:better_error_and_fix_from_1.9",
+        "ref": "better_error_and_fix_from_1.9",
+        "repo": {
+            "archive_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/branches{/branch}",
+            "clone_url": "https://github.com/rom1504/node-minecraft-protocol.git",
+            "collaborators_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/comments{/number}",
+            "commits_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/contributors",
+            "created_at": "2015-03-22T01:05:17Z",
+            "default_branch": "master",
+            "description": "Parse and serialize minecraft packets, plus authentication and encryption.",
+            "downloads_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/downloads",
+            "events_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/events",
+            "fork": true,
+            "forks": 1,
+            "forks_count": 1,
+            "forks_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/forks",
+            "full_name": "rom1504/node-minecraft-protocol",
+            "git_commits_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/git/tags{/sha}",
+            "git_url": "git://github.com/rom1504/node-minecraft-protocol.git",
+            "has_downloads": true,
+            "has_issues": false,
+            "has_pages": false,
+            "has_wiki": true,
+            "homepage": "http://prismarinejs.github.io/",
+            "hooks_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/hooks",
+            "html_url": "https://github.com/rom1504/node-minecraft-protocol",
+            "id": 32656657,
+            "issue_comment_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/issues{/number}",
+            "keys_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/labels{/name}",
+            "language": "JavaScript",
+            "languages_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/languages",
+            "merges_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/merges",
+            "milestones_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/milestones{/number}",
+            "mirror_url": null,
+            "name": "node-minecraft-protocol",
+            "notifications_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/notifications{?since,all,participating}",
+            "open_issues": 0,
+            "open_issues_count": 0,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/pulls{/number}",
+            "pushed_at": "2015-12-01T13:44:56Z",
+            "releases_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/releases{/id}",
+            "size": 776,
+            "ssh_url": "git@github.com:rom1504/node-minecraft-protocol.git",
+            "stargazers_count": 0,
+            "stargazers_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/stargazers",
+            "statuses_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/subscribers",
+            "subscription_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/subscription",
+            "svn_url": "https://github.com/rom1504/node-minecraft-protocol",
+            "tags_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/tags",
+            "teams_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/teams",
+            "trees_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/git/trees{/sha}",
+            "updated_at": "2015-05-08T00:13:52Z",
+            "url": "https://api.github.com/repos/rom1504/node-minecraft-protocol",
+            "watchers": 0,
+            "watchers_count": 0
+        },
+        "sha": "145c6b4840e84ca651cff374aff49f80359053c2",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+            "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+            "followers_url": "https://api.github.com/users/rom1504/followers",
+            "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/rom1504",
+            "id": 2346494,
+            "login": "rom1504",
+            "organizations_url": "https://api.github.com/users/rom1504/orgs",
+            "received_events_url": "https://api.github.com/users/rom1504/received_events",
+            "repos_url": "https://api.github.com/users/rom1504/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/rom1504"
+        }
+    },
+    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208",
+    "id": 41420202,
+    "issue_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/208",
+    "locked": false,
+    "merge_commit_sha": "cdf724d365aa94d23d12fdef2aa3dc210df1a69d",
+    "merged_at": "2015-08-08T12:53:23Z",
+    "milestone": null,
+    "number": 208,
+    "patch_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/208.patch",
+    "review_comment_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments{/number}",
+    "review_comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/statuses/145c6b4840e84ca651cff374aff49f80359053c2",
+    "title": "Better error and fix from 1.9",
+    "updated_at": "2015-08-08T15:20:48Z",
+    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/208",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

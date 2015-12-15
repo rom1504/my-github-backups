@@ -1,0 +1,132 @@
+{
+    "assignee": null,
+    "body": "In the chat packet, a server may send a string of a length up to 32767 characters since 1.2.5 to the client (however, client is still limited to 240 characters). Right now, a server sending more than 240 characters will cause node-minecraft-protocol to crash. ",
+    "closed_at": "2013-08-07T17:21:34Z",
+    "comment_data": [
+        {
+            "body": "https://github.com/roblabla/node-minecraft-protocol/commit/4d7240b685978e19ae0d14ebca5350bf17ba41fd you can cherry-pick this commit to fix this. ",
+            "created_at": "2013-08-05T11:16:39Z",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/issues/60#issuecomment-22099828",
+            "id": 22099828,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/60",
+            "updated_at": "2013-08-05T11:16:39Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/comments/22099828",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            }
+        },
+        {
+            "body": "Thanks for the fix. I have slightly changed the *0x03* packet tests on bdc703a3f0ba8863a4094e5b0c2d339910dc49bf to fix this test error:\r\n\r\n```\r\n  ✖ 1 of 94 tests failed:\r\n\r\n  1) packets 0x03:\r\n     TypeError: Cannot read property 'length' of undefined\r\n      at sizeOfString (~/forks/node-minecraft-protocol/lib/protocol.js:1276:18)\r\n      at sizeOf (~/forks/node-minecraft-protocol/lib/protocol.js:1385:12)\r\n      at ~/forks/node-minecraft-protocol/lib/protocol.js:1396:13\r\n      at Array.forEach (native)\r\n      at createPacketBuffer (~/forks/node-minecraft-protocol/lib/protocol.js:1395:10)\r\n      at Client.write (~/forks/node-minecraft-protocol/lib/client.js:92:16)\r\n      at testPacket (~/forks/node-minecraft-protocol/test/test.js:165:12)\r\n      at ~/forks/node-minecraft-protocol/test/test.js:138:9\r\n      at next (~/forks/node-minecraft-protocol/node_modules/batch/index.js:101:5)\r\n      at Batch.end (~/forks/node-minecraft-protocol/node_modules/batch/index.js:129:5)\r\n      at Context.<anonymous> (~/forks/node-minecraft-protocol/test/test.js:143:13)\r\n      at Test.Runnable.run (~/forks/node-minecraft-protocol/node_modules/mocha/lib/runnable.js:196:15)\r\n      at Runner.runTest (~/forks/node-minecraft-protocol/node_modules/mocha/lib/runner.js:344:10)\r\n      at ~/forks/node-minecraft-protocol/node_modules/mocha/lib/runner.js:390:12\r\n      at next (~/forks/node-minecraft-protocol/node_modules/mocha/lib/runner.js:270:14)\r\n      at ~/forks/node-minecraft-protocol/node_modules/mocha/lib/runner.js:279:7\r\n      at next (~/forks/node-minecraft-protocol/node_modules/mocha/lib/runner.js:227:23)\r\n      at Object._onImmediate (~/forks/node-minecraft-protocol/node_modules/mocha/lib/runner.js:247:5)\r\n      at processImmediate [as _immediateCallback] (timers.js:317:15)\r\n\r\n\r\nnpm ERR! Test failed.  See above for more details.\r\nnpm ERR! not ok code 0\r\n```\r\n\r\nI will tests this change a bit and I will bump a new version soon. Thanks again :smile:",
+            "created_at": "2013-08-07T17:21:34Z",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/issues/60#issuecomment-22267860",
+            "id": 22267860,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/60",
+            "updated_at": "2013-08-07T17:21:34Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/comments/22267860",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1878434?v=3",
+                "events_url": "https://api.github.com/users/zuazo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zuazo/followers",
+                "following_url": "https://api.github.com/users/zuazo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zuazo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zuazo",
+                "id": 1878434,
+                "login": "zuazo",
+                "organizations_url": "https://api.github.com/users/zuazo/orgs",
+                "received_events_url": "https://api.github.com/users/zuazo/received_events",
+                "repos_url": "https://api.github.com/users/zuazo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zuazo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zuazo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zuazo"
+            }
+        }
+    ],
+    "comments": 2,
+    "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/60/comments",
+    "created_at": "2013-08-05T11:04:47Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1878434?v=3",
+                "events_url": "https://api.github.com/users/zuazo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zuazo/followers",
+                "following_url": "https://api.github.com/users/zuazo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zuazo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zuazo",
+                "id": 1878434,
+                "login": "zuazo",
+                "organizations_url": "https://api.github.com/users/zuazo/orgs",
+                "received_events_url": "https://api.github.com/users/zuazo/received_events",
+                "repos_url": "https://api.github.com/users/zuazo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zuazo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zuazo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zuazo"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2013-08-07T17:21:34Z",
+            "event": "closed",
+            "id": 59847172,
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/events/59847172"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/60/events",
+    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/issues/60",
+    "id": 17629482,
+    "labels": [
+        {
+            "color": "fc2929",
+            "name": "bug",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/labels/bug"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/60/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 60,
+    "state": "closed",
+    "title": "Chat packet string max length",
+    "updated_at": "2013-11-20T01:00:13Z",
+    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/60",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+        "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+        "followers_url": "https://api.github.com/users/roblabla/followers",
+        "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+        "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/roblabla",
+        "id": 1069318,
+        "login": "roblabla",
+        "organizations_url": "https://api.github.com/users/roblabla/orgs",
+        "received_events_url": "https://api.github.com/users/roblabla/received_events",
+        "repos_url": "https://api.github.com/users/roblabla/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/roblabla"
+    }
+}

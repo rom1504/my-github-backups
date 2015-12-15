@@ -1,0 +1,559 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/50/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/50/commits"
+        },
+        "html": {
+            "href": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/50"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/50"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/50/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/50"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/statuses/e17693868242c955ab995393ab56ccb8a537dffb"
+        }
+    },
+    "assignee": null,
+    "base": {
+        "label": "PrismarineJS:master",
+        "ref": "master",
+        "repo": {
+            "archive_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/branches{/branch}",
+            "clone_url": "https://github.com/PrismarineJS/node-minecraft-protocol.git",
+            "collaborators_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/comments{/number}",
+            "commits_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/contributors",
+            "created_at": "2013-01-01T09:17:05Z",
+            "default_branch": "master",
+            "description": "Parse and serialize minecraft packets, plus authentication and encryption.",
+            "downloads_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/downloads",
+            "events_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/events",
+            "fork": false,
+            "forks": 51,
+            "forks_count": 51,
+            "forks_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/forks",
+            "full_name": "PrismarineJS/node-minecraft-protocol",
+            "git_commits_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/tags{/sha}",
+            "git_url": "git://github.com/PrismarineJS/node-minecraft-protocol.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_wiki": true,
+            "homepage": "http://prismarinejs.github.io/",
+            "hooks_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/hooks",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol",
+            "id": 7394347,
+            "issue_comment_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues{/number}",
+            "keys_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/labels{/name}",
+            "language": "JavaScript",
+            "languages_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/languages",
+            "merges_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/merges",
+            "milestones_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/milestones{/number}",
+            "mirror_url": null,
+            "name": "node-minecraft-protocol",
+            "notifications_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/notifications{?since,all,participating}",
+            "open_issues": 22,
+            "open_issues_count": 22,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/11053411?v=3",
+                "events_url": "https://api.github.com/users/PrismarineJS/events{/privacy}",
+                "followers_url": "https://api.github.com/users/PrismarineJS/followers",
+                "following_url": "https://api.github.com/users/PrismarineJS/following{/other_user}",
+                "gists_url": "https://api.github.com/users/PrismarineJS/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/PrismarineJS",
+                "id": 11053411,
+                "login": "PrismarineJS",
+                "organizations_url": "https://api.github.com/users/PrismarineJS/orgs",
+                "received_events_url": "https://api.github.com/users/PrismarineJS/received_events",
+                "repos_url": "https://api.github.com/users/PrismarineJS/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/PrismarineJS/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/PrismarineJS/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/PrismarineJS"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls{/number}",
+            "pushed_at": "2015-12-11T14:01:37Z",
+            "releases_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/releases{/id}",
+            "size": 986,
+            "ssh_url": "git@github.com:PrismarineJS/node-minecraft-protocol.git",
+            "stargazers_count": 197,
+            "stargazers_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/stargazers",
+            "statuses_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/subscribers",
+            "subscription_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/subscription",
+            "svn_url": "https://github.com/PrismarineJS/node-minecraft-protocol",
+            "tags_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/tags",
+            "teams_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/teams",
+            "trees_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees{/sha}",
+            "updated_at": "2015-12-13T05:06:04Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol",
+            "watchers": 197,
+            "watchers_count": 197
+        },
+        "sha": "11b11f0dc3f4314f9dc3cc7a29705f75f6296398",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/11053411?v=3",
+            "events_url": "https://api.github.com/users/PrismarineJS/events{/privacy}",
+            "followers_url": "https://api.github.com/users/PrismarineJS/followers",
+            "following_url": "https://api.github.com/users/PrismarineJS/following{/other_user}",
+            "gists_url": "https://api.github.com/users/PrismarineJS/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/PrismarineJS",
+            "id": 11053411,
+            "login": "PrismarineJS",
+            "organizations_url": "https://api.github.com/users/PrismarineJS/orgs",
+            "received_events_url": "https://api.github.com/users/PrismarineJS/received_events",
+            "repos_url": "https://api.github.com/users/PrismarineJS/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/PrismarineJS/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/PrismarineJS/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/PrismarineJS"
+        }
+    },
+    "body": "Also added a debug output using `NODE_DEBUG=\"minecraft-protocol\"`, designed to be used in more places in the future.",
+    "closed_at": "2013-04-06T14:43:53Z",
+    "comment_data": [],
+    "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/50/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1878434?v=3",
+                "events_url": "https://api.github.com/users/zuazo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zuazo/followers",
+                "following_url": "https://api.github.com/users/zuazo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zuazo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zuazo",
+                "id": 1878434,
+                "login": "zuazo",
+                "organizations_url": "https://api.github.com/users/zuazo/orgs",
+                "received_events_url": "https://api.github.com/users/zuazo/received_events",
+                "repos_url": "https://api.github.com/users/zuazo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zuazo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zuazo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zuazo"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/38f46998e392d329b909ced6f169097d62a91388/comments",
+            "commit": {
+                "author": {
+                    "date": "2013-04-06T02:45:32Z",
+                    "email": "xabier@onddo.com",
+                    "name": "Xabier de Zuazo"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2013-04-06T02:45:32Z",
+                    "email": "xabier@onddo.com",
+                    "name": "Xabier de Zuazo"
+                },
+                "message": "Unrecognized packetId error printing id in hex",
+                "tree": {
+                    "sha": "b823287c1f062325a9cb0ebd82e21e60892fdb24",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/b823287c1f062325a9cb0ebd82e21e60892fdb24"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/38f46998e392d329b909ced6f169097d62a91388"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1878434?v=3",
+                "events_url": "https://api.github.com/users/zuazo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zuazo/followers",
+                "following_url": "https://api.github.com/users/zuazo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zuazo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zuazo",
+                "id": 1878434,
+                "login": "zuazo",
+                "organizations_url": "https://api.github.com/users/zuazo/orgs",
+                "received_events_url": "https://api.github.com/users/zuazo/received_events",
+                "repos_url": "https://api.github.com/users/zuazo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zuazo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zuazo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zuazo"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/38f46998e392d329b909ced6f169097d62a91388",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/11b11f0dc3f4314f9dc3cc7a29705f75f6296398",
+                    "sha": "11b11f0dc3f4314f9dc3cc7a29705f75f6296398",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/11b11f0dc3f4314f9dc3cc7a29705f75f6296398"
+                }
+            ],
+            "sha": "38f46998e392d329b909ced6f169097d62a91388",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/38f46998e392d329b909ced6f169097d62a91388"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1878434?v=3",
+                "events_url": "https://api.github.com/users/zuazo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zuazo/followers",
+                "following_url": "https://api.github.com/users/zuazo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zuazo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zuazo",
+                "id": 1878434,
+                "login": "zuazo",
+                "organizations_url": "https://api.github.com/users/zuazo/orgs",
+                "received_events_url": "https://api.github.com/users/zuazo/received_events",
+                "repos_url": "https://api.github.com/users/zuazo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zuazo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zuazo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zuazo"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/0ff49078ff767566e17c8ae4de97523015c5518b/comments",
+            "commit": {
+                "author": {
+                    "date": "2013-04-06T02:48:05Z",
+                    "email": "xabier@onddo.com",
+                    "name": "Xabier de Zuazo"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2013-04-06T02:48:05Z",
+                    "email": "xabier@onddo.com",
+                    "name": "Xabier de Zuazo"
+                },
+                "message": "friendlyFire on 0xd1 package id changed from bool to byte type",
+                "tree": {
+                    "sha": "9b9e00afcfad50e2c095ec6d9a26e4fb214cb414",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/9b9e00afcfad50e2c095ec6d9a26e4fb214cb414"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/0ff49078ff767566e17c8ae4de97523015c5518b"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1878434?v=3",
+                "events_url": "https://api.github.com/users/zuazo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zuazo/followers",
+                "following_url": "https://api.github.com/users/zuazo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zuazo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zuazo",
+                "id": 1878434,
+                "login": "zuazo",
+                "organizations_url": "https://api.github.com/users/zuazo/orgs",
+                "received_events_url": "https://api.github.com/users/zuazo/received_events",
+                "repos_url": "https://api.github.com/users/zuazo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zuazo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zuazo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zuazo"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/0ff49078ff767566e17c8ae4de97523015c5518b",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/38f46998e392d329b909ced6f169097d62a91388",
+                    "sha": "38f46998e392d329b909ced6f169097d62a91388",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/38f46998e392d329b909ced6f169097d62a91388"
+                }
+            ],
+            "sha": "0ff49078ff767566e17c8ae4de97523015c5518b",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/0ff49078ff767566e17c8ae4de97523015c5518b"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1878434?v=3",
+                "events_url": "https://api.github.com/users/zuazo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zuazo/followers",
+                "following_url": "https://api.github.com/users/zuazo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zuazo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zuazo",
+                "id": 1878434,
+                "login": "zuazo",
+                "organizations_url": "https://api.github.com/users/zuazo/orgs",
+                "received_events_url": "https://api.github.com/users/zuazo/received_events",
+                "repos_url": "https://api.github.com/users/zuazo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zuazo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zuazo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zuazo"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/b699d5506a3eccdf49ca399f681922dffb23e973/comments",
+            "commit": {
+                "author": {
+                    "date": "2013-04-06T03:02:36Z",
+                    "email": "xabier@onddo.com",
+                    "name": "Xabier de Zuazo"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2013-04-06T03:02:36Z",
+                    "email": "xabier@onddo.com",
+                    "name": "Xabier de Zuazo"
+                },
+                "message": "added debug() method for NODE_DEBUG=mc-proto",
+                "tree": {
+                    "sha": "6ca0b2973d3ef1d645e544881563b346a943cd2f",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/6ca0b2973d3ef1d645e544881563b346a943cd2f"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/b699d5506a3eccdf49ca399f681922dffb23e973"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1878434?v=3",
+                "events_url": "https://api.github.com/users/zuazo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zuazo/followers",
+                "following_url": "https://api.github.com/users/zuazo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zuazo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zuazo",
+                "id": 1878434,
+                "login": "zuazo",
+                "organizations_url": "https://api.github.com/users/zuazo/orgs",
+                "received_events_url": "https://api.github.com/users/zuazo/received_events",
+                "repos_url": "https://api.github.com/users/zuazo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zuazo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zuazo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zuazo"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/b699d5506a3eccdf49ca399f681922dffb23e973",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/0ff49078ff767566e17c8ae4de97523015c5518b",
+                    "sha": "0ff49078ff767566e17c8ae4de97523015c5518b",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/0ff49078ff767566e17c8ae4de97523015c5518b"
+                }
+            ],
+            "sha": "b699d5506a3eccdf49ca399f681922dffb23e973",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/b699d5506a3eccdf49ca399f681922dffb23e973"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1878434?v=3",
+                "events_url": "https://api.github.com/users/zuazo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zuazo/followers",
+                "following_url": "https://api.github.com/users/zuazo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zuazo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zuazo",
+                "id": 1878434,
+                "login": "zuazo",
+                "organizations_url": "https://api.github.com/users/zuazo/orgs",
+                "received_events_url": "https://api.github.com/users/zuazo/received_events",
+                "repos_url": "https://api.github.com/users/zuazo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zuazo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zuazo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zuazo"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/936ba5832d5061760f8893cc8a30b29f6a4dd2dc/comments",
+            "commit": {
+                "author": {
+                    "date": "2013-04-06T03:04:47Z",
+                    "email": "xabier@onddo.com",
+                    "name": "Xabier de Zuazo"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2013-04-06T03:04:47Z",
+                    "email": "xabier@onddo.com",
+                    "name": "Xabier de Zuazo"
+                },
+                "message": "added debug output for read/written packet ids",
+                "tree": {
+                    "sha": "48b27e75cbdbb4372fa049b379104cf0ddc99f3f",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/48b27e75cbdbb4372fa049b379104cf0ddc99f3f"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/936ba5832d5061760f8893cc8a30b29f6a4dd2dc"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1878434?v=3",
+                "events_url": "https://api.github.com/users/zuazo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zuazo/followers",
+                "following_url": "https://api.github.com/users/zuazo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zuazo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zuazo",
+                "id": 1878434,
+                "login": "zuazo",
+                "organizations_url": "https://api.github.com/users/zuazo/orgs",
+                "received_events_url": "https://api.github.com/users/zuazo/received_events",
+                "repos_url": "https://api.github.com/users/zuazo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zuazo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zuazo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zuazo"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/936ba5832d5061760f8893cc8a30b29f6a4dd2dc",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/b699d5506a3eccdf49ca399f681922dffb23e973",
+                    "sha": "b699d5506a3eccdf49ca399f681922dffb23e973",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/b699d5506a3eccdf49ca399f681922dffb23e973"
+                }
+            ],
+            "sha": "936ba5832d5061760f8893cc8a30b29f6a4dd2dc",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/936ba5832d5061760f8893cc8a30b29f6a4dd2dc"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1878434?v=3",
+                "events_url": "https://api.github.com/users/zuazo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zuazo/followers",
+                "following_url": "https://api.github.com/users/zuazo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zuazo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zuazo",
+                "id": 1878434,
+                "login": "zuazo",
+                "organizations_url": "https://api.github.com/users/zuazo/orgs",
+                "received_events_url": "https://api.github.com/users/zuazo/received_events",
+                "repos_url": "https://api.github.com/users/zuazo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zuazo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zuazo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zuazo"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/e17693868242c955ab995393ab56ccb8a537dffb/comments",
+            "commit": {
+                "author": {
+                    "date": "2013-04-06T03:41:40Z",
+                    "email": "xabier@onddo.com",
+                    "name": "Xabier de Zuazo"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2013-04-06T03:41:40Z",
+                    "email": "xabier@onddo.com",
+                    "name": "Xabier de Zuazo"
+                },
+                "message": "Protocol version updated to 1.5.1",
+                "tree": {
+                    "sha": "88b99e120c6a3bf5ae3c81bff9980e7d9b24dfce",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/88b99e120c6a3bf5ae3c81bff9980e7d9b24dfce"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/e17693868242c955ab995393ab56ccb8a537dffb"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1878434?v=3",
+                "events_url": "https://api.github.com/users/zuazo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zuazo/followers",
+                "following_url": "https://api.github.com/users/zuazo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zuazo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zuazo",
+                "id": 1878434,
+                "login": "zuazo",
+                "organizations_url": "https://api.github.com/users/zuazo/orgs",
+                "received_events_url": "https://api.github.com/users/zuazo/received_events",
+                "repos_url": "https://api.github.com/users/zuazo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zuazo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zuazo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zuazo"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/e17693868242c955ab995393ab56ccb8a537dffb",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/936ba5832d5061760f8893cc8a30b29f6a4dd2dc",
+                    "sha": "936ba5832d5061760f8893cc8a30b29f6a4dd2dc",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/936ba5832d5061760f8893cc8a30b29f6a4dd2dc"
+                }
+            ],
+            "sha": "e17693868242c955ab995393ab56ccb8a537dffb",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/e17693868242c955ab995393ab56ccb8a537dffb"
+        }
+    ],
+    "commits_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/50/commits",
+    "created_at": "2013-04-06T03:11:43Z",
+    "diff_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/50.diff",
+    "head": {
+        "label": "onddo:packetid-3e-3f-fix",
+        "ref": "packetid-3e-3f-fix",
+        "repo": null,
+        "sha": "e17693868242c955ab995393ab56ccb8a537dffb",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1446537?v=3",
+            "events_url": "https://api.github.com/users/onddo/events{/privacy}",
+            "followers_url": "https://api.github.com/users/onddo/followers",
+            "following_url": "https://api.github.com/users/onddo/following{/other_user}",
+            "gists_url": "https://api.github.com/users/onddo/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/onddo",
+            "id": 1446537,
+            "login": "onddo",
+            "organizations_url": "https://api.github.com/users/onddo/orgs",
+            "received_events_url": "https://api.github.com/users/onddo/received_events",
+            "repos_url": "https://api.github.com/users/onddo/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/onddo/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/onddo/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/onddo"
+        }
+    },
+    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/50",
+    "id": 5014359,
+    "issue_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/50",
+    "locked": false,
+    "merge_commit_sha": "809fb2c24ccab52f4932b7477fb8ec6b252ce2be",
+    "merged_at": "2013-04-06T14:43:53Z",
+    "milestone": null,
+    "number": 50,
+    "patch_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/50.patch",
+    "review_comment_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments{/number}",
+    "review_comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/50/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/statuses/e17693868242c955ab995393ab56ccb8a537dffb",
+    "title": "Fixed parsing package IDs 0x3e and 0x3f",
+    "updated_at": "2013-04-06T15:13:29Z",
+    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/50",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1878434?v=3",
+        "events_url": "https://api.github.com/users/zuazo/events{/privacy}",
+        "followers_url": "https://api.github.com/users/zuazo/followers",
+        "following_url": "https://api.github.com/users/zuazo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zuazo/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/zuazo",
+        "id": 1878434,
+        "login": "zuazo",
+        "organizations_url": "https://api.github.com/users/zuazo/orgs",
+        "received_events_url": "https://api.github.com/users/zuazo/received_events",
+        "repos_url": "https://api.github.com/users/zuazo/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/zuazo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zuazo/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/zuazo"
+    }
+}

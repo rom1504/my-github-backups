@@ -1,0 +1,132 @@
+{
+    "assignee": null,
+    "body": "A bit like nearest mob.\r\nCan be used to dig the block.\r\nIf it works well it could be used to get any block.",
+    "closed_at": "2013-02-07T03:47:44Z",
+    "comment_data": [
+        {
+            "body": "1c810edf6c33e2ceed594989d48175b367459a81 starts solving this issue, but there is still some work as the objective is to be able to move next to this block (this possibly needs digging) then to dig and collect it.",
+            "created_at": "2013-02-06T23:40:43Z",
+            "html_url": "https://github.com/rom1504/rbot/issues/4#issuecomment-13212416",
+            "id": 13212416,
+            "issue_url": "https://api.github.com/repos/rom1504/rbot/issues/4",
+            "updated_at": "2013-02-06T23:40:43Z",
+            "url": "https://api.github.com/repos/rom1504/rbot/issues/comments/13212416",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "body": "nearest reachable block would be far too expensive.\r\nnearest block works ok\r\nnearest reachable position can be useful.\r\n\"move next to this block (this possibly needs digging) then to dig and collect it.\" : this will be a new issue",
+            "created_at": "2013-02-07T03:47:44Z",
+            "html_url": "https://github.com/rom1504/rbot/issues/4#issuecomment-13219851",
+            "id": 13219851,
+            "issue_url": "https://api.github.com/repos/rom1504/rbot/issues/4",
+            "updated_at": "2013-02-07T03:47:44Z",
+            "url": "https://api.github.com/repos/rom1504/rbot/issues/comments/13219851",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        }
+    ],
+    "comments": 2,
+    "comments_url": "https://api.github.com/repos/rom1504/rbot/issues/4/comments",
+    "created_at": "2013-02-03T07:05:31Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2013-02-07T03:47:44Z",
+            "event": "closed",
+            "id": 37004570,
+            "url": "https://api.github.com/repos/rom1504/rbot/issues/events/37004570"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/rom1504/rbot/issues/4/events",
+    "html_url": "https://github.com/rom1504/rbot/issues/4",
+    "id": 10581762,
+    "labels": [
+        {
+            "color": "84b6eb",
+            "name": "enhancement",
+            "url": "https://api.github.com/repos/rom1504/rbot/labels/enhancement"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/rom1504/rbot/issues/4/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 4,
+    "state": "closed",
+    "title": "make a nearest block and a nearest reachable block",
+    "updated_at": "2013-02-07T03:47:44Z",
+    "url": "https://api.github.com/repos/rom1504/rbot/issues/4",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

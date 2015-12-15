@@ -1,0 +1,715 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/issues/277/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/277/commits"
+        },
+        "html": {
+            "href": "https://github.com/andrewrk/mineflayer/pull/277"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/issues/277"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/277/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/277"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/statuses/7e59ef415857c8cbbe31e139e4121d31abac6425"
+        }
+    },
+    "assignee": null,
+    "base": {
+        "label": "andrewrk:master",
+        "ref": "master",
+        "repo": {
+            "archive_url": "https://api.github.com/repos/andrewrk/mineflayer/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/andrewrk/mineflayer/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/andrewrk/mineflayer/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/andrewrk/mineflayer/branches{/branch}",
+            "clone_url": "https://github.com/andrewrk/mineflayer.git",
+            "collaborators_url": "https://api.github.com/repos/andrewrk/mineflayer/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/comments{/number}",
+            "commits_url": "https://api.github.com/repos/andrewrk/mineflayer/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/andrewrk/mineflayer/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/andrewrk/mineflayer/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/andrewrk/mineflayer/contributors",
+            "created_at": "2011-01-23T09:41:55Z",
+            "default_branch": "master",
+            "description": "Create Minecraft bots with a powerful, stable, and high level JavaScript API.",
+            "downloads_url": "https://api.github.com/repos/andrewrk/mineflayer/downloads",
+            "events_url": "https://api.github.com/repos/andrewrk/mineflayer/events",
+            "fork": false,
+            "forks": 63,
+            "forks_count": 63,
+            "forks_url": "https://api.github.com/repos/andrewrk/mineflayer/forks",
+            "full_name": "andrewrk/mineflayer",
+            "git_commits_url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/andrewrk/mineflayer/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/andrewrk/mineflayer/git/tags{/sha}",
+            "git_url": "git://github.com/andrewrk/mineflayer.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_wiki": true,
+            "homepage": "",
+            "hooks_url": "https://api.github.com/repos/andrewrk/mineflayer/hooks",
+            "html_url": "https://github.com/andrewrk/mineflayer",
+            "id": 1284185,
+            "issue_comment_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/andrewrk/mineflayer/issues{/number}",
+            "keys_url": "https://api.github.com/repos/andrewrk/mineflayer/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/labels{/name}",
+            "language": "JavaScript",
+            "languages_url": "https://api.github.com/repos/andrewrk/mineflayer/languages",
+            "merges_url": "https://api.github.com/repos/andrewrk/mineflayer/merges",
+            "milestones_url": "https://api.github.com/repos/andrewrk/mineflayer/milestones{/number}",
+            "mirror_url": null,
+            "name": "mineflayer",
+            "notifications_url": "https://api.github.com/repos/andrewrk/mineflayer/notifications{?since,all,participating}",
+            "open_issues": 51,
+            "open_issues_count": 51,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+                "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+                "followers_url": "https://api.github.com/users/andrewrk/followers",
+                "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+                "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/andrewrk",
+                "id": 106511,
+                "login": "andrewrk",
+                "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+                "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+                "repos_url": "https://api.github.com/users/andrewrk/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/andrewrk"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls{/number}",
+            "pushed_at": "2015-12-11T12:23:23Z",
+            "releases_url": "https://api.github.com/repos/andrewrk/mineflayer/releases{/id}",
+            "size": 10258,
+            "ssh_url": "git@github.com:andrewrk/mineflayer.git",
+            "stargazers_count": 259,
+            "stargazers_url": "https://api.github.com/repos/andrewrk/mineflayer/stargazers",
+            "statuses_url": "https://api.github.com/repos/andrewrk/mineflayer/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/andrewrk/mineflayer/subscribers",
+            "subscription_url": "https://api.github.com/repos/andrewrk/mineflayer/subscription",
+            "svn_url": "https://github.com/andrewrk/mineflayer",
+            "tags_url": "https://api.github.com/repos/andrewrk/mineflayer/tags",
+            "teams_url": "https://api.github.com/repos/andrewrk/mineflayer/teams",
+            "trees_url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees{/sha}",
+            "updated_at": "2015-12-14T13:21:10Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer",
+            "watchers": 259,
+            "watchers_count": 259
+        },
+        "sha": "88f0f270b9b48834cae11823631b5bf0c007d546",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+            "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+            "followers_url": "https://api.github.com/users/andrewrk/followers",
+            "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/andrewrk",
+            "id": 106511,
+            "login": "andrewrk",
+            "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+            "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+            "repos_url": "https://api.github.com/users/andrewrk/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/andrewrk"
+        }
+    },
+    "body": "Added example for adding chat patterns\r\nAdded fix for empty lines on signs crashing bots (bukkit servers)\r\n\r\nSigned-off-by: Corgano <Corganowade@gmail.com>",
+    "closed_at": "2015-04-29T11:15:52Z",
+    "comment_data": [],
+    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/277/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/860229?v=3",
+                "events_url": "https://api.github.com/users/Corgano/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Corgano/followers",
+                "following_url": "https://api.github.com/users/Corgano/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Corgano/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Corgano",
+                "id": 860229,
+                "login": "Corgano",
+                "organizations_url": "https://api.github.com/users/Corgano/orgs",
+                "received_events_url": "https://api.github.com/users/Corgano/received_events",
+                "repos_url": "https://api.github.com/users/Corgano/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Corgano/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Corgano/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Corgano"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/b218db09f229a94d50a668ea8b4b5af0d189a46a/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-04-28T17:49:56Z",
+                    "email": "corganowade@gmail.com",
+                    "name": "Corgano"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-04-28T17:49:56Z",
+                    "email": "corganowade@gmail.com",
+                    "name": "Corgano"
+                },
+                "message": "Added basic chat pattern matching\nAdded example for adding chat patterns\nAdded fix for empty lines on signs crashing bots (bukkit servers)\n\nSigned-off-by: Corgano <Corganowade@gmail.com>",
+                "tree": {
+                    "sha": "7e2ce096d308a941b1e41f4c7c4dc2b796258a9f",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/7e2ce096d308a941b1e41f4c7c4dc2b796258a9f"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/b218db09f229a94d50a668ea8b4b5af0d189a46a"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/860229?v=3",
+                "events_url": "https://api.github.com/users/Corgano/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Corgano/followers",
+                "following_url": "https://api.github.com/users/Corgano/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Corgano/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Corgano",
+                "id": 860229,
+                "login": "Corgano",
+                "organizations_url": "https://api.github.com/users/Corgano/orgs",
+                "received_events_url": "https://api.github.com/users/Corgano/received_events",
+                "repos_url": "https://api.github.com/users/Corgano/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Corgano/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Corgano/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Corgano"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/b218db09f229a94d50a668ea8b4b5af0d189a46a",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/88f0f270b9b48834cae11823631b5bf0c007d546",
+                    "sha": "88f0f270b9b48834cae11823631b5bf0c007d546",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/88f0f270b9b48834cae11823631b5bf0c007d546"
+                }
+            ],
+            "sha": "b218db09f229a94d50a668ea8b4b5af0d189a46a",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/b218db09f229a94d50a668ea8b4b5af0d189a46a"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/860229?v=3",
+                "events_url": "https://api.github.com/users/Corgano/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Corgano/followers",
+                "following_url": "https://api.github.com/users/Corgano/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Corgano/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Corgano",
+                "id": 860229,
+                "login": "Corgano",
+                "organizations_url": "https://api.github.com/users/Corgano/orgs",
+                "received_events_url": "https://api.github.com/users/Corgano/received_events",
+                "repos_url": "https://api.github.com/users/Corgano/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Corgano/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Corgano/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Corgano"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/beeb752c658c44e2a4070403bcf69355877b2277/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-04-28T18:27:34Z",
+                    "email": "corganowade@gmail.com",
+                    "name": "Corgano"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-04-28T18:27:34Z",
+                    "email": "corganowade@gmail.com",
+                    "name": "Corgano"
+                },
+                "message": "Cleaned script spacing\n\nSigned-off-by: Corgano <Corganowade@gmail.com>",
+                "tree": {
+                    "sha": "6b9e77181b8a6fc501a83341f4492fccfedc944e",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/6b9e77181b8a6fc501a83341f4492fccfedc944e"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/beeb752c658c44e2a4070403bcf69355877b2277"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/860229?v=3",
+                "events_url": "https://api.github.com/users/Corgano/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Corgano/followers",
+                "following_url": "https://api.github.com/users/Corgano/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Corgano/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Corgano",
+                "id": 860229,
+                "login": "Corgano",
+                "organizations_url": "https://api.github.com/users/Corgano/orgs",
+                "received_events_url": "https://api.github.com/users/Corgano/received_events",
+                "repos_url": "https://api.github.com/users/Corgano/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Corgano/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Corgano/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Corgano"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/beeb752c658c44e2a4070403bcf69355877b2277",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/b218db09f229a94d50a668ea8b4b5af0d189a46a",
+                    "sha": "b218db09f229a94d50a668ea8b4b5af0d189a46a",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/b218db09f229a94d50a668ea8b4b5af0d189a46a"
+                }
+            ],
+            "sha": "beeb752c658c44e2a4070403bcf69355877b2277",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/beeb752c658c44e2a4070403bcf69355877b2277"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/860229?v=3",
+                "events_url": "https://api.github.com/users/Corgano/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Corgano/followers",
+                "following_url": "https://api.github.com/users/Corgano/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Corgano/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Corgano",
+                "id": 860229,
+                "login": "Corgano",
+                "organizations_url": "https://api.github.com/users/Corgano/orgs",
+                "received_events_url": "https://api.github.com/users/Corgano/received_events",
+                "repos_url": "https://api.github.com/users/Corgano/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Corgano/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Corgano/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Corgano"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/b41695cf87d26091130df6819896d288724cc190/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-04-28T19:05:35Z",
+                    "email": "corganowade@gmail.com",
+                    "name": "Corgano"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-04-28T19:05:35Z",
+                    "email": "corganowade@gmail.com",
+                    "name": "Corgano"
+                },
+                "message": "Spelling fixes\n\nSigned-off-by: Corgano <Corganowade@gmail.com>",
+                "tree": {
+                    "sha": "4bd5cf39699e965c1b1e08da692a61e976ec2f82",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/4bd5cf39699e965c1b1e08da692a61e976ec2f82"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/b41695cf87d26091130df6819896d288724cc190"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/860229?v=3",
+                "events_url": "https://api.github.com/users/Corgano/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Corgano/followers",
+                "following_url": "https://api.github.com/users/Corgano/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Corgano/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Corgano",
+                "id": 860229,
+                "login": "Corgano",
+                "organizations_url": "https://api.github.com/users/Corgano/orgs",
+                "received_events_url": "https://api.github.com/users/Corgano/received_events",
+                "repos_url": "https://api.github.com/users/Corgano/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Corgano/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Corgano/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Corgano"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/b41695cf87d26091130df6819896d288724cc190",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/beeb752c658c44e2a4070403bcf69355877b2277",
+                    "sha": "beeb752c658c44e2a4070403bcf69355877b2277",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/beeb752c658c44e2a4070403bcf69355877b2277"
+                }
+            ],
+            "sha": "b41695cf87d26091130df6819896d288724cc190",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/b41695cf87d26091130df6819896d288724cc190"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/860229?v=3",
+                "events_url": "https://api.github.com/users/Corgano/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Corgano/followers",
+                "following_url": "https://api.github.com/users/Corgano/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Corgano/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Corgano",
+                "id": 860229,
+                "login": "Corgano",
+                "organizations_url": "https://api.github.com/users/Corgano/orgs",
+                "received_events_url": "https://api.github.com/users/Corgano/received_events",
+                "repos_url": "https://api.github.com/users/Corgano/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Corgano/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Corgano/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Corgano"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/2303f94c9721b019e4a3dbf5918bd3d75c0e6e00/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-04-28T19:06:31Z",
+                    "email": "corganowade@gmail.com",
+                    "name": "Corgano"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-04-28T19:06:31Z",
+                    "email": "corganowade@gmail.com",
+                    "name": "Corgano"
+                },
+                "message": "Removing name from comments - that is what git blame is for (apparently)\n\nSigned-off-by: Corgano <Corganowade@gmail.com>",
+                "tree": {
+                    "sha": "d85d519cdfe776145ea79cf058f05b4c6684ece4",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/d85d519cdfe776145ea79cf058f05b4c6684ece4"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/2303f94c9721b019e4a3dbf5918bd3d75c0e6e00"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/860229?v=3",
+                "events_url": "https://api.github.com/users/Corgano/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Corgano/followers",
+                "following_url": "https://api.github.com/users/Corgano/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Corgano/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Corgano",
+                "id": 860229,
+                "login": "Corgano",
+                "organizations_url": "https://api.github.com/users/Corgano/orgs",
+                "received_events_url": "https://api.github.com/users/Corgano/received_events",
+                "repos_url": "https://api.github.com/users/Corgano/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Corgano/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Corgano/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Corgano"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/2303f94c9721b019e4a3dbf5918bd3d75c0e6e00",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/b41695cf87d26091130df6819896d288724cc190",
+                    "sha": "b41695cf87d26091130df6819896d288724cc190",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/b41695cf87d26091130df6819896d288724cc190"
+                }
+            ],
+            "sha": "2303f94c9721b019e4a3dbf5918bd3d75c0e6e00",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/2303f94c9721b019e4a3dbf5918bd3d75c0e6e00"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/860229?v=3",
+                "events_url": "https://api.github.com/users/Corgano/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Corgano/followers",
+                "following_url": "https://api.github.com/users/Corgano/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Corgano/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Corgano",
+                "id": 860229,
+                "login": "Corgano",
+                "organizations_url": "https://api.github.com/users/Corgano/orgs",
+                "received_events_url": "https://api.github.com/users/Corgano/received_events",
+                "repos_url": "https://api.github.com/users/Corgano/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Corgano/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Corgano/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Corgano"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/e7781ac17acba1eabd8720c208bac71f79c2e23e/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-04-28T19:11:14Z",
+                    "email": "corganowade@gmail.com",
+                    "name": "Corgano"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-04-28T19:11:14Z",
+                    "email": "corganowade@gmail.com",
+                    "name": "Corgano"
+                },
+                "message": "Change digger.js to chatAddPattern.js in command help\n\nSigned-off-by: Corgano <Corganowade@gmail.com>",
+                "tree": {
+                    "sha": "a1dae8e1a2288acca914100dbbe00d5345bc9fcb",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/a1dae8e1a2288acca914100dbbe00d5345bc9fcb"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/e7781ac17acba1eabd8720c208bac71f79c2e23e"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/860229?v=3",
+                "events_url": "https://api.github.com/users/Corgano/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Corgano/followers",
+                "following_url": "https://api.github.com/users/Corgano/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Corgano/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Corgano",
+                "id": 860229,
+                "login": "Corgano",
+                "organizations_url": "https://api.github.com/users/Corgano/orgs",
+                "received_events_url": "https://api.github.com/users/Corgano/received_events",
+                "repos_url": "https://api.github.com/users/Corgano/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Corgano/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Corgano/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Corgano"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/e7781ac17acba1eabd8720c208bac71f79c2e23e",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/2303f94c9721b019e4a3dbf5918bd3d75c0e6e00",
+                    "sha": "2303f94c9721b019e4a3dbf5918bd3d75c0e6e00",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/2303f94c9721b019e4a3dbf5918bd3d75c0e6e00"
+                }
+            ],
+            "sha": "e7781ac17acba1eabd8720c208bac71f79c2e23e",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/e7781ac17acba1eabd8720c208bac71f79c2e23e"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/860229?v=3",
+                "events_url": "https://api.github.com/users/Corgano/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Corgano/followers",
+                "following_url": "https://api.github.com/users/Corgano/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Corgano/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Corgano",
+                "id": 860229,
+                "login": "Corgano",
+                "organizations_url": "https://api.github.com/users/Corgano/orgs",
+                "received_events_url": "https://api.github.com/users/Corgano/received_events",
+                "repos_url": "https://api.github.com/users/Corgano/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Corgano/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Corgano/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Corgano"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/7e59ef415857c8cbbe31e139e4121d31abac6425/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-04-28T22:11:48Z",
+                    "email": "corganowade@gmail.com",
+                    "name": "Corgano"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-04-28T22:11:48Z",
+                    "email": "corganowade@gmail.com",
+                    "name": "Corgano"
+                },
+                "message": "Updated api.md\nUpdated chat.js to match api.md\n\nSigned-off-by: Corgano <Corganowade@gmail.com>",
+                "tree": {
+                    "sha": "25c72c3644a0a615c8db12acaee28947747e68e1",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/25c72c3644a0a615c8db12acaee28947747e68e1"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/7e59ef415857c8cbbe31e139e4121d31abac6425"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/860229?v=3",
+                "events_url": "https://api.github.com/users/Corgano/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Corgano/followers",
+                "following_url": "https://api.github.com/users/Corgano/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Corgano/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Corgano",
+                "id": 860229,
+                "login": "Corgano",
+                "organizations_url": "https://api.github.com/users/Corgano/orgs",
+                "received_events_url": "https://api.github.com/users/Corgano/received_events",
+                "repos_url": "https://api.github.com/users/Corgano/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Corgano/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Corgano/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Corgano"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/7e59ef415857c8cbbe31e139e4121d31abac6425",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/e7781ac17acba1eabd8720c208bac71f79c2e23e",
+                    "sha": "e7781ac17acba1eabd8720c208bac71f79c2e23e",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/e7781ac17acba1eabd8720c208bac71f79c2e23e"
+                }
+            ],
+            "sha": "7e59ef415857c8cbbe31e139e4121d31abac6425",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/7e59ef415857c8cbbe31e139e4121d31abac6425"
+        }
+    ],
+    "commits_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/277/commits",
+    "created_at": "2015-04-28T17:54:12Z",
+    "diff_url": "https://github.com/andrewrk/mineflayer/pull/277.diff",
+    "head": {
+        "label": "Corgano:master",
+        "ref": "master",
+        "repo": {
+            "archive_url": "https://api.github.com/repos/Corgano/mineflayer/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/Corgano/mineflayer/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/Corgano/mineflayer/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/Corgano/mineflayer/branches{/branch}",
+            "clone_url": "https://github.com/Corgano/mineflayer.git",
+            "collaborators_url": "https://api.github.com/repos/Corgano/mineflayer/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/Corgano/mineflayer/comments{/number}",
+            "commits_url": "https://api.github.com/repos/Corgano/mineflayer/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/Corgano/mineflayer/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/Corgano/mineflayer/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/Corgano/mineflayer/contributors",
+            "created_at": "2015-04-28T17:15:35Z",
+            "default_branch": "master",
+            "description": "Create Minecraft bots with a powerful, stable, and high level JavaScript API.",
+            "downloads_url": "https://api.github.com/repos/Corgano/mineflayer/downloads",
+            "events_url": "https://api.github.com/repos/Corgano/mineflayer/events",
+            "fork": true,
+            "forks": 0,
+            "forks_count": 0,
+            "forks_url": "https://api.github.com/repos/Corgano/mineflayer/forks",
+            "full_name": "Corgano/mineflayer",
+            "git_commits_url": "https://api.github.com/repos/Corgano/mineflayer/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/Corgano/mineflayer/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/Corgano/mineflayer/git/tags{/sha}",
+            "git_url": "git://github.com/Corgano/mineflayer.git",
+            "has_downloads": true,
+            "has_issues": false,
+            "has_pages": false,
+            "has_wiki": true,
+            "homepage": "",
+            "hooks_url": "https://api.github.com/repos/Corgano/mineflayer/hooks",
+            "html_url": "https://github.com/Corgano/mineflayer",
+            "id": 34744775,
+            "issue_comment_url": "https://api.github.com/repos/Corgano/mineflayer/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/Corgano/mineflayer/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/Corgano/mineflayer/issues{/number}",
+            "keys_url": "https://api.github.com/repos/Corgano/mineflayer/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/Corgano/mineflayer/labels{/name}",
+            "language": "JavaScript",
+            "languages_url": "https://api.github.com/repos/Corgano/mineflayer/languages",
+            "merges_url": "https://api.github.com/repos/Corgano/mineflayer/merges",
+            "milestones_url": "https://api.github.com/repos/Corgano/mineflayer/milestones{/number}",
+            "mirror_url": null,
+            "name": "mineflayer",
+            "notifications_url": "https://api.github.com/repos/Corgano/mineflayer/notifications{?since,all,participating}",
+            "open_issues": 0,
+            "open_issues_count": 0,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/860229?v=3",
+                "events_url": "https://api.github.com/users/Corgano/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Corgano/followers",
+                "following_url": "https://api.github.com/users/Corgano/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Corgano/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Corgano",
+                "id": 860229,
+                "login": "Corgano",
+                "organizations_url": "https://api.github.com/users/Corgano/orgs",
+                "received_events_url": "https://api.github.com/users/Corgano/received_events",
+                "repos_url": "https://api.github.com/users/Corgano/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Corgano/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Corgano/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Corgano"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/Corgano/mineflayer/pulls{/number}",
+            "pushed_at": "2015-04-29T15:46:16Z",
+            "releases_url": "https://api.github.com/repos/Corgano/mineflayer/releases{/id}",
+            "size": 10116,
+            "ssh_url": "git@github.com:Corgano/mineflayer.git",
+            "stargazers_count": 0,
+            "stargazers_url": "https://api.github.com/repos/Corgano/mineflayer/stargazers",
+            "statuses_url": "https://api.github.com/repos/Corgano/mineflayer/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/Corgano/mineflayer/subscribers",
+            "subscription_url": "https://api.github.com/repos/Corgano/mineflayer/subscription",
+            "svn_url": "https://github.com/Corgano/mineflayer",
+            "tags_url": "https://api.github.com/repos/Corgano/mineflayer/tags",
+            "teams_url": "https://api.github.com/repos/Corgano/mineflayer/teams",
+            "trees_url": "https://api.github.com/repos/Corgano/mineflayer/git/trees{/sha}",
+            "updated_at": "2015-04-29T15:46:16Z",
+            "url": "https://api.github.com/repos/Corgano/mineflayer",
+            "watchers": 0,
+            "watchers_count": 0
+        },
+        "sha": "7e59ef415857c8cbbe31e139e4121d31abac6425",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/860229?v=3",
+            "events_url": "https://api.github.com/users/Corgano/events{/privacy}",
+            "followers_url": "https://api.github.com/users/Corgano/followers",
+            "following_url": "https://api.github.com/users/Corgano/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Corgano/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/Corgano",
+            "id": 860229,
+            "login": "Corgano",
+            "organizations_url": "https://api.github.com/users/Corgano/orgs",
+            "received_events_url": "https://api.github.com/users/Corgano/received_events",
+            "repos_url": "https://api.github.com/users/Corgano/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/Corgano/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Corgano/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/Corgano"
+        }
+    },
+    "html_url": "https://github.com/andrewrk/mineflayer/pull/277",
+    "id": 34293266,
+    "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/277",
+    "locked": false,
+    "merge_commit_sha": "0f189f34f4bd172e1306b611ca4a25167e911469",
+    "merged_at": "2015-04-29T11:15:52Z",
+    "milestone": null,
+    "number": 277,
+    "patch_url": "https://github.com/andrewrk/mineflayer/pull/277.patch",
+    "review_comment_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/comments{/number}",
+    "review_comments_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/277/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/andrewrk/mineflayer/statuses/7e59ef415857c8cbbe31e139e4121d31abac6425",
+    "title": "Added basic chat pattern matching",
+    "updated_at": "2015-04-29T11:15:52Z",
+    "url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/277",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/860229?v=3",
+        "events_url": "https://api.github.com/users/Corgano/events{/privacy}",
+        "followers_url": "https://api.github.com/users/Corgano/followers",
+        "following_url": "https://api.github.com/users/Corgano/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Corgano/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/Corgano",
+        "id": 860229,
+        "login": "Corgano",
+        "organizations_url": "https://api.github.com/users/Corgano/orgs",
+        "received_events_url": "https://api.github.com/users/Corgano/received_events",
+        "repos_url": "https://api.github.com/users/Corgano/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/Corgano/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Corgano/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/Corgano"
+    }
+}

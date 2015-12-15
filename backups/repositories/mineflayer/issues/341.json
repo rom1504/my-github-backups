@@ -1,0 +1,108 @@
+{
+    "assignee": null,
+    "body": "That decision was taken for flying-squid and it does makes some things simpler.\r\nIt would be an API change but that way we keep a similar API to flying-squid which is a good idea imho. (who knows, someday we might put stuff in common between mineflayer plugins and flying-squid plugins)",
+    "closed_at": null,
+    "comment_data": [
+        {
+            "body": "If you do change, you can make `bot.entity` a circular reference to `bot` to preserve backwards compatibility.",
+            "created_at": "2015-11-25T07:16:29Z",
+            "html_url": "https://github.com/andrewrk/mineflayer/issues/341#issuecomment-159522944",
+            "id": 159522944,
+            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/341",
+            "updated_at": "2015-11-25T07:16:29Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/159522944",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/13689923?v=3",
+                "events_url": "https://api.github.com/users/1b8/events{/privacy}",
+                "followers_url": "https://api.github.com/users/1b8/followers",
+                "following_url": "https://api.github.com/users/1b8/following{/other_user}",
+                "gists_url": "https://api.github.com/users/1b8/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/1b8",
+                "id": 13689923,
+                "login": "1b8",
+                "organizations_url": "https://api.github.com/users/1b8/orgs",
+                "received_events_url": "https://api.github.com/users/1b8/received_events",
+                "repos_url": "https://api.github.com/users/1b8/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/1b8/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/1b8/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/1b8"
+            }
+        }
+    ],
+    "comments": 1,
+    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/341/comments",
+    "created_at": "2015-11-20T12:51:20Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-11-20T12:51:37Z",
+            "event": "labeled",
+            "id": 470347316,
+            "label": {
+                "color": "eb6420",
+                "name": "refactoring"
+            },
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/470347316"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/341/events",
+    "html_url": "https://github.com/andrewrk/mineflayer/issues/341",
+    "id": 118035527,
+    "labels": [
+        {
+            "color": "eb6420",
+            "name": "refactoring",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/refactoring"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/341/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 341,
+    "state": "open",
+    "title": "Consider make Bot an Entity and bot.entity -> bot",
+    "updated_at": "2015-11-25T07:16:30Z",
+    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/341",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

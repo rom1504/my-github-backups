@@ -1,0 +1,135 @@
+{
+    "assignee": null,
+    "body": "* to explain how to make a test https://github.com/andrewrk/mineflayer/issues/239#issuecomment-87506334\r\n* to explain how to create a third party plugin https://github.com/andrewrk/mineflayer#third-party-plugins\r\n* Error handling : If function takes a callback, _NEVER_ throw in that function.\r\n* other stuff ?",
+    "closed_at": "2015-04-28T11:38:53Z",
+    "comment_data": [
+        {
+            "body": "* use cb(new Error(\"thing\")) and not throw new Error(\"thing\") because we don't want to crash the bot in mineflayer, even if something fails.\r\n\r\nProbably asserts should be cb(new Error(\"thing\")) too.",
+            "created_at": "2015-04-06T17:54:08Z",
+            "html_url": "https://github.com/andrewrk/mineflayer/issues/248#issuecomment-90174519",
+            "id": 90174519,
+            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/248",
+            "updated_at": "2015-04-07T21:04:40Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/90174519",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        }
+    ],
+    "comments": 1,
+    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/248/comments",
+    "created_at": "2015-03-31T23:41:04Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-03-31T23:43:28Z",
+            "event": "labeled",
+            "id": 270127030,
+            "label": {
+                "color": "d4c5f9",
+                "name": "documentation"
+            },
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/270127030"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": "88f0f270b9b48834cae11823631b5bf0c007d546",
+            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/88f0f270b9b48834cae11823631b5bf0c007d546",
+            "created_at": "2015-04-28T11:38:53Z",
+            "event": "closed",
+            "id": 291878331,
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/291878331"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/248/events",
+    "html_url": "https://github.com/andrewrk/mineflayer/issues/248",
+    "id": 65569592,
+    "labels": [
+        {
+            "color": "d4c5f9",
+            "name": "documentation",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/documentation"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/248/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 248,
+    "state": "closed",
+    "title": "Have a contribute.md",
+    "updated_at": "2015-04-28T11:38:53Z",
+    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/248",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

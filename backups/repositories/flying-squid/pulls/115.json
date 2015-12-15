@@ -1,0 +1,1221 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/mhsjlw/flying-squid/issues/115/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/115/commits"
+        },
+        "html": {
+            "href": "https://github.com/mhsjlw/flying-squid/pull/115"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/mhsjlw/flying-squid/issues/115"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/115/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/115"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/mhsjlw/flying-squid/statuses/8d9eb3207310f557c832a97cae9a33c41ee31563"
+        }
+    },
+    "assignee": null,
+    "base": {
+        "label": "mhsjlw:master",
+        "ref": "master",
+        "repo": {
+            "archive_url": "https://api.github.com/repos/mhsjlw/flying-squid/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/mhsjlw/flying-squid/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/mhsjlw/flying-squid/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/mhsjlw/flying-squid/branches{/branch}",
+            "clone_url": "https://github.com/mhsjlw/flying-squid.git",
+            "collaborators_url": "https://api.github.com/repos/mhsjlw/flying-squid/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/comments{/number}",
+            "commits_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/mhsjlw/flying-squid/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/mhsjlw/flying-squid/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/mhsjlw/flying-squid/contributors",
+            "created_at": "2015-08-25T23:30:19Z",
+            "default_branch": "master",
+            "description": "A minecraft server written in node.js, modularized",
+            "downloads_url": "https://api.github.com/repos/mhsjlw/flying-squid/downloads",
+            "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/events",
+            "fork": false,
+            "forks": 13,
+            "forks_count": 13,
+            "forks_url": "https://api.github.com/repos/mhsjlw/flying-squid/forks",
+            "full_name": "mhsjlw/flying-squid",
+            "git_commits_url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/mhsjlw/flying-squid/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/mhsjlw/flying-squid/git/tags{/sha}",
+            "git_url": "git://github.com/mhsjlw/flying-squid.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_wiki": true,
+            "homepage": "",
+            "hooks_url": "https://api.github.com/repos/mhsjlw/flying-squid/hooks",
+            "html_url": "https://github.com/mhsjlw/flying-squid",
+            "id": 41393164,
+            "issue_comment_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues{/number}",
+            "keys_url": "https://api.github.com/repos/mhsjlw/flying-squid/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/labels{/name}",
+            "language": "JavaScript",
+            "languages_url": "https://api.github.com/repos/mhsjlw/flying-squid/languages",
+            "merges_url": "https://api.github.com/repos/mhsjlw/flying-squid/merges",
+            "milestones_url": "https://api.github.com/repos/mhsjlw/flying-squid/milestones{/number}",
+            "mirror_url": null,
+            "name": "flying-squid",
+            "notifications_url": "https://api.github.com/repos/mhsjlw/flying-squid/notifications{?since,all,participating}",
+            "open_issues": 43,
+            "open_issues_count": 43,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8526903?v=3",
+                "events_url": "https://api.github.com/users/mhsjlw/events{/privacy}",
+                "followers_url": "https://api.github.com/users/mhsjlw/followers",
+                "following_url": "https://api.github.com/users/mhsjlw/following{/other_user}",
+                "gists_url": "https://api.github.com/users/mhsjlw/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/mhsjlw",
+                "id": 8526903,
+                "login": "mhsjlw",
+                "organizations_url": "https://api.github.com/users/mhsjlw/orgs",
+                "received_events_url": "https://api.github.com/users/mhsjlw/received_events",
+                "repos_url": "https://api.github.com/users/mhsjlw/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/mhsjlw/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/mhsjlw/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/mhsjlw"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls{/number}",
+            "pushed_at": "2015-12-14T23:20:22Z",
+            "releases_url": "https://api.github.com/repos/mhsjlw/flying-squid/releases{/id}",
+            "size": 569,
+            "ssh_url": "git@github.com:mhsjlw/flying-squid.git",
+            "stargazers_count": 29,
+            "stargazers_url": "https://api.github.com/repos/mhsjlw/flying-squid/stargazers",
+            "statuses_url": "https://api.github.com/repos/mhsjlw/flying-squid/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/mhsjlw/flying-squid/subscribers",
+            "subscription_url": "https://api.github.com/repos/mhsjlw/flying-squid/subscription",
+            "svn_url": "https://github.com/mhsjlw/flying-squid",
+            "tags_url": "https://api.github.com/repos/mhsjlw/flying-squid/tags",
+            "teams_url": "https://api.github.com/repos/mhsjlw/flying-squid/teams",
+            "trees_url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees{/sha}",
+            "updated_at": "2015-12-14T23:20:38Z",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid",
+            "watchers": 29,
+            "watchers_count": 29
+        },
+        "sha": "00244db976c66421162823d616c6c0469bd47a3f",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/8526903?v=3",
+            "events_url": "https://api.github.com/users/mhsjlw/events{/privacy}",
+            "followers_url": "https://api.github.com/users/mhsjlw/followers",
+            "following_url": "https://api.github.com/users/mhsjlw/following{/other_user}",
+            "gists_url": "https://api.github.com/users/mhsjlw/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/mhsjlw",
+            "id": 8526903,
+            "login": "mhsjlw",
+            "organizations_url": "https://api.github.com/users/mhsjlw/orgs",
+            "received_events_url": "https://api.github.com/users/mhsjlw/received_events",
+            "repos_url": "https://api.github.com/users/mhsjlw/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/mhsjlw/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/mhsjlw/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/mhsjlw"
+        }
+    },
+    "body": "is for behAviors!",
+    "closed_at": "2015-11-24T22:41:52Z",
+    "comment_data": [
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/mhsjlw/flying-squid/pull/115#discussion_r45570131"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/115"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45570131"
+                }
+            },
+            "body": "On _client really ?",
+            "commit_id": "8d9eb3207310f557c832a97cae9a33c41ee31563",
+            "created_at": "2015-11-23T02:52:16Z",
+            "diff_hunk": "@@ -40,11 +40,12 @@ module.exports.player=function(player,serv) {\n     serv.playSound(sound, player.world, null, opt);\n   };\n \n-  player._client.on('block_place', ({location}={}) => {\n+  player._client.on('placeBlock_cancel', ({location}={}, cancel) => {",
+            "html_url": "https://github.com/mhsjlw/flying-squid/pull/115#discussion_r45570131",
+            "id": 45570131,
+            "original_commit_id": "93ab42152c8d8d954ab7fb4ac4e74058d6b07f14",
+            "original_position": 5,
+            "path": "src/lib/plugins/sound.js",
+            "position": null,
+            "pull_request_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/115",
+            "updated_at": "2015-11-24T22:35:10Z",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45570131",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/mhsjlw/flying-squid/pull/115#discussion_r45570204"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/115"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45570204"
+                }
+            },
+            "body": "IM SRY AFTER 650 LINES U HAVE TO UNDERSTAND PLEASE FORGIVE",
+            "commit_id": "8d9eb3207310f557c832a97cae9a33c41ee31563",
+            "created_at": "2015-11-23T02:56:36Z",
+            "diff_hunk": "@@ -40,11 +40,12 @@ module.exports.player=function(player,serv) {\n     serv.playSound(sound, player.world, null, opt);\n   };\n \n-  player._client.on('block_place', ({location}={}) => {\n+  player._client.on('placeBlock_cancel', ({location}={}, cancel) => {",
+            "html_url": "https://github.com/mhsjlw/flying-squid/pull/115#discussion_r45570204",
+            "id": 45570204,
+            "original_commit_id": "93ab42152c8d8d954ab7fb4ac4e74058d6b07f14",
+            "original_position": 5,
+            "path": "src/lib/plugins/sound.js",
+            "position": null,
+            "pull_request_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/115",
+            "updated_at": "2015-11-24T22:35:10Z",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45570204",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/mhsjlw/flying-squid/pull/115#discussion_r45621795"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/115"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45621795"
+                }
+            },
+            "body": "startDigmehging ???",
+            "commit_id": "8d9eb3207310f557c832a97cae9a33c41ee31563",
+            "created_at": "2015-11-23T16:10:41Z",
+            "diff_hunk": "@@ -2,48 +2,46 @@ var Vec3 = require(\"vec3\").Vec3;\n \n module.exports.player=function(player,serv)\n {\n+\n+  function cancelDig({position, block}) {\n+    player.sendBlock(position, block.type, block.metadata);\n+  }\n+\n   player._client.on(\"block_dig\",({location,status} = {}) => {\n     var pos=new Vec3(location.x,location.y,location.z);\n     player.world.getBlock(pos)\n       .then(block => {\n-        player.behavior('digPacket', {\n-          position: pos,\n-          status: status,\n-          block: block\n-        }, ({position,status,block}) => {\n-          currentlyDugBlock=block;\n-          if(currentlyDugBlock.type==0) return;\n-          if(status==0 && player.gameMode!=1)\n-            player.behavior('dig', { // Start dig survival\n-              position: position,\n-              block: block\n-            }, ({position}) => {\n-              return startDigging(position);\n-            });\n-          else if(status==2)\n-            player.behavior('finishDig', { // Finish dig survival\n-              position: position,\n-              block: block\n-            }, ({position}) => {\n-              return completeDigging(position);\n-            });\n-          else if(status==1)\n-            player.behavior('cancelDig', { // Cancel dig survival\n-              position: position,\n-              block: block\n-            }, ({position}) => {\n-              return cancelDigging(position);\n-            });\n-          else if(status==0 && player.gameMode==1)\n-            player.behavior('dig', { // Start/finish dig creative\n-              position: position,\n-              block: block\n-            }, ({position}) => {\n-              return creativeDigging(position);\n-            });\n-        }\n-      )}\n-    )\n+        currentlyDugBlock=block;\n+        if(currentlyDugBlock.type==0) return;\n+        if(status==0 && player.gameMode!=1)\n+          player.behavior('dig', { // Start dig survival\n+            position: pos,\n+            block: block\n+          }, ({position}) => {\n+            return startDigmehging(position);",
+            "html_url": "https://github.com/mhsjlw/flying-squid/pull/115#discussion_r45621795",
+            "id": 45621795,
+            "original_commit_id": "de59be23ad177747b1f03cec370e76ec3d25e5d3",
+            "original_position": 58,
+            "path": "src/lib/plugins/digging.js",
+            "position": null,
+            "pull_request_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/115",
+            "updated_at": "2015-11-24T22:35:10Z",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45621795",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/mhsjlw/flying-squid/pull/115#discussion_r45624095"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/115"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45624095"
+                }
+            },
+            "body": "not cancel(false); ?",
+            "commit_id": "8d9eb3207310f557c832a97cae9a33c41ee31563",
+            "created_at": "2015-11-23T16:25:54Z",
+            "diff_hunk": "@@ -40,29 +40,28 @@ module.exports.player=function(player,serv) {\n     serv.playSound(sound, player.world, null, opt);\n   };\n \n-  player._client.on('block_place', ({location}={}) => {\n+  player.on('placeBlock_cancel', async ({position, reference}, cancel) => {\n     if (player.crouching) return;\n-    var pos=new Vec3(location.x,location.y,location.z);\n-    player.world.getBlockType(pos).then((id) => {\n-      if (id != 25) return;\n-      if (!player.world.blockEntityData[pos.toString()]) player.world.blockEntityData[pos.toString()] = {};\n-      var data = player.world.blockEntityData[pos.toString()];\n-      if (typeof data.note == 'undefined') data.note = -1;\n-      data.note++;\n-      data.note %= 25;\n-      serv.playNoteBlock(data.note, player.world, pos);\n-    }).catch((err)=> setTimeout(() => {throw err;},0));\n+    var id = await player.world.getBlockType(reference);\n+    if (id != 25) return;\n+    cancel(false);\n+    if (!player.world.blockEntityData[reference.toString()]) player.world.blockEntityData[reference.toString()] = {};\n+    var data = player.world.blockEntityData[reference.toString()];\n+    if (typeof data.note == 'undefined') data.note = -1;\n+    data.note++;\n+    data.note %= 25;\n+    serv.playNoteBlock(data.note, player.world, reference);\n   });\n \n-  player._client.on('block_dig', ({location,status} = {}) => {\n+  player.on('dig_cancel', async ({position, reference}, cancel) => {\n     if (status != 0 || player.gameMode == 1) return;\n-    var pos=new Vec3(location.x,location.y,location.z);\n-    player.world.getBlockType(pos).then((id) => {\n+    return player.world.getBlockType(reference).then((id) => {\n       if (id != 25) return;\n-      if (!player.world.blockEntityData[pos.toString()]) player.world.blockEntityData[pos.toString()] = {};\n-      var data = player.world.blockEntityData[pos.toString()];\n+      cancel();",
+            "html_url": "https://github.com/mhsjlw/flying-squid/pull/115#discussion_r45624095",
+            "id": 45624095,
+            "original_commit_id": "de59be23ad177747b1f03cec370e76ec3d25e5d3",
+            "original_position": 37,
+            "path": "src/lib/plugins/sound.js",
+            "position": null,
+            "pull_request_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/115",
+            "updated_at": "2015-11-24T22:35:10Z",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45624095",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/mhsjlw/flying-squid/pull/115#discussion_r45626195"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/115"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45626195"
+                }
+            },
+            "body": "attackdEntity",
+            "commit_id": "8d9eb3207310f557c832a97cae9a33c41ee31563",
+            "created_at": "2015-11-23T16:40:13Z",
+            "diff_hunk": "@@ -343,6 +601,148 @@ Fires when the player says `message`.\n \n fires when the position changes in small amounts (walking, running, or flying)\n \n+### Behaviors\n+\n+See entity \"Behaviors\" for more info\n+\n+#### \"move\"\n+\n+When player tries to move\n+- position (u): New position player is trying to move to\n+- onGround (u): Whether player thinks they're on the ground or not\n+\n+Default: Save position/onGround and write to all nearby players\n+\n+Cancelled: Snap back to old position\n+\n+#### \"look\"\n+\n+When player tries to look somewhere\n+- yaw (u): New yaw player is looking\n+- pitch (u): New pitch player is looking\n+- onGround (u): If player thinks they're on the ground\n+\n+Default: Save look directions, send to all nearby players\n+\n+Cancelled: Snap their view back to old yaw and pitch\n+\n+#### \"chat\"\n+\n+Emitted when player tries to say something (unless they're message starts with /, then refer to \"command\")\n+- message (u): Message player sent\n+- broadcastMessage: What is put in server chat (Default: <username> message)\n+\n+Default: Broadcasts to server their message\n+\n+Cancelled: Nothing\n+\n+#### \"command\"\n+\n+Emitted when player starts their message with a slash\n+- command: Their commands (excludes the slash)\n+\n+Default: Handle command by command system\n+\n+Cancelled: Nothing\n+\n+#### \"punch\"\n+\n+When player tries to punch nothing\n+\n+Default: Send punch animation to nearby players\n+\n+Cancelled: Nothing\n+\n+#### \"sendBlock\"\n+\n+Emitted when sending a block to a player (block changed). This is separate for every player, cancelling this for one player causes ghost blocks!\n+- position: Position of the block\n+- id: ID of the block\n+- data: Metadata of the block\n+\n+Default: Send block change to player.\n+\n+Cancelled: Nothing\n+\n+#### \"sendChunk\"\n+\n+Emitted when sending a chunk to a player (loading it in)\n+- x: Chunk X\n+- z: Chunk Z\n+- chunk: Chunk data\n+\n+Default: Continue sending chunk to client\n+\n+Cancelled: Nothing\n+\n+#### \"dig\"\n+\n+Emitted when any player STARTS digging (i.e. survival only)\n+- position: Position of block being mined\n+- block (u): Block being mined\n+\n+Default: Allow player to start mining block, send changes in break animation to other players\n+\n+Cancelled: Stop them from digging\n+\n+#### \"dug\"\n+\n+Emitted when a player finishes digging something (or a player in creative breaks a block)\n+- position: Position of block dug\n+- block (u): Block dug\n+\n+Default: Save new block as air, sends to all nearby players\n+\n+Cancelled: Send to player the block that was there\n+\n+#### \"cancelDig\"\n+\n+Emitted when a player cancels digging in the middle (i.e. survival only)\n+- position: Position of block that was being mined\n+- block (u): Block that was being mined\n+\n+Default: Stop animation for all players, save stop digging\n+\n+Cancelled: Nothing\n+\n+#### \"placeBlock\"\n+\n+Emitted when a player places a block\n+- position: Position they're attempting to place the block\n+- id: Id of block being placed\n+- data: Data of block being placed\n+- reference (u): Reference block that was placed on\n+- direction (u): Direction vector from reference to position\n+- playSound: Which sound to play (Default: true)\n+- sound: Sound to play (Default: default sound for that material)\n+\n+Default: Place block for server and nearby players\n+\n+Cancelled: Replace block with old block for player\n+\n+#### \"attack\"\n+\n+Emitted when a player attacks an entity\n+- attackdEntity: Entity being attacked",
+            "html_url": "https://github.com/mhsjlw/flying-squid/pull/115#discussion_r45626195",
+            "id": 45626195,
+            "original_commit_id": "de59be23ad177747b1f03cec370e76ec3d25e5d3",
+            "original_position": 478,
+            "path": "doc/api.md",
+            "position": null,
+            "pull_request_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/115",
+            "updated_at": "2015-11-24T22:35:10Z",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45626195",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        }
+    ],
+    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/115/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            },
+            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/3ba46f0e97e24adc3dc479b46e85163e7c5553f2/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-11-23T00:06:59Z",
+                    "email": "luke5227@gmail.com",
+                    "name": "DemiPixel"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-11-23T02:35:33Z",
+                    "email": "luke5227@gmail.com",
+                    "name": "DemiPixel"
+                },
+                "message": "Adding behaviors",
+                "tree": {
+                    "sha": "9626b116226d0f9a07c46a003c5e744f68c90b9f",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/9626b116226d0f9a07c46a003c5e744f68c90b9f"
+                },
+                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/3ba46f0e97e24adc3dc479b46e85163e7c5553f2"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            },
+            "html_url": "https://github.com/mhsjlw/flying-squid/commit/3ba46f0e97e24adc3dc479b46e85163e7c5553f2",
+            "parents": [
+                {
+                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/00244db976c66421162823d616c6c0469bd47a3f",
+                    "sha": "00244db976c66421162823d616c6c0469bd47a3f",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/00244db976c66421162823d616c6c0469bd47a3f"
+                }
+            ],
+            "sha": "3ba46f0e97e24adc3dc479b46e85163e7c5553f2",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/3ba46f0e97e24adc3dc479b46e85163e7c5553f2"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            },
+            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/93ab42152c8d8d954ab7fb4ac4e74058d6b07f14/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-11-23T02:34:54Z",
+                    "email": "luke5227@gmail.com",
+                    "name": "DemiPixel"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-11-23T02:35:33Z",
+                    "email": "luke5227@gmail.com",
+                    "name": "DemiPixel"
+                },
+                "message": "Add behaviors, edit docs a TON (YOU'RE WELCOME)",
+                "tree": {
+                    "sha": "9c7ec627436485751083e06da3b262927234db2a",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/9c7ec627436485751083e06da3b262927234db2a"
+                },
+                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/93ab42152c8d8d954ab7fb4ac4e74058d6b07f14"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            },
+            "html_url": "https://github.com/mhsjlw/flying-squid/commit/93ab42152c8d8d954ab7fb4ac4e74058d6b07f14",
+            "parents": [
+                {
+                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/3ba46f0e97e24adc3dc479b46e85163e7c5553f2",
+                    "sha": "3ba46f0e97e24adc3dc479b46e85163e7c5553f2",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/3ba46f0e97e24adc3dc479b46e85163e7c5553f2"
+                }
+            ],
+            "sha": "93ab42152c8d8d954ab7fb4ac4e74058d6b07f14",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/93ab42152c8d8d954ab7fb4ac4e74058d6b07f14"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            },
+            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/de59be23ad177747b1f03cec370e76ec3d25e5d3/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-11-23T03:31:00Z",
+                    "email": "luke5227@gmail.com",
+                    "name": "DemiPixel"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-11-23T03:31:00Z",
+                    "email": "luke5227@gmail.com",
+                    "name": "DemiPixel"
+                },
+                "message": "Trying to fix sound, no success so far",
+                "tree": {
+                    "sha": "ee289a2f3d1a449e907c713f028d8fb8a87a2a0b",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/ee289a2f3d1a449e907c713f028d8fb8a87a2a0b"
+                },
+                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/de59be23ad177747b1f03cec370e76ec3d25e5d3"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            },
+            "html_url": "https://github.com/mhsjlw/flying-squid/commit/de59be23ad177747b1f03cec370e76ec3d25e5d3",
+            "parents": [
+                {
+                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/93ab42152c8d8d954ab7fb4ac4e74058d6b07f14",
+                    "sha": "93ab42152c8d8d954ab7fb4ac4e74058d6b07f14",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/93ab42152c8d8d954ab7fb4ac4e74058d6b07f14"
+                }
+            ],
+            "sha": "de59be23ad177747b1f03cec370e76ec3d25e5d3",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/de59be23ad177747b1f03cec370e76ec3d25e5d3"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            },
+            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/fa99c915511968a490bb5e2edad835c5d67dbaec/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-11-23T17:25:59Z",
+                    "email": "luke5227@gmail.com",
+                    "name": "DemiPixel"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-11-23T17:25:59Z",
+                    "email": "luke5227@gmail.com",
+                    "name": "DemiPixel"
+                },
+                "message": "Small fixes",
+                "tree": {
+                    "sha": "545de129ae3cac7e667ceb9f7987c2ca3b476c03",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/545de129ae3cac7e667ceb9f7987c2ca3b476c03"
+                },
+                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/fa99c915511968a490bb5e2edad835c5d67dbaec"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            },
+            "html_url": "https://github.com/mhsjlw/flying-squid/commit/fa99c915511968a490bb5e2edad835c5d67dbaec",
+            "parents": [
+                {
+                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/de59be23ad177747b1f03cec370e76ec3d25e5d3",
+                    "sha": "de59be23ad177747b1f03cec370e76ec3d25e5d3",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/de59be23ad177747b1f03cec370e76ec3d25e5d3"
+                }
+            ],
+            "sha": "fa99c915511968a490bb5e2edad835c5d67dbaec",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/fa99c915511968a490bb5e2edad835c5d67dbaec"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            },
+            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/a68b10bfa016fee013f0a179d1cd609b716827e3/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-11-23T19:23:50Z",
+                    "email": "luke5227@gmail.com",
+                    "name": "DemiPixel"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-11-23T19:23:50Z",
+                    "email": "luke5227@gmail.com",
+                    "name": "DemiPixel"
+                },
+                "message": "Change to async emits",
+                "tree": {
+                    "sha": "baad931ce24158f9d310deb8d4b4fc28272b9c84",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/baad931ce24158f9d310deb8d4b4fc28272b9c84"
+                },
+                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/a68b10bfa016fee013f0a179d1cd609b716827e3"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            },
+            "html_url": "https://github.com/mhsjlw/flying-squid/commit/a68b10bfa016fee013f0a179d1cd609b716827e3",
+            "parents": [
+                {
+                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/fa99c915511968a490bb5e2edad835c5d67dbaec",
+                    "sha": "fa99c915511968a490bb5e2edad835c5d67dbaec",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/fa99c915511968a490bb5e2edad835c5d67dbaec"
+                }
+            ],
+            "sha": "a68b10bfa016fee013f0a179d1cd609b716827e3",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/a68b10bfa016fee013f0a179d1cd609b716827e3"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            },
+            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/565309846b7787904249cf6de6b6dc9994d86f4e/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-11-23T21:54:23Z",
+                    "email": "luke5227@gmail.com",
+                    "name": "DemiPixel"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-11-23T21:54:23Z",
+                    "email": "luke5227@gmail.com",
+                    "name": "DemiPixel"
+                },
+                "message": "Fix packages, add catch to commands",
+                "tree": {
+                    "sha": "104b6a53f8a569b37be1f2f335b1ee3a3e40af5d",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/104b6a53f8a569b37be1f2f335b1ee3a3e40af5d"
+                },
+                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/565309846b7787904249cf6de6b6dc9994d86f4e"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            },
+            "html_url": "https://github.com/mhsjlw/flying-squid/commit/565309846b7787904249cf6de6b6dc9994d86f4e",
+            "parents": [
+                {
+                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/a68b10bfa016fee013f0a179d1cd609b716827e3",
+                    "sha": "a68b10bfa016fee013f0a179d1cd609b716827e3",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/a68b10bfa016fee013f0a179d1cd609b716827e3"
+                }
+            ],
+            "sha": "565309846b7787904249cf6de6b6dc9994d86f4e",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/565309846b7787904249cf6de6b6dc9994d86f4e"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            },
+            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/6a9281c1953703d728873efc53614dc63860455d/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-11-24T00:12:51Z",
+                    "email": "luke5227@gmail.com",
+                    "name": "DemiPixel"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-11-24T00:12:51Z",
+                    "email": "luke5227@gmail.com",
+                    "name": "DemiPixel"
+                },
+                "message": "Add more to \"dug\" behavior and add \"breakAnimation\" behavior",
+                "tree": {
+                    "sha": "50b0cae084217d4be479dfe95963f4207e28fc3c",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/50b0cae084217d4be479dfe95963f4207e28fc3c"
+                },
+                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/6a9281c1953703d728873efc53614dc63860455d"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            },
+            "html_url": "https://github.com/mhsjlw/flying-squid/commit/6a9281c1953703d728873efc53614dc63860455d",
+            "parents": [
+                {
+                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/565309846b7787904249cf6de6b6dc9994d86f4e",
+                    "sha": "565309846b7787904249cf6de6b6dc9994d86f4e",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/565309846b7787904249cf6de6b6dc9994d86f4e"
+                }
+            ],
+            "sha": "6a9281c1953703d728873efc53614dc63860455d",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/6a9281c1953703d728873efc53614dc63860455d"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            },
+            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/0355195cd9fa6bd4458e19a245baf218ce92ba16/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-11-24T00:27:35Z",
+                    "email": "luke5227@gmail.com",
+                    "name": "DemiPixel"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-11-24T00:27:35Z",
+                    "email": "luke5227@gmail.com",
+                    "name": "DemiPixel"
+                },
+                "message": "No more crashes, update API, add more stuff",
+                "tree": {
+                    "sha": "1848365890d4cb2a7b5387c4e270b6a9bf0bdac8",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/1848365890d4cb2a7b5387c4e270b6a9bf0bdac8"
+                },
+                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/0355195cd9fa6bd4458e19a245baf218ce92ba16"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            },
+            "html_url": "https://github.com/mhsjlw/flying-squid/commit/0355195cd9fa6bd4458e19a245baf218ce92ba16",
+            "parents": [
+                {
+                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/6a9281c1953703d728873efc53614dc63860455d",
+                    "sha": "6a9281c1953703d728873efc53614dc63860455d",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/6a9281c1953703d728873efc53614dc63860455d"
+                }
+            ],
+            "sha": "0355195cd9fa6bd4458e19a245baf218ce92ba16",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/0355195cd9fa6bd4458e19a245baf218ce92ba16"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            },
+            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/483269db4c0bd0562526ce5b913081504d74ba69/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-11-24T03:27:35Z",
+                    "email": "luke5227@gmail.com",
+                    "name": "DemiPixel"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-11-24T03:27:35Z",
+                    "email": "luke5227@gmail.com",
+                    "name": "DemiPixel"
+                },
+                "message": "Added forceCancelDig and some other stuff",
+                "tree": {
+                    "sha": "601bea849f48db5ff732a27c1bc88270c615a517",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/601bea849f48db5ff732a27c1bc88270c615a517"
+                },
+                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/483269db4c0bd0562526ce5b913081504d74ba69"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            },
+            "html_url": "https://github.com/mhsjlw/flying-squid/commit/483269db4c0bd0562526ce5b913081504d74ba69",
+            "parents": [
+                {
+                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/0355195cd9fa6bd4458e19a245baf218ce92ba16",
+                    "sha": "0355195cd9fa6bd4458e19a245baf218ce92ba16",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/0355195cd9fa6bd4458e19a245baf218ce92ba16"
+                }
+            ],
+            "sha": "483269db4c0bd0562526ce5b913081504d74ba69",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/483269db4c0bd0562526ce5b913081504d74ba69"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            },
+            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/8d9eb3207310f557c832a97cae9a33c41ee31563/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-11-24T22:35:07Z",
+                    "email": "luke5227@gmail.com",
+                    "name": "DemiPixel"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-11-24T22:35:07Z",
+                    "email": "luke5227@gmail.com",
+                    "name": "DemiPixel"
+                },
+                "message": "Fix crashing for module plugins",
+                "tree": {
+                    "sha": "6bb47411c2187d294f5155092ad951856308f00b",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/6bb47411c2187d294f5155092ad951856308f00b"
+                },
+                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/8d9eb3207310f557c832a97cae9a33c41ee31563"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            },
+            "html_url": "https://github.com/mhsjlw/flying-squid/commit/8d9eb3207310f557c832a97cae9a33c41ee31563",
+            "parents": [
+                {
+                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/483269db4c0bd0562526ce5b913081504d74ba69",
+                    "sha": "483269db4c0bd0562526ce5b913081504d74ba69",
+                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/483269db4c0bd0562526ce5b913081504d74ba69"
+                }
+            ],
+            "sha": "8d9eb3207310f557c832a97cae9a33c41ee31563",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/8d9eb3207310f557c832a97cae9a33c41ee31563"
+        }
+    ],
+    "commits_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/115/commits",
+    "created_at": "2015-11-23T02:37:05Z",
+    "diff_url": "https://github.com/mhsjlw/flying-squid/pull/115.diff",
+    "head": {
+        "label": "demipixel:BEHAVIORS",
+        "ref": "BEHAVIORS",
+        "repo": {
+            "archive_url": "https://api.github.com/repos/demipixel/flying-squid/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/demipixel/flying-squid/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/demipixel/flying-squid/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/demipixel/flying-squid/branches{/branch}",
+            "clone_url": "https://github.com/demipixel/flying-squid.git",
+            "collaborators_url": "https://api.github.com/repos/demipixel/flying-squid/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/demipixel/flying-squid/comments{/number}",
+            "commits_url": "https://api.github.com/repos/demipixel/flying-squid/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/demipixel/flying-squid/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/demipixel/flying-squid/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/demipixel/flying-squid/contributors",
+            "created_at": "2015-09-05T23:57:08Z",
+            "default_branch": "master",
+            "description": "A minecraft server written in node.js, modularized",
+            "downloads_url": "https://api.github.com/repos/demipixel/flying-squid/downloads",
+            "events_url": "https://api.github.com/repos/demipixel/flying-squid/events",
+            "fork": true,
+            "forks": 0,
+            "forks_count": 0,
+            "forks_url": "https://api.github.com/repos/demipixel/flying-squid/forks",
+            "full_name": "demipixel/flying-squid",
+            "git_commits_url": "https://api.github.com/repos/demipixel/flying-squid/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/demipixel/flying-squid/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/demipixel/flying-squid/git/tags{/sha}",
+            "git_url": "git://github.com/demipixel/flying-squid.git",
+            "has_downloads": true,
+            "has_issues": false,
+            "has_pages": false,
+            "has_wiki": true,
+            "homepage": "",
+            "hooks_url": "https://api.github.com/repos/demipixel/flying-squid/hooks",
+            "html_url": "https://github.com/demipixel/flying-squid",
+            "id": 41980022,
+            "issue_comment_url": "https://api.github.com/repos/demipixel/flying-squid/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/demipixel/flying-squid/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/demipixel/flying-squid/issues{/number}",
+            "keys_url": "https://api.github.com/repos/demipixel/flying-squid/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/demipixel/flying-squid/labels{/name}",
+            "language": "JavaScript",
+            "languages_url": "https://api.github.com/repos/demipixel/flying-squid/languages",
+            "merges_url": "https://api.github.com/repos/demipixel/flying-squid/merges",
+            "milestones_url": "https://api.github.com/repos/demipixel/flying-squid/milestones{/number}",
+            "mirror_url": null,
+            "name": "flying-squid",
+            "notifications_url": "https://api.github.com/repos/demipixel/flying-squid/notifications{?since,all,participating}",
+            "open_issues": 0,
+            "open_issues_count": 0,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/demipixel/flying-squid/pulls{/number}",
+            "pushed_at": "2015-12-14T18:42:50Z",
+            "releases_url": "https://api.github.com/repos/demipixel/flying-squid/releases{/id}",
+            "size": 478,
+            "ssh_url": "git@github.com:demipixel/flying-squid.git",
+            "stargazers_count": 0,
+            "stargazers_url": "https://api.github.com/repos/demipixel/flying-squid/stargazers",
+            "statuses_url": "https://api.github.com/repos/demipixel/flying-squid/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/demipixel/flying-squid/subscribers",
+            "subscription_url": "https://api.github.com/repos/demipixel/flying-squid/subscription",
+            "svn_url": "https://github.com/demipixel/flying-squid",
+            "tags_url": "https://api.github.com/repos/demipixel/flying-squid/tags",
+            "teams_url": "https://api.github.com/repos/demipixel/flying-squid/teams",
+            "trees_url": "https://api.github.com/repos/demipixel/flying-squid/git/trees{/sha}",
+            "updated_at": "2015-09-05T23:57:10Z",
+            "url": "https://api.github.com/repos/demipixel/flying-squid",
+            "watchers": 0,
+            "watchers_count": 0
+        },
+        "sha": "8d9eb3207310f557c832a97cae9a33c41ee31563",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+            "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+            "followers_url": "https://api.github.com/users/demipixel/followers",
+            "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/demipixel",
+            "id": 7506359,
+            "login": "demipixel",
+            "organizations_url": "https://api.github.com/users/demipixel/orgs",
+            "received_events_url": "https://api.github.com/users/demipixel/received_events",
+            "repos_url": "https://api.github.com/users/demipixel/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/demipixel"
+        }
+    },
+    "html_url": "https://github.com/mhsjlw/flying-squid/pull/115",
+    "id": 51483361,
+    "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/115",
+    "locked": false,
+    "merge_commit_sha": "e2264f44dd0cda67692223d9f79efd6527c9a88a",
+    "merged_at": "2015-11-24T22:41:52Z",
+    "milestone": null,
+    "number": 115,
+    "patch_url": "https://github.com/mhsjlw/flying-squid/pull/115.patch",
+    "review_comment_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments{/number}",
+    "review_comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/115/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/mhsjlw/flying-squid/statuses/8d9eb3207310f557c832a97cae9a33c41ee31563",
+    "title": "A",
+    "updated_at": "2015-11-24T22:44:53Z",
+    "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/115",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+        "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+        "followers_url": "https://api.github.com/users/demipixel/followers",
+        "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/demipixel",
+        "id": 7506359,
+        "login": "demipixel",
+        "organizations_url": "https://api.github.com/users/demipixel/orgs",
+        "received_events_url": "https://api.github.com/users/demipixel/received_events",
+        "repos_url": "https://api.github.com/users/demipixel/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/demipixel"
+    }
+}

@@ -1,0 +1,199 @@
+{
+    "assignee": null,
+    "body": "Some tools use relative paths (e.g. https://github.com/PrismarineJS/minecraft-data/blob/1.8/tools/js/wiki_extractor/protocol_extractor.js#L53), which leads to them not working properly when used from another directory. They should instead use `__dirname` to behave properly at all times.",
+    "closed_at": "2015-10-16T13:29:12Z",
+    "comment_data": [
+        {
+            "body": "Yeah agreed.",
+            "created_at": "2015-09-01T07:15:59Z",
+            "html_url": "https://github.com/PrismarineJS/minecraft-data/issues/55#issuecomment-136610799",
+            "id": 136610799,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/55",
+            "updated_at": "2015-09-01T07:15:59Z",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/comments/136610799",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "body": "Fixed. (see https://github.com/PrismarineJS/mcdevs-wiki-extractor/blob/master/bin/protocol_to_json.js)",
+            "created_at": "2015-10-16T13:29:12Z",
+            "html_url": "https://github.com/PrismarineJS/minecraft-data/issues/55#issuecomment-148716518",
+            "id": 148716518,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/55",
+            "updated_at": "2015-10-16T13:29:12Z",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/comments/148716518",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        }
+    ],
+    "comments": 2,
+    "comments_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/55/comments",
+    "created_at": "2015-08-31T21:19:39Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-08-31T21:19:55Z",
+            "event": "labeled",
+            "id": 397133952,
+            "label": {
+                "color": "fc2929",
+                "name": "bug"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/events/397133952"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-08-31T21:19:55Z",
+            "event": "labeled",
+            "id": 397133953,
+            "label": {
+                "color": "fbca04",
+                "name": "extraction"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/events/397133953"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-10-16T13:29:12Z",
+            "event": "closed",
+            "id": 437528567,
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/events/437528567"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/55/events",
+    "html_url": "https://github.com/PrismarineJS/minecraft-data/issues/55",
+    "id": 104137199,
+    "labels": [
+        {
+            "color": "fc2929",
+            "name": "bug",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/labels/bug"
+        },
+        {
+            "color": "fbca04",
+            "name": "extraction",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/labels/extraction"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/55/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 55,
+    "state": "closed",
+    "title": "Don't use relative paths in tools",
+    "updated_at": "2015-10-16T13:29:12Z",
+    "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/55",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+        "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+        "followers_url": "https://api.github.com/users/roblabla/followers",
+        "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+        "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/roblabla",
+        "id": 1069318,
+        "login": "roblabla",
+        "organizations_url": "https://api.github.com/users/roblabla/orgs",
+        "received_events_url": "https://api.github.com/users/roblabla/received_events",
+        "repos_url": "https://api.github.com/users/roblabla/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/roblabla"
+    }
+}

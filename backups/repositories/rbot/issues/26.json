@@ -1,0 +1,167 @@
+{
+    "assignee": null,
+    "body": "The idea is building and digging is always possible, but potentially slower than simply avoiding the obstacles.",
+    "closed_at": null,
+    "comment_data": [
+        {
+            "body": "see how this https://github.com/andrewrk/mineflayer-scaffold would apply here.\r\n\r\nThe difference is we may want to craft needed items during the movement. Or should that be done before ?",
+            "created_at": "2015-03-28T23:21:59Z",
+            "html_url": "https://github.com/rom1504/rbot/issues/26#issuecomment-87329218",
+            "id": 87329218,
+            "issue_url": "https://api.github.com/repos/rom1504/rbot/issues/26",
+            "updated_at": "2015-03-28T23:21:59Z",
+            "url": "https://api.github.com/repos/rom1504/rbot/issues/comments/87329218",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "body": "astar is already used for movement actually (https://github.com/rom1504/rbot/blob/master/avoidBedrock.js) . \r\nLet's see if length of edges can be integrated into that.",
+            "created_at": "2015-03-29T03:05:25Z",
+            "html_url": "https://github.com/rom1504/rbot/issues/26#issuecomment-87344028",
+            "id": 87344028,
+            "issue_url": "https://api.github.com/repos/rom1504/rbot/issues/26",
+            "updated_at": "2015-03-29T03:05:25Z",
+            "url": "https://api.github.com/repos/rom1504/rbot/issues/comments/87344028",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        }
+    ],
+    "comments": 2,
+    "comments_url": "https://api.github.com/repos/rom1504/rbot/issues/26/comments",
+    "created_at": "2015-03-19T23:17:02Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-03-19T23:27:45Z",
+            "event": "renamed",
+            "id": 259957435,
+            "rename": {
+                "from": "Make a A star base movement algorithm taking into account the possibility of digging and building",
+                "to": "Make a A star based movement algorithm taking into account the possibility of digging and building"
+            },
+            "url": "https://api.github.com/repos/rom1504/rbot/issues/events/259957435"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-03-19T23:39:33Z",
+            "event": "labeled",
+            "id": 259968590,
+            "label": {
+                "color": "84b6eb",
+                "name": "enhancement"
+            },
+            "url": "https://api.github.com/repos/rom1504/rbot/issues/events/259968590"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/rom1504/rbot/issues/26/events",
+    "html_url": "https://github.com/rom1504/rbot/issues/26",
+    "id": 63113015,
+    "labels": [
+        {
+            "color": "84b6eb",
+            "name": "enhancement",
+            "url": "https://api.github.com/repos/rom1504/rbot/labels/enhancement"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/rom1504/rbot/issues/26/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 26,
+    "state": "open",
+    "title": "Make a A star based movement algorithm taking into account the possibility of digging and building",
+    "updated_at": "2015-03-29T03:05:25Z",
+    "url": "https://api.github.com/repos/rom1504/rbot/issues/26",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

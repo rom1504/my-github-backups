@@ -1,0 +1,855 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/roblabla/ProtoDef/issues/41/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/roblabla/ProtoDef/pulls/41/commits"
+        },
+        "html": {
+            "href": "https://github.com/roblabla/ProtoDef/pull/41"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/roblabla/ProtoDef/issues/41"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/roblabla/ProtoDef/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/roblabla/ProtoDef/pulls/41/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/roblabla/ProtoDef/pulls/41"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/roblabla/ProtoDef/statuses/872b221ea460afac4d62d02ede1306e6ad47226c"
+        }
+    },
+    "assignee": null,
+    "base": {
+        "label": "roblabla:wait_for_data",
+        "ref": "wait_for_data",
+        "repo": {
+            "archive_url": "https://api.github.com/repos/roblabla/ProtoDef/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/roblabla/ProtoDef/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/roblabla/ProtoDef/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/roblabla/ProtoDef/branches{/branch}",
+            "clone_url": "https://github.com/roblabla/ProtoDef.git",
+            "collaborators_url": "https://api.github.com/repos/roblabla/ProtoDef/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/roblabla/ProtoDef/comments{/number}",
+            "commits_url": "https://api.github.com/repos/roblabla/ProtoDef/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/roblabla/ProtoDef/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/roblabla/ProtoDef/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/roblabla/ProtoDef/contributors",
+            "created_at": "2014-08-19T13:05:48Z",
+            "default_branch": "master",
+            "description": "Describe your protocol, and read it with ease.",
+            "downloads_url": "https://api.github.com/repos/roblabla/ProtoDef/downloads",
+            "events_url": "https://api.github.com/repos/roblabla/ProtoDef/events",
+            "fork": false,
+            "forks": 1,
+            "forks_count": 1,
+            "forks_url": "https://api.github.com/repos/roblabla/ProtoDef/forks",
+            "full_name": "roblabla/ProtoDef",
+            "git_commits_url": "https://api.github.com/repos/roblabla/ProtoDef/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/roblabla/ProtoDef/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/roblabla/ProtoDef/git/tags{/sha}",
+            "git_url": "git://github.com/roblabla/ProtoDef.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_wiki": true,
+            "homepage": null,
+            "hooks_url": "https://api.github.com/repos/roblabla/ProtoDef/hooks",
+            "html_url": "https://github.com/roblabla/ProtoDef",
+            "id": 23110398,
+            "issue_comment_url": "https://api.github.com/repos/roblabla/ProtoDef/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/roblabla/ProtoDef/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/roblabla/ProtoDef/issues{/number}",
+            "keys_url": "https://api.github.com/repos/roblabla/ProtoDef/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/roblabla/ProtoDef/labels{/name}",
+            "language": "JavaScript",
+            "languages_url": "https://api.github.com/repos/roblabla/ProtoDef/languages",
+            "merges_url": "https://api.github.com/repos/roblabla/ProtoDef/merges",
+            "milestones_url": "https://api.github.com/repos/roblabla/ProtoDef/milestones{/number}",
+            "mirror_url": null,
+            "name": "ProtoDef",
+            "notifications_url": "https://api.github.com/repos/roblabla/ProtoDef/notifications{?since,all,participating}",
+            "open_issues": 16,
+            "open_issues_count": 16,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/roblabla/ProtoDef/pulls{/number}",
+            "pushed_at": "2015-12-05T02:06:02Z",
+            "releases_url": "https://api.github.com/repos/roblabla/ProtoDef/releases{/id}",
+            "size": 133,
+            "ssh_url": "git@github.com:roblabla/ProtoDef.git",
+            "stargazers_count": 5,
+            "stargazers_url": "https://api.github.com/repos/roblabla/ProtoDef/stargazers",
+            "statuses_url": "https://api.github.com/repos/roblabla/ProtoDef/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/roblabla/ProtoDef/subscribers",
+            "subscription_url": "https://api.github.com/repos/roblabla/ProtoDef/subscription",
+            "svn_url": "https://github.com/roblabla/ProtoDef",
+            "tags_url": "https://api.github.com/repos/roblabla/ProtoDef/tags",
+            "teams_url": "https://api.github.com/repos/roblabla/ProtoDef/teams",
+            "trees_url": "https://api.github.com/repos/roblabla/ProtoDef/git/trees{/sha}",
+            "updated_at": "2015-10-23T04:52:57Z",
+            "url": "https://api.github.com/repos/roblabla/ProtoDef",
+            "watchers": 5,
+            "watchers_count": 5
+        },
+        "sha": "7cd98adc060be98e6e16d6103af4e42e7f292d34",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+            "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+            "followers_url": "https://api.github.com/users/roblabla/followers",
+            "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+            "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/roblabla",
+            "id": 1069318,
+            "login": "roblabla",
+            "organizations_url": "https://api.github.com/users/roblabla/orgs",
+            "received_events_url": "https://api.github.com/users/roblabla/received_events",
+            "repos_url": "https://api.github.com/users/roblabla/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/roblabla"
+        }
+    },
+    "body": "the style is ok too, more functional, and it's faster",
+    "closed_at": null,
+    "comment_data": [],
+    "comments_url": "https://api.github.com/repos/roblabla/ProtoDef/issues/41/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "comments_url": "https://api.github.com/repos/roblabla/ProtoDef/commits/23fda52ce9f3c24eaf72b807f17789bee3e4ef1c/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-12-03T13:08:28Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-12-04T00:51:49Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "message": "using promises and .then instead of async/await\n\nthe style is ok too, more functional, and it's faster",
+                "tree": {
+                    "sha": "7404aaeef7811ecd7797cdfe478bc15e314297d7",
+                    "url": "https://api.github.com/repos/roblabla/ProtoDef/git/trees/7404aaeef7811ecd7797cdfe478bc15e314297d7"
+                },
+                "url": "https://api.github.com/repos/roblabla/ProtoDef/git/commits/23fda52ce9f3c24eaf72b807f17789bee3e4ef1c"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "html_url": "https://github.com/roblabla/ProtoDef/commit/23fda52ce9f3c24eaf72b807f17789bee3e4ef1c",
+            "parents": [
+                {
+                    "html_url": "https://github.com/roblabla/ProtoDef/commit/7cd98adc060be98e6e16d6103af4e42e7f292d34",
+                    "sha": "7cd98adc060be98e6e16d6103af4e42e7f292d34",
+                    "url": "https://api.github.com/repos/roblabla/ProtoDef/commits/7cd98adc060be98e6e16d6103af4e42e7f292d34"
+                }
+            ],
+            "sha": "23fda52ce9f3c24eaf72b807f17789bee3e4ef1c",
+            "url": "https://api.github.com/repos/roblabla/ProtoDef/commits/23fda52ce9f3c24eaf72b807f17789bee3e4ef1c"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "comments_url": "https://api.github.com/repos/roblabla/ProtoDef/commits/cff8f77d8195d4641942ad878c640d089a21dedb/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-12-03T16:05:29Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-12-04T00:51:49Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "message": "forgot an async in numeric",
+                "tree": {
+                    "sha": "10873c5f0009a72113336ae3a5a27907797ff588",
+                    "url": "https://api.github.com/repos/roblabla/ProtoDef/git/trees/10873c5f0009a72113336ae3a5a27907797ff588"
+                },
+                "url": "https://api.github.com/repos/roblabla/ProtoDef/git/commits/cff8f77d8195d4641942ad878c640d089a21dedb"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "html_url": "https://github.com/roblabla/ProtoDef/commit/cff8f77d8195d4641942ad878c640d089a21dedb",
+            "parents": [
+                {
+                    "html_url": "https://github.com/roblabla/ProtoDef/commit/23fda52ce9f3c24eaf72b807f17789bee3e4ef1c",
+                    "sha": "23fda52ce9f3c24eaf72b807f17789bee3e4ef1c",
+                    "url": "https://api.github.com/repos/roblabla/ProtoDef/commits/23fda52ce9f3c24eaf72b807f17789bee3e4ef1c"
+                }
+            ],
+            "sha": "cff8f77d8195d4641942ad878c640d089a21dedb",
+            "url": "https://api.github.com/repos/roblabla/ProtoDef/commits/cff8f77d8195d4641942ad878c640d089a21dedb"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "comments_url": "https://api.github.com/repos/roblabla/ProtoDef/commits/73a52b0e638ce18784dc18a4cad8885f7ec7bfb3/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-12-03T16:29:12Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-12-04T00:51:49Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "message": "using bluebird for better speed",
+                "tree": {
+                    "sha": "c06aa166904fb54d87896c6b39293acae7db368b",
+                    "url": "https://api.github.com/repos/roblabla/ProtoDef/git/trees/c06aa166904fb54d87896c6b39293acae7db368b"
+                },
+                "url": "https://api.github.com/repos/roblabla/ProtoDef/git/commits/73a52b0e638ce18784dc18a4cad8885f7ec7bfb3"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "html_url": "https://github.com/roblabla/ProtoDef/commit/73a52b0e638ce18784dc18a4cad8885f7ec7bfb3",
+            "parents": [
+                {
+                    "html_url": "https://github.com/roblabla/ProtoDef/commit/cff8f77d8195d4641942ad878c640d089a21dedb",
+                    "sha": "cff8f77d8195d4641942ad878c640d089a21dedb",
+                    "url": "https://api.github.com/repos/roblabla/ProtoDef/commits/cff8f77d8195d4641942ad878c640d089a21dedb"
+                }
+            ],
+            "sha": "73a52b0e638ce18784dc18a4cad8885f7ec7bfb3",
+            "url": "https://api.github.com/repos/roblabla/ProtoDef/commits/73a52b0e638ce18784dc18a4cad8885f7ec7bfb3"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "comments_url": "https://api.github.com/repos/roblabla/ProtoDef/commits/76a9970ce7ea376a59dbbf34c0d7cef3d1035686/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-12-04T02:37:08Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-12-04T02:37:08Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "message": "fix readOption",
+                "tree": {
+                    "sha": "7b0ecf1e8a9c647ccbd805c300f4cc84f8109ea4",
+                    "url": "https://api.github.com/repos/roblabla/ProtoDef/git/trees/7b0ecf1e8a9c647ccbd805c300f4cc84f8109ea4"
+                },
+                "url": "https://api.github.com/repos/roblabla/ProtoDef/git/commits/76a9970ce7ea376a59dbbf34c0d7cef3d1035686"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "html_url": "https://github.com/roblabla/ProtoDef/commit/76a9970ce7ea376a59dbbf34c0d7cef3d1035686",
+            "parents": [
+                {
+                    "html_url": "https://github.com/roblabla/ProtoDef/commit/73a52b0e638ce18784dc18a4cad8885f7ec7bfb3",
+                    "sha": "73a52b0e638ce18784dc18a4cad8885f7ec7bfb3",
+                    "url": "https://api.github.com/repos/roblabla/ProtoDef/commits/73a52b0e638ce18784dc18a4cad8885f7ec7bfb3"
+                }
+            ],
+            "sha": "76a9970ce7ea376a59dbbf34c0d7cef3d1035686",
+            "url": "https://api.github.com/repos/roblabla/ProtoDef/commits/76a9970ce7ea376a59dbbf34c0d7cef3d1035686"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "comments_url": "https://api.github.com/repos/roblabla/ProtoDef/commits/d375ec372241f73d5ab77311a7cd350aca654097/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-12-04T02:55:27Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-12-04T02:55:27Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "message": "include the runtime in tests, to allow async/await",
+                "tree": {
+                    "sha": "054eb4e555528c6318e838ed6b7d4d814c72bb36",
+                    "url": "https://api.github.com/repos/roblabla/ProtoDef/git/trees/054eb4e555528c6318e838ed6b7d4d814c72bb36"
+                },
+                "url": "https://api.github.com/repos/roblabla/ProtoDef/git/commits/d375ec372241f73d5ab77311a7cd350aca654097"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "html_url": "https://github.com/roblabla/ProtoDef/commit/d375ec372241f73d5ab77311a7cd350aca654097",
+            "parents": [
+                {
+                    "html_url": "https://github.com/roblabla/ProtoDef/commit/76a9970ce7ea376a59dbbf34c0d7cef3d1035686",
+                    "sha": "76a9970ce7ea376a59dbbf34c0d7cef3d1035686",
+                    "url": "https://api.github.com/repos/roblabla/ProtoDef/commits/76a9970ce7ea376a59dbbf34c0d7cef3d1035686"
+                }
+            ],
+            "sha": "d375ec372241f73d5ab77311a7cd350aca654097",
+            "url": "https://api.github.com/repos/roblabla/ProtoDef/commits/d375ec372241f73d5ab77311a7cd350aca654097"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "comments_url": "https://api.github.com/repos/roblabla/ProtoDef/commits/4f41748f9b743e1d302bf94c8e57c21f51946422/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-12-04T03:46:27Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-12-04T03:46:27Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "message": "I still have no clue what readBitField does, but I changed it in a promise/functional style",
+                "tree": {
+                    "sha": "89b03892b877a526e90f68e49303c65c5a274834",
+                    "url": "https://api.github.com/repos/roblabla/ProtoDef/git/trees/89b03892b877a526e90f68e49303c65c5a274834"
+                },
+                "url": "https://api.github.com/repos/roblabla/ProtoDef/git/commits/4f41748f9b743e1d302bf94c8e57c21f51946422"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "html_url": "https://github.com/roblabla/ProtoDef/commit/4f41748f9b743e1d302bf94c8e57c21f51946422",
+            "parents": [
+                {
+                    "html_url": "https://github.com/roblabla/ProtoDef/commit/d375ec372241f73d5ab77311a7cd350aca654097",
+                    "sha": "d375ec372241f73d5ab77311a7cd350aca654097",
+                    "url": "https://api.github.com/repos/roblabla/ProtoDef/commits/d375ec372241f73d5ab77311a7cd350aca654097"
+                }
+            ],
+            "sha": "4f41748f9b743e1d302bf94c8e57c21f51946422",
+            "url": "https://api.github.com/repos/roblabla/ProtoDef/commits/4f41748f9b743e1d302bf94c8e57c21f51946422"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "comments_url": "https://api.github.com/repos/roblabla/ProtoDef/commits/f5f487ba1658e598defaa65b2cf6efeb9d894379/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-12-04T04:01:05Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-12-04T04:01:05Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "message": "cstring",
+                "tree": {
+                    "sha": "b1f0f5d0c897e381b0045197ae5bee363392383a",
+                    "url": "https://api.github.com/repos/roblabla/ProtoDef/git/trees/b1f0f5d0c897e381b0045197ae5bee363392383a"
+                },
+                "url": "https://api.github.com/repos/roblabla/ProtoDef/git/commits/f5f487ba1658e598defaa65b2cf6efeb9d894379"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "html_url": "https://github.com/roblabla/ProtoDef/commit/f5f487ba1658e598defaa65b2cf6efeb9d894379",
+            "parents": [
+                {
+                    "html_url": "https://github.com/roblabla/ProtoDef/commit/4f41748f9b743e1d302bf94c8e57c21f51946422",
+                    "sha": "4f41748f9b743e1d302bf94c8e57c21f51946422",
+                    "url": "https://api.github.com/repos/roblabla/ProtoDef/commits/4f41748f9b743e1d302bf94c8e57c21f51946422"
+                }
+            ],
+            "sha": "f5f487ba1658e598defaa65b2cf6efeb9d894379",
+            "url": "https://api.github.com/repos/roblabla/ProtoDef/commits/f5f487ba1658e598defaa65b2cf6efeb9d894379"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "comments_url": "https://api.github.com/repos/roblabla/ProtoDef/commits/872b221ea460afac4d62d02ede1306e6ad47226c/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-12-04T04:04:38Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-12-04T04:04:38Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "message": "improve container code a little bit",
+                "tree": {
+                    "sha": "8684fdad01860b0fd44b85463598eef013953816",
+                    "url": "https://api.github.com/repos/roblabla/ProtoDef/git/trees/8684fdad01860b0fd44b85463598eef013953816"
+                },
+                "url": "https://api.github.com/repos/roblabla/ProtoDef/git/commits/872b221ea460afac4d62d02ede1306e6ad47226c"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "html_url": "https://github.com/roblabla/ProtoDef/commit/872b221ea460afac4d62d02ede1306e6ad47226c",
+            "parents": [
+                {
+                    "html_url": "https://github.com/roblabla/ProtoDef/commit/f5f487ba1658e598defaa65b2cf6efeb9d894379",
+                    "sha": "f5f487ba1658e598defaa65b2cf6efeb9d894379",
+                    "url": "https://api.github.com/repos/roblabla/ProtoDef/commits/f5f487ba1658e598defaa65b2cf6efeb9d894379"
+                }
+            ],
+            "sha": "872b221ea460afac4d62d02ede1306e6ad47226c",
+            "url": "https://api.github.com/repos/roblabla/ProtoDef/commits/872b221ea460afac4d62d02ede1306e6ad47226c"
+        }
+    ],
+    "commits_url": "https://api.github.com/repos/roblabla/ProtoDef/pulls/41/commits",
+    "created_at": "2015-12-03T13:08:54Z",
+    "diff_url": "https://github.com/roblabla/ProtoDef/pull/41.diff",
+    "head": {
+        "label": "roblabla:wait_with_promises",
+        "ref": "wait_with_promises",
+        "repo": {
+            "archive_url": "https://api.github.com/repos/roblabla/ProtoDef/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/roblabla/ProtoDef/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/roblabla/ProtoDef/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/roblabla/ProtoDef/branches{/branch}",
+            "clone_url": "https://github.com/roblabla/ProtoDef.git",
+            "collaborators_url": "https://api.github.com/repos/roblabla/ProtoDef/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/roblabla/ProtoDef/comments{/number}",
+            "commits_url": "https://api.github.com/repos/roblabla/ProtoDef/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/roblabla/ProtoDef/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/roblabla/ProtoDef/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/roblabla/ProtoDef/contributors",
+            "created_at": "2014-08-19T13:05:48Z",
+            "default_branch": "master",
+            "description": "Describe your protocol, and read it with ease.",
+            "downloads_url": "https://api.github.com/repos/roblabla/ProtoDef/downloads",
+            "events_url": "https://api.github.com/repos/roblabla/ProtoDef/events",
+            "fork": false,
+            "forks": 1,
+            "forks_count": 1,
+            "forks_url": "https://api.github.com/repos/roblabla/ProtoDef/forks",
+            "full_name": "roblabla/ProtoDef",
+            "git_commits_url": "https://api.github.com/repos/roblabla/ProtoDef/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/roblabla/ProtoDef/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/roblabla/ProtoDef/git/tags{/sha}",
+            "git_url": "git://github.com/roblabla/ProtoDef.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_wiki": true,
+            "homepage": null,
+            "hooks_url": "https://api.github.com/repos/roblabla/ProtoDef/hooks",
+            "html_url": "https://github.com/roblabla/ProtoDef",
+            "id": 23110398,
+            "issue_comment_url": "https://api.github.com/repos/roblabla/ProtoDef/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/roblabla/ProtoDef/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/roblabla/ProtoDef/issues{/number}",
+            "keys_url": "https://api.github.com/repos/roblabla/ProtoDef/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/roblabla/ProtoDef/labels{/name}",
+            "language": "JavaScript",
+            "languages_url": "https://api.github.com/repos/roblabla/ProtoDef/languages",
+            "merges_url": "https://api.github.com/repos/roblabla/ProtoDef/merges",
+            "milestones_url": "https://api.github.com/repos/roblabla/ProtoDef/milestones{/number}",
+            "mirror_url": null,
+            "name": "ProtoDef",
+            "notifications_url": "https://api.github.com/repos/roblabla/ProtoDef/notifications{?since,all,participating}",
+            "open_issues": 16,
+            "open_issues_count": 16,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/roblabla/ProtoDef/pulls{/number}",
+            "pushed_at": "2015-12-05T02:06:02Z",
+            "releases_url": "https://api.github.com/repos/roblabla/ProtoDef/releases{/id}",
+            "size": 133,
+            "ssh_url": "git@github.com:roblabla/ProtoDef.git",
+            "stargazers_count": 5,
+            "stargazers_url": "https://api.github.com/repos/roblabla/ProtoDef/stargazers",
+            "statuses_url": "https://api.github.com/repos/roblabla/ProtoDef/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/roblabla/ProtoDef/subscribers",
+            "subscription_url": "https://api.github.com/repos/roblabla/ProtoDef/subscription",
+            "svn_url": "https://github.com/roblabla/ProtoDef",
+            "tags_url": "https://api.github.com/repos/roblabla/ProtoDef/tags",
+            "teams_url": "https://api.github.com/repos/roblabla/ProtoDef/teams",
+            "trees_url": "https://api.github.com/repos/roblabla/ProtoDef/git/trees{/sha}",
+            "updated_at": "2015-10-23T04:52:57Z",
+            "url": "https://api.github.com/repos/roblabla/ProtoDef",
+            "watchers": 5,
+            "watchers_count": 5
+        },
+        "sha": "872b221ea460afac4d62d02ede1306e6ad47226c",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+            "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+            "followers_url": "https://api.github.com/users/roblabla/followers",
+            "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+            "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/roblabla",
+            "id": 1069318,
+            "login": "roblabla",
+            "organizations_url": "https://api.github.com/users/roblabla/orgs",
+            "received_events_url": "https://api.github.com/users/roblabla/received_events",
+            "repos_url": "https://api.github.com/users/roblabla/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/roblabla"
+        }
+    },
+    "html_url": "https://github.com/roblabla/ProtoDef/pull/41",
+    "id": 52531792,
+    "issue_url": "https://api.github.com/repos/roblabla/ProtoDef/issues/41",
+    "locked": false,
+    "merge_commit_sha": "5864945045cb3cfa9106ad4c94c2a2a8b0ab081f",
+    "merged_at": null,
+    "milestone": null,
+    "number": 41,
+    "patch_url": "https://github.com/roblabla/ProtoDef/pull/41.patch",
+    "review_comment_url": "https://api.github.com/repos/roblabla/ProtoDef/pulls/comments{/number}",
+    "review_comments_url": "https://api.github.com/repos/roblabla/ProtoDef/pulls/41/comments",
+    "state": "open",
+    "statuses_url": "https://api.github.com/repos/roblabla/ProtoDef/statuses/872b221ea460afac4d62d02ede1306e6ad47226c",
+    "title": "bluebird promises",
+    "updated_at": "2015-12-04T15:24:07Z",
+    "url": "https://api.github.com/repos/roblabla/ProtoDef/pulls/41",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

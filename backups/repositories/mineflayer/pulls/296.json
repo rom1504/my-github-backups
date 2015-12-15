@@ -1,0 +1,1998 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/issues/296/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/296/commits"
+        },
+        "html": {
+            "href": "https://github.com/andrewrk/mineflayer/pull/296"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/issues/296"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/296/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/296"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/statuses/8c71af23ce99bb9a4333c2780d250efb741a3cda"
+        }
+    },
+    "assignee": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    },
+    "base": {
+        "label": "andrewrk:master",
+        "ref": "master",
+        "repo": {
+            "archive_url": "https://api.github.com/repos/andrewrk/mineflayer/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/andrewrk/mineflayer/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/andrewrk/mineflayer/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/andrewrk/mineflayer/branches{/branch}",
+            "clone_url": "https://github.com/andrewrk/mineflayer.git",
+            "collaborators_url": "https://api.github.com/repos/andrewrk/mineflayer/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/comments{/number}",
+            "commits_url": "https://api.github.com/repos/andrewrk/mineflayer/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/andrewrk/mineflayer/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/andrewrk/mineflayer/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/andrewrk/mineflayer/contributors",
+            "created_at": "2011-01-23T09:41:55Z",
+            "default_branch": "master",
+            "description": "Create Minecraft bots with a powerful, stable, and high level JavaScript API.",
+            "downloads_url": "https://api.github.com/repos/andrewrk/mineflayer/downloads",
+            "events_url": "https://api.github.com/repos/andrewrk/mineflayer/events",
+            "fork": false,
+            "forks": 63,
+            "forks_count": 63,
+            "forks_url": "https://api.github.com/repos/andrewrk/mineflayer/forks",
+            "full_name": "andrewrk/mineflayer",
+            "git_commits_url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/andrewrk/mineflayer/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/andrewrk/mineflayer/git/tags{/sha}",
+            "git_url": "git://github.com/andrewrk/mineflayer.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_wiki": true,
+            "homepage": "",
+            "hooks_url": "https://api.github.com/repos/andrewrk/mineflayer/hooks",
+            "html_url": "https://github.com/andrewrk/mineflayer",
+            "id": 1284185,
+            "issue_comment_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/andrewrk/mineflayer/issues{/number}",
+            "keys_url": "https://api.github.com/repos/andrewrk/mineflayer/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/labels{/name}",
+            "language": "JavaScript",
+            "languages_url": "https://api.github.com/repos/andrewrk/mineflayer/languages",
+            "merges_url": "https://api.github.com/repos/andrewrk/mineflayer/merges",
+            "milestones_url": "https://api.github.com/repos/andrewrk/mineflayer/milestones{/number}",
+            "mirror_url": null,
+            "name": "mineflayer",
+            "notifications_url": "https://api.github.com/repos/andrewrk/mineflayer/notifications{?since,all,participating}",
+            "open_issues": 51,
+            "open_issues_count": 51,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+                "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+                "followers_url": "https://api.github.com/users/andrewrk/followers",
+                "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+                "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/andrewrk",
+                "id": 106511,
+                "login": "andrewrk",
+                "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+                "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+                "repos_url": "https://api.github.com/users/andrewrk/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/andrewrk"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls{/number}",
+            "pushed_at": "2015-12-11T12:23:23Z",
+            "releases_url": "https://api.github.com/repos/andrewrk/mineflayer/releases{/id}",
+            "size": 10258,
+            "ssh_url": "git@github.com:andrewrk/mineflayer.git",
+            "stargazers_count": 259,
+            "stargazers_url": "https://api.github.com/repos/andrewrk/mineflayer/stargazers",
+            "statuses_url": "https://api.github.com/repos/andrewrk/mineflayer/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/andrewrk/mineflayer/subscribers",
+            "subscription_url": "https://api.github.com/repos/andrewrk/mineflayer/subscription",
+            "svn_url": "https://github.com/andrewrk/mineflayer",
+            "tags_url": "https://api.github.com/repos/andrewrk/mineflayer/tags",
+            "teams_url": "https://api.github.com/repos/andrewrk/mineflayer/teams",
+            "trees_url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees{/sha}",
+            "updated_at": "2015-12-14T13:21:10Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer",
+            "watchers": 259,
+            "watchers_count": 259
+        },
+        "sha": "8cf9fa41fc1e95390d309a200d9c189e231dba4e",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+            "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+            "followers_url": "https://api.github.com/users/andrewrk/followers",
+            "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/andrewrk",
+            "id": 106511,
+            "login": "andrewrk",
+            "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+            "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+            "repos_url": "https://api.github.com/users/andrewrk/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/andrewrk"
+        }
+    },
+    "body": "I made a few changes in this one so here's a summary of what I did:\r\n\r\n* Removed some code that was out of context, now each example should contain only what's relevant (there were some event listeners or chat commands that were probably added as a test)\r\n* Added a description on top of each file so it's clear what each example does\r\n* Changed the way chat commands are parsed and separated most reactions to commands in smaller  functions so it's easier to see what each command does without reading all the code\r\n* Added comments explaining the syntax of the most complicated commands\r\n* Reordered some code so functions are easier to find\r\n* Separated a few other functions and statements so each example is easier to follow\r\n* Fixed a few style inconsistencies\r\n\r\nI tested every example manually to check that they were working and everything seems to be fine.\r\n\r\nI think there are a few other optimizations that can be done, especially since there's some repetitive code that can be put in a reusable functions instead and some code that could be shared between examples but I didn't want to do too much at once. If everything looks good to you I might do that before merging.\r\n",
+    "closed_at": "2015-07-21T04:27:54Z",
+    "comment_data": [],
+    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/296/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/2b64aa53d087688d7a3470b569d438fe0010514c/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-05-27T05:04:44Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-05-27T06:46:23Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "message": "Minor examples cleanup",
+                "tree": {
+                    "sha": "ee9d2431e880a45526e42e2c9d741cf2010c43c6",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/ee9d2431e880a45526e42e2c9d741cf2010c43c6"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/2b64aa53d087688d7a3470b569d438fe0010514c"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/2b64aa53d087688d7a3470b569d438fe0010514c",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/6857895af723dd260eb691f4ee33e5e485525a74",
+                    "sha": "6857895af723dd260eb691f4ee33e5e485525a74",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/6857895af723dd260eb691f4ee33e5e485525a74"
+                }
+            ],
+            "sha": "2b64aa53d087688d7a3470b569d438fe0010514c",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/2b64aa53d087688d7a3470b569d438fe0010514c"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/1f5eac264acce7701effdb86bf845d1dc1ba15bb/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-05-27T20:01:22Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-05-27T20:01:22Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "message": "Merge branch 'master' into better-examples",
+                "tree": {
+                    "sha": "3f180ea9206df56c973e5d2a671a52e31bdb0e5a",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/3f180ea9206df56c973e5d2a671a52e31bdb0e5a"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/1f5eac264acce7701effdb86bf845d1dc1ba15bb"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/1f5eac264acce7701effdb86bf845d1dc1ba15bb",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/2b64aa53d087688d7a3470b569d438fe0010514c",
+                    "sha": "2b64aa53d087688d7a3470b569d438fe0010514c",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/2b64aa53d087688d7a3470b569d438fe0010514c"
+                },
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/3d2acc2876a8fe8dff08d4d23df7459770aca93f",
+                    "sha": "3d2acc2876a8fe8dff08d4d23df7459770aca93f",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/3d2acc2876a8fe8dff08d4d23df7459770aca93f"
+                }
+            ],
+            "sha": "1f5eac264acce7701effdb86bf845d1dc1ba15bb",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/1f5eac264acce7701effdb86bf845d1dc1ba15bb"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/f08f7f62231d5185e36f1050e8c677f0b367842b/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-05-28T04:53:31Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-05-28T04:53:31Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "message": "Improve chatAddPattern.js",
+                "tree": {
+                    "sha": "dc79a34cccd6972da976d3d1681065bb7dc0328d",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/dc79a34cccd6972da976d3d1681065bb7dc0328d"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/f08f7f62231d5185e36f1050e8c677f0b367842b"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/f08f7f62231d5185e36f1050e8c677f0b367842b",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/1f5eac264acce7701effdb86bf845d1dc1ba15bb",
+                    "sha": "1f5eac264acce7701effdb86bf845d1dc1ba15bb",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/1f5eac264acce7701effdb86bf845d1dc1ba15bb"
+                }
+            ],
+            "sha": "f08f7f62231d5185e36f1050e8c677f0b367842b",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/f08f7f62231d5185e36f1050e8c677f0b367842b"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/990b7e0a928d1a06dbcf5606f3a8901cca8c6e82/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-05-28T05:44:45Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-05-28T05:44:45Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "message": "Improve chatterbox.js",
+                "tree": {
+                    "sha": "0dd2ad6df01c88b70bb8d3981a3fa0591c8dcd13",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/0dd2ad6df01c88b70bb8d3981a3fa0591c8dcd13"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/990b7e0a928d1a06dbcf5606f3a8901cca8c6e82"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/990b7e0a928d1a06dbcf5606f3a8901cca8c6e82",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/f08f7f62231d5185e36f1050e8c677f0b367842b",
+                    "sha": "f08f7f62231d5185e36f1050e8c677f0b367842b",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/f08f7f62231d5185e36f1050e8c677f0b367842b"
+                }
+            ],
+            "sha": "990b7e0a928d1a06dbcf5606f3a8901cca8c6e82",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/990b7e0a928d1a06dbcf5606f3a8901cca8c6e82"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/cbc373550a1316b3af3d993a1216297c0cbb3b57/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-05-28T17:08:59Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-05-28T17:08:59Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "message": "Add description to echo.js",
+                "tree": {
+                    "sha": "efbaa9bb8a3d9631daa63fcf54747c0d6c974dbf",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/efbaa9bb8a3d9631daa63fcf54747c0d6c974dbf"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/cbc373550a1316b3af3d993a1216297c0cbb3b57"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/cbc373550a1316b3af3d993a1216297c0cbb3b57",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/990b7e0a928d1a06dbcf5606f3a8901cca8c6e82",
+                    "sha": "990b7e0a928d1a06dbcf5606f3a8901cca8c6e82",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/990b7e0a928d1a06dbcf5606f3a8901cca8c6e82"
+                }
+            ],
+            "sha": "cbc373550a1316b3af3d993a1216297c0cbb3b57",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/cbc373550a1316b3af3d993a1216297c0cbb3b57"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/83f7986b08324329ca8e820aaf0c8e7b96065b08/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-05-28T17:09:14Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-05-28T17:09:14Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "message": "Add description to quitter.js",
+                "tree": {
+                    "sha": "5db924100b24fc82ca74a3dcd1dc829f744b7714",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/5db924100b24fc82ca74a3dcd1dc829f744b7714"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/83f7986b08324329ca8e820aaf0c8e7b96065b08"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/83f7986b08324329ca8e820aaf0c8e7b96065b08",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/cbc373550a1316b3af3d993a1216297c0cbb3b57",
+                    "sha": "cbc373550a1316b3af3d993a1216297c0cbb3b57",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/cbc373550a1316b3af3d993a1216297c0cbb3b57"
+                }
+            ],
+            "sha": "83f7986b08324329ca8e820aaf0c8e7b96065b08",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/83f7986b08324329ca8e820aaf0c8e7b96065b08"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/7db2f9cfd1a3fbfa135e8d2f05c163d96486c6c9/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-05-28T17:27:21Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-05-28T17:27:21Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "message": "Improve sleeper.js",
+                "tree": {
+                    "sha": "6df06c2d814172d96809fb944d0afff977297e92",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/6df06c2d814172d96809fb944d0afff977297e92"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/7db2f9cfd1a3fbfa135e8d2f05c163d96486c6c9"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/7db2f9cfd1a3fbfa135e8d2f05c163d96486c6c9",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/83f7986b08324329ca8e820aaf0c8e7b96065b08",
+                    "sha": "83f7986b08324329ca8e820aaf0c8e7b96065b08",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/83f7986b08324329ca8e820aaf0c8e7b96065b08"
+                }
+            ],
+            "sha": "7db2f9cfd1a3fbfa135e8d2f05c163d96486c6c9",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/7db2f9cfd1a3fbfa135e8d2f05c163d96486c6c9"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/88df487d6d8c5eafcaec5b9abb7e79cac7130b45/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-05-30T05:16:32Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-05-30T05:16:32Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "message": "Separate chat commands in chatterbox.js",
+                "tree": {
+                    "sha": "173b22c6247f4f830ad9b9af0d2c621c74fff9ad",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/173b22c6247f4f830ad9b9af0d2c621c74fff9ad"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/88df487d6d8c5eafcaec5b9abb7e79cac7130b45"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/88df487d6d8c5eafcaec5b9abb7e79cac7130b45",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/7db2f9cfd1a3fbfa135e8d2f05c163d96486c6c9",
+                    "sha": "7db2f9cfd1a3fbfa135e8d2f05c163d96486c6c9",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/7db2f9cfd1a3fbfa135e8d2f05c163d96486c6c9"
+                }
+            ],
+            "sha": "88df487d6d8c5eafcaec5b9abb7e79cac7130b45",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/88df487d6d8c5eafcaec5b9abb7e79cac7130b45"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/b0847aab51bb02b21fc5bec275e8ae5e52f95b60/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-05-30T05:18:31Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-05-30T05:18:31Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "message": "Improve digger.js",
+                "tree": {
+                    "sha": "a9adc352c0a7baf76dce6f4f3d634231bd6f2674",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/a9adc352c0a7baf76dce6f4f3d634231bd6f2674"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/b0847aab51bb02b21fc5bec275e8ae5e52f95b60"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/b0847aab51bb02b21fc5bec275e8ae5e52f95b60",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/88df487d6d8c5eafcaec5b9abb7e79cac7130b45",
+                    "sha": "88df487d6d8c5eafcaec5b9abb7e79cac7130b45",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/88df487d6d8c5eafcaec5b9abb7e79cac7130b45"
+                }
+            ],
+            "sha": "b0847aab51bb02b21fc5bec275e8ae5e52f95b60",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/b0847aab51bb02b21fc5bec275e8ae5e52f95b60"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/c00b7fb42d5e2a30a44bd876a82adb70b8c98d33/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-05-30T05:21:12Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-05-30T05:21:12Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "message": "Improve sleeper.js",
+                "tree": {
+                    "sha": "b72e30df6f061e65b29f527524dc1a3190be8b8c",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/b72e30df6f061e65b29f527524dc1a3190be8b8c"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/c00b7fb42d5e2a30a44bd876a82adb70b8c98d33"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/c00b7fb42d5e2a30a44bd876a82adb70b8c98d33",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/b0847aab51bb02b21fc5bec275e8ae5e52f95b60",
+                    "sha": "b0847aab51bb02b21fc5bec275e8ae5e52f95b60",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/b0847aab51bb02b21fc5bec275e8ae5e52f95b60"
+                }
+            ],
+            "sha": "c00b7fb42d5e2a30a44bd876a82adb70b8c98d33",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/c00b7fb42d5e2a30a44bd876a82adb70b8c98d33"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/ca44cd074bcbf177cfe9ff0cca582a167639a608/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-05-30T05:23:48Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-05-30T05:23:48Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "message": "Improve jumper.js",
+                "tree": {
+                    "sha": "a33fe977d9da58f1e6bf3993ef36eacec3170da9",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/a33fe977d9da58f1e6bf3993ef36eacec3170da9"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/ca44cd074bcbf177cfe9ff0cca582a167639a608"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/ca44cd074bcbf177cfe9ff0cca582a167639a608",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/c00b7fb42d5e2a30a44bd876a82adb70b8c98d33",
+                    "sha": "c00b7fb42d5e2a30a44bd876a82adb70b8c98d33",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/c00b7fb42d5e2a30a44bd876a82adb70b8c98d33"
+                }
+            ],
+            "sha": "ca44cd074bcbf177cfe9ff0cca582a167639a608",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/ca44cd074bcbf177cfe9ff0cca582a167639a608"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/ba743de36fb3ae210d0f11b5d6cc99959ac85ef0/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-05-30T05:30:49Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-05-30T05:30:49Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "message": "Improve graffiti.js",
+                "tree": {
+                    "sha": "9d20c5b083534c8836123db2b0cb24647dc963d9",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/9d20c5b083534c8836123db2b0cb24647dc963d9"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/ba743de36fb3ae210d0f11b5d6cc99959ac85ef0"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/ba743de36fb3ae210d0f11b5d6cc99959ac85ef0",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/ca44cd074bcbf177cfe9ff0cca582a167639a608",
+                    "sha": "ca44cd074bcbf177cfe9ff0cca582a167639a608",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/ca44cd074bcbf177cfe9ff0cca582a167639a608"
+                }
+            ],
+            "sha": "ba743de36fb3ae210d0f11b5d6cc99959ac85ef0",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/ba743de36fb3ae210d0f11b5d6cc99959ac85ef0"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/d8c6a6be894ed1ec2950e3b74d5f40b44316565f/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-05-30T05:38:55Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-05-30T05:38:55Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "message": "Improve inventory.js",
+                "tree": {
+                    "sha": "22650e68256ccb8c7fb3b1344fc6aadad79e257b",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/22650e68256ccb8c7fb3b1344fc6aadad79e257b"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/d8c6a6be894ed1ec2950e3b74d5f40b44316565f"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/d8c6a6be894ed1ec2950e3b74d5f40b44316565f",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/ba743de36fb3ae210d0f11b5d6cc99959ac85ef0",
+                    "sha": "ba743de36fb3ae210d0f11b5d6cc99959ac85ef0",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/ba743de36fb3ae210d0f11b5d6cc99959ac85ef0"
+                }
+            ],
+            "sha": "d8c6a6be894ed1ec2950e3b74d5f40b44316565f",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/d8c6a6be894ed1ec2950e3b74d5f40b44316565f"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/bcdf22e7b7f211ad7f37b0bc33fc0e7203d01346/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-05-30T20:55:03Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-05-30T20:55:03Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "message": "Improve chest.js",
+                "tree": {
+                    "sha": "26de55fc39fd14df59d427966e2ad6e6d8e4c16e",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/26de55fc39fd14df59d427966e2ad6e6d8e4c16e"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/bcdf22e7b7f211ad7f37b0bc33fc0e7203d01346"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/bcdf22e7b7f211ad7f37b0bc33fc0e7203d01346",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/d8c6a6be894ed1ec2950e3b74d5f40b44316565f",
+                    "sha": "d8c6a6be894ed1ec2950e3b74d5f40b44316565f",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/d8c6a6be894ed1ec2950e3b74d5f40b44316565f"
+                }
+            ],
+            "sha": "bcdf22e7b7f211ad7f37b0bc33fc0e7203d01346",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/bcdf22e7b7f211ad7f37b0bc33fc0e7203d01346"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/1bf612ece5aac0de5af5490f21b65a99bfee768f/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-05-30T20:55:26Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-05-30T20:55:26Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "message": "Add command explanation in graffiti.js",
+                "tree": {
+                    "sha": "67bde609d6fba1d3a5522850df3757a4568b071b",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/67bde609d6fba1d3a5522850df3757a4568b071b"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/1bf612ece5aac0de5af5490f21b65a99bfee768f"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/1bf612ece5aac0de5af5490f21b65a99bfee768f",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/bcdf22e7b7f211ad7f37b0bc33fc0e7203d01346",
+                    "sha": "bcdf22e7b7f211ad7f37b0bc33fc0e7203d01346",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/bcdf22e7b7f211ad7f37b0bc33fc0e7203d01346"
+                }
+            ],
+            "sha": "1bf612ece5aac0de5af5490f21b65a99bfee768f",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/1bf612ece5aac0de5af5490f21b65a99bfee768f"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/d78a76f93eeea1a629c5ac8b09d618f340a8f2a3/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-05-30T21:32:35Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-05-30T21:32:35Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "message": "Use stricter regex patterns for chat commands",
+                "tree": {
+                    "sha": "88950f62c1b9f9b235041c2bbfc9cdf8973cb98b",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/88950f62c1b9f9b235041c2bbfc9cdf8973cb98b"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/d78a76f93eeea1a629c5ac8b09d618f340a8f2a3"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/d78a76f93eeea1a629c5ac8b09d618f340a8f2a3",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/1bf612ece5aac0de5af5490f21b65a99bfee768f",
+                    "sha": "1bf612ece5aac0de5af5490f21b65a99bfee768f",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/1bf612ece5aac0de5af5490f21b65a99bfee768f"
+                }
+            ],
+            "sha": "d78a76f93eeea1a629c5ac8b09d618f340a8f2a3",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/d78a76f93eeea1a629c5ac8b09d618f340a8f2a3"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/109eb4a675df837dedd3ab7d6fc3c3ba52f939a2/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-05-31T02:21:49Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-05-31T02:21:49Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "message": "Ignore own messages in chatAddPattern.js",
+                "tree": {
+                    "sha": "ceef5ffca0ee7c5f39e084d9f75b60c80fb07871",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/ceef5ffca0ee7c5f39e084d9f75b60c80fb07871"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/109eb4a675df837dedd3ab7d6fc3c3ba52f939a2"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/109eb4a675df837dedd3ab7d6fc3c3ba52f939a2",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/d78a76f93eeea1a629c5ac8b09d618f340a8f2a3",
+                    "sha": "d78a76f93eeea1a629c5ac8b09d618f340a8f2a3",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/d78a76f93eeea1a629c5ac8b09d618f340a8f2a3"
+                }
+            ],
+            "sha": "109eb4a675df837dedd3ab7d6fc3c3ba52f939a2",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/109eb4a675df837dedd3ab7d6fc3c3ba52f939a2"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/94d8f3121635fc3262783a2f522163a712514061/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-05-31T02:38:01Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-05-31T02:38:01Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "message": "Fix coding style",
+                "tree": {
+                    "sha": "97836cf34f15107e41b9af5f0c32e6a1430c4e75",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/97836cf34f15107e41b9af5f0c32e6a1430c4e75"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/94d8f3121635fc3262783a2f522163a712514061"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/94d8f3121635fc3262783a2f522163a712514061",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/109eb4a675df837dedd3ab7d6fc3c3ba52f939a2",
+                    "sha": "109eb4a675df837dedd3ab7d6fc3c3ba52f939a2",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/109eb4a675df837dedd3ab7d6fc3c3ba52f939a2"
+                }
+            ],
+            "sha": "94d8f3121635fc3262783a2f522163a712514061",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/94d8f3121635fc3262783a2f522163a712514061"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/69737342f74ade052d43e46ccc0da128dd5644b0/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-06-01T00:28:50Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-06-01T00:28:50Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "message": "Show experience level in chests example",
+                "tree": {
+                    "sha": "1a7743858997185a096bc2eaaccb72d264aaa0cc",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/1a7743858997185a096bc2eaaccb72d264aaa0cc"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/69737342f74ade052d43e46ccc0da128dd5644b0"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/69737342f74ade052d43e46ccc0da128dd5644b0",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/94d8f3121635fc3262783a2f522163a712514061",
+                    "sha": "94d8f3121635fc3262783a2f522163a712514061",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/94d8f3121635fc3262783a2f522163a712514061"
+                }
+            ],
+            "sha": "69737342f74ade052d43e46ccc0da128dd5644b0",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/69737342f74ade052d43e46ccc0da128dd5644b0"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/d9b075a604474db6fad033d9709ff209d5ccef13/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-06-01T00:47:49Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-06-01T00:47:49Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "message": "Simplify and rename listInventory to make it consistent across examples",
+                "tree": {
+                    "sha": "4af7d7e230cae315d50d66090b28b1406782688e",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/4af7d7e230cae315d50d66090b28b1406782688e"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/d9b075a604474db6fad033d9709ff209d5ccef13"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/d9b075a604474db6fad033d9709ff209d5ccef13",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/69737342f74ade052d43e46ccc0da128dd5644b0",
+                    "sha": "69737342f74ade052d43e46ccc0da128dd5644b0",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/69737342f74ade052d43e46ccc0da128dd5644b0"
+                }
+            ],
+            "sha": "d9b075a604474db6fad033d9709ff209d5ccef13",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/d9b075a604474db6fad033d9709ff209d5ccef13"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/574a07b93822ffc38adb9584db22c6ef12676b4d/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-06-01T03:39:27Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-06-01T03:39:27Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "message": "Use Item.fromNotch and remove duplicate function from chatterbox example",
+                "tree": {
+                    "sha": "ec8b5d8d0e8ca046cffb2d02ecda4148f94ce7c7",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/ec8b5d8d0e8ca046cffb2d02ecda4148f94ce7c7"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/574a07b93822ffc38adb9584db22c6ef12676b4d"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/574a07b93822ffc38adb9584db22c6ef12676b4d",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/d9b075a604474db6fad033d9709ff209d5ccef13",
+                    "sha": "d9b075a604474db6fad033d9709ff209d5ccef13",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/d9b075a604474db6fad033d9709ff209d5ccef13"
+                }
+            ],
+            "sha": "574a07b93822ffc38adb9584db22c6ef12676b4d",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/574a07b93822ffc38adb9584db22c6ef12676b4d"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/2c8a7e4fe870927a541fd0412cc55ef89ad908b7/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-06-01T03:50:34Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-06-01T03:50:34Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "message": "Add check in jumper example to prevent crash when no entities are found",
+                "tree": {
+                    "sha": "8b4e3fa15b5b28ed48d93418266f395002023118",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/8b4e3fa15b5b28ed48d93418266f395002023118"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/2c8a7e4fe870927a541fd0412cc55ef89ad908b7"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/2c8a7e4fe870927a541fd0412cc55ef89ad908b7",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/574a07b93822ffc38adb9584db22c6ef12676b4d",
+                    "sha": "574a07b93822ffc38adb9584db22c6ef12676b4d",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/574a07b93822ffc38adb9584db22c6ef12676b4d"
+                }
+            ],
+            "sha": "2c8a7e4fe870927a541fd0412cc55ef89ad908b7",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/2c8a7e4fe870927a541fd0412cc55ef89ad908b7"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/a959815eb318866202d982f7d9d0db19d006db21/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-06-01T05:40:57Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-06-01T05:40:57Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "message": "Use the same findBlock in all examples, remove findBed, findChest and findFurnace",
+                "tree": {
+                    "sha": "7d475ce3c7a4f72c611470b68ee8ce755244abe3",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/7d475ce3c7a4f72c611470b68ee8ce755244abe3"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/a959815eb318866202d982f7d9d0db19d006db21"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/a959815eb318866202d982f7d9d0db19d006db21",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/2c8a7e4fe870927a541fd0412cc55ef89ad908b7",
+                    "sha": "2c8a7e4fe870927a541fd0412cc55ef89ad908b7",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/2c8a7e4fe870927a541fd0412cc55ef89ad908b7"
+                }
+            ],
+            "sha": "a959815eb318866202d982f7d9d0db19d006db21",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/a959815eb318866202d982f7d9d0db19d006db21"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/8c71af23ce99bb9a4333c2780d250efb741a3cda/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-06-02T02:42:50Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2015-06-02T02:42:50Z",
+                    "email": "pietro210@hotmail.it",
+                    "name": "Pietro"
+                },
+                "message": "Fix variable name in chatterbox.js",
+                "tree": {
+                    "sha": "73d81f23a2da986fc63d1cecc61f82b23ebbdb3b",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/73d81f23a2da986fc63d1cecc61f82b23ebbdb3b"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/8c71af23ce99bb9a4333c2780d250efb741a3cda"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/8c71af23ce99bb9a4333c2780d250efb741a3cda",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/a959815eb318866202d982f7d9d0db19d006db21",
+                    "sha": "a959815eb318866202d982f7d9d0db19d006db21",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/a959815eb318866202d982f7d9d0db19d006db21"
+                }
+            ],
+            "sha": "8c71af23ce99bb9a4333c2780d250efb741a3cda",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/8c71af23ce99bb9a4333c2780d250efb741a3cda"
+        }
+    ],
+    "commits_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/296/commits",
+    "created_at": "2015-05-31T02:51:30Z",
+    "diff_url": "https://github.com/andrewrk/mineflayer/pull/296.diff",
+    "head": {
+        "label": "Pietro210:better-examples",
+        "ref": "better-examples",
+        "repo": {
+            "archive_url": "https://api.github.com/repos/Pietro210/mineflayer/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/Pietro210/mineflayer/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/Pietro210/mineflayer/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/Pietro210/mineflayer/branches{/branch}",
+            "clone_url": "https://github.com/Pietro210/mineflayer.git",
+            "collaborators_url": "https://api.github.com/repos/Pietro210/mineflayer/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/Pietro210/mineflayer/comments{/number}",
+            "commits_url": "https://api.github.com/repos/Pietro210/mineflayer/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/Pietro210/mineflayer/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/Pietro210/mineflayer/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/Pietro210/mineflayer/contributors",
+            "created_at": "2015-05-22T23:56:16Z",
+            "default_branch": "master",
+            "description": "Create Minecraft bots with a powerful, stable, and high level JavaScript API.",
+            "downloads_url": "https://api.github.com/repos/Pietro210/mineflayer/downloads",
+            "events_url": "https://api.github.com/repos/Pietro210/mineflayer/events",
+            "fork": true,
+            "forks": 0,
+            "forks_count": 0,
+            "forks_url": "https://api.github.com/repos/Pietro210/mineflayer/forks",
+            "full_name": "Pietro210/mineflayer",
+            "git_commits_url": "https://api.github.com/repos/Pietro210/mineflayer/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/Pietro210/mineflayer/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/Pietro210/mineflayer/git/tags{/sha}",
+            "git_url": "git://github.com/Pietro210/mineflayer.git",
+            "has_downloads": true,
+            "has_issues": false,
+            "has_pages": false,
+            "has_wiki": true,
+            "homepage": "",
+            "hooks_url": "https://api.github.com/repos/Pietro210/mineflayer/hooks",
+            "html_url": "https://github.com/Pietro210/mineflayer",
+            "id": 36100280,
+            "issue_comment_url": "https://api.github.com/repos/Pietro210/mineflayer/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/Pietro210/mineflayer/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/Pietro210/mineflayer/issues{/number}",
+            "keys_url": "https://api.github.com/repos/Pietro210/mineflayer/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/Pietro210/mineflayer/labels{/name}",
+            "language": "JavaScript",
+            "languages_url": "https://api.github.com/repos/Pietro210/mineflayer/languages",
+            "merges_url": "https://api.github.com/repos/Pietro210/mineflayer/merges",
+            "milestones_url": "https://api.github.com/repos/Pietro210/mineflayer/milestones{/number}",
+            "mirror_url": null,
+            "name": "mineflayer",
+            "notifications_url": "https://api.github.com/repos/Pietro210/mineflayer/notifications{?since,all,participating}",
+            "open_issues": 0,
+            "open_issues_count": 0,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+                "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Pietro210/followers",
+                "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Pietro210",
+                "id": 748972,
+                "login": "Pietro210",
+                "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+                "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+                "repos_url": "https://api.github.com/users/Pietro210/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Pietro210"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/Pietro210/mineflayer/pulls{/number}",
+            "pushed_at": "2015-06-02T02:42:56Z",
+            "releases_url": "https://api.github.com/repos/Pietro210/mineflayer/releases{/id}",
+            "size": 10228,
+            "ssh_url": "git@github.com:Pietro210/mineflayer.git",
+            "stargazers_count": 0,
+            "stargazers_url": "https://api.github.com/repos/Pietro210/mineflayer/stargazers",
+            "statuses_url": "https://api.github.com/repos/Pietro210/mineflayer/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/Pietro210/mineflayer/subscribers",
+            "subscription_url": "https://api.github.com/repos/Pietro210/mineflayer/subscription",
+            "svn_url": "https://github.com/Pietro210/mineflayer",
+            "tags_url": "https://api.github.com/repos/Pietro210/mineflayer/tags",
+            "teams_url": "https://api.github.com/repos/Pietro210/mineflayer/teams",
+            "trees_url": "https://api.github.com/repos/Pietro210/mineflayer/git/trees{/sha}",
+            "updated_at": "2015-05-22T23:56:16Z",
+            "url": "https://api.github.com/repos/Pietro210/mineflayer",
+            "watchers": 0,
+            "watchers_count": 0
+        },
+        "sha": "8c71af23ce99bb9a4333c2780d250efb741a3cda",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+            "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+            "followers_url": "https://api.github.com/users/Pietro210/followers",
+            "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/Pietro210",
+            "id": 748972,
+            "login": "Pietro210",
+            "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+            "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+            "repos_url": "https://api.github.com/users/Pietro210/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/Pietro210"
+        }
+    },
+    "html_url": "https://github.com/andrewrk/mineflayer/pull/296",
+    "id": 36575873,
+    "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/296",
+    "locked": false,
+    "merge_commit_sha": "e2615fd52881a436e1a030b57dbddd3cdb9e2c13",
+    "merged_at": "2015-07-21T04:27:54Z",
+    "milestone": null,
+    "number": 296,
+    "patch_url": "https://github.com/andrewrk/mineflayer/pull/296.patch",
+    "review_comment_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/comments{/number}",
+    "review_comments_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/296/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/andrewrk/mineflayer/statuses/8c71af23ce99bb9a4333c2780d250efb741a3cda",
+    "title": "Examples refactoring and cleanup",
+    "updated_at": "2015-07-21T04:30:27Z",
+    "url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/296",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
+        "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
+        "followers_url": "https://api.github.com/users/Pietro210/followers",
+        "following_url": "https://api.github.com/users/Pietro210/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Pietro210/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/Pietro210",
+        "id": 748972,
+        "login": "Pietro210",
+        "organizations_url": "https://api.github.com/users/Pietro210/orgs",
+        "received_events_url": "https://api.github.com/users/Pietro210/received_events",
+        "repos_url": "https://api.github.com/users/Pietro210/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/Pietro210/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Pietro210/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/Pietro210"
+    }
+}

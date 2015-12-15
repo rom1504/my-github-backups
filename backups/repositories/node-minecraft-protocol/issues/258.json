@@ -1,0 +1,167 @@
+{
+    "assignee": null,
+    "body": "https://github.com/PrismarineJS/node-minecraft-protocol/blob/master/src/states.js\r\n\r\nThere is no point in doing that and make stuff less flexible",
+    "closed_at": null,
+    "comment_data": [
+        {
+            "body": "there is a point : autocompletion in some IDEs works. If I could hardcode packets in the same way, I would.",
+            "created_at": "2015-09-30T10:18:24Z",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/issues/258#issuecomment-144347571",
+            "id": 144347571,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/258",
+            "updated_at": "2015-09-30T10:18:42Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/comments/144347571",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
+                "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
+                "followers_url": "https://api.github.com/users/roblabla/followers",
+                "following_url": "https://api.github.com/users/roblabla/following{/other_user}",
+                "gists_url": "https://api.github.com/users/roblabla/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/roblabla",
+                "id": 1069318,
+                "login": "roblabla",
+                "organizations_url": "https://api.github.com/users/roblabla/orgs",
+                "received_events_url": "https://api.github.com/users/roblabla/received_events",
+                "repos_url": "https://api.github.com/users/roblabla/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/roblabla/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/roblabla/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/roblabla"
+            }
+        },
+        {
+            "body": "well I guess we could figure out a way to make things autocompletable (by generating stuff in dist/ or something), but I think there's no need to actually hardcode this.",
+            "created_at": "2015-09-30T11:50:00Z",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/issues/258#issuecomment-144373185",
+            "id": 144373185,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/258",
+            "updated_at": "2015-09-30T11:50:00Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/comments/144373185",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        }
+    ],
+    "comments": 2,
+    "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/258/comments",
+    "created_at": "2015-09-29T20:58:29Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-11-15T17:06:03Z",
+            "event": "labeled",
+            "id": 464823848,
+            "label": {
+                "color": "fad8c7",
+                "name": "refactoring"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/events/464823848"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-11-20T11:33:20Z",
+            "event": "renamed",
+            "id": 470282545,
+            "rename": {
+                "from": "Remove the \"hardcoding\" of states",
+                "to": "Make protocol data autocompletable (and Remove the \"hardcoding\" of states)"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/events/470282545"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/258/events",
+    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/issues/258",
+    "id": 108958516,
+    "labels": [
+        {
+            "color": "fad8c7",
+            "name": "refactoring",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/labels/refactoring"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/258/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 258,
+    "state": "open",
+    "title": "Make protocol data autocompletable (and Remove the \"hardcoding\" of states)",
+    "updated_at": "2015-11-20T11:33:20Z",
+    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/258",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

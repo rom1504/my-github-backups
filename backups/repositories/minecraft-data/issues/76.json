@@ -1,0 +1,115 @@
+{
+    "assignee": null,
+    "body": "1 placed item can become multiple placed blocks.\r\nsee http://minecraft.gamepedia.com/Door#ID\r\n\r\nThat data is needed to implement placing blocks in a server. It would probably look like the recipes file (in more simple)",
+    "closed_at": null,
+    "comment_data": [],
+    "comments": 0,
+    "comments_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/76/comments",
+    "created_at": "2015-10-26T20:47:00Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-10-26T20:47:08Z",
+            "event": "labeled",
+            "id": 446049492,
+            "label": {
+                "color": "bfd4f2",
+                "name": "new data"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/events/446049492"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-11-15T14:17:37Z",
+            "event": "labeled",
+            "id": 464785485,
+            "label": {
+                "color": "f7c6c7",
+                "name": "blocks"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/events/464785485"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/76/events",
+    "html_url": "https://github.com/PrismarineJS/minecraft-data/issues/76",
+    "id": 113447885,
+    "labels": [
+        {
+            "color": "f7c6c7",
+            "name": "blocks",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/labels/blocks"
+        },
+        {
+            "color": "bfd4f2",
+            "name": "new data",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/labels/new%20data"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/76/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 76,
+    "state": "open",
+    "title": "placeBlock.json",
+    "updated_at": "2015-11-15T14:17:37Z",
+    "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/76",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

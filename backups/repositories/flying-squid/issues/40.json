@@ -1,0 +1,172 @@
+{
+    "assignee": null,
+    "body": "Currently entity.position is in the fixed point format which is position*32.\r\n\r\nPossible solutions : \r\n1. have both a entity.fixedPosition and a entity.position and update both when needed\r\n2. keep entity.position as the fixed point number and make a entity.normalPosition() method\r\n\r\nI think 1 is probably the more practical solution, but it means we probably need a entity.setPosition method to do the updating (so we don't have to convert manually every time we need to update the position) ",
+    "closed_at": null,
+    "comment_data": [
+        {
+            "body": "In essence, my vote was to do the opposite of #1 (entity.realPosition and entity.position). Otherwise I recommend like entity.getPosition() or something.",
+            "created_at": "2015-09-06T14:34:22Z",
+            "html_url": "https://github.com/mhsjlw/flying-squid/issues/40#issuecomment-138089985",
+            "id": 138089985,
+            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/40",
+            "updated_at": "2015-09-06T14:34:22Z",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/138089985",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            }
+        },
+        {
+            "body": "Exactly 2 months and we still have this problem.... I'm currently using .scaled(1/32), though.",
+            "created_at": "2015-11-06T09:07:41Z",
+            "html_url": "https://github.com/mhsjlw/flying-squid/issues/40#issuecomment-154350496",
+            "id": 154350496,
+            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/40",
+            "updated_at": "2015-11-06T09:08:00Z",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/154350496",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
+                "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/demipixel/followers",
+                "following_url": "https://api.github.com/users/demipixel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/demipixel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/demipixel",
+                "id": 7506359,
+                "login": "demipixel",
+                "organizations_url": "https://api.github.com/users/demipixel/orgs",
+                "received_events_url": "https://api.github.com/users/demipixel/received_events",
+                "repos_url": "https://api.github.com/users/demipixel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/demipixel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/demipixel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/demipixel"
+            }
+        }
+    ],
+    "comments": 2,
+    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/40/comments",
+    "created_at": "2015-09-06T12:33:12Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-09-06T12:33:12Z",
+            "event": "labeled",
+            "id": 402162476,
+            "label": {
+                "color": "0052cc",
+                "name": "positions"
+            },
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/402162476"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-09-06T12:33:12Z",
+            "event": "labeled",
+            "id": 402162477,
+            "label": {
+                "color": "eb6420",
+                "name": "entities"
+            },
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/402162477"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/40/events",
+    "html_url": "https://github.com/mhsjlw/flying-squid/issues/40",
+    "id": 105092167,
+    "labels": [
+        {
+            "color": "eb6420",
+            "name": "entities",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/entities"
+        },
+        {
+            "color": "0052cc",
+            "name": "positions",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/positions"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/40/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 40,
+    "state": "open",
+    "title": "Figure out how to provide the \"real position\" of entities in the API",
+    "updated_at": "2015-11-06T09:08:00Z",
+    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/40",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

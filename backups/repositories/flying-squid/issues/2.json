@@ -1,0 +1,133 @@
+{
+    "assignee": null,
+    "body": "We currently handle only 0x04, we need to handle also 0x06 or we're going to miss some of the position update (hence apparent lag)",
+    "closed_at": "2015-08-26T19:56:45Z",
+    "comment_data": [],
+    "comments": 0,
+    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/2/comments",
+    "created_at": "2015-08-26T12:31:02Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-08-26T12:31:34Z",
+            "event": "labeled",
+            "id": 392788400,
+            "label": {
+                "color": "0052cc",
+                "name": "positions"
+            },
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/392788400"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": "34ca0aa788ae93868d3c5c0da94d71e522b2645f",
+            "commit_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/34ca0aa788ae93868d3c5c0da94d71e522b2645f",
+            "created_at": "2015-08-26T19:56:45Z",
+            "event": "closed",
+            "id": 393277065,
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/393277065"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": "738ac51ce25cf895c70dea5e59103de0b2de3a46",
+            "commit_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/738ac51ce25cf895c70dea5e59103de0b2de3a46",
+            "created_at": "2015-11-16T18:51:52Z",
+            "event": "referenced",
+            "id": 465796698,
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/465796698"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/2/events",
+    "html_url": "https://github.com/mhsjlw/flying-squid/issues/2",
+    "id": 103255479,
+    "labels": [
+        {
+            "color": "0052cc",
+            "name": "positions",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/positions"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/2/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 2,
+    "state": "closed",
+    "title": "Handle all position packets the client sends us",
+    "updated_at": "2015-08-26T19:56:45Z",
+    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/2",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

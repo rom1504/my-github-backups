@@ -1,0 +1,199 @@
+{
+    "assignee": null,
+    "body": "https://github.com/andrewrk/mineflayer/blob/master/lib/plugins/inventory.js#L257\r\n\r\nNetherwart item has an id of 372. Netherwart BLOCK however has an ID of 115.\r\n\r\nWe need the item-> placed block correspondence data to fix that issue\r\n\r\nAre many blocks concerned ? about 20 apparently\r\n\r\nTo extract that data we can use the fact that both the item id and block id are in http://minecraft.gamepedia.com/Netherwart#Data_values",
+    "closed_at": "2015-08-08T23:57:15Z",
+    "comment_data": [
+        {
+            "body": "Maybe placeBlock shouldn't be updating the block, and instead it should call a callback when the correct block has been placed by waiting for the correct blockUpdate event. That requires to solve the same problem though (knowing which block should have been placed).\r\n\r\nRelated to #261 \r\n\r\nA reason why we might need to update the block right now : when placing a block under you after jumping, the physics engine need to know not to go through the placed block.\r\n\r\nSo anyway we need to know what block should have been placed.",
+            "created_at": "2015-08-08T21:30:00Z",
+            "html_url": "https://github.com/andrewrk/mineflayer/issues/317#issuecomment-129046186",
+            "id": 129046186,
+            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/317",
+            "updated_at": "2015-08-08T21:33:45Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/129046186",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "body": "Knowing what block should be placed is not really important : listening to the blockUpdate and checking if the block changed is enough to know if block_place worked or not.\r\nFixed in 2ff681ed032a3451af6f28af3fc509c0374c61f2",
+            "created_at": "2015-08-08T23:57:15Z",
+            "html_url": "https://github.com/andrewrk/mineflayer/issues/317#issuecomment-129072758",
+            "id": 129072758,
+            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/317",
+            "updated_at": "2015-08-08T23:57:15Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/129072758",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        }
+    ],
+    "comments": 2,
+    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/317/comments",
+    "created_at": "2015-08-08T01:04:52Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-08-08T01:04:52Z",
+            "event": "labeled",
+            "id": 376857793,
+            "label": {
+                "color": "e10c02",
+                "name": "bug"
+            },
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/376857793"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-08-08T01:04:52Z",
+            "event": "labeled",
+            "id": 376857794,
+            "label": {
+                "color": "5319e7",
+                "name": "block"
+            },
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/376857794"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-08-08T23:57:15Z",
+            "event": "closed",
+            "id": 377181770,
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/377181770"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/317/events",
+    "html_url": "https://github.com/andrewrk/mineflayer/issues/317",
+    "id": 99756649,
+    "labels": [
+        {
+            "color": "5319e7",
+            "name": "block",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/block"
+        },
+        {
+            "color": "e10c02",
+            "name": "bug",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/bug"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/317/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 317,
+    "state": "closed",
+    "title": "placeBlock update the wrong block type for some block",
+    "updated_at": "2015-08-08T23:57:15Z",
+    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/317",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

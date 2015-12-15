@@ -1,0 +1,172 @@
+{
+    "assignee": null,
+    "body": "There are block state files available by doing this : \r\n```bash\r\nmkdir /tmp/dminecraft\r\ncp ~/.minecraft/versions/1.8.4/1.8.4.jar  /tmp/dminecraft\r\ncd /tmp/dminecraft && unzip 1.8.4.jar\r\ncd /tmp/dminecraft/assets/minecraft/blockstates\r\n```\r\n\r\nExample : birch_fence_gate.json : \r\n```json\r\n{\r\n    \"variants\": {\r\n        \"facing=south,in_wall=false,open=false\": { \"model\": \"birch_fence_gate_closed\" },\r\n        \"facing=west,in_wall=false,open=false\":  { \"model\": \"birch_fence_gate_closed\", \"y\": 90, \"uvlock\": true },\r\n        \"facing=north,in_wall=false,open=false\": { \"model\": \"birch_fence_gate_closed\", \"y\": 180, \"uvlock\": true },\r\n        \"facing=east,in_wall=false,open=false\":  { \"model\": \"birch_fence_gate_closed\", \"y\": 270, \"uvlock\": true },\r\n        \"facing=south,in_wall=false,open=true\": { \"model\": \"birch_fence_gate_open\" },\r\n        \"facing=west,in_wall=false,open=true\":  { \"model\": \"birch_fence_gate_open\", \"y\": 90, \"uvlock\": true },\r\n        \"facing=north,in_wall=false,open=true\": { \"model\": \"birch_fence_gate_open\", \"y\": 180, \"uvlock\": true },\r\n        \"facing=east,in_wall=false,open=true\":  { \"model\": \"birch_fence_gate_open\", \"y\": 270, \"uvlock\": true },\r\n        \"facing=south,in_wall=true,open=false\": { \"model\": \"birch_wall_gate_closed\" },\r\n        \"facing=west,in_wall=true,open=false\":  { \"model\": \"birch_wall_gate_closed\", \"y\": 90, \"uvlock\": true },\r\n        \"facing=north,in_wall=true,open=false\": { \"model\": \"birch_wall_gate_closed\", \"y\": 180, \"uvlock\": true },\r\n        \"facing=east,in_wall=true,open=false\":  { \"model\": \"birch_wall_gate_closed\", \"y\": 270, \"uvlock\": true },\r\n        \"facing=south,in_wall=true,open=true\": { \"model\": \"birch_wall_gate_open\" },\r\n        \"facing=west,in_wall=true,open=true\":  { \"model\": \"birch_wall_gate_open\", \"y\": 90, \"uvlock\": true },\r\n        \"facing=north,in_wall=true,open=true\": { \"model\": \"birch_wall_gate_open\", \"y\": 180, \"uvlock\": true },\r\n        \"facing=east,in_wall=true,open=true\":  { \"model\": \"birch_wall_gate_open\", \"y\": 270, \"uvlock\": true }\r\n    }\r\n}\r\n```\r\n\r\nMight be interesting for handling metadata/blockstate (and placing that kind of blocks)",
+    "closed_at": null,
+    "comment_data": [
+        {
+            "body": "Interesting data but it doesn't make the link between block/item id and block state, for example : \r\n* http://minecraft.gamepedia.com/Stone/DV\r\n* http://minecraft.gamepedia.com/Stone/BS\r\n* there are 7 block state files (stone.json, granite.json,...) and none make that link\r\n\r\nThat means it's needed to extract that information from the wiki in a first step.",
+            "created_at": "2015-05-02T16:23:58Z",
+            "html_url": "https://github.com/PrismarineJS/minecraft-data/issues/18#issuecomment-98375142",
+            "id": 98375142,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/18",
+            "updated_at": "2015-05-02T16:23:58Z",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/comments/98375142",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "body": "Might be interesting : \r\nflower_pot.json\r\n```json\r\n{\r\n    \"variants\": {\r\n        \"contents=empty\":            { \"model\": \"flower_pot\" },\r\n        \"contents=rose\":             { \"model\": \"flower_pot_rose\" },\r\n        \"contents=blue_orchid\":      { \"model\": \"flower_pot_orchid\" },\r\n        \"contents=allium\":           { \"model\": \"flower_pot_allium\" },\r\n        \"contents=houstonia\":        { \"model\": \"flower_pot_houstonia\" },\r\n        \"contents=red_tulip\":        { \"model\": \"flower_pot_tulip_red\" },\r\n        \"contents=orange_tulip\":     { \"model\": \"flower_pot_tulip_orange\" },\r\n        \"contents=white_tulip\":      { \"model\": \"flower_pot_tulip_white\" },\r\n        \"contents=pink_tulip\":       { \"model\": \"flower_pot_tulip_pink\" },\r\n        \"contents=oxeye_daisy\":      { \"model\": \"flower_pot_daisy\" },\r\n        \"contents=dandelion\":        { \"model\": \"flower_pot_dandelion\" },\r\n        \"contents=oak_sapling\":      { \"model\": \"flower_pot_oak\" },\r\n        \"contents=spruce_sapling\":   { \"model\": \"flower_pot_spruce\" },\r\n        \"contents=birch_sapling\":    { \"model\": \"flower_pot_birch\" },\r\n        \"contents=jungle_sapling\":   { \"model\": \"flower_pot_jungle\" },\r\n        \"contents=acacia_sapling\":   { \"model\": \"flower_pot_acacia\" },\r\n        \"contents=dark_oak_sapling\": { \"model\": \"flower_pot_dark_oak\" },\r\n        \"contents=mushroom_red\":     { \"model\": \"flower_pot_mushroom_red\" },\r\n        \"contents=mushroom_brown\":   { \"model\": \"flower_pot_mushroom_brown\" },\r\n        \"contents=dead_bush\":        { \"model\": \"flower_pot_dead_bush\" },\r\n        \"contents=fern\":             { \"model\": \"flower_pot_fern\" },\r\n        \"contents=cactus\":           { \"model\": \"flower_pot_cactus\" }\r\n    }\r\n}\r\n```",
+            "created_at": "2015-05-04T05:45:07Z",
+            "html_url": "https://github.com/PrismarineJS/minecraft-data/issues/18#issuecomment-98592522",
+            "id": 98592522,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/18",
+            "updated_at": "2015-05-04T05:45:07Z",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/comments/98592522",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        }
+    ],
+    "comments": 2,
+    "comments_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/18/comments",
+    "created_at": "2015-05-01T16:04:12Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-05-01T16:32:05Z",
+            "event": "labeled",
+            "id": 295033005,
+            "label": {
+                "color": "bfd4f2",
+                "name": "new data"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/events/295033005"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-05-01T16:32:29Z",
+            "event": "labeled",
+            "id": 295033225,
+            "label": {
+                "color": "fbca04",
+                "name": "extraction"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/events/295033225"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/18/events",
+    "html_url": "https://github.com/PrismarineJS/minecraft-data/issues/18",
+    "id": 72463237,
+    "labels": [
+        {
+            "color": "fbca04",
+            "name": "extraction",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/labels/extraction"
+        },
+        {
+            "color": "bfd4f2",
+            "name": "new data",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/labels/new%20data"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/18/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 18,
+    "state": "open",
+    "title": "Block state data",
+    "updated_at": "2015-05-04T05:45:07Z",
+    "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/18",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

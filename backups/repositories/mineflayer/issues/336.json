@@ -1,0 +1,162 @@
+{
+    "assignee": null,
+    "body": "Already done : prismarine-block, prismarine-biome, prismarine-entity.\r\nNext:\r\n* [ ] using prismarine-world: see #334 \r\n* [ ] prismarine-windows: chest.js, dispenser.js, enchantment_table.js, furnace.js , windows.js (see #333)\r\n* [x] prismarine-item: item.js\r\n* [ ] prismarine-chat: chat_message.js\r\n* [x] prismarine-recipe: recipe.js, recipe_item.js\r\n\r\nThe purpose here is to make small modules that can be reused by anybody coding minecraft things in node.js (http://substack.net/how_I_write_modules). To begin with, it would be used by mineflayer and by flying-squid.",
+    "closed_at": null,
+    "comment_data": [
+        {
+            "body": "I've put only windows.js in prismarine-windows because I can't decide whether chest.js, dispenser.js, enchantment_table.js, furnace.js are mineflayer specific or not.",
+            "created_at": "2015-11-22T18:41:41Z",
+            "html_url": "https://github.com/andrewrk/mineflayer/issues/336#issuecomment-158787913",
+            "id": 158787913,
+            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/336",
+            "updated_at": "2015-11-22T18:41:41Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/158787913",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        }
+    ],
+    "comments": 1,
+    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/336/comments",
+    "created_at": "2015-10-12T14:47:13Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-11-13T22:02:59Z",
+            "event": "labeled",
+            "id": 464101802,
+            "label": {
+                "color": "eb6420",
+                "name": "refactoring"
+            },
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/464101802"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": "aaa90b25d1d9e0353fdd1284000103febd37e79f",
+            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/aaa90b25d1d9e0353fdd1284000103febd37e79f",
+            "created_at": "2015-11-22T18:40:59Z",
+            "event": "referenced",
+            "id": 471548203,
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/471548203"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": "9ab788c8c9b3ca69b3cccbb9a0b147f38c489435",
+            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/9ab788c8c9b3ca69b3cccbb9a0b147f38c489435",
+            "created_at": "2015-11-22T19:25:48Z",
+            "event": "referenced",
+            "id": 471558492,
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/471558492"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/336/events",
+    "html_url": "https://github.com/andrewrk/mineflayer/issues/336",
+    "id": 110989130,
+    "labels": [
+        {
+            "color": "eb6420",
+            "name": "refactoring",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/refactoring"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/336/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 336,
+    "state": "open",
+    "title": "Common modules",
+    "updated_at": "2015-11-22T19:26:04Z",
+    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/336",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

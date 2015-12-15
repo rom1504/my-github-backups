@@ -1,0 +1,200 @@
+{
+    "assignee": null,
+    "body": "I created a program to clear all useless items in nearby chest. The core of it uses the `async` framework and looks like this:\r\n```js\r\nTaskClearInChest.prototype.useChest = function(block) {\r\nvar _this = this;\r\nvar chest = this.bot.openChest(block); \r\n//Adds .onTimeout method to chest object  \r\naddTimedEvents(chest);\r\n//This array will be filled with useless items\r\nvar items = [];\r\n//Asynchronously open the chest and also find out what items are to be removed\r\nasync.parallel([\r\n\t//Open chest\r\n\tfunction(callback) {\r\n\t//Wait 3 second for chest to open. If it doesn't, end with error\r\n\tchest.onTimeout(\"open\", callback,\r\n\tfunction() {\r\n\tcallback(new Error(\"Chest opening failed on timeout.\"));\r\n\t}, 3000);\r\n\t},\r\n\t//Find useless items\r\n\tfunction(callback) {\r\n\t//This fills the items array with actual items. The quantity will account for sum of item type in inventory\r\n\t_this.bot.inventory.manager.uselessItems(items)\r\n\tcallback();\r\n\t}\r\n],\r\n//After chest is open AND items have been calculated - Finally empty the items in chest\r\nfunction(error) {\r\n\t//If previous tasks caused error, terminate\r\n\tif(error) {\r\n\t_this.finishedError(1, error);\r\n\treturn;\r\n\t}\r\n\tconsole.log(\"|BOT: ClearInChest| Depositing \"+items.length+\" item types.\");\r\n\t//For each series automatically loops through array and calls callback for each item\r\n\t// This is done async but only one task at a time\r\n\tasync.forEachSeries(items,\r\n\t//Deposit one item type\r\n\tfunction(item, callback) {\r\n\r\n\tconsole.log(\"|BOT: ClearInChest|    Deposit \"+item+\"...\");\r\n\t//Deposit the actual count, no more, no less\r\n\tchest.deposit(item.type, item.metadata, item.count, function(err) { \r\n\t\t\t\r\n\tif(err)\r\n\t\tconsole.log(\"|BOT: ClearInChest|      [ERROR]:\"+ err.message);\r\n\telse\r\n\t\tconsole.log(\"|BOT: ClearInChest|      [DONE]\");\r\n\t//Call callback so that next item is iterated, or the loop ends\r\n\tcallback();\r\n\t});\r\n\t},\r\n\t//Finally over\r\n\tfunction(err) {\r\n\tchest.close();\r\n\tconsole.log(\"|BOT: ClearInChest| Clearing done, chest closed.\");\r\n\tif(err)\r\n\t_this.finishedError(1, err);\r\n\telse\r\n\t_this.finished();\r\n\t}\r\n\t);   \r\n}\r\n);\r\n}\r\n```\r\nThe problem is that while on localhost this never fails and really clears all items to chest (unless the chest is full, but even then it reports error and ends), on online servers it goes stuck at certain point. When I disconnect the player, one stack of items is dropped. Any idea where should I search the point where it freezes?\r\n\r\nTypical output on localhost:\r\n\r\n    |BOT: ClearInChest| Starting inventory clear operation.\r\n    |BOT: InventoryManager| 2 useless items found.\r\n    |BOT: ClearInChest| Depositing 2 item types.\r\n    |BOT: ClearInChest|    Deposit #7/0 x384...\r\n    |BOT: ClearInChest|      [DONE]\r\n    |BOT: ClearInChest|    Deposit #1/0 x64...\r\n    |BOT: ClearInChest|      [DONE]\r\n    |BOT: ClearInChest| Clearing done, chest closed.\r\n    |BOT: Task| Task clearinchest over.\r\n\r\nOn online server, it goes stuck after calling deposit - the deposit's callback is never called so I see:\r\n\r\n    |BOT: ClearInChest| Starting inventory clear operation.\r\n    |BOT: InventoryManager| 2 useless items found.\r\n    |BOT: ClearInChest| Depositing 2 item types.\r\n    |BOT: ClearInChest|    Deposit #7/0 x384...\r\n\r\nand that's over. It also usually manages to stuff some items in chest before going stuck.",
+    "closed_at": null,
+    "comment_data": [
+        {
+            "body": "Can you use '''js instead of ''' to have syntax highlighting ?\r\n\r\nI'm pretty sure the problem is with \"Wait 3 second for chest to open\" : why are you waiting 3 seconds ? Use the events of the chest ;)\r\nLook at https://github.com/andrewrk/mineflayer/blob/master/examples/chest.js#L87\r\n\r\nThe reason why it would work on localhost but not on an online server is probably lag.",
+            "created_at": "2015-07-21T05:15:58Z",
+            "html_url": "https://github.com/andrewrk/mineflayer/issues/312#issuecomment-123163227",
+            "id": 123163227,
+            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/312",
+            "updated_at": "2015-07-21T05:15:58Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/123163227",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "body": "You misunderstood: What I do is that if the open operation does not call the event within 3 seconds, the bot asumes that something's wrong. And as I said, it manages to put certain ammout of items in chest - and never fails when playing on localhost.",
+            "created_at": "2015-07-21T19:21:01Z",
+            "html_url": "https://github.com/andrewrk/mineflayer/issues/312#issuecomment-123452265",
+            "id": 123452265,
+            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/312",
+            "updated_at": "2015-07-21T19:21:01Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/123452265",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5508988?v=3",
+                "events_url": "https://api.github.com/users/Darker/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Darker/followers",
+                "following_url": "https://api.github.com/users/Darker/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Darker/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Darker",
+                "id": 5508988,
+                "login": "Darker",
+                "organizations_url": "https://api.github.com/users/Darker/orgs",
+                "received_events_url": "https://api.github.com/users/Darker/received_events",
+                "repos_url": "https://api.github.com/users/Darker/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Darker/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Darker/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Darker"
+            }
+        },
+        {
+            "body": "Oh yeah ok I understand. What kind of server are you connecting to ? do you get the same result with a vanilla server ?\r\nI think it might be possible you're not getting a confirmTransaction packet in your server, so the callback in clickWindow might never be called https://github.com/andrewrk/mineflayer/blob/master/lib/plugins/inventory.js#L350",
+            "created_at": "2015-07-22T10:12:59Z",
+            "html_url": "https://github.com/andrewrk/mineflayer/issues/312#issuecomment-123651387",
+            "id": 123651387,
+            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/312",
+            "updated_at": "2015-07-22T10:12:59Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/123651387",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        }
+    ],
+    "comments": 3,
+    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/312/comments",
+    "created_at": "2015-07-19T17:50:38Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-07-21T05:16:14Z",
+            "event": "labeled",
+            "id": 360775740,
+            "label": {
+                "color": "c7def8",
+                "name": "inventory"
+            },
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/360775740"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-07-27T20:05:01Z",
+            "event": "labeled",
+            "id": 366484491,
+            "label": {
+                "color": "663399",
+                "name": "waiting for info from op"
+            },
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/366484491"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/312/events",
+    "html_url": "https://github.com/andrewrk/mineflayer/issues/312",
+    "id": 95935641,
+    "labels": [
+        {
+            "color": "c7def8",
+            "name": "inventory",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/inventory"
+        },
+        {
+            "color": "663399",
+            "name": "waiting info from op",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/waiting%20info%20from%20op"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/312/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 312,
+    "state": "open",
+    "title": "The deposit operation goes stuck when playing online",
+    "updated_at": "2015-07-27T20:05:01Z",
+    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/312",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/5508988?v=3",
+        "events_url": "https://api.github.com/users/Darker/events{/privacy}",
+        "followers_url": "https://api.github.com/users/Darker/followers",
+        "following_url": "https://api.github.com/users/Darker/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Darker/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/Darker",
+        "id": 5508988,
+        "login": "Darker",
+        "organizations_url": "https://api.github.com/users/Darker/orgs",
+        "received_events_url": "https://api.github.com/users/Darker/received_events",
+        "repos_url": "https://api.github.com/users/Darker/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/Darker/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Darker/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/Darker"
+    }
+}

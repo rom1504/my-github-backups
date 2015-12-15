@@ -1,0 +1,108 @@
+{
+    "assignee": null,
+    "body": "http://minecraft.gamepedia.com/Written_Book is an unordered recipe, ie it uses ingredients. But it doesn't consume the written book so there should be a \"outIngredients\" in the recipe format.\r\n\r\nsee https://github.com/PrismarineJS/minecraft-data/blob/master/enums/recipes.json#L3479",
+    "closed_at": null,
+    "comment_data": [
+        {
+            "body": "Good catch. This should totally be added, as it should not break any present implementations and is trivial to add.",
+            "created_at": "2015-03-29T18:52:23Z",
+            "html_url": "https://github.com/PrismarineJS/minecraft-data/issues/10#issuecomment-87455104",
+            "id": 87455104,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/10",
+            "updated_at": "2015-03-29T18:52:23Z",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/comments/87455104",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2612164?v=3",
+                "events_url": "https://api.github.com/users/Gjum/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Gjum/followers",
+                "following_url": "https://api.github.com/users/Gjum/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Gjum/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Gjum",
+                "id": 2612164,
+                "login": "Gjum",
+                "organizations_url": "https://api.github.com/users/Gjum/orgs",
+                "received_events_url": "https://api.github.com/users/Gjum/received_events",
+                "repos_url": "https://api.github.com/users/Gjum/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Gjum/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Gjum/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Gjum"
+            }
+        }
+    ],
+    "comments": 1,
+    "comments_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/10/comments",
+    "created_at": "2015-03-29T17:35:57Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-04-27T03:21:40Z",
+            "event": "labeled",
+            "id": 290455830,
+            "label": {
+                "color": "bfd4f2",
+                "name": "new data"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/events/290455830"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/10/events",
+    "html_url": "https://github.com/PrismarineJS/minecraft-data/issues/10",
+    "id": 65081060,
+    "labels": [
+        {
+            "color": "bfd4f2",
+            "name": "new data",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/labels/new%20data"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/10/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 10,
+    "state": "open",
+    "title": "Add an \"outIngredients\" in recipe format",
+    "updated_at": "2015-04-27T03:21:40Z",
+    "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/10",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

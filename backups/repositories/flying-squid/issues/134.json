@@ -1,0 +1,79 @@
+{
+    "assignee": null,
+    "body": "Some info for when somebody when to implement that http://minecraft.gamepedia.com/Water#Block_data\r\n\r\nhttp://minecraft.gamepedia.com/Tick#Block_tick\r\n\r\nseems to be \"source block place a block and schedule a tick for that block\" + checking if there's an hole 5 block from there and only go there if there is.",
+    "closed_at": null,
+    "comment_data": [],
+    "comments": 0,
+    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/134/comments",
+    "created_at": "2015-11-28T01:48:12Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-12-07T00:39:21Z",
+            "event": "labeled",
+            "id": 483899364,
+            "label": {
+                "color": "f7c6c7",
+                "name": "ticks"
+            },
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/483899364"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/134/events",
+    "html_url": "https://github.com/mhsjlw/flying-squid/issues/134",
+    "id": 119263666,
+    "labels": [
+        {
+            "color": "f7c6c7",
+            "name": "ticks",
+            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/ticks"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/134/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 134,
+    "state": "open",
+    "title": "Water and scheduled ticks",
+    "updated_at": "2015-12-07T00:39:21Z",
+    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/134",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

@@ -1,0 +1,591 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/issues/320/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/320/commits"
+        },
+        "html": {
+            "href": "https://github.com/andrewrk/mineflayer/pull/320"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/issues/320"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/320/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/320"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/andrewrk/mineflayer/statuses/7d4e60549251666733c18f12f8ffe5a721aa50bf"
+        }
+    },
+    "assignee": null,
+    "base": {
+        "label": "andrewrk:master",
+        "ref": "master",
+        "repo": {
+            "archive_url": "https://api.github.com/repos/andrewrk/mineflayer/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/andrewrk/mineflayer/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/andrewrk/mineflayer/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/andrewrk/mineflayer/branches{/branch}",
+            "clone_url": "https://github.com/andrewrk/mineflayer.git",
+            "collaborators_url": "https://api.github.com/repos/andrewrk/mineflayer/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/comments{/number}",
+            "commits_url": "https://api.github.com/repos/andrewrk/mineflayer/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/andrewrk/mineflayer/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/andrewrk/mineflayer/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/andrewrk/mineflayer/contributors",
+            "created_at": "2011-01-23T09:41:55Z",
+            "default_branch": "master",
+            "description": "Create Minecraft bots with a powerful, stable, and high level JavaScript API.",
+            "downloads_url": "https://api.github.com/repos/andrewrk/mineflayer/downloads",
+            "events_url": "https://api.github.com/repos/andrewrk/mineflayer/events",
+            "fork": false,
+            "forks": 63,
+            "forks_count": 63,
+            "forks_url": "https://api.github.com/repos/andrewrk/mineflayer/forks",
+            "full_name": "andrewrk/mineflayer",
+            "git_commits_url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/andrewrk/mineflayer/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/andrewrk/mineflayer/git/tags{/sha}",
+            "git_url": "git://github.com/andrewrk/mineflayer.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_wiki": true,
+            "homepage": "",
+            "hooks_url": "https://api.github.com/repos/andrewrk/mineflayer/hooks",
+            "html_url": "https://github.com/andrewrk/mineflayer",
+            "id": 1284185,
+            "issue_comment_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/andrewrk/mineflayer/issues{/number}",
+            "keys_url": "https://api.github.com/repos/andrewrk/mineflayer/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/labels{/name}",
+            "language": "JavaScript",
+            "languages_url": "https://api.github.com/repos/andrewrk/mineflayer/languages",
+            "merges_url": "https://api.github.com/repos/andrewrk/mineflayer/merges",
+            "milestones_url": "https://api.github.com/repos/andrewrk/mineflayer/milestones{/number}",
+            "mirror_url": null,
+            "name": "mineflayer",
+            "notifications_url": "https://api.github.com/repos/andrewrk/mineflayer/notifications{?since,all,participating}",
+            "open_issues": 51,
+            "open_issues_count": 51,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+                "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+                "followers_url": "https://api.github.com/users/andrewrk/followers",
+                "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+                "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/andrewrk",
+                "id": 106511,
+                "login": "andrewrk",
+                "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+                "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+                "repos_url": "https://api.github.com/users/andrewrk/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/andrewrk"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls{/number}",
+            "pushed_at": "2015-12-11T12:23:23Z",
+            "releases_url": "https://api.github.com/repos/andrewrk/mineflayer/releases{/id}",
+            "size": 10258,
+            "ssh_url": "git@github.com:andrewrk/mineflayer.git",
+            "stargazers_count": 259,
+            "stargazers_url": "https://api.github.com/repos/andrewrk/mineflayer/stargazers",
+            "statuses_url": "https://api.github.com/repos/andrewrk/mineflayer/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/andrewrk/mineflayer/subscribers",
+            "subscription_url": "https://api.github.com/repos/andrewrk/mineflayer/subscription",
+            "svn_url": "https://github.com/andrewrk/mineflayer",
+            "tags_url": "https://api.github.com/repos/andrewrk/mineflayer/tags",
+            "teams_url": "https://api.github.com/repos/andrewrk/mineflayer/teams",
+            "trees_url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees{/sha}",
+            "updated_at": "2015-12-14T13:21:10Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer",
+            "watchers": 259,
+            "watchers_count": 259
+        },
+        "sha": "735d8e332773dd463ea2905187c7bd3212d741ab",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+            "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+            "followers_url": "https://api.github.com/users/andrewrk/followers",
+            "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/andrewrk",
+            "id": 106511,
+            "login": "andrewrk",
+            "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+            "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+            "repos_url": "https://api.github.com/users/andrewrk/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/andrewrk"
+        }
+    },
+    "body": "Creating a pull request to talk about how to implement this.\r\nI tried some stuff with these commits, but it doesn't seem very reliable, the server still sends some position correcting packets.\r\nThe second point is that this only handle soulsand, it should handle all bounding boxes types, but I think that should only been done when soulsand works.\r\n\r\nThe general idea of that implementation is finding the highest block under us and putting the bot at that block height when colliding. See the new collisionInRangeHighest function.",
+    "closed_at": null,
+    "comment_data": [
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/andrewrk/mineflayer/pull/320#discussion_r36853055"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/320"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/comments/36853055"
+                }
+            },
+            "body": "Yay, magic numbers! :)",
+            "commit_id": "7d4e60549251666733c18f12f8ffe5a721aa50bf",
+            "created_at": "2015-08-12T12:23:49Z",
+            "diff_hunk": "@@ -128,7 +134,7 @@ function inject(bot) {\n \n     // limit speed\n     var currentMaxGroundSpeed;\n-    var underBlock=bot.blockAt(pos.offset(0,-1,0));\n+    var underBlock=bot.blockAt(new Vec3(pos.x,Math.ceil(pos.y-1.002),pos.z));",
+            "html_url": "https://github.com/andrewrk/mineflayer/pull/320#discussion_r36853055",
+            "id": 36853055,
+            "original_commit_id": "7d4e60549251666733c18f12f8ffe5a721aa50bf",
+            "original_position": 18,
+            "path": "lib/plugins/physics.js",
+            "position": 18,
+            "pull_request_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/320",
+            "updated_at": "2015-08-12T12:23:49Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/comments/36853055",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2612164?v=3",
+                "events_url": "https://api.github.com/users/Gjum/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Gjum/followers",
+                "following_url": "https://api.github.com/users/Gjum/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Gjum/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Gjum",
+                "id": 2612164,
+                "login": "Gjum",
+                "organizations_url": "https://api.github.com/users/Gjum/orgs",
+                "received_events_url": "https://api.github.com/users/Gjum/received_events",
+                "repos_url": "https://api.github.com/users/Gjum/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Gjum/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Gjum/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Gjum"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/andrewrk/mineflayer/pull/320#discussion_r36854852"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/320"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/comments/36854852"
+                }
+            },
+            "body": "Haha I know :D \r\nThat's because of https://github.com/andrewrk/mineflayer/blob/e3573541a5caf8286e07c50a1c61fa0f5d94b9c0/lib/plugins/physics.js#L155\r\nSo the bot position is a little bit too high, removing 0.002 gives the correct ceiling.\r\n\r\nNot sure if there's a better way here, probably.",
+            "commit_id": "7d4e60549251666733c18f12f8ffe5a721aa50bf",
+            "created_at": "2015-08-12T12:46:21Z",
+            "diff_hunk": "@@ -128,7 +134,7 @@ function inject(bot) {\n \n     // limit speed\n     var currentMaxGroundSpeed;\n-    var underBlock=bot.blockAt(pos.offset(0,-1,0));\n+    var underBlock=bot.blockAt(new Vec3(pos.x,Math.ceil(pos.y-1.002),pos.z));",
+            "html_url": "https://github.com/andrewrk/mineflayer/pull/320#discussion_r36854852",
+            "id": 36854852,
+            "original_commit_id": "7d4e60549251666733c18f12f8ffe5a721aa50bf",
+            "original_position": 18,
+            "path": "lib/plugins/physics.js",
+            "position": 18,
+            "pull_request_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/320",
+            "updated_at": "2015-08-12T12:46:21Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/comments/36854852",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/andrewrk/mineflayer/pull/320#discussion_r36855024"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/320"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/comments/36855024"
+                }
+            },
+            "body": "Ah, I understand. See, if there was some global constant for this, it would be easier to understand where the 0.002 comes from and what it relates to.",
+            "commit_id": "7d4e60549251666733c18f12f8ffe5a721aa50bf",
+            "created_at": "2015-08-12T12:48:20Z",
+            "diff_hunk": "@@ -128,7 +134,7 @@ function inject(bot) {\n \n     // limit speed\n     var currentMaxGroundSpeed;\n-    var underBlock=bot.blockAt(pos.offset(0,-1,0));\n+    var underBlock=bot.blockAt(new Vec3(pos.x,Math.ceil(pos.y-1.002),pos.z));",
+            "html_url": "https://github.com/andrewrk/mineflayer/pull/320#discussion_r36855024",
+            "id": 36855024,
+            "original_commit_id": "7d4e60549251666733c18f12f8ffe5a721aa50bf",
+            "original_position": 18,
+            "path": "lib/plugins/physics.js",
+            "position": 18,
+            "pull_request_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/320",
+            "updated_at": "2015-08-12T12:48:20Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/comments/36855024",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2612164?v=3",
+                "events_url": "https://api.github.com/users/Gjum/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Gjum/followers",
+                "following_url": "https://api.github.com/users/Gjum/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Gjum/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Gjum",
+                "id": 2612164,
+                "login": "Gjum",
+                "organizations_url": "https://api.github.com/users/Gjum/orgs",
+                "received_events_url": "https://api.github.com/users/Gjum/received_events",
+                "repos_url": "https://api.github.com/users/Gjum/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Gjum/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Gjum/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Gjum"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/andrewrk/mineflayer/pull/320#discussion_r36855714"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/320"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/comments/36855714"
+                }
+            },
+            "body": "Yeah I might do that. I think it's possible 0.001 might be enough even.\r\nThe ceiling is needed because now it possible for pos.y to be 63+7/8, which correctly gives 64 with ceiling, but for normal blocks we sometimes have pos.y = 64.001 which should be ceiled to 64, not 65. \r\nMaybe a MARGIN_ABOVE_GROUND constant would make sense.",
+            "commit_id": "7d4e60549251666733c18f12f8ffe5a721aa50bf",
+            "created_at": "2015-08-12T12:56:51Z",
+            "diff_hunk": "@@ -128,7 +134,7 @@ function inject(bot) {\n \n     // limit speed\n     var currentMaxGroundSpeed;\n-    var underBlock=bot.blockAt(pos.offset(0,-1,0));\n+    var underBlock=bot.blockAt(new Vec3(pos.x,Math.ceil(pos.y-1.002),pos.z));",
+            "html_url": "https://github.com/andrewrk/mineflayer/pull/320#discussion_r36855714",
+            "id": 36855714,
+            "original_commit_id": "7d4e60549251666733c18f12f8ffe5a721aa50bf",
+            "original_position": 18,
+            "path": "lib/plugins/physics.js",
+            "position": 18,
+            "pull_request_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/320",
+            "updated_at": "2015-08-12T12:56:51Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/comments/36855714",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/andrewrk/mineflayer/pull/320#discussion_r36855911"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/320"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/andrewrk/mineflayer/pulls/comments/36855911"
+                }
+            },
+            "body": "Sounds good. Stuff like this should be documented (at least by using constants with talking names), or the code quickly gets difficult to understand.",
+            "commit_id": "7d4e60549251666733c18f12f8ffe5a721aa50bf",
+            "created_at": "2015-08-12T12:59:08Z",
+            "diff_hunk": "@@ -128,7 +134,7 @@ function inject(bot) {\n \n     // limit speed\n     var currentMaxGroundSpeed;\n-    var underBlock=bot.blockAt(pos.offset(0,-1,0));\n+    var underBlock=bot.blockAt(new Vec3(pos.x,Math.ceil(pos.y-1.002),pos.z));",
+            "html_url": "https://github.com/andrewrk/mineflayer/pull/320#discussion_r36855911",
+            "id": 36855911,
+            "original_commit_id": "7d4e60549251666733c18f12f8ffe5a721aa50bf",
+            "original_position": 18,
+            "path": "lib/plugins/physics.js",
+            "position": 18,
+            "pull_request_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/320",
+            "updated_at": "2015-08-12T12:59:08Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/comments/36855911",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2612164?v=3",
+                "events_url": "https://api.github.com/users/Gjum/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Gjum/followers",
+                "following_url": "https://api.github.com/users/Gjum/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Gjum/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Gjum",
+                "id": 2612164,
+                "login": "Gjum",
+                "organizations_url": "https://api.github.com/users/Gjum/orgs",
+                "received_events_url": "https://api.github.com/users/Gjum/received_events",
+                "repos_url": "https://api.github.com/users/Gjum/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Gjum/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Gjum/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Gjum"
+            }
+        }
+    ],
+    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/320/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/7d4e60549251666733c18f12f8ffe5a721aa50bf/comments",
+            "commit": {
+                "author": {
+                    "date": "2015-08-09T03:04:35Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "comment_count": 1,
+                "committer": {
+                    "date": "2015-08-09T03:04:35Z",
+                    "email": "romain.rom1@gmail.com",
+                    "name": "Romain Beaumont"
+                },
+                "message": "start work on boundingBox (#228) : soulsand seems to work",
+                "tree": {
+                    "sha": "9d2b523d657419d300b9c4362362de2030c04a7b",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees/9d2b523d657419d300b9c4362362de2030c04a7b"
+                },
+                "url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits/7d4e60549251666733c18f12f8ffe5a721aa50bf"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "html_url": "https://github.com/andrewrk/mineflayer/commit/7d4e60549251666733c18f12f8ffe5a721aa50bf",
+            "parents": [
+                {
+                    "html_url": "https://github.com/andrewrk/mineflayer/commit/8c963071af9cc07f857752d5a26f53fc580835a2",
+                    "sha": "8c963071af9cc07f857752d5a26f53fc580835a2",
+                    "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/8c963071af9cc07f857752d5a26f53fc580835a2"
+                }
+            ],
+            "sha": "7d4e60549251666733c18f12f8ffe5a721aa50bf",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer/commits/7d4e60549251666733c18f12f8ffe5a721aa50bf"
+        }
+    ],
+    "commits_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/320/commits",
+    "created_at": "2015-08-12T12:00:32Z",
+    "diff_url": "https://github.com/andrewrk/mineflayer/pull/320.diff",
+    "head": {
+        "label": "andrewrk:boundingBoxes",
+        "ref": "boundingBoxes",
+        "repo": {
+            "archive_url": "https://api.github.com/repos/andrewrk/mineflayer/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/andrewrk/mineflayer/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/andrewrk/mineflayer/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/andrewrk/mineflayer/branches{/branch}",
+            "clone_url": "https://github.com/andrewrk/mineflayer.git",
+            "collaborators_url": "https://api.github.com/repos/andrewrk/mineflayer/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/comments{/number}",
+            "commits_url": "https://api.github.com/repos/andrewrk/mineflayer/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/andrewrk/mineflayer/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/andrewrk/mineflayer/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/andrewrk/mineflayer/contributors",
+            "created_at": "2011-01-23T09:41:55Z",
+            "default_branch": "master",
+            "description": "Create Minecraft bots with a powerful, stable, and high level JavaScript API.",
+            "downloads_url": "https://api.github.com/repos/andrewrk/mineflayer/downloads",
+            "events_url": "https://api.github.com/repos/andrewrk/mineflayer/events",
+            "fork": false,
+            "forks": 63,
+            "forks_count": 63,
+            "forks_url": "https://api.github.com/repos/andrewrk/mineflayer/forks",
+            "full_name": "andrewrk/mineflayer",
+            "git_commits_url": "https://api.github.com/repos/andrewrk/mineflayer/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/andrewrk/mineflayer/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/andrewrk/mineflayer/git/tags{/sha}",
+            "git_url": "git://github.com/andrewrk/mineflayer.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_wiki": true,
+            "homepage": "",
+            "hooks_url": "https://api.github.com/repos/andrewrk/mineflayer/hooks",
+            "html_url": "https://github.com/andrewrk/mineflayer",
+            "id": 1284185,
+            "issue_comment_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/andrewrk/mineflayer/issues{/number}",
+            "keys_url": "https://api.github.com/repos/andrewrk/mineflayer/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/labels{/name}",
+            "language": "JavaScript",
+            "languages_url": "https://api.github.com/repos/andrewrk/mineflayer/languages",
+            "merges_url": "https://api.github.com/repos/andrewrk/mineflayer/merges",
+            "milestones_url": "https://api.github.com/repos/andrewrk/mineflayer/milestones{/number}",
+            "mirror_url": null,
+            "name": "mineflayer",
+            "notifications_url": "https://api.github.com/repos/andrewrk/mineflayer/notifications{?since,all,participating}",
+            "open_issues": 51,
+            "open_issues_count": 51,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+                "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+                "followers_url": "https://api.github.com/users/andrewrk/followers",
+                "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+                "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/andrewrk",
+                "id": 106511,
+                "login": "andrewrk",
+                "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+                "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+                "repos_url": "https://api.github.com/users/andrewrk/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/andrewrk"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls{/number}",
+            "pushed_at": "2015-12-11T12:23:23Z",
+            "releases_url": "https://api.github.com/repos/andrewrk/mineflayer/releases{/id}",
+            "size": 10258,
+            "ssh_url": "git@github.com:andrewrk/mineflayer.git",
+            "stargazers_count": 259,
+            "stargazers_url": "https://api.github.com/repos/andrewrk/mineflayer/stargazers",
+            "statuses_url": "https://api.github.com/repos/andrewrk/mineflayer/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/andrewrk/mineflayer/subscribers",
+            "subscription_url": "https://api.github.com/repos/andrewrk/mineflayer/subscription",
+            "svn_url": "https://github.com/andrewrk/mineflayer",
+            "tags_url": "https://api.github.com/repos/andrewrk/mineflayer/tags",
+            "teams_url": "https://api.github.com/repos/andrewrk/mineflayer/teams",
+            "trees_url": "https://api.github.com/repos/andrewrk/mineflayer/git/trees{/sha}",
+            "updated_at": "2015-12-14T13:21:10Z",
+            "url": "https://api.github.com/repos/andrewrk/mineflayer",
+            "watchers": 259,
+            "watchers_count": 259
+        },
+        "sha": "7d4e60549251666733c18f12f8ffe5a721aa50bf",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
+            "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
+            "followers_url": "https://api.github.com/users/andrewrk/followers",
+            "following_url": "https://api.github.com/users/andrewrk/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andrewrk/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/andrewrk",
+            "id": 106511,
+            "login": "andrewrk",
+            "organizations_url": "https://api.github.com/users/andrewrk/orgs",
+            "received_events_url": "https://api.github.com/users/andrewrk/received_events",
+            "repos_url": "https://api.github.com/users/andrewrk/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/andrewrk/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andrewrk/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/andrewrk"
+        }
+    },
+    "html_url": "https://github.com/andrewrk/mineflayer/pull/320",
+    "id": 42231726,
+    "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/320",
+    "locked": false,
+    "merge_commit_sha": "2ad8d3b1f9884846952433a32e9711a2b5f84856",
+    "merged_at": null,
+    "milestone": null,
+    "number": 320,
+    "patch_url": "https://github.com/andrewrk/mineflayer/pull/320.patch",
+    "review_comment_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/comments{/number}",
+    "review_comments_url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/320/comments",
+    "state": "open",
+    "statuses_url": "https://api.github.com/repos/andrewrk/mineflayer/statuses/7d4e60549251666733c18f12f8ffe5a721aa50bf",
+    "title": "[WIP] start work on boundingBox (#228) : soulsand seems to work",
+    "updated_at": "2015-08-20T11:47:58Z",
+    "url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/320",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

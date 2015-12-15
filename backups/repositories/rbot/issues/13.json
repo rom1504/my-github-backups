@@ -1,0 +1,132 @@
+{
+    "assignee": null,
+    "body": "When you use the command \"repeat dig forward r1,0,0\" the bot usually get in water, and drown.\r\nIt would be nice if the bot could, at least stop digging and not drown and at best find a way to make the water go away and continue digging.",
+    "closed_at": "2013-02-23T09:42:06Z",
+    "comment_data": [
+        {
+            "body": "it actually doesn't seem that hard, just have to check whether there is water in front and if so put blocks so water can't hurt the bot",
+            "created_at": "2013-02-11T22:55:53Z",
+            "html_url": "https://github.com/rom1504/rbot/issues/13#issuecomment-13408405",
+            "id": 13408405,
+            "issue_url": "https://api.github.com/repos/rom1504/rbot/issues/13",
+            "updated_at": "2013-02-11T22:55:53Z",
+            "url": "https://api.github.com/repos/rom1504/rbot/issues/comments/13408405",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "body": "done in d5339dd15db2665c663c776bcc05dff63a8d4d6f",
+            "created_at": "2013-02-23T09:42:06Z",
+            "html_url": "https://github.com/rom1504/rbot/issues/13#issuecomment-13987628",
+            "id": 13987628,
+            "issue_url": "https://api.github.com/repos/rom1504/rbot/issues/13",
+            "updated_at": "2013-02-23T09:42:06Z",
+            "url": "https://api.github.com/repos/rom1504/rbot/issues/comments/13987628",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        }
+    ],
+    "comments": 2,
+    "comments_url": "https://api.github.com/repos/rom1504/rbot/issues/13/comments",
+    "created_at": "2013-02-07T05:02:45Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2013-02-23T09:42:06Z",
+            "event": "closed",
+            "id": 38960487,
+            "url": "https://api.github.com/repos/rom1504/rbot/issues/events/38960487"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/rom1504/rbot/issues/13/events",
+    "html_url": "https://github.com/rom1504/rbot/issues/13",
+    "id": 10724654,
+    "labels": [
+        {
+            "color": "84b6eb",
+            "name": "enhancement",
+            "url": "https://api.github.com/repos/rom1504/rbot/labels/enhancement"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/rom1504/rbot/issues/13/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 13,
+    "state": "closed",
+    "title": "make the dig forward (or a new command) able to dig \"through\" water",
+    "updated_at": "2013-02-23T09:42:06Z",
+    "url": "https://api.github.com/repos/rom1504/rbot/issues/13",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

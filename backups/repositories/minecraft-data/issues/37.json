@@ -1,0 +1,135 @@
+{
+    "assignee": null,
+    "body": "* https://github.com/andrewrk/mineflayer/blob/master/lib/windows.js#L22\r\n* https://github.com/SpockBotMC/SpockBot/blob/master/spock/plugins/helpers/inventory.py#L204\r\n\r\n22:09 <+Gjum> it's just the window name (for protocol), readable name (although that can get set by server), named slot ranges, names for the properties, and later buttons\r\n22:10 <+Gjum> properties are for example the smelting progress of a furnace\r\n22:11 <+Gjum> buttons would just be list[id -> \"name\"]\r\n22:12 <+Gjum> and then there are some edge cases like the horse, and the player itself\r\n22:12 <+Gjum> horse has an entity id, player has armor and crafting, but no nameID",
+    "closed_at": "2015-08-25T00:11:55Z",
+    "comment_data": [
+        {
+            "body": "`inventorySlotStart`, which is needed by mineflayer, should be dynamic for some windows like chests. Especially since the server sends it.\r\n\r\nI am not sure, but I think I saw some sort of generic window on a Bukkit server, that can have any amount of slots. **EDIT** *might be some sort of chest with custom name*",
+            "created_at": "2015-08-23T19:13:08Z",
+            "html_url": "https://github.com/PrismarineJS/minecraft-data/issues/37#issuecomment-133900842",
+            "id": 133900842,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/37",
+            "updated_at": "2015-08-26T21:02:36Z",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/comments/133900842",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2612164?v=3",
+                "events_url": "https://api.github.com/users/Gjum/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Gjum/followers",
+                "following_url": "https://api.github.com/users/Gjum/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Gjum/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Gjum",
+                "id": 2612164,
+                "login": "Gjum",
+                "organizations_url": "https://api.github.com/users/Gjum/orgs",
+                "received_events_url": "https://api.github.com/users/Gjum/received_events",
+                "repos_url": "https://api.github.com/users/Gjum/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Gjum/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Gjum/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Gjum"
+            }
+        }
+    ],
+    "comments": 1,
+    "comments_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/37/comments",
+    "created_at": "2015-08-22T20:17:37Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-08-22T20:17:45Z",
+            "event": "labeled",
+            "id": 389606381,
+            "label": {
+                "color": "bfd4f2",
+                "name": "new data"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/events/389606381"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-08-25T00:11:55Z",
+            "event": "closed",
+            "id": 391176399,
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/events/391176399"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/37/events",
+    "html_url": "https://github.com/PrismarineJS/minecraft-data/issues/37",
+    "id": 102564820,
+    "labels": [
+        {
+            "color": "bfd4f2",
+            "name": "new data",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/labels/new%20data"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/37/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 37,
+    "state": "closed",
+    "title": "define the schema of a future Windows.json",
+    "updated_at": "2015-08-26T21:02:36Z",
+    "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/37",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

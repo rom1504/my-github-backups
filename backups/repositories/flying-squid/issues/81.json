@@ -6,11 +6,11 @@
         {
             "body": "Maybe let commands make their own tab competition (array of possibilities)... Maybe also merge with section? (e.g. /we <tab complete> shows possible commands or sub-sections)",
             "created_at": "2015-10-14T15:02:34Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/81#issuecomment-148077546",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/81#issuecomment-148077546",
             "id": 148077546,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/81",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/81",
             "updated_at": "2015-10-14T15:02:34Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/148077546",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/148077546",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Yeah that would do it (add a complete:function(alreadyWritten) {return completed;} option in commands)\r\n\r\nI think we need to experiment a bit to know what would be convenient, but that complete option would probably work. (maybe it's possible to have a default complete for the most simple commands)",
             "created_at": "2015-10-14T15:06:39Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/81#issuecomment-148078620",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/81#issuecomment-148078620",
             "id": 148078620,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/81",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/81",
             "updated_at": "2015-10-14T15:06:39Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/148078620",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/148078620",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "How do we want to do this? We could have a complete() {} next to parse and action, but... It seems like it would be difficult to parse that. Should we just hope for the best and use that?",
             "created_at": "2015-12-10T07:22:00Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/81#issuecomment-163521825",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/81#issuecomment-163521825",
             "id": 163521825,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/81",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/81",
             "updated_at": "2015-12-10T07:22:00Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/163521825",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/163521825",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "I think such a complete function would take the incomplete parameters (everything after /command) and return what to complete with, or nothing if it cannot guess.\r\nFor example it could guess the player name used in /tp <player>\r\nMostly need a serv.completePlayerName that would take an incomplete name and figure out the complete one.\r\nIn order to do that, the simple (but inefficient if lot of players are connected) is looping on the player list and checking whether the username starts with the provided string. \r\nThe efficient solution would be building a https://en.wikipedia.org/wiki/Trie of the username, but we probably don't need that for now.",
             "created_at": "2015-12-10T09:41:09Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/81#issuecomment-163555193",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/81#issuecomment-163555193",
             "id": 163555193,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/81",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/81",
             "updated_at": "2015-12-10T09:41:09Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/163555193",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/163555193",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "It might interesting to see if there's something convenient in https://www.npmjs.com/browse/keyword/trie though",
             "created_at": "2015-12-10T09:46:01Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/81#issuecomment-163557450",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/81#issuecomment-163557450",
             "id": 163557450,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/81",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/81",
             "updated_at": "2015-12-10T09:46:01Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/163557450",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/163557450",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "https://www.npmjs.com/package/triecomplete seems pretty good\r\n\r\nedit: well except it doesn't work and the github repo is down\r\n\r\nedit2: well I can't find a trie implementation with add/remove/find, so I guess we'll go with searching the array for now\r\n\r\nedit3:\r\nhttps://github.com/marccampbell/node-autocomplete +\r\n```js\r\nvar data = ['fruit', 'app', 'apple', 'banana']\r\nvar Autocomplete = require('autocomplete')\r\nvar auto = new Autocomplete()\r\ndata.forEach(function(d) {auto.addElement(d)});\r\nvar results = auto.search('ap')\r\nconsole.dir(results)\r\n```\r\nworks.\r\n\r\nBut this is probably overkill for our usage I guess.\r\n\r\nhttps://www.npmjs.com/package/triejs works too \r\n\r\n```js\r\nvar Triejs = require('triejs');\r\n var trie = new Triejs();\r\n trie.add(\"hello\", \"hello\");\r\ntrie.add(\"hel\",\"eeeee\");\r\ntrie.add(\"apple\",\"thing\");\r\ntrie.find(\"he\");\r\n```",
             "created_at": "2015-12-10T11:00:50Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/81#issuecomment-163579210",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/81#issuecomment-163579210",
             "id": 163579210,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/81",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/81",
             "updated_at": "2015-12-10T13:25:51Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/163579210",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/163579210",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -173,7 +173,7 @@
         }
     ],
     "comments": 6,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/81/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/81/comments",
     "created_at": "2015-10-14T14:06:29Z",
     "event_data": [
         {
@@ -205,27 +205,27 @@
                 "color": "d4c5f9",
                 "name": "chat"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/435241387"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/435241387"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/81/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/issues/81",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/81/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/issues/81",
     "id": 111405953,
     "labels": [
         {
             "color": "d4c5f9",
             "name": "chat",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/chat"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/labels/chat"
         }
     ],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/81/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/81/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 81,
     "state": "open",
     "title": "Handle tab completion for commands and names",
     "updated_at": "2015-12-10T13:25:51Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/81",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/81",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

@@ -6,11 +6,11 @@
         {
             "body": "getting that error : `Serialization error for play.toClient.block_break_animation.destroyStage : Write error for params.block_break_animation.destroyStage : value is out of bounds`",
             "created_at": "2015-11-19T23:36:20Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/107#issuecomment-158234461",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/107#issuecomment-158234461",
             "id": 158234461,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/107",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/107",
             "updated_at": "2015-11-19T23:36:20Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/158234461",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/158234461",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "That's fine for now. I was just looking at this problem before I found the issue you created and it's because we need to know what item they're holding, hence we need inventories working before we can put that into expectedDiggingTime:\r\n```js\r\nfunction diggingTime(location)\r\n  {\r\n    // assume holding nothing and usual conditions\r\n    return currentlyDugBlock.digTime();\r\n  }\r\n```\r\n\r\nI think the params are digTime(item, creativeMode?, inAir?, inWater?)\r\n\r\nHowever digTime is *= 5 if inAir or inWater (*= 25 if both) which sounds very wrong, so we'll need to do some cleanup.",
             "created_at": "2015-11-20T05:20:12Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/107#issuecomment-158282100",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/107#issuecomment-158282100",
             "id": 158282100,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/107",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/107",
             "updated_at": "2015-11-20T05:20:12Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/158282100",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/158282100",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "https://github.com/PrismarineJS/prismarine-block/blob/master/README.md#blockdigtimehelditemtypecreativeinwaternotonground\r\n\r\nx5 in water is normal.\r\n\r\nWe do have the heldItem info, so we need to pass it to digTime yes",
             "created_at": "2015-11-20T08:44:14Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/107#issuecomment-158326782",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/107#issuecomment-158326782",
             "id": 158326782,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/107",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/107",
             "updated_at": "2015-11-20T08:44:14Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/158326782",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/158326782",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "Related with #34 ",
             "created_at": "2015-11-20T09:40:16Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/107#issuecomment-158337914",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/107#issuecomment-158337914",
             "id": 158337914,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/107",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/107",
             "updated_at": "2015-11-20T09:40:16Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/158337914",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/158337914",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -117,7 +117,7 @@
         }
     ],
     "comments": 4,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/107/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/107/comments",
     "created_at": "2015-11-19T23:29:33Z",
     "event_data": [
         {
@@ -149,7 +149,7 @@
                 "color": "fc2929",
                 "name": "bug"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/469819024"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/469819024"
         },
         {
             "actor": {
@@ -180,7 +180,7 @@
                 "color": "c7def8",
                 "name": "blocks"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/469819025"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/469819025"
         },
         {
             "actor": {
@@ -210,7 +210,7 @@
             "milestone": {
                 "title": "0.4.0"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/483901398"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/483901398"
         },
         {
             "actor": {
@@ -240,30 +240,150 @@
             "milestone": {
                 "title": "0.4.0"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/483901399"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/483901399"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2016-01-14T01:29:01Z",
+            "event": "demilestoned",
+            "id": 514450728,
+            "milestone": {
+                "title": "0.4.0"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/514450728"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2016-01-14T01:29:01Z",
+            "event": "milestoned",
+            "id": 514450729,
+            "milestone": {
+                "title": "0.5.0"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/514450729"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2016-01-14T01:29:01Z",
+            "event": "milestoned",
+            "id": 514450730,
+            "milestone": {
+                "title": "0.5.0"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/514450730"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2016-01-14T01:29:01Z",
+            "event": "demilestoned",
+            "id": 514450731,
+            "milestone": {
+                "title": "0.4.0"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/514450731"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/107/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/issues/107",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/107/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/issues/107",
     "id": 117932839,
     "labels": [
         {
             "color": "c7def8",
             "name": "blocks",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/blocks"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/labels/blocks"
         },
         {
             "color": "fc2929",
             "name": "bug",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/bug"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/labels/bug"
         }
     ],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/107/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/107/labels{/name}",
     "locked": false,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 4,
-        "created_at": "2015-12-07T00:43:39Z",
+        "closed_issues": 0,
+        "created_at": "2016-01-14T01:28:48Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
             "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -285,21 +405,21 @@
         },
         "description": "",
         "due_on": null,
-        "html_url": "https://github.com/mhsjlw/flying-squid/milestones/0.4.0",
-        "id": 1446734,
-        "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/milestones/2/labels",
-        "number": 2,
+        "html_url": "https://github.com/PrismarineJS/flying-squid/milestones/Next",
+        "id": 1506062,
+        "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/milestones/3/labels",
+        "number": 3,
         "open_issues": 7,
         "state": "open",
-        "title": "0.4.0",
-        "updated_at": "2015-12-14T18:43:17Z",
-        "url": "https://api.github.com/repos/mhsjlw/flying-squid/milestones/2"
+        "title": "Next",
+        "updated_at": "2016-01-14T18:24:07Z",
+        "url": "https://api.github.com/repos/PrismarineJS/flying-squid/milestones/3"
     },
     "number": 107,
     "state": "open",
     "title": "Fix diamond shovel dig time in survival",
-    "updated_at": "2015-12-07T00:45:35Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/107",
+    "updated_at": "2016-01-14T01:29:01Z",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/107",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

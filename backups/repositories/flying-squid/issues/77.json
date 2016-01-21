@@ -6,11 +6,11 @@
         {
             "body": "https://github.com/voxel/voxel-trees/blob/master/index.js might be interesting",
             "created_at": "2015-10-13T13:20:26Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/77#issuecomment-147711771",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/77#issuecomment-147711771",
             "id": 147711771,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/77",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/77",
             "updated_at": "2015-10-13T13:20:26Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147711771",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147711771",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "What might be better (idk if this would be possible) is a \"selection\". Basically, we can generate a tree in a selection and then place the selection somewhere. Then we can give specific options to it (e.g. does air replace other blocks? In this case no. What is the only type of block we should replace? Air because if a house is in the way, we don't want to destroy it). The main reason for their use is it allows structures to pass over chunks which will be very important.\r\n\r\nTrees generate in different ways based upon the sappling, but that can be for later.\r\n\r\nAnother important fact about trees is their random growth. In order for me to create random ticks, we need to make \"loaded\" chunks so that way we're not trying to process tons of different ticks on the entire world (especially if it's a large world).\r\n\r\nP.S. it's either \"leaf\" or \"leaves\"",
             "created_at": "2015-10-13T17:39:23Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/77#issuecomment-147788017",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/77#issuecomment-147788017",
             "id": 147788017,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/77",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/77",
             "updated_at": "2015-10-13T17:39:23Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147788017",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147788017",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "What's the point of generating the tree \"out of context\" ? (that's what your selection basically is)\r\nTrees might change because of the world around them.\r\n\r\nusing a generateTree : downCenter,world -> promise is enough to do inter-chunk (that mostly amounts to using world.setBlockType instead of chunk.setBlockType)",
             "created_at": "2015-10-13T17:43:43Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/77#issuecomment-147790042",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/77#issuecomment-147790042",
             "id": 147790042,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/77",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/77",
             "updated_at": "2015-10-13T17:43:43Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147790042",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147790042",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "You can only use chunk.setBlockType for blocks inside that chunk. If you set a tree at `0,0`, it's gonna need to go over into 3 other chunks.\r\n\r\n\"Trees might chance because of the world around them\". If you mean \"they shouldn't generate unless there's room, nothing blocking it, etc\", then yes, on the random ticks, when a sappling wants to grow, it will need to check the world if there is nothing obscuring its growth.",
             "created_at": "2015-10-13T17:48:40Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/77#issuecomment-147792564",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/77#issuecomment-147792564",
             "id": 147792564,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/77",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/77",
             "updated_at": "2015-10-13T17:48:40Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147792564",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147792564",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "> You can only use chunk.setBlockType for blocks inside that chunk. If you set a tree at 0,0, it's gonna need to go over into 3 other chunks.\r\n\r\nthat's why I'm proposing a second method using downCenter,world -> promise instead. So you can do world.setBlockType which works for every block of the world.\r\n\r\nTo convert my example up there to that second possibility, the only thing to do would basically be to replace chunk by world.\r\n\r\n```js\r\nfunction generateTreePar(downCenter,world,wood,leaves) {\r\n  var promises=[];\r\n  for(var y=0;y<4;y++)\r\n   promises.push(world.setBlockType(downCenter.offset(0,y,0),wood));\r\n  var leavesCenter=downCenter.offset(0,3,0);\r\n  for(y=-2;y<=2;y++)\r\n   for(var x=-2;x<=2;x++)\r\n    for(var z=-2;z<=2;z++)\r\n     if(Math.abs(x)+Math.abs(z)+Math.abs(y)<5 && !(x==0 && y==0 && z==0))\r\n      promises.push(world.setBlockType(leavesCenter.offset(x,y,z),leaves));\r\n  return Promise.all(promises);\r\n}\r\n\r\nfunction generateTree(downCenter,world) { return generateTreePar(downCenter,world,5,18);}\r\n```",
             "created_at": "2015-10-13T17:52:48Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/77#issuecomment-147794737",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/77#issuecomment-147794737",
             "id": 147794737,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/77",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/77",
             "updated_at": "2015-10-13T17:55:38Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147794737",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147794737",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "```js\r\nvar Context = ...?\r\n\r\nfunction generateTreePar(downCenter,chunk,wood,leaves) {\r\n  var ctx = new Context();\r\n  for(var y=0;y<4;y++)\r\n    ctx.setBlockType(downCenter.offset(0,y,0),wood);\r\n  var leavesCenter=downCenter.offset(0,3,0);\r\n  for(y=-2;y<=2;y++)\r\n   for(var x=-2;x<=2;x++)\r\n    for(var z=-2;z<=2;z++)\r\n     if(Math.abs(x)+Math.abs(z)+Math.abs(y)<5 && !(x==0 && y==0 && z==0))\r\n      ctx.setBlockType(leavesCenter.offset(x,y,z),leaves);\r\n  return ctx;\r\n}\r\n\r\nfunction generateTree(downCenter) { serv.world.setContext(generateTreePar(downCenter,5,18), downCenter);}\r\n```\r\n\r\nNot a huge difference, so it doesn't matter if we don't use it, I just thought it would be a little cooler than having to keep pushing to promises.",
             "created_at": "2015-10-13T20:47:51Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/77#issuecomment-147848300",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/77#issuecomment-147848300",
             "id": 147848300,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/77",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/77",
             "updated_at": "2015-10-13T20:47:51Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147848300",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147848300",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -174,11 +174,67 @@
         {
             "body": "depends on https://github.com/PrismarineJS/prismarine-world/pull/13#issuecomment-148873342",
             "created_at": "2015-10-26T12:28:39Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/77#issuecomment-151117424",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/77#issuecomment-151117424",
             "id": 151117424,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/77",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/77",
             "updated_at": "2015-10-26T12:28:39Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/151117424",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/151117424",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "body": "see http://cloud.thomas-edwards.me/mc_test/perlin.js (http://cloud.thomas-edwards.me/mc_test/backup.html)",
+            "created_at": "2016-01-07T11:57:02Z",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/77#issuecomment-169642221",
+            "id": 169642221,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/77",
+            "updated_at": "2016-01-07T11:57:02Z",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/169642221",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "body": "also see https://www.npmjs.com/package/perlin",
+            "created_at": "2016-01-07T12:56:50Z",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/77#issuecomment-169656115",
+            "id": 169656115,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/77",
+            "updated_at": "2016-01-07T12:56:50Z",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/169656115",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -200,8 +256,8 @@
             }
         }
     ],
-    "comments": 7,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/77/comments",
+    "comments": 9,
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/77/comments",
     "created_at": "2015-10-13T12:15:10Z",
     "event_data": [
         {
@@ -233,27 +289,27 @@
                 "color": "1a94c6",
                 "name": "world"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/433953830"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/433953830"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/77/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/issues/77",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/77/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/issues/77",
     "id": 111167705,
     "labels": [
         {
             "color": "1a94c6",
             "name": "world",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/world"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/labels/world"
         }
     ],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/77/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/77/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 77,
     "state": "open",
     "title": "Generate a few trees",
-    "updated_at": "2015-10-26T12:28:39Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/77",
+    "updated_at": "2016-01-07T12:56:50Z",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/77",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

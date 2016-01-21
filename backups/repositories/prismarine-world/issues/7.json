@@ -1,7 +1,7 @@
 {
     "assignee": null,
     "body": "How should we do that ?\r\n* vanilla-like : anvil format and all (how advanced is https://github.com/PrismarineJS/prismarine-provider-anvil ?)\r\n* store it in something else (redis, sqlite,...) (see http://wiki.minetest.net/Database_backends for proof of feasibility)",
-    "closed_at": null,
+    "closed_at": "2016-01-04T23:30:32Z",
     "comment_data": [
         {
             "body": "The default implementation should use something vanilla-like IMO. Obviously, care should be taken to make sure alternatives implementation using sqlite/redis/whatev is possible.",
@@ -86,12 +86,68 @@
                 "type": "User",
                 "url": "https://api.github.com/users/dcbartlett"
             }
+        },
+        {
+            "body": "vanilla storage is implemented. We can open other issues when we want to talk about redis/sqlite/... backends.",
+            "created_at": "2016-01-04T23:30:32Z",
+            "html_url": "https://github.com/PrismarineJS/prismarine-world/issues/7#issuecomment-168843776",
+            "id": 168843776,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/prismarine-world/issues/7",
+            "updated_at": "2016-01-04T23:30:32Z",
+            "url": "https://api.github.com/repos/PrismarineJS/prismarine-world/issues/comments/168843776",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
         }
     ],
-    "comments": 3,
+    "comments": 4,
     "comments_url": "https://api.github.com/repos/PrismarineJS/prismarine-world/issues/7/comments",
     "created_at": "2015-10-07T09:33:35Z",
-    "event_data": [],
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2016-01-04T23:30:32Z",
+            "event": "closed",
+            "id": 505358961,
+            "url": "https://api.github.com/repos/PrismarineJS/prismarine-world/issues/events/505358961"
+        }
+    ],
     "events_url": "https://api.github.com/repos/PrismarineJS/prismarine-world/issues/7/events",
     "html_url": "https://github.com/PrismarineJS/prismarine-world/issues/7",
     "id": 110186021,
@@ -100,9 +156,9 @@
     "locked": false,
     "milestone": null,
     "number": 7,
-    "state": "open",
+    "state": "closed",
     "title": "World storage",
-    "updated_at": "2015-11-23T07:49:02Z",
+    "updated_at": "2016-01-04T23:30:32Z",
     "url": "https://api.github.com/repos/PrismarineJS/prismarine-world/issues/7",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",

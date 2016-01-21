@@ -6,11 +6,11 @@
         {
             "body": "I haven't really looked into voxeljs. From spending 10 minutes looking at voxel-engine and voxel-hello-world, it looks like the scope of voxeljs is rendering minecraft-esque views in the browser. The seams that make it difficult to make these projects work with each other are:\r\n\r\n1. mineflayer depends on the \"net\" core node API, because it needs to connect to a server to receive block data as well as everything else. To run in the browser you'd have to set up some kind of proxy server to facilitate communication.\r\n2. mineflayer was never made to run in the browser. It's probably a few more steps than running \"browserify\" to get it working in a browser. Also I am not ready to commit to supporting this project in the browser at this moment in time; one of the goals of this project is to stay rapidly up to date with minecraft updates, and to do that I try to keep the maintenance burden at a minimum.\r\n\r\nSo I guess this is my conclusion based on some very cursory investigation:\r\n\r\nmineflayer and voxel.js are both pluggable enough for someone to create a project that puts them together, but a lot of glue code, at no fault of mineflayer or voxel.js's, will be necessary.\r\n\r\nThis is not my area of interest and so I will not be pursuing it, but I would gladly provide help and support to anyone who tried to do it.",
             "created_at": "2013-02-03T18:04:02Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/115#issuecomment-13050761",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/115#issuecomment-13050761",
             "id": 13050761,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/115",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/115",
             "updated_at": "2013-02-03T18:04:02Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13050761",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13050761",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "If we can disable the walking in voxel, it would be a great view into what the bot is doing. I might do some tests today if I have time.",
             "created_at": "2013-02-03T18:19:51Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/115#issuecomment-13051055",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/115#issuecomment-13051055",
             "id": 13051055,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/115",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/115",
             "updated_at": "2013-02-03T18:19:51Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13051055",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13051055",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/159568?v=3",
                 "events_url": "https://api.github.com/users/vogonistic/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Relevant project: https://github.com/superjoe30/mineflayer-radar",
             "created_at": "2013-02-03T19:16:49Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/115#issuecomment-13052010",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/115#issuecomment-13052010",
             "id": 13052010,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/115",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/115",
             "updated_at": "2013-02-03T19:16:49Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13052010",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13052010",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "I had this idea at some point too - I think it would be cool to interface the web browser with node over websockets to make a full minecraft multiplayer client.",
             "created_at": "2013-02-03T20:34:27Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/115#issuecomment-13053693",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/115#issuecomment-13053693",
             "id": 13053693,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/115",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/115",
             "updated_at": "2013-02-03T20:34:27Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13053693",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13053693",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/425716?v=3",
                 "events_url": "https://api.github.com/users/contra/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "@timoxley does this answer your question? Summary: It's a fun idea but is still not in the roadmap.",
             "created_at": "2013-02-04T18:43:24Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/115#issuecomment-13092109",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/115#issuecomment-13092109",
             "id": 13092109,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/115",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/115",
             "updated_at": "2013-02-04T18:43:24Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13092109",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13092109",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "@superjoe30 yes, :+1: for the detailed answer, thanks ",
             "created_at": "2013-02-04T21:54:41Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/115#issuecomment-13101831",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/115#issuecomment-13101831",
             "id": 13101831,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/115",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/115",
             "updated_at": "2013-02-04T21:54:41Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13101831",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13101831",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/43438?v=3",
                 "events_url": "https://api.github.com/users/timoxley/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "(Big view is mineflayer-voxel and small is vanilla minecraft)\r\n![screenshot](https://f.cloud.github.com/assets/159568/153799/e5db9608-7604-11e2-8e1d-ee8455393089.png)\r\n\r\nNot sure where I'm going with it, but as a proof of concept, it works.\r\n\r\nhttps://github.com/vogonistic/mineflayer-voxel",
             "created_at": "2013-02-13T17:44:57Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/115#issuecomment-13506966",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/115#issuecomment-13506966",
             "id": 13506966,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/115",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/115",
             "updated_at": "2013-02-13T17:45:33Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13506966",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13506966",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/159568?v=3",
                 "events_url": "https://api.github.com/users/vogonistic/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "Wow awesome! I can't wait to play with this after work.",
             "created_at": "2013-02-13T18:06:39Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/115#issuecomment-13508113",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/115#issuecomment-13508113",
             "id": 13508113,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/115",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/115",
             "updated_at": "2013-02-13T18:06:39Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13508113",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13508113",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "There is so much that isn't implemented, and I haven't decided how I'd like the module to work yet, but any ideas are welcome.",
             "created_at": "2013-02-13T18:07:48Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/115#issuecomment-13508166",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/115#issuecomment-13508166",
             "id": 13508166,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/115",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/115",
             "updated_at": "2013-02-13T18:07:48Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13508166",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13508166",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/159568?v=3",
                 "events_url": "https://api.github.com/users/vogonistic/events{/privacy}",
@@ -258,11 +258,11 @@
         {
             "body": "@vogonistic - inb4 you remake the whole client and mojang hires you",
             "created_at": "2013-02-13T19:09:46Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/115#issuecomment-13511447",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/115#issuecomment-13511447",
             "id": 13511447,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/115",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/115",
             "updated_at": "2013-02-13T19:09:46Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13511447",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13511447",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/425716?v=3",
                 "events_url": "https://api.github.com/users/contra/events{/privacy}",
@@ -286,11 +286,11 @@
         {
             "body": "Wow, that looks great!\r\n\r\nIs it working for any non-cubic blocks, like a half-slab?",
             "created_at": "2013-02-13T21:25:50Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/115#issuecomment-13519018",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/115#issuecomment-13519018",
             "id": 13519018,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/115",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/115",
             "updated_at": "2013-02-13T21:25:50Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13519018",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13519018",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/412436?v=3",
                 "events_url": "https://api.github.com/users/Darthfett/events{/privacy}",
@@ -314,11 +314,11 @@
         {
             "body": "@Darthfett Not yet. A lot of the logic in voxel.js is based on full blocks. I think that half-blocks, torches and such needs to be implemented as items. The stone block that they are watching in the screenshot is really a torch =)",
             "created_at": "2013-02-13T21:45:06Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/115#issuecomment-13520031",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/115#issuecomment-13520031",
             "id": 13520031,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/115",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/115",
             "updated_at": "2013-02-13T21:45:06Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13520031",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13520031",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/159568?v=3",
                 "events_url": "https://api.github.com/users/vogonistic/events{/privacy}",
@@ -341,7 +341,7 @@
         }
     ],
     "comments": 12,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/115/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/115/comments",
     "created_at": "2013-02-03T09:21:56Z",
     "event_data": [
         {
@@ -369,7 +369,7 @@
             "created_at": "2013-02-04T18:43:24Z",
             "event": "mentioned",
             "id": 36643254,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/36643254"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/36643254"
         },
         {
             "actor": {
@@ -396,7 +396,7 @@
             "created_at": "2013-02-04T18:43:25Z",
             "event": "subscribed",
             "id": 36643255,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/36643255"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/36643255"
         },
         {
             "actor": {
@@ -423,7 +423,7 @@
             "created_at": "2013-02-04T21:54:41Z",
             "event": "mentioned",
             "id": 36670010,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/36670010"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/36670010"
         },
         {
             "actor": {
@@ -450,7 +450,7 @@
             "created_at": "2013-02-04T21:54:41Z",
             "event": "subscribed",
             "id": 36670011,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/36670011"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/36670011"
         },
         {
             "actor": {
@@ -477,7 +477,7 @@
             "created_at": "2013-02-04T21:54:41Z",
             "event": "closed",
             "id": 36670012,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/36670012"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/36670012"
         },
         {
             "actor": {
@@ -504,7 +504,7 @@
             "created_at": "2013-02-13T19:09:46Z",
             "event": "mentioned",
             "id": 37757043,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/37757043"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/37757043"
         },
         {
             "actor": {
@@ -531,7 +531,7 @@
             "created_at": "2013-02-13T19:09:46Z",
             "event": "subscribed",
             "id": 37757044,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/37757044"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/37757044"
         },
         {
             "actor": {
@@ -558,7 +558,7 @@
             "created_at": "2013-02-13T21:45:06Z",
             "event": "mentioned",
             "id": 37778765,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/37778765"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/37778765"
         },
         {
             "actor": {
@@ -585,21 +585,21 @@
             "created_at": "2013-02-13T21:45:06Z",
             "event": "subscribed",
             "id": 37778766,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/37778766"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/37778766"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/115/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/115",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/115/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/115",
     "id": 10582522,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/115/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/115/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 115,
     "state": "closed",
     "title": "voxeljs support",
     "updated_at": "2013-02-13T21:45:06Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/115",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/115",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/43438?v=3",
         "events_url": "https://api.github.com/users/timoxley/events{/privacy}",

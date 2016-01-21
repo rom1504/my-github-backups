@@ -6,11 +6,11 @@
         {
             "body": ":+1: I've been trying everything thinking \"Open to LAN\" would be the same thing as the minecraft server.",
             "created_at": "2015-03-24T01:40:55Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/233#issuecomment-85285144",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/233#issuecomment-85285144",
             "id": 85285144,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/233",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/233",
             "updated_at": "2015-03-24T01:40:55Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/85285144",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/85285144",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "I'm definetely getting different results in LAN. LAN let's digger build and mine whereas my server doesn't. Then again, [LAN has its own problems for digger.js](https://www.youtube.com/watch?v=c193oELbvvc).",
             "created_at": "2015-03-24T15:06:45Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/233#issuecomment-85543709",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/233#issuecomment-85543709",
             "id": 85543709,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/233",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/233",
             "updated_at": "2015-03-24T15:06:45Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/85543709",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/85543709",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "@demipixel yeah apparently even \"open to lan\" doesn't work for you, which I don't understand because it works for me...\r\n\r\nSolving the problems for minecraft_server might solve your problems though ;)",
             "created_at": "2015-03-24T15:11:23Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/233#issuecomment-85544936",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/233#issuecomment-85544936",
             "id": 85544936,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/233",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/233",
             "updated_at": "2015-03-24T15:11:49Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/85544936",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/85544936",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "@rom1504 Yeah, @thejoshwolfe is stating one of the problems is not correctly tracking the blocks, which is what looks like happens in the video.",
             "created_at": "2015-03-24T18:07:36Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/233#issuecomment-85626178",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/233#issuecomment-85626178",
             "id": 85626178,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/233",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/233",
             "updated_at": "2015-03-24T18:07:36Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/85626178",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/85626178",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "So indeed I just tested, it seems to be pretty broken using minecraft_server...",
             "created_at": "2015-03-25T02:19:58Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/233#issuecomment-85787907",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/233#issuecomment-85787907",
             "id": 85787907,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/233",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/233",
             "updated_at": "2015-03-25T02:19:58Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/85787907",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/85787907",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "So I checked using chatterbox.js : blockUpdate isn't emitted for close (add a `if(point.position.x<100 && point.position.x>90)` ) block update.\r\n\r\nThe corresponding block_change (https://github.com/andrewrk/mineflayer/blob/master/lib/plugins/blocks.js#L208) is correctly received.\r\n\r\nI'm getting this packet on block_change : \r\n```js\r\n{ id: 35,\r\n  state: 'play',\r\n  location: { x: 95, y: 92, z: 67108820 },\r\n  type: 0 }\r\n```\r\nthe z is wrong (I'm at -44)\r\n\r\n\r\nSo the problem is probably coming from node-minecraft-protocol. I'd say readPosition (https://github.com/PrismarineJS/node-minecraft-protocol/blob/master/src/protocol.js#L1097)\r\n\r\nhttp://wiki.vg/Protocol#Position",
             "created_at": "2015-03-25T02:25:35Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/233#issuecomment-85790117",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/233#issuecomment-85790117",
             "id": 85790117,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/233",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/233",
             "updated_at": "2015-03-25T02:47:37Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/85790117",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/85790117",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "So the problem was indeed there : https://github.com/PrismarineJS/node-minecraft-protocol/pull/139 fix building, falling and digging in mineflayer.",
             "created_at": "2015-03-25T03:17:05Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/233#issuecomment-85809530",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/233#issuecomment-85809530",
             "id": 85809530,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/233",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/233",
             "updated_at": "2015-03-25T03:17:05Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/85809530",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/85809530",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "checked : \r\n* [x] chatterbox.js : ok\r\n* [x] digger.js : ok \r\n* [x] jumper.js : ok\r\n* [x] inventory.js : list, toss, craft, equip, unequip\r\n* [x] chest.js : still doesn't work\r\n\r\nOk so basically the main problem is check.js, let's see why.",
             "created_at": "2015-03-26T23:57:24Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/233#issuecomment-86758311",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/233#issuecomment-86758311",
             "id": 86758311,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/233",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/233",
             "updated_at": "2015-03-27T00:30:21Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/86758311",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/86758311",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "Ok I just checked chest again and it somehow works, can somebody checks it actually works ?\r\nSince I didn't do anything to fix it I'm a bit surprised...",
             "created_at": "2015-03-27T00:28:00Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/233#issuecomment-86769463",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/233#issuecomment-86769463",
             "id": 86769463,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/233",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/233",
             "updated_at": "2015-03-27T00:28:00Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/86769463",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/86769463",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -258,11 +258,11 @@
         {
             "body": "So, I'm not getting any particular problems in minecraft_server anymore (except the ones that aren't fixed in #180 )",
             "created_at": "2015-03-27T00:31:05Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/233#issuecomment-86769758",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/233#issuecomment-86769758",
             "id": 86769758,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/233",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/233",
             "updated_at": "2015-03-27T00:31:05Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/86769758",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/86769758",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -286,11 +286,11 @@
         {
             "body": "Did you try positive and negative x/z coordinates? Wasn't there a problem with signed vs unsigned binary packing?",
             "created_at": "2015-03-27T01:12:18Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/233#issuecomment-86781335",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/233#issuecomment-86781335",
             "id": 86781335,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/233",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/233",
             "updated_at": "2015-03-27T01:12:18Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/86781335",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/86781335",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -314,11 +314,11 @@
         {
             "body": "everything in my superflat.js test is working on a minecraft_server, including digging, placing, and using chests. This issue seems fixed.",
             "created_at": "2015-03-27T03:17:13Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/233#issuecomment-86805299",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/233#issuecomment-86805299",
             "id": 86805299,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/233",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/233",
             "updated_at": "2015-03-27T03:17:13Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/86805299",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/86805299",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -341,7 +341,7 @@
         }
     ],
     "comments": 12,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/233/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/233/comments",
     "created_at": "2015-03-24T01:24:00Z",
     "event_data": [
         {
@@ -369,7 +369,7 @@
             "created_at": "2015-03-24T15:11:23Z",
             "event": "mentioned",
             "id": 263617317,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/263617317"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/263617317"
         },
         {
             "actor": {
@@ -396,7 +396,7 @@
             "created_at": "2015-03-24T15:11:23Z",
             "event": "subscribed",
             "id": 263617318,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/263617318"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/263617318"
         },
         {
             "actor": {
@@ -423,7 +423,7 @@
             "created_at": "2015-03-24T18:07:36Z",
             "event": "mentioned",
             "id": 263830804,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/263830804"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/263830804"
         },
         {
             "actor": {
@@ -450,7 +450,7 @@
             "created_at": "2015-03-24T18:07:36Z",
             "event": "subscribed",
             "id": 263830805,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/263830805"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/263830805"
         },
         {
             "actor": {
@@ -477,7 +477,7 @@
             "created_at": "2015-03-24T18:07:36Z",
             "event": "mentioned",
             "id": 263830807,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/263830807"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/263830807"
         },
         {
             "actor": {
@@ -504,7 +504,7 @@
             "created_at": "2015-03-24T18:07:36Z",
             "event": "subscribed",
             "id": 263830808,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/263830808"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/263830808"
         },
         {
             "actor": {
@@ -531,21 +531,21 @@
             "created_at": "2015-03-27T03:17:13Z",
             "event": "closed",
             "id": 266557991,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/266557991"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/266557991"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/233/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/233",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/233/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/233",
     "id": 63874056,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/233/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/233/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 233,
     "state": "closed",
     "title": "support minecraft_server",
     "updated_at": "2015-03-27T03:17:13Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/233",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/233",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
         "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",

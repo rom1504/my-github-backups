@@ -6,11 +6,11 @@
         {
             "body": "Can you try to reproduce this with a vanilla server ? (it's well possible we are not getting the light correctly, I don't think anybody ever used this before)",
             "created_at": "2015-07-11T11:21:24Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/304#issuecomment-120605479",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/304#issuecomment-120605479",
             "id": 120605479,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/304",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/304",
             "updated_at": "2015-07-11T11:21:50Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/120605479",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/120605479",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Tried on vanilla, it's the same. Also, nobody really uses vanilla... It almost crashed my computer by it's CPU usage and has broken GUI.\r\n\r\n![vanilla screenshot](http://i.imgur.com/V6JEo2t.png)",
             "created_at": "2015-07-11T17:37:37Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/304#issuecomment-120647071",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/304#issuecomment-120647071",
             "id": 120647071,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/304",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/304",
             "updated_at": "2015-07-11T17:37:54Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/120647071",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/120647071",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/5508988?v=3",
                 "events_url": "https://api.github.com/users/Darker/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Restarting server or reloging has no effect. The light is allways 0.",
             "created_at": "2015-07-11T17:41:37Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/304#issuecomment-120647670",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/304#issuecomment-120647670",
             "id": 120647670,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/304",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/304",
             "updated_at": "2015-07-11T17:41:37Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/120647670",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/120647670",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/5508988?v=3",
                 "events_url": "https://api.github.com/users/Darker/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "Vanilla is what we used to test node-mc-proto and mineflayer. That's why we always ask to reproduce on vanilla, allows us to see if it's an impl discrepency or just use doing it wrong ^^",
             "created_at": "2015-07-11T19:21:32Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/304#issuecomment-120653391",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/304#issuecomment-120653391",
             "id": 120653391,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/304",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/304",
             "updated_at": "2015-07-11T19:21:32Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/120653391",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/120653391",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "Ok this is happening both in vanilla and spigot. It also seems that it's not due to block update problem but generally parsing the light value.\r\nIs there anything I can do to hotfix that? I wanted to make a bot that carries light all over certain location.",
             "created_at": "2015-07-12T02:47:17Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/304#issuecomment-120681519",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/304#issuecomment-120681519",
             "id": 120681519,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/304",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/304",
             "updated_at": "2015-07-12T02:47:17Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/120681519",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/120681519",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/5508988?v=3",
                 "events_url": "https://api.github.com/users/Darker/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "This might be related to how light is deserialized ( https://github.com/andrewrk/mineflayer/blob/master/lib/plugins/blocks.js#L63 ), might be worth looking into.",
             "created_at": "2015-07-21T05:05:32Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/304#issuecomment-123161867",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/304#issuecomment-123161867",
             "id": 123161867,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/304",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/304",
             "updated_at": "2015-07-21T05:05:32Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/123161867",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/123161867",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "Ok so I can confirm light is broken, I added an information in chatterbox to check this (with the block command).\r\nI believe the problem is in addColumn (https://github.com/andrewrk/mineflayer/blob/master/lib/plugins/blocks.js#L64) or blockAt (https://github.com/andrewrk/mineflayer/blob/master/lib/plugins/blocks.js#L143) but bitwise operations aren't really my thing. Maybe you can spot something @roblabla ?",
             "created_at": "2015-07-22T23:29:57Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/304#issuecomment-123905658",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/304#issuecomment-123905658",
             "id": 123905658,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/304",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/304",
             "updated_at": "2015-07-22T23:29:57Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/123905658",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/123905658",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -202,11 +202,39 @@
         {
             "body": "Will be fixed by #334 ",
             "created_at": "2015-11-13T22:06:43Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/304#issuecomment-156572339",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/304#issuecomment-156572339",
             "id": 156572339,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/304",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/304",
             "updated_at": "2015-11-13T22:06:43Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/156572339",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/156572339",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "body": "reason why : https://github.com/PrismarineJS/mineflayer/blob/master/lib/plugins/blocks.js#L64\r\nlights are half-bytes, not full.\r\n\r\nWays to fix that:\r\n1. fix it directly\r\n2. use prismarine-world in mineflayer\r\n\r\nI prefer 2 since that's what we will do eventually anyway.",
+            "created_at": "2016-01-07T09:50:41Z",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/304#issuecomment-169612898",
+            "id": 169612898,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/304",
+            "updated_at": "2016-01-07T09:50:41Z",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/169612898",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -228,8 +256,8 @@
             }
         }
     ],
-    "comments": 8,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/304/comments",
+    "comments": 9,
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/304/comments",
     "created_at": "2015-07-10T16:33:01Z",
     "event_data": [
         {
@@ -261,7 +289,7 @@
                 "color": "5319e7",
                 "name": "block"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/360771765"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/360771765"
         },
         {
             "actor": {
@@ -292,7 +320,7 @@
                 "color": "e10c02",
                 "name": "bug"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/360771795"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/360771795"
         },
         {
             "actor": {
@@ -319,7 +347,7 @@
             "created_at": "2015-07-22T23:29:57Z",
             "event": "mentioned",
             "id": 362870322,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/362870322"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/362870322"
         },
         {
             "actor": {
@@ -346,32 +374,32 @@
             "created_at": "2015-07-22T23:29:57Z",
             "event": "subscribed",
             "id": 362870323,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/362870323"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/362870323"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/304/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/304",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/304/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/304",
     "id": 94342072,
     "labels": [
         {
             "color": "5319e7",
             "name": "block",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/block"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/block"
         },
         {
             "color": "e10c02",
             "name": "bug",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/bug"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/bug"
         }
     ],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/304/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/304/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 304,
     "state": "open",
     "title": "Light updates seem to have no effect",
-    "updated_at": "2015-11-13T22:06:43Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/304",
+    "updated_at": "2016-01-07T09:50:41Z",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/304",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/5508988?v=3",
         "events_url": "https://api.github.com/users/Darker/events{/privacy}",

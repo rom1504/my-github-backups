@@ -6,11 +6,11 @@
         {
             "body": "After Issue #10 is done, superjoe30 and I are planning to add a function like this to the public api:\r\n\r\nMINEFLAYER_EXPORT void mineflayer_getMapData(mineflayer_GamePtr game, mineflayer_Int3D min_corner, mineflayer_Int3D size, unsigned char * buffer);\r\n\r\nThe map data would be written to the buffer in Notch's format (the one that shows up in 0x33 messages). There would be no restrictions on the size of the region requested (except for y of course).\r\n\r\nThe intended use is for Charged Miners to request a chunk +1 on each edge.\r\n",
             "created_at": "2011-06-13T01:05:40Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/4#issuecomment-1356711",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/4#issuecomment-1356711",
             "id": 1356711,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/4",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/4",
             "updated_at": "2011-06-13T01:05:40Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/1356711",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/1356711",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Perfect!",
             "created_at": "2011-06-13T01:18:22Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/4#issuecomment-1356735",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/4#issuecomment-1356735",
             "id": 1356735,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/4",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/4",
             "updated_at": "2011-06-13T01:18:22Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/1356735",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/1356735",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/57528?v=3",
                 "events_url": "https://api.github.com/users/Wallbraker/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Whops wrong button!",
             "created_at": "2011-06-13T01:18:36Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/4#issuecomment-1356736",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/4#issuecomment-1356736",
             "id": 1356736,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/4",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/4",
             "updated_at": "2011-06-13T01:18:36Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/1356736",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/1356736",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/57528?v=3",
                 "events_url": "https://api.github.com/users/Wallbraker/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "what about this api:\r\n\r\nMINEFLAYER_EXPORT void mineflayer_getMapData(mineflayer_GamePtr game, mineflayer_Int3D min_corner, mineflayer_Int3D size, unsigned char * type_buffer, unsigned char * metadata_buffer, unsigned char * light_buffer, unsigned char * sky_light_buffer);\r\n\r\nWould that be more or less helpful?\r\n\r\nEDIT: nevermind. I got the original one implemented pretty cleanly.",
             "created_at": "2011-06-14T08:40:18Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/4#issuecomment-1364616",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/4#issuecomment-1364616",
             "id": 1364616,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/4",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/4",
             "updated_at": "2011-06-14T09:42:05Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/1364616",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/1364616",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "Looks good, can any of the pointers be NULL if i don't care about them?",
             "created_at": "2011-06-14T09:12:58Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/4#issuecomment-1364769",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/4#issuecomment-1364769",
             "id": 1364769,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/4",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/4",
             "updated_at": "2011-06-14T09:12:58Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/1364769",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/1364769",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/57528?v=3",
                 "events_url": "https://api.github.com/users/Wallbraker/events{/privacy}",
@@ -145,7 +145,7 @@
         }
     ],
     "comments": 5,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/4/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/4/comments",
     "created_at": "2011-06-03T20:35:55Z",
     "event_data": [
         {
@@ -173,7 +173,7 @@
             "created_at": "2011-06-03T20:35:55Z",
             "event": "subscribed",
             "id": 1005570,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1005570"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1005570"
         },
         {
             "actor": {
@@ -200,7 +200,7 @@
             "created_at": "2011-06-13T01:05:40Z",
             "event": "subscribed",
             "id": 1157930,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1157930"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1157930"
         },
         {
             "actor": {
@@ -227,7 +227,7 @@
             "created_at": "2011-06-13T01:18:22Z",
             "event": "closed",
             "id": 1157985,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1157985"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1157985"
         },
         {
             "actor": {
@@ -254,7 +254,7 @@
             "created_at": "2011-06-13T01:18:33Z",
             "event": "reopened",
             "id": 1157986,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1157986"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1157986"
         },
         {
             "actor": {
@@ -277,11 +277,11 @@
                 "url": "https://api.github.com/users/thejoshwolfe"
             },
             "commit_id": "6ac28fbde558df47bd4628662ff54e10be6b85f2",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/6ac28fbde558df47bd4628662ff54e10be6b85f2",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/6ac28fbde558df47bd4628662ff54e10be6b85f2",
             "created_at": "2011-06-14T09:54:20Z",
             "event": "referenced",
             "id": 1182229,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1182229"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1182229"
         },
         {
             "actor": {
@@ -308,7 +308,7 @@
             "created_at": "2011-10-15T06:43:34Z",
             "event": "closed",
             "id": 4254358,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/4254358"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/4254358"
         },
         {
             "actor": {
@@ -335,21 +335,21 @@
             "created_at": "2011-10-15T06:43:34Z",
             "event": "subscribed",
             "id": 4254359,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/4254359"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/4254359"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/4/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/4",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/4/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/4",
     "id": 1000681,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/4/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/4/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 4,
     "state": "closed",
     "title": "mineflayer_blockAt is slow",
     "updated_at": "2011-10-15T06:43:34Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/4",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/4",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/57528?v=3",
         "events_url": "https://api.github.com/users/Wallbraker/events{/privacy}",

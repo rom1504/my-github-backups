@@ -6,11 +6,11 @@
         {
             "body": "I think they should be implementing in a plugin separate from the main repo, but installed by default.",
             "created_at": "2015-11-26T00:54:24Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/126#issuecomment-159769063",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/126#issuecomment-159769063",
             "id": 159769063,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/126",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126",
             "updated_at": "2015-11-26T00:54:24Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/159769063",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/159769063",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
                 "events_url": "https://api.github.com/users/109C/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "That might be a good idea indeed since, unlike other (internal) plugins, nothing depends on commands.",
             "created_at": "2015-11-26T01:07:02Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/126#issuecomment-159770398",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/126#issuecomment-159770398",
             "id": 159770398,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/126",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126",
             "updated_at": "2015-11-26T01:07:02Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/159770398",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/159770398",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Hmm. From a plugin standpoint, I would expect\r\n\r\n```js\r\nfor (var c of player.commands) {\r\n  player.commands[c].disabled = true;\r\n}\r\n```",
             "created_at": "2015-11-26T03:12:56Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/126#issuecomment-159791275",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/126#issuecomment-159791275",
             "id": 159791275,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/126",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126",
             "updated_at": "2015-11-26T03:12:56Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/159791275",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/159791275",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "would be nice to put commands in api.md (or a commands.md idk). Would make it easier to know all the commands available during dev.",
             "created_at": "2015-11-28T00:13:44Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/126#issuecomment-160228757",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/126#issuecomment-160228757",
             "id": 160228757,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/126",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126",
             "updated_at": "2015-11-28T00:13:44Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/160228757",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/160228757",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "We need [target selector](http://minecraft.gamepedia.com/Commands#Target_selectors) too. They'll be useful for /kill and /attach",
             "created_at": "2015-11-30T10:45:46Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/126#issuecomment-160595141",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/126#issuecomment-160595141",
             "id": 160595141,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/126",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126",
             "updated_at": "2015-11-30T10:45:46Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/160595141",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/160595141",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "just btw /attach isn't a real command...\r\n\r\nAlso, what format do you want for target selectors? For example, do we want to allow\r\n\r\n```js\r\nnew TargetSelector({\r\n  selector: 'entity',\r\n  type: 'player',\r\n  position: X,\r\n  radius: 4\r\n});\r\n```\r\nAnd then deal with the text processing afterwards?",
             "created_at": "2015-11-30T17:52:54Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/126#issuecomment-160705264",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/126#issuecomment-160705264",
             "id": 160705264,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/126",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126",
             "updated_at": "2015-11-30T17:52:54Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/160705264",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/160705264",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "Yeah I know it's not really a command, but it's useful for testing, once attaching is properly implemented, /attach can go in a plugin.\r\n\r\nAre target selectors useful in the code ? I mostly meant we need them in command parameters (as in `/kill @e`)\r\n\r\nEdit: ah but yeah we could define such a class to make it easier to process them once parsed.",
             "created_at": "2015-11-30T18:01:53Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/126#issuecomment-160707446",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/126#issuecomment-160707446",
             "id": 160707446,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/126",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126",
             "updated_at": "2015-11-30T18:03:08Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/160707446",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/160707446",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "Well, we've been using whitelist/blacklist for no (arrays of players). The only positive about a selector is that the \"array\" can change (hence the use of it in command blocks. Command blocks are set once but entities they affect can change).",
             "created_at": "2015-11-30T18:54:05Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/126#issuecomment-160723835",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/126#issuecomment-160723835",
             "id": 160723835,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/126",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126",
             "updated_at": "2015-11-30T18:54:05Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/160723835",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/160723835",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "ah ok, yeah that makes sense",
             "created_at": "2015-11-30T19:16:52Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/126#issuecomment-160730060",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/126#issuecomment-160730060",
             "id": 160730060,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/126",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126",
             "updated_at": "2015-11-30T19:16:52Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/160730060",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/160730060",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -258,11 +258,11 @@
         {
             "body": "Then again, I don't think we need it for plugins. Command blocks will be parsed each time they're run, so we just recalculate the arrays then. Whitelist/Blacklist is easier to handle.",
             "created_at": "2015-11-30T19:18:42Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/126#issuecomment-160730483",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/126#issuecomment-160730483",
             "id": 160730483,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/126",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126",
             "updated_at": "2015-11-30T19:18:42Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/160730483",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/160730483",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -286,11 +286,11 @@
         {
             "body": "thanks @azastrael for doing the /tp command\r\n\r\nI think we should do a list of commands to do here with [ ] , to keep track of progress.",
             "created_at": "2015-12-06T03:43:48Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/126#issuecomment-162268480",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/126#issuecomment-162268480",
             "id": 162268480,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/126",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126",
             "updated_at": "2015-12-06T03:43:53Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162268480",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162268480",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -314,11 +314,11 @@
         {
             "body": "I put the list in the first post",
             "created_at": "2015-12-06T04:00:07Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/126#issuecomment-162269016",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/126#issuecomment-162269016",
             "id": 162269016,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/126",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126",
             "updated_at": "2015-12-06T04:00:07Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162269016",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162269016",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -342,11 +342,11 @@
         {
             "body": "Started selectors (incomplete) on /demipixel/flying-squid \"selector\" branch",
             "created_at": "2015-12-07T09:22:25Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/126#issuecomment-162458132",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/126#issuecomment-162458132",
             "id": 162458132,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/126",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126",
             "updated_at": "2015-12-07T09:22:25Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162458132",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162458132",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -370,11 +370,11 @@
         {
             "body": "I added \"easy\" labels for some commands that are pretty easy (for example because they don't require any new flying-squid feature)\r\n\r\nI think this is a good starting point for new contributors.",
             "created_at": "2015-12-07T11:17:19Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/126#issuecomment-162488347",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/126#issuecomment-162488347",
             "id": 162488347,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/126",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126",
             "updated_at": "2015-12-07T11:17:19Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162488347",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162488347",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -398,11 +398,11 @@
         {
             "body": "I added tests for a good portion of the currently implemented commands.\r\nThese commands tests are pretty easy to write and understand (see https://github.com/mhsjlw/flying-squid/blob/master/test/mineflayer.js#L93).\r\n\r\nFor new added commands, it would be nice to add such a test with it.",
             "created_at": "2015-12-07T11:20:39Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/126#issuecomment-162490317",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/126#issuecomment-162490317",
             "id": 162490317,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/126",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126",
             "updated_at": "2015-12-07T11:20:39Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162490317",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162490317",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -426,11 +426,11 @@
         {
             "body": "selectors are mostly done (by @demipixel ), now we can use them in commands :)",
             "created_at": "2015-12-09T00:05:35Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/126#issuecomment-163062694",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/126#issuecomment-163062694",
             "id": 163062694,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/126",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126",
             "updated_at": "2015-12-09T00:05:35Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/163062694",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/163062694",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -454,11 +454,11 @@
         {
             "body": "@rom1504 should this be in the TODO.md?",
             "created_at": "2015-12-09T20:52:06Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/126#issuecomment-163388456",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/126#issuecomment-163388456",
             "id": 163388456,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/126",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126",
             "updated_at": "2015-12-09T20:52:06Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/163388456",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/163388456",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/8526903?v=3",
                 "events_url": "https://api.github.com/users/mhsjlw/events{/privacy}",
@@ -482,11 +482,11 @@
         {
             "body": "no, issues are better really.\r\nTODO.md is useful for a very general roadmap maybe (like currently)",
             "created_at": "2015-12-09T21:55:36Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/126#issuecomment-163406709",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/126#issuecomment-163406709",
             "id": 163406709,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/126",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126",
             "updated_at": "2015-12-09T21:55:36Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/163406709",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/163406709",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -510,11 +510,11 @@
         {
             "body": "Ok",
             "created_at": "2015-12-09T22:09:39Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/126#issuecomment-163413215",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/126#issuecomment-163413215",
             "id": 163413215,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/126",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126",
             "updated_at": "2015-12-09T22:09:39Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/163413215",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/163413215",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/8526903?v=3",
                 "events_url": "https://api.github.com/users/mhsjlw/events{/privacy}",
@@ -538,11 +538,11 @@
         {
             "body": "I think /me and /say would be easy.\r\n\r\nAlso, if you're not new to the project, don't do the easy ones. Thanks.",
             "created_at": "2015-12-10T07:34:44Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/126#issuecomment-163523766",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/126#issuecomment-163523766",
             "id": 163523766,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/126",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126",
             "updated_at": "2015-12-10T07:34:44Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/163523766",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/163523766",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -562,10 +562,38 @@
                 "type": "User",
                 "url": "https://api.github.com/users/demipixel"
             }
+        },
+        {
+            "body": "It would be nice to add an explanation into how to add a new command in the api.md. Take an example (like https://github.com/PrismarineJS/flying-squid/blob/8c4406804e015054ccd81568652ece42fac819a1/src/lib/plugins/spawn.js#L156 ) and add comments around it to explain what is what.",
+            "created_at": "2015-12-25T23:51:40Z",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/126#issuecomment-167267183",
+            "id": 167267183,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126",
+            "updated_at": "2015-12-25T23:51:40Z",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/167267183",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
         }
     ],
-    "comments": 20,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/126/comments",
+    "comments": 21,
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126/comments",
     "created_at": "2015-11-25T18:54:44Z",
     "event_data": [
         {
@@ -593,7 +621,7 @@
             "created_at": "2015-12-06T03:43:48Z",
             "event": "mentioned",
             "id": 483604739,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/483604739"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/483604739"
         },
         {
             "actor": {
@@ -620,7 +648,7 @@
             "created_at": "2015-12-06T03:43:48Z",
             "event": "subscribed",
             "id": 483604740,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/483604740"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/483604740"
         },
         {
             "actor": {
@@ -651,7 +679,7 @@
                 "color": "d4c5f9",
                 "name": "chat"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/483899738"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/483899738"
         },
         {
             "actor": {
@@ -682,7 +710,7 @@
                 "color": "bfdadc",
                 "name": "good first contribution"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/484264824"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/484264824"
         },
         {
             "actor": {
@@ -709,7 +737,7 @@
             "created_at": "2015-12-09T00:05:35Z",
             "event": "mentioned",
             "id": 486313873,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/486313873"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/486313873"
         },
         {
             "actor": {
@@ -736,7 +764,7 @@
             "created_at": "2015-12-09T00:05:35Z",
             "event": "subscribed",
             "id": 486313874,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/486313874"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/486313874"
         },
         {
             "actor": {
@@ -763,7 +791,7 @@
             "created_at": "2015-12-09T20:52:06Z",
             "event": "mentioned",
             "id": 487411496,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/487411496"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/487411496"
         },
         {
             "actor": {
@@ -790,32 +818,32 @@
             "created_at": "2015-12-09T20:52:06Z",
             "event": "subscribed",
             "id": 487411497,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/487411497"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/487411497"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/126/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/issues/126",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/issues/126",
     "id": 118900973,
     "labels": [
         {
             "color": "d4c5f9",
             "name": "chat",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/chat"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/labels/chat"
         },
         {
             "color": "bfdadc",
             "name": "good first contribution",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/good%20first%20contribution"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/labels/good%20first%20contribution"
         }
     ],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/126/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 126,
     "state": "open",
     "title": "Implement vanilla commands",
-    "updated_at": "2015-12-10T07:34:45Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/126",
+    "updated_at": "2015-12-25T23:51:40Z",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/126",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

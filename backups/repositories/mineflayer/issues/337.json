@@ -6,11 +6,11 @@
         {
             "body": "before `bot.attack(entity);` do `var entity=nearestEntity(bot.entities)`",
             "created_at": "2015-10-17T02:38:31Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/337#issuecomment-148879013",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/337#issuecomment-148879013",
             "id": 148879013,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/337",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/337",
             "updated_at": "2015-10-17T02:38:31Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/148879013",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/148879013",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "I added that in and I got this error:\r\n\r\n```javascript\r\nTypeError: entities.reduce is not a function\r\n````\r\n\r\nI am not using rbot as a base and I'm guessing it's either defined as a function there or I'm missing something.",
             "created_at": "2015-10-17T03:50:59Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/337#issuecomment-148883761",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/337#issuecomment-148883761",
             "id": 148883761,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/337",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/337",
             "updated_at": "2015-10-17T03:50:59Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/148883761",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/148883761",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/15165789?v=3",
                 "events_url": "https://api.github.com/users/caba99/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Ah no, it's just you can't do that after the login event , that's too soon, the entities are not loaded. Try with the spawn event, use a setTimeout or do that action on a command like in mineflayer examples ;)\r\nThat function is completely independent of rbot.\r\n\r\nSomething like that should work:\r\n```js\r\nbot.on('spawn', function() {\r\n   setTimeout(function(){\r\n    var entity=nearestEntity(bot.entities)\r\n    bot.attack(entity);\r\n  },3000);\r\n});\r\n\r\nfunction nearestEntity(entities)\r\n{\r\n    var r=entities.reduce(function(acc,entity)\r\n    {\r\n        var d=entity.position.distanceTo(bot.entity.position);\r\n        if(d<acc[1])\r\n        {\r\n            acc[0]=entity;\r\n            acc[1]=d;\r\n        }\r\n        return acc;\r\n    },[null,1000000]);\r\n    return r[0];\r\n}\r\n```\r\n\r\n(see https://github.com/andrewrk/mineflayer/issues/328 about the need to use a timeout after spawn event)",
             "created_at": "2015-10-17T11:30:24Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/337#issuecomment-148908580",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/337#issuecomment-148908580",
             "id": 148908580,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/337",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/337",
             "updated_at": "2015-10-17T11:53:09Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/148908580",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/148908580",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "I added that code and still get the same error :(\r\n\r\n```javascript\r\nbot.on('login', function() {\r\n\tconsole.log('Logged into [server]!');\r\n});\r\n\t\r\nbot.on('spawn', function() {\r\n\t   setTimeout(function(){\r\n\t    var entity=nearestEntity(bot.entities)\r\n\t    bot.attack(entity);\r\n\t  },3000);\r\n});\r\n\r\nfunction nearestEntity(entities)\r\n{\r\n    var r=entities.reduce(function(acc,entity)\r\n    {\r\n        var d=entity.position.distanceTo(bot.entity.position);\r\n        if(d<acc[1])\r\n        {\r\n            acc[0]=entity;\r\n            acc[1]=d;\r\n        }\r\n        return acc;\r\n    },[null,1000000]);\r\n    return r[0];\r\n}\r\n```\r\nI also increase the timeout delay to 10000 ms to no avail",
             "created_at": "2015-10-17T13:23:39Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/337#issuecomment-148915918",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/337#issuecomment-148915918",
             "id": 148915918,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/337",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/337",
             "updated_at": "2015-10-17T13:23:39Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/148915918",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/148915918",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/15165789?v=3",
                 "events_url": "https://api.github.com/users/caba99/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "Ah, that was pretty close but not quite correct. In jumper.js there is a correct example of that. You can try it (just say attack and it will attack the closest entity)\r\nIf you want the bot to attack at spawn, just do:\r\n```js\r\nbot.on('spawn', function() {\r\n  setTimeout(function(){\r\n    var entity = nearestEntity();\r\n    if(entity) {\r\n      bot.attack(entity, true);\r\n    } else {\r\n      bot.chat('no nearby entities');\r\n    }\r\n  },3000);\r\n});\r\n\r\nfunction nearestEntity(type) {\r\n  var id, entity, dist;\r\n  var best = null;\r\n  var bestDistance = null;\r\n  for(id in bot.entities) {\r\n    entity = bot.entities[id];\r\n    if(type && entity.type !== type) continue;\r\n    if(entity === bot.entity) continue;\r\n    dist = bot.entity.position.distanceTo(entity.position);\r\n    if(!best || dist < bestDistance) {\r\n      best = entity;\r\n      bestDistance = dist;\r\n    }\r\n  }\r\n  return best;\r\n}\r\n```\r\n\r\n(I tested this one, it works)",
             "created_at": "2015-10-17T15:15:22Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/337#issuecomment-148922502",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/337#issuecomment-148922502",
             "id": 148922502,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/337",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/337",
             "updated_at": "2015-10-17T15:16:15Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/148922502",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/148922502",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "Thank you so much! I also added in ```setInterval() ``` to repeat the attack :D\r\n",
             "created_at": "2015-10-17T17:00:10Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/337#issuecomment-148934127",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/337#issuecomment-148934127",
             "id": 148934127,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/337",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/337",
             "updated_at": "2015-10-17T17:00:21Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/148934127",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/148934127",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/15165789?v=3",
                 "events_url": "https://api.github.com/users/caba99/events{/privacy}",
@@ -173,7 +173,7 @@
         }
     ],
     "comments": 6,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/337/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/337/comments",
     "created_at": "2015-10-17T02:16:35Z",
     "event_data": [
         {
@@ -201,21 +201,21 @@
             "created_at": "2015-10-17T17:00:57Z",
             "event": "closed",
             "id": 438273751,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/438273751"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/438273751"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/337/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/337",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/337/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/337",
     "id": 111938928,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/337/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/337/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 337,
     "state": "closed",
     "title": "'bot.attack(entity)' usage",
     "updated_at": "2015-10-17T17:00:57Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/337",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/337",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/15165789?v=3",
         "events_url": "https://api.github.com/users/caba99/events{/privacy}",

@@ -1,140 +1,140 @@
 {
     "_links": {
         "comments": {
-            "href": "https://api.github.com/repos/mhsjlw/flying-squid/issues/112/comments"
+            "href": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/112/comments"
         },
         "commits": {
-            "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112/commits"
+            "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112/commits"
         },
         "html": {
-            "href": "https://github.com/mhsjlw/flying-squid/pull/112"
+            "href": "https://github.com/PrismarineJS/flying-squid/pull/112"
         },
         "issue": {
-            "href": "https://api.github.com/repos/mhsjlw/flying-squid/issues/112"
+            "href": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/112"
         },
         "review_comment": {
-            "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments{/number}"
+            "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments{/number}"
         },
         "review_comments": {
-            "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112/comments"
+            "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112/comments"
         },
         "self": {
-            "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112"
+            "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/mhsjlw/flying-squid/statuses/db8904a4b97cbbceddb146f0a80d4d2e1edf1bec"
+            "href": "https://api.github.com/repos/PrismarineJS/flying-squid/statuses/db8904a4b97cbbceddb146f0a80d4d2e1edf1bec"
         }
     },
     "assignee": null,
     "base": {
-        "label": "mhsjlw:master",
+        "label": "PrismarineJS:master",
         "ref": "master",
         "repo": {
-            "archive_url": "https://api.github.com/repos/mhsjlw/flying-squid/{archive_format}{/ref}",
-            "assignees_url": "https://api.github.com/repos/mhsjlw/flying-squid/assignees{/user}",
-            "blobs_url": "https://api.github.com/repos/mhsjlw/flying-squid/git/blobs{/sha}",
-            "branches_url": "https://api.github.com/repos/mhsjlw/flying-squid/branches{/branch}",
-            "clone_url": "https://github.com/mhsjlw/flying-squid.git",
-            "collaborators_url": "https://api.github.com/repos/mhsjlw/flying-squid/collaborators{/collaborator}",
-            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/comments{/number}",
-            "commits_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits{/sha}",
-            "compare_url": "https://api.github.com/repos/mhsjlw/flying-squid/compare/{base}...{head}",
-            "contents_url": "https://api.github.com/repos/mhsjlw/flying-squid/contents/{+path}",
-            "contributors_url": "https://api.github.com/repos/mhsjlw/flying-squid/contributors",
+            "archive_url": "https://api.github.com/repos/PrismarineJS/flying-squid/{archive_format}{/ref}",
+            "assignees_url": "https://api.github.com/repos/PrismarineJS/flying-squid/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/PrismarineJS/flying-squid/branches{/branch}",
+            "clone_url": "https://github.com/PrismarineJS/flying-squid.git",
+            "collaborators_url": "https://api.github.com/repos/PrismarineJS/flying-squid/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/comments{/number}",
+            "commits_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/PrismarineJS/flying-squid/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/PrismarineJS/flying-squid/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/PrismarineJS/flying-squid/contributors",
             "created_at": "2015-08-25T23:30:19Z",
             "default_branch": "master",
             "description": "A minecraft server written in node.js, modularized",
-            "downloads_url": "https://api.github.com/repos/mhsjlw/flying-squid/downloads",
-            "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/events",
+            "downloads_url": "https://api.github.com/repos/PrismarineJS/flying-squid/downloads",
+            "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/events",
             "fork": false,
             "forks": 13,
             "forks_count": 13,
-            "forks_url": "https://api.github.com/repos/mhsjlw/flying-squid/forks",
-            "full_name": "mhsjlw/flying-squid",
-            "git_commits_url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits{/sha}",
-            "git_refs_url": "https://api.github.com/repos/mhsjlw/flying-squid/git/refs{/sha}",
-            "git_tags_url": "https://api.github.com/repos/mhsjlw/flying-squid/git/tags{/sha}",
-            "git_url": "git://github.com/mhsjlw/flying-squid.git",
+            "forks_url": "https://api.github.com/repos/PrismarineJS/flying-squid/forks",
+            "full_name": "PrismarineJS/flying-squid",
+            "git_commits_url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/tags{/sha}",
+            "git_url": "git://github.com/PrismarineJS/flying-squid.git",
             "has_downloads": true,
             "has_issues": true,
             "has_pages": false,
             "has_wiki": true,
             "homepage": "",
-            "hooks_url": "https://api.github.com/repos/mhsjlw/flying-squid/hooks",
-            "html_url": "https://github.com/mhsjlw/flying-squid",
+            "hooks_url": "https://api.github.com/repos/PrismarineJS/flying-squid/hooks",
+            "html_url": "https://github.com/PrismarineJS/flying-squid",
             "id": 41393164,
-            "issue_comment_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments{/number}",
-            "issue_events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events{/number}",
-            "issues_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues{/number}",
-            "keys_url": "https://api.github.com/repos/mhsjlw/flying-squid/keys{/key_id}",
-            "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/labels{/name}",
+            "issue_comment_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues{/number}",
+            "keys_url": "https://api.github.com/repos/PrismarineJS/flying-squid/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/labels{/name}",
             "language": "JavaScript",
-            "languages_url": "https://api.github.com/repos/mhsjlw/flying-squid/languages",
-            "merges_url": "https://api.github.com/repos/mhsjlw/flying-squid/merges",
-            "milestones_url": "https://api.github.com/repos/mhsjlw/flying-squid/milestones{/number}",
+            "languages_url": "https://api.github.com/repos/PrismarineJS/flying-squid/languages",
+            "merges_url": "https://api.github.com/repos/PrismarineJS/flying-squid/merges",
+            "milestones_url": "https://api.github.com/repos/PrismarineJS/flying-squid/milestones{/number}",
             "mirror_url": null,
             "name": "flying-squid",
-            "notifications_url": "https://api.github.com/repos/mhsjlw/flying-squid/notifications{?since,all,participating}",
-            "open_issues": 43,
-            "open_issues_count": 43,
+            "notifications_url": "https://api.github.com/repos/PrismarineJS/flying-squid/notifications{?since,all,participating}",
+            "open_issues": 53,
+            "open_issues_count": 53,
             "owner": {
-                "avatar_url": "https://avatars.githubusercontent.com/u/8526903?v=3",
-                "events_url": "https://api.github.com/users/mhsjlw/events{/privacy}",
-                "followers_url": "https://api.github.com/users/mhsjlw/followers",
-                "following_url": "https://api.github.com/users/mhsjlw/following{/other_user}",
-                "gists_url": "https://api.github.com/users/mhsjlw/gists{/gist_id}",
+                "avatar_url": "https://avatars.githubusercontent.com/u/11053411?v=3",
+                "events_url": "https://api.github.com/users/PrismarineJS/events{/privacy}",
+                "followers_url": "https://api.github.com/users/PrismarineJS/followers",
+                "following_url": "https://api.github.com/users/PrismarineJS/following{/other_user}",
+                "gists_url": "https://api.github.com/users/PrismarineJS/gists{/gist_id}",
                 "gravatar_id": "",
-                "html_url": "https://github.com/mhsjlw",
-                "id": 8526903,
-                "login": "mhsjlw",
-                "organizations_url": "https://api.github.com/users/mhsjlw/orgs",
-                "received_events_url": "https://api.github.com/users/mhsjlw/received_events",
-                "repos_url": "https://api.github.com/users/mhsjlw/repos",
+                "html_url": "https://github.com/PrismarineJS",
+                "id": 11053411,
+                "login": "PrismarineJS",
+                "organizations_url": "https://api.github.com/users/PrismarineJS/orgs",
+                "received_events_url": "https://api.github.com/users/PrismarineJS/received_events",
+                "repos_url": "https://api.github.com/users/PrismarineJS/repos",
                 "site_admin": false,
-                "starred_url": "https://api.github.com/users/mhsjlw/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/mhsjlw/subscriptions",
-                "type": "User",
-                "url": "https://api.github.com/users/mhsjlw"
+                "starred_url": "https://api.github.com/users/PrismarineJS/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/PrismarineJS/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/PrismarineJS"
             },
             "private": false,
-            "pulls_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls{/number}",
-            "pushed_at": "2015-12-15T00:37:17Z",
-            "releases_url": "https://api.github.com/repos/mhsjlw/flying-squid/releases{/id}",
-            "size": 570,
-            "ssh_url": "git@github.com:mhsjlw/flying-squid.git",
-            "stargazers_count": 29,
-            "stargazers_url": "https://api.github.com/repos/mhsjlw/flying-squid/stargazers",
-            "statuses_url": "https://api.github.com/repos/mhsjlw/flying-squid/statuses/{sha}",
-            "subscribers_url": "https://api.github.com/repos/mhsjlw/flying-squid/subscribers",
-            "subscription_url": "https://api.github.com/repos/mhsjlw/flying-squid/subscription",
-            "svn_url": "https://github.com/mhsjlw/flying-squid",
-            "tags_url": "https://api.github.com/repos/mhsjlw/flying-squid/tags",
-            "teams_url": "https://api.github.com/repos/mhsjlw/flying-squid/teams",
-            "trees_url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees{/sha}",
-            "updated_at": "2015-12-14T23:20:38Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid",
-            "watchers": 29,
-            "watchers_count": 29
+            "pulls_url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls{/number}",
+            "pushed_at": "2016-01-19T22:12:36Z",
+            "releases_url": "https://api.github.com/repos/PrismarineJS/flying-squid/releases{/id}",
+            "size": 583,
+            "ssh_url": "git@github.com:PrismarineJS/flying-squid.git",
+            "stargazers_count": 35,
+            "stargazers_url": "https://api.github.com/repos/PrismarineJS/flying-squid/stargazers",
+            "statuses_url": "https://api.github.com/repos/PrismarineJS/flying-squid/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/PrismarineJS/flying-squid/subscribers",
+            "subscription_url": "https://api.github.com/repos/PrismarineJS/flying-squid/subscription",
+            "svn_url": "https://github.com/PrismarineJS/flying-squid",
+            "tags_url": "https://api.github.com/repos/PrismarineJS/flying-squid/tags",
+            "teams_url": "https://api.github.com/repos/PrismarineJS/flying-squid/teams",
+            "trees_url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/trees{/sha}",
+            "updated_at": "2016-01-18T19:00:48Z",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid",
+            "watchers": 35,
+            "watchers_count": 35
         },
         "sha": "6f7e7618ca53d6e219b25f28d60ae517b38fcbf1",
         "user": {
-            "avatar_url": "https://avatars.githubusercontent.com/u/8526903?v=3",
-            "events_url": "https://api.github.com/users/mhsjlw/events{/privacy}",
-            "followers_url": "https://api.github.com/users/mhsjlw/followers",
-            "following_url": "https://api.github.com/users/mhsjlw/following{/other_user}",
-            "gists_url": "https://api.github.com/users/mhsjlw/gists{/gist_id}",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11053411?v=3",
+            "events_url": "https://api.github.com/users/PrismarineJS/events{/privacy}",
+            "followers_url": "https://api.github.com/users/PrismarineJS/followers",
+            "following_url": "https://api.github.com/users/PrismarineJS/following{/other_user}",
+            "gists_url": "https://api.github.com/users/PrismarineJS/gists{/gist_id}",
             "gravatar_id": "",
-            "html_url": "https://github.com/mhsjlw",
-            "id": 8526903,
-            "login": "mhsjlw",
-            "organizations_url": "https://api.github.com/users/mhsjlw/orgs",
-            "received_events_url": "https://api.github.com/users/mhsjlw/received_events",
-            "repos_url": "https://api.github.com/users/mhsjlw/repos",
+            "html_url": "https://github.com/PrismarineJS",
+            "id": 11053411,
+            "login": "PrismarineJS",
+            "organizations_url": "https://api.github.com/users/PrismarineJS/orgs",
+            "received_events_url": "https://api.github.com/users/PrismarineJS/received_events",
+            "repos_url": "https://api.github.com/users/PrismarineJS/repos",
             "site_admin": false,
-            "starred_url": "https://api.github.com/users/mhsjlw/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/mhsjlw/subscriptions",
-            "type": "User",
-            "url": "https://api.github.com/users/mhsjlw"
+            "starred_url": "https://api.github.com/users/PrismarineJS/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/PrismarineJS/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/PrismarineJS"
         }
     },
     "body": "~~Not yet finished all the inventory interaction stuff.~~\r\nAll finished.\r\n\r\n- [x] Add items on set_creative_slot\r\n- [x] Remove items when items are removed in creative\r\n- [x] Pick up items from the ground if there is room\r\n- [x] Allow stacks of items\r\n- [x] Stop the drops from being destroyed when there isn't room. (Not sure where that happens)\r\n- [x] Stack items when they are picked up",
@@ -143,28 +143,28 @@
         {
             "_links": {
                 "html": {
-                    "href": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45561368"
+                    "href": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45561368"
                 },
                 "pull_request": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112"
                 },
                 "self": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45561368"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45561368"
                 }
             },
             "body": "Return here? I think emitting the error logs it but doesn't crash the program",
             "commit_id": "db8904a4b97cbbceddb146f0a80d4d2e1edf1bec",
             "created_at": "2015-11-22T17:13:14Z",
             "diff_hunk": "@@ -257,13 +270,19 @@ module.exports.entity=function(entity,serv){\n   };\n \n   entity.collect = (collectEntity) => {\n-    if (entity.type != 'player') serv.emit('error', 'Non-player entity (ttype ' + entity.type + ') cannot collect another entity');\n-    else {\n+    if (entity.type != 'player'){\n+      serv.emit('error', 'Non-player entity (ttype ' + entity.type + ') cannot collect another entity')\n+    }",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45561368",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45561368",
             "id": 45561368,
             "original_commit_id": "c11fa8ff8a1fdeb8ae336edbb9d52f1bdc60206a",
             "original_position": 34,
             "path": "src/lib/plugins/entities.js",
             "position": null,
-            "pull_request_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112",
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112",
             "updated_at": "2015-11-22T23:16:37Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45561368",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45561368",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -188,28 +188,28 @@
         {
             "_links": {
                 "html": {
-                    "href": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45561644"
+                    "href": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45561644"
                 },
                 "pull_request": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112"
                 },
                 "self": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45561644"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45561644"
                 }
             },
             "body": "@demipixel ~~I just moved the error thing to another line?~~ It wasn't in the original code, so I thought that was how it worked.",
             "commit_id": "db8904a4b97cbbceddb146f0a80d4d2e1edf1bec",
             "created_at": "2015-11-22T17:28:09Z",
             "diff_hunk": "@@ -257,13 +270,19 @@ module.exports.entity=function(entity,serv){\n   };\n \n   entity.collect = (collectEntity) => {\n-    if (entity.type != 'player') serv.emit('error', 'Non-player entity (ttype ' + entity.type + ') cannot collect another entity');\n-    else {\n+    if (entity.type != 'player'){\n+      serv.emit('error', 'Non-player entity (ttype ' + entity.type + ') cannot collect another entity')\n+    }",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45561644",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45561644",
             "id": 45561644,
             "original_commit_id": "c11fa8ff8a1fdeb8ae336edbb9d52f1bdc60206a",
             "original_position": 34,
             "path": "src/lib/plugins/entities.js",
             "position": null,
-            "pull_request_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112",
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112",
             "updated_at": "2015-11-22T23:16:37Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45561644",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45561644",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
                 "events_url": "https://api.github.com/users/109C/events{/privacy}",
@@ -233,28 +233,28 @@
         {
             "_links": {
                 "html": {
-                    "href": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45561913"
+                    "href": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45561913"
                 },
                 "pull_request": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112"
                 },
                 "self": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45561913"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45561913"
                 }
             },
             "body": "Well the \"else\" meant it wouldn't run the collect code if it threw an error. So that means you have to add a return inside the \"if\" if you're not using \"else\".",
             "commit_id": "db8904a4b97cbbceddb146f0a80d4d2e1edf1bec",
             "created_at": "2015-11-22T17:49:33Z",
             "diff_hunk": "@@ -257,13 +270,19 @@ module.exports.entity=function(entity,serv){\n   };\n \n   entity.collect = (collectEntity) => {\n-    if (entity.type != 'player') serv.emit('error', 'Non-player entity (ttype ' + entity.type + ') cannot collect another entity');\n-    else {\n+    if (entity.type != 'player'){\n+      serv.emit('error', 'Non-player entity (ttype ' + entity.type + ') cannot collect another entity')\n+    }",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45561913",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45561913",
             "id": 45561913,
             "original_commit_id": "c11fa8ff8a1fdeb8ae336edbb9d52f1bdc60206a",
             "original_position": 34,
             "path": "src/lib/plugins/entities.js",
             "position": null,
-            "pull_request_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112",
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112",
             "updated_at": "2015-11-22T23:16:37Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45561913",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45561913",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -278,28 +278,28 @@
         {
             "_links": {
                 "html": {
-                    "href": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45562595"
+                    "href": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45562595"
                 },
                 "pull_request": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112"
                 },
                 "self": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45562595"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45562595"
                 }
             },
             "body": "put the release number here instead ( \"0.0.0\" ) : for both prismarine-item and prismarine-windows",
             "commit_id": "db8904a4b97cbbceddb146f0a80d4d2e1edf1bec",
             "created_at": "2015-11-22T18:43:04Z",
             "diff_hunk": "@@ -34,6 +34,8 @@\n     \"prismarine-entity\": \"0.1.0\",\n     \"prismarine-world\": \"0.3.3\",\n     \"prismarine-world-sync\": \"0.1.0\",\n+    \"prismarine-item\": \"git://github.com/PrismarineJS/prismarine-item.git\",\n+    \"prismarine-windows\": \"git://github.com/PrismarineJS/prismarine-windows.git\",",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45562595",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45562595",
             "id": 45562595,
             "original_commit_id": "5bc4b106849d943271a145ac34b0abe5bdb8d024",
             "original_position": 5,
             "path": "package.json",
             "position": null,
-            "pull_request_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112",
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112",
             "updated_at": "2015-11-22T23:16:37Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45562595",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45562595",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -323,28 +323,28 @@
         {
             "_links": {
                 "html": {
-                    "href": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45562602"
+                    "href": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45562602"
                 },
                 "pull_request": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112"
                 },
                 "self": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45562602"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45562602"
                 }
             },
             "body": "use require(\"../version\") instead of \"1.8\" (so we don't have to change the version number everywhere when we move to 1.9)",
             "commit_id": "db8904a4b97cbbceddb146f0a80d4d2e1edf1bec",
             "created_at": "2015-11-22T18:43:42Z",
             "diff_hunk": "@@ -1,5 +1,6 @@\n var Entity=require(\"../entity\");\n var Vec3 = require(\"vec3\").Vec3;\n+var ItemStack = require(\"prismarine-item\")(\"1.8\")",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45562602",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45562602",
             "id": 45562602,
             "original_commit_id": "5bc4b106849d943271a145ac34b0abe5bdb8d024",
             "original_position": 3,
             "path": "src/lib/plugins/entities.js",
             "position": null,
-            "pull_request_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112",
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112",
             "updated_at": "2015-11-22T23:16:37Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45562602",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45562602",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -368,28 +368,28 @@
         {
             "_links": {
                 "html": {
-                    "href": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45563534"
+                    "href": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45563534"
                 },
                 "pull_request": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112"
                 },
                 "self": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45563534"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45563534"
                 }
             },
             "body": "this should be in a player plugins\r\nand use the \"windowUpdate\" event instead of creating a new \"inventoryChange\" event (see https://github.com/PrismarineJS/prismarine-windows#window-windowupdate-slot-olditem-newitem )",
             "commit_id": "db8904a4b97cbbceddb146f0a80d4d2e1edf1bec",
             "created_at": "2015-11-22T19:57:21Z",
             "diff_hunk": "@@ -170,6 +171,18 @@ module.exports.entity=function(entity,serv){\n     if(entity.position.distanceTo(entity.lastPositionPlayersUpdated)>2*32)\n       entity.updateAndSpawn();\n   });\n+  \n+  entity.on(\"inventoryChange\", function(){",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45563534",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45563534",
             "id": 45563534,
             "original_commit_id": "5bc4b106849d943271a145ac34b0abe5bdb8d024",
             "original_position": 12,
             "path": "src/lib/plugins/entities.js",
             "position": null,
-            "pull_request_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112",
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112",
             "updated_at": "2015-11-22T23:16:37Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45563534",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45563534",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -413,28 +413,28 @@
         {
             "_links": {
                 "html": {
-                    "href": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45563539"
+                    "href": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45563539"
                 },
                 "pull_request": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112"
                 },
                 "self": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45563539"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45563539"
                 }
             },
             "body": "the title is \"Inventory\"",
             "commit_id": "db8904a4b97cbbceddb146f0a80d4d2e1edf1bec",
             "created_at": "2015-11-22T19:57:36Z",
             "diff_hunk": "@@ -1,26 +1,32 @@\n+var Windows = require(\"prismarine-windows\")(\"1.8\").windows\n+var ItemStack = require(\"prismarine-item\")(\"1.8\")\n+\n module.exports.player=function(player)\n {\n-  player.heldItemSlot=0;\n-  player.heldItem=0;\n-  player.inventory=new Array(44);\n+  player.heldItemSlot = 0\n+  player.heldItem = new ItemStack(256, 1)\n+  player.inventory = new Windows.InventoryWindow(0, \"???\", 44)",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45563539",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45563539",
             "id": 45563539,
             "original_commit_id": "5bc4b106849d943271a145ac34b0abe5bdb8d024",
             "original_position": 11,
             "path": "src/lib/plugins/inventory.js",
             "position": null,
-            "pull_request_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112",
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112",
             "updated_at": "2015-11-22T23:16:37Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45563539",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45563539",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -458,28 +458,28 @@
         {
             "_links": {
                 "html": {
-                    "href": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45563549"
+                    "href": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45563549"
                 },
                 "pull_request": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112"
                 },
                 "self": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45563549"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45563549"
                 }
             },
             "body": "better call it emptySlot. Identifiers starting by a capital letter are class name.",
             "commit_id": "db8904a4b97cbbceddb146f0a80d4d2e1edf1bec",
             "created_at": "2015-11-22T19:58:41Z",
             "diff_hunk": "@@ -257,13 +270,20 @@ module.exports.entity=function(entity,serv){\n   };\n \n   entity.collect = (collectEntity) => {\n-    if (entity.type != 'player') serv.emit('error', 'Non-player entity (ttype ' + entity.type + ') cannot collect another entity');\n-    else {\n+    if (entity.type != 'player'){\n+      serv.emit('error', 'Non-player entity (ttype ' + entity.type + ') cannot collect another entity')\n+      return;\n+    }\n+    \n+    var EmptySlot = entity.inventory.firstEmptyInventorySlot()",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45563549",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45563549",
             "id": 45563549,
             "original_commit_id": "5bc4b106849d943271a145ac34b0abe5bdb8d024",
             "original_position": 37,
             "path": "src/lib/plugins/entities.js",
             "position": null,
-            "pull_request_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112",
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112",
             "updated_at": "2015-11-22T23:16:37Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45563549",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45563549",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -503,28 +503,28 @@
         {
             "_links": {
                 "html": {
-                    "href": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45563917"
+                    "href": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45563917"
                 },
                 "pull_request": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112"
                 },
                 "self": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45563917"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45563917"
                 }
             },
             "body": "The reason I put the repository is because they weren't published when I wrote this.",
             "commit_id": "db8904a4b97cbbceddb146f0a80d4d2e1edf1bec",
             "created_at": "2015-11-22T20:25:13Z",
             "diff_hunk": "@@ -34,6 +34,8 @@\n     \"prismarine-entity\": \"0.1.0\",\n     \"prismarine-world\": \"0.3.3\",\n     \"prismarine-world-sync\": \"0.1.0\",\n+    \"prismarine-item\": \"git://github.com/PrismarineJS/prismarine-item.git\",\n+    \"prismarine-windows\": \"git://github.com/PrismarineJS/prismarine-windows.git\",",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45563917",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45563917",
             "id": 45563917,
             "original_commit_id": "5bc4b106849d943271a145ac34b0abe5bdb8d024",
             "original_position": 5,
             "path": "package.json",
             "position": null,
-            "pull_request_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112",
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112",
             "updated_at": "2015-11-22T23:16:37Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45563917",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45563917",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
                 "events_url": "https://api.github.com/users/109C/events{/privacy}",
@@ -548,28 +548,28 @@
         {
             "_links": {
                 "html": {
-                    "href": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45564169"
+                    "href": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45564169"
                 },
                 "pull_request": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112"
                 },
                 "self": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45564169"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45564169"
                 }
             },
             "body": "nah, the whole point of using that event is that it is already emitted by prismarine-windows (see https://github.com/PrismarineJS/prismarine-windows/blob/master/lib/windows.js#L203)\r\n\r\nand it's not an event of entity or player, it's an event of player.inventory",
             "commit_id": "db8904a4b97cbbceddb146f0a80d4d2e1edf1bec",
             "created_at": "2015-11-22T20:43:59Z",
             "diff_hunk": "@@ -1,26 +1,35 @@\n+var Version = require(\"../version\")\n+var Windows = require(\"prismarine-windows\")(Version).windows\n+var ItemStack = require(\"prismarine-item\")(Version)\n+\n module.exports.player=function(player)\n {\n-  player.heldItemSlot=0;\n-  player.heldItem=0;\n-  player.inventory=new Array(44);\n+  player.heldItemSlot = 0\n+  player.heldItem = new ItemStack(256, 1)\n+  player.inventory = new Windows.InventoryWindow(0, \"Inventory\", 44)\n   \n   player._client.on(\"held_item_slot\", ({slotId} = {}) => {\n     player.heldItemSlot = slotId;\n-    if(player.inventory[36+player.heldItemSlot]===undefined){\n-      player.inventory[36+player.heldItemSlot]={\n-            blockId:-1\n-        };\n-    }\n-    player.heldItem = player.inventory[36+player.heldItemSlot];\n+    \n+    player.heldItem = player.inventory.itemsRange(36 + player.heldItemSlot, 36 + player.heldItemSlot + 1)\n     player._writeOthersNearby(\"entity_equipment\",{\n-        entityId:player.id,\n-        slot:0,\n-        item:player.heldItem\n+        entityId: player.id,\n+        slot: 0,\n+        item: ItemStack.toNotch(player.heldItem)\n     });\n   });\n   \n   player._client.on(\"set_creative_slot\", ({slot,item} ={}) => {\n-    player.inventory[slot]=item;\n+    if(item.blockId == -1){\n+      player.inventory.updateSlot(slot, undefined)\n+      player.emit(\"windowUpdate\", slot, player.inventory.slots[slot], undefined)\n+      return;\n+    }\n+    \n+    var NewItem = new ItemStack(item.blockId, item.itemCount, item.metadata)\n+    player.emit(\"windowUpdate\", slot, player.inventory.slots[slot], NewItem)",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45564169",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45564169",
             "id": 45564169,
             "original_commit_id": "1b3f2290c79bb60a7027b7aca3e74198d6895e76",
             "original_position": 43,
             "path": "src/lib/plugins/inventory.js",
             "position": null,
-            "pull_request_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112",
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112",
             "updated_at": "2015-11-22T23:16:37Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45564169",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45564169",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -593,28 +593,28 @@
         {
             "_links": {
                 "html": {
-                    "href": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45564368"
+                    "href": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45564368"
                 },
                 "pull_request": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112"
                 },
                 "self": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45564368"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45564368"
                 }
             },
             "body": "no need to emit it",
             "commit_id": "db8904a4b97cbbceddb146f0a80d4d2e1edf1bec",
             "created_at": "2015-11-22T20:57:52Z",
             "diff_hunk": "@@ -257,13 +259,22 @@ module.exports.entity=function(entity,serv){\n   };\n \n   entity.collect = (collectEntity) => {\n-    if (entity.type != 'player') serv.emit('error', 'Non-player entity (ttype ' + entity.type + ') cannot collect another entity');\n-    else {\n+    if (entity.type != 'player'){\n+      serv.emit('error', 'Non-player entity (ttype ' + entity.type + ') cannot collect another entity')\n+      return;\n+    }\n+    \n+    var emptySlot = entity.inventory.firstEmptyInventorySlot()\n+    if(emptySlot != null){\n       collectEntity._writeOthersNearby('collect', {\n         collectedEntityId: collectEntity.id,\n         collectorEntityId: entity.id\n       });\n       entity.playSoundAtSelf('random.pop');\n+      \n+      var NewItem =  new ItemStack(collectEntity.itemId, 1, collectEntity.damage)\n+      entity.emit(\"windowUpdate\", emptySlot, undefined, NewItem)",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45564368",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45564368",
             "id": 45564368,
             "original_commit_id": "3108700c3fc544e8f6beb5afec0f465da78aeb48",
             "original_position": 31,
             "path": "src/lib/plugins/entities.js",
             "position": null,
-            "pull_request_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112",
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112",
             "updated_at": "2015-11-22T23:16:37Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45564368",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45564368",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -638,28 +638,28 @@
         {
             "_links": {
                 "html": {
-                    "href": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45564412"
+                    "href": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45564412"
                 },
                 "pull_request": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112"
                 },
                 "self": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45564412"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45564412"
                 }
             },
             "body": "player",
             "commit_id": "db8904a4b97cbbceddb146f0a80d4d2e1edf1bec",
             "created_at": "2015-11-22T21:01:53Z",
             "diff_hunk": "@@ -53,4 +60,17 @@ module.exports.player=function(player)\n             });\n \n   });\n+  \n+  player.inventory.on(\"windowUpdate\", function(){\n+    var Items = entity.inventory.slots\n+    \n+    for(var ItemIndex in Items){\n+      var Item = Items[ItemIndex]\n+      entity._client.write(\"set_slot\", {",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45564412",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45564412",
             "id": 45564412,
             "original_commit_id": "f0b878df5b1cd7339c5cd13eae9e4a876072eeff",
             "original_position": 57,
             "path": "src/lib/plugins/inventory.js",
             "position": null,
-            "pull_request_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112",
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112",
             "updated_at": "2015-11-22T23:16:37Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45564412",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45564412",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -683,28 +683,28 @@
         {
             "_links": {
                 "html": {
-                    "href": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45565588"
+                    "href": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45565588"
                 },
                 "pull_request": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112"
                 },
                 "self": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45565588"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45565588"
                 }
             },
             "body": "player not entity",
             "commit_id": "db8904a4b97cbbceddb146f0a80d4d2e1edf1bec",
             "created_at": "2015-11-22T22:15:36Z",
             "diff_hunk": "@@ -53,4 +60,17 @@ module.exports.player=function(player)\n             });\n \n   });\n+  \n+  player.inventory.on(\"windowUpdate\", function(){\n+    var Items = entity.inventory.slots",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45565588",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45565588",
             "id": 45565588,
             "original_commit_id": "3fe10ede68cedb1ffee138464d8cf405e6b89342",
             "original_position": 53,
             "path": "src/lib/plugins/inventory.js",
             "position": null,
-            "pull_request_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112",
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112",
             "updated_at": "2015-11-22T23:16:37Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45565588",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45565588",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -728,28 +728,28 @@
         {
             "_links": {
                 "html": {
-                    "href": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45565654"
+                    "href": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45565654"
                 },
                 "pull_request": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112"
                 },
                 "self": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45565654"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45565654"
                 }
             },
             "body": "it's for(var item\r\n",
             "commit_id": "db8904a4b97cbbceddb146f0a80d4d2e1edf1bec",
             "created_at": "2015-11-22T22:19:09Z",
             "diff_hunk": "@@ -257,13 +258,37 @@ module.exports.entity=function(entity,serv){\n   };\n \n   entity.collect = (collectEntity) => {\n-    if (entity.type != 'player') serv.emit('error', 'Non-player entity (ttype ' + entity.type + ') cannot collect another entity');\n-    else {\n+    if (entity.type != 'player'){\n+      serv.emit('error', 'Non-player entity (ttype ' + entity.type + ') cannot collect another entity')\n+      return;\n+    }\n+    \n+    // Add it to a stack already in the player's inventory if possible\n+    for(Item in entity.inventory.items()){",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45565654",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45565654",
             "id": 45565654,
             "original_commit_id": "f38cd642beb21897ad1c244aa8fcb552830ef825",
             "original_position": 31,
             "path": "src/lib/plugins/entities.js",
             "position": null,
-            "pull_request_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112",
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112",
             "updated_at": "2015-11-22T23:16:37Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45565654",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45565654",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -773,28 +773,28 @@
         {
             "_links": {
                 "html": {
-                    "href": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45565666"
+                    "href": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45565666"
                 },
                 "pull_request": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112"
                 },
                 "self": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45565666"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45565666"
                 }
             },
             "body": "newItem. capital letter is for classes",
             "commit_id": "db8904a4b97cbbceddb146f0a80d4d2e1edf1bec",
             "created_at": "2015-11-22T22:19:46Z",
             "diff_hunk": "@@ -257,13 +258,37 @@ module.exports.entity=function(entity,serv){\n   };\n \n   entity.collect = (collectEntity) => {\n-    if (entity.type != 'player') serv.emit('error', 'Non-player entity (ttype ' + entity.type + ') cannot collect another entity');\n-    else {\n+    if (entity.type != 'player'){\n+      serv.emit('error', 'Non-player entity (ttype ' + entity.type + ') cannot collect another entity')\n+      return;\n+    }\n+    \n+    // Add it to a stack already in the player's inventory if possible\n+    for(Item in entity.inventory.items()){\n+      if(Item.type == collenctEntity.itemId){\n+        Item.stackSize += 1\n+        collectEntity._writeOthersNearby('collect', {\n+          collectedEntityId: collectEntity.id,\n+          collectorEntityId: entity.id\n+        });\n+        entity.playSoundAtSelf('random.pop');\n+        collectEntity.destroy()\n+        return;\n+      }\n+    }\n+    \n+    // If we couldn't add it to a already existing stack, put it in a new stack if the inventory has room\n+    var emptySlot = entity.inventory.firstEmptyInventorySlot()\n+    if(emptySlot != null){\n       collectEntity._writeOthersNearby('collect', {\n         collectedEntityId: collectEntity.id,\n         collectorEntityId: entity.id\n       });\n       entity.playSoundAtSelf('random.pop');\n+      \n+      var NewItem =  new ItemStack(collectEntity.itemId, 1, collectEntity.damage)",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45565666",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45565666",
             "id": 45565666,
             "original_commit_id": "f38cd642beb21897ad1c244aa8fcb552830ef825",
             "original_position": 53,
             "path": "src/lib/plugins/entities.js",
             "position": null,
-            "pull_request_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112",
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112",
             "updated_at": "2015-11-22T23:16:37Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45565666",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45565666",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -818,28 +818,28 @@
         {
             "_links": {
                 "html": {
-                    "href": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45565671"
+                    "href": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45565671"
                 },
                 "pull_request": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112"
                 },
                 "self": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45565671"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45565671"
                 }
             },
             "body": "items",
             "commit_id": "db8904a4b97cbbceddb146f0a80d4d2e1edf1bec",
             "created_at": "2015-11-22T22:20:03Z",
             "diff_hunk": "@@ -53,4 +60,17 @@ module.exports.player=function(player)\n             });\n \n   });\n+  \n+  player.inventory.on(\"windowUpdate\", function(){\n+    var Items = player.inventory.slots",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45565671",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45565671",
             "id": 45565671,
             "original_commit_id": "f38cd642beb21897ad1c244aa8fcb552830ef825",
             "original_position": 53,
             "path": "src/lib/plugins/inventory.js",
             "position": null,
-            "pull_request_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112",
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112",
             "updated_at": "2015-11-22T23:16:37Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45565671",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45565671",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -863,28 +863,28 @@
         {
             "_links": {
                 "html": {
-                    "href": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45565675"
+                    "href": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45565675"
                 },
                 "pull_request": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112"
                 },
                 "self": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45565675"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45565675"
                 }
             },
             "body": "itemIndex and items",
             "commit_id": "db8904a4b97cbbceddb146f0a80d4d2e1edf1bec",
             "created_at": "2015-11-22T22:20:13Z",
             "diff_hunk": "@@ -53,4 +60,17 @@ module.exports.player=function(player)\n             });\n \n   });\n+  \n+  player.inventory.on(\"windowUpdate\", function(){\n+    var Items = player.inventory.slots\n+    \n+    for(var ItemIndex in Items){",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45565675",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45565675",
             "id": 45565675,
             "original_commit_id": "f38cd642beb21897ad1c244aa8fcb552830ef825",
             "original_position": 55,
             "path": "src/lib/plugins/inventory.js",
             "position": null,
-            "pull_request_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112",
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112",
             "updated_at": "2015-11-22T23:16:37Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45565675",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45565675",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -908,28 +908,28 @@
         {
             "_links": {
                 "html": {
-                    "href": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45565773"
+                    "href": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45565773"
                 },
                 "pull_request": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112"
                 },
                 "self": {
-                    "href": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45565773"
+                    "href": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45565773"
                 }
             },
             "body": "nah itemStack is indeed ItemStack (might want to call it Item though)",
             "commit_id": "db8904a4b97cbbceddb146f0a80d4d2e1edf1bec",
             "created_at": "2015-11-22T22:26:57Z",
             "diff_hunk": "@@ -53,4 +60,17 @@ module.exports.player=function(player)\n             });\n \n   });\n+  \n+  player.inventory.on(\"windowUpdate\", function(){\n+    var items = player.inventory.slots\n+    \n+    for(var itemIndex in items){\n+      var item = items[itemIndex]\n+      player._client.write(\"set_slot\", {\n+        windowId: 0,\n+        slot: itemIndex,\n+        item: itemStack.toNotch(Item)",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/112#discussion_r45565773",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/112#discussion_r45565773",
             "id": 45565773,
             "original_commit_id": "4fdc50f2dfbfc2b2cabab7749ad38809caa737de",
             "original_position": 60,
             "path": "src/lib/plugins/inventory.js",
             "position": null,
-            "pull_request_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112",
+            "pull_request_url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112",
             "updated_at": "2015-11-22T23:16:37Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments/45565773",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments/45565773",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -951,7 +951,7 @@
             }
         }
     ],
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/112/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/112/comments",
     "commit_data": [
         {
             "author": {
@@ -973,7 +973,7 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/9396e03f1ba3a485e42b6ed538c77da00621186c/comments",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/9396e03f1ba3a485e42b6ed538c77da00621186c/comments",
             "commit": {
                 "author": {
                     "date": "2015-11-22T14:49:51Z",
@@ -989,9 +989,9 @@
                 "message": "Added prismarine-item to package.json",
                 "tree": {
                     "sha": "137400153d9ca1c76bce0abf1b7b45a02d7a9541",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/137400153d9ca1c76bce0abf1b7b45a02d7a9541"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/trees/137400153d9ca1c76bce0abf1b7b45a02d7a9541"
                 },
-                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/9396e03f1ba3a485e42b6ed538c77da00621186c"
+                "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/commits/9396e03f1ba3a485e42b6ed538c77da00621186c"
             },
             "committer": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
@@ -1012,16 +1012,16 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "html_url": "https://github.com/mhsjlw/flying-squid/commit/9396e03f1ba3a485e42b6ed538c77da00621186c",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/commit/9396e03f1ba3a485e42b6ed538c77da00621186c",
             "parents": [
                 {
-                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/808b5a01499cf9ee35f136aba42aff303efbc08f",
+                    "html_url": "https://github.com/PrismarineJS/flying-squid/commit/808b5a01499cf9ee35f136aba42aff303efbc08f",
                     "sha": "808b5a01499cf9ee35f136aba42aff303efbc08f",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/808b5a01499cf9ee35f136aba42aff303efbc08f"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/808b5a01499cf9ee35f136aba42aff303efbc08f"
                 }
             ],
             "sha": "9396e03f1ba3a485e42b6ed538c77da00621186c",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/9396e03f1ba3a485e42b6ed538c77da00621186c"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/9396e03f1ba3a485e42b6ed538c77da00621186c"
         },
         {
             "author": {
@@ -1043,7 +1043,7 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/3ee06629c5571c81e68e2f61456fec0f99696027/comments",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/3ee06629c5571c81e68e2f61456fec0f99696027/comments",
             "commit": {
                 "author": {
                     "date": "2015-11-22T14:50:51Z",
@@ -1059,9 +1059,9 @@
                 "message": "I have no idea how to import something from another repository...",
                 "tree": {
                     "sha": "d131ec0de094bba5d9ff5ac84dc375fe8080c4d7",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/d131ec0de094bba5d9ff5ac84dc375fe8080c4d7"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/trees/d131ec0de094bba5d9ff5ac84dc375fe8080c4d7"
                 },
-                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/3ee06629c5571c81e68e2f61456fec0f99696027"
+                "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/commits/3ee06629c5571c81e68e2f61456fec0f99696027"
             },
             "committer": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
@@ -1082,16 +1082,16 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "html_url": "https://github.com/mhsjlw/flying-squid/commit/3ee06629c5571c81e68e2f61456fec0f99696027",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/commit/3ee06629c5571c81e68e2f61456fec0f99696027",
             "parents": [
                 {
-                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/9396e03f1ba3a485e42b6ed538c77da00621186c",
+                    "html_url": "https://github.com/PrismarineJS/flying-squid/commit/9396e03f1ba3a485e42b6ed538c77da00621186c",
                     "sha": "9396e03f1ba3a485e42b6ed538c77da00621186c",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/9396e03f1ba3a485e42b6ed538c77da00621186c"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/9396e03f1ba3a485e42b6ed538c77da00621186c"
                 }
             ],
             "sha": "3ee06629c5571c81e68e2f61456fec0f99696027",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/3ee06629c5571c81e68e2f61456fec0f99696027"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/3ee06629c5571c81e68e2f61456fec0f99696027"
         },
         {
             "author": {
@@ -1113,7 +1113,7 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/18587182f874ebbfa2411737c23ae5e406e5f78c/comments",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/18587182f874ebbfa2411737c23ae5e406e5f78c/comments",
             "commit": {
                 "author": {
                     "date": "2015-11-22T15:25:41Z",
@@ -1129,9 +1129,9 @@
                 "message": "Coupled the held_item_slot and set_creative_slot to the player's inventory",
                 "tree": {
                     "sha": "fd0fb9f1e24853de66db0d746ae67c64ab38cc1f",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/fd0fb9f1e24853de66db0d746ae67c64ab38cc1f"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/trees/fd0fb9f1e24853de66db0d746ae67c64ab38cc1f"
                 },
-                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/18587182f874ebbfa2411737c23ae5e406e5f78c"
+                "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/commits/18587182f874ebbfa2411737c23ae5e406e5f78c"
             },
             "committer": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
@@ -1152,16 +1152,16 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "html_url": "https://github.com/mhsjlw/flying-squid/commit/18587182f874ebbfa2411737c23ae5e406e5f78c",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/commit/18587182f874ebbfa2411737c23ae5e406e5f78c",
             "parents": [
                 {
-                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/3ee06629c5571c81e68e2f61456fec0f99696027",
+                    "html_url": "https://github.com/PrismarineJS/flying-squid/commit/3ee06629c5571c81e68e2f61456fec0f99696027",
                     "sha": "3ee06629c5571c81e68e2f61456fec0f99696027",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/3ee06629c5571c81e68e2f61456fec0f99696027"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/3ee06629c5571c81e68e2f61456fec0f99696027"
                 }
             ],
             "sha": "18587182f874ebbfa2411737c23ae5e406e5f78c",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/18587182f874ebbfa2411737c23ae5e406e5f78c"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/18587182f874ebbfa2411737c23ae5e406e5f78c"
         },
         {
             "author": {
@@ -1183,7 +1183,7 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/dce78688ef7b5ca4058c225e7eb6e92c99d3eac5/comments",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/dce78688ef7b5ca4058c225e7eb6e92c99d3eac5/comments",
             "commit": {
                 "author": {
                     "date": "2015-11-22T16:01:07Z",
@@ -1199,9 +1199,9 @@
                 "message": "Players can now pick up items (note: does not update client about inventory state)",
                 "tree": {
                     "sha": "07fb52ae0142626007117bec232f9af6f2cfc7e0",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/07fb52ae0142626007117bec232f9af6f2cfc7e0"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/trees/07fb52ae0142626007117bec232f9af6f2cfc7e0"
                 },
-                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/dce78688ef7b5ca4058c225e7eb6e92c99d3eac5"
+                "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/commits/dce78688ef7b5ca4058c225e7eb6e92c99d3eac5"
             },
             "committer": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
@@ -1222,16 +1222,16 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "html_url": "https://github.com/mhsjlw/flying-squid/commit/dce78688ef7b5ca4058c225e7eb6e92c99d3eac5",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/commit/dce78688ef7b5ca4058c225e7eb6e92c99d3eac5",
             "parents": [
                 {
-                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/18587182f874ebbfa2411737c23ae5e406e5f78c",
+                    "html_url": "https://github.com/PrismarineJS/flying-squid/commit/18587182f874ebbfa2411737c23ae5e406e5f78c",
                     "sha": "18587182f874ebbfa2411737c23ae5e406e5f78c",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/18587182f874ebbfa2411737c23ae5e406e5f78c"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/18587182f874ebbfa2411737c23ae5e406e5f78c"
                 }
             ],
             "sha": "dce78688ef7b5ca4058c225e7eb6e92c99d3eac5",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/dce78688ef7b5ca4058c225e7eb6e92c99d3eac5"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/dce78688ef7b5ca4058c225e7eb6e92c99d3eac5"
         },
         {
             "author": {
@@ -1253,7 +1253,7 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/f96d9092d181bee6214e1646c27debad710e7772/comments",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/f96d9092d181bee6214e1646c27debad710e7772/comments",
             "commit": {
                 "author": {
                     "date": "2015-11-22T16:56:19Z",
@@ -1269,9 +1269,9 @@
                 "message": "Picking up drops now work, added inventoryChange emit event (note: inventory is allways full, preventing pickup)",
                 "tree": {
                     "sha": "8f62d0893dfc4cd7853a9174ab4b6c3b2ffd657e",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/8f62d0893dfc4cd7853a9174ab4b6c3b2ffd657e"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/trees/8f62d0893dfc4cd7853a9174ab4b6c3b2ffd657e"
                 },
-                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/f96d9092d181bee6214e1646c27debad710e7772"
+                "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/commits/f96d9092d181bee6214e1646c27debad710e7772"
             },
             "committer": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
@@ -1292,16 +1292,16 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "html_url": "https://github.com/mhsjlw/flying-squid/commit/f96d9092d181bee6214e1646c27debad710e7772",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/commit/f96d9092d181bee6214e1646c27debad710e7772",
             "parents": [
                 {
-                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/dce78688ef7b5ca4058c225e7eb6e92c99d3eac5",
+                    "html_url": "https://github.com/PrismarineJS/flying-squid/commit/dce78688ef7b5ca4058c225e7eb6e92c99d3eac5",
                     "sha": "dce78688ef7b5ca4058c225e7eb6e92c99d3eac5",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/dce78688ef7b5ca4058c225e7eb6e92c99d3eac5"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/dce78688ef7b5ca4058c225e7eb6e92c99d3eac5"
                 }
             ],
             "sha": "f96d9092d181bee6214e1646c27debad710e7772",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/f96d9092d181bee6214e1646c27debad710e7772"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/f96d9092d181bee6214e1646c27debad710e7772"
         },
         {
             "author": {
@@ -1323,7 +1323,7 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/2ac4ac270d55307453635b8f4c2bda5e1db6a740/comments",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/2ac4ac270d55307453635b8f4c2bda5e1db6a740/comments",
             "commit": {
                 "author": {
                     "date": "2015-11-22T17:42:30Z",
@@ -1339,9 +1339,9 @@
                 "message": "Switched from window.items() to window.slots",
                 "tree": {
                     "sha": "0af46f850ecdd6d0055dc4be45233fd5f8fefc0b",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/0af46f850ecdd6d0055dc4be45233fd5f8fefc0b"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/trees/0af46f850ecdd6d0055dc4be45233fd5f8fefc0b"
                 },
-                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/2ac4ac270d55307453635b8f4c2bda5e1db6a740"
+                "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/commits/2ac4ac270d55307453635b8f4c2bda5e1db6a740"
             },
             "committer": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
@@ -1362,16 +1362,16 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "html_url": "https://github.com/mhsjlw/flying-squid/commit/2ac4ac270d55307453635b8f4c2bda5e1db6a740",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/commit/2ac4ac270d55307453635b8f4c2bda5e1db6a740",
             "parents": [
                 {
-                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/f96d9092d181bee6214e1646c27debad710e7772",
+                    "html_url": "https://github.com/PrismarineJS/flying-squid/commit/f96d9092d181bee6214e1646c27debad710e7772",
                     "sha": "f96d9092d181bee6214e1646c27debad710e7772",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/f96d9092d181bee6214e1646c27debad710e7772"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/f96d9092d181bee6214e1646c27debad710e7772"
                 }
             ],
             "sha": "2ac4ac270d55307453635b8f4c2bda5e1db6a740",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/2ac4ac270d55307453635b8f4c2bda5e1db6a740"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/2ac4ac270d55307453635b8f4c2bda5e1db6a740"
         },
         {
             "author": {
@@ -1393,7 +1393,7 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/945c7d5452e7a50653e06aec0f53997c1085bc99/comments",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/945c7d5452e7a50653e06aec0f53997c1085bc99/comments",
             "commit": {
                 "author": {
                     "date": "2015-11-22T17:51:12Z",
@@ -1409,9 +1409,9 @@
                 "message": "Remove items when item value is -1",
                 "tree": {
                     "sha": "015a567b056dd6b54687c5ec80eb0e71ec0fe8f0",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/015a567b056dd6b54687c5ec80eb0e71ec0fe8f0"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/trees/015a567b056dd6b54687c5ec80eb0e71ec0fe8f0"
                 },
-                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/945c7d5452e7a50653e06aec0f53997c1085bc99"
+                "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/commits/945c7d5452e7a50653e06aec0f53997c1085bc99"
             },
             "committer": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
@@ -1432,16 +1432,16 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "html_url": "https://github.com/mhsjlw/flying-squid/commit/945c7d5452e7a50653e06aec0f53997c1085bc99",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/commit/945c7d5452e7a50653e06aec0f53997c1085bc99",
             "parents": [
                 {
-                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/2ac4ac270d55307453635b8f4c2bda5e1db6a740",
+                    "html_url": "https://github.com/PrismarineJS/flying-squid/commit/2ac4ac270d55307453635b8f4c2bda5e1db6a740",
                     "sha": "2ac4ac270d55307453635b8f4c2bda5e1db6a740",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/2ac4ac270d55307453635b8f4c2bda5e1db6a740"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/2ac4ac270d55307453635b8f4c2bda5e1db6a740"
                 }
             ],
             "sha": "945c7d5452e7a50653e06aec0f53997c1085bc99",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/945c7d5452e7a50653e06aec0f53997c1085bc99"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/945c7d5452e7a50653e06aec0f53997c1085bc99"
         },
         {
             "author": {
@@ -1463,7 +1463,7 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/ee4d7c3ddf76127b95d0d7d16a8e829f5aecffe7/comments",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/ee4d7c3ddf76127b95d0d7d16a8e829f5aecffe7/comments",
             "commit": {
                 "author": {
                     "date": "2015-11-22T17:57:18Z",
@@ -1479,9 +1479,9 @@
                 "message": "Switched to prismarine-windows",
                 "tree": {
                     "sha": "7be181a7cc4ed48dcf68f136f2026dc4e3066955",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/7be181a7cc4ed48dcf68f136f2026dc4e3066955"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/trees/7be181a7cc4ed48dcf68f136f2026dc4e3066955"
                 },
-                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/ee4d7c3ddf76127b95d0d7d16a8e829f5aecffe7"
+                "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/commits/ee4d7c3ddf76127b95d0d7d16a8e829f5aecffe7"
             },
             "committer": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
@@ -1502,16 +1502,16 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "html_url": "https://github.com/mhsjlw/flying-squid/commit/ee4d7c3ddf76127b95d0d7d16a8e829f5aecffe7",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/commit/ee4d7c3ddf76127b95d0d7d16a8e829f5aecffe7",
             "parents": [
                 {
-                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/945c7d5452e7a50653e06aec0f53997c1085bc99",
+                    "html_url": "https://github.com/PrismarineJS/flying-squid/commit/945c7d5452e7a50653e06aec0f53997c1085bc99",
                     "sha": "945c7d5452e7a50653e06aec0f53997c1085bc99",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/945c7d5452e7a50653e06aec0f53997c1085bc99"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/945c7d5452e7a50653e06aec0f53997c1085bc99"
                 }
             ],
             "sha": "ee4d7c3ddf76127b95d0d7d16a8e829f5aecffe7",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/ee4d7c3ddf76127b95d0d7d16a8e829f5aecffe7"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/ee4d7c3ddf76127b95d0d7d16a8e829f5aecffe7"
         },
         {
             "author": {
@@ -1533,7 +1533,7 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/833b5b13a9edce7ca051c30e65f34ca1be007055/comments",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/833b5b13a9edce7ca051c30e65f34ca1be007055/comments",
             "commit": {
                 "author": {
                     "date": "2015-11-22T18:12:01Z",
@@ -1549,9 +1549,9 @@
                 "message": "Forgot to add metadata/damage stuff",
                 "tree": {
                     "sha": "af6d6042b76ffd9d373d3e32dd6af4458420198d",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/af6d6042b76ffd9d373d3e32dd6af4458420198d"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/trees/af6d6042b76ffd9d373d3e32dd6af4458420198d"
                 },
-                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/833b5b13a9edce7ca051c30e65f34ca1be007055"
+                "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/commits/833b5b13a9edce7ca051c30e65f34ca1be007055"
             },
             "committer": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
@@ -1572,16 +1572,16 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "html_url": "https://github.com/mhsjlw/flying-squid/commit/833b5b13a9edce7ca051c30e65f34ca1be007055",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/commit/833b5b13a9edce7ca051c30e65f34ca1be007055",
             "parents": [
                 {
-                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/ee4d7c3ddf76127b95d0d7d16a8e829f5aecffe7",
+                    "html_url": "https://github.com/PrismarineJS/flying-squid/commit/ee4d7c3ddf76127b95d0d7d16a8e829f5aecffe7",
                     "sha": "ee4d7c3ddf76127b95d0d7d16a8e829f5aecffe7",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/ee4d7c3ddf76127b95d0d7d16a8e829f5aecffe7"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/ee4d7c3ddf76127b95d0d7d16a8e829f5aecffe7"
                 }
             ],
             "sha": "833b5b13a9edce7ca051c30e65f34ca1be007055",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/833b5b13a9edce7ca051c30e65f34ca1be007055"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/833b5b13a9edce7ca051c30e65f34ca1be007055"
         },
         {
             "author": {
@@ -1603,7 +1603,7 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/b0632dcad76d8f3c99e099b9698a7de24a023160/comments",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/b0632dcad76d8f3c99e099b9698a7de24a023160/comments",
             "commit": {
                 "author": {
                     "date": "2015-11-22T20:37:32Z",
@@ -1619,9 +1619,9 @@
                 "message": "Various style fixes",
                 "tree": {
                     "sha": "a29aeef3c0544e634988beecca3b3b29ae51adf2",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/a29aeef3c0544e634988beecca3b3b29ae51adf2"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/trees/a29aeef3c0544e634988beecca3b3b29ae51adf2"
                 },
-                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/b0632dcad76d8f3c99e099b9698a7de24a023160"
+                "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/commits/b0632dcad76d8f3c99e099b9698a7de24a023160"
             },
             "committer": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
@@ -1642,16 +1642,16 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "html_url": "https://github.com/mhsjlw/flying-squid/commit/b0632dcad76d8f3c99e099b9698a7de24a023160",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/commit/b0632dcad76d8f3c99e099b9698a7de24a023160",
             "parents": [
                 {
-                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/833b5b13a9edce7ca051c30e65f34ca1be007055",
+                    "html_url": "https://github.com/PrismarineJS/flying-squid/commit/833b5b13a9edce7ca051c30e65f34ca1be007055",
                     "sha": "833b5b13a9edce7ca051c30e65f34ca1be007055",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/833b5b13a9edce7ca051c30e65f34ca1be007055"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/833b5b13a9edce7ca051c30e65f34ca1be007055"
                 }
             ],
             "sha": "b0632dcad76d8f3c99e099b9698a7de24a023160",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/b0632dcad76d8f3c99e099b9698a7de24a023160"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/b0632dcad76d8f3c99e099b9698a7de24a023160"
         },
         {
             "author": {
@@ -1673,7 +1673,7 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/aab9460de79771d619f82c00d484cc30024b4e03/comments",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/aab9460de79771d619f82c00d484cc30024b4e03/comments",
             "commit": {
                 "author": {
                     "date": "2015-11-22T20:56:02Z",
@@ -1689,9 +1689,9 @@
                 "message": "Turns out that windows.js emits events on it's own...",
                 "tree": {
                     "sha": "07c25820fdc374c13570eea5aaaddf8c48004a2f",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/07c25820fdc374c13570eea5aaaddf8c48004a2f"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/trees/07c25820fdc374c13570eea5aaaddf8c48004a2f"
                 },
-                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/aab9460de79771d619f82c00d484cc30024b4e03"
+                "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/commits/aab9460de79771d619f82c00d484cc30024b4e03"
             },
             "committer": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
@@ -1712,16 +1712,16 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "html_url": "https://github.com/mhsjlw/flying-squid/commit/aab9460de79771d619f82c00d484cc30024b4e03",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/commit/aab9460de79771d619f82c00d484cc30024b4e03",
             "parents": [
                 {
-                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/b0632dcad76d8f3c99e099b9698a7de24a023160",
+                    "html_url": "https://github.com/PrismarineJS/flying-squid/commit/b0632dcad76d8f3c99e099b9698a7de24a023160",
                     "sha": "b0632dcad76d8f3c99e099b9698a7de24a023160",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/b0632dcad76d8f3c99e099b9698a7de24a023160"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/b0632dcad76d8f3c99e099b9698a7de24a023160"
                 }
             ],
             "sha": "aab9460de79771d619f82c00d484cc30024b4e03",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/aab9460de79771d619f82c00d484cc30024b4e03"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/aab9460de79771d619f82c00d484cc30024b4e03"
         },
         {
             "author": {
@@ -1743,7 +1743,7 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/e2b3d5620e945066f509df3b9f289ee0ec6dd78b/comments",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/e2b3d5620e945066f509df3b9f289ee0ec6dd78b/comments",
             "commit": {
                 "author": {
                     "date": "2015-11-22T21:01:13Z",
@@ -1759,9 +1759,9 @@
                 "message": "Typo",
                 "tree": {
                     "sha": "a0ad78e2d04667ed6d05f95d20ddaa058116e584",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/a0ad78e2d04667ed6d05f95d20ddaa058116e584"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/trees/a0ad78e2d04667ed6d05f95d20ddaa058116e584"
                 },
-                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/e2b3d5620e945066f509df3b9f289ee0ec6dd78b"
+                "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/commits/e2b3d5620e945066f509df3b9f289ee0ec6dd78b"
             },
             "committer": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
@@ -1782,16 +1782,16 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "html_url": "https://github.com/mhsjlw/flying-squid/commit/e2b3d5620e945066f509df3b9f289ee0ec6dd78b",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/commit/e2b3d5620e945066f509df3b9f289ee0ec6dd78b",
             "parents": [
                 {
-                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/aab9460de79771d619f82c00d484cc30024b4e03",
+                    "html_url": "https://github.com/PrismarineJS/flying-squid/commit/aab9460de79771d619f82c00d484cc30024b4e03",
                     "sha": "aab9460de79771d619f82c00d484cc30024b4e03",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/aab9460de79771d619f82c00d484cc30024b4e03"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/aab9460de79771d619f82c00d484cc30024b4e03"
                 }
             ],
             "sha": "e2b3d5620e945066f509df3b9f289ee0ec6dd78b",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/e2b3d5620e945066f509df3b9f289ee0ec6dd78b"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/e2b3d5620e945066f509df3b9f289ee0ec6dd78b"
         },
         {
             "author": {
@@ -1813,7 +1813,7 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/534b032fe5be9b954f16b460024b92220c2cbfaa/comments",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/534b032fe5be9b954f16b460024b92220c2cbfaa/comments",
             "commit": {
                 "author": {
                     "date": "2015-11-22T21:02:30Z",
@@ -1829,9 +1829,9 @@
                 "message": "Missed yet another one. Woo hoo.",
                 "tree": {
                     "sha": "f7bdc9491b6b5896a1e8c166d4736fed6408ef51",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/f7bdc9491b6b5896a1e8c166d4736fed6408ef51"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/trees/f7bdc9491b6b5896a1e8c166d4736fed6408ef51"
                 },
-                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/534b032fe5be9b954f16b460024b92220c2cbfaa"
+                "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/commits/534b032fe5be9b954f16b460024b92220c2cbfaa"
             },
             "committer": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
@@ -1852,16 +1852,16 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "html_url": "https://github.com/mhsjlw/flying-squid/commit/534b032fe5be9b954f16b460024b92220c2cbfaa",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/commit/534b032fe5be9b954f16b460024b92220c2cbfaa",
             "parents": [
                 {
-                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/e2b3d5620e945066f509df3b9f289ee0ec6dd78b",
+                    "html_url": "https://github.com/PrismarineJS/flying-squid/commit/e2b3d5620e945066f509df3b9f289ee0ec6dd78b",
                     "sha": "e2b3d5620e945066f509df3b9f289ee0ec6dd78b",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/e2b3d5620e945066f509df3b9f289ee0ec6dd78b"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/e2b3d5620e945066f509df3b9f289ee0ec6dd78b"
                 }
             ],
             "sha": "534b032fe5be9b954f16b460024b92220c2cbfaa",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/534b032fe5be9b954f16b460024b92220c2cbfaa"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/534b032fe5be9b954f16b460024b92220c2cbfaa"
         },
         {
             "author": {
@@ -1883,7 +1883,7 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/329b27652e64b6bb1642f9cfec2a207f90a11fde/comments",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/329b27652e64b6bb1642f9cfec2a207f90a11fde/comments",
             "commit": {
                 "author": {
                     "date": "2015-11-22T21:06:00Z",
@@ -1899,9 +1899,9 @@
                 "message": "Fixed drops disapearing when inventory is full",
                 "tree": {
                     "sha": "768c545f3ca87ab8d369d2137b5506b597e4a928",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/768c545f3ca87ab8d369d2137b5506b597e4a928"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/trees/768c545f3ca87ab8d369d2137b5506b597e4a928"
                 },
-                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/329b27652e64b6bb1642f9cfec2a207f90a11fde"
+                "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/commits/329b27652e64b6bb1642f9cfec2a207f90a11fde"
             },
             "committer": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
@@ -1922,16 +1922,16 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "html_url": "https://github.com/mhsjlw/flying-squid/commit/329b27652e64b6bb1642f9cfec2a207f90a11fde",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/commit/329b27652e64b6bb1642f9cfec2a207f90a11fde",
             "parents": [
                 {
-                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/534b032fe5be9b954f16b460024b92220c2cbfaa",
+                    "html_url": "https://github.com/PrismarineJS/flying-squid/commit/534b032fe5be9b954f16b460024b92220c2cbfaa",
                     "sha": "534b032fe5be9b954f16b460024b92220c2cbfaa",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/534b032fe5be9b954f16b460024b92220c2cbfaa"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/534b032fe5be9b954f16b460024b92220c2cbfaa"
                 }
             ],
             "sha": "329b27652e64b6bb1642f9cfec2a207f90a11fde",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/329b27652e64b6bb1642f9cfec2a207f90a11fde"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/329b27652e64b6bb1642f9cfec2a207f90a11fde"
         },
         {
             "author": {
@@ -1953,7 +1953,7 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/039eff4629c58ba6e16cb85b5cde0217fbb4df9a/comments",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/039eff4629c58ba6e16cb85b5cde0217fbb4df9a/comments",
             "commit": {
                 "author": {
                     "date": "2015-11-22T21:15:37Z",
@@ -1969,9 +1969,9 @@
                 "message": "If possible, add items to already existing stacks",
                 "tree": {
                     "sha": "4495fbd71e4bfa0513645bb2722f6586ca7396ab",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/4495fbd71e4bfa0513645bb2722f6586ca7396ab"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/trees/4495fbd71e4bfa0513645bb2722f6586ca7396ab"
                 },
-                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/039eff4629c58ba6e16cb85b5cde0217fbb4df9a"
+                "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/commits/039eff4629c58ba6e16cb85b5cde0217fbb4df9a"
             },
             "committer": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
@@ -1992,16 +1992,16 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "html_url": "https://github.com/mhsjlw/flying-squid/commit/039eff4629c58ba6e16cb85b5cde0217fbb4df9a",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/commit/039eff4629c58ba6e16cb85b5cde0217fbb4df9a",
             "parents": [
                 {
-                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/329b27652e64b6bb1642f9cfec2a207f90a11fde",
+                    "html_url": "https://github.com/PrismarineJS/flying-squid/commit/329b27652e64b6bb1642f9cfec2a207f90a11fde",
                     "sha": "329b27652e64b6bb1642f9cfec2a207f90a11fde",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/329b27652e64b6bb1642f9cfec2a207f90a11fde"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/329b27652e64b6bb1642f9cfec2a207f90a11fde"
                 }
             ],
             "sha": "039eff4629c58ba6e16cb85b5cde0217fbb4df9a",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/039eff4629c58ba6e16cb85b5cde0217fbb4df9a"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/039eff4629c58ba6e16cb85b5cde0217fbb4df9a"
         },
         {
             "author": {
@@ -2023,7 +2023,7 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/ef27aaac501a253b00739787e67b4d670d48995f/comments",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/ef27aaac501a253b00739787e67b4d670d48995f/comments",
             "commit": {
                 "author": {
                     "date": "2015-11-22T21:16:32Z",
@@ -2039,9 +2039,9 @@
                 "message": "If possible, add items to already existing stacks",
                 "tree": {
                     "sha": "3c6695625683b802699e229177b41c1e65598481",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/3c6695625683b802699e229177b41c1e65598481"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/trees/3c6695625683b802699e229177b41c1e65598481"
                 },
-                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/ef27aaac501a253b00739787e67b4d670d48995f"
+                "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/commits/ef27aaac501a253b00739787e67b4d670d48995f"
             },
             "committer": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
@@ -2062,16 +2062,16 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "html_url": "https://github.com/mhsjlw/flying-squid/commit/ef27aaac501a253b00739787e67b4d670d48995f",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/commit/ef27aaac501a253b00739787e67b4d670d48995f",
             "parents": [
                 {
-                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/039eff4629c58ba6e16cb85b5cde0217fbb4df9a",
+                    "html_url": "https://github.com/PrismarineJS/flying-squid/commit/039eff4629c58ba6e16cb85b5cde0217fbb4df9a",
                     "sha": "039eff4629c58ba6e16cb85b5cde0217fbb4df9a",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/039eff4629c58ba6e16cb85b5cde0217fbb4df9a"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/039eff4629c58ba6e16cb85b5cde0217fbb4df9a"
                 }
             ],
             "sha": "ef27aaac501a253b00739787e67b4d670d48995f",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/ef27aaac501a253b00739787e67b4d670d48995f"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/ef27aaac501a253b00739787e67b4d670d48995f"
         },
         {
             "author": {
@@ -2093,7 +2093,7 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/5f520dcfd6c8149c2c2877d6c15ce0d84e4bc613/comments",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/5f520dcfd6c8149c2c2877d6c15ce0d84e4bc613/comments",
             "commit": {
                 "author": {
                     "date": "2015-11-22T22:17:36Z",
@@ -2109,9 +2109,9 @@
                 "message": "Six letters.",
                 "tree": {
                     "sha": "b7c46c4b5d3970679a7e953f53155c02e88bfacf",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/b7c46c4b5d3970679a7e953f53155c02e88bfacf"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/trees/b7c46c4b5d3970679a7e953f53155c02e88bfacf"
                 },
-                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/5f520dcfd6c8149c2c2877d6c15ce0d84e4bc613"
+                "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/commits/5f520dcfd6c8149c2c2877d6c15ce0d84e4bc613"
             },
             "committer": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
@@ -2132,16 +2132,16 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "html_url": "https://github.com/mhsjlw/flying-squid/commit/5f520dcfd6c8149c2c2877d6c15ce0d84e4bc613",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/commit/5f520dcfd6c8149c2c2877d6c15ce0d84e4bc613",
             "parents": [
                 {
-                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/ef27aaac501a253b00739787e67b4d670d48995f",
+                    "html_url": "https://github.com/PrismarineJS/flying-squid/commit/ef27aaac501a253b00739787e67b4d670d48995f",
                     "sha": "ef27aaac501a253b00739787e67b4d670d48995f",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/ef27aaac501a253b00739787e67b4d670d48995f"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/ef27aaac501a253b00739787e67b4d670d48995f"
                 }
             ],
             "sha": "5f520dcfd6c8149c2c2877d6c15ce0d84e4bc613",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/5f520dcfd6c8149c2c2877d6c15ce0d84e4bc613"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/5f520dcfd6c8149c2c2877d6c15ce0d84e4bc613"
         },
         {
             "author": {
@@ -2163,7 +2163,7 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/e8c382dab332fcd7e7cd64d1661dd6fa3064f044/comments",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/e8c382dab332fcd7e7cd64d1661dd6fa3064f044/comments",
             "commit": {
                 "author": {
                     "date": "2015-11-22T22:20:20Z",
@@ -2179,9 +2179,9 @@
                 "message": "Four characters",
                 "tree": {
                     "sha": "2d0482b8b365c1f6164abdec7daf88bd7dedaeaa",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/2d0482b8b365c1f6164abdec7daf88bd7dedaeaa"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/trees/2d0482b8b365c1f6164abdec7daf88bd7dedaeaa"
                 },
-                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/e8c382dab332fcd7e7cd64d1661dd6fa3064f044"
+                "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/commits/e8c382dab332fcd7e7cd64d1661dd6fa3064f044"
             },
             "committer": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
@@ -2202,16 +2202,16 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "html_url": "https://github.com/mhsjlw/flying-squid/commit/e8c382dab332fcd7e7cd64d1661dd6fa3064f044",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/commit/e8c382dab332fcd7e7cd64d1661dd6fa3064f044",
             "parents": [
                 {
-                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/5f520dcfd6c8149c2c2877d6c15ce0d84e4bc613",
+                    "html_url": "https://github.com/PrismarineJS/flying-squid/commit/5f520dcfd6c8149c2c2877d6c15ce0d84e4bc613",
                     "sha": "5f520dcfd6c8149c2c2877d6c15ce0d84e4bc613",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/5f520dcfd6c8149c2c2877d6c15ce0d84e4bc613"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/5f520dcfd6c8149c2c2877d6c15ce0d84e4bc613"
                 }
             ],
             "sha": "e8c382dab332fcd7e7cd64d1661dd6fa3064f044",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/e8c382dab332fcd7e7cd64d1661dd6fa3064f044"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/e8c382dab332fcd7e7cd64d1661dd6fa3064f044"
         },
         {
             "author": {
@@ -2233,7 +2233,7 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/18c90e7b54faea6fffbd6f2afb81c449d6b667e4/comments",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/18c90e7b54faea6fffbd6f2afb81c449d6b667e4/comments",
             "commit": {
                 "author": {
                     "date": "2015-11-22T22:25:28Z",
@@ -2249,9 +2249,9 @@
                 "message": "Jeez Louise can't I capitalize anything properly?",
                 "tree": {
                     "sha": "c6e3a37d2737191b214d33c909038204d4788191",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/c6e3a37d2737191b214d33c909038204d4788191"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/trees/c6e3a37d2737191b214d33c909038204d4788191"
                 },
-                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/18c90e7b54faea6fffbd6f2afb81c449d6b667e4"
+                "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/commits/18c90e7b54faea6fffbd6f2afb81c449d6b667e4"
             },
             "committer": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
@@ -2272,16 +2272,16 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "html_url": "https://github.com/mhsjlw/flying-squid/commit/18c90e7b54faea6fffbd6f2afb81c449d6b667e4",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/commit/18c90e7b54faea6fffbd6f2afb81c449d6b667e4",
             "parents": [
                 {
-                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/e8c382dab332fcd7e7cd64d1661dd6fa3064f044",
+                    "html_url": "https://github.com/PrismarineJS/flying-squid/commit/e8c382dab332fcd7e7cd64d1661dd6fa3064f044",
                     "sha": "e8c382dab332fcd7e7cd64d1661dd6fa3064f044",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/e8c382dab332fcd7e7cd64d1661dd6fa3064f044"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/e8c382dab332fcd7e7cd64d1661dd6fa3064f044"
                 }
             ],
             "sha": "18c90e7b54faea6fffbd6f2afb81c449d6b667e4",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/18c90e7b54faea6fffbd6f2afb81c449d6b667e4"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/18c90e7b54faea6fffbd6f2afb81c449d6b667e4"
         },
         {
             "author": {
@@ -2303,7 +2303,7 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/989f985df318a4182e5844a3e9cce0436d36371c/comments",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/989f985df318a4182e5844a3e9cce0436d36371c/comments",
             "commit": {
                 "author": {
                     "date": "2015-11-22T22:28:52Z",
@@ -2319,9 +2319,9 @@
                 "message": "One character",
                 "tree": {
                     "sha": "76b0a19a84e4d36bff467ea911ec2a2c424ee36b",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/76b0a19a84e4d36bff467ea911ec2a2c424ee36b"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/trees/76b0a19a84e4d36bff467ea911ec2a2c424ee36b"
                 },
-                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/989f985df318a4182e5844a3e9cce0436d36371c"
+                "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/commits/989f985df318a4182e5844a3e9cce0436d36371c"
             },
             "committer": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
@@ -2342,16 +2342,16 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "html_url": "https://github.com/mhsjlw/flying-squid/commit/989f985df318a4182e5844a3e9cce0436d36371c",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/commit/989f985df318a4182e5844a3e9cce0436d36371c",
             "parents": [
                 {
-                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/18c90e7b54faea6fffbd6f2afb81c449d6b667e4",
+                    "html_url": "https://github.com/PrismarineJS/flying-squid/commit/18c90e7b54faea6fffbd6f2afb81c449d6b667e4",
                     "sha": "18c90e7b54faea6fffbd6f2afb81c449d6b667e4",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/18c90e7b54faea6fffbd6f2afb81c449d6b667e4"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/18c90e7b54faea6fffbd6f2afb81c449d6b667e4"
                 }
             ],
             "sha": "989f985df318a4182e5844a3e9cce0436d36371c",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/989f985df318a4182e5844a3e9cce0436d36371c"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/989f985df318a4182e5844a3e9cce0436d36371c"
         },
         {
             "author": {
@@ -2373,7 +2373,7 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/db8904a4b97cbbceddb146f0a80d4d2e1edf1bec/comments",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/db8904a4b97cbbceddb146f0a80d4d2e1edf1bec/comments",
             "commit": {
                 "author": {
                     "date": "2015-11-22T22:39:44Z",
@@ -2389,9 +2389,9 @@
                 "message": "collenctEntity",
                 "tree": {
                     "sha": "b4199f584336d655f221ffa6bd73925d954060fc",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/trees/b4199f584336d655f221ffa6bd73925d954060fc"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/trees/b4199f584336d655f221ffa6bd73925d954060fc"
                 },
-                "url": "https://api.github.com/repos/mhsjlw/flying-squid/git/commits/db8904a4b97cbbceddb146f0a80d4d2e1edf1bec"
+                "url": "https://api.github.com/repos/PrismarineJS/flying-squid/git/commits/db8904a4b97cbbceddb146f0a80d4d2e1edf1bec"
             },
             "committer": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
@@ -2412,21 +2412,21 @@
                 "type": "User",
                 "url": "https://api.github.com/users/109C"
             },
-            "html_url": "https://github.com/mhsjlw/flying-squid/commit/db8904a4b97cbbceddb146f0a80d4d2e1edf1bec",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/commit/db8904a4b97cbbceddb146f0a80d4d2e1edf1bec",
             "parents": [
                 {
-                    "html_url": "https://github.com/mhsjlw/flying-squid/commit/989f985df318a4182e5844a3e9cce0436d36371c",
+                    "html_url": "https://github.com/PrismarineJS/flying-squid/commit/989f985df318a4182e5844a3e9cce0436d36371c",
                     "sha": "989f985df318a4182e5844a3e9cce0436d36371c",
-                    "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/989f985df318a4182e5844a3e9cce0436d36371c"
+                    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/989f985df318a4182e5844a3e9cce0436d36371c"
                 }
             ],
             "sha": "db8904a4b97cbbceddb146f0a80d4d2e1edf1bec",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/db8904a4b97cbbceddb146f0a80d4d2e1edf1bec"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/db8904a4b97cbbceddb146f0a80d4d2e1edf1bec"
         }
     ],
-    "commits_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112/commits",
+    "commits_url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112/commits",
     "created_at": "2015-11-22T15:30:15Z",
-    "diff_url": "https://github.com/mhsjlw/flying-squid/pull/112.diff",
+    "diff_url": "https://github.com/PrismarineJS/flying-squid/pull/112.diff",
     "head": {
         "label": "109C:master",
         "ref": "master",
@@ -2452,22 +2452,22 @@
             "url": "https://api.github.com/users/109C"
         }
     },
-    "html_url": "https://github.com/mhsjlw/flying-squid/pull/112",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/pull/112",
     "id": 51467113,
-    "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/112",
+    "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/112",
     "locked": false,
     "merge_commit_sha": "0e9854bf408e8d7d2382e312ae62d567c32e946a",
     "merged_at": null,
     "milestone": null,
     "number": 112,
-    "patch_url": "https://github.com/mhsjlw/flying-squid/pull/112.patch",
-    "review_comment_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/comments{/number}",
-    "review_comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112/comments",
+    "patch_url": "https://github.com/PrismarineJS/flying-squid/pull/112.patch",
+    "review_comment_url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/comments{/number}",
+    "review_comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112/comments",
     "state": "closed",
-    "statuses_url": "https://api.github.com/repos/mhsjlw/flying-squid/statuses/db8904a4b97cbbceddb146f0a80d4d2e1edf1bec",
+    "statuses_url": "https://api.github.com/repos/PrismarineJS/flying-squid/statuses/db8904a4b97cbbceddb146f0a80d4d2e1edf1bec",
     "title": "Use mineflayer's window classes in player's inventory",
     "updated_at": "2015-11-22T23:51:23Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/112",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/112",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
         "events_url": "https://api.github.com/users/109C/events{/privacy}",

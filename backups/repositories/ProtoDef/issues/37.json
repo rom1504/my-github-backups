@@ -1,7 +1,7 @@
 {
     "assignee": null,
     "body": "completely untested",
-    "closed_at": null,
+    "closed_at": "2016-01-10T01:44:14Z",
     "comment_data": [
         {
             "body": "maybe do getter.get -> read (bind it and everything)",
@@ -450,9 +450,37 @@
                 "type": "User",
                 "url": "https://api.github.com/users/rom1504"
             }
+        },
+        {
+            "body": "closing in favor of #43",
+            "created_at": "2016-01-10T01:44:07Z",
+            "html_url": "https://github.com/roblabla/ProtoDef/pull/37#issuecomment-170299857",
+            "id": 170299857,
+            "issue_url": "https://api.github.com/repos/roblabla/ProtoDef/issues/37",
+            "updated_at": "2016-01-10T01:44:07Z",
+            "url": "https://api.github.com/repos/roblabla/ProtoDef/issues/comments/170299857",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
         }
     ],
-    "comments": 16,
+    "comments": 17,
     "comments_url": "https://api.github.com/repos/roblabla/ProtoDef/issues/37/comments",
     "created_at": "2015-12-01T16:33:51Z",
     "event_data": [
@@ -486,6 +514,33 @@
                 "to": "babel5 async/await"
             },
             "url": "https://api.github.com/repos/roblabla/ProtoDef/issues/events/482672595"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2016-01-10T01:44:14Z",
+            "event": "closed",
+            "id": 510343054,
+            "url": "https://api.github.com/repos/roblabla/ProtoDef/issues/events/510343054"
         }
     ],
     "events_url": "https://api.github.com/repos/roblabla/ProtoDef/issues/37/events",
@@ -502,9 +557,9 @@
         "patch_url": "https://github.com/roblabla/ProtoDef/pull/37.patch",
         "url": "https://api.github.com/repos/roblabla/ProtoDef/pulls/37"
     },
-    "state": "open",
+    "state": "closed",
     "title": "babel5 async/await",
-    "updated_at": "2015-12-04T14:30:14Z",
+    "updated_at": "2016-01-10T01:44:14Z",
     "url": "https://api.github.com/repos/roblabla/ProtoDef/issues/37",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",

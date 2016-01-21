@@ -6,11 +6,11 @@
         {
             "body": "Actually the server is respecting the respawn, but vanilla clients must need some extra packet to recognize deaths or respawns because when I disconnect vanillia client and reconnect I can see the respawned bot.",
             "created_at": "2013-01-12T12:29:11Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/84#issuecomment-12177447",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/84#issuecomment-12177447",
             "id": 12177447,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/84",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/84",
             "updated_at": "2013-01-12T12:29:11Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/12177447",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/12177447",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Here's what it looks like when the vanilla client respawns:\r\n-------------------------------\r\n\r\n```\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 0, keepAliveId: -832982469 }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 205, payload: 1 }\r\npacket { id: 13,\r\n  x: -201.5,\r\n  y: 63.099998474121094,\r\n  stance: 64.71999847888947,\r\n  z: 243.5,\r\n  yaw: 0,\r\n  pitch: 0,\r\n  onGround: false }\r\npacket { id: 11,\r\n  x: -201.5,\r\n  y: 63.099998474121094,\r\n  stance: 64.71999847888947,\r\n  z: 243.5,\r\n  onGround: false }\r\npacket { id: 11,\r\n  x: -201.5,\r\n  y: 63.021598472595215,\r\n  stance: 64.64159847736359,\r\n  z: 243.5,\r\n  onGround: false }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 0, keepAliveId: 370305468 }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 11,\r\n  x: -201.5,\r\n  y: 63,\r\n  stance: 64.62000000476837,\r\n  z: 243.5,\r\n  onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 10, onGround: true }\r\npacket { id: 0, keepAliveId: -1338763957 }\r\n```\r\n\r\n\r\nmineflayer respawning:\r\n-------------------------------\r\n\r\n```\r\npacket { id: 0, keepAliveId: -65122532 }\r\npacket { id: 13,\r\n  x: -203.5,\r\n  y: 63.001,\r\n  stance: 64.62100000476838,\r\n  z: 259.5,\r\n  yaw: 0,\r\n  pitch: 0,\r\n  onGround: true }\r\npacket { id: 13,\r\n  x: -203.5,\r\n  y: 63.001,\r\n  stance: 64.62100000476838,\r\n  z: 259.5,\r\n  yaw: 0,\r\n  pitch: 0,\r\n  onGround: true }\r\npacket { id: 13,\r\n  x: -203.5,\r\n  y: 63.001,\r\n  stance: 64.62100000476838,\r\n  z: 259.5,\r\n  yaw: 0,\r\n  pitch: 0,\r\n  onGround: true }\r\npacket { id: 3, message: 'I have -1 health and 20 food' }\r\npacket { id: 3, message: 'I died x.x' }\r\npacket { id: 205, payload: 1 }\r\npacket { id: 13,\r\n  x: -203.5,\r\n  y: 63.001,\r\n  stance: 64.62100000476838,\r\n  z: 259.5,\r\n  yaw: 0,\r\n  pitch: 0,\r\n  onGround: true }\r\npacket { id: 13,\r\n  x: -203.5,\r\n  y: 63.001,\r\n  stance: 64.62100000476838,\r\n  z: 259.5,\r\n  yaw: 0,\r\n  pitch: 0,\r\n  onGround: true }\r\npacket { id: 13,\r\n  x: -203.5,\r\n  y: 64.62000000476837,\r\n  stance: 66.24000000953674,\r\n  z: 252.5,\r\n  yaw: 0,\r\n  pitch: 0,\r\n  onGround: false }\r\npacket { id: 3, message: 'look who decided to show up: superjoe30' }\r\npacket { id: 13,\r\n  x: -203.5,\r\n  y: 64.62000000476837,\r\n  stance: 66.24000000953674,\r\n  z: 252.5,\r\n  yaw: 0,\r\n  pitch: 0,\r\n  onGround: false }\r\npacket { id: 13,\r\n  x: -203.5,\r\n  y: 64.58427900476838,\r\n  stance: 66.20427900953675,\r\n  z: 252.5,\r\n  yaw: 0,\r\n  pitch: 0,\r\n  onGround: false }\r\npacket { id: 3, message: 'I have 20 health and 20 food' }\r\npacket { id: 3, message: 'look who decided to show up: chatterbox' }\r\npacket { id: 13,\r\n  x: -203.5,\r\n  y: 64.45143900476837,\r\n  stance: 66.07143900953675,\r\n  z: 252.5,\r\n  yaw: 0,\r\n  pitch: 0,\r\n  onGround: false }\r\npacket { id: 13,\r\n  x: -203.5,\r\n  y: 64.30885200476838,\r\n  stance: 65.92885200953675,\r\n  z: 252.5,\r\n  yaw: 0,\r\n  pitch: 0,\r\n  onGround: false }\r\npacket { id: 13,\r\n  x: -203.5,\r\n  y: 63.989604004768374,\r\n  stance: 65.60960400953675,\r\n  z: 252.5,\r\n  yaw: 0,\r\n  pitch: 0,\r\n  onGround: false }\r\npacket { id: 13,\r\n  x: -203.5,\r\n  y: 63.72751500476837,\r\n  stance: 65.34751500953675,\r\n  z: 252.5,\r\n  yaw: 0,\r\n  pitch: 0,\r\n  onGround: false }\r\npacket { id: 0, keepAliveId: 1294522678 }\r\npacket { id: 13,\r\n  x: -203.5,\r\n  y: 63.217917004768374,\r\n  stance: 64.83791700953674,\r\n  z: 252.5,\r\n  yaw: 0,\r\n  pitch: 0,\r\n  onGround: false }\r\npacket { id: 13,\r\n  x: -203.5,\r\n  y: 63.001,\r\n  stance: 64.62100000476838,\r\n  z: 252.5,\r\n  yaw: 0,\r\n  pitch: 0,\r\n  onGround: true }\r\n```\r\n",
             "created_at": "2013-02-04T08:31:22Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/84#issuecomment-13066392",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/84#issuecomment-13066392",
             "id": 13066392,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/84",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/84",
             "updated_at": "2013-02-04T08:31:22Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13066392",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13066392",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Is it really a problem with respawn ?\r\nI have problems with the /tp command with my bot (I need to reconnect it to make it actually teleport)",
             "created_at": "2013-02-18T17:29:40Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/84#issuecomment-13732984",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/84#issuecomment-13732984",
             "id": 13732984,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/84",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/84",
             "updated_at": "2013-02-18T17:29:40Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13732984",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13732984",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "I noticed the /tp thing too. Another curious thing I noticed is that it seems that if you turn your back on the bot for a bit, and then look back, it appears.",
             "created_at": "2013-02-18T17:49:27Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/84#issuecomment-13733955",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/84#issuecomment-13733955",
             "id": 13733955,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/84",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/84",
             "updated_at": "2013-02-18T17:49:27Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13733955",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13733955",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "I think the server simply prioritizes telling the person who suddenly teleports about what's around him (entities and chunks), over telling everyone else about him.  I noticed that if I teleport to the bot, and tell him to follow me, he doesn't see me for a few seconds.",
             "created_at": "2013-02-18T17:51:21Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/84#issuecomment-13734059",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/84#issuecomment-13734059",
             "id": 13734059,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/84",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/84",
             "updated_at": "2013-02-18T17:51:21Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13734059",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13734059",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/412436?v=3",
                 "events_url": "https://api.github.com/users/Darthfett/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "But if you teleport another vanilla client, you see it immediately. This implies that there is something missing in mineflayer's code.",
             "created_at": "2013-02-18T17:52:28Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/84#issuecomment-13734107",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/84#issuecomment-13734107",
             "id": 13734107,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/84",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/84",
             "updated_at": "2013-02-18T17:52:28Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13734107",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13734107",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "After the last fixes I cannot reproduce this problem. Can you confirm if the problem still exists?",
             "created_at": "2013-04-11T06:29:33Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/84#issuecomment-16218805",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/84#issuecomment-16218805",
             "id": 16218805,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/84",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/84",
             "updated_at": "2013-04-11T06:29:33Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/16218805",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/16218805",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1878434?v=3",
                 "events_url": "https://api.github.com/users/zuazo/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "Still appears to be an issue. If I get a chance I will screencast it so you can see.",
             "created_at": "2013-04-11T06:41:20Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/84#issuecomment-16219068",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/84#issuecomment-16219068",
             "id": 16219068,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/84",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/84",
             "updated_at": "2013-04-11T06:41:20Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/16219068",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/16219068",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "OK. Thanks. I'll try harder and using a new clean server.",
             "created_at": "2013-04-11T06:52:11Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/84#issuecomment-16219344",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/84#issuecomment-16219344",
             "id": 16219344,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/84",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/84",
             "updated_at": "2013-04-11T06:52:11Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/16219344",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/16219344",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1878434?v=3",
                 "events_url": "https://api.github.com/users/zuazo/events{/privacy}",
@@ -258,11 +258,11 @@
         {
             "body": "I have tested this a lot with trying to get respawn working in 1.7\r\nCan anyone confirm that this is still an issue in the latest 1.7? PR is here: https://github.com/andrewrk/mineflayer/pull/173\r\n\r\nI'll close this for now as I've not been able to reproduce it.",
             "created_at": "2014-04-22T00:16:51Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/84#issuecomment-40991440",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/84#issuecomment-40991440",
             "id": 40991440,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/84",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/84",
             "updated_at": "2014-04-22T00:16:51Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/40991440",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/40991440",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
                 "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
@@ -285,7 +285,7 @@
         }
     ],
     "comments": 10,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/84/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/84/comments",
     "created_at": "2013-01-12T02:36:33Z",
     "event_data": [
         {
@@ -313,27 +313,27 @@
             "created_at": "2014-04-22T00:16:51Z",
             "event": "closed",
             "id": 113689337,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/113689337"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/113689337"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/84/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/84",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/84/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/84",
     "id": 9901470,
     "labels": [
         {
             "color": "e10c02",
             "name": "bug",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/bug"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/bug"
         }
     ],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/84/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/84/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 84,
     "state": "closed",
     "title": "bot is invisible when it dies and respawns",
     "updated_at": "2014-04-22T00:16:51Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/84",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/84",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
         "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",

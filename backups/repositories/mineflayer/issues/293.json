@@ -6,11 +6,11 @@
         {
             "body": "Thanks for the PR.\r\nA few things : \r\n* The table of content seems to be missing some of the new items (see https://github.com/andrewrk/mineflayer/blob/master/doc/contribute.md#updating-the-documentation)\r\n* I think it would be nice to add your example to examples/chest.js : just add a new command `invsee <player>` (see https://github.com/andrewrk/mineflayer/blob/master/examples/inventory.js#L40 for an example for arg processing) that call a function containing your example",
             "created_at": "2015-05-26T22:59:40Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/293#issuecomment-105692353",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/293#issuecomment-105692353",
             "id": 105692353,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/293",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/293",
             "updated_at": "2015-05-26T22:59:40Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/105692353",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/105692353",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Done.",
             "created_at": "2015-05-27T03:05:59Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/293#issuecomment-105740762",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/293#issuecomment-105740762",
             "id": 105740762,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/293",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/293",
             "updated_at": "2015-05-27T03:05:59Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/105740762",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/105740762",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
                 "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
@@ -61,7 +61,7 @@
         }
     ],
     "comments": 2,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/293/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/293/comments",
     "created_at": "2015-05-26T00:02:33Z",
     "event_data": [
         {
@@ -85,11 +85,11 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "785bca6d73dcf5d2a06bebdd1a78e3865313b7b2",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/785bca6d73dcf5d2a06bebdd1a78e3865313b7b2",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/785bca6d73dcf5d2a06bebdd1a78e3865313b7b2",
             "created_at": "2015-05-27T07:55:34Z",
             "event": "referenced",
             "id": 314600047,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/314600047"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/314600047"
         },
         {
             "actor": {
@@ -112,11 +112,11 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "785bca6d73dcf5d2a06bebdd1a78e3865313b7b2",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/785bca6d73dcf5d2a06bebdd1a78e3865313b7b2",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/785bca6d73dcf5d2a06bebdd1a78e3865313b7b2",
             "created_at": "2015-05-27T07:55:34Z",
             "event": "merged",
             "id": 314600048,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/314600048"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/314600048"
         },
         {
             "actor": {
@@ -143,7 +143,7 @@
             "created_at": "2015-05-27T07:55:34Z",
             "event": "closed",
             "id": 314600051,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/314600051"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/314600051"
         },
         {
             "actor": {
@@ -170,27 +170,81 @@
             "created_at": "2015-05-27T19:46:13Z",
             "event": "head_ref_deleted",
             "id": 315301127,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/315301127"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/315301127"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2612164?v=3",
+                "events_url": "https://api.github.com/users/Gjum/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Gjum/followers",
+                "following_url": "https://api.github.com/users/Gjum/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Gjum/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Gjum",
+                "id": 2612164,
+                "login": "Gjum",
+                "organizations_url": "https://api.github.com/users/Gjum/orgs",
+                "received_events_url": "https://api.github.com/users/Gjum/received_events",
+                "repos_url": "https://api.github.com/users/Gjum/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Gjum/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Gjum/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Gjum"
+            },
+            "commit_id": "e0a44b5b5e2bbb76e5a7165e60a9c6f6b66bbb23",
+            "commit_url": "https://api.github.com/repos/Gjum/minecraft-data/commits/e0a44b5b5e2bbb76e5a7165e60a9c6f6b66bbb23",
+            "created_at": "2016-01-05T19:37:51Z",
+            "event": "referenced",
+            "id": 506298443,
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/506298443"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2612164?v=3",
+                "events_url": "https://api.github.com/users/Gjum/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Gjum/followers",
+                "following_url": "https://api.github.com/users/Gjum/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Gjum/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Gjum",
+                "id": 2612164,
+                "login": "Gjum",
+                "organizations_url": "https://api.github.com/users/Gjum/orgs",
+                "received_events_url": "https://api.github.com/users/Gjum/received_events",
+                "repos_url": "https://api.github.com/users/Gjum/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Gjum/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Gjum/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Gjum"
+            },
+            "commit_id": "25b103ca308eb65a08f64f8457c1042234098510",
+            "commit_url": "https://api.github.com/repos/Gjum/minecraft-data/commits/25b103ca308eb65a08f64f8457c1042234098510",
+            "created_at": "2016-01-05T19:38:53Z",
+            "event": "referenced",
+            "id": 506299346,
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/506299346"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/293/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/pull/293",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/293/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/pull/293",
     "id": 80713132,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/293/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/293/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 293,
     "pull_request": {
-        "diff_url": "https://github.com/andrewrk/mineflayer/pull/293.diff",
-        "html_url": "https://github.com/andrewrk/mineflayer/pull/293",
-        "patch_url": "https://github.com/andrewrk/mineflayer/pull/293.patch",
-        "url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/293"
+        "diff_url": "https://github.com/PrismarineJS/mineflayer/pull/293.diff",
+        "html_url": "https://github.com/PrismarineJS/mineflayer/pull/293",
+        "patch_url": "https://github.com/PrismarineJS/mineflayer/pull/293.patch",
+        "url": "https://api.github.com/repos/PrismarineJS/mineflayer/pulls/293"
     },
     "state": "closed",
     "title": "Add ContainerWindow to support non-Vanilla plugins",
     "updated_at": "2015-05-27T19:46:13Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/293",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/293",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
         "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",

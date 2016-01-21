@@ -6,11 +6,11 @@
         {
             "body": "We should test the proxy with a bukkit plugin like http://dev.bukkit.org/bukkit-plugins/recipemanager/ to figure out how it's done.",
             "created_at": "2015-03-18T10:51:26Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/222#issuecomment-82890565",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/222#issuecomment-82890565",
             "id": 82890565,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/222",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/222",
             "updated_at": "2015-03-18T10:51:26Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/82890565",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/82890565",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Also consider \"container\" items, e.g., milk bucket's container = empty bucket, returned from crafting cake http://minecraft.gamepedia.com/Cake",
             "created_at": "2015-03-22T20:27:01Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/222#issuecomment-84693904",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/222#issuecomment-84693904",
             "id": 84693904,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/222",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/222",
             "updated_at": "2015-03-22T20:27:01Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/84693904",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/84693904",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
                 "events_url": "https://api.github.com/users/deathcap/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Yeah so.. I finally understoof what is \"outShape\" in recipes.json\r\ninShape is the shape before crafting, outShape is the shape after crafting\r\n\r\nSo, it should be checked if there is an outShape there https://github.com/andrewrk/mineflayer/blob/master/lib/plugins/inventory.js#L572 and I think that will handle all the cases we are talking about in that issue.",
             "created_at": "2015-03-23T01:26:56Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/222#issuecomment-84744222",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/222#issuecomment-84744222",
             "id": 84744222,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/222",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/222",
             "updated_at": "2015-03-23T01:26:56Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/84744222",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/84744222",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "So, it would be nice to test if we can craft a cake. It that works, this issue is half-done.",
             "created_at": "2015-03-26T21:47:09Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/222#issuecomment-86730468",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/222#issuecomment-86730468",
             "id": 86730468,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/222",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/222",
             "updated_at": "2015-03-26T21:47:09Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/86730468",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/86730468",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "Ok crafting a cake works.",
             "created_at": "2015-03-29T03:35:36Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/222#issuecomment-87346974",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/222#issuecomment-87346974",
             "id": 87346974,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/222",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/222",
             "updated_at": "2015-03-29T03:35:36Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87346974",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87346974",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "Is it possible to get a \"written book\" by the creative inventory ? it doesn't seem there so I can't test whether that recipe would work.",
             "created_at": "2015-03-29T03:40:57Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/222#issuecomment-87348071",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/222#issuecomment-87348071",
             "id": 87348071,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/222",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/222",
             "updated_at": "2015-03-29T03:40:57Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87348071",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87348071",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "creative api can probably give you everything, since it's how the normal client simply moves items around.",
             "created_at": "2015-03-29T03:44:35Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/222#issuecomment-87348545",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/222#issuecomment-87348545",
             "id": 87348545,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/222",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/222",
             "updated_at": "2015-03-29T03:44:35Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87348545",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87348545",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "Also what about firework crafting recipes (according to http://minecraft.gamepedia.com/Fireworks \"firework rocket is one of the few items in the game that cannot be taken directly out of a creative inventory\") and [item repair recipes](http://minecraft.gamepedia.com/Repair) (combining two damaged tools)",
             "created_at": "2015-03-29T04:04:17Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/222#issuecomment-87351140",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/222#issuecomment-87351140",
             "id": 87351140,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/222",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/222",
             "updated_at": "2015-03-29T04:04:17Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87351140",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87351140",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
                 "events_url": "https://api.github.com/users/deathcap/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "I meant \"creative inventory\" not creative API, ie I don't know how to give myself a written book in the actual game.\r\nEdit: oh it doesn't look like in the wiki, but it's there. Its display name is \"enchanted book\".\r\nAnd the recipe doesn't work with the enchanted book.\r\nIf someone knows how to do that recipe, please explain, I can't test it with mineflayer if I don't understand how to do it in the game.\r\n\r\nI'll try the firework recipe.\r\n\r\n\"item repair recipe\" is not an actual recipe, so it shouldn't be in the recipes.json, maybe it should be stored elsewhere or just computed an other way (the rule is \" Two items of the same type and material can be placed anywhere on the crafting grid, and the result is a single repaired item. \") and there should be an other method than bot.craft to do it, maybe bot.repair or something.",
             "created_at": "2015-03-29T14:28:59Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/222#issuecomment-87421223",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/222#issuecomment-87421223",
             "id": 87421223,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/222",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/222",
             "updated_at": "2015-03-29T14:44:23Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87421223",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87421223",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -258,11 +258,11 @@
         {
             "body": "crafting fireworks works.",
             "created_at": "2015-03-29T14:53:25Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/222#issuecomment-87423167",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/222#issuecomment-87423167",
             "id": 87423167,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/222",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/222",
             "updated_at": "2015-03-29T14:53:25Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87423167",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87423167",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -286,11 +286,11 @@
         {
             "body": "I'd better have an automatic test for this though (see https://github.com/andrewrk/mineflayer/issues/239#issuecomment-87342357) instead of testing manually.",
             "created_at": "2015-03-29T14:54:13Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/222#issuecomment-87423197",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/222#issuecomment-87423197",
             "id": 87423197,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/222",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/222",
             "updated_at": "2015-03-29T14:54:13Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87423197",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87423197",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -314,11 +314,11 @@
         {
             "body": "> I meant \"creative inventory\" not creative API, ie I don't know how to give myself a written book in the actual game.\r\n\r\nYou can use commands:\r\n\r\n/give player minecraft:written_book 1 0 {author:'Player', title:'title1', resolved:1, generation:0, pages: ['hi']}\r\n",
             "created_at": "2015-03-29T17:20:46Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/222#issuecomment-87446512",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/222#issuecomment-87446512",
             "id": 87446512,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/222",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/222",
             "updated_at": "2015-03-29T17:21:08Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87446512",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87446512",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
                 "events_url": "https://api.github.com/users/deathcap/events{/privacy}",
@@ -342,11 +342,11 @@
         {
             "body": "Ok that worked.\r\n\r\nThat recipe is broken in mineflayer, the reason is this recipe has ingredients and \"outIngredients\", which is not handled by mineflayer (and minecraft-data).\r\n\r\nsee https://github.com/PrismarineJS/minecraft-data/issues/10",
             "created_at": "2015-03-29T17:36:52Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/222#issuecomment-87449636",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/222#issuecomment-87449636",
             "id": 87449636,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/222",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/222",
             "updated_at": "2015-03-29T17:36:52Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87449636",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87449636",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -370,11 +370,11 @@
         {
             "body": "Recipes with metadata (even the simplest one like \"white\" log --> \"white\" wood) are broken. The problem is likely in the data, fixing this depends on https://github.com/PrismarineJS/minecraft-data/issues/7\r\n\r\nAlso : it would be nice to know which recipe is broken and which is not (see https://github.com/andrewrk/mineflayer/issues/239)",
             "created_at": "2015-04-03T09:08:38Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/222#issuecomment-89229899",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/222#issuecomment-89229899",
             "id": 89229899,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/222",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/222",
             "updated_at": "2015-04-03T09:08:38Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/89229899",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/89229899",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -397,7 +397,7 @@
         }
     ],
     "comments": 14,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/222/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/222/comments",
     "created_at": "2015-03-17T23:41:04Z",
     "event_data": [
         {
@@ -429,7 +429,7 @@
                 "color": "c7def8",
                 "name": "inventory"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/263527456"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/263527456"
         },
         {
             "actor": {
@@ -460,7 +460,7 @@
                 "color": "444444",
                 "name": "new feature"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/266847677"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/266847677"
         },
         {
             "actor": {
@@ -490,7 +490,7 @@
             "milestone": {
                 "title": "1.1.0"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/269462617"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/269462617"
         },
         {
             "actor": {
@@ -520,7 +520,7 @@
             "milestone": {
                 "title": "1.1.0"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/269462618"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/269462618"
         },
         {
             "actor": {
@@ -550,32 +550,32 @@
             "milestone": {
                 "title": "1.1.0"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/270115978"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/270115978"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/222/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/222",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/222/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/222",
     "id": 62543921,
     "labels": [
         {
             "color": "c7def8",
             "name": "inventory",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/inventory"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/inventory"
         },
         {
             "color": "444444",
             "name": "new feature",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/new%20feature"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/new%20feature"
         }
     ],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/222/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/222/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 222,
     "state": "open",
     "title": "Craft special cases : handle custom recipes and not consumed items",
     "updated_at": "2015-04-03T09:08:38Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/222",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/222",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

@@ -6,11 +6,11 @@
         {
             "body": "I guess it's something like this https://github.com/Bukkit/mc-dev/blob/c1627dc9cc7505581993eb0fa15597cb36e94244/net/minecraft/server/MojangsonParser.java",
             "created_at": "2015-04-27T01:40:16Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/272#issuecomment-96459340",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/272#issuecomment-96459340",
             "id": 96459340,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/272",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/272",
             "updated_at": "2015-04-27T01:40:16Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/96459340",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/96459340",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "For example @demipixel has that problem with it :  \r\n```js\r\n/home/cabox/workspace/node_modules/mineflayer/lib/chat_message.js:192                                               \r\n    throw new Error(\"hoverEvent 'show_item' value syntax error at index \" + in                                      \r\n           ^                                                                                                         \r\n Error: hoverEvent 'show_item' value syntax error at index 0: {id:1s,Damage:0s,Count:1b,tag:{display:{Name:\"§r§6Class\r\n  : Civilian\",Lore:[0:\"§6Last Killed: None\",1:\"§6Last Killer: None\",2:\"§6Rank: §aNovice-III\",3:\"§6§6Elo Rating: 1000\",\r\n  ],},},}                                                                                                             \r\n    at syntaxError (/home/cabox/workspace/node_modules/mineflayer/lib/chat_message.js:192:11)                       \r\n    at parseDict (/home/cabox/workspace/node_modules/mineflayer/lib/chat_message.js:133:32)                         \r\n   at parseShowItemHoverEventValue (/home/cabox/workspace/node_modules/mineflayer/lib/chat_message.js:128:16)      \r\n```",
             "created_at": "2015-04-27T01:53:34Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/272#issuecomment-96462807",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/272#issuecomment-96462807",
             "id": 96462807,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/272",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/272",
             "updated_at": "2015-04-27T01:53:34Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/96462807",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/96462807",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "So.\r\n\r\nin parseShowItemHoverEventValue(string) we have a few issues. 119 of lib/chat_message.js\r\n\r\nFirstly, string is sometimes an array, so I was doing\r\nif (string[0]) string = string[0];\r\nBut we probably need a better way to handle it.\r\n\r\nSecondly, it's getting stuck at \"72\" now which is the start of Lore:\r\nLore:[0:...]\r\nAKA I don't know if we handle arrays in their \"custom js\" but it doesn't look like it.\r\n\r\nRather than manually parsing, could we try and FIX the json, then parse that rather than writing our own?",
             "created_at": "2015-04-27T02:45:31Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/272#issuecomment-96478813",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/272#issuecomment-96478813",
             "id": 96478813,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/272",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/272",
             "updated_at": "2015-04-27T02:45:31Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/96478813",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/96478813",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "> Rather than manually parsing, could we try and FIX the json, then parse that rather than writing our own?\r\n\r\nThat's what we were doing before @thejoshwolfe created that parser. I think it's better to have an actual parser, trying to transform mojangson to make it look \"right\" is probably going to break.",
             "created_at": "2015-04-27T03:10:24Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/272#issuecomment-96484447",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/272#issuecomment-96484447",
             "id": 96484447,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/272",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/272",
             "updated_at": "2015-04-27T03:10:24Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/96484447",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/96484447",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "Transforming it into something else and parsing it directly are the same problem. For both approaches, you need to know the language you're trying to read. Making a direct parser is actually the simplest approach, in my opinion. Sure it looks scary, if you're not used to reading recursive parsers, but it actually is the most direct and minimal approach to the problem.\r\n\r\nMaking a translator, like we used to have, is much more difficult than it sounds, and yes, it was broken before I replaced it with the direct parser.",
             "created_at": "2015-04-27T04:00:35Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/272#issuecomment-96492499",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/272#issuecomment-96492499",
             "id": 96492499,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/272",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/272",
             "updated_at": "2015-04-27T04:00:35Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/96492499",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/96492499",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "so I just fixed @demipixel example, the parser now handles : \r\n* trailing comma\r\n* \"indexed\" array ( [0:value1,1:value2] )",
             "created_at": "2015-04-27T19:34:10Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/272#issuecomment-96790634",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/272#issuecomment-96790634",
             "id": 96790634,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/272",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/272",
             "updated_at": "2015-04-27T19:34:10Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/96790634",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/96790634",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "More information on mojangson : see https://github.com/drXor/ScalaNBT and :\r\n> 21:03 <+XorBoole> it's json with the following exceptions:\r\n>21:04 <+XorBoole> trailing commas are allowed in arrays and objects; numbers followed by b, s, L, f, d are bytes, shorts, longs, floats, and doubles, respectively; arrays can contain only one type; key names don't require quotes\r\n",
             "created_at": "2015-04-27T19:50:26Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/272#issuecomment-96795608",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/272#issuecomment-96795608",
             "id": 96795608,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/272",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/272",
             "updated_at": "2015-04-27T19:50:26Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/96795608",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/96795608",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "I put the parser in its own file, and put the tests in internalTest.js.\r\n\r\nSo I think we are handling everything. I'd prefer the parser to be written with something like jison and maybe it should be in its separate repo but we can do that later if needed.",
             "created_at": "2015-04-27T20:20:29Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/272#issuecomment-96804698",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/272#issuecomment-96804698",
             "id": 96804698,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/272",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/272",
             "updated_at": "2015-04-27T20:20:29Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/96804698",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/96804698",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "Well mojangson is a superset of json (http://www.json.org/).\r\nThat means numbers are not just integers. That should probably be fixed, but I don't really want to parse more complicated numbers manually, I think I'll do a parser using jison later.",
             "created_at": "2015-04-27T20:53:02Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/272#issuecomment-96816580",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/272#issuecomment-96816580",
             "id": 96816580,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/272",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/272",
             "updated_at": "2015-04-27T20:53:02Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/96816580",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/96816580",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -257,7 +257,7 @@
         }
     ],
     "comments": 9,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/272/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/272/comments",
     "created_at": "2015-04-27T01:35:39Z",
     "event_data": [
         {
@@ -289,7 +289,7 @@
                 "color": "bfd4f2",
                 "name": "chat"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/290408384"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/290408384"
         },
         {
             "actor": {
@@ -316,7 +316,7 @@
             "created_at": "2015-04-27T01:53:34Z",
             "event": "mentioned",
             "id": 290415257,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/290415257"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/290415257"
         },
         {
             "actor": {
@@ -343,7 +343,7 @@
             "created_at": "2015-04-27T01:53:34Z",
             "event": "subscribed",
             "id": 290415258,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/290415258"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/290415258"
         },
         {
             "actor": {
@@ -370,7 +370,7 @@
             "created_at": "2015-04-27T03:10:24Z",
             "event": "mentioned",
             "id": 290451514,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/290451514"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/290451514"
         },
         {
             "actor": {
@@ -397,7 +397,7 @@
             "created_at": "2015-04-27T03:10:24Z",
             "event": "subscribed",
             "id": 290451515,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/290451515"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/290451515"
         },
         {
             "actor": {
@@ -420,11 +420,11 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "e542741fe2581379420cb59ef5ae119b8f4799e4",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/e542741fe2581379420cb59ef5ae119b8f4799e4",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/e542741fe2581379420cb59ef5ae119b8f4799e4",
             "created_at": "2015-04-27T19:30:08Z",
             "event": "referenced",
             "id": 291244962,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/291244962"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/291244962"
         },
         {
             "actor": {
@@ -451,7 +451,7 @@
             "created_at": "2015-04-27T19:34:10Z",
             "event": "mentioned",
             "id": 291249166,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/291249166"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/291249166"
         },
         {
             "actor": {
@@ -478,7 +478,7 @@
             "created_at": "2015-04-27T19:34:10Z",
             "event": "subscribed",
             "id": 291249167,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/291249167"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/291249167"
         },
         {
             "actor": {
@@ -501,11 +501,11 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "0a6a72b9c37fc6437c2b5e5c410b0aec4050dd89",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/0a6a72b9c37fc6437c2b5e5c410b0aec4050dd89",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/0a6a72b9c37fc6437c2b5e5c410b0aec4050dd89",
             "created_at": "2015-04-27T19:46:02Z",
             "event": "referenced",
             "id": 291261117,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/291261117"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/291261117"
         },
         {
             "actor": {
@@ -532,7 +532,7 @@
             "created_at": "2015-04-27T20:20:29Z",
             "event": "closed",
             "id": 291296646,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/291296646"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/291296646"
         },
         {
             "actor": {
@@ -559,7 +559,7 @@
             "created_at": "2015-04-27T20:53:02Z",
             "event": "reopened",
             "id": 291328990,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/291328990"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/291328990"
         },
         {
             "actor": {
@@ -582,31 +582,31 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "a3d849099fe608c2d31f99ccc0d8b0d36c69b51e",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/a3d849099fe608c2d31f99ccc0d8b0d36c69b51e",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/a3d849099fe608c2d31f99ccc0d8b0d36c69b51e",
             "created_at": "2015-04-28T09:54:48Z",
             "event": "closed",
             "id": 291796531,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/291796531"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/291796531"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/272/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/272",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/272/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/272",
     "id": 71148220,
     "labels": [
         {
             "color": "bfd4f2",
             "name": "chat",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/chat"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/chat"
         }
     ],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/272/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/272/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 272,
     "state": "closed",
     "title": "Find a mojangson spec and complete mineflayer's parser",
     "updated_at": "2015-04-28T09:54:48Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/272",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/272",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

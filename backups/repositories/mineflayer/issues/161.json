@@ -6,11 +6,11 @@
         {
             "body": "Thanks for reporting. I have not clear. Can you post some example code or more detailed procedure to reproduce the bug? Information on the type of server would be of very great help (vanilla, bukkit, plugins, mods, ...).\r\n\r\nIf you needed to use *master*, I guess it will be a bukkit: can you paste the output of the `/plugins` command?",
             "created_at": "2013-09-07T18:18:43Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/161#issuecomment-24006656",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/161#issuecomment-24006656",
             "id": 24006656,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/161",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/161",
             "updated_at": "2013-09-07T18:18:43Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/24006656",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/24006656",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1878434?v=3",
                 "events_url": "https://api.github.com/users/zuazo/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Thanks for getting back to me so fast.\r\n\r\nWell, I was trying master because of the problems I was having with chat.js but even before I could move on to testing that to see if the master branch would fix it, I got this error.\r\n\r\nHere's my code.\r\n\r\n```\r\nvar mineflayer = require('mineflayer');\r\nvar bot = mineflayer.createBot({\r\n  host: \"mc.civcraft.vg\",\r\n  username: \"my user name\",\r\n  password: \"my password\",\r\n});\r\nbot.on('chat', function(username, message) {\r\n  if (username === bot.username) return;\r\n  bot.chat(message);  \r\n});\r\n```\r\n\r\nAs for plugins, that command didn't seem to be allowed for some reason but there's a list of them here: https://civcraft.org/doku.php/mods\r\n\r\n* Citadel\r\n* Orebfuscator\r\n* PhysicalShop\r\n* WorldBorder\r\n* Mineral Vein\r\n* BottleO\r\n* DynCap\r\n* AFKPGC\r\n* MusterCull\r\n* MoreCraftableBlocks\r\n* PreciousStones [discontinued]1)\r\n* JukeAlert\r\n* PermissionsEx\r\n* HeroChat\r\n* RandomSpawn\r\n* RealisticBiomes 2)\r\n* FactoryMod\r\n* PrisonPearl\r\n* PrisonBed [discontinued]\r\n* BookWorm [discontinued]\r\n* Humbug\r\n\r\nHope that helps. I'm itching to write my own bot :)",
             "created_at": "2013-09-08T08:12:31Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/161#issuecomment-24017002",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/161#issuecomment-24017002",
             "id": 24017002,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/161",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/161",
             "updated_at": "2013-09-08T19:17:20Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/24017002",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/24017002",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/919329?v=3",
                 "events_url": "https://api.github.com/users/CodingMonkeyXYZ/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Sorry. I could not reproduce your error. I used your code example, connecting to \"mc.civcraft.vg\" with a valid login (I have been kicked due to inactivity multiple times). Make sure you are using the latest version of `minecraft-protocol` library.",
             "created_at": "2013-09-08T19:14:54Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/161#issuecomment-24027238",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/161#issuecomment-24027238",
             "id": 24027238,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/161",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/161",
             "updated_at": "2013-09-08T19:14:54Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/24027238",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/24027238",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1878434?v=3",
                 "events_url": "https://api.github.com/users/zuazo/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "Thanks for your help. I updated the library using npm install minecraft-protocol. I'm confused - doesn't npm install mineflayer install the latest libraries it needs? Anyway, I didn't get any chat messages but I did get a little further, the bot joined and logged in. So I altered the code as follows, to add some diagnostics:\r\n\r\n```\r\nvar mineflayer = require('mineflayer');\r\nvar bot = mineflayer.createBot({\r\n  host: \"mc.civcraft.vg\",\r\n  username: \"xxx\",\r\n  password: \"xxx\",\r\n});\r\nbot.on('chat', function(username, message) {\r\n  if (username === bot.username) return;\r\n  console.log(messge);\r\n  bot.chat(message);\r\n});\r\nbot.on('login', function() {\r\n  console.log(\"We're in.\");\r\n});\r\nbot.on('message', function(message,jsonMsg) {\r\n  console.log(message);\r\n});\r\n```\r\n\r\nand got this response:\r\n\r\nWe're in.\r\n{ text: 'Â§f Â§f Â§1 Â§0 Â§2 Â§4Â§f Â§f Â§2 Â§0 Â§4 Â§8Â§0Â§1Â§0Â§1Â§2Â§fÂ§fÂ§0Â§1Â§3Â§4Â§fÂ§fÂ§0Â§1Â§5Â§fÂ§fÂ§0Â§1Â§6Â§fÂ§fÂ§0Â§1Â§8Â§9Â§aÂ§bÂ§fÂ§fÂ§0Â§1Â§7Â§fÂ§fÂ§3 Â§9 Â§2 Â§0 Â§0 Â§1Â§3 Â§9 Â§2 Â§0 Â§0 Â§2Â§3 Â§9 Â§2 Â§0 Â§0 Â§3Â§0Â§0Â§1Â§fÂ§eÂ§0Â§0Â§2Â§fÂ§eÂ§0Â§0Â§3Â§4Â§5Â§6Â§7Â§8Â§fÂ§e' }\r\n{ text: 'Â§fÂ§fMonkeyWithAnAxeÂ§f: Hi' }\r\n",
             "created_at": "2013-09-09T07:47:17Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/161#issuecomment-24050684",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/161#issuecomment-24050684",
             "id": 24050684,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/161",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/161",
             "updated_at": "2013-09-09T07:47:17Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/24050684",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/24050684",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/919329?v=3",
                 "events_url": "https://api.github.com/users/CodingMonkeyXYZ/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "Oh and I just tried bot.whisper(username, message) and calling bot.chat directly and they both worked fine, so it seems that the problem is somewhere inside the event handler for receiving chats maybe?\r\n\r\nIt doesn't seem to be calling the chat event handler with the chat message.\r\n\r\nEDIT: I just noticed the bit in the instructions on the main page about updating the protocol. I tried the command there then tried to run the protocol tests like so:\r\n\r\n```\r\n:~$ npm test mincraft-protocol\r\nnpm ERR! Error: ENOENT, open '/home/ubuntu/node_modules/mincraft-protocol/packag             e.json'\r\nnpm ERR! If you need help, you may report this log at:\r\nnpm ERR!     <http://github.com/isaacs/npm/issues>\r\nnpm ERR! or email it to:\r\nnpm ERR!     <npm-@googlegroups.com>\r\n\r\nnpm ERR! System Linux 3.8.0-19-generic\r\nnpm ERR! command \"/usr/bin/node\" \"/usr/bin/npm\" \"test\" \"mincraft-protocol\"\r\nnpm ERR! cwd /home/ubuntu\r\nnpm ERR! node -v v0.10.18\r\nnpm ERR! npm -v 1.3.8\r\nnpm ERR! path /home/ubuntu/node_modules/mincraft-protocol/package.json\r\nnpm ERR! code ENOENT\r\nnpm ERR! errno 34\r\nnpm ERR!\r\nnpm ERR! Additional logging details can be found in:\r\nnpm ERR!     /home/ubuntu/npm-debug.log\r\nnpm ERR! not ok code 0\r\nubuntu@ip-172-31-0-86:~$ pwd\r\n/home/ubuntu\r\n```\r\n\r\nI don't know what I'm doing here, I'm very new to node. I tried the bot again and this time I pm-ed it and it crashed the bot.\r\n\r\nI did still get the 'I've joined' chat message though.",
             "created_at": "2013-09-09T07:53:36Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/161#issuecomment-24051056",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/161#issuecomment-24051056",
             "id": 24051056,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/161",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/161",
             "updated_at": "2013-09-09T09:08:49Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/24051056",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/24051056",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/919329?v=3",
                 "events_url": "https://api.github.com/users/CodingMonkeyXYZ/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "To use mineflayer, you don't really even need to know that minecraft-protocol exists. The instructions about updating the protocol are to be followed by developers of the library itself, not someone using the library as you are.\r\n\r\nIn node, packages are installed locally to the project. So if your project is in a folder called /home/ac7web/my-bot, you will have a file /home/ac7web/my-bot/package.json which contains the node module dependecies and /home/ac7web/my-bot/node_modules/* will contain the actual dependencies module code. See [the docs](https://npmjs.org/doc/json.html) and any other node module for example.\r\n\r\nI suggest you start over as far as installing modules goes (`rm -rf /home/ac7web/my-bot/node_modules`) since it sounds like you were thrashing around without understanding what you were doing. Then you would install mineflayer like this: `npm install --save mineflayer`. This will both populate your package.json file with the dependency information and install mineflayer to /home/ac7web/my-bot/node_modules/mineflayer.\r\n\r\nIf this is too confusing, I suggest you take a look at some other minecraft bots already made for example. See https://github.com/rom1504/rbot/ and https://github.com/Darthfett/Helperbot\r\n\r\nHope that helps.",
             "created_at": "2013-09-09T14:23:14Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/161#issuecomment-24079740",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/161#issuecomment-24079740",
             "id": 24079740,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/161",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/161",
             "updated_at": "2013-09-09T14:23:59Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/24079740",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/24079740",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "Yeah I was a bit...\r\n\r\nI'm confused. I'm just trying to get 'echo.js' to work. There isn't a json file in that example. and just running the install with --save doesn't create one for me - I think I only need that if I'm making a 'package' for my new bot anyway, don't I?  Which at this stage, I'm not because it's just a noddy example.\r\n\r\nAnyway, I tried loggin in to CivCraft with the chat bot now, and adding some diagnostic (an event handler for kick), I can see that I was being kicked a lot with the message 'Kicked for flying (or related)', almost as soon as I joined. I kept trying though and eventually, it stayed logged in.\r\n\r\nThis is all great and it's no longer crashing but I'm still getting nothing from chat. Any ideas why? Is this a server chat standard that's not supported or something?\r\n\r\nHere's my new code:\r\n\r\n\r\n\r\n```\r\nvar mineflayer = require('mineflayer');\r\nvar bot = mineflayer.createBot({\r\n  host: \"mc.civcraft.vg\",\r\n  username: \"derp derp\",\r\n  password: \"***********\",\r\n});\r\nbot.on('chat', function(username, message) {\r\n  if (username === bot.username) return;\r\n  console.log(message);\r\n});\r\nbot.on('kicked', function(reason) {\r\n  console.log(\"Kicked:\");\r\n  console.log(reason);\r\n});\r\nbot.on('end', function(){\r\n  console.log(\"we're not connected anymore\");\r\n});\r\nbot.on('login', function(){\r\n  setInterval(function(){\r\n      var yaw = Math.floor(Math.random() * 360);\r\n      var pitch = Math.floor(Math.random() * 360);\r\n      bot.look(yaw, pitch, true);\r\n    }, 2000);\r\n});\r\n```",
             "created_at": "2013-09-12T20:44:44Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/161#issuecomment-24354320",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/161#issuecomment-24354320",
             "id": 24354320,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/161",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/161",
             "updated_at": "2013-09-26T23:21:50Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/24354320",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/24354320",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/919329?v=3",
                 "events_url": "https://api.github.com/users/CodingMonkeyXYZ/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "unrelated to mineflayer: @ac7web you may want to run the bot by the admins, if it's receiving environmental information it may not be supposed to do anything (moving its head). also what's your IGN?",
             "created_at": "2013-09-20T21:56:30Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/161#issuecomment-24843837",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/161#issuecomment-24843837",
             "id": 24843837,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/161",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/161",
             "updated_at": "2013-09-20T21:56:30Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/24843837",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/24843837",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1445509?v=3",
                 "events_url": "https://api.github.com/users/fwhiffahder/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "Dated issue, possibly relates to https://github.com/andrewrk/mineflayer/issues/175\r\nClosed. Reopen if you feel this is unresolved.",
             "created_at": "2014-04-21T23:03:31Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/161#issuecomment-40986955",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/161#issuecomment-40986955",
             "id": 40986955,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/161",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/161",
             "updated_at": "2014-04-21T23:03:31Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/40986955",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/40986955",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
                 "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
@@ -257,7 +257,7 @@
         }
     ],
     "comments": 9,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/161/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/161/comments",
     "created_at": "2013-09-07T18:01:56Z",
     "event_data": [
         {
@@ -285,7 +285,7 @@
             "created_at": "2013-09-20T21:56:30Z",
             "event": "mentioned",
             "id": 66516000,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/66516000"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/66516000"
         },
         {
             "actor": {
@@ -312,7 +312,7 @@
             "created_at": "2013-09-20T21:56:30Z",
             "event": "subscribed",
             "id": 66516001,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/66516001"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/66516001"
         },
         {
             "actor": {
@@ -339,21 +339,21 @@
             "created_at": "2014-04-21T23:03:31Z",
             "event": "closed",
             "id": 113673297,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/113673297"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/113673297"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/161/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/161",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/161/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/161",
     "id": 19149315,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/161/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/161/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 161,
     "state": "closed",
     "title": "'Undefined' in item.js crashing simple chat example.",
     "updated_at": "2014-04-21T23:03:31Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/161",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/161",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/919329?v=3",
         "events_url": "https://api.github.com/users/CodingMonkeyXYZ/events{/privacy}",

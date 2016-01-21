@@ -6,11 +6,11 @@
         {
             "body": "cleanup https://github.com/mhsjlw/flying-squid/blob/master/src/lib/playerPlugins/commands.js",
             "created_at": "2015-09-28T22:54:45Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/42#issuecomment-143896184",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/42#issuecomment-143896184",
             "id": 143896184,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/42",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/42",
             "updated_at": "2015-10-09T12:13:13Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/143896184",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/143896184",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "The API should probably look like this:\r\n\r\n```js\r\nserv.newCommand(\"destroy\",\r\n          /([0-9]+) ([0-9]+/,\r\n          {\r\n            help: \"Use this command to destroy everything around a specific coordinate!\",\r\n            usage: \"/destroy <x> <z>\",\r\n            permission: 1, // OP only, 2 is server only, 0 is any\r\n            playerOnly: false // You don't need this but it's an example, set to true for player-only\r\n          }, function(x, z) { ... });\r\n```",
             "created_at": "2015-10-10T21:51:47Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/42#issuecomment-147128626",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/42#issuecomment-147128626",
             "id": 147128626,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/42",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/42",
             "updated_at": "2015-10-10T21:51:47Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147128626",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147128626",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "@demipixel is working on this",
             "created_at": "2015-10-10T21:55:55Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/42#issuecomment-147128770",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/42#issuecomment-147128770",
             "id": 147128770,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/42",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/42",
             "updated_at": "2015-10-10T21:55:55Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147128770",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147128770",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -89,7 +89,7 @@
         }
     ],
     "comments": 3,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/42/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/42/comments",
     "created_at": "2015-09-06T15:25:58Z",
     "event_data": [
         {
@@ -117,7 +117,7 @@
             "created_at": "2015-10-10T21:55:55Z",
             "event": "mentioned",
             "id": 432211365,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/432211365"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/432211365"
         },
         {
             "actor": {
@@ -144,7 +144,7 @@
             "created_at": "2015-10-10T21:55:55Z",
             "event": "subscribed",
             "id": 432211366,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/432211366"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/432211366"
         },
         {
             "actor": {
@@ -171,7 +171,7 @@
             "created_at": "2015-10-12T22:19:16Z",
             "event": "closed",
             "id": 433422437,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/433422437"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/433422437"
         },
         {
             "actor": {
@@ -194,25 +194,25 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "892199e4a38e70bb8270c9d1ed03b937a23c87fe",
-            "commit_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/892199e4a38e70bb8270c9d1ed03b937a23c87fe",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/892199e4a38e70bb8270c9d1ed03b937a23c87fe",
             "created_at": "2015-10-12T22:19:16Z",
             "event": "referenced",
             "id": 433422446,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/433422446"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/433422446"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/42/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/issues/42",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/42/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/issues/42",
     "id": 105099840,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/42/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/42/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 42,
     "state": "closed",
     "title": "Improving commands",
     "updated_at": "2015-10-12T22:19:16Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/42",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/42",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

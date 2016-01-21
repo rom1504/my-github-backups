@@ -6,11 +6,11 @@
         {
             "body": "Can you use '''js instead of ''' to have syntax highlighting ?\r\n\r\nI'm pretty sure the problem is with \"Wait 3 second for chest to open\" : why are you waiting 3 seconds ? Use the events of the chest ;)\r\nLook at https://github.com/andrewrk/mineflayer/blob/master/examples/chest.js#L87\r\n\r\nThe reason why it would work on localhost but not on an online server is probably lag.",
             "created_at": "2015-07-21T05:15:58Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/312#issuecomment-123163227",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/312#issuecomment-123163227",
             "id": 123163227,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/312",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/312",
             "updated_at": "2015-07-21T05:15:58Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/123163227",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/123163227",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "You misunderstood: What I do is that if the open operation does not call the event within 3 seconds, the bot asumes that something's wrong. And as I said, it manages to put certain ammout of items in chest - and never fails when playing on localhost.",
             "created_at": "2015-07-21T19:21:01Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/312#issuecomment-123452265",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/312#issuecomment-123452265",
             "id": 123452265,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/312",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/312",
             "updated_at": "2015-07-21T19:21:01Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/123452265",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/123452265",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/5508988?v=3",
                 "events_url": "https://api.github.com/users/Darker/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Oh yeah ok I understand. What kind of server are you connecting to ? do you get the same result with a vanilla server ?\r\nI think it might be possible you're not getting a confirmTransaction packet in your server, so the callback in clickWindow might never be called https://github.com/andrewrk/mineflayer/blob/master/lib/plugins/inventory.js#L350",
             "created_at": "2015-07-22T10:12:59Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/312#issuecomment-123651387",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/312#issuecomment-123651387",
             "id": 123651387,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/312",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/312",
             "updated_at": "2015-07-22T10:12:59Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/123651387",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/123651387",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -89,7 +89,7 @@
         }
     ],
     "comments": 3,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/312/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/312/comments",
     "created_at": "2015-07-19T17:50:38Z",
     "event_data": [
         {
@@ -121,7 +121,7 @@
                 "color": "c7def8",
                 "name": "inventory"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/360775740"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/360775740"
         },
         {
             "actor": {
@@ -152,32 +152,32 @@
                 "color": "663399",
                 "name": "waiting for info from op"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/366484491"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/366484491"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/312/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/312",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/312/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/312",
     "id": 95935641,
     "labels": [
         {
             "color": "c7def8",
             "name": "inventory",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/inventory"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/inventory"
         },
         {
             "color": "663399",
             "name": "waiting info from op",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/waiting%20info%20from%20op"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/waiting%20info%20from%20op"
         }
     ],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/312/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/312/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 312,
     "state": "open",
     "title": "The deposit operation goes stuck when playing online",
     "updated_at": "2015-07-27T20:05:01Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/312",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/312",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/5508988?v=3",
         "events_url": "https://api.github.com/users/Darker/events{/privacy}",

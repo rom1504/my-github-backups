@@ -6,11 +6,11 @@
         {
             "body": "That means we might send position updates faster than every 50ms. That's probably not a problem though.\r\nAre you sure \"force looking\" is ok though ? look at that line https://github.com/andrewrk/mineflayer/blob/master/lib/plugins/physics.js#L238\r\nIs the vanilla client properly displaying the bot look with this change ?\r\n\r\n> 22:15 <+Thinkofdeath> rom1504: sending it faster will cause a few issues, namely things like health regen\r\n> 22:16 <+ammar2> Thinkofdeath: really? it's not aggregated across multiple movements?\r\n> 22:17 <+Thinkofdeath> nope, movement has been broken for years :P\r\n> 22:17 <+Thinkofdeath> its a hard issue to fix\r\n\r\nSo actually it seems sending faster than every 50ms might cause problem, this means we should probably put the `bot.once('move', function() {` in `bot.look` and add a callback to bot.look and then use that in bot.dig and bot.activateBlock.\r\n\r\nWe could avoid using force with something similar (put a `bot.on('move'` and check for yaw until we are at the proper yaw and then call the callback)",
             "created_at": "2015-05-24T20:18:11Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/292#issuecomment-105058804",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/292#issuecomment-105058804",
             "id": 105058804,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/292",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/292",
             "updated_at": "2015-05-24T20:24:48Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/105058804",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/105058804",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "I did that in a7ba46e7473a73a7dc428476fde6554a8fd754c4 .\r\nThat's a better fix : no force move needed, no sending position faster than every 50ms needed.\r\nThat should fix your pb too on your modded server ;)",
             "created_at": "2015-05-24T21:00:12Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/292#issuecomment-105061863",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/292#issuecomment-105061863",
             "id": 105061863,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/292",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/292",
             "updated_at": "2015-05-24T21:00:12Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/105061863",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/105061863",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Nice, thanks!",
             "created_at": "2015-05-24T21:42:59Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/292#issuecomment-105064103",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/292#issuecomment-105064103",
             "id": 105064103,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/292",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/292",
             "updated_at": "2015-05-24T21:42:59Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/105064103",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/105064103",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
                 "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
@@ -89,7 +89,7 @@
         }
     ],
     "comments": 3,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/292/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/292/comments",
     "created_at": "2015-05-24T00:52:04Z",
     "event_data": [
         {
@@ -121,7 +121,7 @@
                 "from": "Send position immediately after look() is called",
                 "to": "Look immediately when digging or placing a block"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/312491925"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/312491925"
         },
         {
             "actor": {
@@ -152,7 +152,7 @@
                 "from": "Look immediately when digging or placing a block",
                 "to": "Look immediately when digging or activating a block"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/312491998"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/312491998"
         },
         {
             "actor": {
@@ -179,7 +179,7 @@
             "created_at": "2015-05-24T21:00:12Z",
             "event": "closed",
             "id": 312651863,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/312651863"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/312651863"
         },
         {
             "actor": {
@@ -206,27 +206,27 @@
             "created_at": "2015-05-24T21:46:49Z",
             "event": "head_ref_deleted",
             "id": 312658673,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/312658673"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/312658673"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/292/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/pull/292",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/292/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/pull/292",
     "id": 80002575,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/292/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/292/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 292,
     "pull_request": {
-        "diff_url": "https://github.com/andrewrk/mineflayer/pull/292.diff",
-        "html_url": "https://github.com/andrewrk/mineflayer/pull/292",
-        "patch_url": "https://github.com/andrewrk/mineflayer/pull/292.patch",
-        "url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/292"
+        "diff_url": "https://github.com/PrismarineJS/mineflayer/pull/292.diff",
+        "html_url": "https://github.com/PrismarineJS/mineflayer/pull/292",
+        "patch_url": "https://github.com/PrismarineJS/mineflayer/pull/292.patch",
+        "url": "https://api.github.com/repos/PrismarineJS/mineflayer/pulls/292"
     },
     "state": "closed",
     "title": "Look immediately when digging or activating a block",
     "updated_at": "2015-05-24T21:46:49Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/292",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/292",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
         "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",

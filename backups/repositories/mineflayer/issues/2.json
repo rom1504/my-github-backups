@@ -6,11 +6,11 @@
         {
             "body": "Thanks for pointing that out; you are absolutely right. I was aware of this\nissue; the fact that one of the public data structures has a bitfield is a\nbug introduced when I refactored mineflayer from an application to a\nlibrary. I don't think it is as bad as you think, however, as the networking\ncode reads the packets in a carefully safe and portable manner (without\nusing bitfields), and some of the data is simply stored in memory in\nbitfields. This was efficient and reliable, until we needed to expose that\ndata structure over a C API. Now that needs to be changed. Again, thank you\nfor pointing that out; I had not noticed that I'd let that slip.\n\nOn Sun, May 29, 2011 at 11:22 AM, DylanLukes <\nreply@reply.github.com>wrote:\n\n> I'm just commenting to mention that your use of bitfields for sub-byte\n> sizes is not portable or safe, since the actual ordering of the bits, and\n> their storage/alignment/padding varies by system.\n>\n> Simply put, your packets may suddenly cease to work on other\n> systems/compilers, if those nibbles are individually padded to a full byte\n> (which can happen).\n>\n> --\n> Reply to this email directly or view it on GitHub:\n> https://github.com/superjoe30/mineflayer/issues/2\n>",
             "created_at": "2011-05-31T07:58:58Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/2#issuecomment-1265514",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/2#issuecomment-1265514",
             "id": 1265514,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/2",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/2",
             "updated_at": "2011-05-31T07:58:58Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/1265514",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/1265514",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "You probably want to store them as Minecraft stores them on disk, one plane for each type of data.\n\nubyte blocks[16][16]128];\nubyte metadata[16][16][128/2]; // Half bytes\nubyte blocklight[16][16][128/2]; // Half bytes\nubyte sunlight[16][16][128/2]; // Half bytes\n\nThis is at least how Charged Miners expects them.\n",
             "created_at": "2011-06-06T11:26:07Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/2#issuecomment-1308597",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/2#issuecomment-1308597",
             "id": 1308597,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/2",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/2",
             "updated_at": "2011-06-06T11:26:07Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/1308597",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/1308597",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/57528?v=3",
                 "events_url": "https://api.github.com/users/Wallbraker/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "We can make up whatever structure we want now for blocks and items. Since Issue #10, we're storing chunk data in memory in notch's format, so the bitfield packing is not even used anymore to save space.",
             "created_at": "2011-06-14T18:24:24Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/2#issuecomment-1368085",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/2#issuecomment-1368085",
             "id": 1368085,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/2",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/2",
             "updated_at": "2011-06-14T18:24:24Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/1368085",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/1368085",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -89,7 +89,7 @@
         }
     ],
     "comments": 3,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/2/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/2/comments",
     "created_at": "2011-05-29T18:22:29Z",
     "event_data": [
         {
@@ -117,7 +117,7 @@
             "created_at": "2011-05-29T18:22:29Z",
             "event": "subscribed",
             "id": 909001,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/909001"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/909001"
         },
         {
             "actor": {
@@ -144,7 +144,7 @@
             "created_at": "2011-05-31T07:58:58Z",
             "event": "subscribed",
             "id": 929691,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/929691"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/929691"
         },
         {
             "actor": {
@@ -171,7 +171,7 @@
             "created_at": "2011-06-06T11:26:07Z",
             "event": "subscribed",
             "id": 1032864,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1032864"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1032864"
         },
         {
             "actor": {
@@ -198,7 +198,7 @@
             "created_at": "2011-06-14T18:24:24Z",
             "event": "subscribed",
             "id": 1191170,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1191170"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1191170"
         },
         {
             "actor": {
@@ -221,11 +221,11 @@
                 "url": "https://api.github.com/users/thejoshwolfe"
             },
             "commit_id": "27201f15ca94d3ea5d4cb6b8fe4299c13d84c081",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/27201f15ca94d3ea5d4cb6b8fe4299c13d84c081",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/27201f15ca94d3ea5d4cb6b8fe4299c13d84c081",
             "created_at": "2011-06-14T18:34:13Z",
             "event": "closed",
             "id": 1191366,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1191366"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1191366"
         },
         {
             "actor": {
@@ -248,25 +248,25 @@
                 "url": "https://api.github.com/users/roblabla"
             },
             "commit_id": "b935e618b0200f469a5adaef906bc32164c11c2e",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/b935e618b0200f469a5adaef906bc32164c11c2e",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/b935e618b0200f469a5adaef906bc32164c11c2e",
             "created_at": "2014-04-27T06:02:39Z",
             "event": "referenced",
             "id": 115452702,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/115452702"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/115452702"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/2/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/2",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/2/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/2",
     "id": 971093,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/2/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/2/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 2,
     "state": "closed",
     "title": "Don't use bitfields in mineflayer_Block and mineflayer_Item",
     "updated_at": "2011-06-14T18:34:13Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/2",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/2",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/250114?v=3",
         "events_url": "https://api.github.com/users/DylanLukes/events{/privacy}",

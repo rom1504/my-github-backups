@@ -6,11 +6,11 @@
         {
             "body": "Can you add doc for these functions ? (so we don't have to add lot and lot of docs later)",
             "created_at": "2015-12-06T23:09:47Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/145#issuecomment-162363507",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/145#issuecomment-162363507",
             "id": 162363507,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/145",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/145",
             "updated_at": "2015-12-06T23:09:47Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162363507",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162363507",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Oh well, I kind of failed my merge, but all the commits are in master now.",
             "created_at": "2015-12-07T00:05:02Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/145#issuecomment-162377945",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/145#issuecomment-162377945",
             "id": 162377945,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/145",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/145",
             "updated_at": "2015-12-07T00:05:02Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162377945",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162377945",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "@rom1504, we should really start thinking about a way to store all of this stuff like a function that stores key-values? It would be good to start saving info on players.",
             "created_at": "2015-12-07T12:05:47Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/145#issuecomment-162505936",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/145#issuecomment-162505936",
             "id": 162505936,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/145",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/145",
             "updated_at": "2015-12-07T12:05:47Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162505936",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162505936",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/8526903?v=3",
                 "events_url": "https://api.github.com/users/mhsjlw/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "@mhsjlw yes, but we probably want to start by using the vanilla storage format",
             "created_at": "2015-12-07T12:20:43Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/145#issuecomment-162509742",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/145#issuecomment-162509742",
             "id": 162509742,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/145",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/145",
             "updated_at": "2015-12-07T12:20:43Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162509742",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162509742",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "Do we really need to do that? I think it would make more sense maybe just making a wrapper around an sqlite3 server that starts when flying-squid does, then just make methods for storing data in the database. Then, if we wanted to we could make a converter that converts the database to world format and so on so forth. Also, we could add abilities to add different databases other than sqlite3 like PostgreSQL and MongoDB and MySQL",
             "created_at": "2015-12-07T13:24:47Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/145#issuecomment-162522899",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/145#issuecomment-162522899",
             "id": 162522899,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/145",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/145",
             "updated_at": "2015-12-07T13:24:47Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162522899",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162522899",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/8526903?v=3",
                 "events_url": "https://api.github.com/users/mhsjlw/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "@mhsjlw I think we should be able to use different backend, but the default should be vanilla.\r\n\r\nBut if you want to start working on a non-vanilla backend, feel free to ;)",
             "created_at": "2015-12-07T13:31:22Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/145#issuecomment-162525432",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/145#issuecomment-162525432",
             "id": 162525432,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/145",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/145",
             "updated_at": "2015-12-07T13:31:22Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162525432",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162525432",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "also see https://github.com/PrismarineJS/prismarine-world/issues/11",
             "created_at": "2015-12-07T13:31:49Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/145#issuecomment-162525491",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/145#issuecomment-162525491",
             "id": 162525491,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/145",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/145",
             "updated_at": "2015-12-07T13:31:49Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162525491",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162525491",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -201,7 +201,7 @@
         }
     ],
     "comments": 7,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/145/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/145/comments",
     "created_at": "2015-12-06T22:57:54Z",
     "event_data": [
         {
@@ -225,11 +225,11 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "3becd22307fe6f311835430fd8144a06fb58d59a",
-            "commit_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/3becd22307fe6f311835430fd8144a06fb58d59a",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/3becd22307fe6f311835430fd8144a06fb58d59a",
             "created_at": "2015-12-07T00:03:11Z",
             "event": "referenced",
             "id": 483887619,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/483887619"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/483887619"
         },
         {
             "actor": {
@@ -256,7 +256,7 @@
             "created_at": "2015-12-07T00:05:02Z",
             "event": "closed",
             "id": 483889054,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/483889054"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/483889054"
         },
         {
             "actor": {
@@ -283,7 +283,7 @@
             "created_at": "2015-12-07T02:51:47Z",
             "event": "head_ref_deleted",
             "id": 483952009,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/483952009"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/483952009"
         },
         {
             "actor": {
@@ -310,7 +310,7 @@
             "created_at": "2015-12-07T12:05:47Z",
             "event": "mentioned",
             "id": 484312940,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/484312940"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/484312940"
         },
         {
             "actor": {
@@ -337,7 +337,7 @@
             "created_at": "2015-12-07T12:05:47Z",
             "event": "subscribed",
             "id": 484312942,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/484312942"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/484312942"
         },
         {
             "actor": {
@@ -364,7 +364,7 @@
             "created_at": "2015-12-07T12:20:43Z",
             "event": "mentioned",
             "id": 484324773,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/484324773"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/484324773"
         },
         {
             "actor": {
@@ -391,7 +391,7 @@
             "created_at": "2015-12-07T12:20:43Z",
             "event": "subscribed",
             "id": 484324774,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/484324774"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/484324774"
         },
         {
             "actor": {
@@ -418,7 +418,7 @@
             "created_at": "2015-12-07T13:31:22Z",
             "event": "mentioned",
             "id": 484382324,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/484382324"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/484382324"
         },
         {
             "actor": {
@@ -445,27 +445,27 @@
             "created_at": "2015-12-07T13:31:22Z",
             "event": "subscribed",
             "id": 484382325,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/484382325"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/484382325"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/145/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/pull/145",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/145/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/pull/145",
     "id": 120667694,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/145/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/145/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 145,
     "pull_request": {
-        "diff_url": "https://github.com/mhsjlw/flying-squid/pull/145.diff",
-        "html_url": "https://github.com/mhsjlw/flying-squid/pull/145",
-        "patch_url": "https://github.com/mhsjlw/flying-squid/pull/145.patch",
-        "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/145"
+        "diff_url": "https://github.com/PrismarineJS/flying-squid/pull/145.diff",
+        "html_url": "https://github.com/PrismarineJS/flying-squid/pull/145",
+        "patch_url": "https://github.com/PrismarineJS/flying-squid/pull/145.patch",
+        "url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/145"
     },
     "state": "closed",
     "title": "LOL LMAO ROFL XD XD XP XP XP",
     "updated_at": "2015-12-07T13:31:49Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/145",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/145",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
         "events_url": "https://api.github.com/users/demipixel/events{/privacy}",

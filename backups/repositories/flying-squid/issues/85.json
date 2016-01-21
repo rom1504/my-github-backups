@@ -6,11 +6,11 @@
         {
             "body": "Finally got to see the error:\r\n```\r\nevents.js:72\r\n        throw er; // Unhandled 'error' event\r\n              ^\r\nError: Read error for ping_start : Packet data not entirely read :\r\n        {\"metadata\":{\"name\":\"ping_start\",\"id\":0,\"state\":\"status\"},\"data\":{},\"buffer\":[0,47,12,57,52,46,50,51,46,53,56,46,49,52,56,99,221,1]}\r\n    at parsePacketData (/home/flying-squid/auto-squid/flying-squid/node_modules/minecraft-protocol/dist/transforms/serializer.js:159:37)\r\n\r\n```\r\nNot sure what's up with that.",
             "created_at": "2015-10-25T01:47:25Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/85#issuecomment-150880098",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/85#issuecomment-150880098",
             "id": 150880098,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/85",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/85",
             "updated_at": "2015-10-25T01:47:25Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/150880098",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/150880098",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Could it be http://wiki.vg/Protocol#Legacy_Server_List_Ping ?\r\n\r\n@roblabla any clue on that ?",
             "created_at": "2015-10-25T04:08:38Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/85#issuecomment-150890245",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/85#issuecomment-150890245",
             "id": 150890245,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/85",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/85",
             "updated_at": "2015-10-25T04:08:38Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/150890245",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/150890245",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "@rom1504 I highly doubt that. Is it possible that we are leaking memory or the process is killing itself on your machine? I ran the server all night with no crashing",
             "created_at": "2015-10-25T11:12:37Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/85#issuecomment-150912630",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/85#issuecomment-150912630",
             "id": 150912630,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/85",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/85",
             "updated_at": "2015-10-25T11:12:37Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/150912630",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/150912630",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/8526903?v=3",
                 "events_url": "https://api.github.com/users/mhsjlw/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "This means our protocol info is wrong. ",
             "created_at": "2015-10-25T12:13:20Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/85#issuecomment-150918321",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/85#issuecomment-150918321",
             "id": 150918321,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/85",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/85",
             "updated_at": "2015-10-25T12:13:20Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/150918321",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/150918321",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "@mhsjlw that's because nobody added your server to its server lists.\r\nThis error up there happens in status mode, which is normally used for pinging (that happens when a server has been added to the vanilla client server list)\r\n\r\n@roblabla that or createServer is putting the server in the wrong state for some reason ( http://wiki.vg/Protocol#Legacy_Server_List_Ping might explain it)",
             "created_at": "2015-10-25T16:55:22Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/85#issuecomment-150941845",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/85#issuecomment-150941845",
             "id": 150941845,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/85",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/85",
             "updated_at": "2015-10-25T16:55:22Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/150941845",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/150941845",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "https://github.com/mhsjlw/flying-squid/blob/master/src/lib/serverPlugins/login.js#L11 you should add an error handler in there to avoid crashing the whole server and only disconnect the user anyway. Errors are no longer redirected to the server, so you have to handle both server errors (which are probably impossible to recover from anyway) and client errors (which shouldn't be impossible to recover from, just kick the client)",
             "created_at": "2015-10-26T07:03:53Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/85#issuecomment-151046220",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/85#issuecomment-151046220",
             "id": 151046220,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/85",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/85",
             "updated_at": "2015-10-26T07:04:39Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/151046220",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/151046220",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "I know. The error handler is there https://github.com/mhsjlw/flying-squid/blob/master/src/lib/playerPlugins/logout.js#L32\r\n\r\nProblem is we can't listen to the error event before login is emitted.\r\n\r\nSince we are in the status state here, it seems nobody logined yet, which makes sense (it seems likely there's always somebody with an open client pinging my server but unlikely that somebody connect every 45min)",
             "created_at": "2015-10-26T09:42:48Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/85#issuecomment-151080858",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/85#issuecomment-151080858",
             "id": 151080858,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/85",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/85",
             "updated_at": "2015-10-26T09:42:48Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/151080858",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/151080858",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "Flying-squid only knows about the client at that point https://github.com/PrismarineJS/node-minecraft-protocol/blob/master/src/createServer.js#L217 , if an error happens before, crash.",
             "created_at": "2015-10-26T09:48:01Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/85#issuecomment-151083285",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/85#issuecomment-151083285",
             "id": 151083285,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/85",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/85",
             "updated_at": "2015-10-26T09:48:01Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/151083285",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/151083285",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "Ah, if we listen to the 'connection' nmp server event, we can plug the error handler before anything else happens.\r\n\r\nEdit: yeah no that really wouldn't be convenient since node events are ordered, it would have to be done before createServer is called.. Well I guess we might still do that, I'll try.\r\n\r\nEdit2: well no, it's not possible to do a on a null, so that solution is not possible, this requires some nmp changes.",
             "created_at": "2015-10-26T10:18:07Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/85#issuecomment-151091017",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/85#issuecomment-151091017",
             "id": 151091017,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/85",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/85",
             "updated_at": "2015-10-26T10:30:13Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/151091017",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/151091017",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -258,11 +258,11 @@
         {
             "body": "The buffer is [0,47,12,57,52,46,50,51,46,53,56,46,49,52,56,99,221,1]\r\n99*256+221 == 25565\r\n\r\n47 is the version number \r\n\r\n0 is the packet id\r\n\r\nthis looks like http://wiki.vg/Protocol#Handshake\r\n\r\nWhy is it getting a Handshake packet in status state ?",
             "created_at": "2015-10-26T11:41:47Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/85#issuecomment-151107728",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/85#issuecomment-151107728",
             "id": 151107728,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/85",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/85",
             "updated_at": "2015-10-26T11:44:26Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/151107728",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/151107728",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -286,11 +286,11 @@
         {
             "body": "Err no, not \"fix\", \"try to fix\" github.",
             "created_at": "2015-10-26T21:34:17Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/85#issuecomment-151291189",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/85#issuecomment-151291189",
             "id": 151291189,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/85",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/85",
             "updated_at": "2015-10-26T21:34:17Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/151291189",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/151291189",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -314,11 +314,11 @@
         {
             "body": "Okay now the crash stopped 20ff77bc1d8bb5d1ff367017d58ce4a20083f238\r\n\r\nthe same error remains though.",
             "created_at": "2015-10-26T22:10:07Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/85#issuecomment-151298639",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/85#issuecomment-151298639",
             "id": 151298639,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/85",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/85",
             "updated_at": "2015-10-26T22:10:07Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/151298639",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/151298639",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -342,11 +342,11 @@
         {
             "body": "It's always the same ip doing it. I think it's a badly coded bot.\r\nThat probably mean the nmp error is normal.",
             "created_at": "2015-10-27T02:07:28Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/85#issuecomment-151343659",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/85#issuecomment-151343659",
             "id": 151343659,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/85",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/85",
             "updated_at": "2015-10-27T02:07:28Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/151343659",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/151343659",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -370,11 +370,11 @@
         {
             "body": "I banned the ip from my server. Let's wait some time, if I don't get that error anymore, I'll close.",
             "created_at": "2015-11-06T16:10:46Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/85#issuecomment-154451928",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/85#issuecomment-154451928",
             "id": 154451928,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/85",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/85",
             "updated_at": "2015-11-06T16:10:46Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/154451928",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/154451928",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -398,11 +398,11 @@
         {
             "body": "Ok, problem solved.",
             "created_at": "2015-11-06T18:19:58Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/85#issuecomment-154491380",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/85#issuecomment-154491380",
             "id": 154491380,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/85",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/85",
             "updated_at": "2015-11-06T18:19:58Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/154491380",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/154491380",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -425,7 +425,7 @@
         }
     ],
     "comments": 15,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/85/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/85/comments",
     "created_at": "2015-10-23T16:22:42Z",
     "event_data": [
         {
@@ -457,7 +457,7 @@
                 "color": "fc2929",
                 "name": "bug"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/443989449"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/443989449"
         },
         {
             "actor": {
@@ -484,7 +484,7 @@
             "created_at": "2015-10-25T04:08:38Z",
             "event": "mentioned",
             "id": 444758163,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/444758163"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/444758163"
         },
         {
             "actor": {
@@ -511,7 +511,7 @@
             "created_at": "2015-10-25T04:08:38Z",
             "event": "subscribed",
             "id": 444758164,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/444758164"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/444758164"
         },
         {
             "actor": {
@@ -538,7 +538,7 @@
             "created_at": "2015-10-25T11:12:37Z",
             "event": "mentioned",
             "id": 444819911,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/444819911"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/444819911"
         },
         {
             "actor": {
@@ -565,7 +565,7 @@
             "created_at": "2015-10-25T11:12:37Z",
             "event": "subscribed",
             "id": 444819912,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/444819912"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/444819912"
         },
         {
             "actor": {
@@ -592,7 +592,7 @@
             "created_at": "2015-10-25T16:55:22Z",
             "event": "mentioned",
             "id": 444900315,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/444900315"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/444900315"
         },
         {
             "actor": {
@@ -619,7 +619,7 @@
             "created_at": "2015-10-25T16:55:22Z",
             "event": "subscribed",
             "id": 444900316,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/444900316"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/444900316"
         },
         {
             "actor": {
@@ -646,7 +646,7 @@
             "created_at": "2015-10-25T16:55:22Z",
             "event": "mentioned",
             "id": 444900317,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/444900317"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/444900317"
         },
         {
             "actor": {
@@ -673,7 +673,7 @@
             "created_at": "2015-10-25T16:55:22Z",
             "event": "subscribed",
             "id": 444900318,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/444900318"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/444900318"
         },
         {
             "actor": {
@@ -696,11 +696,11 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "20ff77bc1d8bb5d1ff367017d58ce4a20083f238",
-            "commit_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/20ff77bc1d8bb5d1ff367017d58ce4a20083f238",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/20ff77bc1d8bb5d1ff367017d58ce4a20083f238",
             "created_at": "2015-10-26T21:33:58Z",
             "event": "closed",
             "id": 446096954,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/446096954"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/446096954"
         },
         {
             "actor": {
@@ -727,7 +727,7 @@
             "created_at": "2015-10-26T21:34:19Z",
             "event": "reopened",
             "id": 446097258,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/446097258"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/446097258"
         },
         {
             "actor": {
@@ -754,27 +754,27 @@
             "created_at": "2015-11-06T18:19:58Z",
             "event": "closed",
             "id": 457215229,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/457215229"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/457215229"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/85/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/issues/85",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/85/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/issues/85",
     "id": 113053544,
     "labels": [
         {
             "color": "fc2929",
             "name": "bug",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/bug"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/labels/bug"
         }
     ],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/85/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/85/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 85,
     "state": "closed",
     "title": "Crash at 45min",
     "updated_at": "2015-11-06T18:19:58Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/85",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/85",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

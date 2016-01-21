@@ -6,11 +6,11 @@
         {
             "body": "> several files\r\n\r\nAgreed. Then progress could be tracked by looking at the list of files :) The test so far is lending itself nicely to a framework and a list of tests that use the framework, so the file separation will be pretty intuitive.",
             "created_at": "2015-03-27T19:13:47Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/239#issuecomment-87061564",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/239#issuecomment-87061564",
             "id": 87061564,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/239",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/239",
             "updated_at": "2015-03-27T19:13:47Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87061564",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87061564",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "It would be really nice to have a test for crafting, having to see this kind of issue #244 manually when testing rbot is really not great.\r\nI wonder how much time the test would take for crafting every recipe (giving himself the needed items by the creative api)",
             "created_at": "2015-03-29T02:30:19Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/239#issuecomment-87342357",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/239#issuecomment-87342357",
             "id": 87342357,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/239",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/239",
             "updated_at": "2015-03-29T02:30:19Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87342357",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87342357",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "see if we can do that for superflat.js https://github.com/PrismarineJS/node-minecraft-protocol/blob/master/test/test.js#L237 (to add superflat.js to circle ci)\r\n@roblabla did you put the minecraft_server.jar in circle ci somehow ? why do you create the directory of the minecraft_server if the jar is already there ?\r\n\r\nalso using mocha would be better.",
             "created_at": "2015-03-29T15:21:26Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/239#issuecomment-87427136",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/239#issuecomment-87427136",
             "id": 87427136,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/239",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/239",
             "updated_at": "2015-03-29T15:26:05Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87427136",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87427136",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "If you look at what's under circle.yml, you'll notice that the client tests aren't run on it. So tests based on minecraft_server.jar aren't actually run.",
             "created_at": "2015-03-29T15:32:08Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/239#issuecomment-87427741",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/239#issuecomment-87427741",
             "id": 87427741,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/239",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/239",
             "updated_at": "2015-03-29T15:32:08Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87427741",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87427741",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "Oh right. I think it would be possible to wget the .jar to test it though, I'll try that.",
             "created_at": "2015-03-29T15:34:59Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/239#issuecomment-87428419",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/239#issuecomment-87428419",
             "id": 87428419,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/239",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/239",
             "updated_at": "2015-03-29T15:34:59Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87428419",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87428419",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "node-minecraft-protocol now tests that, so we might just do the same here (https://github.com/PrismarineJS/node-minecraft-protocol/blob/master/circle.yml#L11)",
             "created_at": "2015-03-29T19:19:10Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/239#issuecomment-87459110",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/239#issuecomment-87459110",
             "id": 87459110,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/239",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/239",
             "updated_at": "2015-03-29T19:19:10Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87459110",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87459110",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "now run automatically with circle ci (see 1f0fcf64f86f638d76e856f527e79586d1bc08b3) and ported to mocha (also divided into several files)",
             "created_at": "2015-03-30T01:03:34Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/239#issuecomment-87505701",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/239#issuecomment-87505701",
             "id": 87505701,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/239",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/239",
             "updated_at": "2015-03-30T01:03:34Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87505701",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87505701",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "In order to add a test now you only need to create a file in https://github.com/andrewrk/mineflayer/tree/master/test/externalTests\r\n\r\nAn example : https://github.com/andrewrk/mineflayer/blob/master/test/externalTests/digAndBuild.js\r\n\r\nThat file needs to export a function taking as parameter the bot object and a done callback, it should contain asserts to test if the tested functionality failed.",
             "created_at": "2015-03-30T01:06:23Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/239#issuecomment-87506334",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/239#issuecomment-87506334",
             "id": 87506334,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/239",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/239",
             "updated_at": "2015-03-30T01:26:35Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87506334",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87506334",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "see https://github.com/andrewrk/mineflayer/blob/master/test/externalTest.js#L11 if you want to use a server you already started instead of automatically starting one.",
             "created_at": "2015-03-30T01:53:03Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/239#issuecomment-87511064",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/239#issuecomment-87511064",
             "id": 87511064,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/239",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/239",
             "updated_at": "2015-03-30T02:03:04Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87511064",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87511064",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -258,11 +258,11 @@
         {
             "body": "@thejoshwolfe I'm not exactly sure why you need to fly for the dirtCollectTest https://github.com/andrewrk/mineflayer/blob/master/test/externalTests/digAndBuild.js#L8 ?\r\nMaybe this should go into beforeEach (https://github.com/andrewrk/mineflayer/blob/master/test/externalTest.js#L59) or before (https://github.com/andrewrk/mineflayer/blob/master/test/externalTest.js#L35) ? ",
             "created_at": "2015-03-30T02:01:20Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/239#issuecomment-87512597",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/239#issuecomment-87512597",
             "id": 87512597,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/239",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/239",
             "updated_at": "2015-03-30T02:03:40Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87512597",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87512597",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -286,11 +286,11 @@
         {
             "body": "I wanted to test the falling physics and how falling interacted with a newly placed and destroyed block. I could have jumped, i suppose, but flying seemed less sensitive to the subtle implementation of the jumping physics.\r\n\r\ni don't think it's appropriate to do it for every test.",
             "created_at": "2015-03-30T02:06:12Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/239#issuecomment-87513081",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/239#issuecomment-87513081",
             "id": 87513081,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/239",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/239",
             "updated_at": "2015-03-30T02:06:12Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87513081",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87513081",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -314,11 +314,11 @@
         {
             "body": "Oh ok.\r\nI added a test for crafting, it only tests crafting 1 log into wood though, not every recipe.",
             "created_at": "2015-03-30T02:19:08Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/239#issuecomment-87515255",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/239#issuecomment-87515255",
             "id": 87515255,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/239",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/239",
             "updated_at": "2015-03-30T02:19:08Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87515255",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87515255",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -342,11 +342,11 @@
         {
             "body": "I think the info on how to add a test (https://github.com/andrewrk/mineflayer/issues/239#issuecomment-87506334) should probably go into a doc/contribute.md.",
             "created_at": "2015-03-30T02:22:47Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/239#issuecomment-87515617",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/239#issuecomment-87515617",
             "id": 87515617,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/239",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/239",
             "updated_at": "2015-03-30T02:22:47Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87515617",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87515617",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -370,11 +370,11 @@
         {
             "body": "I think what would be nice is having tests to cover all that's needed for examples/ so we don't have to check manually (https://github.com/andrewrk/mineflayer/issues/180) that the examples works again.",
             "created_at": "2015-03-31T13:05:19Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/239#issuecomment-88076075",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/239#issuecomment-88076075",
             "id": 88076075,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/239",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/239",
             "updated_at": "2015-03-31T13:05:19Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/88076075",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/88076075",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -398,11 +398,11 @@
         {
             "body": "I added a test to check if mineflayer can dig every block.\r\nSome block correctly cannot be placed, but placing a block is broken for some blocks. See the detail there https://github.com/andrewrk/mineflayer/blob/master/test/externalTests/digEverything.js#L8\r\n\r\nThe test takes 20min so it's not enabled in circle ci.",
             "created_at": "2015-04-05T21:29:27Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/239#issuecomment-89854656",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/239#issuecomment-89854656",
             "id": 89854656,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/239",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/239",
             "updated_at": "2015-04-05T21:29:27Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/89854656",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/89854656",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -426,11 +426,11 @@
         {
             "body": "I added some info on how to create a test there https://github.com/andrewrk/mineflayer/blob/master/doc/contribute.md#creating-an-external-test and created a new issue for crafting every recipe there https://github.com/andrewrk/mineflayer/issues/274\r\n\r\nSo I think this testing framework is in a decent state, what needs to be done is adding more tests, that can be handled in other issues.",
             "created_at": "2015-04-28T12:02:33Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/239#issuecomment-97035966",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/239#issuecomment-97035966",
             "id": 97035966,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/239",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/239",
             "updated_at": "2015-04-28T12:02:33Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/97035966",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/97035966",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -453,7 +453,7 @@
         }
     ],
     "comments": 16,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/239/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/239/comments",
     "created_at": "2015-03-27T19:10:03Z",
     "event_data": [
         {
@@ -485,7 +485,7 @@
                 "color": "fbca04",
                 "name": "testing"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/267199277"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/267199277"
         },
         {
             "actor": {
@@ -512,7 +512,7 @@
             "created_at": "2015-03-29T15:26:05Z",
             "event": "mentioned",
             "id": 267928691,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/267928691"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/267928691"
         },
         {
             "actor": {
@@ -539,7 +539,7 @@
             "created_at": "2015-03-29T15:26:05Z",
             "event": "subscribed",
             "id": 267928692,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/267928692"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/267928692"
         },
         {
             "actor": {
@@ -566,7 +566,7 @@
             "created_at": "2015-03-30T02:01:20Z",
             "event": "mentioned",
             "id": 268087422,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/268087422"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/268087422"
         },
         {
             "actor": {
@@ -593,7 +593,7 @@
             "created_at": "2015-03-30T02:01:20Z",
             "event": "subscribed",
             "id": 268087423,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/268087423"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/268087423"
         },
         {
             "actor": {
@@ -624,7 +624,7 @@
                 "from": "superflat.js",
                 "to": "External test"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/269533646"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/269533646"
         },
         {
             "actor": {
@@ -647,11 +647,11 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "5675cbd0dab18bd019771327f9ab8c40b4c9536f",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/5675cbd0dab18bd019771327f9ab8c40b4c9536f",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/5675cbd0dab18bd019771327f9ab8c40b4c9536f",
             "created_at": "2015-04-05T21:27:04Z",
             "event": "referenced",
             "id": 273735688,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/273735688"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/273735688"
         },
         {
             "actor": {
@@ -678,27 +678,27 @@
             "created_at": "2015-04-28T12:02:33Z",
             "event": "closed",
             "id": 291895296,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/291895296"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/291895296"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/239/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/239",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/239/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/239",
     "id": 64832869,
     "labels": [
         {
             "color": "fbca04",
             "name": "testing",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/testing"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/testing"
         }
     ],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/239/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/239/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 239,
     "state": "closed",
     "title": "External test",
     "updated_at": "2015-04-28T12:02:33Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/239",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/239",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

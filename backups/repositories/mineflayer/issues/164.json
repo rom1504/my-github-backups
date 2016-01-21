@@ -6,11 +6,11 @@
         {
             "body": "Using this reconnects but the events stop working, could anyone point me in the right direction?\r\n\r\n```\r\nbot.on('kicked', function(reason) {\r\n  console.log(\"I got kicked for\", reason, \"lol\");\r\n  bot.quit\r\n  bot.end\r\n  bot = mineflayer.createBot(options);\r\n});\r\n```",
             "created_at": "2013-11-29T16:58:52Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/164#issuecomment-29527589",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/164#issuecomment-29527589",
             "id": 29527589,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/164",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/164",
             "updated_at": "2013-11-29T16:59:46Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/29527589",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/29527589",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/916153?v=3",
                 "events_url": "https://api.github.com/users/JonnyD/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Seems like that code should work, although keep in mind that in JavaScript, `bot.quit` and `bot.end` do nothing - what you want are `bot.quit()` and `bot.end()`. ",
             "created_at": "2013-11-29T20:04:41Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/164#issuecomment-29535461",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/164#issuecomment-29535461",
             "id": 29535461,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/164",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/164",
             "updated_at": "2013-11-29T20:04:41Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/29535461",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/29535461",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "That error above looks like maybe if you get kicked, you're already disconnected, so you can't call `bot.quit()`. Try only calling `bot.end()` or calling neither and skip straight to the `bot = mineflayer.createBot(options)` part.",
             "created_at": "2013-11-29T20:06:03Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/164#issuecomment-29535510",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/164#issuecomment-29535510",
             "id": 29535510,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/164",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/164",
             "updated_at": "2013-11-29T20:06:03Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/29535510",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/29535510",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "Thanks for your response. I have tried this but it only works once. After being kicked the first time it reconnects but it then stops triggering events and because it stops triggering events (e.g. bot.on('kicked'..)) the next kick disconnects the bot forever. Any idea?\r\n\r\n```\r\nvar mineflayer = require('mineflayer');\r\n\r\nvar options = {\r\n  host: \"192.227.244.15\", // optional\r\n  port: 25565,       // optional\r\n  username: \"\", // email and password are required only for\r\n  password: \"\",          // online-mode=true servers\r\n};\r\n\r\nvar bot = mineflayer.createBot(options);\r\n\r\nbot.on('login', function() {\r\n  console.log(\"I logged in.\");\r\n  console.log(\"settings\", bot.settings);\r\n});\r\n\r\nbot.on('playerJoined', function(player) {\r\n  console.log(player.username + \" joined\");\r\n});\r\n\r\nbot.on('playerLeft', function(player) {\r\n  console.log(player.username + \" left\");\r\n});\r\n\r\nbot.on('kicked', function(reason) {\r\n  console.log(\"I got kicked for\", reason, \"lol\");\r\n  bot = mineflayer.createBot(options);\r\n});\r\n\r\nbot.on('spawn', function() {\r\n  console.log(\"I have spawned\");\r\n  console.log(\"game\", bot.game);\r\n});\r\n\r\nbot.on('death', function() {\r\n  bot.chat(\"I died x.x\");\r\n});\r\n```",
             "created_at": "2013-11-29T22:38:16Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/164#issuecomment-29540216",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/164#issuecomment-29540216",
             "id": 29540216,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/164",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/164",
             "updated_at": "2013-11-29T22:50:15Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/29540216",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/29540216",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/916153?v=3",
                 "events_url": "https://api.github.com/users/JonnyD/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "You're replacing the `bot` variable with a new object. The handlers you attached are all attached to the old reference. You need to attach your handlers to the new instances as well.",
             "created_at": "2013-11-29T22:57:15Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/164#issuecomment-29540706",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/164#issuecomment-29540706",
             "id": 29540706,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/164",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/164",
             "updated_at": "2013-11-29T22:57:15Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/29540706",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/29540706",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "Got it working like this but is it best practice? Coming from a Java & PHP background node.js isn't as intuitive to me.\r\n\r\n```\r\nvar mineflayer = require('mineflayer');\r\nvar options = {\r\n  //host: \"mc.civcraft.vg\",\r\n  host: \"192.227.244.15\",\r\n  port: 25565,\r\n  username: \"\",\r\n  password: \"\",\r\n};\r\n\r\nvar bot = mineflayer.createBot(options);\r\n\r\nbindEvents(bot);\r\n\r\nfunction bindEvents(bot) {\r\n    bot.on('login', function() {\r\n      console.log(\"I logged in.\");\r\n      console.log(\"settings\", bot.settings);\r\n    });\r\n\r\n    bot.on('kicked', function(reason) {\r\n      console.log(\"I got kicked for\", reason, \"lol\");\r\n\r\n      bot = mineflayer.createBot(options);\r\n      bindEvents(bot);\r\n    });\r\n}\r\n\r\n```",
             "created_at": "2013-11-30T18:07:11Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/164#issuecomment-29557539",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/164#issuecomment-29557539",
             "id": 29557539,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/164",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/164",
             "updated_at": "2013-11-30T18:07:11Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/29557539",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/29557539",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/916153?v=3",
                 "events_url": "https://api.github.com/users/JonnyD/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "Seems fine to me. As your code base grows you'll figure out what organization works best for you.",
             "created_at": "2013-11-30T19:33:57Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/164#issuecomment-29559249",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/164#issuecomment-29559249",
             "id": 29559249,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/164",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/164",
             "updated_at": "2013-11-30T19:33:57Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/29559249",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/29559249",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "Closed, issue seems fixed, comment if this needs a re-open",
             "created_at": "2014-04-21T22:48:17Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/164#issuecomment-40985901",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/164#issuecomment-40985901",
             "id": 40985901,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/164",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/164",
             "updated_at": "2014-04-21T22:48:27Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/40985901",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/40985901",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
                 "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
@@ -229,7 +229,7 @@
         }
     ],
     "comments": 8,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/164/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/164/comments",
     "created_at": "2013-11-29T16:28:09Z",
     "event_data": [
         {
@@ -257,21 +257,21 @@
             "created_at": "2014-04-21T22:48:17Z",
             "event": "closed",
             "id": 113669700,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/113669700"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/113669700"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/164/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/164",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/164/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/164",
     "id": 23500593,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/164/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/164/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 164,
     "state": "closed",
     "title": "Is it possible to reconnect automatically after being kicked?",
     "updated_at": "2014-04-21T22:48:27Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/164",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/164",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/916153?v=3",
         "events_url": "https://api.github.com/users/JonnyD/events{/privacy}",

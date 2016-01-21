@@ -6,11 +6,11 @@
         {
             "body": "So we mostly agreed on a pattern here with @demipixel .\r\nHave a \"useItem\", a \"useBlock\" and a \"placeBlock\" each emitted in the \"block_place\" packet listener.\r\nThey should be emitted depending on some conditions (shift-clicking, what you are holding, what is where you are clicking)\r\n\r\nThese events/behaviors can be used for example in chest.js , for notes, and for all the various cases of item uses (see also #9  and \"placing items\" like bed/doors/...)",
             "created_at": "2015-12-14T17:22:04Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/106#issuecomment-164500876",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/106#issuecomment-164500876",
             "id": 164500876,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/106",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/106",
             "updated_at": "2015-12-14T17:22:04Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/164500876",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/164500876",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "It seems like \"useBlock\" will only really work on furnaces, crafting benches, chests, enchantment tables, etc (anything that opens a window, except for villagers, that's a useEntity)\r\n\r\nEDIT: Also redstone stuff like pressing a button or pulling a lever",
             "created_at": "2015-12-14T17:27:31Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/106#issuecomment-164502287",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/106#issuecomment-164502287",
             "id": 164502287,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/106",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/106",
             "updated_at": "2015-12-14T17:27:51Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/164502287",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/164502287",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -61,7 +61,7 @@
         }
     ],
     "comments": 2,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/106/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/106/comments",
     "created_at": "2015-11-19T22:08:24Z",
     "event_data": [
         {
@@ -93,7 +93,7 @@
                 "color": "4492cc",
                 "name": "items"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/488856938"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/488856938"
         },
         {
             "actor": {
@@ -120,7 +120,7 @@
             "created_at": "2015-12-14T17:22:04Z",
             "event": "mentioned",
             "id": 491234809,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/491234809"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/491234809"
         },
         {
             "actor": {
@@ -147,27 +147,27 @@
             "created_at": "2015-12-14T17:22:04Z",
             "event": "subscribed",
             "id": 491234811,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/491234811"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/491234811"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/106/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/issues/106",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/106/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/issues/106",
     "id": 117919272,
     "labels": [
         {
             "color": "4492cc",
             "name": "items",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/items"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/labels/items"
         }
     ],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/106/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/106/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 106,
     "state": "open",
     "title": "Using items",
     "updated_at": "2015-12-14T17:27:51Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/106",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/106",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

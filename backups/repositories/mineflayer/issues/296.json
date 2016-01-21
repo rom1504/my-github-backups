@@ -24,11 +24,11 @@
         {
             "body": "Comments are nice, and creating new functions is nice too indeed !\r\n\r\nSome problems :\r\n* I see you uncommented some stuff in chatterbox.js : isn't it too spammy ?\r\n* the `bot.on('experience` in chest.js was useful for the enchantment table (some enchantment can only be done at some level)\r\n* I don't really like switch over if / else if, but ok I guess we can do that. What's the point of these switch true in chest.js though ?\r\n\r\nOk so my main complaint is about these switch case, imho if/else if are better. But we can improve on if/else if with something like this : \r\n```js\r\nvar commands = {\r\n /^list$/:listInventory,\r\n /^toss \\d+ \\w+$/:tossItem\r\n}\r\nfor(var regex in Object.keys(commands))\r\n{\r\n  var results=message.exec(regex);\r\n  if(results!=null)\r\n  {\r\n   results.shift();\r\n   var f=commands[regex];\r\n   f.apply(null,results);\r\n   break;\r\n  }\r\n}\r\n```\r\nIt makes the examples a little bit more complex but maybe that's worth it ?",
             "created_at": "2015-05-31T12:12:59Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/296#issuecomment-107166492",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/296#issuecomment-107166492",
             "id": 107166492,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/296",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/296",
             "updated_at": "2015-05-31T12:12:59Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/107166492",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/107166492",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -52,11 +52,11 @@
         {
             "body": "Just made a few more changes.\r\n\r\n@rom1504:\r\n* I tried chatterbox.js and it seems fine but I tested it on a server that was pretty much empty, it may cause some problems on a server with a lot of players but I think in that case it shouldn't be used anyway since it's just an example.\r\n* You're right, I didn't notice that, I just put it back\r\n* I used `switch(true)` when one or more strings are matched against a regex to keep things consistent between examples.\r\n\r\nI personally like switches more because I found them easier to read, but I guess your idea might be even better. I don't think there's a way to use a regex as key but something like this should work:\r\n\r\n```javascript\r\nvar commands = {\r\n  '^list$': sayItems,\r\n  '^toss (\\\\d+) (\\\\w+)$': tossItem,\r\n};\r\n\r\nbot.on('chat', function(username, message) {\r\n  if (username === bot.username) return;\r\n  parseCommand(message);\r\n\r\n  function parseCommand(message) {\r\n    var match;\r\n    for(var key in commands) {\r\n      match = new RegExp(key).exec(message);\r\n      if(match) break;\r\n    }\r\n    commands[key].apply(null, match.slice(1));\r\n    return match;\r\n  }\r\n});\r\n```\r\n",
             "created_at": "2015-06-01T01:35:32Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/296#issuecomment-107278453",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/296#issuecomment-107278453",
             "id": 107278453,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/296",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/296",
             "updated_at": "2015-06-01T01:37:02Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/107278453",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/107278453",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
                 "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
@@ -80,11 +80,11 @@
         {
             "body": "I do intend to merge this but I need to look at some of the stuff, maybe add a commit or two, didn't have time to do that recently ;)",
             "created_at": "2015-06-20T01:10:15Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/296#issuecomment-113690287",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/296#issuecomment-113690287",
             "id": 113690287,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/296",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/296",
             "updated_at": "2015-06-20T01:10:15Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/113690287",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/113690287",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -108,11 +108,11 @@
         {
             "body": "I finally took time to merge this !\r\nThanks for this PR @Pietro210 \r\nIn the end, the swich case look okay, we might put in place that solution with an array of commands later.\r\n\r\nI added a commit to put findBlock in blocks.js, it's better to have the function in only one place in mineflayer and it's a good thing to have kept a similar API to mineflayer-blockfinder function.",
             "created_at": "2015-07-21T04:30:27Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/296#issuecomment-123153333",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/296#issuecomment-123153333",
             "id": 123153333,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/296",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/296",
             "updated_at": "2015-07-21T04:30:27Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/123153333",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/123153333",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -135,7 +135,7 @@
         }
     ],
     "comments": 4,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/296/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/296/comments",
     "created_at": "2015-05-31T02:51:30Z",
     "event_data": [
         {
@@ -163,7 +163,7 @@
             "created_at": "2015-06-01T01:35:32Z",
             "event": "mentioned",
             "id": 318333987,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/318333987"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/318333987"
         },
         {
             "actor": {
@@ -190,7 +190,7 @@
             "created_at": "2015-06-01T01:35:32Z",
             "event": "subscribed",
             "id": 318333988,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/318333988"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/318333988"
         },
         {
             "actor": {
@@ -236,7 +236,7 @@
             "created_at": "2015-06-20T01:10:26Z",
             "event": "assigned",
             "id": 335753842,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/335753842"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/335753842"
         },
         {
             "actor": {
@@ -259,11 +259,11 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "8c71af23ce99bb9a4333c2780d250efb741a3cda",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/8c71af23ce99bb9a4333c2780d250efb741a3cda",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/8c71af23ce99bb9a4333c2780d250efb741a3cda",
             "created_at": "2015-07-21T04:27:54Z",
             "event": "merged",
             "id": 360753469,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/360753469"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/360753469"
         },
         {
             "actor": {
@@ -290,7 +290,7 @@
             "created_at": "2015-07-21T04:27:54Z",
             "event": "closed",
             "id": 360753470,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/360753470"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/360753470"
         },
         {
             "actor": {
@@ -313,11 +313,11 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "bb669676a6dce870f7cb00f90c5d87364dd1a75f",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/bb669676a6dce870f7cb00f90c5d87364dd1a75f",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/bb669676a6dce870f7cb00f90c5d87364dd1a75f",
             "created_at": "2015-07-21T04:27:54Z",
             "event": "referenced",
             "id": 360753472,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/360753472"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/360753472"
         },
         {
             "actor": {
@@ -344,7 +344,7 @@
             "created_at": "2015-07-21T04:30:27Z",
             "event": "mentioned",
             "id": 360754529,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/360754529"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/360754529"
         },
         {
             "actor": {
@@ -371,27 +371,27 @@
             "created_at": "2015-07-21T04:30:27Z",
             "event": "subscribed",
             "id": 360754530,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/360754530"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/360754530"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/296/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/pull/296",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/296/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/pull/296",
     "id": 82976667,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/296/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/296/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 296,
     "pull_request": {
-        "diff_url": "https://github.com/andrewrk/mineflayer/pull/296.diff",
-        "html_url": "https://github.com/andrewrk/mineflayer/pull/296",
-        "patch_url": "https://github.com/andrewrk/mineflayer/pull/296.patch",
-        "url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/296"
+        "diff_url": "https://github.com/PrismarineJS/mineflayer/pull/296.diff",
+        "html_url": "https://github.com/PrismarineJS/mineflayer/pull/296",
+        "patch_url": "https://github.com/PrismarineJS/mineflayer/pull/296.patch",
+        "url": "https://api.github.com/repos/PrismarineJS/mineflayer/pulls/296"
     },
     "state": "closed",
     "title": "Examples refactoring and cleanup",
     "updated_at": "2015-07-21T04:30:27Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/296",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/296",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
         "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",

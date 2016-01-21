@@ -6,11 +6,11 @@
         {
             "body": "There are 3 open issues about incorrect block knowledge right now (see #140 and #97)\r\n\r\nIt's going to be tricky to solve them because it might involve having to predict block data instead of learning block data from the server.\r\n\r\nI think I'm going to hold off on resolving these issues at least until the next update - maybe the minecraft update will resolve these for us.\r\n\r\nAfter all, I've seen incorrect block knowledge in the vanilla client as well as mineflayer. ",
             "created_at": "2013-02-18T18:53:42Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/133#issuecomment-13736971",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/133#issuecomment-13736971",
             "id": 13736971,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/133",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/133",
             "updated_at": "2013-02-18T18:53:42Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13736971",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13736971",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Sounds good, although I plan to sit down and give it a good debugging this week. I think there's some discrepancy with coordinates. I get the air to cobble update, but it's in the wrong location. I've also noticed discrepancies in coordinates when I have the bot output my player's current position. So if it's not minecraft's derpy protocol, it might be some minor error under a couple layers of stuff in mineflayer. \r\n\r\nI'm hoping that the voxel.js plugin will help out in visualizing just what the bot is seeing in combination with some packet sniffing of minecraft I might find something. I'll keep you posted if I find anything. Thanks for this awesome library.",
             "created_at": "2013-02-18T20:26:13Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/133#issuecomment-13741290",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/133#issuecomment-13741290",
             "id": 13741290,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/133",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/133",
             "updated_at": "2013-02-18T20:26:13Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13741290",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13741290",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/3387877?v=3",
                 "events_url": "https://api.github.com/users/LordTocs/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Sweet! Contributions are most welcome - this project is too big for one person to handle alone.",
             "created_at": "2013-02-18T21:32:44Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/133#issuecomment-13744302",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/133#issuecomment-13744302",
             "id": 13744302,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/133",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/133",
             "updated_at": "2013-02-18T21:32:44Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13744302",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13744302",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "Closed. See referenced issue.",
             "created_at": "2014-04-21T23:28:11Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/133#issuecomment-40988559",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/133#issuecomment-40988559",
             "id": 40988559,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/133",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/133",
             "updated_at": "2014-04-21T23:28:11Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/40988559",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/40988559",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
                 "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
@@ -117,7 +117,7 @@
         }
     ],
     "comments": 4,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/133/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/133/comments",
     "created_at": "2013-02-15T03:59:00Z",
     "event_data": [
         {
@@ -145,21 +145,21 @@
             "created_at": "2014-04-21T23:28:11Z",
             "event": "closed",
             "id": 113678861,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/113678861"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/113678861"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/133/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/133",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/133/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/133",
     "id": 11023715,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/133/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/133/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 133,
     "state": "closed",
     "title": "Bot fails to see cobblestone created from lava and water.",
     "updated_at": "2014-04-21T23:28:11Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/133",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/133",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/3387877?v=3",
         "events_url": "https://api.github.com/users/LordTocs/events{/privacy}",

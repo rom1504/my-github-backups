@@ -6,11 +6,11 @@
         {
             "body": "Could you propose an event name and what arguments it would receive?",
             "created_at": "2013-01-08T05:49:11Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/63#issuecomment-11985559",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/63#issuecomment-11985559",
             "id": 11985559,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/63",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/63",
             "updated_at": "2013-01-08T05:49:11Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/11985559",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/11985559",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Maybe this could be better implemented as a radar plugin... it seems specific to that use case\r\n\r\nHere is my code right now for a basic CLI radar\r\n\r\n```coffee-script\r\nclient.on 'entitySpawn', (entity) ->\r\n  return unless entity.type is 'player'\r\n\r\n  for uname, p of client.game.players when p.entity\r\n    x1 = client.entity.position.x\r\n    y1 = client.entity.position.y\r\n    z1 = client.entity.position.z\r\n\r\n    x2 = p.entity.position.x\r\n    y2 = p.entity.position.y\r\n    z2 = p.entity.position.z\r\n\r\n    x3 = Math.abs (x1-x2)^2\r\n    y3 = Math.abs (y1-y2)^2\r\n    z3 = Math.abs (z1-z2)^2\r\n\r\n    prem = x3+z3#+y3\r\n    dist = Math.floor Math.sqrt prem\r\n    console.log \"#{uname}: #{p.entity.position} - #{dist}\"\r\n```",
             "created_at": "2013-01-08T05:51:11Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/63#issuecomment-11985593",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/63#issuecomment-11985593",
             "id": 11985593,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/63",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/63",
             "updated_at": "2013-01-08T05:52:12Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/11985593",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/11985593",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/425716?v=3",
                 "events_url": "https://api.github.com/users/contra/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "I think you just want to listen to `entitySpawn`, `entityMoved`, and `entityGone`. \r\n\r\nNote that you can tell when players join and leave but you do not know their coordinates unless they are within range of your bot.",
             "created_at": "2013-01-08T05:53:40Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/63#issuecomment-11985632",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/63#issuecomment-11985632",
             "id": 11985632,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/63",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/63",
             "updated_at": "2013-01-08T05:53:40Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/11985632",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/11985632",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "When a player comes in range of your bot, you'll get `entitySpawn`. From that point on you'll get `entityMoved` updates until you receive an `entityGone` event. I'll keep this issue open until I add this info to the docs.",
             "created_at": "2013-01-08T05:55:00Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/63#issuecomment-11985651",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/63#issuecomment-11985651",
             "id": 11985651,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/63",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/63",
             "updated_at": "2013-01-08T05:55:00Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/11985651",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/11985651",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "Any chance of getting a distance property on the entity object? I have the calculations in my code above - uncomment the y3 if you want to take the y axis into account",
             "created_at": "2013-01-08T05:56:27Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/63#issuecomment-11985678",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/63#issuecomment-11985678",
             "id": 11985678,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/63",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/63",
             "updated_at": "2013-01-08T05:56:27Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/11985678",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/11985678",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/425716?v=3",
                 "events_url": "https://api.github.com/users/contra/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "Looks like https://github.com/superjoe30/node-vec3/blob/master/index.js#L81 does a better job - I'll use the built in functionality",
             "created_at": "2013-01-08T06:00:28Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/63#issuecomment-11985739",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/63#issuecomment-11985739",
             "id": 11985739,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/63",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/63",
             "updated_at": "2013-01-08T06:00:28Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/11985739",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/11985739",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/425716?v=3",
                 "events_url": "https://api.github.com/users/contra/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "Points are all instances of [vec3](https://github.com/superjoe30/node-vec3) (See https://github.com/superjoe30/mineflayer/blob/master/doc/api.md#mineflayervec3)\r\n\r\nSo yes, you can do `client.entity.position.distanceTo(p.entity.position)`.",
             "created_at": "2013-01-08T06:00:38Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/63#issuecomment-11985742",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/63#issuecomment-11985742",
             "id": 11985742,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/63",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/63",
             "updated_at": "2013-01-08T06:00:38Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/11985742",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/11985742",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "Feel free to make pull requests to vec3 if you want more vector functions :)",
             "created_at": "2013-01-08T06:00:54Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/63#issuecomment-11985748",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/63#issuecomment-11985748",
             "id": 11985748,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/63",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/63",
             "updated_at": "2013-01-08T06:00:54Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/11985748",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/11985748",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "Solves my issue - thanks!",
             "created_at": "2013-01-08T06:02:53Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/63#issuecomment-11985788",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/63#issuecomment-11985788",
             "id": 11985788,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/63",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/63",
             "updated_at": "2013-01-08T06:02:53Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/11985788",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/11985788",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/425716?v=3",
                 "events_url": "https://api.github.com/users/contra/events{/privacy}",
@@ -257,7 +257,7 @@
         }
     ],
     "comments": 9,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/63/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/63/comments",
     "created_at": "2013-01-08T05:47:40Z",
     "event_data": [
         {
@@ -285,21 +285,21 @@
             "created_at": "2013-01-08T06:02:53Z",
             "event": "closed",
             "id": 33678931,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/33678931"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/33678931"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/63/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/63",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/63/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/63",
     "id": 9758703,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/63/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/63/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 63,
     "state": "closed",
     "title": "Generic event for entity movements",
     "updated_at": "2013-01-08T06:02:53Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/63",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/63",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/425716?v=3",
         "events_url": "https://api.github.com/users/contra/events{/privacy}",

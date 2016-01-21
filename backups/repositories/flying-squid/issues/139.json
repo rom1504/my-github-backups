@@ -6,11 +6,11 @@
         {
             "body": "For any future person implementing this: make sure to update the riding entity's position when the ridee moves.",
             "created_at": "2015-12-01T23:04:03Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/139#issuecomment-161125248",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/139#issuecomment-161125248",
             "id": 161125248,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/139",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/139",
             "updated_at": "2015-12-01T23:04:03Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/161125248",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/161125248",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
                 "events_url": "https://api.github.com/users/109C/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Adding to @109C , believe you don't need to do this if a player because they'll keep track of their own position based off the entity they're attached to (correct?)",
             "created_at": "2015-12-05T03:22:21Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/139#issuecomment-162135545",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/139#issuecomment-162135545",
             "id": 162135545,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/139",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/139",
             "updated_at": "2015-12-05T03:22:21Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162135545",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162135545",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "yeah I think that's correct.",
             "created_at": "2015-12-05T03:23:31Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/139#issuecomment-162135599",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/139#issuecomment-162135599",
             "id": 162135599,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/139",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/139",
             "updated_at": "2015-12-05T03:23:31Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162135599",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162135599",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "@demipixel Yes, the client does... but not the server. If we don't update the riders position, the server will think that the ~~player~~ / riding entity hasn't moved at all.",
             "created_at": "2015-12-05T03:27:07Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/139#issuecomment-162135739",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/139#issuecomment-162135739",
             "id": 162135739,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/139",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/139",
             "updated_at": "2015-12-05T03:30:28Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162135739",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162135739",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
                 "events_url": "https://api.github.com/users/109C/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "the vanilla client send the position of the player, and we send it to other players in updatePosition.js",
             "created_at": "2015-12-05T03:29:03Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/139#issuecomment-162135833",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/139#issuecomment-162135833",
             "id": 162135833,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/139",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/139",
             "updated_at": "2015-12-05T03:29:03Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162135833",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162135833",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "I didn't know that, but it's still a problem if we have non-player riding entities.",
             "created_at": "2015-12-05T03:31:24Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/139#issuecomment-162135931",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/139#issuecomment-162135931",
             "id": 162135931,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/139",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/139",
             "updated_at": "2015-12-05T03:31:50Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162135931",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162135931",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
                 "events_url": "https://api.github.com/users/109C/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "yes",
             "created_at": "2015-12-05T15:07:30Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/139#issuecomment-162209212",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/139#issuecomment-162209212",
             "id": 162209212,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/139",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/139",
             "updated_at": "2015-12-05T15:07:30Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162209212",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162209212",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -201,7 +201,7 @@
         }
     ],
     "comments": 7,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/139/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/139/comments",
     "created_at": "2015-11-30T01:52:46Z",
     "event_data": [
         {
@@ -233,7 +233,7 @@
                 "color": "eb6420",
                 "name": "entities"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/477259435"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/477259435"
         },
         {
             "actor": {
@@ -260,7 +260,7 @@
             "created_at": "2015-12-05T03:22:21Z",
             "event": "mentioned",
             "id": 483288045,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/483288045"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/483288045"
         },
         {
             "actor": {
@@ -287,7 +287,7 @@
             "created_at": "2015-12-05T03:22:21Z",
             "event": "subscribed",
             "id": 483288046,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/483288046"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/483288046"
         },
         {
             "actor": {
@@ -314,7 +314,7 @@
             "created_at": "2015-12-05T03:27:07Z",
             "event": "mentioned",
             "id": 483288939,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/483288939"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/483288939"
         },
         {
             "actor": {
@@ -341,27 +341,27 @@
             "created_at": "2015-12-05T03:27:07Z",
             "event": "subscribed",
             "id": 483288940,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/483288940"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/483288940"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/139/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/issues/139",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/139/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/issues/139",
     "id": 119405247,
     "labels": [
         {
             "color": "eb6420",
             "name": "entities",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/entities"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/labels/entities"
         }
     ],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/139/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/139/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 139,
     "state": "open",
     "title": "Handle attach",
     "updated_at": "2015-12-05T15:07:30Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/139",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/139",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

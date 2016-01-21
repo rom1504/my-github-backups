@@ -6,11 +6,11 @@
         {
             "body": "It blows my mind how you work so much on Minecraft protocols yet don't play very much.\r\n\r\nNo, \"World Border\" has nothing to do with the nether portal.\r\n\r\nhttp://wiki.vg/Protocol#Respawn is what you want. We'll need to send the new chunks for the world.\r\n\r\nAs a side note, I was thinking `serv.world`, `serv.netherworld`, and `serv.endworld`. Your \"serv.world2\" isn't very intuitive :P",
             "created_at": "2015-10-14T00:39:31Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/79#issuecomment-147892521",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/79#issuecomment-147892521",
             "id": 147892521,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/79",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/79",
             "updated_at": "2015-10-14T00:39:31Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147892521",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147892521",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "@demipixel respawn is the packet to change world yes. I'm thinking about the purple thing in a portal.\r\nwell my serv.world2 was because eventually I think serv.worlds would be the way to go.",
             "created_at": "2015-10-14T00:54:47Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/79#issuecomment-147894285",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/79#issuecomment-147894285",
             "id": 147894285,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/79",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/79",
             "updated_at": "2015-10-14T00:54:47Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147894285",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147894285",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "It would be easy for any plugin to just make a new world (it wouldn't even have to be in `serv.worlds`) and move a player there, so it's not like all worlds would have to go in there.\r\n\r\nThe nether portal is actually just a block, and if a player stands in it for long enough (a few seconds, I don't exactly remember), they get sent to the nether. Easiest way to wait 5 seconds and then do something but cancel if they step out?",
             "created_at": "2015-10-14T01:00:38Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/79#issuecomment-147895340",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/79#issuecomment-147895340",
             "id": 147895340,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/79",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/79",
             "updated_at": "2015-10-14T01:00:38Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147895340",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147895340",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "sure plugins could probably have their private worlds, but having a serv.worlds seem better to me.\r\n\r\nAnyway, that doesn't matter too much, once the logic to change of world is implemented, using serv.worlds or serv.overworld / netherworld /... won't change much.",
             "created_at": "2015-10-14T01:05:08Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/79#issuecomment-147895985",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/79#issuecomment-147895985",
             "id": 147895985,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/79",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/79",
             "updated_at": "2015-10-14T01:05:08Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147895985",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147895985",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "work begun there #80 ",
             "created_at": "2015-10-14T17:37:33Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/79#issuecomment-148129105",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/79#issuecomment-148129105",
             "id": 148129105,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/79",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/79",
             "updated_at": "2015-10-14T17:37:33Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/148129105",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/148129105",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "multi-world is implemented.\r\n\r\nRemaining here: implements the portals :D ",
             "created_at": "2015-10-25T23:36:34Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/79#issuecomment-150987665",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/79#issuecomment-150987665",
             "id": 150987665,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/79",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/79",
             "updated_at": "2015-10-25T23:36:34Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/150987665",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/150987665",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "http://minecraft.gamepedia.com/Nether_portal lot of edge cases, but the basic thing is:\r\n1. detect a portal has been built (add location to serv.overworldPortals) \r\n2. build the corresponding nether portal (add location to serv.netherPortals) \r\n3. detect when a player is in a portal (using serv.overworldPortals and serv.netherPortals)\r\n4. call changeWorld\r\n5. also detect destruction of portals and remove them from serv.overworldPortals and serv.netherPortals",
             "created_at": "2015-10-25T23:45:09Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/79#issuecomment-150988387",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/79#issuecomment-150988387",
             "id": 150988387,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/79",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/79",
             "updated_at": "2015-10-25T23:45:09Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/150988387",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/150988387",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "It might be me, but unless these edge cases are easy to implement, it might be worth focussing on more important things for now like entities, fixing the position system, etc",
             "created_at": "2015-10-26T00:56:41Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/79#issuecomment-150994828",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/79#issuecomment-150994828",
             "id": 150994828,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/79",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/79",
             "updated_at": "2015-10-26T00:56:48Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/150994828",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/150994828",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "Yeah probably, I was not saying we need to work on this right now :p ",
             "created_at": "2015-10-26T01:05:12Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/79#issuecomment-150995521",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/79#issuecomment-150995521",
             "id": 150995521,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/79",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/79",
             "updated_at": "2015-10-26T01:05:12Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/150995521",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/150995521",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -258,11 +258,11 @@
         {
             "body": "https://github.com/mhsjlw/flying-squid/pull/161 has implemented the basic frame detection and portal creation. Now remaining : \r\n\r\nMissing with frame:\r\n* [x] remove the portal when breaking a portal block\r\n* [x] remove the portal when breaking an obsidian\r\n\r\nMissing with teleportation:\r\n* [x] store the portal location in a world.portals\r\n* [ ] create a portal in the nether in the right location\r\n* [ ] when going in the portal, teleport to the corresponding nether portal after 5s",
             "created_at": "2015-12-14T18:23:21Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/79#issuecomment-164517001",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/79#issuecomment-164517001",
             "id": 164517001,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/79",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/79",
             "updated_at": "2015-12-14T20:23:36Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/164517001",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/164517001",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -286,11 +286,11 @@
         {
             "body": "It seems double portal (a portal stuck to an other one) are not always properly detected.\r\n\r\nedit: seems fixed",
             "created_at": "2015-12-14T21:56:51Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/79#issuecomment-164572407",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/79#issuecomment-164572407",
             "id": 164572407,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/79",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/79",
             "updated_at": "2015-12-14T23:27:55Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/164572407",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/164572407",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -313,7 +313,7 @@
         }
     ],
     "comments": 11,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/79/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/79/comments",
     "created_at": "2015-10-13T23:08:42Z",
     "event_data": [
         {
@@ -345,7 +345,7 @@
                 "color": "1a94c6",
                 "name": "world"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/434634275"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/434634275"
         },
         {
             "actor": {
@@ -372,7 +372,7 @@
             "created_at": "2015-10-14T00:54:47Z",
             "event": "mentioned",
             "id": 434695614,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/434695614"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/434695614"
         },
         {
             "actor": {
@@ -399,7 +399,7 @@
             "created_at": "2015-10-14T00:54:47Z",
             "event": "subscribed",
             "id": 434695615,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/434695615"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/434695615"
         },
         {
             "actor": {
@@ -422,31 +422,31 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "d49fd8b775638fc26896aeefb0f4c7dd2d1e5b30",
-            "commit_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/d49fd8b775638fc26896aeefb0f4c7dd2d1e5b30",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/d49fd8b775638fc26896aeefb0f4c7dd2d1e5b30",
             "created_at": "2015-12-14T20:13:00Z",
             "event": "referenced",
             "id": 491425907,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/491425907"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/491425907"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/79/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/issues/79",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/79/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/issues/79",
     "id": 111290026,
     "labels": [
         {
             "color": "1a94c6",
             "name": "world",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/world"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/labels/world"
         }
     ],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/79/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/79/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 79,
     "state": "open",
     "title": "Multi-world and portals",
     "updated_at": "2015-12-14T23:27:55Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/79",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/79",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

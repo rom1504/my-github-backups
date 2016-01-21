@@ -6,11 +6,11 @@
         {
             "body": "See https://github.com/mhsjlw/flying-squid/issues/47",
             "created_at": "2015-09-06T19:28:13Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/45#issuecomment-138117121",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/45#issuecomment-138117121",
             "id": 138117121,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/45",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/45",
             "updated_at": "2015-09-06T19:28:13Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/138117121",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/138117121",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "I did it a bit differently so we could avoid option-name conflicts:\r\n\r\ngen(defaultChunkOpt, seed)\r\n\r\ngen.generateWorld(genWorldOptions, chunkOptions)\r\n\r\n- genWorldOptions contains stuff like sizeX, sizeZ and setLight (set light level 15 everywhere)\r\n- chunkOptions sets the options for each chunk. Currently I'm using `debug: true` which puts wool at the border of every chunk\r\n\r\ngen.generate(chunkX, chunkZ, opt)\r\n\r\n- opt that are provided to the generation. Normally you won't need this as you can simply set the defaults at the top (defaultChunkOpt).",
             "created_at": "2015-09-07T22:52:55Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/45#issuecomment-138388262",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/45#issuecomment-138388262",
             "id": 138388262,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/45",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/45",
             "updated_at": "2015-09-07T22:52:55Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/138388262",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/138388262",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "I can't see why generateWorld should take any option, I think you should be passing the option of size and everything in the opts of the module.\r\n\r\nI also can't see the point of separating word option and chunk options, if you really want to have the chunk options in a separate namespace you can always put chunk:{debug:true} in the opts object.\r\n\r\nWhy do generate (which should really be generateChunk) takes opt as a parameter ? it should use the opt given to the module.",
             "created_at": "2015-09-09T22:13:50Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/45#issuecomment-139060284",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/45#issuecomment-139060284",
             "id": 139060284,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/45",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/45",
             "updated_at": "2015-09-09T22:13:50Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/139060284",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/139060284",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "generate() DOES take options from the module, however to allow flexibility, people can chose to put in their own set of options (for example if a plugin wants to force a jungle temple @ 1000, 1000, that's super easy without changing anything).\r\n\r\nI don't see the issue with world options vs chunk options? Look at [this](https://github.com/demipixel/flying-squid/blob/world_gen/lib/serverPlugins/world.js#L11). It's also more organized!\r\n\r\ndefaultChunkOptions => chunkOptions => world gen func (does what it needs with them)\r\n\r\nworldChunkOpt => chunkOptions => ...\r\n\r\nworldOptions => extra stuff like size, adding lighting, etc\r\n\r\nSince chunkOptions is defined by the writer of the generation, we won't know what options will be in it and can't assume \"setLight\" won't be one of them.",
             "created_at": "2015-09-09T22:49:38Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/45#issuecomment-139065979",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/45#issuecomment-139065979",
             "id": 139065979,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/45",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/45",
             "updated_at": "2015-09-09T22:49:38Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/139065979",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/139065979",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "The problem with your current organization is it is too specific, it forces all world generation modules to look like yours.\r\n\"for example if a plugin wants to force a jungle temple @ 1000, 1000, that's super easy without changing anything\" : for this use case, it seems pretty clear to me the plugin would be assuming a particular world generation, so I guess you can take additional parameter in worldGeneration if you want, but it should still work when providing no parameter.\r\n\r\nThe issue with putting both these options is that it assumes the module has chunk options (and I might want to put columns options or 10-column options or whatever, I should put that in opts, not create 10 options args)\r\n\r\n\"Since chunkOptions is defined by the writer of the generation, we won't know what options will be in it and can't assume \"setLight\" won't be one of them.\" : yes that's the main point, we want to be able to put any options, the generator module has to document whatever options should be given for that particular world generation module.",
             "created_at": "2015-09-09T23:03:00Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/45#issuecomment-139067917",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/45#issuecomment-139067917",
             "id": 139067917,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/45",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/45",
             "updated_at": "2015-09-09T23:03:00Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/139067917",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/139067917",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "I see what you mean... However, it's **extremely** likely that `generateWorld()` will always use some loop through `generate()`. If somebody wants to use multiple options, they should use an array or something.\r\n\r\nThink of it this way: You wouldn't write an API where you say \"These options only do anything if you call this method with them\". What if somebody wants to make a plugin where they shift through multiple seeds to find them best one? If they change the options in the middle, generateWorld will need to have different options; This method makes that easy. Forcing them to come in through the module would require you to create a new generation for every world you make.\r\n\r\nThis becomes a problem when we have a plugin that, for example, saves an object of really cool, custom generations. Now, if you have 6 players in your minigame and they each get their own mini-world... Well you can't change world options if they were already set by the \"cool-generations\" now can you! In addition, cool-generations only provides default options for chunks, so if you so choose, you can also generate with custom options.\r\n\r\n\r\nPoint being, we don't know where they'll be used, so we can't assume everybody will have access to creating the generation. This is why everything needs to be mutable, and only defaults are passed in (to make life easier).",
             "created_at": "2015-09-10T04:14:45Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/45#issuecomment-139111556",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/45#issuecomment-139111556",
             "id": 139111556,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/45",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/45",
             "updated_at": "2015-09-10T04:14:45Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/139111556",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/139111556",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "Okay so re-reading the conversation here, it seems there is no point arguing more here neither, so I'll just code what I meant in a new branch, hopefully that'll make things clearer.\r\n\r\nEdit: (I did test it though, and it has the advantage or giving some nice looking result)",
             "created_at": "2015-09-28T23:22:31Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/45#issuecomment-143900224",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/45#issuecomment-143900224",
             "id": 143900224,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/45",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/45",
             "updated_at": "2015-09-28T23:33:35Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/143900224",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/143900224",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "not touching this until the world implementation is more advanced, there's no point.",
             "created_at": "2015-10-01T00:55:01Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/45#issuecomment-144586170",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/45#issuecomment-144586170",
             "id": 144586170,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/45",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/45",
             "updated_at": "2015-10-01T00:55:01Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/144586170",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/144586170",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "Can you rebase this ? (`git fetch` then `git rebase master` then solve the conflicts then `git push --force`)\r\nThanks",
             "created_at": "2015-10-01T22:23:25Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/45#issuecomment-144865498",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/45#issuecomment-144865498",
             "id": 144865498,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/45",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/45",
             "updated_at": "2015-10-01T22:23:25Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/144865498",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/144865498",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -258,11 +258,11 @@
         {
             "body": "do recreate it though ;)",
             "created_at": "2015-10-01T23:16:39Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/45#issuecomment-144874401",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/45#issuecomment-144874401",
             "id": 144874401,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/45",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/45",
             "updated_at": "2015-10-01T23:16:48Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/144874401",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/144874401",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -285,7 +285,7 @@
         }
     ],
     "comments": 10,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/45/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/45/comments",
     "created_at": "2015-09-06T19:00:21Z",
     "event_data": [
         {
@@ -313,7 +313,7 @@
             "created_at": "2015-10-01T23:11:45Z",
             "event": "closed",
             "id": 424791056,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/424791056"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/424791056"
         },
         {
             "actor": {
@@ -340,27 +340,27 @@
             "created_at": "2015-10-01T23:11:45Z",
             "event": "head_ref_deleted",
             "id": 424791057,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/424791057"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/424791057"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/45/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/pull/45",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/45/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/pull/45",
     "id": 105111290,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/45/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/45/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 45,
     "pull_request": {
-        "diff_url": "https://github.com/mhsjlw/flying-squid/pull/45.diff",
-        "html_url": "https://github.com/mhsjlw/flying-squid/pull/45",
-        "patch_url": "https://github.com/mhsjlw/flying-squid/pull/45.patch",
-        "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/45"
+        "diff_url": "https://github.com/PrismarineJS/flying-squid/pull/45.diff",
+        "html_url": "https://github.com/PrismarineJS/flying-squid/pull/45",
+        "patch_url": "https://github.com/PrismarineJS/flying-squid/pull/45.patch",
+        "url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/45"
     },
     "state": "closed",
     "title": "Adding the basics of World Gen",
     "updated_at": "2015-10-01T23:16:48Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/45",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/45",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
         "events_url": "https://api.github.com/users/demipixel/events{/privacy}",

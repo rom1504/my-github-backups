@@ -6,11 +6,11 @@
         {
             "body": "It's a known issue, since the physics are not based on Notch's (yet?).  I haven't done any work with the actual code for the physics, but to add to the list:\n\nSince the collision is incomplete, to temporarily avoid issues with the server correcting positions, partial blocks are treated as full blocks.  Doors, slabs, ladders, cake, redstone repeaters (I believe), are all full blocks in the physics, and fences are treated as two blocks.\n\nLiquids and slow sand also do not slow the player.",
             "created_at": "2011-06-07T00:37:02Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/12#issuecomment-1312896",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/12#issuecomment-1312896",
             "id": 1312896,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/12",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/12",
             "updated_at": "2011-06-07T00:37:02Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/1312896",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/1312896",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/412436?v=3",
                 "events_url": "https://api.github.com/users/Darthfett/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Physics is a huge issue. I don't think doing everything right is feasible or desirable. It would definitely be nice for bots be able to walk through open doors, but I'm not so sure about slowing bots in water or slipping on ice. There is a bit of a philosophical discussion to be had about what the purpose of bots is. The way I use bots, I want them to follow me around helping me play the game, so I don't mind them having some super powers, like walking on water. Last I checked, superjoe30 is more intrigued by the idea of fair bots playing the game successfully by the same rules as humans. I'm more interested in a helper; superjoe30 is more interested in an AI project.\r\n\r\nIf we tweaked the bot physics to be exactly in tune with real physics, path finding would get much more difficult. Currently, the A* algorithm can treat every cubic meter as either solid, dangerous, or air, and the algorithm is still slow to plot a path much more than 100m through complex terrain. If we add complex physical shapes, like doors, we significantly increase the effort required to do the navigation. We'd need to be sure we're trying to walk around the open door on the proper side by veering just off center. If we added half slabs, we'd need to account for that when calculating which blocks we can jump to and from. The current physics limitation are nice to rely on with the current path finding algorithm.\r\n\r\nPerhaps a better solution is to utilize a different controls interface. Currently, the bot must continuously poll the current position and adjust the trajectory to go to each new location. The bot turns on \"W\" to go forward, and then points the yaw in the direction of the destination. Perhaps some way of communicating a desired path to the core framework without having to poll would be more efficient and solve some of the really complicated aspects of the current path finding, like when to jump as we approach the edge of a block.\r\n\r\nWhat I'm trying to say about this Issue is that it's a daunting task to implement *all* the physics properly, and once we make one block non-cubic, it breaks the path finding. So I'm a little demotivated to solve this. However, doors would be a big win. Perhaps there's a compromise.",
             "created_at": "2011-10-17T21:22:01Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/12#issuecomment-2434972",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/12#issuecomment-2434972",
             "id": 2434972,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/12",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/12",
             "updated_at": "2011-10-17T21:22:01Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/2434972",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/2434972",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Improvements that need to be done to physics:\n\n   - partial blocks\n   - climb ladders\n   - swim & slow down in liquids: water, lava\n   - less friction on ice\n   - recoil when punched\n   - vehicles: mine cart, boat, pig\n   - entity collisions",
             "created_at": "2012-06-20T06:57:52Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/12#issuecomment-6446322",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/12#issuecomment-6446322",
             "id": 6446322,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/12",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/12",
             "updated_at": "2012-06-20T06:57:52Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/6446322",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/6446322",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "Unless monsters are a special case, you can cross entity collisions off that list -- player entities no longer collide with each other or with other mobs.",
             "created_at": "2013-01-08T05:06:13Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/12#issuecomment-11984907",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/12#issuecomment-11984907",
             "id": 11984907,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/12",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/12",
             "updated_at": "2013-01-08T05:06:25Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/11984907",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/11984907",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/412436?v=3",
                 "events_url": "https://api.github.com/users/Darthfett/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "Closing this issue in favor of smaller, more specific issues, e.g. \"physics: support doors\", \"physics: support water\", etc.",
             "created_at": "2013-01-11T02:46:00Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/12#issuecomment-12129807",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/12#issuecomment-12129807",
             "id": 12129807,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/12",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/12",
             "updated_at": "2013-01-11T02:46:00Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/12129807",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/12129807",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -145,7 +145,7 @@
         }
     ],
     "comments": 5,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/12/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/12/comments",
     "created_at": "2011-06-06T21:59:38Z",
     "event_data": [
         {
@@ -173,7 +173,7 @@
             "created_at": "2011-06-06T21:59:38Z",
             "event": "subscribed",
             "id": 1043277,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1043277"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1043277"
         },
         {
             "actor": {
@@ -200,7 +200,7 @@
             "created_at": "2011-06-07T00:37:02Z",
             "event": "subscribed",
             "id": 1045159,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1045159"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1045159"
         },
         {
             "actor": {
@@ -227,7 +227,7 @@
             "created_at": "2011-10-17T21:22:01Z",
             "event": "subscribed",
             "id": 4318937,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/4318937"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/4318937"
         },
         {
             "actor": {
@@ -254,7 +254,7 @@
             "created_at": "2012-06-20T06:57:52Z",
             "event": "subscribed",
             "id": 18140360,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/18140360"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/18140360"
         },
         {
             "actor": {
@@ -281,27 +281,27 @@
             "created_at": "2013-01-11T02:46:00Z",
             "event": "closed",
             "id": 34059572,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/34059572"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/34059572"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/12/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/12",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/12/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/12",
     "id": 1011830,
     "labels": [
         {
             "color": "444444",
             "name": "new feature",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/new%20feature"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/new%20feature"
         }
     ],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/12/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/12/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 12,
     "state": "closed",
     "title": "Physics engine does not handle non-cubic blocks properly",
     "updated_at": "2013-01-11T02:46:00Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/12",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/12",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/57528?v=3",
         "events_url": "https://api.github.com/users/Wallbraker/events{/privacy}",

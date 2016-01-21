@@ -6,11 +6,11 @@
         {
             "body": "+1 for all the custom [clients](http://wiki.vg/Client_List) and [servers](http://wiki.vg/Server_List) out there.\r\nSpecial thought would have to be put on the format though, regarding implementation in different languages.",
             "created_at": "2015-03-23T01:23:29Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/231#issuecomment-84743424",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/231#issuecomment-84743424",
             "id": 84743424,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/231",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/231",
             "updated_at": "2015-03-23T01:23:29Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/84743424",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/84743424",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2612164?v=3",
                 "events_url": "https://api.github.com/users/Gjum/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "The current format is JSON, no ? If so, there shouldn't be any problems.",
             "created_at": "2015-03-23T01:38:05Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/231#issuecomment-84746045",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/231#issuecomment-84746045",
             "id": 84746045,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/231",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/231",
             "updated_at": "2015-03-23T01:38:05Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/84746045",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/84746045",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Yeah, but maybe we could add some doc explaining what's in the format in that repo (particularly for the recipes.json)",
             "created_at": "2015-03-23T01:39:24Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/231#issuecomment-84746119",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/231#issuecomment-84746119",
             "id": 84746119,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/231",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/231",
             "updated_at": "2015-03-23T01:40:24Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/84746119",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/84746119",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "Currently metadata is not represented in in/outShape, so there might be problems for shapes like stonebrick vs. smooth andesite, where the recipes and outcome have the same item ID, but different metadata.",
             "created_at": "2015-03-23T01:50:24Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/231#issuecomment-84746936",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/231#issuecomment-84746936",
             "id": 84746936,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/231",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/231",
             "updated_at": "2015-03-23T01:52:38Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/84746936",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/84746936",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2612164?v=3",
                 "events_url": "https://api.github.com/users/Gjum/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "So, how would that repo be named ?\r\nI think some parts of mineflayer would belong there too, at least everything in the bin/ folder  (it contains extractor/checker for the enums) but maybe there are other related files elsewhere, I'm not sure.\r\nI guess it would have a package.json and be on npm.\r\nSo it would be fairly easy to use from node.js (it would become a dependency of mineflayer)\r\n\r\nAnd I think other projects (not node.js) might use it as a git submodule ?",
             "created_at": "2015-03-23T12:03:40Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/231#issuecomment-84965355",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/231#issuecomment-84965355",
             "id": 84965355,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/231",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/231",
             "updated_at": "2015-03-23T12:03:40Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/84965355",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/84965355",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "I'm thinking \"minecraft-data\" might be a good name. Should I create it in my namespace (rom1504/) ?\r\n\r\nI'm not sure the extractors (bin/) should be in that repo or not : they aren't actually needed for other projects (and even for mineflayer once the extraction is done), so : either they should stay in mineflayer, either we could make a \"node-minecraft-data-extractors\" repo or something.",
             "created_at": "2015-03-23T15:13:09Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/231#issuecomment-85042626",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/231#issuecomment-85042626",
             "id": 85042626,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/231",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/231",
             "updated_at": "2015-03-23T15:13:09Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/85042626",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/85042626",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "I think they belong in the repo, as a subdir.\r\nThe extractors are not needed when dealing withthe etracted data, but when tne data becomes out of date, they will be useful for keeping up, e.g. when we do not have time to udate the repo ourselves.\r\nIt's also good for working together to improve the scripts.",
             "created_at": "2015-03-23T15:37:28Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/231#issuecomment-85053179",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/231#issuecomment-85053179",
             "id": 85053179,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/231",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/231",
             "updated_at": "2015-03-23T15:37:54Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/85053179",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/85053179",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2612164?v=3",
                 "events_url": "https://api.github.com/users/Gjum/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "Yeah ok, I agree it's better not too have too many repos.\r\nSo I'm creating that there https://github.com/PrismarineJS/minecraft-data (not done yet)",
             "created_at": "2015-03-23T15:45:15Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/231#issuecomment-85055697",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/231#issuecomment-85055697",
             "id": 85055697,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/231",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/231",
             "updated_at": "2015-03-23T15:45:15Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/85055697",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/85055697",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "what about putting the data in node-minecraft-protocol?",
             "created_at": "2015-03-23T18:51:25Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/231#issuecomment-85142231",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/231#issuecomment-85142231",
             "id": 85142231,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/231",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/231",
             "updated_at": "2015-03-23T18:51:25Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/85142231",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/85142231",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -258,11 +258,11 @@
         {
             "body": "The data is not dependent on any code in node-minecraft-protocol.\r\nThat would also require other projects that use the data as a Git submodule to clone the entire node-minecraft-protocol codebase only for the minecraft data.",
             "created_at": "2015-03-23T19:03:08Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/231#issuecomment-85149056",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/231#issuecomment-85149056",
             "id": 85149056,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/231",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/231",
             "updated_at": "2015-03-23T19:03:08Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/85149056",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/85149056",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2612164?v=3",
                 "events_url": "https://api.github.com/users/Gjum/events{/privacy}",
@@ -286,11 +286,11 @@
         {
             "body": "@thejoshwolfe There are other clients out there other than mineflayer or node-minecraft-protocol that could want to use this.",
             "created_at": "2015-03-23T19:49:41Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/231#issuecomment-85166432",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/231#issuecomment-85166432",
             "id": 85166432,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/231",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/231",
             "updated_at": "2015-03-23T19:49:41Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/85166432",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/85166432",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -314,11 +314,11 @@
         {
             "body": "such data doesn't belong to the protocol anyway. I'd like to keep the protocol data-agnostic (although some amount of data has been starting to creep into the code, due to how mojang handles some stuff).",
             "created_at": "2015-03-23T19:50:37Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/231#issuecomment-85166618",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/231#issuecomment-85166618",
             "id": 85166618,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/231",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/231",
             "updated_at": "2015-03-23T19:50:37Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/85166618",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/85166618",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -341,7 +341,7 @@
         }
     ],
     "comments": 12,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/231/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/231/comments",
     "created_at": "2015-03-23T01:00:50Z",
     "event_data": [
         {
@@ -369,7 +369,7 @@
             "created_at": "2015-03-23T19:49:41Z",
             "event": "mentioned",
             "id": 262747347,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/262747347"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/262747347"
         },
         {
             "actor": {
@@ -396,7 +396,7 @@
             "created_at": "2015-03-23T19:49:41Z",
             "event": "subscribed",
             "id": 262747348,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/262747348"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/262747348"
         },
         {
             "actor": {
@@ -419,25 +419,25 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "d695193b00982f0f4dec40420757d12b6e228487",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/d695193b00982f0f4dec40420757d12b6e228487",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/d695193b00982f0f4dec40420757d12b6e228487",
             "created_at": "2015-03-24T17:32:01Z",
             "event": "closed",
             "id": 263793512,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/263793512"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/263793512"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/231/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/231",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/231/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/231",
     "id": 63596163,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/231/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/231/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 231,
     "state": "closed",
     "title": "Make a different repo for the enums ?",
     "updated_at": "2015-03-24T17:32:01Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/231",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/231",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

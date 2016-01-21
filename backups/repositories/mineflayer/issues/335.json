@@ -6,11 +6,11 @@
         {
             "body": "Mineflayer uses the `/tell` command. Is that implemented on `woodycraft.net`?",
             "created_at": "2015-10-11T22:51:19Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/335#issuecomment-147253348",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/335#issuecomment-147253348",
             "id": 147253348,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/335",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/335",
             "updated_at": "2015-10-11T22:51:19Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/147253348",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/147253348",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2612164?v=3",
                 "events_url": "https://api.github.com/users/Gjum/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Also the chat might not be parsed correctly. Does the `whisper` event get emitted, i.e. does the console print `\"I received a message from ...\"`? Or does the bot just not chat back? ",
             "created_at": "2015-10-11T22:56:30Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/335#issuecomment-147253566",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/335#issuecomment-147253566",
             "id": 147253566,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/335",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/335",
             "updated_at": "2015-10-11T22:56:30Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/147253566",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/147253566",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2612164?v=3",
                 "events_url": "https://api.github.com/users/Gjum/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Usually these servers have custom messages. I usually had to do bot.on(\"message\"...) (or whichever one brought back JSON or just plain text) and then regex it.",
             "created_at": "2015-10-11T23:06:56Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/335#issuecomment-147254439",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/335#issuecomment-147254439",
             "id": 147254439,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/335",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/335",
             "updated_at": "2015-10-11T23:06:56Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/147254439",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/147254439",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "@Gjum WoodyCraft does support the /tell command but I don't receive the console output,\r\n\r\n@demipixel I'll give that a try.  Thank you.",
             "created_at": "2015-10-11T23:09:52Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/335#issuecomment-147254561",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/335#issuecomment-147254561",
             "id": 147254561,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/335",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/335",
             "updated_at": "2015-10-11T23:09:52Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/147254561",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/147254561",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/10236186?v=3",
                 "events_url": "https://api.github.com/users/JustinKelleher/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "@JustinKelleher also take a look at #323 #273 and maybe #175",
             "created_at": "2015-10-11T23:14:02Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/335#issuecomment-147254710",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/335#issuecomment-147254710",
             "id": 147254710,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/335",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/335",
             "updated_at": "2015-10-11T23:14:02Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/147254710",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/147254710",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2612164?v=3",
                 "events_url": "https://api.github.com/users/Gjum/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "@Gjum Thanks!  I'm confused on how to use the chat pattern system but I'll try it out.",
             "created_at": "2015-10-11T23:20:21Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/335#issuecomment-147254925",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/335#issuecomment-147254925",
             "id": 147254925,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/335",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/335",
             "updated_at": "2015-10-11T23:20:21Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/147254925",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/147254925",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/10236186?v=3",
                 "events_url": "https://api.github.com/users/JustinKelleher/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "Yeah you might want to look at the example for chat pattern https://github.com/andrewrk/mineflayer/blob/master/examples/chatAddPattern.js\r\n\r\nBukkit minecraft servers use different chat plugins, so some work has to be done to parse the specific format for each server.",
             "created_at": "2015-10-11T23:45:50Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/335#issuecomment-147255831",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/335#issuecomment-147255831",
             "id": 147255831,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/335",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/335",
             "updated_at": "2015-10-11T23:45:50Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/147255831",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/147255831",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "@JustinKelleher You have that problem because mineflayer cannot parse any server's private message format, so you should listen on \"message\" and write your own parser.\r\n\r\n*edit: @rom1504 was faster :)*",
             "created_at": "2015-10-11T23:46:04Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/335#issuecomment-147255842",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/335#issuecomment-147255842",
             "id": 147255842,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/335",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/335",
             "updated_at": "2015-10-11T23:46:30Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/147255842",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/147255842",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2612164?v=3",
                 "events_url": "https://api.github.com/users/Gjum/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "@rom1504 @demipixel @Gjum Thank you for your help!",
             "created_at": "2015-10-11T23:54:13Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/335#issuecomment-147256461",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/335#issuecomment-147256461",
             "id": 147256461,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/335",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/335",
             "updated_at": "2015-10-12T00:28:12Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/147256461",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/147256461",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/10236186?v=3",
                 "events_url": "https://api.github.com/users/JustinKelleher/events{/privacy}",
@@ -258,11 +258,11 @@
         {
             "body": "Why does the regex statement return the username as \"null\"?\r\n\r\nhttps://gist.github.com/JustinKelleher/b06fb5c29e137c4284e1",
             "created_at": "2015-10-15T23:24:05Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/335#issuecomment-148550194",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/335#issuecomment-148550194",
             "id": 148550194,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/335",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/335",
             "updated_at": "2015-10-15T23:24:05Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/148550194",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/148550194",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/10236186?v=3",
                 "events_url": "https://api.github.com/users/JustinKelleher/events{/privacy}",
@@ -286,11 +286,11 @@
         {
             "body": "Seems the problem was fixed in that gist, feel free to reopen if you have more problem about that !",
             "created_at": "2015-11-13T22:00:45Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/335#issuecomment-156571323",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/335#issuecomment-156571323",
             "id": 156571323,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/335",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/335",
             "updated_at": "2015-11-13T22:00:45Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/156571323",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/156571323",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -313,7 +313,7 @@
         }
     ],
     "comments": 11,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/335/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/335/comments",
     "created_at": "2015-10-11T22:30:12Z",
     "event_data": [
         {
@@ -341,7 +341,7 @@
             "created_at": "2015-10-11T23:09:52Z",
             "event": "mentioned",
             "id": 432493790,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/432493790"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/432493790"
         },
         {
             "actor": {
@@ -368,7 +368,7 @@
             "created_at": "2015-10-11T23:09:52Z",
             "event": "subscribed",
             "id": 432493791,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/432493791"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/432493791"
         },
         {
             "actor": {
@@ -395,7 +395,7 @@
             "created_at": "2015-10-11T23:09:52Z",
             "event": "mentioned",
             "id": 432493792,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/432493792"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/432493792"
         },
         {
             "actor": {
@@ -422,7 +422,7 @@
             "created_at": "2015-10-11T23:09:52Z",
             "event": "subscribed",
             "id": 432493793,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/432493793"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/432493793"
         },
         {
             "actor": {
@@ -449,7 +449,7 @@
             "created_at": "2015-10-11T23:14:02Z",
             "event": "mentioned",
             "id": 432494399,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/432494399"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/432494399"
         },
         {
             "actor": {
@@ -476,7 +476,7 @@
             "created_at": "2015-10-11T23:14:02Z",
             "event": "subscribed",
             "id": 432494400,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/432494400"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/432494400"
         },
         {
             "actor": {
@@ -503,7 +503,7 @@
             "created_at": "2015-10-11T23:20:21Z",
             "event": "mentioned",
             "id": 432495301,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/432495301"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/432495301"
         },
         {
             "actor": {
@@ -530,7 +530,7 @@
             "created_at": "2015-10-11T23:20:21Z",
             "event": "subscribed",
             "id": 432495302,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/432495302"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/432495302"
         },
         {
             "actor": {
@@ -557,7 +557,7 @@
             "created_at": "2015-10-11T23:46:04Z",
             "event": "mentioned",
             "id": 432499221,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/432499221"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/432499221"
         },
         {
             "actor": {
@@ -584,7 +584,7 @@
             "created_at": "2015-10-11T23:46:04Z",
             "event": "subscribed",
             "id": 432499222,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/432499222"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/432499222"
         },
         {
             "actor": {
@@ -611,7 +611,7 @@
             "created_at": "2015-10-11T23:46:30Z",
             "event": "mentioned",
             "id": 432499301,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/432499301"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/432499301"
         },
         {
             "actor": {
@@ -638,7 +638,7 @@
             "created_at": "2015-10-11T23:46:30Z",
             "event": "subscribed",
             "id": 432499302,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/432499302"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/432499302"
         },
         {
             "actor": {
@@ -665,7 +665,7 @@
             "created_at": "2015-10-11T23:54:13Z",
             "event": "mentioned",
             "id": 432500898,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/432500898"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/432500898"
         },
         {
             "actor": {
@@ -692,7 +692,7 @@
             "created_at": "2015-10-11T23:54:13Z",
             "event": "subscribed",
             "id": 432500899,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/432500899"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/432500899"
         },
         {
             "actor": {
@@ -719,7 +719,7 @@
             "created_at": "2015-10-11T23:54:13Z",
             "event": "mentioned",
             "id": 432500900,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/432500900"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/432500900"
         },
         {
             "actor": {
@@ -746,7 +746,7 @@
             "created_at": "2015-10-11T23:54:13Z",
             "event": "subscribed",
             "id": 432500901,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/432500901"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/432500901"
         },
         {
             "actor": {
@@ -773,7 +773,7 @@
             "created_at": "2015-10-11T23:54:13Z",
             "event": "closed",
             "id": 432500902,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/432500902"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/432500902"
         },
         {
             "actor": {
@@ -800,7 +800,7 @@
             "created_at": "2015-10-12T00:28:12Z",
             "event": "mentioned",
             "id": 432517089,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/432517089"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/432517089"
         },
         {
             "actor": {
@@ -827,7 +827,7 @@
             "created_at": "2015-10-12T00:28:12Z",
             "event": "subscribed",
             "id": 432517090,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/432517090"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/432517090"
         },
         {
             "actor": {
@@ -854,7 +854,7 @@
             "created_at": "2015-10-15T23:24:05Z",
             "event": "reopened",
             "id": 436995282,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/436995282"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/436995282"
         },
         {
             "actor": {
@@ -881,21 +881,21 @@
             "created_at": "2015-11-13T22:00:45Z",
             "event": "closed",
             "id": 464099534,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/464099534"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/464099534"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/335/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/335",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/335/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/335",
     "id": 110886425,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/335/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/335/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 335,
     "state": "closed",
     "title": "Whisper Event",
     "updated_at": "2015-11-13T22:00:45Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/335",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/335",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10236186?v=3",
         "events_url": "https://api.github.com/users/JustinKelleher/events{/privacy}",

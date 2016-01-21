@@ -6,11 +6,11 @@
         {
             "body": "I'll take a look. This is likely to be fixed this week as we upgrade to node v0.10 and minecraft protocol 1.5",
             "created_at": "2013-03-12T15:47:46Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/146#issuecomment-14783172",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/146#issuecomment-14783172",
             "id": 14783172,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/146",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/146",
             "updated_at": "2013-03-12T15:47:46Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/14783172",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/14783172",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "I'm not good at JavaScript, but it seems that `nibbleIndex` is a floating point value when `buffer.readUInt8` requires an unsigned integer value as parameter. I just edited `mineflayer/lib/plugins/blocks.js` and set `nibbleIndex` to zero (at lines 109 and 146). But to fix this properly I think you need to use `Math.floor` or some shit.",
             "created_at": "2013-03-17T16:30:34Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/146#issuecomment-15025671",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/146#issuecomment-15025671",
             "id": 15025671,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/146",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/146",
             "updated_at": "2013-03-17T16:30:34Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/15025671",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/15025671",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2757386?v=3",
                 "events_url": "https://api.github.com/users/llbit/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Yeah I noticed this too. I want to double check the math and the protocol to make sure we're calculating nibbleIndex correctly.",
             "created_at": "2013-03-17T16:31:29Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/146#issuecomment-15025697",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/146#issuecomment-15025697",
             "id": 15025697,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/146",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/146",
             "updated_at": "2013-03-17T16:31:29Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/15025697",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/15025697",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "Is there a good reference page for the Minecraft multiplayer protocol?",
             "created_at": "2013-03-17T16:37:14Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/146#issuecomment-15025809",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/146#issuecomment-15025809",
             "id": 15025809,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/146",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/146",
             "updated_at": "2013-03-17T16:37:14Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/15025809",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/15025809",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2757386?v=3",
                 "events_url": "https://api.github.com/users/llbit/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "wiki.vg/Protocol",
             "created_at": "2013-03-17T17:22:40Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/146#issuecomment-15026634",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/146#issuecomment-15026634",
             "id": 15026634,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/146",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/146",
             "updated_at": "2013-03-17T17:22:40Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/15026634",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/15026634",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "adding Math.floor at line 109 and 146 of lib/plugins/blocks.js seems to solve this",
             "created_at": "2013-04-06T16:55:20Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/146#issuecomment-15999585",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/146#issuecomment-15999585",
             "id": 15999585,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/146",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/146",
             "updated_at": "2013-04-06T16:55:20Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/15999585",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/15999585",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "I wonder if this will be solved by https://github.com/joyent/node/pull/5226",
             "created_at": "2013-04-08T00:42:09Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/146#issuecomment-16027927",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/146#issuecomment-16027927",
             "id": 16027927,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/146",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/146",
             "updated_at": "2013-04-08T00:42:09Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/16027927",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/16027927",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "@superjoe30 no sorry. that PR fixes an assertion check that ensures you don't write beyond the buffer length. Right now it requires that input values are of type `uint` (coercion isn't done automatically at the moment). This can be done in one of the following ways: `Math.floor(val)`, `~~val` or `val|0`.",
             "created_at": "2013-04-08T23:07:28Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/146#issuecomment-16084730",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/146#issuecomment-16084730",
             "id": 16084730,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/146",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/146",
             "updated_at": "2013-04-08T23:07:28Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/16084730",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/16084730",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/289174?v=3",
                 "events_url": "https://api.github.com/users/trevnorris/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "fixed by zuazo's pull request, released in 0.1.0",
             "created_at": "2013-04-10T15:27:40Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/146#issuecomment-16181569",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/146#issuecomment-16181569",
             "id": 16181569,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/146",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/146",
             "updated_at": "2013-04-10T15:27:40Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/16181569",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/16181569",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -257,7 +257,7 @@
         }
     ],
     "comments": 9,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/146/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/146/comments",
     "created_at": "2013-03-12T13:10:57Z",
     "event_data": [
         {
@@ -285,7 +285,7 @@
             "created_at": "2013-04-08T23:07:28Z",
             "event": "mentioned",
             "id": 44465230,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/44465230"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/44465230"
         },
         {
             "actor": {
@@ -312,7 +312,7 @@
             "created_at": "2013-04-08T23:07:28Z",
             "event": "subscribed",
             "id": 44465231,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/44465231"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/44465231"
         },
         {
             "actor": {
@@ -339,21 +339,21 @@
             "created_at": "2013-04-10T15:27:40Z",
             "event": "closed",
             "id": 44705285,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/44705285"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/44705285"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/146/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/146",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/146/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/146",
     "id": 11923317,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/146/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/146/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 146,
     "state": "closed",
     "title": "Offset is not uint",
     "updated_at": "2013-04-10T15:27:40Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/146",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/146",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/3455449?v=3",
         "events_url": "https://api.github.com/users/Dids/events{/privacy}",

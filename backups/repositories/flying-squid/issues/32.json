@@ -6,11 +6,11 @@
         {
             "body": "\"There is absolutely no reason to remove a core plugin\" : yes there is : someone doesn't want the normal placeBlock thing and instead wants weird stuff like in #31 (or like my idea of : place a block = get killed and replaced by a squid)\r\n\r\n\"Emit the X_cancel event and after the X event.\r\nAct as a default if no plugin intervenes\"\r\nThis just isn't a thing in node.js. It will really be dirty if you need to \"wait\", like wait how much time ? what if the plugin is slow ? you wait 10s ?\r\n\r\nAs @roblabla said you are talking about 2 different things : \r\n* reusability : I think if you want to reuse some functionnality of a plugin, you should just be able to do that (which is totally possible if the plugin expose its methods, which it should)\r\n* being able to implement something new : this is totally doable and easy with the current architecture\r\n\r\nI really really think that not doing something, not installing it, is better than trying to uninstall it, or even worse cancelling.\r\n\r\nCancelling : what does that mean ? when do you cancel ? what if the plugins listen on n interconnected events and do stuff ? how can you cancel that ? reading the code of the plugin and being careful to break everything the plugin is doing is not a correct way to do it.\r\n\r\nSo what I propose is that once a few plugins are implemented with the current architecture, if it still seems too complicated/wrong to you, you can try to implement your way in a PR and we'll see if it makes everything easier.",
             "created_at": "2015-09-02T11:39:34Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/32#issuecomment-137041706",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32#issuecomment-137041706",
             "id": 137041706,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
             "updated_at": "2015-09-02T11:39:34Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/137041706",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/137041706",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "> yes there is : someone doesn't want the normal placeBlock thing and instead wants weird stuff like in #31 (or like my idea of : place a block = get killed and replaced by a squid)\r\n\r\n```js\r\nfunction inject(serv, player) {\r\n  player.on('place_block_cancel', function(block, cancel) {\r\n      serv.spawnMob('squid', block.location);\r\n      cancel();\r\n  });\r\n}\r\n```\r\nThe point of this WAS that you could completely overwrite the default with no trouble at all and wouldn't have to worry about it happening (unless some plugin is an asshole).\r\n\r\nAs for a plugin waiting... if a plugin is going to take up 10 seconds to run, that's going to be a lot of time regardless. And in the long run, it might be okay if you take longer if you're canceling (won't run default code anyway).\r\n\r\n**Canceling:** It cancels the DEFAULT action. If any plugin cancels, the default action will not run (assuming fuckOtherPlugins() isn't but my reaction to that is in the name).\r\n\r\nI can't tell if you're talking about interconnected plugins here, but not, this does not support interconnected plugins. You can NEVER be sure about the order, so this will never happen unless we add a way to order them.\r\n\r\nIf you still don't understand or don't agree, we'll simply do your proposal at the bottom.\r\n\r\nCheers,\r\n\r\nDemi",
             "created_at": "2015-09-02T14:56:52Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/32#issuecomment-137113632",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32#issuecomment-137113632",
             "id": 137113632,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
             "updated_at": "2015-09-02T14:56:52Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/137113632",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/137113632",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "I was talking about interconnected events, like inventory stuff are really interconnected, you can't just ignore half of it, you'd need to disable the whole inventory plugin if you want to do it differently.\r\n\r\n\"you could completely overwrite the default with no trouble at all and wouldn't have to worry about it happening\" : yes you are able to do that with the current architecture, and I'm pretty sure it would actually be hard to implement the cancel thing\r\n\r\nYou can't cancel like that. What you could do is remove the listener with removeListener, but really a plugin can do more than act on one event.\r\n\r\nI think it makes much more sense to disable the whole plugin and then to use the exposed methods of that plugin if you want the default thing in most cases.",
             "created_at": "2015-09-02T15:06:18Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/32#issuecomment-137116840",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32#issuecomment-137116840",
             "id": 137116840,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
             "updated_at": "2015-09-02T15:06:18Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/137116840",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/137116840",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "We might want to look at https://github.com/voxel/voxel-plugins",
             "created_at": "2015-10-13T13:18:43Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/32#issuecomment-147711407",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32#issuecomment-147711407",
             "id": 147711407,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
             "updated_at": "2015-10-13T13:18:43Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147711407",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147711407",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "Some thoughts about this:\r\nI think a clean way to do all this might be to extend EventEmitter in a BehaviourEmitter class, and override the on method with something like on(\"behaviour\",\"event\",func) . This on would not directly add the listener. It would add that behaviour to a behaviourEmitter.behaviours array.\r\nThen we would call a behaviourEmitter.enable(\"behaviour\") function that would actually enable the listener, and it would store that listener in a behaviourEmitter.enabledBehaviours. That would make it possible to do behaviourEmitter.disable(\"behaviour\") whenever needed.\r\nIt would be possible to group these behaviours in plugins, if that's useful (for example, all the behaviour for changing the world would be in a var worldBehaviour=[\"digging\",\"placingBlock\"]; so we can easily enable/disable changing the world).\r\n\r\nThis would allow to enable/disable plugins and features easily and dynamically.\r\n\r\nWe could probably integrate that \"cancellable event\" thing in this class too (see https://github.com/mhsjlw/flying-squid/pull/49/files#diff-768337bda2bb1cbce3e9d7001bb76454R3 )",
             "created_at": "2015-10-26T12:26:26Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/32#issuecomment-151116980",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32#issuecomment-151116980",
             "id": 151116980,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
             "updated_at": "2015-10-26T12:26:26Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/151116980",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/151116980",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "Well, if a plugin wanted to \"disable\" an event, couldn't they simply always cancel it? I wonder if we could apply the same idea to disabling listeners rather than emitters, though, so we could disable plugins.",
             "created_at": "2015-10-26T16:54:25Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/32#issuecomment-151207504",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32#issuecomment-151207504",
             "id": 151207504,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
             "updated_at": "2015-10-26T16:54:25Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/151207504",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/151207504",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "what do you mean by \"listener\" ?\r\n\r\nand I think it's much cleaner to actually not enable behaviours, than trying to cancel stuff afterwards. The cancelling thing is only potentially useful for dynamic stuff.",
             "created_at": "2015-10-26T16:57:05Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/32#issuecomment-151208310",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32#issuecomment-151208310",
             "id": 151208310,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
             "updated_at": "2015-10-26T16:57:05Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/151208310",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/151208310",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "Plugins are dynamic. Why would you want to cancel all world events? in that case, we can't even respond to the client saying \"You can't place a block there\" (i.e. replace whatever block they placed with air).\r\n\r\nBy listener I mean:\r\n\r\n```js\r\n// Plugin A\r\nserver.on('something', () => {});\r\n```\r\n\r\nBeing able to emit 'something' from server to other plugins but not Plugin A if it's disabled. #83 ",
             "created_at": "2015-10-26T16:59:15Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/32#issuecomment-151208964",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32#issuecomment-151208964",
             "id": 151208964,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
             "updated_at": "2015-10-26T16:59:15Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/151208964",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/151208964",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "Most plugins won't need to disable some stuff only in some case, most plugins won't even need to cancel anything.\r\nWe might want to disable all world modification behaviors (!= events) to make a map viewer mode for example.\r\nyeah well that doesn't make much sense.\r\n\r\nWe shouldn't cancel events at all. It doesn't make any sense, an event is going to happen anyway. What makes sense to cancel is a behavior/ a reaction.",
             "created_at": "2015-10-26T17:02:54Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/32#issuecomment-151210028",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32#issuecomment-151210028",
             "id": 151210028,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
             "updated_at": "2015-10-26T17:02:54Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/151210028",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/151210028",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -258,11 +258,11 @@
         {
             "body": "My definition of cancelling event consists of cancelling the default behavior to it (e.g. User places block, default = send to everybody). The event doesn't get cancelled and, with my special formula, sort of gets emitted twice. @roblabla considered this to be a behavior that any plugin could make and any other plugin could cancel as well, but I never really went for it since I figured plugins should be built with other plugins in mind, but not *for* other plugins.",
             "created_at": "2015-10-26T18:02:33Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/32#issuecomment-151228735",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32#issuecomment-151228735",
             "id": 151228735,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
             "updated_at": "2015-10-26T18:02:33Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/151228735",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/151228735",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -286,11 +286,11 @@
         {
             "body": "Using this method to solve #31 \r\n\r\nhttps://gist.github.com/demipixel/301537f68b0aeec5eb83",
             "created_at": "2015-11-06T23:05:21Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/32#issuecomment-154570976",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32#issuecomment-154570976",
             "id": 154570976,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
             "updated_at": "2015-11-06T23:05:21Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/154570976",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/154570976",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -314,11 +314,11 @@
         {
             "body": "Summarizing what we talked about:\r\n* [x] each plugin (both core and \"external\") will follow a module.exports={player:...,server:...,entity:...} structure : that means we don't have 2 sound.js as currently for example but only one file in plugins/\r\n* [x] entity plugins : they will handle stuff that are general to all entities (physics, interaction with other entities, ...) and player plugins will handle stuff specific to players\r\n* [x] instead of player.entity we might just consider player a kind of entity (with some special function defined in player plugins like ._client)\r\n* [x] cancelling will be available",
             "created_at": "2015-11-10T09:52:32Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/32#issuecomment-155373328",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32#issuecomment-155373328",
             "id": 155373328,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
             "updated_at": "2015-11-22T20:22:16Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/155373328",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/155373328",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -342,11 +342,11 @@
         {
             "body": "So `player` is just a convenience around \n`entity: function(e) if (e is 'player') // do stuff`? ",
             "created_at": "2015-11-10T13:20:57Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/32#issuecomment-155417314",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32#issuecomment-155417314",
             "id": 155417314,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
             "updated_at": "2015-11-10T13:20:57Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/155417314",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/155417314",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -370,11 +370,11 @@
         {
             "body": "@roblabla yeah basically. It's useful since players still have some amount of stuff that other entities don't.\r\n(If some other specific entity were to need lot of code in the future I guess we could create a specific plugin type for it (plugins types are mostly for convenience since if we wanted we could do everything in server plugins))",
             "created_at": "2015-11-10T13:30:37Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/32#issuecomment-155419579",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32#issuecomment-155419579",
             "id": 155419579,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
             "updated_at": "2015-11-10T13:31:40Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/155419579",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/155419579",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -398,11 +398,11 @@
         {
             "body": "One more point: the plugins to load (and their settings) should be listed either in config/settings.json either in config/plugins.json (might be simpler to put it in settings.json to have just one file).\r\nDoing that for both \"internal\" and \"external\" plugins would make it more coherent and easier to disable any part of flying-squid.\r\n\r\nedit: we might consider adding dependencies in plugins so if you disable a plugin needed by other plugins they say \"I need X to work\" instead of \"can't call f on undefined\" or something other meaningless error.",
             "created_at": "2015-11-10T21:20:29Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/32#issuecomment-155570584",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32#issuecomment-155570584",
             "id": 155570584,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
             "updated_at": "2015-11-10T21:58:37Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/155570584",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/155570584",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -426,11 +426,11 @@
         {
             "body": "My argument for @rom1504 's edit (to anybody reading this) was that so much of the vanilla internal plugins rely on each other to the point where disabling one plugin would disable a large chain and there's no easy way to prevent this. For an external plugin relying on an external plugin, however, I can see this being useful.",
             "created_at": "2015-11-11T02:48:19Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/32#issuecomment-155642602",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32#issuecomment-155642602",
             "id": 155642602,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
             "updated_at": "2015-11-11T02:48:19Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/155642602",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/155642602",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -454,11 +454,11 @@
         {
             "body": "I still agree with @rom1504's suggestion for using npm with plugins and I think we should still do that. As far as cancelling events go, I think we shouldn't be touching that incase another plugin external or internal needs that event for a feature then another plugin breaks that plugin.",
             "created_at": "2015-11-11T11:34:51Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/32#issuecomment-155742283",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32#issuecomment-155742283",
             "id": 155742283,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
             "updated_at": "2015-11-11T11:34:51Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/155742283",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/155742283",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/8526903?v=3",
                 "events_url": "https://api.github.com/users/mhsjlw/events{/privacy}",
@@ -482,11 +482,11 @@
         {
             "body": "@mhsjlw Only defaults are cancelled, not events. The only reason you wouldn't get an event is if the internal plugin was disabled.",
             "created_at": "2015-11-11T20:02:01Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/32#issuecomment-155895177",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32#issuecomment-155895177",
             "id": 155895177,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
             "updated_at": "2015-11-11T20:02:01Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/155895177",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/155895177",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -510,11 +510,11 @@
         {
             "body": "player, entity and server plugins put together and now player,serv instead of serv,player to allow omitting serv.\r\nNext: load entity plugins for players and make players entities.",
             "created_at": "2015-11-16T20:26:49Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/32#issuecomment-157159544",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32#issuecomment-157159544",
             "id": 157159544,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
             "updated_at": "2015-11-16T20:26:49Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/157159544",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/157159544",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -538,11 +538,11 @@
         {
             "body": "Okay, we've done that ^^^\r\n\r\nSo I'm gonna requireindex both ./node_modules and ./plugins? What about also checking if ../node_modules exists and checking there as well? (If there's a wrapper for the server or something)?\r\n\r\nThe rest is just crap loads of behaviors. Change every event to a behavior and add even more behaviors and then pay a peasant $0.001 per behavior they document.",
             "created_at": "2015-11-20T23:42:41Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/32#issuecomment-158559676",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32#issuecomment-158559676",
             "id": 158559676,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
             "updated_at": "2015-11-20T23:42:41Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/158559676",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/158559676",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -566,11 +566,11 @@
         {
             "body": "> So I'm gonna requireindex both ./node_modules and ./plugins?\r\n\r\nNo, plugins to load will be listed in settings.json, so you don't need to guess what is a plugin in node_modules and all. (this is also useful to specific plugins settings in settings.json)",
             "created_at": "2015-11-20T23:45:20Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/32#issuecomment-158560701",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32#issuecomment-158560701",
             "id": 158560701,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
             "updated_at": "2015-11-20T23:45:24Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/158560701",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/158560701",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -594,11 +594,11 @@
         {
             "body": "Ah, so\r\n\r\n- ../node_modules/plugin_name\r\n- ./node_modules/plugin_name\r\n- ./plugin/plugin_name",
             "created_at": "2015-11-20T23:47:27Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/32#issuecomment-158561098",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32#issuecomment-158561098",
             "id": 158561098,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
             "updated_at": "2015-11-20T23:47:27Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/158561098",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/158561098",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -622,11 +622,11 @@
         {
             "body": "* require('plugin_name')\r\n* if that doesn't work (try catch), require('../plugins/plugin_name')\r\n\r\n```js\r\nfunction getPlugin(pluginName)\r\n{\r\n  var plugin=null;\r\n  try {\r\n    plugin=require(pluginName);\r\n  }\r\n  catch(err) {\r\n    plugin=require('../plugins/'+plugin_name);\r\n  }\r\n  return plugin\r\n}\r\n```\r\n",
             "created_at": "2015-11-20T23:48:56Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/32#issuecomment-158561284",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32#issuecomment-158561284",
             "id": 158561284,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
             "updated_at": "2015-11-21T00:13:26Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/158561284",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/158561284",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -650,11 +650,11 @@
         {
             "body": "Mostly done. We can create new issues for more specific stuff that might need doing.",
             "created_at": "2015-11-22T20:23:01Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/32#issuecomment-158795150",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32#issuecomment-158795150",
             "id": 158795150,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
             "updated_at": "2015-11-22T20:23:01Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/158795150",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/158795150",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -677,7 +677,7 @@
         }
     ],
     "comments": 24,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32/comments",
     "created_at": "2015-09-02T01:22:25Z",
     "event_data": [
         {
@@ -709,7 +709,7 @@
                 "color": "fef2c0",
                 "name": "plugins"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/398667324"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/398667324"
         },
         {
             "actor": {
@@ -736,7 +736,7 @@
             "created_at": "2015-09-02T11:39:34Z",
             "event": "mentioned",
             "id": 398827787,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/398827787"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/398827787"
         },
         {
             "actor": {
@@ -763,7 +763,7 @@
             "created_at": "2015-09-02T11:39:34Z",
             "event": "subscribed",
             "id": 398827788,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/398827788"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/398827788"
         },
         {
             "actor": {
@@ -790,7 +790,7 @@
             "created_at": "2015-10-26T18:02:33Z",
             "event": "mentioned",
             "id": 445865602,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/445865602"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/445865602"
         },
         {
             "actor": {
@@ -817,7 +817,7 @@
             "created_at": "2015-10-26T18:02:33Z",
             "event": "subscribed",
             "id": 445865604,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/445865604"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/445865604"
         },
         {
             "actor": {
@@ -844,7 +844,7 @@
             "created_at": "2015-11-10T13:30:37Z",
             "event": "mentioned",
             "id": 460071457,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/460071457"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/460071457"
         },
         {
             "actor": {
@@ -871,7 +871,7 @@
             "created_at": "2015-11-10T13:30:37Z",
             "event": "subscribed",
             "id": 460071458,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/460071458"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/460071458"
         },
         {
             "actor": {
@@ -898,7 +898,7 @@
             "created_at": "2015-11-11T02:48:19Z",
             "event": "mentioned",
             "id": 460871861,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/460871861"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/460871861"
         },
         {
             "actor": {
@@ -925,7 +925,7 @@
             "created_at": "2015-11-11T02:48:19Z",
             "event": "subscribed",
             "id": 460871863,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/460871863"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/460871863"
         },
         {
             "actor": {
@@ -952,7 +952,7 @@
             "created_at": "2015-11-11T11:34:51Z",
             "event": "mentioned",
             "id": 461190231,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/461190231"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/461190231"
         },
         {
             "actor": {
@@ -979,7 +979,7 @@
             "created_at": "2015-11-11T11:34:51Z",
             "event": "subscribed",
             "id": 461190232,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/461190232"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/461190232"
         },
         {
             "actor": {
@@ -1006,7 +1006,7 @@
             "created_at": "2015-11-11T20:02:01Z",
             "event": "mentioned",
             "id": 461703049,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/461703049"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/461703049"
         },
         {
             "actor": {
@@ -1033,7 +1033,7 @@
             "created_at": "2015-11-11T20:02:01Z",
             "event": "subscribed",
             "id": 461703050,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/461703050"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/461703050"
         },
         {
             "actor": {
@@ -1060,27 +1060,27 @@
             "created_at": "2015-11-22T20:23:01Z",
             "event": "closed",
             "id": 471571598,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/471571598"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/471571598"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/issues/32",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/issues/32",
     "id": 104385411,
     "labels": [
         {
             "color": "fef2c0",
             "name": "plugins",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/plugins"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/labels/plugins"
         }
     ],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 32,
     "state": "closed",
     "title": "The \"how should plugins work\" problem",
     "updated_at": "2015-11-22T20:23:01Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/32",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/32",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
         "events_url": "https://api.github.com/users/demipixel/events{/privacy}",

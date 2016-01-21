@@ -6,11 +6,11 @@
         {
             "body": "This seems like a one-off error. Remove ./node_modules and try again.",
             "created_at": "2013-12-23T05:34:30Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/167#issuecomment-31105052",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/167#issuecomment-31105052",
             "id": 31105052,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/167",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/167",
             "updated_at": "2013-12-23T05:34:37Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/31105052",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/31105052",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "I get this error when I do npm install mineflayer\r\n\r\n\r\nnpm ERR! ursa@0.8.0 install: `node-gyp configure build && node install.js`\r\nnpm ERR! Exit status 1\r\nnpm ERR! \r\nnpm ERR! Failed at the ursa@0.8.0 install script.\r\nnpm ERR! This is most likely a problem with the ursa package,\r\nnpm ERR! not with npm itself.\r\nnpm ERR! Tell the author that this fails on your system:\r\nnpm ERR!     node-gyp configure build && node install.js\r\nnpm ERR! You can get their info via:\r\nnpm ERR!     npm owner ls ursa\r\nnpm ERR! There is likely additional logging output above.\r\n\r\nnpm ERR! System Darwin 12.3.0\r\nnpm ERR! command \"node\" \"/usr/local/bin/npm\" \"install\" \"mineflayer\"\r\nnpm ERR! cwd /Users/User\r\nnpm ERR! node -v v0.10.24\r\nnpm ERR! npm -v 1.3.21\r\nnpm ERR! code ELIFECYCLE\r\nnpm ERR! \r\nnpm ERR! Additional logging details can be found in:\r\nnpm ERR!     /Users/User/npm-debug.log\r\nnpm ERR! not ok code 0\r\n\r\nIt also says\r\nxcode-select: Error: No Xcode is selected. Use xcode-select -switch <path-to-xcode>, or see the xcode-select manpage (man xcode-select) for further information.",
             "created_at": "2013-12-24T00:01:46Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/167#issuecomment-31151278",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/167#issuecomment-31151278",
             "id": 31151278,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/167",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/167",
             "updated_at": "2013-12-24T00:10:35Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/31151278",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/31151278",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/6233803?v=3",
                 "events_url": "https://api.github.com/users/thedogs1/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "It's missing Xcode and thus cannot compile ursa, are you sure you have Xcode? And, if you want, I can try giving you my compiled version of ursa for Mac.",
             "created_at": "2014-01-06T14:19:34Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/167#issuecomment-31651150",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/167#issuecomment-31651150",
             "id": 31651150,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/167",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/167",
             "updated_at": "2014-01-06T14:19:34Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/31651150",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/31651150",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2884155?v=3",
                 "events_url": "https://api.github.com/users/justin97530/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "No reply for 4 months.\r\n\r\nTo build mineflayer, you need to be able to build node-minecraft-protocol, which requires the native module ursa. To build ursa you need to be able to build an MSVC project.\r\n\r\nIn the case of OSX, as @justin97530 said. You require XCode.\r\nIf you need assistance with building ursa we can help, but the best port of call would be https://github.com/Medium/ursa\r\n\r\nCheers. Closed. Comment if you feel this needs re-opening.",
             "created_at": "2014-04-21T22:56:28Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/167#issuecomment-40986461",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/167#issuecomment-40986461",
             "id": 40986461,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/167",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/167",
             "updated_at": "2014-04-21T22:56:28Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/40986461",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/40986461",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
                 "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
@@ -117,7 +117,7 @@
         }
     ],
     "comments": 4,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/167/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/167/comments",
     "created_at": "2013-12-20T23:03:58Z",
     "event_data": [
         {
@@ -145,7 +145,7 @@
             "created_at": "2014-04-21T22:56:28Z",
             "event": "mentioned",
             "id": 113671629,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/113671629"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/113671629"
         },
         {
             "actor": {
@@ -172,7 +172,7 @@
             "created_at": "2014-04-21T22:56:28Z",
             "event": "subscribed",
             "id": 113671630,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/113671630"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/113671630"
         },
         {
             "actor": {
@@ -199,21 +199,21 @@
             "created_at": "2014-04-21T22:56:28Z",
             "event": "closed",
             "id": 113671632,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/113671632"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/113671632"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/167/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/167",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/167/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/167",
     "id": 24653375,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/167/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/167/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 167,
     "state": "closed",
     "title": "Error on installation(On Mac)",
     "updated_at": "2014-04-21T22:56:28Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/167",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/167",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/6233803?v=3",
         "events_url": "https://api.github.com/users/thedogs1/events{/privacy}",

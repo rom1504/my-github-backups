@@ -6,11 +6,11 @@
         {
             "body": "You can do that:\r\n```js\r\nbot.on('playerCollect', function(collector, collected) {\r\n  if(collector.type === 'player' && collected.type === 'object' && collector.username == bot.username) {\r\n    var rawItem = collected.metadata[10];\r\n    var item = mineflayer.Item.fromNotch(rawItem);\r\n    if(item.name==\"leather_helmet\")\r\n      bot.equip(item.type,\"head\");\r\n  }\r\n});\r\n```\r\n\r\nLook at the [chatterbox](https://github.com/andrewrk/mineflayer/blob/master/examples/chatterbox.js#L154) example for more information ;)",
             "created_at": "2015-10-21T18:13:30Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/338#issuecomment-149982188",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/338#issuecomment-149982188",
             "id": 149982188,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/338",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/338",
             "updated_at": "2015-10-21T18:14:57Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/149982188",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/149982188",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Oh sweet! Thank you so much!",
             "created_at": "2015-10-21T21:12:08Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/338#issuecomment-150025610",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/338#issuecomment-150025610",
             "id": 150025610,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/338",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/338",
             "updated_at": "2015-10-21T21:12:08Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/150025610",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/150025610",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/15235673?v=3",
                 "events_url": "https://api.github.com/users/Minecheesecraft/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Ok, there's actually a bit of a problem with that code. If the bot picks up the leather helmet, and doesn't already have a leather helmet in its inventory it crashes. So it needs a helmet in it's inventory before it picks up another to wear it.",
             "created_at": "2015-10-21T21:52:35Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/338#issuecomment-150035596",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/338#issuecomment-150035596",
             "id": 150035596,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/338",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/338",
             "updated_at": "2015-10-21T21:52:35Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/150035596",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/150035596",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/15235673?v=3",
                 "events_url": "https://api.github.com/users/Minecheesecraft/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "Ah yeah, you might want to use the [\"windowUpdate\"](https://github.com/andrewrk/mineflayer/blob/master/doc/api.md#window-windowupdate-slot-olditem-newitem) event instead of 'playerCollect' (bot.inventory.on(\"windowUpdate\",...)",
             "created_at": "2015-10-21T22:30:37Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/338#issuecomment-150042691",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/338#issuecomment-150042691",
             "id": 150042691,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/338",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/338",
             "updated_at": "2015-10-21T22:31:51Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/150042691",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/150042691",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "Now it won't do anything.\r\n\r\n```javascript\r\nvar mineflayer = require('mineflayer');\r\nconsole.log(\"Equip plugin started.\")\r\nmodule.exports.inject = inject;\r\n\r\nfunction inject(bot) {\r\n\r\nbot.inventory.on('windowUpdate', function(collector, collected) {\r\n  if(collector.type === 'player' && collected.type === 'object' && collector.username == bot.username) {\r\n    var rawItem = collected.metadata[10];\r\n    var item = mineflayer.Item.fromNotch(rawItem);\r\n    if(item.name==\"leather_helmet\") bot.equip(item.type,\"head\");\r\n\tif(item.name==\"iron_helmet\") bot.equip(item.type,\"head\");\r\n  }\r\n});\r\n\r\n}\r\n```",
             "created_at": "2015-10-21T23:01:47Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/338#issuecomment-150048305",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/338#issuecomment-150048305",
             "id": 150048305,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/338",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/338",
             "updated_at": "2015-10-21T23:01:47Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/150048305",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/150048305",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/15235673?v=3",
                 "events_url": "https://api.github.com/users/Minecheesecraft/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "Well look at the doc I linked up there, the arguments of the windowUpdate event are different ;)\r\nI'll make an example code of using that later if needed.",
             "created_at": "2015-10-21T23:43:02Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/338#issuecomment-150055277",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/338#issuecomment-150055277",
             "id": 150055277,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/338",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/338",
             "updated_at": "2015-10-21T23:43:02Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/150055277",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/150055277",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "Could you please make that example?",
             "created_at": "2015-10-22T00:02:03Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/338#issuecomment-150057740",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/338#issuecomment-150057740",
             "id": 150057740,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/338",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/338",
             "updated_at": "2015-10-22T00:02:03Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/150057740",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/150057740",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/15235673?v=3",
                 "events_url": "https://api.github.com/users/Minecheesecraft/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "Try this (I haven't tested it): \r\n```js\r\nbot.on('windowUpdate', function(slot, oldItem, newItem) {\r\n    if(newItem.name==\"leather_helmet\" && slot!=5)\r\n      bot.equip(newItem.type,\"head\");\r\n});\r\n```\r\n5 is for head (see https://github.com/andrewrk/mineflayer/blob/4895e4d54c406ce04d1a5cf0e678dcabcd42339b/lib/plugins/simple_inventory.js#L9)",
             "created_at": "2015-10-22T10:24:01Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/338#issuecomment-150171891",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/338#issuecomment-150171891",
             "id": 150171891,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/338",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/338",
             "updated_at": "2015-10-22T10:24:01Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/150171891",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/150171891",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "Didn't work at first, but with a small tweak it was perfect! Thank you so much!\r\n\r\n```javascript\r\nvar mineflayer = require('mineflayer');\r\nconsole.log(\"Equip plugin started.\")\r\nmodule.exports.inject = inject;\r\n\r\nfunction inject(bot) {\r\n\r\nvar newItem = undefined\r\n\r\nbot.inventory.on('windowUpdate', function(slot, oldItem, newItem) {\r\n\tif (newItem != undefined) {\r\n    if(newItem.name==\"leather_helmet\" && slot!=5)\r\n      bot.equip(newItem.type,\"head\");\r\n\t}\r\n});\r\n\r\n}\r\n```",
             "created_at": "2015-10-22T14:45:04Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/338#issuecomment-150247824",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/338#issuecomment-150247824",
             "id": 150247824,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/338",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/338",
             "updated_at": "2015-10-22T14:45:04Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/150247824",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/150247824",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/15235673?v=3",
                 "events_url": "https://api.github.com/users/Minecheesecraft/events{/privacy}",
@@ -257,7 +257,7 @@
         }
     ],
     "comments": 9,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/338/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/338/comments",
     "created_at": "2015-10-21T17:19:25Z",
     "event_data": [
         {
@@ -285,7 +285,7 @@
             "created_at": "2015-10-21T21:32:43Z",
             "event": "closed",
             "id": 442018562,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/442018562"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/442018562"
         },
         {
             "actor": {
@@ -312,7 +312,7 @@
             "created_at": "2015-10-21T22:30:37Z",
             "event": "reopened",
             "id": 442067445,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/442067445"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/442067445"
         },
         {
             "actor": {
@@ -339,21 +339,21 @@
             "created_at": "2015-10-22T14:45:06Z",
             "event": "closed",
             "id": 442727102,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/442727102"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/442727102"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/338/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/338",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/338/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/338",
     "id": 112638165,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/338/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/338/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 338,
     "state": "closed",
     "title": "How to make bot equip picked up item?",
     "updated_at": "2015-10-22T14:45:06Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/338",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/338",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/15235673?v=3",
         "events_url": "https://api.github.com/users/Minecheesecraft/events{/privacy}",

@@ -6,11 +6,11 @@
         {
             "body": "God damnit.\r\n\r\nBacktrack about a year ago and I'm trying to get this thing to work. I see that it hasn't been updated in a year, and of course stuff is breaking every which way. I was (and still am) a coder and wanted to try and write bots for Minecraft. I gave up after searching for a week, and a few months ago I decided \"why not dive into the protocol itself?\". I got some stuff working which was nice, but since I had no idea what I was doing, I copied the mineflayer A* pathfinding because I was NOT going to write one myself. I important that, and I need the biome file. Okay, add that. Oh, and the biome list. Okay, added. Oh, and the block file, the block types, the block lists, etc etc etc GAAHH!\r\n\r\nAnyway, I get everything imported and it (for the most part) worked. Manually making collisions was a fun time (bot kept getting kicked for flying on servers or what not). Haven't played Minecraft in a month or two (I go in phases between TF2 and Minecraft. It's been a long TF2 now) and I keep getting these emails about mineflayer. For the past month of getting these, I thought it was different project which was a \"programmable bot\" but it was in java as a mod. Just today I realized what it was.\r\n\r\nAnd it's being updated for 1.8.3\r\n\r\nYou suck, now I have to get back into Minecraft.\r\n\r\nCheers,\r\nDemiPixel\r\n\r\nP.S. \"Create Minecraft bots with a powerful, stable, and high level JavaScript API. Note: This project is no longer maintained.\" Is that gonna change?",
             "created_at": "2015-03-13T00:39:41Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/198#issuecomment-78718424",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/198#issuecomment-78718424",
             "id": 78718424,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/198",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/198",
             "updated_at": "2015-03-13T00:44:33Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/78718424",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/78718424",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "We'll change that once we successfully update to 1.8 I guess. And thanks, it's cool to see people are interested in this project being updated :)",
             "created_at": "2015-03-13T00:54:36Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/198#issuecomment-78723067",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/198#issuecomment-78723067",
             "id": 78723067,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/198",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/198",
             "updated_at": "2015-03-13T00:54:36Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/78723067",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/78723067",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Should we make a list of things that are needed? I'm interested in starting but I'm not sure exactly where (I have experience with the protocol so I'm aware how to use it).\r\n\r\nSome ideas:\r\n- Adding the blocks to enums (and biomes, recipes, etc)\r\n- Updating and tidying up the Docs (would recommend adding at least a little text for every single one)\r\n- Stuff on the roadmap like brewing stands, anvils, and physics (water, ladders, etc) (Would love to see new bounding boxes so we can go against fences, doors, bars etc correctly)\r\n- Update examples to work... correctly...\r\n- Loads of 1.8 stuff that I'm unaware of.",
             "created_at": "2015-03-13T03:28:40Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/198#issuecomment-78774576",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/198#issuecomment-78774576",
             "id": 78774576,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/198",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/198",
             "updated_at": "2015-03-13T03:28:40Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/78774576",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/78774576",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "@demipixel  \r\n* There's a list of examples to make work there #180 \r\n* it might be interesting to do some testing to figure out what work and doesn't (see #203 ).\r\n* @deathcap is working on updating Burger in order to update the blocks and other enums (see https://github.com/mcdevs/Burger/pull/12)\r\n\r\nCurrently a lot of examples crashes will lead to seeing that lot of little (or big) parts of mineflayer need fixing. I think it's needed to at least fix the examples / basic functionnalities before working on new things in the Roadmap that were never done.",
             "created_at": "2015-03-13T10:59:35Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/198#issuecomment-78918544",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/198#issuecomment-78918544",
             "id": 78918544,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/198",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/198",
             "updated_at": "2015-03-13T10:59:35Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/78918544",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/78918544",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "What issue actually need solving before we release on npm ?\r\nThere's the \"Stable 2.0\" milestone in the issues. Should we actually release the next version as 2.0 ?\r\nAnyway putting the issues that need to be solved before the next npm release into a milestone would be useful to know where we are at.",
             "created_at": "2015-03-29T18:09:41Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/198#issuecomment-87451476",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/198#issuecomment-87451476",
             "id": 87451476,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/198",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/198",
             "updated_at": "2015-03-29T18:09:41Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87451476",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87451476",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "well, did we make any changes to existing bots in order to make them work with 1.8 ? If the API is still the same, no need to do a major bump.",
             "created_at": "2015-03-29T20:00:49Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/198#issuecomment-87465786",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/198#issuecomment-87465786",
             "id": 87465786,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/198",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/198",
             "updated_at": "2015-03-29T20:00:49Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87465786",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87465786",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "Not a lot changed no (the recipe api changed a bit but not much else), so maybe it should be released as 1.2.0.",
             "created_at": "2015-03-29T20:11:17Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/198#issuecomment-87467587",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/198#issuecomment-87467587",
             "id": 87467587,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/198",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/198",
             "updated_at": "2015-03-29T20:11:34Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87467587",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87467587",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "So apparently 1.1.0 is not released on npm, nothing about it on doc/history.md. We probably should just delete the tag. And the new version will actually be 1.1.0 then.",
             "created_at": "2015-03-29T20:29:42Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/198#issuecomment-87470430",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/198#issuecomment-87470430",
             "id": 87470430,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/198",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/198",
             "updated_at": "2015-03-29T20:29:42Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87470430",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87470430",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "I updated the milestone, it's now \"1.1.0\" and I updated the issues in it, I think we can release when they are fixed (see https://github.com/andrewrk/mineflayer/milestones/1.1.0)\r\n(I also removed the useless 1.1.0 tag so we can release as 1.1.0)",
             "created_at": "2015-03-31T11:30:30Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/198#issuecomment-88053732",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/198#issuecomment-88053732",
             "id": 88053732,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/198",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/198",
             "updated_at": "2015-03-31T11:31:08Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/88053732",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/88053732",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -258,11 +258,11 @@
         {
             "body": "But if I a have a bot that uses mineflayer and currently works against `1.6` servers (the latest released version in npm) and I'm using it inside a complex production platform/application/architecture, updating to this new version that only supports `1.8` will probably break my application. And any breaking change should be released as a major bump.\r\n\r\nThis means that any protocol update change needs to be released as a major bump (being cautious). But there is nothing wrong about it. Everything would be different if mineflayer supports multiple protocols simultaneously, but it is not the case. It would also be different if mineflayer supports old versions of node-minecraft-protocol in package.json, but it is not the case.\r\n\r\nAm I wrong?",
             "created_at": "2015-04-02T02:41:19Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/198#issuecomment-88705977",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/198#issuecomment-88705977",
             "id": 88705977,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/198",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/198",
             "updated_at": "2015-04-02T02:41:19Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/88705977",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/88705977",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1878434?v=3",
                 "events_url": "https://api.github.com/users/zuazo/events{/privacy}",
@@ -286,11 +286,11 @@
         {
             "body": "Yes and no. Your bot that currently work on 1.6 server will work on 1.8 server assuming you only use public APIs. If you want to support a specific minecraft server, you should pin an exact mineflayer version in the package.json, as that is an implementation detail. At least that's the way I see it.",
             "created_at": "2015-04-02T10:29:19Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/198#issuecomment-88860990",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/198#issuecomment-88860990",
             "id": 88860990,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/198",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/198",
             "updated_at": "2015-04-02T10:29:19Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/88860990",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/88860990",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -314,11 +314,11 @@
         {
             "body": "But the moment you drop 1.6 support, your library is not backwards compatible because you need to upgrade your minecraft server to keep it working. It is not transparent for the user. It is like dropping node 9 support or something similar. I'm seeing the minecraft server as a dependency here.\r\n\r\nPerhaps the supported protocol version must be documented in the API, so if the supported protocol version changes, the API (documentation) also changes.\r\n\r\nAnyway, IMHO if there is any possible backwards incompatible change, we must do a major bump just in case. But I also understand your point. I'm not entirely sure which is better :confused:",
             "created_at": "2015-04-14T19:04:25Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/198#issuecomment-93021663",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/198#issuecomment-93021663",
             "id": 93021663,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/198",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/198",
             "updated_at": "2015-04-14T19:04:25Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/93021663",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/93021663",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1878434?v=3",
                 "events_url": "https://api.github.com/users/zuazo/events{/privacy}",
@@ -342,11 +342,11 @@
         {
             "body": "Okay so the 1.1 milestone is now done (see https://github.com/andrewrk/mineflayer/issues?q=is%3Aopen+is%3Aissue+milestone%3A1.1.0)\r\nI'm not exactly sure about what's absolutely better between 2.0 and 1.1.\r\nBut I think 1.1 makes sense regarding the fact that you don't need to update many things in your bot using mineflayer (I actually found this to be true in rbot : very little change to make to update to current mineflayer from 1.0).\r\n\r\nSo I think we can go with 1.1.\r\n\r\nIf everybody is okay with that I'll publish to npm tonight ? (add stuff to history.md, bump the version number, and npm publish (do I have the rights to npm publish ?))",
             "created_at": "2015-04-15T10:31:27Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/198#issuecomment-93312076",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/198#issuecomment-93312076",
             "id": 93312076,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/198",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/198",
             "updated_at": "2015-04-15T10:31:38Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/93312076",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/93312076",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -370,11 +370,11 @@
         {
             "body": "I added you as a collaborator to the npm package, so you should be able to publish now.\r\n\r\nAlso, :+1: for release. As for the correct version number, IDK. I understand @zuazo 's point of view, but I don't know if it's worth bumping MAJOR each time we have a protocol upgrade.",
             "created_at": "2015-04-15T12:39:42Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/198#issuecomment-93372478",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/198#issuecomment-93372478",
             "id": 93372478,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/198",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/198",
             "updated_at": "2015-04-15T12:40:55Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/93372478",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/93372478",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -398,11 +398,11 @@
         {
             "body": "Yes, `1.1.0` it's OK for me too :+1: Let us make a major bump when we meet more clear compatibility issues.",
             "created_at": "2015-04-15T16:47:21Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/198#issuecomment-93482517",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/198#issuecomment-93482517",
             "id": 93482517,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/198",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/198",
             "updated_at": "2015-04-15T16:47:21Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/93482517",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/93482517",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1878434?v=3",
                 "events_url": "https://api.github.com/users/zuazo/events{/privacy}",
@@ -426,11 +426,11 @@
         {
             "body": "Done :)\r\nmineflayer supports 1.8 ",
             "created_at": "2015-04-15T17:01:24Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/198#issuecomment-93487242",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/198#issuecomment-93487242",
             "id": 93487242,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/198",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/198",
             "updated_at": "2015-04-15T17:01:24Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/93487242",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/93487242",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -454,11 +454,11 @@
         {
             "body": "Wonderful @rom1504! Everything is OK. Thanks! :beer:",
             "created_at": "2015-04-15T18:40:38Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/198#issuecomment-93526906",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/198#issuecomment-93526906",
             "id": 93526906,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/198",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/198",
             "updated_at": "2015-04-15T18:40:38Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/93526906",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/93526906",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1878434?v=3",
                 "events_url": "https://api.github.com/users/zuazo/events{/privacy}",
@@ -481,7 +481,7 @@
         }
     ],
     "comments": 17,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/198/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/198/comments",
     "created_at": "2015-03-11T11:23:26Z",
     "event_data": [
         {
@@ -509,7 +509,7 @@
             "created_at": "2015-03-13T10:59:35Z",
             "event": "mentioned",
             "id": 251803588,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/251803588"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/251803588"
         },
         {
             "actor": {
@@ -536,7 +536,7 @@
             "created_at": "2015-03-13T10:59:35Z",
             "event": "subscribed",
             "id": 251803589,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/251803589"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/251803589"
         },
         {
             "actor": {
@@ -563,7 +563,7 @@
             "created_at": "2015-03-13T10:59:35Z",
             "event": "mentioned",
             "id": 251803590,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/251803590"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/251803590"
         },
         {
             "actor": {
@@ -590,7 +590,7 @@
             "created_at": "2015-03-13T10:59:35Z",
             "event": "subscribed",
             "id": 251803591,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/251803591"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/251803591"
         },
         {
             "actor": {
@@ -621,7 +621,7 @@
                 "color": "207de5",
                 "name": "protocol support"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/266843100"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/266843100"
         },
         {
             "actor": {
@@ -651,7 +651,7 @@
             "milestone": {
                 "title": "1.1.0"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/269461749"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/269461749"
         },
         {
             "actor": {
@@ -681,7 +681,7 @@
             "milestone": {
                 "title": "1.1.0"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/269461750"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/269461750"
         },
         {
             "actor": {
@@ -708,7 +708,7 @@
             "created_at": "2015-04-15T12:40:55Z",
             "event": "mentioned",
             "id": 282035633,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/282035633"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/282035633"
         },
         {
             "actor": {
@@ -735,7 +735,7 @@
             "created_at": "2015-04-15T12:40:55Z",
             "event": "subscribed",
             "id": 282035634,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/282035634"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/282035634"
         },
         {
             "actor": {
@@ -762,7 +762,7 @@
             "created_at": "2015-04-15T17:01:24Z",
             "event": "closed",
             "id": 282310025,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/282310025"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/282310025"
         },
         {
             "actor": {
@@ -789,7 +789,7 @@
             "created_at": "2015-04-15T18:40:38Z",
             "event": "mentioned",
             "id": 282407543,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/282407543"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/282407543"
         },
         {
             "actor": {
@@ -816,20 +816,20 @@
             "created_at": "2015-04-15T18:40:38Z",
             "event": "subscribed",
             "id": 282407544,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/282407544"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/282407544"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/198/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/198",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/198/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/198",
     "id": 60644073,
     "labels": [
         {
             "color": "207de5",
             "name": "protocol support",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/protocol%20support"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/protocol%20support"
         }
     ],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/198/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/198/labels{/name}",
     "locked": false,
     "milestone": {
         "closed_at": null,
@@ -856,21 +856,21 @@
         },
         "description": "Minecraft 1.8.x compliant bot\r\nAll examples should work and code thoroughly checked",
         "due_on": null,
-        "html_url": "https://github.com/andrewrk/mineflayer/milestones/1.1.0",
+        "html_url": "https://github.com/PrismarineJS/mineflayer/milestones/1.1.0",
         "id": 636181,
-        "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/milestones/1/labels",
+        "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/milestones/1/labels",
         "number": 1,
         "open_issues": 0,
         "state": "open",
         "title": "1.1.0",
         "updated_at": "2015-04-15T17:01:24Z",
-        "url": "https://api.github.com/repos/andrewrk/mineflayer/milestones/1"
+        "url": "https://api.github.com/repos/PrismarineJS/mineflayer/milestones/1"
     },
     "number": 198,
     "state": "closed",
     "title": "1.8 support",
     "updated_at": "2015-04-15T18:40:38Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/198",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/198",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
         "events_url": "https://api.github.com/users/roblabla/events{/privacy}",

@@ -6,11 +6,11 @@
         {
             "body": "Yeah, would be really appreciated.",
             "created_at": "2013-02-28T12:22:07Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/145#issuecomment-14230707",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/145#issuecomment-14230707",
             "id": 14230707,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/145",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/145",
             "updated_at": "2013-02-28T12:22:07Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/14230707",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/14230707",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1923024?v=3",
                 "events_url": "https://api.github.com/users/HiddenCloud/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "I don't think it's mineflayer's job to parse command line arguments for you. [Helperbot](https://github.com/Darthfett/Helperbot) for example parses command line arguments differently than this PR. This PR would break that project.\r\n\r\nYou can solve this in your code by having a common file that all your scripts use that does the command line parsing and creates a mineflayer bot for you.",
             "created_at": "2013-02-28T16:04:03Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/145#issuecomment-14240679",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/145#issuecomment-14240679",
             "id": 14240679,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/145",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/145",
             "updated_at": "2013-02-28T16:04:03Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/14240679",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/14240679",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Perhaps a createBotFromArgs() or similar method?",
             "created_at": "2013-02-28T16:25:47Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/145#issuecomment-14241936",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/145#issuecomment-14241936",
             "id": 14241936,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/145",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/145",
             "updated_at": "2013-02-28T16:25:47Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/14241936",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/14241936",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/917680?v=3",
                 "events_url": "https://api.github.com/users/ruany/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "I'm sorry but I have to stick to my guns on this one.\r\n\r\nOne of the main goals of this project is to keep rapidly up to date with minecraft protocol changes. In order to do that, I need to try to keep the already high maintenance burden as low as possible. This means that I need to be careful not to allow mineflayer to take on more responsibility beyond providing a high level interface to *the minecraft protocol*.\r\n\r\nParsing command line arguments belongs in the app layer; not in the library layer.",
             "created_at": "2013-02-28T17:22:31Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/145#issuecomment-14245018",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/145#issuecomment-14245018",
             "id": 14245018,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/145",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/145",
             "updated_at": "2013-02-28T17:22:31Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/14245018",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/14245018",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "@ruan942 @HiddenCloud I don't really understand how you use mineflayer since there has to be some code that causes the bot do something, but why not create a mineflayer-cli projects that allows you to create bots from the cli (using argument parsing) and potentially specifying plugins to load as well.",
             "created_at": "2013-02-28T18:07:24Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/145#issuecomment-14247531",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/145#issuecomment-14247531",
             "id": 14247531,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/145",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/145",
             "updated_at": "2013-02-28T18:07:24Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/14247531",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/14247531",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/159568?v=3",
                 "events_url": "https://api.github.com/users/vogonistic/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "@vogonistic The original mineflayer that was written in C++ used commandline arguments to connect to a server.\r\nI suppose I could start mineflayer-cli, seems simple enough to do.",
             "created_at": "2013-03-01T06:30:18Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/145#issuecomment-14275027",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/145#issuecomment-14275027",
             "id": 14275027,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/145",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/145",
             "updated_at": "2013-03-01T06:30:18Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/14275027",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/14275027",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/917680?v=3",
                 "events_url": "https://api.github.com/users/ruany/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "@ruan942 Mineflayer is intentionally lacking any functionality to connect to servers and do things, the examples are simply there to see how to use mineflayer in projects of your own.  It's possible to write a program that manages multiple mineflayer bots, and has them disconnect/reconnect to servers, which having this command line parsing stuff would interfere with.\r\n\r\n[Helperbot](https://github.com/Darthfett/Helperbot) was intended to be the new project that listened to command line arguments and respond to chat commands, which separating from mineflayer allowed people to create their own completely separate projects based on the mineflayer bot framework.\r\n\r\nIn case you didn't see this from the helperbot README:\r\n\r\n```sh\r\nUsage: node helperbot.js [SERVER] [USERNAME] [OPTIONS]\r\nConnect a mineflayer bot to SERVER as USERNAME.\r\nBy default connects 'helperbot' to localhost.\r\n\r\n  -h, --help               display this help and exit\r\n  -l, --login              prompt for credentials and login to minecraft.net\r\n      --masters=a,b,c,...  set the bot's masters to player a, b, c, ...\r\n      --password=PASSWORD  connect to minecraft.net with the given PASSWORD\r\n  -p, --port=PORT          connect to the given port (defaults to 25565)\r\n```",
             "created_at": "2013-03-01T06:37:51Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/145#issuecomment-14275169",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/145#issuecomment-14275169",
             "id": 14275169,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/145",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/145",
             "updated_at": "2013-03-02T05:08:31Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/14275169",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/14275169",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/412436?v=3",
                 "events_url": "https://api.github.com/users/Darthfett/events{/privacy}",
@@ -201,7 +201,7 @@
         }
     ],
     "comments": 7,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/145/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/145/comments",
     "created_at": "2013-02-28T12:19:35Z",
     "event_data": [
         {
@@ -229,7 +229,7 @@
             "created_at": "2013-02-28T17:22:31Z",
             "event": "closed",
             "id": 39639430,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/39639430"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/39639430"
         },
         {
             "actor": {
@@ -256,7 +256,7 @@
             "created_at": "2013-02-28T18:07:24Z",
             "event": "mentioned",
             "id": 39646597,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/39646597"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/39646597"
         },
         {
             "actor": {
@@ -283,7 +283,7 @@
             "created_at": "2013-02-28T18:07:24Z",
             "event": "subscribed",
             "id": 39646598,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/39646598"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/39646598"
         },
         {
             "actor": {
@@ -310,7 +310,7 @@
             "created_at": "2013-02-28T18:07:24Z",
             "event": "mentioned",
             "id": 39646599,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/39646599"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/39646599"
         },
         {
             "actor": {
@@ -337,7 +337,7 @@
             "created_at": "2013-02-28T18:07:24Z",
             "event": "subscribed",
             "id": 39646600,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/39646600"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/39646600"
         },
         {
             "actor": {
@@ -364,7 +364,7 @@
             "created_at": "2013-03-01T06:20:44Z",
             "event": "head_ref_deleted",
             "id": 39731880,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/39731880"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/39731880"
         },
         {
             "actor": {
@@ -391,7 +391,7 @@
             "created_at": "2013-03-01T06:30:18Z",
             "event": "mentioned",
             "id": 39732396,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/39732396"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/39732396"
         },
         {
             "actor": {
@@ -418,7 +418,7 @@
             "created_at": "2013-03-01T06:30:18Z",
             "event": "subscribed",
             "id": 39732397,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/39732397"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/39732397"
         },
         {
             "actor": {
@@ -445,7 +445,7 @@
             "created_at": "2013-03-01T06:37:51Z",
             "event": "mentioned",
             "id": 39732858,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/39732858"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/39732858"
         },
         {
             "actor": {
@@ -472,27 +472,27 @@
             "created_at": "2013-03-01T06:37:51Z",
             "event": "subscribed",
             "id": 39732859,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/39732859"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/39732859"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/145/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/pull/145",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/145/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/pull/145",
     "id": 11498419,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/145/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/145/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 145,
     "pull_request": {
-        "diff_url": "https://github.com/andrewrk/mineflayer/pull/145.diff",
-        "html_url": "https://github.com/andrewrk/mineflayer/pull/145",
-        "patch_url": "https://github.com/andrewrk/mineflayer/pull/145.patch",
-        "url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/145"
+        "diff_url": "https://github.com/PrismarineJS/mineflayer/pull/145.diff",
+        "html_url": "https://github.com/PrismarineJS/mineflayer/pull/145",
+        "patch_url": "https://github.com/PrismarineJS/mineflayer/pull/145.patch",
+        "url": "https://api.github.com/repos/PrismarineJS/mineflayer/pulls/145"
     },
     "state": "closed",
     "title": "Make createBot() use args",
     "updated_at": "2014-07-26T21:59:41Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/145",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/145",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/917680?v=3",
         "events_url": "https://api.github.com/users/ruany/events{/privacy}",

@@ -6,11 +6,11 @@
         {
             "body": "is it a specific block type that triggers the bug?",
             "created_at": "2013-02-17T07:41:37Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/139#issuecomment-13682230",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/139#issuecomment-13682230",
             "id": 13682230,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/139",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/139",
             "updated_at": "2013-02-17T07:41:55Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13682230",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13682230",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "I have seen this for leaves, for dirt and for stone. So it doesn't seem specific to a block type.\r\nMaybe my \"server\" (I was using the minecraft client in lan mode) was lagging and that's what triggered this bug ?\r\nI don't know, I will try again, see if it still happens, and if so try to figure out in which conditions.",
             "created_at": "2013-02-18T17:27:29Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/139#issuecomment-13732889",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/139#issuecomment-13732889",
             "id": 13732889,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/139",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/139",
             "updated_at": "2013-02-18T17:27:29Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13732889",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13732889",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Is it a tool breaking?",
             "created_at": "2013-02-18T17:49:43Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/139#issuecomment-13733974",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/139#issuecomment-13733974",
             "id": 13733974,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/139",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/139",
             "updated_at": "2013-02-18T17:49:43Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13733974",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13733974",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "I have to try it again, but if I remember correctly it wasn't using any tool.",
             "created_at": "2013-02-19T05:05:09Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/139#issuecomment-13757165",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/139#issuecomment-13757165",
             "id": 13757165,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/139",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/139",
             "updated_at": "2013-02-19T05:05:09Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13757165",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13757165",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "Oh I'm forgetting something, it might be important : If I dig one of these \"half-dug block\" sometimes it transforms to a half-dug air block (like if you were trying to dig the air), not sure what it means...",
             "created_at": "2013-02-19T05:09:49Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/139#issuecomment-13757276",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/139#issuecomment-13757276",
             "id": 13757276,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/139",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/139",
             "updated_at": "2013-02-19T05:09:49Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13757276",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13757276",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "If i add a 300ms timeout before next digging it works (but this is a bit of a  hack...)",
             "created_at": "2013-02-19T08:41:13Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/139#issuecomment-13762144",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/139#issuecomment-13762144",
             "id": 13762144,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/139",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/139",
             "updated_at": "2013-02-19T08:41:13Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13762144",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13762144",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "I have observed this when the server lags. I'm not sure it's possible to fix however, because when the server was lagging, even the vanilla client was glitching out and breaking blocks too early.",
             "created_at": "2013-02-19T17:19:12Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/139#issuecomment-13784933",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/139#issuecomment-13784933",
             "id": 13784933,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/139",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/139",
             "updated_at": "2013-02-19T17:19:12Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13784933",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13784933",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "OK, I have an idea on a fix: the callback back first check whether the dug\r\nblock is empty, if it is it calls the real callback, if It's not it wait\r\n300ms then do this again.\r\nI'll try this, should this be in  mineflayer or in bots?\r\nLe 19 févr. 2013 18:19, \"Andrew Kelley\" <notifications@github.com> a écrit :\r\n\r\n> I have observed this when the server lags. I'm not sure it's possible to\r\n> fix however, because when the server was lagging, even the vanilla client\r\n> was glitching out and breaking blocks too early.\r\n>\r\n> —\r\n> Reply to this email directly or view it on GitHub<https://github.com/superjoe30/mineflayer/issues/139#issuecomment-13784933>.\r\n>\r\n>",
             "created_at": "2013-02-20T08:40:21Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/139#issuecomment-13821265",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/139#issuecomment-13821265",
             "id": 13821265,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/139",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/139",
             "updated_at": "2013-02-20T08:40:21Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13821265",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13821265",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "The way digging works is that it waits the appropriate amount of time and then assumes that digging worked, updating the block in memory to air without ever getting anything from the server. This is the way it *must* work in order for digging to be efficient. This is the way it works in the vanilla client.\r\n\r\nThe server does not always send an updateblock event to air when you finish digging. In fact in most cases it does not send such an event.",
             "created_at": "2013-02-20T17:09:20Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/139#issuecomment-13843640",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/139#issuecomment-13843640",
             "id": 13843640,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/139",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/139",
             "updated_at": "2013-02-20T17:09:20Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13843640",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13843640",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -258,11 +258,11 @@
         {
             "body": "Well when I have this bug it seems the block is not updated to air in mineflayer (or maybe the block is re-updated to non-air when it receives a block update paquet from the server) so I guess my solution still apply (and it seems to works)\r\nI'm doing this in the callback : \r\ncheck();\r\nfunction check()\r\n{\r\n\tif(isNotEmpty(pos)) setTimeout(check,300);\r\n\telse done();\r\n}\r\n(done is the name of the callback of my dig function and isNotEmpty check whether is block is empty or not thanks to blockAt and boundingBox)\r\n",
             "created_at": "2013-02-20T17:28:12Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/139#issuecomment-13844668",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/139#issuecomment-13844668",
             "id": 13844668,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/139",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/139",
             "updated_at": "2013-02-20T17:28:12Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13844668",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13844668",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -286,11 +286,11 @@
         {
             "body": "Ah no it's not working... Still have this bug though\r\nI think what's lagging is not the server but the bot because I'm running the vanilla client at the same time (and it makes my computer lag)",
             "created_at": "2013-02-20T18:02:45Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/139#issuecomment-13846563",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/139#issuecomment-13846563",
             "id": 13846563,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/139",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/139",
             "updated_at": "2013-02-20T18:02:45Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13846563",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13846563",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -314,11 +314,11 @@
         {
             "body": "possibly solved by a 200ms timeout after placeblock before using dig",
             "created_at": "2013-02-20T19:00:31Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/139#issuecomment-13849668",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/139#issuecomment-13849668",
             "id": 13849668,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/139",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/139",
             "updated_at": "2013-02-20T19:00:31Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13849668",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13849668",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -342,11 +342,11 @@
         {
             "body": "Actually I thing this has nothing to do with placeblock after all. I'm pretty sure this is just a problem with the lag.\r\nA simple solution (in my bot) is to dig again if the block is not empty after digging.\r\nMaybe this issue could be closed ?",
             "created_at": "2013-02-27T13:12:00Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/139#issuecomment-14172789",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/139#issuecomment-14172789",
             "id": 14172789,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/139",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/139",
             "updated_at": "2013-02-27T13:12:00Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/14172789",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/14172789",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -370,11 +370,11 @@
         {
             "body": "I'll go ahead and close it, and this is what I need for it to be open again:\r\n\r\n1. step by step instructions how to duplicate the issue\r\n2. what you expect to happen\r\n3. what happens instead.",
             "created_at": "2013-02-27T16:16:29Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/139#issuecomment-14182510",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/139#issuecomment-14182510",
             "id": 14182510,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/139",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/139",
             "updated_at": "2013-02-27T16:16:29Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/14182510",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/14182510",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -397,7 +397,7 @@
         }
     ],
     "comments": 14,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/139/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/139/comments",
     "created_at": "2013-02-17T02:19:02Z",
     "event_data": [
         {
@@ -425,21 +425,21 @@
             "created_at": "2013-02-27T16:16:29Z",
             "event": "closed",
             "id": 39459151,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/39459151"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/39459151"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/139/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/139",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/139/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/139",
     "id": 11082101,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/139/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/139/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 139,
     "state": "closed",
     "title": "half-dug blocks",
     "updated_at": "2013-02-27T16:16:29Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/139",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/139",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

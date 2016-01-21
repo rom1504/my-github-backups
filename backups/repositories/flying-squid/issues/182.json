@@ -1,0 +1,79 @@
+{
+    "assignee": null,
+    "body": "Similar idea to https://github.com/PrismarineJS/prismarine-world/issues/19#issuecomment-169071246\r\n\r\nWould allow to send the chunks actually needed at that point.\r\n\r\nWould make flying fast in a direction work better.",
+    "closed_at": null,
+    "comment_data": [],
+    "comments": 0,
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/182/comments",
+    "created_at": "2016-01-15T03:07:55Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2016-01-15T03:07:55Z",
+            "event": "labeled",
+            "id": 515761119,
+            "label": {
+                "color": "1a94c6",
+                "name": "world"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/515761119"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/182/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/issues/182",
+    "id": 126798264,
+    "labels": [
+        {
+            "color": "1a94c6",
+            "name": "world",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/labels/world"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/182/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 182,
+    "state": "open",
+    "title": "Have a chunk sending queue",
+    "updated_at": "2016-01-15T03:07:55Z",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/182",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+        "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+        "followers_url": "https://api.github.com/users/rom1504/followers",
+        "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/rom1504",
+        "id": 2346494,
+        "login": "rom1504",
+        "organizations_url": "https://api.github.com/users/rom1504/orgs",
+        "received_events_url": "https://api.github.com/users/rom1504/received_events",
+        "repos_url": "https://api.github.com/users/rom1504/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/rom1504"
+    }
+}

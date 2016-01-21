@@ -6,11 +6,11 @@
         {
             "body": "That version of node is absurdly old. You should really update nodejs to _at least_ 0.10.\r\n\r\nhttp://stackoverflow.com/a/21715730/867923 : \r\n\r\n> It looks like that version of npm isn't supported any more, updating node (and npm with it) resolved the issue.\r\n\r\n```\r\nsudo apt-get purge nodejs npm\r\ncurl -sL https://deb.nodesource.com/setup | sudo bash -\r\nsudo apt-get install -y nodejs\r\n```",
             "created_at": "2015-06-09T10:08:17Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/298#issuecomment-110300500",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/298#issuecomment-110300500",
             "id": 110300500,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/298",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/298",
             "updated_at": "2015-06-09T10:08:33Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/110300500",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/110300500",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "oh, thank, I was thinking that debian repos were up to date \r\nI'm updating :)",
             "created_at": "2015-06-09T10:26:49Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/298#issuecomment-110306854",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/298#issuecomment-110306854",
             "id": 110306854,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/298",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/298",
             "updated_at": "2015-06-09T10:26:49Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/110306854",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/110306854",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/10290315?v=3",
                 "events_url": "https://api.github.com/users/hugo4715/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "So, I guess that fixed your problem !",
             "created_at": "2015-06-10T08:52:55Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/298#issuecomment-110659544",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/298#issuecomment-110659544",
             "id": 110659544,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/298",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/298",
             "updated_at": "2015-06-10T08:52:55Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/110659544",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/110659544",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -89,7 +89,7 @@
         }
     ],
     "comments": 3,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/298/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/298/comments",
     "created_at": "2015-06-09T10:06:06Z",
     "event_data": [
         {
@@ -117,21 +117,21 @@
             "created_at": "2015-06-10T08:52:55Z",
             "event": "closed",
             "id": 327186389,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/327186389"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/327186389"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/298/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/298",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/298/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/298",
     "id": 86537111,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/298/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/298/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 298,
     "state": "closed",
     "title": "Can't install mineflayer",
     "updated_at": "2015-06-10T08:52:55Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/298",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/298",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10290315?v=3",
         "events_url": "https://api.github.com/users/hugo4715/events{/privacy}",

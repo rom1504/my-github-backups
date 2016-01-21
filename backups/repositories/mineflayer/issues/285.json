@@ -6,11 +6,11 @@
         {
             "body": "Yeah but that doesn't delete the rest of the stuff mineflayer stores (chunk, entities,...)\r\nCan't you just delete the whole bot instance when mineflayer end event is emmited ?",
             "created_at": "2015-05-04T01:07:10Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/285#issuecomment-98562709",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/285#issuecomment-98562709",
             "id": 98562709,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/285",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/285",
             "updated_at": "2015-05-04T01:07:10Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/98562709",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/98562709",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Yes deleting the bot instance is also a thing, but it is important to delete any instances that each library makes.",
             "created_at": "2015-05-04T01:17:36Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/285#issuecomment-98563155",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/285#issuecomment-98563155",
             "id": 98563155,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/285",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/285",
             "updated_at": "2015-05-04T01:17:36Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/98563155",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/98563155",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/4448627?v=3",
                 "events_url": "https://api.github.com/users/AlexKvazos/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "If you don't have a reference to the bot instance anymore, then there will be no reference to _client and it will be GC'd.",
             "created_at": "2015-05-04T01:19:44Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/285#issuecomment-98563946",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/285#issuecomment-98563946",
             "id": 98563946,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/285",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/285",
             "updated_at": "2015-05-04T01:19:44Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/98563946",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/98563946",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "Well yeah. I mean, it was just a suggestion. You guys can decide if merging or not.",
             "created_at": "2015-05-04T02:51:29Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/285#issuecomment-98575435",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/285#issuecomment-98575435",
             "id": 98575435,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/285",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/285",
             "updated_at": "2015-05-04T02:51:29Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/98575435",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/98575435",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/4448627?v=3",
                 "events_url": "https://api.github.com/users/AlexKvazos/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "So, it doesn't seem like it's fixing much, it doesn't make much sense to use mineflayer without _client.",
             "created_at": "2015-05-14T17:54:18Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/285#issuecomment-102117009",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/285#issuecomment-102117009",
             "id": 102117009,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/285",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/285",
             "updated_at": "2015-05-14T17:54:18Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/102117009",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/102117009",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -145,7 +145,7 @@
         }
     ],
     "comments": 5,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/285/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/285/comments",
     "created_at": "2015-05-02T01:38:56Z",
     "event_data": [
         {
@@ -173,27 +173,27 @@
             "created_at": "2015-05-14T17:54:18Z",
             "event": "closed",
             "id": 305101003,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/305101003"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/305101003"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/285/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/pull/285",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/285/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/pull/285",
     "id": 72564887,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/285/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/285/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 285,
     "pull_request": {
-        "diff_url": "https://github.com/andrewrk/mineflayer/pull/285.diff",
-        "html_url": "https://github.com/andrewrk/mineflayer/pull/285",
-        "patch_url": "https://github.com/andrewrk/mineflayer/pull/285.patch",
-        "url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/285"
+        "diff_url": "https://github.com/PrismarineJS/mineflayer/pull/285.diff",
+        "html_url": "https://github.com/PrismarineJS/mineflayer/pull/285",
+        "patch_url": "https://github.com/PrismarineJS/mineflayer/pull/285.patch",
+        "url": "https://api.github.com/repos/PrismarineJS/mineflayer/pulls/285"
     },
     "state": "closed",
     "title": "Delete the nmp client when connection is ended",
     "updated_at": "2015-05-14T17:54:18Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/285",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/285",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/4448627?v=3",
         "events_url": "https://api.github.com/users/AlexKvazos/events{/privacy}",

@@ -6,11 +6,11 @@
         {
             "body": "(I didn't add recipe for or using item not in items.json or blocks.json either)",
             "created_at": "2013-02-16T14:14:55Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/137#issuecomment-13650441",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/137#issuecomment-13650441",
             "id": 13650441,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/137",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/137",
             "updated_at": "2013-02-16T14:14:55Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13650441",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13650441",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "(I used the old blocks.json and items.json for the first commit, it made some difference using the new ones)",
             "created_at": "2013-02-16T14:26:21Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/137#issuecomment-13650595",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/137#issuecomment-13650595",
             "id": 13650595,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/137",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/137",
             "updated_at": "2013-02-16T14:26:21Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13650595",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13650595",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "is there some way to say the recipe is shapeless with your format ? because i have this information for every recipe but didn't added it...",
             "created_at": "2013-02-16T14:33:03Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/137#issuecomment-13650695",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/137#issuecomment-13650695",
             "id": 13650695,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/137",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/137",
             "updated_at": "2013-02-16T14:33:03Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13650695",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13650695",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "example shapeless one:\r\n\r\n```js\r\n  \"282\": [\r\n    {\r\n      \"count\": 1,\r\n      \"metadata\": 0,\r\n      \"ingredients\": [\r\n        {\r\n          \"id\": 281\r\n        },\r\n        {\r\n          \"id\": 40\r\n        },\r\n        {\r\n          \"id\": 39\r\n        }\r\n      ],\r\n      \"type\": 282\r\n    }\r\n  ],\r\n```\r\n\r\nEach of those ingredients has null metadata, which means any metadata is fine. If the recipe calls for a specific metadata you could include it in the ingredient.\r\n\r\nIn retrospect, I think I did the Wood one incorrectly. (The first recipe in the enum). It should have been a shapeless one.",
             "created_at": "2013-02-16T16:32:57Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/137#issuecomment-13656670",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/137#issuecomment-13656670",
             "id": 13656670,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/137",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/137",
             "updated_at": "2013-02-16T16:32:57Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13656670",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13656670",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "Would you include your script in the pull request too? I've been putting scripts to generate things in the bin folder.",
             "created_at": "2013-02-16T17:22:56Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/137#issuecomment-13660175",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/137#issuecomment-13660175",
             "id": 13660175,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/137",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/137",
             "updated_at": "2013-02-16T17:22:56Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13660175",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13660175",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "Ok, I added the ingredients/shameless thing to my script but it didn't change the final recipe file, I guess your file already contains a lot of shapeless recipes.",
             "created_at": "2013-02-16T22:22:48Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/137#issuecomment-13676119",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/137#issuecomment-13676119",
             "id": 13676119,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/137",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/137",
             "updated_at": "2013-02-16T22:22:48Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13676119",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13676119",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "Ok, I added everything.",
             "created_at": "2013-02-16T22:48:40Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/137#issuecomment-13676534",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/137#issuecomment-13676534",
             "id": 13676534,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/137",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/137",
             "updated_at": "2013-02-16T22:48:40Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13676534",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13676534",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "Looks great!",
             "created_at": "2013-02-17T23:29:49Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/137#issuecomment-13700238",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/137#issuecomment-13700238",
             "id": 13700238,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/137",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/137",
             "updated_at": "2013-02-17T23:29:49Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13700238",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13700238",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -229,7 +229,7 @@
         }
     ],
     "comments": 8,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/137/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/137/comments",
     "created_at": "2013-02-16T14:13:21Z",
     "event_data": [
         {
@@ -253,11 +253,11 @@
                 "url": "https://api.github.com/users/andrewrk"
             },
             "commit_id": "5cec884cdb7b876e909ebfa3eed44f675bc3b330",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/5cec884cdb7b876e909ebfa3eed44f675bc3b330",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/5cec884cdb7b876e909ebfa3eed44f675bc3b330",
             "created_at": "2013-02-17T23:37:26Z",
             "event": "merged",
             "id": 38177459,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/38177459"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/38177459"
         },
         {
             "actor": {
@@ -284,27 +284,27 @@
             "created_at": "2013-02-17T23:37:26Z",
             "event": "closed",
             "id": 38177460,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/38177460"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/38177460"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/137/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/pull/137",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/137/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/pull/137",
     "id": 11067693,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/137/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/137/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 137,
     "pull_request": {
-        "diff_url": "https://github.com/andrewrk/mineflayer/pull/137.diff",
-        "html_url": "https://github.com/andrewrk/mineflayer/pull/137",
-        "patch_url": "https://github.com/andrewrk/mineflayer/pull/137.patch",
-        "url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/137"
+        "diff_url": "https://github.com/PrismarineJS/mineflayer/pull/137.diff",
+        "html_url": "https://github.com/PrismarineJS/mineflayer/pull/137",
+        "patch_url": "https://github.com/PrismarineJS/mineflayer/pull/137.patch",
+        "url": "https://api.github.com/repos/PrismarineJS/mineflayer/pulls/137"
     },
     "state": "closed",
     "title": "add new recipes",
     "updated_at": "2014-07-03T21:13:27Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/137",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/137",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

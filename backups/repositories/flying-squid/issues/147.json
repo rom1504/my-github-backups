@@ -6,11 +6,11 @@
         {
             "body": "Stack trace:\r\n```\r\n/Users/109C/Desktop/fs_7_dec/node_modules/babel-runtime/node_modules/core-js/library/modules/$.defined.js:3\r\n  if(it == undefined)throw TypeError(\"Can't call method on  \" + it);\r\n                                                              ^\r\nTypeError: Can't call method on  undefined\r\n    at TypeError (native)\r\n    at module.exports (/Users/109C/Desktop/fs_7_dec/node_modules/babel-runtime/node_modules/core-js/library/modules/$.defined.js:3:63)\r\n    at module.exports (/Users/109C/Desktop/fs_7_dec/node_modules/babel-runtime/node_modules/core-js/library/modules/$.to-object.js:4:17)\r\n    at keys (/Users/109C/Desktop/fs_7_dec/node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.keys.js:6:18)\r\n    at Object.module.exports.server (/Users/109C/Desktop/fs_7_dec/dist/lib/plugins/external.js:27:3)\r\n    at /Users/109C/Desktop/fs_7_dec/dist/index.js:53:36\r\n    at Array.forEach (native)\r\n    at MCServer.connect (/Users/109C/Desktop/fs_7_dec/dist/index.js:52:10)\r\n    at Object.createMCServer (/Users/109C/Desktop/fs_7_dec/dist/index.js:30:12)\r\n    at Object.<anonymous> (/Users/109C/Desktop/fs_7_dec/examples/basic.js:3:10)\r\n    at Module._compile (module.js:460:26)\r\n    at Object.Module._extensions..js (module.js:478:10)\r\n    at Module.load (module.js:355:32)\r\n    at Function.Module._load (module.js:310:12)\r\n    at Function.Module.runMain (module.js:501:10)\r\n    at startup (node.js:129:16)\r\n    at node.js:814:3\r\n```",
             "created_at": "2015-12-07T15:25:41Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/147#issuecomment-162556772",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/147#issuecomment-162556772",
             "id": 162556772,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/147",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/147",
             "updated_at": "2015-12-07T15:25:41Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162556772",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162556772",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
                 "events_url": "https://api.github.com/users/109C/events{/privacy}",
@@ -33,7 +33,7 @@
         }
     ],
     "comments": 1,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/147/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/147/comments",
     "created_at": "2015-12-07T15:24:04Z",
     "event_data": [
         {
@@ -65,7 +65,7 @@
                 "color": "fc2929",
                 "name": "bug"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/484501320"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/484501320"
         },
         {
             "actor": {
@@ -92,7 +92,7 @@
             "created_at": "2015-12-07T15:24:04Z",
             "event": "mentioned",
             "id": 484501322,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/484501322"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/484501322"
         },
         {
             "actor": {
@@ -119,7 +119,7 @@
             "created_at": "2015-12-07T15:24:04Z",
             "event": "subscribed",
             "id": 484501323,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/484501323"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/484501323"
         },
         {
             "actor": {
@@ -142,31 +142,31 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "cc3d4e09b97b488bbca5109a87d08e6ea9543cf2",
-            "commit_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/cc3d4e09b97b488bbca5109a87d08e6ea9543cf2",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/cc3d4e09b97b488bbca5109a87d08e6ea9543cf2",
             "created_at": "2015-12-08T01:50:06Z",
             "event": "closed",
             "id": 485142610,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/485142610"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/485142610"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/147/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/issues/147",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/147/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/issues/147",
     "id": 120797278,
     "labels": [
         {
             "color": "fc2929",
             "name": "bug",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/bug"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/labels/bug"
         }
     ],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/147/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/147/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 147,
     "state": "closed",
     "title": "fix basic.js",
     "updated_at": "2015-12-08T01:50:06Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/147",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/147",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

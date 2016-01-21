@@ -6,11 +6,11 @@
         {
             "body": "Fix typos\r\n\r\ndiff --git a/README.markdown b/README.markdown\r\nindex 055e9fc..e7bb754 100644\r\n--- a/README.markdown\r\n+++ b/README.markdown\r\n@@ -20,7 +20,7 @@ Setting up build:\r\n \r\n 3. Optionally disable script debugging support (not recommended). This removes any dependency on an X server:\r\n \r\n-        echo \"CONFIG += headless\" > ../minflayer-script/config.pro\r\n+        echo \"CONFIG += headless\" > ../mineflayer-script/config.pro\r\n \r\n 4. Run qmake once:\r\n \r\n@@ -42,7 +42,7 @@ If you don't do this, you'll have to put the directory containing the .so in the\r\n 2. Create a build folder OUTSIDE the source code tree and cd to it.\r\n 3. Optionally enable headless mode:\r\n \r\n-        echo \"CONFIG += headless\" > ../minflayer-script/config.pro\r\n+        echo \"CONFIG += headless\" > ../mineflayer-script/config.pro\r\n \r\n 4. Run qmake:\r\n",
             "created_at": "2011-07-14T19:09:06Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/17#issuecomment-1574158",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/17#issuecomment-1574158",
             "id": 1574158,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/17",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/17",
             "updated_at": "2011-07-14T19:09:06Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/1574158",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/1574158",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/395186?v=3",
                 "events_url": "https://api.github.com/users/mooinglemur/events{/privacy}",
@@ -33,7 +33,7 @@
         }
     ],
     "comments": 1,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/17/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/17/comments",
     "created_at": "2011-06-28T04:31:01Z",
     "event_data": [
         {
@@ -61,7 +61,7 @@
             "created_at": "2011-06-28T04:31:01Z",
             "event": "subscribed",
             "id": 1434536,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1434536"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1434536"
         },
         {
             "actor": {
@@ -84,11 +84,11 @@
                 "url": "https://api.github.com/users/thejoshwolfe"
             },
             "commit_id": "5a7da54acf7501b1f54f09c40eca6c831f34e377",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/5a7da54acf7501b1f54f09c40eca6c831f34e377",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/5a7da54acf7501b1f54f09c40eca6c831f34e377",
             "created_at": "2011-07-11T10:46:50Z",
             "event": "referenced",
             "id": 1707704,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1707704"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1707704"
         },
         {
             "actor": {
@@ -115,7 +115,7 @@
             "created_at": "2011-07-11T10:46:58Z",
             "event": "closed",
             "id": 1707709,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1707709"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1707709"
         },
         {
             "actor": {
@@ -142,7 +142,7 @@
             "created_at": "2011-07-11T10:46:58Z",
             "event": "subscribed",
             "id": 1707710,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1707710"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1707710"
         },
         {
             "actor": {
@@ -165,25 +165,25 @@
                 "url": "https://api.github.com/users/thejoshwolfe"
             },
             "commit_id": "65899b3d960bcb6efe3997773ec5c62882a321ad",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/65899b3d960bcb6efe3997773ec5c62882a321ad",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/65899b3d960bcb6efe3997773ec5c62882a321ad",
             "created_at": "2011-07-14T20:12:15Z",
             "event": "referenced",
             "id": 1794665,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1794665"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1794665"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/17/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/17",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/17/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/17",
     "id": 1126726,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/17/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/17/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 17,
     "state": "closed",
     "title": "README headless instructions obsolete?",
     "updated_at": "2011-07-14T19:09:06Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/17",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/17",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/395186?v=3",
         "events_url": "https://api.github.com/users/mooinglemur/events{/privacy}",

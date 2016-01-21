@@ -6,11 +6,11 @@
         {
             "body": "So in the simple_inventory.js, I see that they way tossStack works is that it clicks the slot the item is in, and then if the callback does not return an error, it clicks outside of the inventory. The problem with this appears to be that the callback doesn't run until after the function calling tossStack completes. I have virtually no knowledge of javascript, so I'm not sure how this kind of thing works. Would it be possible to just add the line clicking outside of the window right after the line clicking on the slot, but outside of the callback? I've tested it on a server and it works, but I'm not sure what will happen under non-ideal circumstances where it runs into errors. ",
             "created_at": "2015-07-11T04:17:51Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/307#issuecomment-120571330",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/307#issuecomment-120571330",
             "id": 120571330,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/307",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/307",
             "updated_at": "2015-07-11T04:17:51Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/120571330",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/120571330",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/5948548?v=3",
                 "events_url": "https://api.github.com/users/cartycrabber/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "I'm also finding the toss function to have similar issues, only it actually crashes if you call it multiple times in one function. Trying to find a possible fix for that now too. ",
             "created_at": "2015-07-11T04:42:37Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/307#issuecomment-120572369",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/307#issuecomment-120572369",
             "id": 120572369,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/307",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/307",
             "updated_at": "2015-07-11T04:49:40Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/120572369",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/120572369",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/5948548?v=3",
                 "events_url": "https://api.github.com/users/cartycrabber/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "You are doing it wrong.\r\nYou need to execute the next action *in* the callback.\r\nWhat you are trying to do right now is to toss 3 items at the same time, which obviously isn't possible and is going to break !\r\nYou should learn more about callbacks, you'll need to use them at lot of places in node.js ;)",
             "created_at": "2015-07-11T11:03:27Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/307#issuecomment-120603961",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/307#issuecomment-120603961",
             "id": 120603961,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/307",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/307",
             "updated_at": "2015-07-11T11:04:20Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/120603961",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/120603961",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "Ah, that makes a lot of sense now that you say it, thank you! Most of my experience is in Java and C# so I'm still trying to completely figure out this whole JavaScript and Node thing. \r\n\r\nThat said, I did get tossStack to work in the way I had originally tried, but I'll see about using it properly now :P",
             "created_at": "2015-07-11T13:59:29Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/307#issuecomment-120623218",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/307#issuecomment-120623218",
             "id": 120623218,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/307",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/307",
             "updated_at": "2015-07-11T13:59:29Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/120623218",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/120623218",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/5948548?v=3",
                 "events_url": "https://api.github.com/users/cartycrabber/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "One more quick but completely unrelated question: Is it possible to allow the user to type into the command line while the bot is running, and to read whatever they have typed after they hit enter? To be able to provide commands from the command line. I'm positive there should be a way, but as a complete node noob, im wondering if you can just point me in the right direction",
             "created_at": "2015-07-11T21:21:09Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/307#issuecomment-120662258",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/307#issuecomment-120662258",
             "id": 120662258,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/307",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/307",
             "updated_at": "2015-07-11T21:21:09Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/120662258",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/120662258",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/5948548?v=3",
                 "events_url": "https://api.github.com/users/cartycrabber/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "@cartycrabber You'll want to look at the \"readline\" nodejs module https://nodejs.org/api/readline.html . You can look at [this](https://github.com/PrismarineJS/node-minecraft-protocol/blob/master/examples/client_chat/client_chat.js) for an example of how to use it (search for `rl.on('chat'`)",
             "created_at": "2015-07-11T22:45:46Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/307#issuecomment-120666623",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/307#issuecomment-120666623",
             "id": 120666623,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/307",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/307",
             "updated_at": "2015-07-11T22:46:02Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/120666623",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/120666623",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -173,7 +173,7 @@
         }
     ],
     "comments": 6,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/307/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/307/comments",
     "created_at": "2015-07-11T03:55:45Z",
     "event_data": [
         {
@@ -201,7 +201,7 @@
             "created_at": "2015-07-11T13:59:29Z",
             "event": "closed",
             "id": 353566880,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/353566880"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/353566880"
         },
         {
             "actor": {
@@ -228,7 +228,7 @@
             "created_at": "2015-07-11T22:45:46Z",
             "event": "mentioned",
             "id": 353664712,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/353664712"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/353664712"
         },
         {
             "actor": {
@@ -255,21 +255,21 @@
             "created_at": "2015-07-11T22:45:46Z",
             "event": "subscribed",
             "id": 353664713,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/353664713"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/353664713"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/307/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/307",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/307/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/307",
     "id": 94432770,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/307/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/307/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 307,
     "state": "closed",
     "title": "Unable to toss multiple stacks in the same function",
     "updated_at": "2015-07-11T22:46:02Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/307",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/307",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/5948548?v=3",
         "events_url": "https://api.github.com/users/cartycrabber/events{/privacy}",

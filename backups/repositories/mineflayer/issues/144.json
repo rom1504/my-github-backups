@@ -6,11 +6,11 @@
         {
             "body": "Thanks I'll take a look.",
             "created_at": "2013-02-27T16:30:04Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/144#issuecomment-14183320",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/144#issuecomment-14183320",
             "id": 14183320,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/144",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/144",
             "updated_at": "2013-02-27T16:30:04Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/14183320",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/14183320",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "I just tried to find the problem and the clicks seem right, so I don't understand.\r\nBut here is a (even) simpler test case : \r\n1) start the inventory example\r\n2) give the bot 2 log\r\n3) say craft 1 wood\r\n4) it works\r\n5) say craft 1 wood\r\n6) error making wood\r\n\r\nprobably something is getting corrupted after the first craft.",
             "created_at": "2013-03-03T20:24:04Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/144#issuecomment-14354393",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/144#issuecomment-14354393",
             "id": 14354393,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/144",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/144",
             "updated_at": "2013-03-03T20:27:11Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/14354393",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/14354393",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "after the error the inventory get corrupted (an item is still selected or in the craft zone) which is a shame, because if it wasn't the case, it would be possible to simply try crafting again",
             "created_at": "2013-03-03T21:39:02Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/144#issuecomment-14356079",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/144#issuecomment-14356079",
             "id": 14356079,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/144",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/144",
             "updated_at": "2013-03-03T21:39:02Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/14356079",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/14356079",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "a bad solution is to put this at line 795 of plugins/inventory.js : \r\nsetTimeout(function(){ clickWindow(slot, mouseButton, shift, cb)},500);\r\n\r\nit  does the failed click again\r\n\r\nit doesn't corrupt the inventory but sometimes it throws things away",
             "created_at": "2013-03-03T22:08:19Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/144#issuecomment-14356661",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/144#issuecomment-14356661",
             "id": 14356661,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/144",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/144",
             "updated_at": "2013-03-03T22:08:19Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/14356661",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/14356661",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "this solution doesn't really work...\r\nIt would be really nice if craft was working...",
             "created_at": "2013-03-03T22:40:37Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/144#issuecomment-14357245",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/144#issuecomment-14357245",
             "id": 14357245,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/144",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/144",
             "updated_at": "2013-03-03T22:40:37Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/14357245",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/14357245",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "Sadly minecraft-protocol 8.0.0 and minecraft 1.5 didn't solve this. I guess there is still some work to do here...",
             "created_at": "2013-04-06T16:58:07Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/144#issuecomment-15999649",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/144#issuecomment-15999649",
             "id": 15999649,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/144",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/144",
             "updated_at": "2013-04-06T16:58:07Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/15999649",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/15999649",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "Got exactly the same error, \"Error: Server rejected transaction.\", when trying to craft snowballs into snow bricks. The bot has got a few empty slots and plenty of snowballs in his inventory, but it fails after crafting the first snow brick. That is, after the first crafting, it will always pass in \"Error: Server rejected transaction.\" in the callback of `bot.craft()`.",
             "created_at": "2013-11-24T07:33:52Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/144#issuecomment-29150556",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/144#issuecomment-29150556",
             "id": 29150556,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/144",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/144",
             "updated_at": "2013-11-24T07:33:52Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/29150556",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/29150556",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/108608?v=3",
                 "events_url": "https://api.github.com/users/MrOrz/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "Anyone know if this is still an issue ? \r\nI'll mark it as a bug and point it to the latest milestone. If it still stands it's something that certainly needs fixing",
             "created_at": "2014-04-21T23:14:47Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/144#issuecomment-40987730",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/144#issuecomment-40987730",
             "id": 40987730,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/144",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/144",
             "updated_at": "2014-04-21T23:14:47Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/40987730",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/40987730",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
                 "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "I believe it is still an issue.",
             "created_at": "2014-04-21T23:16:42Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/144#issuecomment-40987847",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/144#issuecomment-40987847",
             "id": 40987847,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/144",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/144",
             "updated_at": "2014-04-21T23:16:42Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/40987847",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/40987847",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -258,11 +258,11 @@
         {
             "body": "I will try it as soon as I can, I wanted to try it but run into the chat problem I have with spigot.\r\n\r\nI'll try it when the chat can work with my server (either thanks to the new chat plugin organization or by setting my server so it doesn't add a prefix before my name)\r\n\r\nI try setting my message format to `<%player> %message` instead of `<%prefix%player%suffix> %message` and the message received is : \r\n`{ extra: [ '<rom1504> a' ], text: '' }`\r\n\r\nbut sadly that doesn't change anything (no bot.on('chat') received)\r\n\r\nI really can't try if this is still with this server until the new chat plugin system is there..",
             "created_at": "2014-04-21T23:17:05Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/144#issuecomment-40987869",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/144#issuecomment-40987869",
             "id": 40987869,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/144",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/144",
             "updated_at": "2014-04-21T23:29:18Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/40987869",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/40987869",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -286,11 +286,11 @@
         {
             "body": "Ok I just remembered it's possible to make a local vanilla server with minecraft client.\r\n\r\nThis is still a bug : my first message still stand, same condition, same error.\r\n\r\n(I tried with last commit of https://github.com/roblabla/mineflayer/commits/feature-1.7)",
             "created_at": "2014-04-21T23:36:33Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/144#issuecomment-40989041",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/144#issuecomment-40989041",
             "id": 40989041,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/144",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/144",
             "updated_at": "2014-04-21T23:41:31Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/40989041",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/40989041",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -314,11 +314,11 @@
         {
             "body": "Cool good to know. Thanks for confirming that. I'll see it amended.",
             "created_at": "2014-04-22T00:43:33Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/144#issuecomment-40992824",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/144#issuecomment-40992824",
             "id": 40992824,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/144",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/144",
             "updated_at": "2014-04-22T00:43:33Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/40992824",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/40992824",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
                 "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
@@ -342,11 +342,11 @@
         {
             "body": "Almost working now : \r\n* crafting with a crafting table works\r\n* without it doesn't\r\n* need some more testing",
             "created_at": "2015-03-17T09:53:05Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/144#issuecomment-82251418",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/144#issuecomment-82251418",
             "id": 82251418,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/144",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/144",
             "updated_at": "2015-03-17T09:53:05Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/82251418",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/82251418",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -370,11 +370,11 @@
         {
             "body": "I'll bet crafting without crafting table fails because the position of the \"crafting table\" in the inventory changed in 1.8.",
             "created_at": "2015-03-17T10:02:09Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/144#issuecomment-82254201",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/144#issuecomment-82254201",
             "id": 82254201,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/144",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/144",
             "updated_at": "2015-03-17T10:02:09Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/82254201",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/82254201",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -398,11 +398,11 @@
         {
             "body": "So I just tested this : \r\n* start the inventory.js bot\r\n* empty its inventory with list and toss\r\n* give the bot 64 log\r\n* add a console.log in clickWindow to see what slot is clicked\r\n* say craft 1 wood\r\n\r\nI get this : \r\n```\r\nmouse 0 with mode 0 on slot 36\r\nmouse 1 with mode 0 on slot 4\r\nmouse 0 with mode 0 on slot 9\r\nmouse 0 with mode 0 on slot 0\r\nmouse 0 with mode 0 on slot 10\r\n```\r\n\r\nAccording to http://wiki.vg/Inventory#Inventory and http://wiki.vg/Protocol#Click_Window, it means : \r\n* left click on 36 : taking the log stack on the first quick bar slot\r\n* right click on 4 : putting one log on the bottom left craft grid slot\r\n* left click on 9 : putting the rest of the log on the first inventory slot\r\n* left click on 0 : taking the produced wood\r\n* left click on 10 : putting the produced wood on the second slot of the inventory\r\n\r\nThis does seem correct...",
             "created_at": "2015-03-17T20:55:53Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/144#issuecomment-82596990",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/144#issuecomment-82596990",
             "id": 82596990,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/144",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/144",
             "updated_at": "2015-03-17T21:27:55Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/82596990",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/82596990",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -426,11 +426,11 @@
         {
             "body": "Yet the second craft always fails on the right click, even if the bot start with the same initials conditions.",
             "created_at": "2015-03-17T21:30:29Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/144#issuecomment-82607827",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/144#issuecomment-82607827",
             "id": 82607827,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/144",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/144",
             "updated_at": "2015-03-17T21:30:29Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/82607827",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/82607827",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -454,11 +454,11 @@
         {
             "body": "After crafting console.log(bot.inventory); says the bot has\r\n* 1 log on 4\r\n* 63 log on 9\r\n* 4 wood on 10\r\n\r\nthat 1 log on 4 is wrong",
             "created_at": "2015-03-17T21:37:04Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/144#issuecomment-82609317",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/144#issuecomment-82609317",
             "id": 82609317,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/144",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/144",
             "updated_at": "2015-03-17T21:37:04Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/82609317",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/82609317",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -482,11 +482,11 @@
         {
             "body": "It seems the same problem happen with the crafting table. Except the crafting table get closed so probably the item fall on the floor and the bot get them so it seems to work (but it doesn't really).\r\n\r\nSo it seems the problem is that the crafting grid is not emptied : the used items are still there.",
             "created_at": "2015-03-17T21:58:42Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/144#issuecomment-82615412",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/144#issuecomment-82615412",
             "id": 82615412,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/144",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/144",
             "updated_at": "2015-03-17T21:58:42Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/82615412",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/82615412",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -510,11 +510,11 @@
         {
             "body": "Indeed it now works :)",
             "created_at": "2015-03-17T23:34:10Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/144#issuecomment-82640554",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/144#issuecomment-82640554",
             "id": 82640554,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/144",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/144",
             "updated_at": "2015-03-17T23:34:10Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/82640554",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/82640554",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -537,7 +537,7 @@
         }
     ],
     "comments": 19,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/144/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/144/comments",
     "created_at": "2013-02-27T13:05:41Z",
     "event_data": [
         {
@@ -569,7 +569,7 @@
                 "color": "e10c02",
                 "name": "bug"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/113675874"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/113675874"
         },
         {
             "actor": {
@@ -599,7 +599,7 @@
             "milestone": {
                 "title": "Stable 1.7"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/113675889"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/113675889"
         },
         {
             "actor": {
@@ -626,7 +626,7 @@
             "created_at": "2015-03-17T22:22:37Z",
             "event": "referenced",
             "id": 257479107,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/257479107"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/257479107"
         },
         {
             "actor": {
@@ -653,7 +653,7 @@
             "created_at": "2015-03-17T22:25:51Z",
             "event": "closed",
             "id": 257481405,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/257481405"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/257481405"
         },
         {
             "actor": {
@@ -676,24 +676,24 @@
                 "url": "https://api.github.com/users/roblabla"
             },
             "commit_id": "d2fb98ca7945cdb9129c42e7a3b3abb244e74ab9",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/d2fb98ca7945cdb9129c42e7a3b3abb244e74ab9",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/d2fb98ca7945cdb9129c42e7a3b3abb244e74ab9",
             "created_at": "2015-03-17T22:25:51Z",
             "event": "referenced",
             "id": 257481412,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/257481412"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/257481412"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/144/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/144",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/144/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/144",
     "id": 11454418,
     "labels": [
         {
             "color": "e10c02",
             "name": "bug",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/bug"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/bug"
         }
     ],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/144/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/144/labels{/name}",
     "locked": false,
     "milestone": {
         "closed_at": null,
@@ -720,21 +720,21 @@
         },
         "description": "Minecraft 1.8.x compliant bot\r\nAll examples should work and code thoroughly checked",
         "due_on": null,
-        "html_url": "https://github.com/andrewrk/mineflayer/milestones/1.1.0",
+        "html_url": "https://github.com/PrismarineJS/mineflayer/milestones/1.1.0",
         "id": 636181,
-        "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/milestones/1/labels",
+        "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/milestones/1/labels",
         "number": 1,
         "open_issues": 0,
         "state": "open",
         "title": "1.1.0",
         "updated_at": "2015-04-15T17:01:24Z",
-        "url": "https://api.github.com/repos/andrewrk/mineflayer/milestones/1"
+        "url": "https://api.github.com/repos/PrismarineJS/mineflayer/milestones/1"
     },
     "number": 144,
     "state": "closed",
     "title": "Problems with craft",
     "updated_at": "2015-03-17T23:34:10Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/144",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/144",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

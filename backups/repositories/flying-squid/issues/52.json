@@ -24,11 +24,11 @@
         {
             "body": "Alright not quite fixed.\r\nBugs:\r\n1. need to send just the top of the chunks to speed things up (see https://github.com/PrismarineJS/prismarine-chunk/issues/8 )\r\n2. seems nmp doesn't like too much to do too many write (seems like an nmp bug)",
             "created_at": "2015-10-08T21:14:26Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/52#issuecomment-146687938",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/52#issuecomment-146687938",
             "id": 146687938,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/52",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/52",
             "updated_at": "2015-10-08T21:14:26Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/146687938",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/146687938",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -52,11 +52,11 @@
         {
             "body": "2 is fixed (kickTimeout increased + https://github.com/PrismarineJS/node-minecraft-protocol/issues/279 ) ",
             "created_at": "2015-10-08T22:26:14Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/52#issuecomment-146703771",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/52#issuecomment-146703771",
             "id": 146703771,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/52",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/52",
             "updated_at": "2015-10-08T22:26:14Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/146703771",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/146703771",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -80,11 +80,11 @@
         {
             "body": "The problem was compression not being done. Problem fixed. https://github.com/PrismarineJS/prismarine-chunk/issues/8 can be done later if needed.",
             "created_at": "2015-10-12T17:08:59Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/52#issuecomment-147463170",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/52#issuecomment-147463170",
             "id": 147463170,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/52",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/52",
             "updated_at": "2015-10-12T17:09:12Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147463170",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147463170",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -107,7 +107,7 @@
         }
     ],
     "comments": 3,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/52/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/52/comments",
     "created_at": "2015-09-27T19:31:25Z",
     "event_data": [
         {
@@ -154,7 +154,7 @@
             "created_at": "2015-09-27T19:31:25Z",
             "event": "assigned",
             "id": 420233291,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/420233291"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/420233291"
         },
         {
             "actor": {
@@ -177,11 +177,11 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "d3a20e43996ea93aaba96676b64c876be1cbe990",
-            "commit_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/d3a20e43996ea93aaba96676b64c876be1cbe990",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/d3a20e43996ea93aaba96676b64c876be1cbe990",
             "created_at": "2015-10-08T20:50:14Z",
             "event": "closed",
             "id": 430780779,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/430780779"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/430780779"
         },
         {
             "actor": {
@@ -208,7 +208,7 @@
             "created_at": "2015-10-08T21:13:22Z",
             "event": "reopened",
             "id": 430804514,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/430804514"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/430804514"
         },
         {
             "actor": {
@@ -239,7 +239,7 @@
                 "color": "1a94c6",
                 "name": "world"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/431513859"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/431513859"
         },
         {
             "actor": {
@@ -266,27 +266,27 @@
             "created_at": "2015-10-12T17:08:59Z",
             "event": "closed",
             "id": 433162597,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/433162597"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/433162597"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/52/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/issues/52",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/52/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/issues/52",
     "id": 108556071,
     "labels": [
         {
             "color": "1a94c6",
             "name": "world",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/world"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/labels/world"
         }
     ],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/52/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/52/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 52,
     "state": "closed",
     "title": "Infinite worlds",
     "updated_at": "2015-10-12T17:09:12Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/52",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/52",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/8526903?v=3",
         "events_url": "https://api.github.com/users/mhsjlw/events{/privacy}",

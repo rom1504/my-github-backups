@@ -1,7 +1,7 @@
 {
     "assignee": null,
     "body": "the style is ok too, more functional, and it's faster",
-    "closed_at": null,
+    "closed_at": "2016-01-10T01:44:52Z",
     "comment_data": [
         {
             "body": "Well 5s vs 6s with async/await in circle ci. It's not a lot, it seems the perf problem isn't quite that",
@@ -394,9 +394,37 @@
                 "type": "User",
                 "url": "https://api.github.com/users/rom1504"
             }
+        },
+        {
+            "body": "closing in favor of #43",
+            "created_at": "2016-01-10T01:44:52Z",
+            "html_url": "https://github.com/roblabla/ProtoDef/pull/41#issuecomment-170299881",
+            "id": 170299881,
+            "issue_url": "https://api.github.com/repos/roblabla/ProtoDef/issues/41",
+            "updated_at": "2016-01-10T01:44:52Z",
+            "url": "https://api.github.com/repos/roblabla/ProtoDef/issues/comments/170299881",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
         }
     ],
-    "comments": 14,
+    "comments": 15,
     "comments_url": "https://api.github.com/repos/roblabla/ProtoDef/issues/41/comments",
     "created_at": "2015-12-03T13:08:54Z",
     "event_data": [
@@ -484,6 +512,33 @@
                 "to": "bluebird promises"
             },
             "url": "https://api.github.com/repos/roblabla/ProtoDef/issues/events/482673321"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2016-01-10T01:44:52Z",
+            "event": "closed",
+            "id": 510343126,
+            "url": "https://api.github.com/repos/roblabla/ProtoDef/issues/events/510343126"
         }
     ],
     "events_url": "https://api.github.com/repos/roblabla/ProtoDef/issues/41/events",
@@ -500,9 +555,9 @@
         "patch_url": "https://github.com/roblabla/ProtoDef/pull/41.patch",
         "url": "https://api.github.com/repos/roblabla/ProtoDef/pulls/41"
     },
-    "state": "open",
+    "state": "closed",
     "title": "bluebird promises",
-    "updated_at": "2015-12-04T15:24:07Z",
+    "updated_at": "2016-01-10T01:44:52Z",
     "url": "https://api.github.com/repos/roblabla/ProtoDef/issues/41",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",

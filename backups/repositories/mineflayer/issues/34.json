@@ -6,11 +6,11 @@
         {
             "body": "I've seen a similar issue where he seems stuck in a wall, repeatedly saying that he can get there in X moves.",
             "created_at": "2011-10-31T21:07:34Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/34#issuecomment-2583307",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/34#issuecomment-2583307",
             "id": 2583307,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/34",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/34",
             "updated_at": "2011-10-31T21:07:34Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/2583307",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/2583307",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "This happens every time, it's not just something that occasionally happens. I recall you saying that bots are faster because they jump to lower heights than regular players, could this be related?",
             "created_at": "2011-11-03T03:12:48Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/34#issuecomment-2612814",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/34#issuecomment-2612814",
             "id": 2612814,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/34",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/34",
             "updated_at": "2011-11-03T03:12:48Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/2612814",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/2612814",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/412436?v=3",
                 "events_url": "https://api.github.com/users/Darthfett/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "I believe this is caused by our physics engine attempting to be real-time. On a computer with a slower CPU (or with other processes running) the physics engine may skip the vital few frames in which the bot has reached the minimum height necessary to make it up another block.",
             "created_at": "2011-11-05T21:05:52Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/34#issuecomment-2642447",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/34#issuecomment-2642447",
             "id": 2642447,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/34",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/34",
             "updated_at": "2011-11-05T21:05:52Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/2642447",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/2642447",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "@superjoe30 That sounds accurate, as I have only tested with the server, notchian client, and mineflayer running on the same computer.  I recall another issue (I cannot find it), where the bot was able to jump blocks, ONLY with the server running on a separate computer (not on the same computer).",
             "created_at": "2011-11-05T21:11:34Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/34#issuecomment-2642471",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/34#issuecomment-2642471",
             "id": 2642471,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/34",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/34",
             "updated_at": "2011-11-05T21:11:34Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/2642471",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/2642471",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/412436?v=3",
                 "events_url": "https://api.github.com/users/Darthfett/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "Issue #39 has this solved by bypassing jumping altogether with flying hax.",
             "created_at": "2011-11-06T21:56:10Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/34#issuecomment-2648002",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/34#issuecomment-2648002",
             "id": 2648002,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/34",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/34",
             "updated_at": "2011-11-06T21:56:10Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/2648002",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/2648002",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "In branch jumpfix, I was able to stop seeing this bug by increasing the jump speed.  Does anyone want to try this out and see if it works fine for them as well?\r\n\r\n@thejoshwolfe I don't think not doing gravity physics solves this, it merely doesn't have this issue.",
             "created_at": "2011-11-07T21:52:44Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/34#issuecomment-2660330",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/34#issuecomment-2660330",
             "id": 2660330,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/34",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/34",
             "updated_at": "2011-11-07T21:52:44Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/2660330",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/2660330",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/412436?v=3",
                 "events_url": "https://api.github.com/users/Darthfett/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "Doesn't seem to affect linux users, seems to fix the issue on windows, so I've merged jumpfix into master.",
             "created_at": "2011-11-12T20:01:13Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/34#issuecomment-2719112",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/34#issuecomment-2719112",
             "id": 2719112,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/34",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/34",
             "updated_at": "2011-11-12T20:01:13Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/2719112",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/2719112",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/412436?v=3",
                 "events_url": "https://api.github.com/users/Darthfett/events{/privacy}",
@@ -201,7 +201,7 @@
         }
     ],
     "comments": 7,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/34/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/34/comments",
     "created_at": "2011-10-31T17:21:00Z",
     "event_data": [
         {
@@ -229,7 +229,7 @@
             "created_at": "2011-10-31T17:21:00Z",
             "event": "subscribed",
             "id": 4857946,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/4857946"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/4857946"
         },
         {
             "actor": {
@@ -256,7 +256,7 @@
             "created_at": "2011-10-31T21:07:34Z",
             "event": "subscribed",
             "id": 4868626,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/4868626"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/4868626"
         },
         {
             "actor": {
@@ -283,7 +283,7 @@
             "created_at": "2011-11-05T21:05:52Z",
             "event": "subscribed",
             "id": 5075785,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/5075785"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/5075785"
         },
         {
             "actor": {
@@ -310,7 +310,7 @@
             "created_at": "2011-11-05T21:11:34Z",
             "event": "mentioned",
             "id": 5075862,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/5075862"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/5075862"
         },
         {
             "actor": {
@@ -333,11 +333,11 @@
                 "url": "https://api.github.com/users/Darthfett"
             },
             "commit_id": "59c2ac04c2f474f903ec865849cb26f944c4d44d",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/59c2ac04c2f474f903ec865849cb26f944c4d44d",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/59c2ac04c2f474f903ec865849cb26f944c4d44d",
             "created_at": "2011-11-07T21:49:59Z",
             "event": "referenced",
             "id": 5132071,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/5132071"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/5132071"
         },
         {
             "actor": {
@@ -364,7 +364,7 @@
             "created_at": "2011-11-07T21:52:44Z",
             "event": "mentioned",
             "id": 5132227,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/5132227"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/5132227"
         },
         {
             "actor": {
@@ -391,27 +391,27 @@
             "created_at": "2011-11-12T20:01:13Z",
             "event": "closed",
             "id": 5339299,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/5339299"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/5339299"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/34/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/34",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/34/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/34",
     "id": 2099537,
     "labels": [
         {
             "color": "e10c02",
             "name": "bug",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/bug"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/bug"
         }
     ],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/34/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/34/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 34,
     "state": "closed",
     "title": "Unable to jump on top of a block",
     "updated_at": "2011-11-12T20:01:13Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/34",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/34",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/412436?v=3",
         "events_url": "https://api.github.com/users/Darthfett/events{/privacy}",

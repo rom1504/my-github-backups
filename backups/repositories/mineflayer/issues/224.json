@@ -6,11 +6,11 @@
         {
             "body": "Related issues : https://github.com/andrewrk/mineflayer/issues/213 , https://github.com/andrewrk/mineflayer/issues/206#issuecomment-82649253 and https://github.com/andrewrk/mineflayer/commit/f9e189a5136ae1a0cccadd3d2d5566047b60ea20#comments",
             "created_at": "2015-03-18T23:57:16Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/224#issuecomment-83227751",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/224#issuecomment-83227751",
             "id": 83227751,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/224",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/224",
             "updated_at": "2015-03-18T23:57:16Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/83227751",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/83227751",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Another idea : having a dead_players variable, and using it if needed when getting a named_entity_spawn for an unknown player.\r\n\r\nCould be a problem if many users come and leave though....",
             "created_at": "2015-03-19T00:02:08Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/224#issuecomment-83228694",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/224#issuecomment-83228694",
             "id": 83228694,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/224",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/224",
             "updated_at": "2015-03-19T00:02:20Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/83228694",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/83228694",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "So I just checked, the only player_info sent after spawning is with action 2 to update latency, no action 3 to update name.\r\n\r\nSo I think the choice is between keeping the dead players in bot.player or having a bot.deadPlayers ?",
             "created_at": "2015-03-19T00:10:32Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/224#issuecomment-83230604",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/224#issuecomment-83230604",
             "id": 83230604,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/224",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/224",
             "updated_at": "2015-03-19T00:10:32Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/83230604",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/83230604",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -89,7 +89,7 @@
         }
     ],
     "comments": 3,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/224/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/224/comments",
     "created_at": "2015-03-18T23:55:50Z",
     "event_data": [
         {
@@ -117,7 +117,7 @@
             "created_at": "2015-03-19T18:10:22Z",
             "event": "referenced",
             "id": 259686461,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/259686461"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/259686461"
         },
         {
             "actor": {
@@ -140,11 +140,11 @@
                 "url": "https://api.github.com/users/roblabla"
             },
             "commit_id": "78de1237834abc50fb4ffd7b9072f9dedcefed06",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/78de1237834abc50fb4ffd7b9072f9dedcefed06",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/78de1237834abc50fb4ffd7b9072f9dedcefed06",
             "created_at": "2015-03-20T00:33:47Z",
             "event": "closed",
             "id": 260005921,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/260005921"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/260005921"
         },
         {
             "actor": {
@@ -167,25 +167,25 @@
                 "url": "https://api.github.com/users/roblabla"
             },
             "commit_id": "1030d34cd064c0c3768dc615fedc1d79ab53d665",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/1030d34cd064c0c3768dc615fedc1d79ab53d665",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/1030d34cd064c0c3768dc615fedc1d79ab53d665",
             "created_at": "2015-03-20T00:33:47Z",
             "event": "referenced",
             "id": 260005922,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/260005922"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/260005922"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/224/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/224",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/224/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/224",
     "id": 62830015,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/224/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/224/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 224,
     "state": "closed",
     "title": "Fixing dying",
     "updated_at": "2015-03-20T00:33:47Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/224",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/224",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

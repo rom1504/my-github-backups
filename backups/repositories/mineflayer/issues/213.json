@@ -6,11 +6,11 @@
         {
             "body": "I think https://github.com/andrewrk/mineflayer/pull/225 fixes that.",
             "created_at": "2015-03-19T18:22:11Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/213#issuecomment-83700257",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/213#issuecomment-83700257",
             "id": 83700257,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/213",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/213",
             "updated_at": "2015-03-19T18:22:11Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/83700257",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/83700257",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Okay, so this issue is basically bukkit. There's a quick and dirty fix to it, but overall we'll just avoid it since we've rarely supported bukkit. Should we still add the dirty fix?",
             "created_at": "2015-03-23T20:01:48Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/213#issuecomment-85169295",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/213#issuecomment-85169295",
             "id": 85169295,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/213",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/213",
             "updated_at": "2015-03-23T20:01:48Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/85169295",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/85169295",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "I think bukkit support is pretty important. how dirty is the dirty fix ?",
             "created_at": "2015-03-23T20:29:55Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/213#issuecomment-85180364",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/213#issuecomment-85180364",
             "id": 85180364,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/213",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/213",
             "updated_at": "2015-03-23T20:29:55Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/85180364",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/85180364",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "So this is not fixed by #225 ?\r\nThe same thing is still happening ?",
             "created_at": "2015-03-23T23:36:48Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/213#issuecomment-85246963",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/213#issuecomment-85246963",
             "id": 85246963,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/213",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/213",
             "updated_at": "2015-03-23T23:36:48Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/85246963",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/85246963",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "http://wiki.vg/Protocol#Spawn_Player says player_info should always be sent *before* named_entity_spawn\r\n\r\nWhat do you think about ignoring named_entity_spawn if bot.uuidToUsername[packet.playerUUID] is undefined ?",
             "created_at": "2015-03-26T09:16:27Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/213#issuecomment-86417669",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/213#issuecomment-86417669",
             "id": 86417669,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/213",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/213",
             "updated_at": "2015-03-26T09:16:27Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/86417669",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/86417669",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "@rom1504 I saw that and that's why I posted it. That was my dirty fix, ignore it. But there must be SOME reason it's getting sent, right?.... RIGHT?!?",
             "created_at": "2015-03-26T09:19:01Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/213#issuecomment-86418013",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/213#issuecomment-86418013",
             "id": 86418013,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/213",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/213",
             "updated_at": "2015-03-26T09:19:01Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/86418013",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/86418013",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "Well I don't know if we want to try to guess and support what the bukkit dev thoughts when implementing this. It might just be a bug in bukkit.\r\nI think we should try ignoring  named_entity_spawn in that case and see if that works.",
             "created_at": "2015-03-26T09:23:00Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/213#issuecomment-86418741",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/213#issuecomment-86418741",
             "id": 86418741,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/213",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/213",
             "updated_at": "2015-03-26T09:23:00Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/86418741",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/86418741",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -201,7 +201,7 @@
         }
     ],
     "comments": 7,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/213/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/213/comments",
     "created_at": "2015-03-14T08:15:51Z",
     "event_data": [
         {
@@ -225,11 +225,11 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "f9e189a5136ae1a0cccadd3d2d5566047b60ea20",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/f9e189a5136ae1a0cccadd3d2d5566047b60ea20",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/f9e189a5136ae1a0cccadd3d2d5566047b60ea20",
             "created_at": "2015-03-18T08:43:55Z",
             "event": "referenced",
             "id": 257862424,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/257862424"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/257862424"
         },
         {
             "actor": {
@@ -260,7 +260,7 @@
                 "color": "e10c02",
                 "name": "bug"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/263591909"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/263591909"
         },
         {
             "actor": {
@@ -287,7 +287,7 @@
             "created_at": "2015-03-26T09:19:01Z",
             "event": "mentioned",
             "id": 265627898,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/265627898"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/265627898"
         },
         {
             "actor": {
@@ -314,7 +314,7 @@
             "created_at": "2015-03-26T09:19:01Z",
             "event": "subscribed",
             "id": 265627899,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/265627899"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/265627899"
         },
         {
             "actor": {
@@ -345,7 +345,7 @@
                 "color": "009800",
                 "name": "entity"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/266840678"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/266840678"
         },
         {
             "actor": {
@@ -368,36 +368,36 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "4a4d2a8d0548d909d18828bdbe5020c18c496093",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/4a4d2a8d0548d909d18828bdbe5020c18c496093",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/4a4d2a8d0548d909d18828bdbe5020c18c496093",
             "created_at": "2015-03-29T15:33:22Z",
             "event": "closed",
             "id": 267930211,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/267930211"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/267930211"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/213/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/213",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/213/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/213",
     "id": 61496243,
     "labels": [
         {
             "color": "e10c02",
             "name": "bug",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/bug"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/bug"
         },
         {
             "color": "009800",
             "name": "entity",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/entity"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/entity"
         }
     ],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/213/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/213/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 213,
     "state": "closed",
     "title": "player_info not sent before named_entity_spawn?",
     "updated_at": "2015-03-29T15:33:22Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/213",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/213",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
         "events_url": "https://api.github.com/users/demipixel/events{/privacy}",

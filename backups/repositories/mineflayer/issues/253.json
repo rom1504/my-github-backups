@@ -1,16 +1,16 @@
 {
     "assignee": null,
     "body": "lib/plugins/game.js:\r\n\r\n```javascript\r\n    bot.client.write('custom_payload', {channel: 'MC|Brand', data: new Buffer('vanilla')});\r\n```\r\n\r\nfrom http://wiki.vg/Plugin_channel#MC.7CBrand: this is \"vanilla\" (**encoded as a UTF-8 string**).\r\n\r\nMineflayer does not encode the buffer as a UTF-8 string (i.e., varint length prefix; `writeString()` in node-minecraft-protocol). This causes at least the [Glowstone](https://github.com/GlowstoneMC/Glowstone) server to choke:\r\n\r\n```\r\n20:18:26 [SEVERE] Error while handling PluginMessage(channel=MC|Brand, data=[118, 97, 110, 105, 108, 108, 97]) (handler: PluginMessageHandler)\r\njava.lang.IndexOutOfBoundsException: readerIndex(1) + length(118) exceeds writerIndex(7): UnpooledHeapByteBuf(ridx: 1, widx: 7, cap: 7/7)\r\n\tat io.netty.buffer.AbstractByteBuf.checkReadableBytes(AbstractByteBuf.java:1171)\r\n\tat io.netty.buffer.AbstractByteBuf.readBytes(AbstractByteBuf.java:677)\r\n\tat io.netty.buffer.AbstractByteBuf.readBytes(AbstractByteBuf.java:685)\r\n\tat com.flowpowered.networking.util.ByteBufUtils.readUTF8(ByteBufUtils.java:46)\r\n\tat net.glowstone.net.handler.play.game.PluginMessageHandler.handleInternal(PluginMessageHandler.java:74)\r\n\tat net.glowstone.net.handler.play.game.PluginMessageHandler.handle(PluginMessageHandler.java:39)\r\n\tat net.glowstone.net.handler.play.game.PluginMessageHandler.handle(PluginMessageHandler.java:20)\r\n\tat com.flowpowered.networking.session.BasicSession.handleMessage(BasicSession.java:80)\r\n\tat com.flowpowered.networking.session.BasicSession.messageReceived(BasicSession.java:139)\r\n\tat net.glowstone.net.GlowSession.pulse(GlowSession.java:408)\r\n\tat net.glowstone.net.SessionRegistry.pulse(SessionRegistry.java:23)\r\n\tat net.glowstone.scheduler.GlowScheduler.pulse(GlowScheduler.java:174)\r\n\tat net.glowstone.scheduler.GlowScheduler.access$100(GlowScheduler.java:25)\r\n\tat net.glowstone.scheduler.GlowScheduler$2.run(GlowScheduler.java:111)\r\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)\r\n\tat java.util.concurrent.FutureTask.runAndReset(FutureTask.java:304)\r\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:178)\r\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\r\n\tat java.lang.Thread.run(Thread.java:745)\r\n```\r\n\r\ntested with `node examples/echo.js localhost` against a Glowstone server.  This can be fixed by manually adding the varint length:\r\n\r\n```javascript\r\n    bot.client.write('custom_payload', {channel: 'MC|Brand', data: new Buffer('\\x07vanilla')});\r\n```\r\n\r\nbut there ought to be a better way",
-    "closed_at": null,
+    "closed_at": "2016-01-07T07:25:29Z",
     "comment_data": [
         {
             "body": "The payloads for plugin channel messages are all structured differently, should this be something node-minecraft-protocol handles encoding/decoding instead of mineflayer? I think so. For reference: https://github.com/GlowstoneMC/Glowstone/blob/master/src/main/java/net/glowstone/net/handler/play/game/PluginMessageHandler.java#L45 (`MC|Brand`, `MC|BEdit`, and `MC|BSign` payload decoding).",
             "created_at": "2015-04-04T03:40:22Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/253#issuecomment-89493784",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/253#issuecomment-89493784",
             "id": 89493784,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/253",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/253",
             "updated_at": "2015-04-04T03:40:22Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/89493784",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/89493784",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
                 "events_url": "https://api.github.com/users/deathcap/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "This should be reported as a glowstone bug too IMO",
             "created_at": "2015-04-05T05:24:28Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/253#issuecomment-89718819",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/253#issuecomment-89718819",
             "id": 89718819,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/253",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/253",
             "updated_at": "2015-04-05T05:24:28Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/89718819",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/89718819",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Why? It's correctly reporting bad packet structure (at least, it does recover - can still connect)",
             "created_at": "2015-04-05T05:31:11Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/253#issuecomment-89719269",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/253#issuecomment-89719269",
             "id": 89719269,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/253",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/253",
             "updated_at": "2015-04-05T05:31:11Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/89719269",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/89719269",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
                 "events_url": "https://api.github.com/users/deathcap/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "Oh, I thought it disconnected you. NVM then. ",
             "created_at": "2015-04-05T05:42:43Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/253#issuecomment-89720474",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/253#issuecomment-89720474",
             "id": 89720474,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/253",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/253",
             "updated_at": "2015-04-05T05:42:43Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/89720474",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/89720474",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "Related : \r\nPrismarineJS/node-minecraft-protocol#152",
             "created_at": "2015-04-05T05:49:50Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/253#issuecomment-89722648",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/253#issuecomment-89722648",
             "id": 89722648,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/253",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/253",
             "updated_at": "2015-04-05T05:49:50Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/89722648",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/89722648",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -142,10 +142,38 @@
                 "type": "User",
                 "url": "https://api.github.com/users/roblabla"
             }
+        },
+        {
+            "body": "Closing, merged in https://github.com/PrismarineJS/mineflayer/pull/254",
+            "created_at": "2016-01-07T07:25:29Z",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/253#issuecomment-169582466",
+            "id": 169582466,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/253",
+            "updated_at": "2016-01-07T07:25:29Z",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/169582466",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
+                "events_url": "https://api.github.com/users/deathcap/events{/privacy}",
+                "followers_url": "https://api.github.com/users/deathcap/followers",
+                "following_url": "https://api.github.com/users/deathcap/following{/other_user}",
+                "gists_url": "https://api.github.com/users/deathcap/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/deathcap",
+                "id": 5897956,
+                "login": "deathcap",
+                "organizations_url": "https://api.github.com/users/deathcap/orgs",
+                "received_events_url": "https://api.github.com/users/deathcap/received_events",
+                "repos_url": "https://api.github.com/users/deathcap/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/deathcap/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/deathcap/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/deathcap"
+            }
         }
     ],
-    "comments": 5,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/253/comments",
+    "comments": 6,
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/253/comments",
     "created_at": "2015-04-04T03:35:51Z",
     "event_data": [
         {
@@ -173,7 +201,7 @@
             "created_at": "2015-04-04T03:43:55Z",
             "event": "referenced",
             "id": 273138948,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/273138948"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/273138948"
         },
         {
             "actor": {
@@ -196,11 +224,11 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "ba1c68a751e1baac8164c8ea542c304fd86c0723",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/ba1c68a751e1baac8164c8ea542c304fd86c0723",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/ba1c68a751e1baac8164c8ea542c304fd86c0723",
             "created_at": "2015-04-05T20:53:00Z",
             "event": "referenced",
             "id": 273726964,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/273726964"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/273726964"
         },
         {
             "actor": {
@@ -231,27 +259,54 @@
                 "color": "207de5",
                 "name": "protocol support"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/273830890"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/273830890"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
+                "events_url": "https://api.github.com/users/deathcap/events{/privacy}",
+                "followers_url": "https://api.github.com/users/deathcap/followers",
+                "following_url": "https://api.github.com/users/deathcap/following{/other_user}",
+                "gists_url": "https://api.github.com/users/deathcap/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/deathcap",
+                "id": 5897956,
+                "login": "deathcap",
+                "organizations_url": "https://api.github.com/users/deathcap/orgs",
+                "received_events_url": "https://api.github.com/users/deathcap/received_events",
+                "repos_url": "https://api.github.com/users/deathcap/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/deathcap/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/deathcap/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/deathcap"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2016-01-07T07:25:29Z",
+            "event": "closed",
+            "id": 507947000,
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/507947000"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/253/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/253",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/253/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/253",
     "id": 66269587,
     "labels": [
         {
             "color": "207de5",
             "name": "protocol support",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/protocol%20support"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/protocol%20support"
         }
     ],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/253/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/253/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 253,
-    "state": "open",
+    "state": "closed",
     "title": "Plugin message custom payload for \"MC|Brand\" encoded incorrectly",
-    "updated_at": "2015-04-06T03:26:06Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/253",
+    "updated_at": "2016-01-07T07:25:29Z",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/253",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
         "events_url": "https://api.github.com/users/deathcap/events{/privacy}",

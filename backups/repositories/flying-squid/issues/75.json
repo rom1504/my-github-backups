@@ -6,11 +6,11 @@
         {
             "body": "is that not ok https://github.com/mhsjlw/flying-squid/blob/master/src/lib/serverPlugins/world.js#L16 ?\r\n\r\nalso see https://github.com/mhsjlw/flying-squid/blob/master/src/lib/worldGenerations/diamond_square.js#L55\r\n\r\nThis seems to work anyway.",
             "created_at": "2015-10-11T12:28:18Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/75#issuecomment-147187231",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/75#issuecomment-147187231",
             "id": 147187231,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/75",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/75",
             "updated_at": "2015-10-11T12:28:18Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147187231",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147187231",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "OK. thank",
             "created_at": "2015-10-11T12:34:36Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/75#issuecomment-147188280",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/75#issuecomment-147188280",
             "id": 147188280,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/75",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/75",
             "updated_at": "2015-10-11T12:34:36Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147188280",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147188280",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/3473738?v=3",
                 "events_url": "https://api.github.com/users/lastuniverse/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Originally we had a seed random number generator. The reason that was important was because the same world seed could be used to generate the exact same biomes and the same chunk seed could be used to generate the exact same chunk (and it was really easy too :P)",
             "created_at": "2015-10-11T21:06:02Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/75#issuecomment-147246009",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/75#issuecomment-147246009",
             "id": 147246009,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/75",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/75",
             "updated_at": "2015-10-11T21:06:02Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147246009",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147246009",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "And we still do ?!",
             "created_at": "2015-10-11T21:09:25Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/75#issuecomment-147246168",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/75#issuecomment-147246168",
             "id": 147246168,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/75",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/75",
             "updated_at": "2015-10-11T21:09:25Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147246168",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147246168",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "I mean, I was referencing that seed-random module or whatever it was",
             "created_at": "2015-10-12T00:20:59Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/75#issuecomment-147265156",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/75#issuecomment-147265156",
             "id": 147265156,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/75",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/75",
             "updated_at": "2015-10-12T00:20:59Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147265156",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147265156",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "Ah yeah, well we might use that, but you were using it with a different seed for each chunk which didn't make sense.\r\n\r\nIt would probably be better to use that than to use Math.random() like you did [there](https://github.com/mhsjlw/flying-squid/blob/master/src/lib/worldGenerations/diamond_square.js#L110)",
             "created_at": "2015-10-12T00:27:23Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/75#issuecomment-147265978",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/75#issuecomment-147265978",
             "id": 147265978,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/75",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/75",
             "updated_at": "2015-10-12T00:27:23Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147265978",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147265978",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "Don't quote me on this but I'm pretty sure in vanilla chunk info (biome, height maps, generated structures, caves, etc) are generated by the seed and then everything else (adjusting the height map, trees, ores, grass, and other specific things) are all done randomly (meaning the same seed will never generate these things the same). If you want another seed so that you COULD get the exact same map, that's fine, however as far as I know, that's not how it's done in vanilla.",
             "created_at": "2015-10-12T00:35:41Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/75#issuecomment-147266606",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/75#issuecomment-147266606",
             "id": 147266606,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/75",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/75",
             "updated_at": "2015-10-12T00:35:41Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147266606",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147266606",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -201,7 +201,7 @@
         }
     ],
     "comments": 7,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/75/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/75/comments",
     "created_at": "2015-10-11T12:25:50Z",
     "event_data": [
         {
@@ -229,21 +229,21 @@
             "created_at": "2015-10-11T12:39:25Z",
             "event": "closed",
             "id": 432352270,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/432352270"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/432352270"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/75/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/issues/75",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/75/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/issues/75",
     "id": 110852941,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/75/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/75/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 75,
     "state": "closed",
     "title": "random number generator",
     "updated_at": "2015-10-12T00:35:41Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/75",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/75",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/3473738?v=3",
         "events_url": "https://api.github.com/users/lastuniverse/events{/privacy}",

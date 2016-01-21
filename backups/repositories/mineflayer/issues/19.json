@@ -6,11 +6,11 @@
         {
             "body": "> Drill crashes ...\r\n\r\nMight be related to Issue #16.\r\n\r\n> tunnel just makes nothing ...\r\n\r\nTunnel works great for me. How are you using it?\r\nThere's a known problem with starting a tunnel in the open air. The cause is placing blocks doesn't wait to see if it worked; the bot moves right along looking for a place to place the next block against. In theory the bot should place the block on top of the block he placed just a moment ago, but since the server hasn't responded with a block change, he gives up. This isn't a problem underground because there's invariably an option to place the walls against. I'm not quite willing to slow down the whole process just to support starting a tunnel in the open air.\r\n\r\ncake_puncher.js is not meant to demo good coding practices; perhaps we should clean it up a little.\r\n\r\nThe inventory_test crash is news to me. I'll check it out when I get a chance.\r\n",
             "created_at": "2011-07-05T17:10:49Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/19#issuecomment-1505277",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/19#issuecomment-1505277",
             "id": 1505277,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/19",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/19",
             "updated_at": "2011-07-05T17:11:09Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/1505277",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/1505277",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "I really hate that Comment & Close button being so eagerly clickable.",
             "created_at": "2011-07-05T17:12:13Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/19#issuecomment-1505288",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/19#issuecomment-1505288",
             "id": 1505288,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/19",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/19",
             "updated_at": "2011-07-05T17:12:13Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/1505288",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/1505288",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Thanks for the reply :)\r\nWell, tunnel does something, it tried it on ground and in air and in water. It just makes three blocks like this  -_- something like an U with 3 blocks, than stops saying cant place block.",
             "created_at": "2011-07-05T18:49:14Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/19#issuecomment-1506233",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/19#issuecomment-1506233",
             "id": 1506233,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/19",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/19",
             "updated_at": "2011-07-05T18:49:14Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/1506233",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/1506233",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/891950?v=3",
                 "events_url": "https://api.github.com/users/TheScience/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "Okay.\r\nDoing tunnel underground,\r\ncrash.\r\nequipped item changed. now holding 44 dirt\r\nequipped item changed. now holding 1 wooden pickaxe\r\ninventory update\r\nError while calling event handler onStoppedDigging\r\nTypeError: Result of expression 'get_it' [undefined] is not an object.\r\n<anonymous>()@cake_puncher.js:33\r\ninventory update\r\n",
             "created_at": "2011-07-05T19:56:42Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/19#issuecomment-1506784",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/19#issuecomment-1506784",
             "id": 1506784,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/19",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/19",
             "updated_at": "2011-07-05T19:56:42Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/1506784",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/1506784",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/891950?v=3",
                 "events_url": "https://api.github.com/users/TheScience/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "Well I can say that's an oversight.  We usually use cake_puncher on its own, and it tries to display that for ANY block that was dug, whether or not cake_puncher actually issued the command.",
             "created_at": "2011-07-05T21:57:13Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/19#issuecomment-1507727",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/19#issuecomment-1507727",
             "id": 1507727,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/19",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/19",
             "updated_at": "2011-07-05T21:57:13Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/1507727",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/1507727",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/412436?v=3",
                 "events_url": "https://api.github.com/users/Darthfett/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "I'm not sure why he's unable to place block, but it could be as simple as Josh says, and it being that the server hasn't told the bot the block is there yet.\r\n\r\nI think it makes sense to at least check and see if there are any neighboring blocks other than the just-placed block, and if there aren't, wait for the previous block to be placed.  I don't know what the underlying code looks like though, as drill and tunnel both use builder.\r\n\r\nI just fixed the cake_puncher bug with commit 39718c6c0be518bb5604, so it shouldn't be conflicting with any other scripts now.",
             "created_at": "2011-07-05T22:29:51Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/19#issuecomment-1507952",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/19#issuecomment-1507952",
             "id": 1507952,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/19",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/19",
             "updated_at": "2011-07-05T22:29:51Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/1507952",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/1507952",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/412436?v=3",
                 "events_url": "https://api.github.com/users/Darthfett/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "Thanks most is fixed.\r\nOnly thing tho,\r\nif you include cake_puncher to load, this happens:\r\n\r\nError while evaluating included file\r\nSyntaxError: Parse error\r\n<anonymous>()@cake_puncher.js:7\r\n\r\nAlso, if i do drill now, the log looks like that:\r\nconnected\r\nQObject::startTimer: timers cannot be started from another thread\r\nQObject::startTimer: timers cannot be started from another thread\r\nIt doesnt chrashes tho.\r\n\r\ncake_puncher fixed, just a typing error.\r\n\r\n",
             "created_at": "2011-07-11T14:34:23Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/19#issuecomment-1546866",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/19#issuecomment-1546866",
             "id": 1546866,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/19",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/19",
             "updated_at": "2011-07-11T15:41:51Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/1546866",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/1546866",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/891950?v=3",
                 "events_url": "https://api.github.com/users/TheScience/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "Well, something strange i found.\r\nIf you run the bot and minecraft on 2 different PC's follower runs fine.\r\nIf you run it on the same pc (Windows for me) it fails at jumping over blocks, maybe the timing is not perfect.\r\n",
             "created_at": "2011-07-13T17:25:27Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/19#issuecomment-1564477",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/19#issuecomment-1564477",
             "id": 1564477,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/19",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/19",
             "updated_at": "2011-07-13T17:25:50Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/1564477",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/1564477",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/891950?v=3",
                 "events_url": "https://api.github.com/users/TheScience/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "I know for a fact that it runs fine with both on the same PC in linux.  I remember someone (@thejoshwolfe ?  @superjoe30 ?) mentioning this problem a long time ago, though I thought it had been fixed.\r\n\r\nIt's not a problem with follower, but instead a problem with navigator, the movement library that most of the other scripts use.",
             "created_at": "2011-07-13T17:44:48Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/19#issuecomment-1564655",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/19#issuecomment-1564655",
             "id": 1564655,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/19",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/19",
             "updated_at": "2011-07-13T17:44:48Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/1564655",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/1564655",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/412436?v=3",
                 "events_url": "https://api.github.com/users/Darthfett/events{/privacy}",
@@ -258,11 +258,11 @@
         {
             "body": "I think most of this has been resolved, except for tunnel, which is a duplicate of issue #16.",
             "created_at": "2011-11-01T16:29:26Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/19#issuecomment-2592477",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/19#issuecomment-2592477",
             "id": 2592477,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/19",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/19",
             "updated_at": "2011-11-01T16:29:26Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/2592477",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/2592477",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/412436?v=3",
                 "events_url": "https://api.github.com/users/Darthfett/events{/privacy}",
@@ -285,7 +285,7 @@
         }
     ],
     "comments": 10,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/19/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/19/comments",
     "created_at": "2011-07-04T18:48:27Z",
     "event_data": [
         {
@@ -313,7 +313,7 @@
             "created_at": "2011-07-04T18:48:27Z",
             "event": "subscribed",
             "id": 1581403,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1581403"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1581403"
         },
         {
             "actor": {
@@ -359,7 +359,7 @@
             "created_at": "2011-07-04T20:26:28Z",
             "event": "assigned",
             "id": 1582538,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1582538"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1582538"
         },
         {
             "actor": {
@@ -386,7 +386,7 @@
             "created_at": "2011-07-04T20:26:28Z",
             "event": "subscribed",
             "id": 1582539,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1582539"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1582539"
         },
         {
             "actor": {
@@ -413,7 +413,7 @@
             "created_at": "2011-07-05T17:10:49Z",
             "event": "subscribed",
             "id": 1598833,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1598833"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1598833"
         },
         {
             "actor": {
@@ -440,7 +440,7 @@
             "created_at": "2011-07-05T17:10:50Z",
             "event": "closed",
             "id": 1598834,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1598834"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1598834"
         },
         {
             "actor": {
@@ -467,7 +467,7 @@
             "created_at": "2011-07-05T17:11:27Z",
             "event": "reopened",
             "id": 1598840,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1598840"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1598840"
         },
         {
             "actor": {
@@ -494,7 +494,7 @@
             "created_at": "2011-07-13T17:44:48Z",
             "event": "mentioned",
             "id": 1765975,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1765975"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1765975"
         },
         {
             "actor": {
@@ -521,7 +521,7 @@
             "created_at": "2011-07-13T17:44:48Z",
             "event": "mentioned",
             "id": 1765976,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1765976"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1765976"
         },
         {
             "actor": {
@@ -548,7 +548,7 @@
             "created_at": "2011-07-13T17:44:48Z",
             "event": "subscribed",
             "id": 1765977,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1765977"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1765977"
         },
         {
             "actor": {
@@ -575,21 +575,21 @@
             "created_at": "2011-11-01T16:29:26Z",
             "event": "closed",
             "id": 4904087,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/4904087"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/4904087"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/19/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/19",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/19/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/19",
     "id": 1163631,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/19/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/19/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 19,
     "state": "closed",
     "title": "Bugs with examples.",
     "updated_at": "2011-11-01T16:29:35Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/19",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/19",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/891950?v=3",
         "events_url": "https://api.github.com/users/TheScience/events{/privacy}",

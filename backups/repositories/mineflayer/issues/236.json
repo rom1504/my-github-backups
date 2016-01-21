@@ -6,11 +6,11 @@
         {
             "body": "Depends on where you break API. The API seems flexible enough as it stands, do you have any specific places where you with to break API compat ?\r\n\r\nI think breaking API in general is OK, so long as the steps to fix user code is clearly documented somewhere, and semver is followed (bump major). ",
             "created_at": "2015-03-24T19:55:20Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/236#issuecomment-85667879",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/236#issuecomment-85667879",
             "id": 85667879,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/236",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/236",
             "updated_at": "2015-03-24T19:55:20Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/85667879",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/85667879",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Not sure that I matter, but being that I own Darthfett/Helperbot, I am watching with interest.  What APIs are we concerned about here?\r\n\r\nThe physics updates would be a pretty large setback, as it would take some time to re-implement physics.  However, Helperbot isn't exactly an active project right now.",
             "created_at": "2015-03-24T21:43:11Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/236#issuecomment-85705770",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/236#issuecomment-85705770",
             "id": 85705770,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/236",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/236",
             "updated_at": "2015-03-24T21:43:11Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/85705770",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/85705770",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/412436?v=3",
                 "events_url": "https://api.github.com/users/Darthfett/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Specifically, I'd like to stop emitting `setWindowItems:0` and `setSlot:0` when the inventory updates. I'd instead like to publish a unified `inventoryUpdate` or perhaps `windowSlotsUpdate`. I ran into this lack of feature immediately when I tried to write a test for #203 and found that there was no good way to know when a `/give` command had completed.\r\n\r\nIn general, I think it's an antipattern to emit events only meant to be listened for in the same file. It may be assumed that `setWindowItems:0` is a \"private event\" since it's not in the API docs, but It's an encapsulation leak to allow even the possibility of client's thinking that listening to `setWindowItems:0` is how they are supposed to listen for inventory updates. I know there are a lot of different users of mineflayer out there, and having a list of all of them to search for \"setWindowItems:\" would put my mind at ease.\r\n\r\nPerhaps I'm being too pedantic about trying not to break the API users' code.",
             "created_at": "2015-03-24T21:44:28Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/236#issuecomment-85706094",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/236#issuecomment-85706094",
             "id": 85706094,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/236",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/236",
             "updated_at": "2015-03-24T21:44:28Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/85706094",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/85706094",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "I think that mineflayer is already providing a layer of abstraction on top of the inventory updates, so that helperbot is not depending on most of those events.  For example, https://github.com/Darthfett/helperbot/blob/master/lib/plugins/list.js just looks at the current inventory, which is automatically kept up-to-date in mineflayer.\r\n\r\nI would be all for an API that is simpler, and I don't think it would be too much trouble to fix scripts in helperbot.",
             "created_at": "2015-03-24T21:57:29Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/236#issuecomment-85709969",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/236#issuecomment-85709969",
             "id": 85709969,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/236",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/236",
             "updated_at": "2015-03-24T21:57:29Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/85709969",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/85709969",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/412436?v=3",
                 "events_url": "https://api.github.com/users/Darthfett/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "@Darthfett but there's no way to know _when_ the inventory updates. @thejoshwolfe if it's not mentioned in the API docs, then it's OK to break as it doesn't belong to the public API. I also agree private events are bad, we could create a separate, private EventEmitter and use it to emit private events if it is really necessary.",
             "created_at": "2015-03-24T23:15:18Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/236#issuecomment-85735573",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/236#issuecomment-85735573",
             "id": 85735573,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/236",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/236",
             "updated_at": "2015-03-24T23:15:18Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/85735573",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/85735573",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "If it's not documented in https://github.com/andrewrk/mineflayer/blob/master/doc/api.md then it's not even an issue to change API.\r\n\r\nOops, roblabla just said that :)",
             "created_at": "2015-03-25T00:13:21Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/236#issuecomment-85747328",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/236#issuecomment-85747328",
             "id": 85747328,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/236",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/236",
             "updated_at": "2015-03-25T00:13:32Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/85747328",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/85747328",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "Ok, I didn't end up needing to break the api afterall. It sounds like the answer to my original question is \"don't break the api\", which is a fine answer.\r\n\r\nAlso, I think this kind of discussion issue should really be held in the gitter chat. (didn't think of that when I opened this.)",
             "created_at": "2015-03-26T06:41:55Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/236#issuecomment-86361491",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/236#issuecomment-86361491",
             "id": 86361491,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/236",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/236",
             "updated_at": "2015-03-26T06:41:55Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/86361491",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/86361491",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "I think this kind of meta-issue is fine t have in github issues, as it helps keep track of previous discussion on this matter for future reference.",
             "created_at": "2015-03-26T10:14:20Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/236#issuecomment-86436741",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/236#issuecomment-86436741",
             "id": 86436741,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/236",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/236",
             "updated_at": "2015-03-26T10:14:20Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/86436741",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/86436741",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -229,7 +229,7 @@
         }
     ],
     "comments": 8,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/236/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/236/comments",
     "created_at": "2015-03-24T19:51:22Z",
     "event_data": [
         {
@@ -257,7 +257,7 @@
             "created_at": "2015-03-24T23:15:18Z",
             "event": "mentioned",
             "id": 264112776,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/264112776"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/264112776"
         },
         {
             "actor": {
@@ -284,7 +284,7 @@
             "created_at": "2015-03-24T23:15:18Z",
             "event": "subscribed",
             "id": 264112777,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/264112777"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/264112777"
         },
         {
             "actor": {
@@ -311,7 +311,7 @@
             "created_at": "2015-03-24T23:15:18Z",
             "event": "mentioned",
             "id": 264112778,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/264112778"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/264112778"
         },
         {
             "actor": {
@@ -338,7 +338,7 @@
             "created_at": "2015-03-24T23:15:18Z",
             "event": "subscribed",
             "id": 264112779,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/264112779"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/264112779"
         },
         {
             "actor": {
@@ -361,11 +361,11 @@
                 "url": "https://api.github.com/users/thejoshwolfe"
             },
             "commit_id": "1a4a05bc5b7f431f39a2b3cba9d37a05850423dc",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/1a4a05bc5b7f431f39a2b3cba9d37a05850423dc",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/1a4a05bc5b7f431f39a2b3cba9d37a05850423dc",
             "created_at": "2015-03-25T01:13:33Z",
             "event": "referenced",
             "id": 264184184,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/264184184"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/264184184"
         },
         {
             "actor": {
@@ -392,21 +392,21 @@
             "created_at": "2015-03-26T06:41:55Z",
             "event": "closed",
             "id": 265521528,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/265521528"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/265521528"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/236/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/236",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/236/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/236",
     "id": 64084770,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/236/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/236/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 236,
     "state": "closed",
     "title": "Breaking API",
     "updated_at": "2015-03-26T10:14:20Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/236",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/236",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
         "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",

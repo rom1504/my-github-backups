@@ -6,11 +6,11 @@
         {
             "body": "That nbt data is defined in [fromNotch](https://github.com/andrewrk/mineflayer/blob/7890055e1046098487d8ce6ac5ded811813ea7b9/lib/item.js#L50) which is used when [reading set_slot packet](https://github.com/andrewrk/mineflayer/blob/e5b3455b6c433e8d57c93d8e6f579b1e71afc19c/lib/plugins/inventory.js#L412)\r\nThat's defined when [reading a slot](https://github.com/PrismarineJS/node-minecraft-protocol/blob/master/src/protocol.js#L1140) and in particular when [reading nbt](https://github.com/PrismarineJS/node-minecraft-protocol/blob/master/src/protocol.js#L975)\r\n\r\nThat's done in [prismarine-nbt](https://github.com/PrismarineJS/prismarine-nbt/blob/master/nbt.js#L235)\r\nwhich doesn't have much documentation and neither does [nbt.js](https://github.com/sjmulder/nbt-js)\r\n\r\nMaybe the [wiki page](http://wiki.vg/NBT) would be useful to understand and then to document in mineflayer how to use that nbt data.\r\n\r\nAnyway yes we should document this better, I don't think mineflayer currently use any of that nbt data ? (just checked : no it doesn't)",
             "created_at": "2015-04-23T09:58:42Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/270#issuecomment-95520060",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/270#issuecomment-95520060",
             "id": 95520060,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/270",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/270",
             "updated_at": "2015-04-23T10:07:35Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/95520060",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/95520060",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Setting NBT is relevant for creative slot setting, and for looking if a tool is enchanted. Even though mineflayer itself does not use it currently, it might be a good idea to provide some NBT system that interfaces well with mineflayer, as bot devs certainly will make use of NBT. This does not mean it has to be included in mineflayer, but to be easy to use together with mineflayer.",
             "created_at": "2015-04-23T22:08:37Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/270#issuecomment-95732385",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/270#issuecomment-95732385",
             "id": 95732385,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/270",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/270",
             "updated_at": "2015-04-23T22:08:37Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/95732385",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/95732385",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2612164?v=3",
                 "events_url": "https://api.github.com/users/Gjum/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Yeah sure, actually I think we should probably simply improve the doc of https://github.com/PrismarineJS/prismarine-nbt (or https://github.com/sjmulder/nbt-js) and use that.\r\n",
             "created_at": "2015-04-23T22:13:57Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/270#issuecomment-95733174",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/270#issuecomment-95733174",
             "id": 95733174,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/270",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/270",
             "updated_at": "2015-04-23T22:13:57Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/95733174",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/95733174",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -89,7 +89,7 @@
         }
     ],
     "comments": 3,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/270/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/270/comments",
     "created_at": "2015-04-23T04:52:25Z",
     "event_data": [
         {
@@ -121,7 +121,7 @@
                 "color": "c7def8",
                 "name": "inventory"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/288438179"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/288438179"
         },
         {
             "actor": {
@@ -152,32 +152,32 @@
                 "color": "d4c5f9",
                 "name": "documentation"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/288438325"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/288438325"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/270/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/270",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/270/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/270",
     "id": 70307423,
     "labels": [
         {
             "color": "d4c5f9",
             "name": "documentation",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/documentation"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/documentation"
         },
         {
             "color": "c7def8",
             "name": "inventory",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/inventory"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/inventory"
         }
     ],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/270/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/270/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 270,
     "state": "open",
     "title": "NBT documentation unclear",
     "updated_at": "2015-04-23T22:13:57Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/270",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/270",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/1331014?v=3",
         "events_url": "https://api.github.com/users/Plazmaz/events{/privacy}",

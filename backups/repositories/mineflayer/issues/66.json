@@ -6,11 +6,11 @@
         {
             "body": "See #73 ",
             "created_at": "2013-01-11T16:28:40Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/66#issuecomment-12151700",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/66#issuecomment-12151700",
             "id": 12151700,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/66",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/66",
             "updated_at": "2013-01-11T16:28:40Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/12151700",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/12151700",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Don't forget to take creative mode into account when this is implemented (See #55 ). This would mean an API for unlimited use of items and inventory.",
             "created_at": "2013-01-12T21:59:32Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/66#issuecomment-12185243",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/66#issuecomment-12185243",
             "id": 12185243,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/66",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/66",
             "updated_at": "2013-01-12T21:59:32Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/12185243",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/12185243",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "I wrote this on a pull request:\r\n\r\nAfter putting some thought into it, I decided that the direction I want to go with inventory is actually *higher level* than this. Several decisions that I made:\r\n\r\nMineflayer bots *will not* have knowledge of:\r\n * the quickbar\r\n * slot ids\r\n * whether windows are open or closed\r\n * window clicks\r\n\r\nMineflayer bots *will* have knowledge of:\r\n * events when inventory changes\r\n * a high level inventory data structure which tells you what you have, and how much of it\r\n * which item is held in your hand (and thus displayed to other clients)\r\n * which items are equipped\r\n * throwing things on the ground\r\n\r\n\r\nHowever, @Darthfett made a great point:\r\n\r\n\"I personally think there should be a low level api for inventory, with the high level one built on top of it\r\n  \r\nuse case: player wants to fill his entire inventory with single pieces of gunpowder, so when idling at a spawner, he only gets gunpowder\"\r\n\r\nSo in contradiction with what I said above, mineflayer will have access to inventory slots. There may or may not be a higher level inventory API built on top of that; I haven't decided yet.\r\n\r\nAnd yes, there will probably be some sort of Slot and Window classes as #65 wants. We'll see what happens.",
             "created_at": "2013-01-12T22:05:40Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/66#issuecomment-12185353",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/66#issuecomment-12185353",
             "id": 12185353,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/66",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/66",
             "updated_at": "2013-01-12T22:05:40Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/12185353",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/12185353",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "proposed API up for feedback: https://gist.github.com/4528414",
             "created_at": "2013-01-14T07:28:58Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/66#issuecomment-12208831",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/66#issuecomment-12208831",
             "id": 12208831,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/66",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/66",
             "updated_at": "2013-01-14T07:28:58Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/12208831",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/12208831",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "Enough of this is done that I'm breaking it into smaller issues.",
             "created_at": "2013-02-07T02:44:10Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/66#issuecomment-13218495",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/66#issuecomment-13218495",
             "id": 13218495,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/66",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/66",
             "updated_at": "2013-02-07T02:44:10Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13218495",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13218495",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -145,7 +145,7 @@
         }
     ],
     "comments": 5,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/66/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/66/comments",
     "created_at": "2013-01-08T11:19:57Z",
     "event_data": [
         {
@@ -173,7 +173,7 @@
             "created_at": "2013-01-08T11:24:27Z",
             "event": "referenced",
             "id": 33700728,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/33700728"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/33700728"
         },
         {
             "actor": {
@@ -200,7 +200,7 @@
             "created_at": "2013-01-08T11:25:53Z",
             "event": "referenced",
             "id": 33700831,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/33700831"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/33700831"
         },
         {
             "actor": {
@@ -227,7 +227,7 @@
             "created_at": "2013-01-12T22:05:40Z",
             "event": "mentioned",
             "id": 34209512,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/34209512"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/34209512"
         },
         {
             "actor": {
@@ -254,7 +254,7 @@
             "created_at": "2013-01-12T22:05:40Z",
             "event": "subscribed",
             "id": 34209513,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/34209513"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/34209513"
         },
         {
             "actor": {
@@ -281,27 +281,27 @@
             "created_at": "2013-02-07T02:44:10Z",
             "event": "closed",
             "id": 37001206,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/37001206"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/37001206"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/66/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/66",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/66/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/66",
     "id": 9765196,
     "labels": [
         {
             "color": "444444",
             "name": "new feature",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/new%20feature"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/new%20feature"
         }
     ],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/66/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/66/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 66,
     "state": "closed",
     "title": "inventory management",
     "updated_at": "2013-02-07T02:44:10Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/66",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/66",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
         "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",

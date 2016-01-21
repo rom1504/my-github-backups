@@ -6,11 +6,11 @@
         {
             "body": "One way to make the transition smoother is to just deprecate blockAt, implement it using prismarine-world-sync and use bot.world for everything else. ",
             "created_at": "2015-11-14T21:08:30Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/334#issuecomment-156746069",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/334#issuecomment-156746069",
             "id": 156746069,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/334",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/334",
             "updated_at": "2015-11-14T21:08:30Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/156746069",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/156746069",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,95 @@
         {
             "body": "Something interesting about this is a prismarine-world-blockfinder could be made and used in mineflayer-blockfinder that would then be just a few lines.",
             "created_at": "2015-11-14T21:29:31Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/334#issuecomment-156747209",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/334#issuecomment-156747209",
             "id": 156747209,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/334",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/334",
             "updated_at": "2015-11-14T21:29:31Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/156747209",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/156747209",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "body": "requires https://github.com/PrismarineJS/prismarine-chunk/issues/16#issuecomment-169614381",
+            "created_at": "2016-01-07T10:17:56Z",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/334#issuecomment-169619844",
+            "id": 169619844,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/334",
+            "updated_at": "2016-01-07T10:17:56Z",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/169619844",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "body": "(using prismarine-world-sync would break mineflayer in the browser though, maybe it should be an optional dependency and we'd have no blockAt function for the no-prismarine-world-sync case, or maybe we could just remove blockAt altogether, but that would mean doing PRs on all projects using mineflayer)",
+            "created_at": "2016-01-07T10:25:33Z",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/334#issuecomment-169622498",
+            "id": 169622498,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/334",
+            "updated_at": "2016-01-07T10:25:33Z",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/169622498",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        },
+        {
+            "body": "Related idea : have a prismarine-world-snapshot that would take a snapshot of a given region and allow a sync api on that region. That might be useful to speed up blockfinder.\r\n(or maybe doing it asyncly would be fast enough, better benchmark before doing that)",
+            "created_at": "2016-01-07T11:20:23Z",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/334#issuecomment-169634128",
+            "id": 169634128,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/334",
+            "updated_at": "2016-01-07T11:20:23Z",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/169634128",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -60,8 +144,8 @@
             }
         }
     ],
-    "comments": 2,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/334/comments",
+    "comments": 5,
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/334/comments",
     "created_at": "2015-10-01T23:04:26Z",
     "event_data": [
         {
@@ -93,27 +177,27 @@
                 "color": "5319e7",
                 "name": "block"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/424786493"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/424786493"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/334/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/334",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/334/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/334",
     "id": 109401691,
     "labels": [
         {
             "color": "5319e7",
             "name": "block",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/block"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/block"
         }
     ],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/334/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/334/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 334,
     "state": "open",
     "title": "Use prismarine-world",
-    "updated_at": "2015-11-14T21:29:31Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/334",
+    "updated_at": "2016-01-07T11:20:23Z",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/334",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

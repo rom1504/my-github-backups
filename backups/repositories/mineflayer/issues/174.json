@@ -6,11 +6,11 @@
         {
             "body": "The physics engine has a few things that need considering. Interaction with some blocks that change physical state, such as doors and gates need to be considered. Also research in to how the bounding boxes work in the physics engine need to be looked at. Example, the bot can stand on top of the door. The Notchian client will fall in to the gap, another thing is that the Notchian client pushes the player out of blocks since many versions ago, if you're trapped in glass (Which will not suffocate you), the client will try push you out of it.",
             "created_at": "2014-04-22T00:55:53Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/174#issuecomment-40993494",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/174#issuecomment-40993494",
             "id": 40993494,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/174",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/174",
             "updated_at": "2014-04-22T00:56:10Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/40993494",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/40993494",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
                 "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "This is now \"fixed\" by the fact that the server sends the foot position in 1.8. (see d5d362c9f0599ccff00cfbf822334362bb544036 )\r\nSo is that issue fixed ?",
             "created_at": "2015-03-13T00:29:33Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/174#issuecomment-78715003",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/174#issuecomment-78715003",
             "id": 78715003,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/174",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/174",
             "updated_at": "2015-03-13T00:29:33Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/78715003",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/78715003",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Well, the client is still flying in the air. I'll close this when the physics engine starts working again :P",
             "created_at": "2015-03-13T00:51:12Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/174#issuecomment-78721907",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/174#issuecomment-78721907",
             "id": 78721907,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/174",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/174",
             "updated_at": "2015-03-13T00:51:12Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/78721907",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/78721907",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "Ok :)",
             "created_at": "2015-03-13T01:04:45Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/174#issuecomment-78727386",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/174#issuecomment-78727386",
             "id": 78727386,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/174",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/174",
             "updated_at": "2015-03-13T01:04:45Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/78727386",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/78727386",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "I think that issue is done ? (well of course the enums are not up to date, so there may be problem with some blocks but I don't think it concerns this issue)",
             "created_at": "2015-03-17T09:55:04Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/174#issuecomment-82251935",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/174#issuecomment-82251935",
             "id": 82251935,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/174",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/174",
             "updated_at": "2015-03-17T09:55:04Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/82251935",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/82251935",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "Yup, the enums not being up to date isn't part of this issue. Closing !",
             "created_at": "2015-03-17T10:01:32Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/174#issuecomment-82254035",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/174#issuecomment-82254035",
             "id": 82254035,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/174",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/174",
             "updated_at": "2015-03-17T10:01:32Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/82254035",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/82254035",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -173,7 +173,7 @@
         }
     ],
     "comments": 6,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/174/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/174/comments",
     "created_at": "2014-04-21T02:46:55Z",
     "event_data": [
         {
@@ -201,7 +201,7 @@
             "created_at": "2014-04-21T02:46:55Z",
             "event": "mentioned",
             "id": 113405178,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/113405178"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/113405178"
         },
         {
             "actor": {
@@ -228,7 +228,7 @@
             "created_at": "2014-04-21T02:46:55Z",
             "event": "subscribed",
             "id": 113405179,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/113405179"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/113405179"
         },
         {
             "actor": {
@@ -258,7 +258,7 @@
             "milestone": {
                 "title": "Stable 1.7"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/113680328"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/113680328"
         },
         {
             "actor": {
@@ -285,14 +285,14 @@
             "created_at": "2015-03-17T10:01:32Z",
             "event": "closed",
             "id": 256661360,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/256661360"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/256661360"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/174/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/174",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/174/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/174",
     "id": 31877844,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/174/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/174/labels{/name}",
     "locked": false,
     "milestone": {
         "closed_at": null,
@@ -319,21 +319,21 @@
         },
         "description": "Minecraft 1.8.x compliant bot\r\nAll examples should work and code thoroughly checked",
         "due_on": null,
-        "html_url": "https://github.com/andrewrk/mineflayer/milestones/1.1.0",
+        "html_url": "https://github.com/PrismarineJS/mineflayer/milestones/1.1.0",
         "id": 636181,
-        "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/milestones/1/labels",
+        "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/milestones/1/labels",
         "number": 1,
         "open_issues": 0,
         "state": "open",
         "title": "1.1.0",
         "updated_at": "2015-04-15T17:01:24Z",
-        "url": "https://api.github.com/repos/andrewrk/mineflayer/milestones/1"
+        "url": "https://api.github.com/repos/PrismarineJS/mineflayer/milestones/1"
     },
     "number": 174,
     "state": "closed",
     "title": "Physics Engine and Minecraft Engine differ in interpreting y axis",
     "updated_at": "2015-03-17T10:01:32Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/174",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/174",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
         "events_url": "https://api.github.com/users/nevercast/events{/privacy}",

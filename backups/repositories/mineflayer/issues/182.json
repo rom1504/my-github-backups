@@ -6,11 +6,11 @@
         {
             "body": "The promise idea (or something similar) would avoid doing something like https://github.com/andrewrk/mineflayer/blob/ce4b2606b8ff5eafd17b40c9478f73cd2d9935be/test/superflat.js#L105",
             "created_at": "2015-03-28T21:31:10Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/182#issuecomment-87316188",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/182#issuecomment-87316188",
             "id": 87316188,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/182",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/182",
             "updated_at": "2015-03-28T21:31:10Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87316188",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87316188",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Some of the inventory ideas have now been done : inventory.js has been split into several window-related files (chest.js, furnace.js). I'm not exactly sure how we could integrate with better with windows.js and lib/chest.js, lib/furnace.js,.. though.",
             "created_at": "2015-03-28T21:33:01Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/182#issuecomment-87316271",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/182#issuecomment-87316271",
             "id": 87316271,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/182",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/182",
             "updated_at": "2015-03-28T21:33:01Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87316271",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87316271",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "> avoid doing something like\r\n\r\nI could have also done this:\r\nhttps://github.com/andrewrk/mineflayer/blob/ce4b2606b8ff5eafd17b40c9478f73cd2d9935be/test/superflat.js#L178\r\n\r\nI didn't really see much problem in building a 6-story [pyramid of doom](http://survivejs.com/common_problems/pyramid.html). If I'd done that for the whole array of asynchronous steps in the test (starting at https://github.com/andrewrk/mineflayer/blob/ce4b2606b8ff5eafd17b40c9478f73cd2d9935be/test/superflat.js#L92 ), then that would have been a problem.\r\n\r\nIt would be pretty easy to convert those 6 `placeBlock()` calls into an array and call `callbackChain()`; I guess I just didn't feel compelled to do it at the time.\r\n\r\nIs my programming style hard to follow?",
             "created_at": "2015-03-28T22:49:24Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/182#issuecomment-87324675",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/182#issuecomment-87324675",
             "id": 87324675,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/182",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/182",
             "updated_at": "2015-03-28T22:49:24Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87324675",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87324675",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "> Promises?\r\n\r\nSeems like we don't gain much from this. Promises are an extra layer of complexity that makes it slightly more advanced to use callbacks. I don't really see a need for them.\r\n\r\n> expose less low level functions.\r\n\r\nI don't like this idea at all. Exposing low-level functions is good. It allows users to write their own inventory management code instead of being stuck with the high-level abstractions. It's presumptuous to think that we made every high-level abstraction that could be desired.\r\n\r\n\r\nI'm not liking this issue very much. It seems kinda vague, and doesn't really move the project forward. I think the individual requests in this issue should be moved to their own issues so that we can address them separately. I'm having trouble tracking and responding to all the different topics here.",
             "created_at": "2015-03-28T22:53:49Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/182#issuecomment-87324821",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/182#issuecomment-87324821",
             "id": 87324821,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/182",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/182",
             "updated_at": "2015-03-28T22:53:49Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87324821",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87324821",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "I dislike promises. It seems like a half-baked compromise really, and doesn't actually increase readability by a significant amount. What I want to do for node-minecraft-protocol and Protocols, however, is using babeljs to compile the ES6 code down to ES5, and use async/await syntax for asynchronous stuff. Of course, it isn't without problems, but it does improve the code by a very significant margin.\r\n\r\nConcerning low-level functions, the situation isn't so simple. Knowing what we expose, and what functions are \"too low\", what functions are \"too high\", is really important. We need to keep the low-level functions present, but we need to make sure they aren't _too_ low-level that they become a pain to maintain.\r\n\r\nTake bot.client for instance. If it was officially part of the API, it means the API would break with almost every release of mineflayer, due to the volatile nature of node-minecraft-protocol. That's a very low-level API that, despite being exposed, shouldn't be considered officially part of mineflayer's API. Use at your own risk sort of stuff ^^.\r\n\r\nI don't know about current low-level functions we would need to remove, but I guess we should keep them to a strict minimum to ensure we don't have to break API compat in the future.\r\n\r\nI agree this issue is really hard to work with. Splitting it would be easier to hold a proper discussion about each problem then.",
             "created_at": "2015-03-28T23:37:02Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/182#issuecomment-87330050",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/182#issuecomment-87330050",
             "id": 87330050,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/182",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/182",
             "updated_at": "2015-03-28T23:37:02Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87330050",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87330050",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "@thejoshwolfe yeah that pyramid of doom is a bit scary really :p \r\n\r\nYeah I guess your callbackChain function can avoid that indeed. (I don't really care about promises, just that combining tasks/functions shouldn't be too hard)\r\n\r\nI agree this issue is hard to work with, what should we do about it ? (we can open an issue about combining tasks, and an other about low level vs high level if needed)",
             "created_at": "2015-03-29T00:37:59Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/182#issuecomment-87335146",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/182#issuecomment-87335146",
             "id": 87335146,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/182",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/182",
             "updated_at": "2015-03-29T00:37:59Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87335146",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87335146",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "> combining tasks/functions\r\n\r\nwhat do you mean by this? ",
             "created_at": "2015-03-29T00:47:17Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/182#issuecomment-87335458",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/182#issuecomment-87335458",
             "id": 87335458,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/182",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/182",
             "updated_at": "2015-03-29T00:47:17Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87335458",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87335458",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "I mean looking at whether we can find a way to combine function that would be good for mineflayer : \r\n* something like https://github.com/caolan/async\r\n* promises (but I guess no seeing at the reactions here)\r\n* some other framework\r\n* just using callbacks and redefining stuff like callbackChain every time (it might be suitable since there are many correct ways to combine actions in a bot)",
             "created_at": "2015-03-29T01:08:46Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/182#issuecomment-87336393",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/182#issuecomment-87336393",
             "id": 87336393,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/182",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/182",
             "updated_at": "2015-03-29T01:08:46Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87336393",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87336393",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "Worth noting that since this issue was opened promises have been standardized and nodejs 0.12 was released with `Promise` native support, also they are available in other JavaScript environments (Chrome, Firefox, Safari), so no babeljs compile step would be needed, except for supporting older platforms. New standard APIs like fetch and ES6 module loaders are being built on top of Promise, so it does seem to be receiving a decent amount of support.\r\n\r\nasync/await are ES7, which is still in its early stages and not finalized so adopting it now may be premature.\r\n\r\nBut either of these changes would break API compatibility, right? Mineflayer describes itself as a \"powerful, *stable*, and high level JavaScript API\", the public API should not be needlessly changed drastically without very compelling reasons. Callbacks are useful as the lowest common denominator, e.g., clients independent of this module could use [Promise.denodeify](https://github.com/then/promise#promisedenodeifyfn) to convert functions accepting node-style callbacks to promises, maybe there's a way to similarly translate callbacks to ES7 async await? Either way, this could happen outside of mineflayer imho.",
             "created_at": "2015-03-29T03:59:54Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/182#issuecomment-87349588",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/182#issuecomment-87349588",
             "id": 87349588,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/182",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/182",
             "updated_at": "2015-03-29T03:59:54Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87349588",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87349588",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
                 "events_url": "https://api.github.com/users/deathcap/events{/privacy}",
@@ -258,11 +258,11 @@
         {
             "body": "I think we dealt with everything in that issue except for one thing that still isn't done : combining tasks the right way™.\r\nI opened a new more specific issue about that point here #275.\r\n\r\nSo I think we can close that issue that contain too many things.",
             "created_at": "2015-04-28T12:38:26Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/182#issuecomment-97048009",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/182#issuecomment-97048009",
             "id": 97048009,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/182",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/182",
             "updated_at": "2015-04-28T12:38:26Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/97048009",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/97048009",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -285,7 +285,7 @@
         }
     ],
     "comments": 10,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/182/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/182/comments",
     "created_at": "2014-04-28T01:32:01Z",
     "event_data": [
         {
@@ -317,7 +317,7 @@
                 "color": "444444",
                 "name": "enhancement"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/115536094"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/115536094"
         },
         {
             "actor": {
@@ -344,7 +344,7 @@
             "created_at": "2014-04-28T01:32:01Z",
             "event": "mentioned",
             "id": 115536095,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/115536095"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/115536095"
         },
         {
             "actor": {
@@ -371,7 +371,7 @@
             "created_at": "2014-04-28T01:32:01Z",
             "event": "subscribed",
             "id": 115536096,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/115536096"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/115536096"
         },
         {
             "actor": {
@@ -398,7 +398,7 @@
             "created_at": "2014-04-28T01:32:01Z",
             "event": "mentioned",
             "id": 115536097,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/115536097"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/115536097"
         },
         {
             "actor": {
@@ -425,7 +425,7 @@
             "created_at": "2014-04-28T01:32:01Z",
             "event": "subscribed",
             "id": 115536098,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/115536098"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/115536098"
         },
         {
             "actor": {
@@ -456,7 +456,7 @@
                 "color": "eb6420",
                 "name": "refactoring"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/266843781"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/266843781"
         },
         {
             "actor": {
@@ -487,7 +487,7 @@
                 "color": "444444",
                 "name": "enhancement"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/266845476"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/266845476"
         },
         {
             "actor": {
@@ -514,7 +514,7 @@
             "created_at": "2015-03-29T00:37:59Z",
             "event": "mentioned",
             "id": 267760499,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/267760499"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/267760499"
         },
         {
             "actor": {
@@ -541,7 +541,7 @@
             "created_at": "2015-03-29T00:37:59Z",
             "event": "subscribed",
             "id": 267760500,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/267760500"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/267760500"
         },
         {
             "actor": {
@@ -568,27 +568,27 @@
             "created_at": "2015-04-28T12:38:26Z",
             "event": "closed",
             "id": 291926374,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/291926374"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/291926374"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/182/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/182",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/182/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/182",
     "id": 32326019,
     "labels": [
         {
             "color": "eb6420",
             "name": "refactoring",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/refactoring"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/refactoring"
         }
     ],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/182/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/182/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 182,
     "state": "closed",
     "title": "Code structure changes",
     "updated_at": "2015-04-28T12:38:26Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/182",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/182",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
         "events_url": "https://api.github.com/users/nevercast/events{/privacy}",

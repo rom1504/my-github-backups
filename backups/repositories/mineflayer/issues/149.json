@@ -6,11 +6,11 @@
         {
             "body": "I had a bit of trouble getting it installed on Windows 7, but I did get it working (using the install directions on its github page).  This module (or one of its dependencies) refuses to work with Windows 8, though.",
             "created_at": "2013-04-14T05:16:39Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/149#issuecomment-16346193",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/149#issuecomment-16346193",
             "id": 16346193,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/149",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/149",
             "updated_at": "2013-04-14T05:16:39Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/16346193",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/16346193",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/412436?v=3",
                 "events_url": "https://api.github.com/users/Darthfett/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "What \"hosts\" are you talking about? I've got this working on several VPS's.",
             "created_at": "2013-04-14T17:02:05Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/149#issuecomment-16354358",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/149#issuecomment-16354358",
             "id": 16354358,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/149",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/149",
             "updated_at": "2013-04-14T17:02:05Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/16354358",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/16354358",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "I've tried both AppFog and CloudFoundry.  Both could not find URSA in the NPM registry when I did not include it in my node_modules folder, and when I did, the native dependancies were not compatible with the system the server was running on.  Is it perhaps that I compile the dependancies on Mac OS X instead of in Linux?",
             "created_at": "2013-04-14T18:58:34Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/149#issuecomment-16357079",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/149#issuecomment-16357079",
             "id": 16357079,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/149",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/149",
             "updated_at": "2013-04-14T18:58:34Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/16357079",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/16357079",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/238679?v=3",
                 "events_url": "https://api.github.com/users/agg23/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "The npm package is right here: https://npmjs.org/package/ursa\r\n\r\nIf your host doesn't have it then that sounds like a problem with your host.",
             "created_at": "2013-04-15T15:03:40Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/149#issuecomment-16390274",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/149#issuecomment-16390274",
             "id": 16390274,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/149",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/149",
             "updated_at": "2013-04-15T15:03:40Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/16390274",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/16390274",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "Yes, I think it is a problem with the host.  For some reason it couldn't find the Ursa package in NPM.  I ended up solving my issues by compiling Ursa on Ubuntu 12.10 64bit using Node .0.8.12.",
             "created_at": "2013-04-16T16:17:39Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/149#issuecomment-16454639",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/149#issuecomment-16454639",
             "id": 16454639,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/149",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/149",
             "updated_at": "2013-04-16T16:17:39Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/16454639",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/16454639",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/238679?v=3",
                 "events_url": "https://api.github.com/users/agg23/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "nice, I'm glad you got it working.",
             "created_at": "2013-04-16T16:23:55Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/149#issuecomment-16455034",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/149#issuecomment-16455034",
             "id": 16455034,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/149",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/149",
             "updated_at": "2013-04-16T16:23:55Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/16455034",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/16455034",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -173,7 +173,7 @@
         }
     ],
     "comments": 6,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/149/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/149/comments",
     "created_at": "2013-04-14T05:13:13Z",
     "event_data": [
         {
@@ -201,21 +201,21 @@
             "created_at": "2013-04-16T16:23:55Z",
             "event": "closed",
             "id": 45394581,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/45394581"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/45394581"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/149/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/149",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/149/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/149",
     "id": 13167904,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/149/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/149/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 149,
     "state": "closed",
     "title": "Hosts that support URSA",
     "updated_at": "2013-04-16T16:23:55Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/149",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/149",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/238679?v=3",
         "events_url": "https://api.github.com/users/agg23/events{/privacy}",

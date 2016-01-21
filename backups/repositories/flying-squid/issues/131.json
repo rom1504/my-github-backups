@@ -6,11 +6,11 @@
         {
             "body": "I think it would be nice to compare and then PR the implementation to https://github.com/109C/minecraft-chat-parser/blob/master/index.js and use it ;)",
             "created_at": "2015-11-26T00:40:12Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/131#issuecomment-159767487",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/131#issuecomment-159767487",
             "id": 159767487,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/131",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/131",
             "updated_at": "2015-11-26T00:40:12Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/159767487",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/159767487",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "~~And fix the checks failing, not crashing is an important feature...~~ Sorry, didn't realize it was a problem with the tests.",
             "created_at": "2015-11-26T00:45:16Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/131#issuecomment-159767979",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/131#issuecomment-159767979",
             "id": 159767979,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/131",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/131",
             "updated_at": "2015-11-26T00:48:22Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/159767979",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/159767979",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
                 "events_url": "https://api.github.com/users/109C/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "@109C nah the failing test is because he commit @demipixel based his PR on a commit that had a little bug in the test, nothing wrong.",
             "created_at": "2015-11-26T00:47:38Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/131#issuecomment-159768260",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/131#issuecomment-159768260",
             "id": 159768260,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/131",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/131",
             "updated_at": "2015-11-26T00:47:47Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/159768260",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/159768260",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "The produced json is not vanilla. So mineflayer can't parse it.\r\n\r\nWay to fix that : \r\n1. get a vanilla example by using nmp/mineflayer\r\n2. make it fit\r\n3. make sure the result is correct both in the game and that mineflayer can parse it",
             "created_at": "2015-12-06T23:56:29Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/131#issuecomment-162375092",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/131#issuecomment-162375092",
             "id": 162375092,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/131",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/131",
             "updated_at": "2015-12-06T23:56:29Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162375092",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162375092",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "Example:\r\n```json\r\n{\r\n  \"translate\": \"chat.type.text\",\r\n  \"with\": [\r\n    {\r\n      \"insertion\": \"rom1504\",\r\n      \"clickEvent\": {\r\n        \"action\": \"suggest_command\",\r\n        \"value\": \"/msg rom1504 \"\r\n      },\r\n      \"hoverEvent\": {\r\n        \"action\": \"show_entity\",\r\n        \"value\": \"{name:\\\"rom1504\\\",id:\\\"25827243-f187-3849-bcbc-8f1798bea6bb\\\"}\"\r\n      },\r\n      \"text\": \"rom1504\"\r\n    },\r\n    \"test\"\r\n  ]\r\n}\r\n```",
             "created_at": "2015-12-07T00:09:49Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/131#issuecomment-162378842",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/131#issuecomment-162378842",
             "id": 162378842,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/131",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/131",
             "updated_at": "2015-12-07T00:09:49Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162378842",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162378842",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "Important part:\r\n```json\r\n{\r\n  \"translate\": \"chat.type.text\",\r\n  \"with\": [\r\n    {\r\n      \"insertion\": \"rom1504\",\r\n      \"text\": \"rom1504\"\r\n    },\r\n    \"test\"\r\n  ]\r\n}\r\n```",
             "created_at": "2015-12-07T00:12:23Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/131#issuecomment-162379192",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/131#issuecomment-162379192",
             "id": 162379192,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/131",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/131",
             "updated_at": "2015-12-07T00:12:23Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162379192",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162379192",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "a better description of the chat format http://minecraft.gamepedia.com/Commands#Raw_JSON_text",
             "created_at": "2015-12-10T10:55:57Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/131#issuecomment-163578356",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/131#issuecomment-163578356",
             "id": 163578356,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/131",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/131",
             "updated_at": "2015-12-10T10:55:57Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/163578356",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/163578356",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "merged, see aeb5f888df81663d8a91891e8cce9eddd45bbee7\r\n\r\nThe remaining fixes will be tracked in https://github.com/mhsjlw/flying-squid/issues/167",
             "created_at": "2015-12-14T18:40:58Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/131#issuecomment-164521540",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/131#issuecomment-164521540",
             "id": 164521540,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/131",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/131",
             "updated_at": "2015-12-14T18:40:58Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/164521540",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/164521540",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -229,7 +229,7 @@
         }
     ],
     "comments": 8,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/131/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/131/comments",
     "created_at": "2015-11-26T00:08:50Z",
     "event_data": [
         {
@@ -257,7 +257,7 @@
             "created_at": "2015-11-26T00:47:38Z",
             "event": "mentioned",
             "id": 475106641,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/475106641"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/475106641"
         },
         {
             "actor": {
@@ -284,7 +284,7 @@
             "created_at": "2015-11-26T00:47:38Z",
             "event": "subscribed",
             "id": 475106642,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/475106642"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/475106642"
         },
         {
             "actor": {
@@ -311,7 +311,7 @@
             "created_at": "2015-11-26T00:47:38Z",
             "event": "mentioned",
             "id": 475106643,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/475106643"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/475106643"
         },
         {
             "actor": {
@@ -338,7 +338,7 @@
             "created_at": "2015-11-26T00:47:38Z",
             "event": "subscribed",
             "id": 475106644,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/475106644"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/475106644"
         },
         {
             "actor": {
@@ -365,7 +365,7 @@
             "created_at": "2015-12-14T18:40:58Z",
             "event": "closed",
             "id": 491323859,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/491323859"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/491323859"
         },
         {
             "actor": {
@@ -392,27 +392,27 @@
             "created_at": "2015-12-14T18:42:50Z",
             "event": "head_ref_deleted",
             "id": 491325946,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/491325946"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/491325946"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/131/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/pull/131",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/131/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/pull/131",
     "id": 118945784,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/131/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/131/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 131,
     "pull_request": {
-        "diff_url": "https://github.com/mhsjlw/flying-squid/pull/131.diff",
-        "html_url": "https://github.com/mhsjlw/flying-squid/pull/131",
-        "patch_url": "https://github.com/mhsjlw/flying-squid/pull/131.patch",
-        "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/131"
+        "diff_url": "https://github.com/PrismarineJS/flying-squid/pull/131.diff",
+        "html_url": "https://github.com/PrismarineJS/flying-squid/pull/131",
+        "patch_url": "https://github.com/PrismarineJS/flying-squid/pull/131.patch",
+        "url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/131"
     },
     "state": "closed",
     "title": "Well I made one too...",
     "updated_at": "2015-12-14T18:42:50Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/131",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/131",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
         "events_url": "https://api.github.com/users/demipixel/events{/privacy}",

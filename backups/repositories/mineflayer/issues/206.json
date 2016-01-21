@@ -6,11 +6,11 @@
         {
             "body": "What server are you using ? I'm not getting these errors...",
             "created_at": "2015-03-13T10:53:47Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/206#issuecomment-78916154",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/206#issuecomment-78916154",
             "id": 78916154,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/206",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/206",
             "updated_at": "2015-03-13T10:53:47Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/78916154",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/78916154",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Woops, that's a node-minecraft-protocol debug message I forgot to remove ^^' https://github.com/PrismarineJS/node-minecraft-protocol/blob/master/src/protocol.js#L1575",
             "created_at": "2015-03-13T12:00:36Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/206#issuecomment-78939739",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/206#issuecomment-78939739",
             "id": 78939739,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/206",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/206",
             "updated_at": "2015-03-13T12:01:22Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/78939739",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/78939739",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Yeah but it shouldn't happen, isn't it ?",
             "created_at": "2015-03-13T12:17:32Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/206#issuecomment-78945257",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/206#issuecomment-78945257",
             "id": 78945257,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/206",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/206",
             "updated_at": "2015-03-13T12:17:32Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/78945257",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/78945257",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "@rom1504 yup, it probably means @demipixel is connecting to a server running the wrong version. Either that, or there's a bug in the protocol, but that seems unlikely to me, I checked almost everything...",
             "created_at": "2015-03-13T13:42:23Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/206#issuecomment-78975207",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/206#issuecomment-78975207",
             "id": 78975207,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/206",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/206",
             "updated_at": "2015-03-13T13:42:23Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/78975207",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/78975207",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "I am attempting to connect to a 1.8 server (is that the wrong version?). The two things that happen are either THAT or:\r\n\r\nreturn entity.username.toLowerCase() === filter.toLowerCase();\r\nTypeError: Cannot call method 'toLowerCase' of undefined\r\n\r\nSo usually it either can't find an entity's username or it just can't parse some of the data...",
             "created_at": "2015-03-13T17:35:27Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/206#issuecomment-79169118",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/206#issuecomment-79169118",
             "id": 79169118,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/206",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/206",
             "updated_at": "2015-03-13T17:35:27Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/79169118",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/79169118",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "@demipixel sorry for the late reply,l was gone most of the week-end. Could you set the \"NODE_DEBUG\" environment variable to mc-proto before launching the script, and pastebin the output ? This will enable node-minecraft-protocol's debug outputs, which should help me debug the issue",
             "created_at": "2015-03-16T11:27:21Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/206#issuecomment-81590322",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/206#issuecomment-81590322",
             "id": 81590322,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/206",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/206",
             "updated_at": "2015-03-16T11:27:21Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/81590322",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/81590322",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "Also about the username problem : I think it may have been fixed by one of the last commits, so don't forget to git pull before you try again.",
             "created_at": "2015-03-16T11:38:10Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/206#issuecomment-81595291",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/206#issuecomment-81595291",
             "id": 81595291,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/206",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/206",
             "updated_at": "2015-03-16T11:38:10Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/81595291",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/81595291",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "@roblabla is NODE_DEBUG in the console or in the script? Either way, I tried both and didn't see any changes in the output... This is the error I'm getting now (after update):\r\n\r\nhttp://hastebin.com/onumubires.xml\r\n\"Logged in\" on login, \"Spawned\" on spawn.",
             "created_at": "2015-03-17T04:00:30Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/206#issuecomment-82087318",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/206#issuecomment-82087318",
             "id": 82087318,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/206",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/206",
             "updated_at": "2015-03-17T04:00:30Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/82087318",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/82087318",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "export NODE_DEBUG=\"mc-proto\" in your console @demipixel ",
             "created_at": "2015-03-17T07:16:14Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/206#issuecomment-82172388",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/206#issuecomment-82172388",
             "id": 82172388,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/206",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/206",
             "updated_at": "2015-03-17T07:16:14Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/82172388",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/82172388",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -258,11 +258,11 @@
         {
             "body": "You should git pull the mineflayer repo, lots of updates. I think that issue has been fixed recently.",
             "created_at": "2015-03-17T07:17:56Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/206#issuecomment-82173417",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/206#issuecomment-82173417",
             "id": 82173417,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/206",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/206",
             "updated_at": "2015-03-17T07:17:56Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/82173417",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/82173417",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -286,11 +286,11 @@
         {
             "body": "@roblabla http://hastebin.com/ibafizohox.vbs\r\n\r\nI forked but I've been doing 'git fetch upstream/master' then merging but it says it's already up-to-date.",
             "created_at": "2015-03-17T20:56:13Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/206#issuecomment-82597119",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/206#issuecomment-82597119",
             "id": 82597119,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/206",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/206",
             "updated_at": "2015-03-17T20:56:13Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/82597119",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/82597119",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -314,11 +314,11 @@
         {
             "body": "@demipixel I think this is the same problem as #213 ",
             "created_at": "2015-03-18T00:11:49Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/206#issuecomment-82649253",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/206#issuecomment-82649253",
             "id": 82649253,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/206",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/206",
             "updated_at": "2015-03-18T00:11:49Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/82649253",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/82649253",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -341,7 +341,7 @@
         }
     ],
     "comments": 12,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/206/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/206/comments",
     "created_at": "2015-03-13T08:13:29Z",
     "event_data": [
         {
@@ -369,7 +369,7 @@
             "created_at": "2015-03-13T13:42:23Z",
             "event": "mentioned",
             "id": 251922816,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/251922816"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/251922816"
         },
         {
             "actor": {
@@ -396,7 +396,7 @@
             "created_at": "2015-03-13T13:42:23Z",
             "event": "subscribed",
             "id": 251922817,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/251922817"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/251922817"
         },
         {
             "actor": {
@@ -423,7 +423,7 @@
             "created_at": "2015-03-13T13:42:23Z",
             "event": "mentioned",
             "id": 251922818,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/251922818"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/251922818"
         },
         {
             "actor": {
@@ -450,7 +450,7 @@
             "created_at": "2015-03-13T13:42:23Z",
             "event": "subscribed",
             "id": 251922819,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/251922819"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/251922819"
         },
         {
             "actor": {
@@ -477,7 +477,7 @@
             "created_at": "2015-03-16T11:27:21Z",
             "event": "mentioned",
             "id": 255363922,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/255363922"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/255363922"
         },
         {
             "actor": {
@@ -504,7 +504,7 @@
             "created_at": "2015-03-16T11:27:21Z",
             "event": "subscribed",
             "id": 255363923,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/255363923"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/255363923"
         },
         {
             "actor": {
@@ -531,7 +531,7 @@
             "created_at": "2015-03-17T04:00:30Z",
             "event": "mentioned",
             "id": 256379621,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/256379621"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/256379621"
         },
         {
             "actor": {
@@ -558,7 +558,7 @@
             "created_at": "2015-03-17T04:00:30Z",
             "event": "subscribed",
             "id": 256379622,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/256379622"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/256379622"
         },
         {
             "actor": {
@@ -585,7 +585,7 @@
             "created_at": "2015-03-17T07:16:14Z",
             "event": "mentioned",
             "id": 256511016,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/256511016"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/256511016"
         },
         {
             "actor": {
@@ -612,7 +612,7 @@
             "created_at": "2015-03-17T07:16:14Z",
             "event": "subscribed",
             "id": 256511017,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/256511017"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/256511017"
         },
         {
             "actor": {
@@ -639,7 +639,7 @@
             "created_at": "2015-03-17T20:56:13Z",
             "event": "mentioned",
             "id": 257405601,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/257405601"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/257405601"
         },
         {
             "actor": {
@@ -666,7 +666,7 @@
             "created_at": "2015-03-17T20:56:13Z",
             "event": "subscribed",
             "id": 257405602,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/257405602"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/257405602"
         },
         {
             "actor": {
@@ -693,7 +693,7 @@
             "created_at": "2015-03-18T00:11:49Z",
             "event": "mentioned",
             "id": 257549818,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/257549818"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/257549818"
         },
         {
             "actor": {
@@ -720,7 +720,7 @@
             "created_at": "2015-03-18T00:11:49Z",
             "event": "subscribed",
             "id": 257549819,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/257549819"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/257549819"
         },
         {
             "actor": {
@@ -751,7 +751,7 @@
                 "color": "e10c02",
                 "name": "bug"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/263591906"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/263591906"
         },
         {
             "actor": {
@@ -782,7 +782,7 @@
                 "color": "009800",
                 "name": "entity"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/266840676"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/266840676"
         },
         {
             "actor": {
@@ -805,11 +805,11 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "4a4d2a8d0548d909d18828bdbe5020c18c496093",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/4a4d2a8d0548d909d18828bdbe5020c18c496093",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/4a4d2a8d0548d909d18828bdbe5020c18c496093",
             "created_at": "2015-03-29T15:33:22Z",
             "event": "referenced",
             "id": 267930212,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/267930212"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/267930212"
         },
         {
             "actor": {
@@ -836,32 +836,32 @@
             "created_at": "2015-03-29T15:33:34Z",
             "event": "closed",
             "id": 267930313,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/267930313"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/267930313"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/206/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/206",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/206/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/206",
     "id": 61010233,
     "labels": [
         {
             "color": "e10c02",
             "name": "bug",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/bug"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/bug"
         },
         {
             "color": "009800",
             "name": "entity",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/entity"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/entity"
         }
     ],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/206/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/206/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 206,
     "state": "closed",
     "title": "Guys... We didn't parse.",
     "updated_at": "2015-03-29T15:33:34Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/206",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/206",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
         "events_url": "https://api.github.com/users/demipixel/events{/privacy}",

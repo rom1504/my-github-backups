@@ -6,11 +6,11 @@
         {
             "body": "Ah this is http://wiki.vg/Protocol#Player_Block_Placement \"This packet has a special case where X, Y, Z, and Face are all -1.\"\r\nwhich we do ignore there https://github.com/mhsjlw/flying-squid/blob/master/src/lib/plugins/placeBlock.js#L17\r\nSo it shouldn't crash. got to check the value of direction to see why that happens.\r\n\r\nIt's also kind of related to https://github.com/mhsjlw/flying-squid/issues/9\r\n",
             "created_at": "2015-11-19T16:15:07Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/104#issuecomment-158104454",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/104#issuecomment-158104454",
             "id": 158104454,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/104",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/104",
             "updated_at": "2015-11-19T16:15:07Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/158104454",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/158104454",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "It seems the listener in plackBlock never fires, I added a couple of console.logs and they didn't fire when I put down a normal block, nor when I tried with the item.",
             "created_at": "2015-11-19T16:22:11Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/104#issuecomment-158107266",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/104#issuecomment-158107266",
             "id": 158107266,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/104",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/104",
             "updated_at": "2015-11-19T16:22:11Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/158107266",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/158107266",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
                 "events_url": "https://api.github.com/users/109C/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "@109C did you run `gulp` after adding your console.log ?",
             "created_at": "2015-11-19T16:29:49Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/104#issuecomment-158109550",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/104#issuecomment-158109550",
             "id": 158109550,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/104",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/104",
             "updated_at": "2015-11-19T16:29:49Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/158109550",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/158109550",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "@rom1504 Thanks, I forgot to ```npm install```.",
             "created_at": "2015-11-19T18:02:25Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/104#issuecomment-158138969",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/104#issuecomment-158138969",
             "id": 158138969,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/104",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/104",
             "updated_at": "2015-11-19T18:02:25Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/158138969",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/158138969",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
                 "events_url": "https://api.github.com/users/109C/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "Ok, so I got the logging working and it seems direction is -1 if you're not looking a block (aka it is outlined), but it sends valid block faces when the item is used while looking at a block.\r\n\r\nThis means ```block_place``` is ambiguous, and there are actually *four* cases:\r\n* block, looking at block. (should be place)\r\n* block, not looking at block. (should not be place)\r\n* item use, looking at block. (should be use)\r\n* item use, not looking at block. (should be use)",
             "created_at": "2015-11-19T18:26:21Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/104#issuecomment-158146900",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/104#issuecomment-158146900",
             "id": 158146900,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/104",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/104",
             "updated_at": "2015-11-19T18:26:21Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/158146900",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/158146900",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
                 "events_url": "https://api.github.com/users/109C/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "When you don't look at a block, block_place is not sent it seems.\r\n\r\nI added a check to do nothing when you are not holding a block.\r\n\r\nSo, the crash is fixed. But using items is still not implemented, we can track this feature there https://github.com/mhsjlw/flying-squid/issues/106",
             "created_at": "2015-11-19T22:09:11Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/104#issuecomment-158215566",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/104#issuecomment-158215566",
             "id": 158215566,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/104",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/104",
             "updated_at": "2015-11-19T22:09:11Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/158215566",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/158215566",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -173,7 +173,7 @@
         }
     ],
     "comments": 6,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/104/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/104/comments",
     "created_at": "2015-11-19T16:09:38Z",
     "event_data": [
         {
@@ -205,7 +205,7 @@
                 "color": "fc2929",
                 "name": "bug"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/469348238"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/469348238"
         },
         {
             "actor": {
@@ -236,7 +236,7 @@
                 "color": "c7def8",
                 "name": "blocks"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/469348750"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/469348750"
         },
         {
             "actor": {
@@ -263,7 +263,7 @@
             "created_at": "2015-11-19T16:29:49Z",
             "event": "mentioned",
             "id": 469366292,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/469366292"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/469366292"
         },
         {
             "actor": {
@@ -290,7 +290,7 @@
             "created_at": "2015-11-19T16:29:49Z",
             "event": "subscribed",
             "id": 469366293,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/469366293"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/469366293"
         },
         {
             "actor": {
@@ -317,7 +317,7 @@
             "created_at": "2015-11-19T18:02:25Z",
             "event": "mentioned",
             "id": 469476514,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/469476514"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/469476514"
         },
         {
             "actor": {
@@ -344,7 +344,7 @@
             "created_at": "2015-11-19T18:02:25Z",
             "event": "subscribed",
             "id": 469476515,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/469476515"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/469476515"
         },
         {
             "actor": {
@@ -367,36 +367,36 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "6ea69796fb30b4044d053aa3f373d9d372d8fe8e",
-            "commit_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/6ea69796fb30b4044d053aa3f373d9d372d8fe8e",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/6ea69796fb30b4044d053aa3f373d9d372d8fe8e",
             "created_at": "2015-11-19T22:06:58Z",
             "event": "closed",
             "id": 469742698,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/469742698"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/469742698"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/104/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/issues/104",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/104/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/issues/104",
     "id": 117846831,
     "labels": [
         {
             "color": "c7def8",
             "name": "blocks",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/blocks"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/labels/blocks"
         },
         {
             "color": "fc2929",
             "name": "bug",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/bug"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/labels/bug"
         }
     ],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/104/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/104/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 104,
     "state": "closed",
     "title": "Crash when trying to use non-block item on a block",
     "updated_at": "2015-11-19T22:09:11Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/104",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/104",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/9680886?v=3",
         "events_url": "https://api.github.com/users/109C/events{/privacy}",

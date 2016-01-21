@@ -6,11 +6,11 @@
         {
             "body": "Need to test what part of this are still relevant (what works and what doesn't).",
             "created_at": "2015-03-29T15:37:50Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/178#issuecomment-87428541",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/178#issuecomment-87428541",
             "id": 87428541,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/178",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/178",
             "updated_at": "2015-03-29T15:37:50Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87428541",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87428541",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "my recent experience is that breaking a door triggers a bug in mineflayer where the bot doesn't know the door is gone. the common theme seems to indicate that there's a multiblock update packet that we're not handling correctly.",
             "created_at": "2015-03-29T17:58:21Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/178#issuecomment-87450504",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/178#issuecomment-87450504",
             "id": 87450504,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/178",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/178",
             "updated_at": "2015-03-29T17:58:21Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87450504",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87450504",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "@thejoshwolfe how do you test that ? I just tried to put a door between the bot and me and use forward in jumper.js, the bot correctly can't pass the door, when I destroy the door, it's able to come.",
             "created_at": "2015-03-29T21:05:14Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/178#issuecomment-87476176",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/178#issuecomment-87476176",
             "id": 87476176,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/178",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/178",
             "updated_at": "2015-03-29T21:05:14Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87476176",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87476176",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "that's about what I did. I'll see if I can get a more controlled scenario to reproduce the problem. ",
             "created_at": "2015-03-30T00:47:34Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/178#issuecomment-87504418",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/178#issuecomment-87504418",
             "id": 87504418,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/178",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/178",
             "updated_at": "2015-03-30T00:47:34Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/87504418",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/87504418",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "falling blocks are entities (see http://minecraft.gamepedia.com/Data_values/Entity_IDs)",
             "created_at": "2015-04-01T17:14:33Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/178#issuecomment-88560862",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/178#issuecomment-88560862",
             "id": 88560862,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/178",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/178",
             "updated_at": "2015-04-01T17:14:33Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/88560862",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/88560862",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "> Confirm that metadata updates work fine, a good example would be redstone\r\n\r\nThis seems to make it impossible to dig redstone currently.",
             "created_at": "2015-04-06T03:17:09Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/178#issuecomment-89901610",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/178#issuecomment-89901610",
             "id": 89901610,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/178",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/178",
             "updated_at": "2015-04-06T03:17:09Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/89901610",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/89901610",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "So, I agree all these edge cases should be handled, but it hasn't been handled until now : it is not more broken now than it was before.\r\nSo I'm postponing this for the next milestone/release.",
             "created_at": "2015-04-06T03:34:51Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/178#issuecomment-89906756",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/178#issuecomment-89906756",
             "id": 89906756,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/178",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/178",
             "updated_at": "2015-04-06T03:34:51Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/89906756",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/89906756",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "pretty sure it's related to https://github.com/andrewrk/mineflayer/issues/266 (so that means part of that is fixed ?)",
             "created_at": "2015-04-15T10:18:58Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/178#issuecomment-93304322",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/178#issuecomment-93304322",
             "id": 93304322,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/178",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/178",
             "updated_at": "2015-04-15T10:18:58Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/93304322",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/93304322",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "see https://github.com/andrewrk/mineflayer/commit/9ee9e49c3aaa5ac04690fd57cdd55c46488b568d",
             "created_at": "2015-04-15T10:21:22Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/178#issuecomment-93305121",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/178#issuecomment-93305121",
             "id": 93305121,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/178",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/178",
             "updated_at": "2015-04-15T10:21:22Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/93305121",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/93305121",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -258,11 +258,11 @@
         {
             "body": "I just fixed multiblock update having incorrect location in #266.",
             "created_at": "2015-04-15T12:37:49Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/178#issuecomment-93371705",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/178#issuecomment-93371705",
             "id": 93371705,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/178",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/178",
             "updated_at": "2015-04-15T12:37:49Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/93371705",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/93371705",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -286,11 +286,11 @@
         {
             "body": "Might be nice to check if that somehow fixed explosion block update.\r\n\r\n(imho this issue is way to big, it was better as multiple issues, but well that's how it is...)",
             "created_at": "2015-04-15T13:36:11Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/178#issuecomment-93402679",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/178#issuecomment-93402679",
             "id": 93402679,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/178",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/178",
             "updated_at": "2015-04-15T13:37:13Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/93402679",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/93402679",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -314,11 +314,11 @@
         {
             "body": "redstone fixed",
             "created_at": "2015-08-21T20:27:39Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/178#issuecomment-133551005",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/178#issuecomment-133551005",
             "id": 133551005,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/178",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/178",
             "updated_at": "2015-08-21T20:27:39Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/133551005",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/133551005",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -341,7 +341,7 @@
         }
     ],
     "comments": 12,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/178/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/178/comments",
     "created_at": "2014-04-21T23:22:43Z",
     "event_data": [
         {
@@ -372,7 +372,7 @@
             "milestone": {
                 "title": "Stable 1.7"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/113680109"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/113680109"
         },
         {
             "actor": {
@@ -403,7 +403,7 @@
                 "color": "5319e7",
                 "name": "block"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/266841665"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/266841665"
         },
         {
             "actor": {
@@ -434,7 +434,7 @@
                 "color": "e10c02",
                 "name": "bug"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/266847868"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/266847868"
         },
         {
             "actor": {
@@ -461,7 +461,7 @@
             "created_at": "2015-03-29T21:05:14Z",
             "event": "mentioned",
             "id": 268010665,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/268010665"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/268010665"
         },
         {
             "actor": {
@@ -488,7 +488,7 @@
             "created_at": "2015-03-29T21:05:14Z",
             "event": "subscribed",
             "id": 268010666,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/268010666"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/268010666"
         },
         {
             "actor": {
@@ -518,32 +518,32 @@
             "milestone": {
                 "title": "1.1.0"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/273835573"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/273835573"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/178/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/178",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/178/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/178",
     "id": 31933441,
     "labels": [
         {
             "color": "5319e7",
             "name": "block",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/block"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/block"
         },
         {
             "color": "e10c02",
             "name": "bug",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/bug"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/bug"
         }
     ],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/178/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/178/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 178,
     "state": "open",
     "title": "Incorrect local block information.",
     "updated_at": "2015-08-21T20:27:39Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/178",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/178",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
         "events_url": "https://api.github.com/users/nevercast/events{/privacy}",

@@ -6,11 +6,11 @@
         {
             "body": "When you use a module, it uses the main as the import anyway, does it not? If you require craftjs it'll load app.js.\r\n\r\napp.js however does not do a module.export. ",
             "created_at": "2015-08-27T19:48:16Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/13#issuecomment-135533901",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/13#issuecomment-135533901",
             "id": 135533901,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/13",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/13",
             "updated_at": "2015-08-27T19:48:16Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/135533901",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/135533901",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
                 "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "I would suggest that index.js exports all our types and factory functions, and app.js requires './index.js' or '.'",
             "created_at": "2015-08-27T19:48:57Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/13#issuecomment-135534054",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/13#issuecomment-135534054",
             "id": 135534054,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/13",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/13",
             "updated_at": "2015-08-27T19:48:57Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/135534054",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/135534054",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
                 "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "yes that's what we do. Hence the issue.",
             "created_at": "2015-08-27T20:23:34Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/13#issuecomment-135543635",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/13#issuecomment-135543635",
             "id": 135543635,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/13",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/13",
             "updated_at": "2015-08-27T20:23:34Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/135543635",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/135543635",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -89,7 +89,7 @@
         }
     ],
     "comments": 3,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/13/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/13/comments",
     "created_at": "2015-08-27T11:50:56Z",
     "event_data": [
         {
@@ -121,7 +121,7 @@
                 "color": "006b75",
                 "name": "refactoring"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/393924371"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/393924371"
         },
         {
             "actor": {
@@ -144,31 +144,31 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "6318c3d8ad52ef986006790a390bb7c36c3065d7",
-            "commit_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/6318c3d8ad52ef986006790a390bb7c36c3065d7",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/6318c3d8ad52ef986006790a390bb7c36c3065d7",
             "created_at": "2015-08-27T20:43:11Z",
             "event": "closed",
             "id": 394445786,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/394445786"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/394445786"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/13/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/issues/13",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/13/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/issues/13",
     "id": 103491349,
     "labels": [
         {
             "color": "006b75",
             "name": "refactoring",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/refactoring"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/labels/refactoring"
         }
     ],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/13/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/13/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 13,
     "state": "closed",
     "title": "should package.json main be index.js ?",
     "updated_at": "2015-08-27T20:43:11Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/13",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/13",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

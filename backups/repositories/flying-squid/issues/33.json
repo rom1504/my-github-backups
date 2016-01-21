@@ -6,11 +6,11 @@
         {
             "body": "Thanks, that's useful.\r\nThere are a few things to fix in the resulting code though.\r\n\r\n* If setBlock doesn't change the block in the server representation, then changeBlock probably shouldn't either, and there shouldn't be a changeBlock.\r\n* these new functions need to be added to the api.md\r\n\r\nI'm not sure yet how that should be done properly, but the way it's currently done make the API hard to understand without looking at the code.",
             "created_at": "2015-09-02T08:33:22Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/33#issuecomment-136975975",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/33#issuecomment-136975975",
             "id": 136975975,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/33",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/33",
             "updated_at": "2015-09-02T08:33:28Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/136975975",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/136975975",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Holy regex.",
             "created_at": "2015-09-02T10:56:25Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/33#issuecomment-137029500",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/33#issuecomment-137029500",
             "id": 137029500,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/33",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/33",
             "updated_at": "2015-09-02T10:56:25Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/137029500",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/137029500",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/8526903?v=3",
                 "events_url": "https://api.github.com/users/mhsjlw/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "@mhsjlw https://github.com/SpockBotMC/SpockBot/blob/master/spock/utils.py#L128 :smile:",
             "created_at": "2015-09-02T11:40:44Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/33#issuecomment-137042449",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/33#issuecomment-137042449",
             "id": 137042449,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/33",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/33",
             "updated_at": "2015-09-02T11:40:44Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/137042449",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/137042449",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2612164?v=3",
                 "events_url": "https://api.github.com/users/Gjum/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "@rom1504 Good point on changeBlock, I'll do this as soon as I can.",
             "created_at": "2015-09-02T15:00:28Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/33#issuecomment-137114652",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/33#issuecomment-137114652",
             "id": 137114652,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/33",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/33",
             "updated_at": "2015-09-02T15:00:28Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/137114652",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/137114652",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "@rom1504 Wait hold on. I was rethinking this, and...\r\n\r\nchangeBlock is the player saying \"I've placed it so change it for everybody else and the server\"\r\nsetBlock is the SERVER saying \"Change it for this player\"\r\n\r\nI feel like we need both...? I don't want to send an extra packet to the player setting a block they've already placed...",
             "created_at": "2015-09-03T03:03:16Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/33#issuecomment-137310719",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/33#issuecomment-137310719",
             "id": 137310719,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/33",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/33",
             "updated_at": "2015-09-03T03:03:16Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/137310719",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/137310719",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "Rename player.setBlock to player.sendBlock and add all these new exposed functions to the api (and use player.sendBlock in player.placeBlock) and it's good to merge.",
             "created_at": "2015-09-04T01:27:50Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/33#issuecomment-137616835",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/33#issuecomment-137616835",
             "id": 137616835,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/33",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/33",
             "updated_at": "2015-09-04T01:27:50Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/137616835",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/137616835",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "player.sendBlock + player.changeBlock = serv.setBlock\r\nputting sendBlock in changeBlock just duplicates serv.setBlock. When a player places a block, they don't need a block place event to fire, correct? The server needs to simply send it to others. Otherwise we would just use serv.setBlock.\r\n\r\nThe whole command support /setblock <x> <y> <z> <id>. It also supports relative positions, so you can do:\r\n\r\n/setblock ~ ~-1 ~ 1 to set stone under the player. You can also use a mix of relative and fixed positions (this is all in vanilla minecraft by the way). Since results will be an array, positions 1, 2, and 3 containing \"x\", \"y\", and \"z\", the easiest way to compactly get the player's position (i.e. the ~) is to just do:\r\n\r\nplayer.entity.position[q] where q is ['', 'x', 'y', 'z'][i] where i is what result it's in. This means 1 => x, 2 => y, etc.",
             "created_at": "2015-09-04T01:52:37Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/33#issuecomment-137622405",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/33#issuecomment-137622405",
             "id": 137622405,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/33",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/33",
             "updated_at": "2015-09-04T01:52:37Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/137622405",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/137622405",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "Made the changes",
             "created_at": "2015-09-04T02:57:18Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/33#issuecomment-137635558",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/33#issuecomment-137635558",
             "id": 137635558,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/33",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/33",
             "updated_at": "2015-09-04T02:57:18Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/137635558",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/137635558",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "Nonononono how do I remove these new commits ;_;",
             "created_at": "2015-09-04T06:34:07Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/33#issuecomment-137659001",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/33#issuecomment-137659001",
             "id": 137659001,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/33",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/33",
             "updated_at": "2015-09-04T06:34:07Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/137659001",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/137659001",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -258,11 +258,11 @@
         {
             "body": "Should I just duplicate my current repo, remove those 3 commits, paste back the repo, commit them all as one, then wait to push until this PR is accepted or what not? Git hates me ;_;",
             "created_at": "2015-09-04T07:19:33Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/33#issuecomment-137663808",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/33#issuecomment-137663808",
             "id": 137663808,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/33",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/33",
             "updated_at": "2015-09-04T07:19:33Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/137663808",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/137663808",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -286,11 +286,11 @@
         {
             "body": "@demipixel here's the procedure (note : make a backup copy of your repo in case shit goes wrong) : \r\n\r\n`git rebase -i fa2e030c55df38faab85958025e0874513bbf226` (this is the current master commit)\r\n\r\nLook for your first commit. It should say pick next to it. Now, all the commits under it, instead of \"pick\"ing them, \"squash\" them. Save and quit the editor, git should do some work. Once it's done, `git push --force` and if you did everything right you should have a clean PR. If you did it wrong... that's where the backup copy comes handy ^^'",
             "created_at": "2015-09-04T17:26:03Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/33#issuecomment-137798374",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/33#issuecomment-137798374",
             "id": 137798374,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/33",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/33",
             "updated_at": "2015-09-04T17:26:11Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/137798374",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/137798374",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -313,7 +313,7 @@
         }
     ],
     "comments": 11,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/33/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/33/comments",
     "created_at": "2015-09-02T04:26:29Z",
     "event_data": [
         {
@@ -341,7 +341,7 @@
             "created_at": "2015-09-02T11:40:44Z",
             "event": "mentioned",
             "id": 398829261,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/398829261"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/398829261"
         },
         {
             "actor": {
@@ -368,7 +368,7 @@
             "created_at": "2015-09-02T11:40:44Z",
             "event": "subscribed",
             "id": 398829262,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/398829262"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/398829262"
         },
         {
             "actor": {
@@ -395,7 +395,7 @@
             "created_at": "2015-09-02T15:00:28Z",
             "event": "mentioned",
             "id": 399038413,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/399038413"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/399038413"
         },
         {
             "actor": {
@@ -422,7 +422,7 @@
             "created_at": "2015-09-02T15:00:28Z",
             "event": "subscribed",
             "id": 399038414,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/399038414"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/399038414"
         },
         {
             "actor": {
@@ -449,7 +449,7 @@
             "created_at": "2015-09-03T03:03:16Z",
             "event": "mentioned",
             "id": 399639500,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/399639500"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/399639500"
         },
         {
             "actor": {
@@ -476,7 +476,7 @@
             "created_at": "2015-09-03T03:03:16Z",
             "event": "subscribed",
             "id": 399639501,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/399639501"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/399639501"
         },
         {
             "actor": {
@@ -503,7 +503,7 @@
             "created_at": "2015-09-04T17:26:03Z",
             "event": "mentioned",
             "id": 401371599,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/401371599"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/401371599"
         },
         {
             "actor": {
@@ -530,7 +530,7 @@
             "created_at": "2015-09-04T17:26:03Z",
             "event": "subscribed",
             "id": 401371600,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/401371600"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/401371600"
         },
         {
             "actor": {
@@ -557,27 +557,27 @@
             "created_at": "2015-09-05T23:55:41Z",
             "event": "closed",
             "id": 402006916,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/402006916"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/402006916"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/33/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/pull/33",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/33/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/pull/33",
     "id": 104400485,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/33/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/33/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 33,
     "pull_request": {
-        "diff_url": "https://github.com/mhsjlw/flying-squid/pull/33.diff",
-        "html_url": "https://github.com/mhsjlw/flying-squid/pull/33",
-        "patch_url": "https://github.com/mhsjlw/flying-squid/pull/33.patch",
-        "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/33"
+        "diff_url": "https://github.com/PrismarineJS/flying-squid/pull/33.diff",
+        "html_url": "https://github.com/PrismarineJS/flying-squid/pull/33",
+        "patch_url": "https://github.com/PrismarineJS/flying-squid/pull/33.patch",
+        "url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/33"
     },
     "state": "closed",
     "title": "Add setBlock to API and /setblock command",
     "updated_at": "2015-09-05T23:55:41Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/33",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/33",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
         "events_url": "https://api.github.com/users/demipixel/events{/privacy}",

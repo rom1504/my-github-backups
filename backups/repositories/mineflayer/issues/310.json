@@ -6,11 +6,11 @@
         {
             "body": "And is the bot visibly holding seeds? Does it swing arm when you try to place them? Do you get something in the server console?",
             "created_at": "2015-07-19T18:38:44Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/310#issuecomment-122694242",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/310#issuecomment-122694242",
             "id": 122694242,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/310",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/310",
             "updated_at": "2015-07-19T18:38:44Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/122694242",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/122694242",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/5508988?v=3",
                 "events_url": "https://api.github.com/users/Darker/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Everything that's not in that list https://github.com/andrewrk/mineflayer/blob/master/test/externalTests/digEverything.js#L7 worked the last time I tried so that's surprising.\r\nI'll investigate.",
             "created_at": "2015-07-21T05:11:12Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/310#issuecomment-123162622",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/310#issuecomment-123162622",
             "id": 123162622,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/310",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/310",
             "updated_at": "2015-07-21T05:11:12Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/123162622",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/123162622",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "Oh but I know what's wrong : \"to place the seeds on the block I am standing on\".\r\nThat's not possible unless you jump before (try it with the vanilla client)",
             "created_at": "2015-07-21T21:39:18Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/310#issuecomment-123485041",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/310#issuecomment-123485041",
             "id": 123485041,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/310",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/310",
             "updated_at": "2015-07-21T21:39:18Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/123485041",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/123485041",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "It's possible to place no-hitbox blocks (torch, seeds, sapligs) right under yourself.",
             "created_at": "2015-07-22T20:34:32Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/310#issuecomment-123853966",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/310#issuecomment-123853966",
             "id": 123853966,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/310",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/310",
             "updated_at": "2015-07-22T20:34:32Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/123853966",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/123853966",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/5508988?v=3",
                 "events_url": "https://api.github.com/users/Darker/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "ok yeah I just tried it with torches : it works.\r\n\r\n@cartycrabber you did use bot.equip callback right ? (see https://github.com/andrewrk/mineflayer/blob/master/doc/api.md#botequipitem-destination-callback )",
             "created_at": "2015-07-22T22:34:48Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/310#issuecomment-123892297",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/310#issuecomment-123892297",
             "id": 123892297,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/310",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/310",
             "updated_at": "2015-07-22T22:34:48Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/123892297",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/123892297",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "Maybe he could just send the robot's code (unless it's confidential). It's either a strange bug or some simple mistake in his code.",
             "created_at": "2015-07-22T23:58:45Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/310#issuecomment-123910532",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/310#issuecomment-123910532",
             "id": 123910532,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/310",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/310",
             "updated_at": "2015-07-22T23:58:45Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/123910532",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/123910532",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/5508988?v=3",
                 "events_url": "https://api.github.com/users/Darker/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "oh wait - what about `bot.activateBlock(bot.blockAt(bot.entity.position.offset(0, -1, 0)))` while holding seeds?\r\n\r\nAnd `bot.activateItem()` doesn't seem to ever do anything that purposely targets specific blocks.",
             "created_at": "2015-07-23T00:01:47Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/310#issuecomment-123911278",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/310#issuecomment-123911278",
             "id": 123911278,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/310",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/310",
             "updated_at": "2015-07-23T00:01:47Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/123911278",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/123911278",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/5508988?v=3",
                 "events_url": "https://api.github.com/users/Darker/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "Ok so I just tried (after using a hoe on dirt and equipping the bot with a seed), placing a seed under the bot with placeBlock does work !\r\n\r\nI bet the problem was you didn't use the callback of equip and hence didn't let the bot equip the seed @cartycrabber \r\n\r\nReopen if you still have that issue ;)",
             "created_at": "2015-07-27T19:40:54Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/310#issuecomment-125321902",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/310#issuecomment-125321902",
             "id": 125321902,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/310",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/310",
             "updated_at": "2015-07-27T19:40:54Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/125321902",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/125321902",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -229,7 +229,7 @@
         }
     ],
     "comments": 8,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/310/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/310/comments",
     "created_at": "2015-07-14T04:20:27Z",
     "event_data": [
         {
@@ -261,7 +261,7 @@
                 "color": "5319e7",
                 "name": "block"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/360773943"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/360773943"
         },
         {
             "actor": {
@@ -288,7 +288,7 @@
             "created_at": "2015-07-22T22:34:48Z",
             "event": "mentioned",
             "id": 362831213,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/362831213"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/362831213"
         },
         {
             "actor": {
@@ -315,7 +315,7 @@
             "created_at": "2015-07-22T22:34:48Z",
             "event": "subscribed",
             "id": 362831214,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/362831214"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/362831214"
         },
         {
             "actor": {
@@ -342,7 +342,7 @@
             "created_at": "2015-07-27T19:40:54Z",
             "event": "mentioned",
             "id": 366463372,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/366463372"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/366463372"
         },
         {
             "actor": {
@@ -369,7 +369,7 @@
             "created_at": "2015-07-27T19:40:54Z",
             "event": "subscribed",
             "id": 366463373,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/366463373"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/366463373"
         },
         {
             "actor": {
@@ -396,27 +396,27 @@
             "created_at": "2015-07-27T19:40:54Z",
             "event": "closed",
             "id": 366463375,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/366463375"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/366463375"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/310/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/310",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/310/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/310",
     "id": 94864566,
     "labels": [
         {
             "color": "5319e7",
             "name": "block",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/block"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/block"
         }
     ],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/310/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/310/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 310,
     "state": "closed",
     "title": "Can't place seeds",
     "updated_at": "2015-07-27T19:40:54Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/310",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/310",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/5948548?v=3",
         "events_url": "https://api.github.com/users/cartycrabber/events{/privacy}",

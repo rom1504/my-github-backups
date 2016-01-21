@@ -20,9 +20,38 @@
     },
     "body": "See https://github.com/PrismarineJS/prismarine-server/blob/master/example/server.json#L37",
     "closed_at": null,
-    "comment_data": [],
-    "comments": 0,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/29/comments",
+    "comment_data": [
+        {
+            "body": "I think voxel plugins are really nice https://github.com/deathcap/voxelmetaverse/blob/master/index.js\r\nThey have a loadAfter for dependencies which is nice https://github.com/voxel/voxel-furnace/blob/master/furnace.coffee#L11\r\n\r\nMaking flying-squid closer to this modular model would be really nice.",
+            "created_at": "2016-01-19T22:31:35Z",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/29#issuecomment-173009252",
+            "id": 173009252,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/29",
+            "updated_at": "2016-01-19T22:31:35Z",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/173009252",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
+        }
+    ],
+    "comments": 1,
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/29/comments",
     "created_at": "2015-09-01T19:27:52Z",
     "event_data": [
         {
@@ -54,7 +83,7 @@
                 "color": "fef2c0",
                 "name": "plugins"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/398667321"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/398667321"
         },
         {
             "actor": {
@@ -100,27 +129,27 @@
             "created_at": "2015-09-02T08:43:31Z",
             "event": "assigned",
             "id": 398670640,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/398670640"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/398670640"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/29/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/issues/29",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/29/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/issues/29",
     "id": 104336942,
     "labels": [
         {
             "color": "fef2c0",
             "name": "plugins",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/plugins"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/labels/plugins"
         }
     ],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/29/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/29/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 29,
     "state": "open",
     "title": "Make internal plugins optional",
-    "updated_at": "2015-09-02T08:43:31Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/29",
+    "updated_at": "2016-01-19T22:31:35Z",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/29",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

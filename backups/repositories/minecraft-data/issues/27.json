@@ -450,9 +450,37 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nickelpro"
             }
+        },
+        {
+            "body": "Some of our names are wrong, for example https://github.com/Steveice10/MCProtocolLib/blob/master/src/main/java/org/spacehq/mc/protocol/MinecraftProtocol.java#L361\r\n\r\nhttp://prismarinejs.github.io/minecraft-data/?d=protocol#toClient_craft_progress_bar\r\n\r\nGot to fix these at some point.",
+            "created_at": "2016-01-07T01:28:18Z",
+            "html_url": "https://github.com/PrismarineJS/minecraft-data/issues/27#issuecomment-169517676",
+            "id": 169517676,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/27",
+            "updated_at": "2016-01-07T01:28:18Z",
+            "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/comments/169517676",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
         }
     ],
-    "comments": 16,
+    "comments": 17,
     "comments_url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/27/comments",
     "created_at": "2015-08-07T11:35:56Z",
     "event_data": [
@@ -702,7 +730,7 @@
     "number": 27,
     "state": "open",
     "title": "Packets and field names",
-    "updated_at": "2015-10-06T23:55:14Z",
+    "updated_at": "2016-01-07T01:28:19Z",
     "url": "https://api.github.com/repos/PrismarineJS/minecraft-data/issues/27",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",

@@ -6,11 +6,11 @@
         {
             "body": "Also see view distance in http://minecraft.gamepedia.com/Server.properties",
             "created_at": "2015-10-12T14:53:14Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/76#issuecomment-147422627",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/76#issuecomment-147422627",
             "id": 147422627,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/76",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/76",
             "updated_at": "2015-10-12T14:53:14Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147422627",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147422627",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Okay, so the default is 10 in each direction (I don't think we're doing that).\r\n\r\nRemember, it says \"It determines the server-side viewing distance.\" so I have no idea why the player sends that option since I don't think the server sends anything different. That option is useful if:\r\n\r\n- It's hard for your computer to render the number of chunks the server sends you\r\n- Singleplayer adjusting that distance above the default 10 in each direction.",
             "created_at": "2015-10-13T17:42:44Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/76#issuecomment-147789474",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/76#issuecomment-147789474",
             "id": 147789474,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/76",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/76",
             "updated_at": "2015-10-13T17:42:44Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147789474",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147789474",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "@demipixel actually the client can send something different, for example my client sends 12 apparently.\r\n\r\ncurrently it's 8, but the only thing to do here is to change player.view when receiving the setting packet. ",
             "created_at": "2015-10-13T17:46:08Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/76#issuecomment-147791409",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/76#issuecomment-147791409",
             "id": 147791409,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/76",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/76",
             "updated_at": "2015-10-13T17:46:08Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147791409",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147791409",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "I'm aware we can do it, I was just curious as to whether or not vanilla did it.",
             "created_at": "2015-10-13T17:49:28Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/76#issuecomment-147792999",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/76#issuecomment-147792999",
             "id": 147792999,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/76",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/76",
             "updated_at": "2015-10-13T17:49:28Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/147792999",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/147792999",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -117,7 +117,7 @@
         }
     ],
     "comments": 4,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/76/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/76/comments",
     "created_at": "2015-10-12T14:50:19Z",
     "event_data": [
         {
@@ -149,7 +149,7 @@
                 "color": "1a94c6",
                 "name": "world"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/433972512"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/433972512"
         },
         {
             "actor": {
@@ -176,7 +176,7 @@
             "created_at": "2015-10-13T17:46:08Z",
             "event": "mentioned",
             "id": 434316630,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/434316630"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/434316630"
         },
         {
             "actor": {
@@ -203,7 +203,7 @@
             "created_at": "2015-10-13T17:46:08Z",
             "event": "subscribed",
             "id": 434316631,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/434316631"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/434316631"
         },
         {
             "actor": {
@@ -226,31 +226,31 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "d7aa0bca835da6f2cff36c423b3e55fb8084f4f9",
-            "commit_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/d7aa0bca835da6f2cff36c423b3e55fb8084f4f9",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/d7aa0bca835da6f2cff36c423b3e55fb8084f4f9",
             "created_at": "2015-11-06T19:50:33Z",
             "event": "closed",
             "id": 457304088,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/457304088"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/457304088"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/76/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/issues/76",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/76/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/issues/76",
     "id": 110989805,
     "labels": [
         {
             "color": "1a94c6",
             "name": "world",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/world"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/labels/world"
         }
     ],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/76/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/76/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 76,
     "state": "closed",
     "title": "Support player settings",
     "updated_at": "2015-11-06T19:50:33Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/76",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/76",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

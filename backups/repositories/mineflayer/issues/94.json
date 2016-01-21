@@ -6,11 +6,11 @@
         {
             "body": "code is too slow, blockAt needs to be fast. reverting",
             "created_at": "2013-02-08T04:04:24Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/94#issuecomment-13276076",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/94#issuecomment-13276076",
             "id": 13276076,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/94",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/94",
             "updated_at": "2013-02-08T04:04:24Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13276076",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13276076",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "@superjoe30 we could make it even faster by returning air for every coordinate. But that's incorrect information, and so is saying that the block above a fence has an air boundingBox.\r\n\r\nIf we're going to make the navigator correct, then the navigator will just need to do the logic you just removed from blockAt everytime blockAt is called. This doesn't make the navigator faster at all. And the physics engine will need to do the check as well, so it doesn't help there either.\r\n\r\nThis speed improvement is only valid for callers that don't care about the boundingBox property, like searching the world for diamond ore, or something. Perhaps the boundingBox correction could be enabled with an optional blockAt parameter. Perhaps only fill in the boundingBox property if we do the extra work to make sure it's correct, otherwise leave it undefined.\r\n\r\nOut of curiosity, how did you measure the speed? The navigator? What was the speedup?",
             "created_at": "2013-02-09T03:38:13Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/94#issuecomment-13325623",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/94#issuecomment-13325623",
             "id": 13325623,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/94",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/94",
             "updated_at": "2013-02-09T03:38:13Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13325623",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13325623",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "OK just did benchmarks, it appears to be pretty much the same speed regardless of this code. However I'm still not putting it back in.\r\n\r\nIt's not \"more correct\" to say that the block above a fence has the bounding box of a cube. It's a nasty hack to make physics and navigation work in a glitchy way. You can stand directly on a fence. In fact you will get kicked for floating if you use this fence hack in mineflayer.\r\n\r\nIt's not `blockAt`'s job to figure out the physical relationship between blocks. Its job is only to return data about the specific block you are looking at.\r\n\r\nWe're not going to solve fences with a hack. We're going to solve fences with proper bounding box support. This commit pushes mineflayer in the wrong direction.\r\n",
             "created_at": "2013-02-09T06:13:42Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/94#issuecomment-13327052",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/94#issuecomment-13327052",
             "id": 13327052,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/94",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/94",
             "updated_at": "2013-02-09T06:13:42Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13327052",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13327052",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "If we're going to talk about correctness, 'cube' is always safer than 'air' with the vanilla server's physics checking, so saying that the block above a fence is a cube is more correct than saying that it's air. I think we all agree that the hack made navigation work better, even if it makes the mineflayer library uglier. Walking on air above fences is much better than glitching out next to them going nowhere.\r\n\r\n> It's not blockAt's job to figure out the physical relationship between blocks.\r\n\r\nThen take the bounding box out of blockAt completely. If it's not correct, don't claim that it is. Let callers of blockAt think about physics and decide how accurate they want to be.\r\n",
             "created_at": "2013-02-09T20:09:35Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/94#issuecomment-13337728",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/94#issuecomment-13337728",
             "id": 13337728,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/94",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/94",
             "updated_at": "2013-02-09T20:09:35Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13337728",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13337728",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "how about `physicsBlockAt`",
             "created_at": "2013-02-09T20:20:39Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/94#issuecomment-13337924",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/94#issuecomment-13337924",
             "id": 13337924,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/94",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/94",
             "updated_at": "2013-02-09T20:20:39Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13337924",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13337924",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "there's going to need to be a lot of extra code to get bounding boxes right when we do support it properly. Metadata determines rotations, nearby blocks affect which direction a fence reaches out toward. It's going to be complicated. It needs its own method.",
             "created_at": "2013-02-09T20:26:25Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/94#issuecomment-13338028",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/94#issuecomment-13338028",
             "id": 13338028,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/94",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/94",
             "updated_at": "2013-02-09T20:26:46Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13338028",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13338028",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
                 "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "One of mineflayer's goals is to stay rapidly up to date with minecraft protocol updates. One important way to work toward this goal is to keep the maintenance burden of mineflayer low. This includes not doing nasty hacks that make the library harder to work with and more complicated to reason about.\r\n\r\nFurthermore I've been doing 95% of the development and bug fixing in mineflayer, so if I decide that something is hard to maintain, then I have the authority to say that.\r\n\r\nI have declared that The Fence Problem will not be solved in the blocks plugin, and until someone else is putting forth more effort than I am, or until I am convinced otherwise, it will be as I have declared.\r\n\r\nWe don't need to argue so much about this... we can fix it cleanly in the physics plugin.\r\n\r\nIt *IS* correct to say that the block above a fence is empty. The block above the fence is air, and air has an empty bounding box. It is the block below's bounding box that is extending outside of the block. Look deep within yourself and you will see that I am correct about this.\r\n",
             "created_at": "2013-02-09T20:29:56Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/94#issuecomment-13338088",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/94#issuecomment-13338088",
             "id": 13338088,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/94",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/94",
             "updated_at": "2013-02-09T20:29:56Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13338088",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13338088",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "there's so much work to be done. stop arguing about a stop-gap solution and start actually solving some of the vast number of other problems",
             "created_at": "2013-02-09T20:31:49Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/94#issuecomment-13338125",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/94#issuecomment-13338125",
             "id": 13338125,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/94",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/94",
             "updated_at": "2013-02-09T20:31:49Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/13338125",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/13338125",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "This is not always true (Treat fence as 2 meters tall)\r\nPut a carpet on top of a fence and watch as you can jump over it just fine\r\n(Though mobs cannot, makes getting in and out of pens beautiful)\r\n\r\nFences should be assumed to be 1.5 meters tall only if the above block is air.\r\n\r\n@andrewrk is correct in saying this should be a feature of the physics plugin.\r\nI'll add this to the upcoming milestone.\r\n\r\nOne thing regarding mineflayer-navigate, it should probably be a function of the astar heuristics to treat a fence with air above it as impassible ",
             "created_at": "2014-04-22T00:21:41Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/94#issuecomment-40991707",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/94#issuecomment-40991707",
             "id": 40991707,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/94",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/94",
             "updated_at": "2014-04-22T00:24:19Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/40991707",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/40991707",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
                 "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
@@ -258,11 +258,11 @@
         {
             "body": "On the subject, doors and gates. Perhaps have the ability to register special handlers to certain block types. These handlers would provide functions to determine if the block is passble, and if not, if it can be opened",
             "created_at": "2014-04-22T00:29:28Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/94#issuecomment-40992132",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/94#issuecomment-40992132",
             "id": 40992132,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/94",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/94",
             "updated_at": "2014-04-22T00:29:28Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/40992132",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/40992132",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
                 "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
@@ -286,11 +286,11 @@
         {
             "body": "I think this discussion should be continued under https://github.com/andrewrk/mineflayer/issues/174\r\nKeep issues regarding basically the same thing, in one place. Makes it easier to manage.\r\n\r\nClosed. See #174",
             "created_at": "2014-04-22T00:53:32Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/94#issuecomment-40993353",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/94#issuecomment-40993353",
             "id": 40993353,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/94",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/94",
             "updated_at": "2014-04-22T00:53:32Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/40993353",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/40993353",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",
                 "events_url": "https://api.github.com/users/nevercast/events{/privacy}",
@@ -313,7 +313,7 @@
         }
     ],
     "comments": 11,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/94/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/94/comments",
     "created_at": "2013-01-19T01:07:08Z",
     "event_data": [
         {
@@ -337,11 +337,11 @@
                 "url": "https://api.github.com/users/thejoshwolfe"
             },
             "commit_id": "ab9e13419ddabc64e872445b541acb227a449a34",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/ab9e13419ddabc64e872445b541acb227a449a34",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/ab9e13419ddabc64e872445b541acb227a449a34",
             "created_at": "2013-01-19T02:05:09Z",
             "event": "closed",
             "id": 34917435,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/34917435"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/34917435"
         },
         {
             "actor": {
@@ -364,11 +364,11 @@
                 "url": "https://api.github.com/users/andrewrk"
             },
             "commit_id": "435d63e2de72d940ccf68ed3e2d2b502eb2aa583",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/435d63e2de72d940ccf68ed3e2d2b502eb2aa583",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/435d63e2de72d940ccf68ed3e2d2b502eb2aa583",
             "created_at": "2013-02-08T04:03:10Z",
             "event": "referenced",
             "id": 37152898,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/37152898"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/37152898"
         },
         {
             "actor": {
@@ -395,7 +395,7 @@
             "created_at": "2013-02-08T04:04:25Z",
             "event": "reopened",
             "id": 37152972,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/37152972"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/37152972"
         },
         {
             "actor": {
@@ -422,7 +422,7 @@
             "created_at": "2013-02-08T13:34:49Z",
             "event": "referenced",
             "id": 37193772,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/37193772"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/37193772"
         },
         {
             "actor": {
@@ -449,7 +449,7 @@
             "created_at": "2013-02-09T03:38:13Z",
             "event": "mentioned",
             "id": 37285106,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/37285106"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/37285106"
         },
         {
             "actor": {
@@ -476,7 +476,7 @@
             "created_at": "2013-02-09T03:38:13Z",
             "event": "subscribed",
             "id": 37285107,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/37285107"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/37285107"
         },
         {
             "actor": {
@@ -503,7 +503,7 @@
             "created_at": "2014-04-22T00:24:19Z",
             "event": "mentioned",
             "id": 113690831,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/113690831"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/113690831"
         },
         {
             "actor": {
@@ -530,7 +530,7 @@
             "created_at": "2014-04-22T00:24:19Z",
             "event": "subscribed",
             "id": 113690832,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/113690832"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/113690832"
         },
         {
             "actor": {
@@ -557,21 +557,21 @@
             "created_at": "2014-04-22T00:53:32Z",
             "event": "closed",
             "id": 113696002,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/113696002"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/113696002"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/94/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/94",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/94/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/94",
     "id": 10119392,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/94/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/94/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 94,
     "state": "closed",
     "title": "physics: error when jumping over fences",
     "updated_at": "2014-04-22T00:53:32Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/94",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/94",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/87436?v=3",
         "events_url": "https://api.github.com/users/thejoshwolfe/events{/privacy}",

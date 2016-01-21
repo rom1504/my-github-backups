@@ -6,11 +6,11 @@
         {
             "body": "I don't think this is necessary.\r\n\r\nTilde versions are not bad practice, in fact they are the default that npm uses. See https://npmjs.org/doc/json.html#Tilde-Version-Ranges\r\n\r\nTilde versions mean, \"use this stable version, but accept bug fixes\".\r\n\r\n\r\n\r\n> wouldn't update to minecraft-protocol 0.10.1 if 0.10.0 was already installed.\r\n\r\nTry this: rm -rf node_modules/minecraft-protocol/ && npm install",
             "created_at": "2013-05-10T01:18:15Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/152#issuecomment-17699436",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/152#issuecomment-17699436",
             "id": 17699436,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/152",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/152",
             "updated_at": "2013-05-10T01:18:15Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/17699436",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/17699436",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "I respectfully disagree. Tilde versions make bug fixes optional, resulting in manual changes by users should they need to update. A simple 'npm install' should be all that's necessary to update to a fully working, consistent module, irrespective of previous installs. It should work 'out of box', as it were, without users having to trawl through the dependencies of their dependencies to discover where their issue lies.\r\nUsing stricter versions also allows for continuity across all users of a module/project, meaning the module I've downloaded will be the exact same as the one you've developed, avoiding any bugs that could result.\r\nThere is also the issue of backward compatibility. Many modules aren't backwards compatible across proper versions, and a few aren't between bug fixes. It is therefore much safer to pick a strict version, and update it when an update for that module has been deemed to work within your own project/module.",
             "created_at": "2013-05-10T10:27:04Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/152#issuecomment-17713588",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/152#issuecomment-17713588",
             "id": 17713588,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/152",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/152",
             "updated_at": "2013-05-10T11:07:50Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/17713588",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/17713588",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1922422?v=3",
                 "events_url": "https://api.github.com/users/jackcannon/events{/privacy}",
@@ -61,7 +61,7 @@
         }
     ],
     "comments": 2,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/152/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/152/comments",
     "created_at": "2013-05-06T21:24:20Z",
     "event_data": [
         {
@@ -89,7 +89,7 @@
             "created_at": "2013-05-10T08:56:11Z",
             "event": "closed",
             "id": 48348428,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/48348428"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/48348428"
         },
         {
             "actor": {
@@ -116,7 +116,7 @@
             "created_at": "2013-05-10T10:27:04Z",
             "event": "reopened",
             "id": 48356910,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/48356910"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/48356910"
         },
         {
             "actor": {
@@ -143,27 +143,27 @@
             "created_at": "2013-07-09T19:37:38Z",
             "event": "closed",
             "id": 55820570,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/55820570"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/55820570"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/152/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/pull/152",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/152/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/pull/152",
     "id": 14021884,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/152/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/152/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 152,
     "pull_request": {
-        "diff_url": "https://github.com/andrewrk/mineflayer/pull/152.diff",
-        "html_url": "https://github.com/andrewrk/mineflayer/pull/152",
-        "patch_url": "https://github.com/andrewrk/mineflayer/pull/152.patch",
-        "url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/152"
+        "diff_url": "https://github.com/PrismarineJS/mineflayer/pull/152.diff",
+        "html_url": "https://github.com/PrismarineJS/mineflayer/pull/152",
+        "patch_url": "https://github.com/PrismarineJS/mineflayer/pull/152.patch",
+        "url": "https://api.github.com/repos/PrismarineJS/mineflayer/pulls/152"
     },
     "state": "closed",
     "title": "Changed package.json to use stricter depenency versions",
     "updated_at": "2013-07-09T19:37:38Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/152",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/152",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/1922422?v=3",
         "events_url": "https://api.github.com/users/jackcannon/events{/privacy}",

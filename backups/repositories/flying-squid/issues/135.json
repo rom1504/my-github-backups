@@ -6,11 +6,11 @@
         {
             "body": "This means actually correcting calculatePhysics so that it matches up with the client...",
             "created_at": "2015-11-28T17:04:07Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/135#issuecomment-160320804",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/135#issuecomment-160320804",
             "id": 160320804,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/135",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/135",
             "updated_at": "2015-11-28T17:04:07Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/160320804",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/160320804",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "That's not needed. We set the position of entities anyway (and sent it to the client)  (which is close enough from where the client would have placed them)",
             "created_at": "2015-11-28T17:07:19Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/135#issuecomment-160321184",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/135#issuecomment-160321184",
             "id": 160321184,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/135",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/135",
             "updated_at": "2015-11-28T17:07:19Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/160321184",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/160321184",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "For many entities we do (mobs, vehicles I believe, etc). For block drops, however, we don't. If you do set the position (i've tried), it is very obvious that it happens. I don't see the kind of jerkiness in vanilla, however...",
             "created_at": "2015-11-28T17:09:03Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/135#issuecomment-160321284",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/135#issuecomment-160321284",
             "id": 160321284,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/135",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/135",
             "updated_at": "2015-11-28T17:09:30Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/160321284",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/160321284",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "Ah indeed, got to add ` || entity.type == 'object'` at https://github.com/mhsjlw/flying-squid/blob/master/src/lib/plugins/entities.js#L24 and I see the jerkiness.\r\nThat's definitely a bug that should be fixed.\r\n\r\nEdit: so, since the vanilla server doesn't send block drop position (maybe that should be checked ?), then there's no bug. (we just shouldn't send the position for block drops)\r\n\r\nWe could assume our physics is correct (even though there's a few problems), and merge based on that.",
             "created_at": "2015-11-28T17:35:19Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/135#issuecomment-160323266",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/135#issuecomment-160323266",
             "id": 160323266,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/135",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/135",
             "updated_at": "2015-11-28T18:09:27Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/160323266",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/160323266",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -117,7 +117,7 @@
         }
     ],
     "comments": 4,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/135/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/135/comments",
     "created_at": "2015-11-28T16:09:55Z",
     "event_data": [
         {
@@ -149,7 +149,7 @@
                 "color": "c7def8",
                 "name": "blocks"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/476840549"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/476840549"
         },
         {
             "actor": {
@@ -180,7 +180,7 @@
                 "color": "eb6420",
                 "name": "entities"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/476840550"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/476840550"
         },
         {
             "actor": {
@@ -210,7 +210,7 @@
             "milestone": {
                 "title": "0.4.0"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/483901262"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/483901262"
         },
         {
             "actor": {
@@ -240,30 +240,150 @@
             "milestone": {
                 "title": "0.4.0"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/483901263"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/483901263"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2016-01-14T01:29:01Z",
+            "event": "demilestoned",
+            "id": 514450736,
+            "milestone": {
+                "title": "0.4.0"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/514450736"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2016-01-14T01:29:01Z",
+            "event": "milestoned",
+            "id": 514450737,
+            "milestone": {
+                "title": "0.5.0"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/514450737"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2016-01-14T01:29:01Z",
+            "event": "milestoned",
+            "id": 514450739,
+            "milestone": {
+                "title": "0.5.0"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/514450739"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2016-01-14T01:29:01Z",
+            "event": "demilestoned",
+            "id": 514450740,
+            "milestone": {
+                "title": "0.4.0"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/514450740"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/135/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/issues/135",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/135/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/issues/135",
     "id": 119303941,
     "labels": [
         {
             "color": "c7def8",
             "name": "blocks",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/blocks"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/labels/blocks"
         },
         {
             "color": "eb6420",
             "name": "entities",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/entities"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/labels/entities"
         }
     ],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/135/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/135/labels{/name}",
     "locked": false,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 4,
-        "created_at": "2015-12-07T00:43:39Z",
+        "closed_issues": 0,
+        "created_at": "2016-01-14T01:28:48Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
             "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -285,21 +405,21 @@
         },
         "description": "",
         "due_on": null,
-        "html_url": "https://github.com/mhsjlw/flying-squid/milestones/0.4.0",
-        "id": 1446734,
-        "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/milestones/2/labels",
-        "number": 2,
+        "html_url": "https://github.com/PrismarineJS/flying-squid/milestones/Next",
+        "id": 1506062,
+        "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/milestones/3/labels",
+        "number": 3,
         "open_issues": 7,
         "state": "open",
-        "title": "0.4.0",
-        "updated_at": "2015-12-14T18:43:17Z",
-        "url": "https://api.github.com/repos/mhsjlw/flying-squid/milestones/2"
+        "title": "Next",
+        "updated_at": "2016-01-14T18:24:07Z",
+        "url": "https://api.github.com/repos/PrismarineJS/flying-squid/milestones/3"
     },
     "number": 135,
     "state": "open",
     "title": "Make spawned blocks stack",
-    "updated_at": "2015-12-07T00:45:10Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/135",
+    "updated_at": "2016-01-14T01:29:01Z",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/135",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

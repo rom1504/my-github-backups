@@ -6,11 +6,11 @@
         {
             "body": "Okay, so with the current architecture + #29 , you'd do this : \r\n* config file : disable placeBlock and digging plugins so people can edit the terrain\r\n* external plugin : /reset resend the \"empty\" world to the client\r\n* external plugin : store place block in a fifo structure\r\n* external plugin : /confirm does what you said\r\n* external plugin : implement the spectator on join\r\n\r\nI don't see any need for cancelling anything here. Maybe it would be interesting to emit a blockPlace event a little bit smarter than the raw block_place packet, but that's all.",
             "created_at": "2015-09-02T11:29:22Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/31#issuecomment-137037868",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/31#issuecomment-137037868",
             "id": 137037868,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/31",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/31",
             "updated_at": "2015-09-02T11:29:22Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/137037868",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/137037868",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "@demipixel Implementing spectator is as easy as storing them in a JSON file then using the `game_state_change` with a `reason` of 3 (gamemode change) then `gameMode: 3`",
             "created_at": "2015-09-02T12:31:14Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/31#issuecomment-137058015",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/31#issuecomment-137058015",
             "id": 137058015,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/31",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/31",
             "updated_at": "2015-09-02T12:32:26Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/137058015",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/137058015",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/8526903?v=3",
                 "events_url": "https://api.github.com/users/mhsjlw/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "That's not how you'd do it here though, since it needs to be dynamic ;) (but it's not harder than that yeah)",
             "created_at": "2015-09-02T12:53:33Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/31#issuecomment-137063860",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/31#issuecomment-137063860",
             "id": 137063860,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/31",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/31",
             "updated_at": "2015-09-02T12:53:56Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/137063860",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/137063860",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "@rom1504 Yeah, we'd basically need to completely overwrite the blockPlace because we never want to save it to the world unless they do /confirm\r\n\r\nAnd /reset doesn't send an empty world but the original world (just to make sure we're clear)\r\n\r\nAlso, does it need to be 4 external plugins? That seems like it would be difficult to organize, why couldn't it be one?",
             "created_at": "2015-09-02T15:04:17Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/31#issuecomment-137115890",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/31#issuecomment-137115890",
             "id": 137115890,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/31",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/31",
             "updated_at": "2015-09-02T15:04:17Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/137115890",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/137115890",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "No I meant 1 external plugin yeah, not 4, that was just 4 things the external plugin need to do.",
             "created_at": "2015-09-02T15:07:18Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/31#issuecomment-137117314",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/31#issuecomment-137117314",
             "id": 137117314,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/31",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/31",
             "updated_at": "2015-09-02T15:07:18Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/137117314",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/137117314",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "Would it be good to make some sudo code in order to better demonstrate plugins? (Others could make them as well so we can compare how plugins would look)",
             "created_at": "2015-11-06T09:09:55Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/31#issuecomment-154350854",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/31#issuecomment-154350854",
             "id": 154350854,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/31",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/31",
             "updated_at": "2015-11-06T09:09:55Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/154350854",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/154350854",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -174,11 +174,11 @@
         {
             "body": "what do you mean by \"sudo code\" ?",
             "created_at": "2015-11-06T10:17:29Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/31#issuecomment-154371186",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/31#issuecomment-154371186",
             "id": 154371186,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/31",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/31",
             "updated_at": "2015-11-06T10:17:29Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/154371186",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/154371186",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -202,11 +202,11 @@
         {
             "body": "He means pseudocode, it is example code that expresses your ideas but doesn't actually work when you attempt to compile it, @rom1504 \r\n\r\nGoogle definition, \"Pseudocode is an informal high-level description of the operating principle of a computer program or other algorithm. It uses the structural conventions of a programming language, but is intended for human reading rather than machine reading.\"",
             "created_at": "2015-11-06T11:47:21Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/31#issuecomment-154391436",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/31#issuecomment-154391436",
             "id": 154391436,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/31",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/31",
             "updated_at": "2015-11-06T11:47:25Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/154391436",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/154391436",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/8526903?v=3",
                 "events_url": "https://api.github.com/users/mhsjlw/events{/privacy}",
@@ -230,11 +230,11 @@
         {
             "body": "ah okay. Yeah well why not demipixel, but I'm not sure if writing it in pseudocode is easier than in js, but feel free to.",
             "created_at": "2015-11-06T11:49:32Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/31#issuecomment-154391748",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/31#issuecomment-154391748",
             "id": 154391748,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/31",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/31",
             "updated_at": "2015-11-06T11:49:32Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/154391748",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/154391748",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -258,11 +258,11 @@
         {
             "body": "Well I'll just write in js that wouldn't run\r\n\r\nAnd yes, sudo was a horrible mispelling, I use that word much more than pseudo",
             "created_at": "2015-11-06T15:32:25Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/31#issuecomment-154439188",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/31#issuecomment-154439188",
             "id": 154439188,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/31",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/31",
             "updated_at": "2015-11-06T15:55:23Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/154439188",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/154439188",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -286,11 +286,11 @@
         {
             "body": "How it would work:\r\n\r\nhttps://gist.github.com/demipixel/301537f68b0aeec5eb83\r\n\r\nThis is more for \"how plugins would work in general\".",
             "created_at": "2015-11-06T23:04:44Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/31#issuecomment-154570828",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/31#issuecomment-154570828",
             "id": 154570828,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/31",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/31",
             "updated_at": "2015-11-06T23:04:44Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/154570828",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/154570828",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -314,11 +314,11 @@
         {
             "body": "@demipixel put your plugin in a repo and we can close this ;)",
             "created_at": "2015-11-22T20:22:03Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/31#issuecomment-158794971",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/31#issuecomment-158794971",
             "id": 158794971,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/31",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/31",
             "updated_at": "2015-11-22T20:22:03Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/158794971",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/158794971",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -342,11 +342,11 @@
         {
             "body": "http://mammal.io/articles/using-es6-today/ is a simple way to add es6 (without having to put that whole gulp thing). Might be useful for plugins, I'll try to set it up for flying-squid-irc to show it's not complicated.\r\n\r\nflying-squid-irc is es6 , very little changes https://github.com/rom1504/flying-squid-irc",
             "created_at": "2015-11-25T21:51:00Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/31#issuecomment-159739094",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/31#issuecomment-159739094",
             "id": 159739094,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/31",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/31",
             "updated_at": "2015-11-25T22:29:18Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/159739094",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/159739094",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -370,11 +370,11 @@
         {
             "body": "This should be closed. The project isn't complete, but the issue related to completing the project is.",
             "created_at": "2015-12-10T07:22:41Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/31#issuecomment-163521906",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/31#issuecomment-163521906",
             "id": 163521906,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/31",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/31",
             "updated_at": "2015-12-10T07:22:41Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/163521906",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/163521906",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -397,7 +397,7 @@
         }
     ],
     "comments": 14,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/31/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/31/comments",
     "created_at": "2015-09-01T19:42:33Z",
     "event_data": [
         {
@@ -429,7 +429,7 @@
                 "color": "fef2c0",
                 "name": "plugins"
             },
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/398667323"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/398667323"
         },
         {
             "actor": {
@@ -456,7 +456,7 @@
             "created_at": "2015-09-02T12:31:14Z",
             "event": "mentioned",
             "id": 398872410,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/398872410"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/398872410"
         },
         {
             "actor": {
@@ -483,7 +483,7 @@
             "created_at": "2015-09-02T12:31:14Z",
             "event": "subscribed",
             "id": 398872411,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/398872411"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/398872411"
         },
         {
             "actor": {
@@ -510,7 +510,7 @@
             "created_at": "2015-09-02T12:31:42Z",
             "event": "mentioned",
             "id": 398872810,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/398872810"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/398872810"
         },
         {
             "actor": {
@@ -537,7 +537,7 @@
             "created_at": "2015-09-02T12:31:42Z",
             "event": "subscribed",
             "id": 398872811,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/398872811"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/398872811"
         },
         {
             "actor": {
@@ -564,7 +564,7 @@
             "created_at": "2015-09-02T15:04:17Z",
             "event": "mentioned",
             "id": 399042932,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/399042932"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/399042932"
         },
         {
             "actor": {
@@ -591,7 +591,7 @@
             "created_at": "2015-09-02T15:04:17Z",
             "event": "subscribed",
             "id": 399042933,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/399042933"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/399042933"
         },
         {
             "actor": {
@@ -618,7 +618,7 @@
             "created_at": "2015-11-06T11:47:21Z",
             "event": "mentioned",
             "id": 456837546,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/456837546"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/456837546"
         },
         {
             "actor": {
@@ -645,7 +645,7 @@
             "created_at": "2015-11-06T11:47:21Z",
             "event": "subscribed",
             "id": 456837547,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/456837547"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/456837547"
         },
         {
             "actor": {
@@ -672,7 +672,7 @@
             "created_at": "2015-11-22T20:22:03Z",
             "event": "mentioned",
             "id": 471571150,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/471571150"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/471571150"
         },
         {
             "actor": {
@@ -699,7 +699,7 @@
             "created_at": "2015-11-22T20:22:03Z",
             "event": "subscribed",
             "id": 471571151,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/471571151"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/471571151"
         },
         {
             "actor": {
@@ -726,27 +726,27 @@
             "created_at": "2015-12-10T12:38:11Z",
             "event": "closed",
             "id": 488114679,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/488114679"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/488114679"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/31/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/issues/31",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/31/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/issues/31",
     "id": 104339366,
     "labels": [
         {
             "color": "fef2c0",
             "name": "plugins",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/labels/plugins"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/labels/plugins"
         }
     ],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/31/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/31/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 31,
     "state": "closed",
     "title": "Reddit Builds a House",
     "updated_at": "2015-12-10T12:38:11Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/31",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/31",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
         "events_url": "https://api.github.com/users/demipixel/events{/privacy}",

@@ -6,11 +6,11 @@
         {
             "body": "The only way not checking would be a problem is if the remove entity effect comes before the entity effect packet.\r\nThat can come from out-of-order deserialization and that's a bug we just fixed in a (not released yet) node-minecraft-protocol change.\r\n\r\nLet's see if that's the problem before adding that check (that is a bit a hack)",
             "created_at": "2015-05-23T01:45:52Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/291#issuecomment-104813954",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/291#issuecomment-104813954",
             "id": 104813954,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/291",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/291",
             "updated_at": "2015-05-23T01:45:52Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/104813954",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/104813954",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "That's exactly what happens in my case, the remove entity effect packet comes before the entity effect packet.\r\n\r\nI tried again using the master branch of node-minecraft-protocol instead of the 0.13.4 release but the issue persists.\r\n",
             "created_at": "2015-05-23T05:16:46Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/291#issuecomment-104846261",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/291#issuecomment-104846261",
             "id": 104846261,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/291",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/291",
             "updated_at": "2015-05-23T05:16:46Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/104846261",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/104846261",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
                 "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "TBH, this should be merged anyway as we shouldn't crash if the server tries to remove an effect we didn't have. It's similar to scoreboard handling : notchian client used to crash if the server tried to remove a non-existing scoreboard entry. Instead of crashing, it should either ignore it, or gracefully error out (emit an error event), not crash in an uncatchable way :)\r\n\r\nIt doesn't fix the underlying issue of out-of-order packets though. ",
             "created_at": "2015-05-23T10:17:16Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/291#issuecomment-104879063",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/291#issuecomment-104879063",
             "id": 104879063,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/291",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/291",
             "updated_at": "2015-05-23T10:17:45Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/104879063",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/104879063",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",
                 "events_url": "https://api.github.com/users/roblabla/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "Ok, if that still happen with node-minecraft-protocol fix, it's possible the out-of-order problem actually from from spigot.\r\n\r\nSo ok I agree this should be checked in mineflayer. The problem with how it is fixed in this PR is this is going to emit the event entityEffectEnd with an undefined effect.\r\nShould we still emit the event but with a { id:packet.effectId } as effect (and no amplifier and duration) or should we not emit that event at all ?",
             "created_at": "2015-05-23T13:19:04Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/291#issuecomment-104894598",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/291#issuecomment-104894598",
             "id": 104894598,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/291",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/291",
             "updated_at": "2015-05-23T13:19:04Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/104894598",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/104894598",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -118,11 +118,11 @@
         {
             "body": "I didn't want to ignore the packet completely because I thought that some server mods with custom effects might send it, either accidentally or on purpose, and the user should know about it.\r\n\r\nEmitting the event with an undefined effect meant something like \"the server removed an entity effect but we don't know that effect\" but I see that it might be a bad idea.\r\n\r\nI pushed another commit based on @rom1504 's suggestion, now if the server removes an unknown effect the bot emits the event with a special effect object with both amplifier and duration set to -1\r\n\r\nIt might not be the best solution but it avoids crashes and doesn't break existing code that tries to access the effect's properties.\r\n",
             "created_at": "2015-05-23T20:14:37Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/291#issuecomment-104940716",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/291#issuecomment-104940716",
             "id": 104940716,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/291",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/291",
             "updated_at": "2015-05-23T20:14:37Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/104940716",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/104940716",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
                 "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",
@@ -146,11 +146,11 @@
         {
             "body": "Yeah that's a good enough solution.\r\nThanks for the PR !",
             "created_at": "2015-05-23T21:03:05Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/pull/291#issuecomment-104944676",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/pull/291#issuecomment-104944676",
             "id": 104944676,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/291",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/291",
             "updated_at": "2015-05-23T21:03:05Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/104944676",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/104944676",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -173,7 +173,7 @@
         }
     ],
     "comments": 6,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/291/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/291/comments",
     "created_at": "2015-05-23T00:20:11Z",
     "event_data": [
         {
@@ -201,7 +201,7 @@
             "created_at": "2015-05-23T20:14:37Z",
             "event": "mentioned",
             "id": 312413219,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/312413219"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/312413219"
         },
         {
             "actor": {
@@ -228,7 +228,7 @@
             "created_at": "2015-05-23T20:14:37Z",
             "event": "subscribed",
             "id": 312413220,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/312413220"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/312413220"
         },
         {
             "actor": {
@@ -251,11 +251,11 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "44a055e35c7f239b77017af73f94da3e3058506a",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/44a055e35c7f239b77017af73f94da3e3058506a",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/44a055e35c7f239b77017af73f94da3e3058506a",
             "created_at": "2015-05-23T21:03:09Z",
             "event": "referenced",
             "id": 312421222,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/312421222"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/312421222"
         },
         {
             "actor": {
@@ -278,11 +278,11 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "44a055e35c7f239b77017af73f94da3e3058506a",
-            "commit_url": "https://api.github.com/repos/andrewrk/mineflayer/commits/44a055e35c7f239b77017af73f94da3e3058506a",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/mineflayer/commits/44a055e35c7f239b77017af73f94da3e3058506a",
             "created_at": "2015-05-23T21:03:09Z",
             "event": "merged",
             "id": 312421223,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/312421223"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/312421223"
         },
         {
             "actor": {
@@ -309,7 +309,7 @@
             "created_at": "2015-05-23T21:03:09Z",
             "event": "closed",
             "id": 312421225,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/312421225"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/312421225"
         },
         {
             "actor": {
@@ -336,27 +336,27 @@
             "created_at": "2015-05-23T23:53:12Z",
             "event": "head_ref_deleted",
             "id": 312445612,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/312445612"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/312445612"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/291/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/pull/291",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/291/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/pull/291",
     "id": 79665593,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/291/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/291/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 291,
     "pull_request": {
-        "diff_url": "https://github.com/andrewrk/mineflayer/pull/291.diff",
-        "html_url": "https://github.com/andrewrk/mineflayer/pull/291",
-        "patch_url": "https://github.com/andrewrk/mineflayer/pull/291.patch",
-        "url": "https://api.github.com/repos/andrewrk/mineflayer/pulls/291"
+        "diff_url": "https://github.com/PrismarineJS/mineflayer/pull/291.diff",
+        "html_url": "https://github.com/PrismarineJS/mineflayer/pull/291",
+        "patch_url": "https://github.com/PrismarineJS/mineflayer/pull/291.patch",
+        "url": "https://api.github.com/repos/PrismarineJS/mineflayer/pulls/291"
     },
     "state": "closed",
     "title": "Check effect exists before delete",
     "updated_at": "2015-05-23T23:53:12Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/291",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/291",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/748972?v=3",
         "events_url": "https://api.github.com/users/Pietro210/events{/privacy}",

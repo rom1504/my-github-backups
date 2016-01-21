@@ -6,11 +6,11 @@
         {
             "body": "I think I asked about this once, isn't the problem that the client would have to \"guess\" when it's attacked, since all the server tells you is health lost?",
             "created_at": "2011-07-18T15:36:52Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/22#issuecomment-1596233",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/22#issuecomment-1596233",
             "id": 1596233,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/22",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/22",
             "updated_at": "2011-07-18T15:36:52Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/1596233",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/1596233",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/412436?v=3",
                 "events_url": "https://api.github.com/users/Darthfett/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "This is how I would do it. There is an animation event that happens when someone takes a swing at an entity, and there is an animation event that happens when an entity takes damage. When we get the animation event for taking a swing, and then very shortly after, the animation event for taking damage from an entity that is within attack distance, we can conclude that the first entity attacked the second. If it is ambiguous (two things attacking two things close to each other), we can use the direction that the attacker is pointing to disambiguate.\r\n\r\nThis is very much like how the logic works in our brains when we play the game, actually.",
             "created_at": "2011-07-18T20:37:55Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/22#issuecomment-1602212",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/22#issuecomment-1602212",
             "id": 1602212,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/22",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/22",
             "updated_at": "2011-07-18T20:37:55Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/1602212",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/1602212",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "I hope you can create a handler for this event. It would be very helpful.",
             "created_at": "2011-07-18T21:40:36Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/22#issuecomment-1602702",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/22#issuecomment-1602702",
             "id": 1602702,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/22",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/22",
             "updated_at": "2011-07-18T21:40:36Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/1602702",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/1602702",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/521193?v=3",
                 "events_url": "https://api.github.com/users/Cr0s/events{/privacy}",
@@ -90,11 +90,11 @@
         {
             "body": "irrelevent after switch to node.js",
             "created_at": "2013-01-05T05:49:53Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/22#issuecomment-11910513",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/22#issuecomment-11910513",
             "id": 11910513,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/22",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/22",
             "updated_at": "2013-01-05T05:49:53Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/11910513",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/11910513",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
                 "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",
@@ -117,7 +117,7 @@
         }
     ],
     "comments": 4,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/22/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/22/comments",
     "created_at": "2011-07-17T18:47:17Z",
     "event_data": [
         {
@@ -145,7 +145,7 @@
             "created_at": "2011-07-17T18:47:17Z",
             "event": "subscribed",
             "id": 1838472,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1838472"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1838472"
         },
         {
             "actor": {
@@ -172,7 +172,7 @@
             "created_at": "2011-07-18T15:36:52Z",
             "event": "subscribed",
             "id": 1853534,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1853534"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1853534"
         },
         {
             "actor": {
@@ -199,7 +199,7 @@
             "created_at": "2011-07-18T21:40:36Z",
             "event": "subscribed",
             "id": 1864206,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/1864206"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/1864206"
         },
         {
             "actor": {
@@ -226,27 +226,27 @@
             "created_at": "2013-01-05T05:49:53Z",
             "event": "closed",
             "id": 33493317,
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/33493317"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/33493317"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/22/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/22",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/22/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/22",
     "id": 1238311,
     "labels": [
         {
             "color": "444444",
             "name": "new feature",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/new%20feature"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/new%20feature"
         }
     ],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/22/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/22/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 22,
     "state": "closed",
     "title": "onEntityAttacked event which is called when one entity is attacking another",
     "updated_at": "2013-01-05T05:49:53Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/22",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/22",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/106511?v=3",
         "events_url": "https://api.github.com/users/andrewrk/events{/privacy}",

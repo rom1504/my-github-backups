@@ -6,11 +6,11 @@
         {
             "body": "Also without that change https://github.com/andrewrk/mineflayer/commit/a02db44db3e7b8c092a0bfdbace35515bd7f6039#diff-662f0dd08955efb571616b363da8fc40R278 somehow useChests.js still work, try and figure out why (it should fail without that change) ",
             "created_at": "2015-04-11T02:30:12Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/265#issuecomment-91745052",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/265#issuecomment-91745052",
             "id": 91745052,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/265",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/265",
             "updated_at": "2015-04-11T02:30:12Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/91745052",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/91745052",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "I really can't figure out what's different between useChests.js and chests.js so that useChests.js doesn't care about the slotcount. I'm going to stop looking for that for now since the problem about slotCount for large chest is fixed.",
             "created_at": "2015-04-11T16:06:31Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/265#issuecomment-91871940",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/265#issuecomment-91871940",
             "id": 91871940,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/265",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/265",
             "updated_at": "2015-04-11T16:06:31Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/91871940",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/91871940",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "> 13:51 < Gjum> I noticed that for blocks *without* a persistent inventory (crafting bench, anvil contrary to chest, furnace), the server sends `Number Of Slots = 0` slots when opening the window, maybe that has to do with andrewrk/mineflayer#265?\r\n\r\nCheck that",
             "created_at": "2015-04-21T12:04:18Z",
-            "html_url": "https://github.com/andrewrk/mineflayer/issues/265#issuecomment-94762248",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/265#issuecomment-94762248",
             "id": 94762248,
-            "issue_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/265",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/265",
             "updated_at": "2015-04-21T12:04:18Z",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/comments/94762248",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/94762248",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -89,7 +89,7 @@
         }
     ],
     "comments": 3,
-    "comments_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/265/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/265/comments",
     "created_at": "2015-04-11T02:25:44Z",
     "event_data": [
         {
@@ -121,27 +121,27 @@
                 "color": "c7def8",
                 "name": "inventory"
             },
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/events/278627371"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/278627371"
         }
     ],
-    "events_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/265/events",
-    "html_url": "https://github.com/andrewrk/mineflayer/issues/265",
+    "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/265/events",
+    "html_url": "https://github.com/PrismarineJS/mineflayer/issues/265",
     "id": 67721984,
     "labels": [
         {
             "color": "c7def8",
             "name": "inventory",
-            "url": "https://api.github.com/repos/andrewrk/mineflayer/labels/inventory"
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/labels/inventory"
         }
     ],
-    "labels_url": "https://api.github.com/repos/andrewrk/mineflayer/issues/265/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/265/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 265,
     "state": "open",
     "title": "Are we handling slotCount correctly in windows.js ?",
     "updated_at": "2015-04-21T12:04:18Z",
-    "url": "https://api.github.com/repos/andrewrk/mineflayer/issues/265",
+    "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/265",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

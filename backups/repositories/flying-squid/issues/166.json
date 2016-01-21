@@ -6,11 +6,11 @@
         {
             "body": "see https://github.com/PrismarineJS/prismarine-world/issues/7",
             "created_at": "2015-12-14T11:50:01Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/166#issuecomment-164418085",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/166#issuecomment-164418085",
             "id": 164418085,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/166",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/166",
             "updated_at": "2015-12-14T11:50:01Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/164418085",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/164418085",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "We need to save:\r\n- Inventories\r\n- Worlds\r\n- Entity NBT data\r\n- Plugin data\r\n  - Could be things like any of the above OR server/world data (server data being options, player data being their plugin attack level, coins they have, etc)",
             "created_at": "2015-12-14T17:17:22Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/issues/166#issuecomment-164499624",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/166#issuecomment-164499624",
             "id": 164499624,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/166",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/166",
             "updated_at": "2015-12-14T17:17:22Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/164499624",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/164499624",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/7506359?v=3",
                 "events_url": "https://api.github.com/users/demipixel/events{/privacy}",
@@ -61,7 +61,7 @@
         }
     ],
     "comments": 2,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/166/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/166/comments",
     "created_at": "2015-12-14T11:46:13Z",
     "event_data": [
         {
@@ -89,7 +89,7 @@
             "created_at": "2015-12-14T11:46:13Z",
             "event": "mentioned",
             "id": 490883790,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/490883790"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/490883790"
         },
         {
             "actor": {
@@ -116,21 +116,58 @@
             "created_at": "2015-12-14T11:46:13Z",
             "event": "subscribed",
             "id": 490883791,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/490883791"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/490883791"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2015-12-18T11:12:57Z",
+            "event": "labeled",
+            "id": 495725412,
+            "label": {
+                "color": "1a94c6",
+                "name": "world"
+            },
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/495725412"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/166/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/issues/166",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/166/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/issues/166",
     "id": 122027134,
-    "labels": [],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/166/labels{/name}",
+    "labels": [
+        {
+            "color": "1a94c6",
+            "name": "world",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/labels/world"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/166/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 166,
     "state": "open",
     "title": "loading/saving",
-    "updated_at": "2015-12-14T17:17:22Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/166",
+    "updated_at": "2015-12-18T11:12:57Z",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/166",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
         "events_url": "https://api.github.com/users/rom1504/events{/privacy}",

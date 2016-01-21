@@ -6,11 +6,11 @@
         {
             "body": "we have a player.sendPosition() function https://github.com/mhsjlw/flying-squid/blob/b5d22e57f93993325d8c96a28ca1ee6ab8a70173/src/lib/plugins/updatePositions.js#L90\r\n\r\nSo it would be better to change the player position (`player.position = new Vec3(x,y,z)` and then call it `player.sendPosition()`)",
             "created_at": "2015-12-06T02:31:20Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/143#issuecomment-162264559",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/143#issuecomment-162264559",
             "id": 162264559,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/143",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/143",
             "updated_at": "2015-12-06T02:40:52Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162264559",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162264559",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -34,11 +34,11 @@
         {
             "body": "Yes, it's planned to abstract it away https://github.com/mhsjlw/flying-squid/issues/40\r\n\r\nAnd we should probably document the reason why 2 position system are used, I'm tired of explaining it again and again and again.",
             "created_at": "2015-12-06T03:41:33Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/143#issuecomment-162268160",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/143#issuecomment-162268160",
             "id": 162268160,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/143",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/143",
             "updated_at": "2015-12-06T03:41:33Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162268160",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162268160",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -62,11 +62,11 @@
         {
             "body": "I merged this btw, thanks @azastrael !",
             "created_at": "2015-12-06T03:55:16Z",
-            "html_url": "https://github.com/mhsjlw/flying-squid/pull/143#issuecomment-162268888",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/pull/143#issuecomment-162268888",
             "id": 162268888,
-            "issue_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/143",
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/143",
             "updated_at": "2015-12-06T03:55:16Z",
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/comments/162268888",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/162268888",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
                 "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -89,7 +89,7 @@
         }
     ],
     "comments": 3,
-    "comments_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/143/comments",
+    "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/143/comments",
     "created_at": "2015-12-06T02:25:33Z",
     "event_data": [
         {
@@ -113,11 +113,11 @@
                 "url": "https://api.github.com/users/rom1504"
             },
             "commit_id": "bb75c6c1a09e9799e7af2f196c4a5a7c3927acf0",
-            "commit_url": "https://api.github.com/repos/mhsjlw/flying-squid/commits/bb75c6c1a09e9799e7af2f196c4a5a7c3927acf0",
+            "commit_url": "https://api.github.com/repos/PrismarineJS/flying-squid/commits/bb75c6c1a09e9799e7af2f196c4a5a7c3927acf0",
             "created_at": "2015-12-06T03:40:19Z",
             "event": "merged",
             "id": 483604198,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/483604198"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/483604198"
         },
         {
             "actor": {
@@ -144,7 +144,7 @@
             "created_at": "2015-12-06T03:40:19Z",
             "event": "closed",
             "id": 483604199,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/483604199"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/483604199"
         },
         {
             "actor": {
@@ -171,7 +171,7 @@
             "created_at": "2015-12-06T03:55:16Z",
             "event": "mentioned",
             "id": 483606066,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/483606066"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/483606066"
         },
         {
             "actor": {
@@ -198,27 +198,27 @@
             "created_at": "2015-12-06T03:55:16Z",
             "event": "subscribed",
             "id": 483606067,
-            "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/events/483606067"
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/events/483606067"
         }
     ],
-    "events_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/143/events",
-    "html_url": "https://github.com/mhsjlw/flying-squid/pull/143",
+    "events_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/143/events",
+    "html_url": "https://github.com/PrismarineJS/flying-squid/pull/143",
     "id": 120602762,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/143/labels{/name}",
+    "labels_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/143/labels{/name}",
     "locked": false,
     "milestone": null,
     "number": 143,
     "pull_request": {
-        "diff_url": "https://github.com/mhsjlw/flying-squid/pull/143.diff",
-        "html_url": "https://github.com/mhsjlw/flying-squid/pull/143",
-        "patch_url": "https://github.com/mhsjlw/flying-squid/pull/143.patch",
-        "url": "https://api.github.com/repos/mhsjlw/flying-squid/pulls/143"
+        "diff_url": "https://github.com/PrismarineJS/flying-squid/pull/143.diff",
+        "html_url": "https://github.com/PrismarineJS/flying-squid/pull/143",
+        "patch_url": "https://github.com/PrismarineJS/flying-squid/pull/143.patch",
+        "url": "https://api.github.com/repos/PrismarineJS/flying-squid/pulls/143"
     },
     "state": "closed",
     "title": "Add teleport ( aka. tp ) command.",
     "updated_at": "2015-12-06T03:55:16Z",
-    "url": "https://api.github.com/repos/mhsjlw/flying-squid/issues/143",
+    "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/143",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/8067794?v=3",
         "events_url": "https://api.github.com/users/azastrael/events{/privacy}",

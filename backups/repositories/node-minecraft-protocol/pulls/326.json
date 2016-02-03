@@ -22,7 +22,7 @@
             "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/326"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/statuses/70f1883a0c44a7b73c024939a1d7dc8162f57158"
+            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/statuses/14740447ddcd6652638a7c06fa2f957255c2f221"
         }
     },
     "assignee": null,
@@ -99,7 +99,7 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls{/number}",
-            "pushed_at": "2016-02-02T08:29:03Z",
+            "pushed_at": "2016-02-03T06:21:54Z",
             "releases_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/releases{/id}",
             "size": 1117,
             "ssh_url": "git@github.com:PrismarineJS/node-minecraft-protocol.git",
@@ -117,7 +117,7 @@
             "watchers": 205,
             "watchers_count": 205
         },
-        "sha": "a6a673a8c80da66cd02cbcd0bd8d9da2c65cce4e",
+        "sha": "b0061cdeb72130f1beab6697859ef7317aefcc02",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/11053411?v=3",
             "events_url": "https://api.github.com/users/PrismarineJS/events{/privacy}",
@@ -154,7 +154,7 @@
                 }
             },
             "body": "(as I was saying in gitter), it might make more sense to use a big switch+ a mapper, like in https://github.com/PrismarineJS/prismarine-nbt/blob/master/nbt.json#L48 (or https://github.com/PrismarineJS/node-minecraft-protocol/blob/master/src/transforms/serializer.js#L21 )\r\n* mapper makes it possible for user to use the names (for example ServerHello instead of 0)\r\n* the big switch probably makes more sense because fields are distinct between each kind of \"packet\" here",
-            "commit_id": "70f1883a0c44a7b73c024939a1d7dc8162f57158",
+            "commit_id": "14740447ddcd6652638a7c06fa2f957255c2f221",
             "created_at": "2016-01-23T23:37:26Z",
             "diff_hunk": "@@ -0,0 +1,191 @@\n+var mc = require('minecraft-protocol');\n+var ProtoDef = require('protodef').ProtoDef;\n+\n+if(process.argv.length < 4 || process.argv.length > 6) {\n+  console.log(\"Usage : node echo.js <host> <port> [<name>] [<password>]\");\n+  process.exit(1);\n+}\n+\n+var client = mc.createClient({\n+  forge: true,\n+  host: process.argv[2],\n+  port: parseInt(process.argv[3]),\n+  username: process.argv[4] ? process.argv[4] : \"echo\",\n+  password: process.argv[5]\n+});\n+\n+client.on('connect', function() {\n+  console.info('connected');\n+});\n+client.on('disconnect', function(packet) {\n+  console.log('disconnected: '+ packet.reason);\n+});\n+client.on('chat', function(packet) {\n+  var jsonMsg = JSON.parse(packet.message);\n+  if(jsonMsg.translate == 'chat.type.announcement' || jsonMsg.translate == 'chat.type.text') {\n+    var username = jsonMsg.with[0].text;\n+    var msg = jsonMsg.with[1];\n+    if(username === client.username) return;\n+    client.write('chat', {message: msg});\n+  }\n+});\n+\n+var proto = new ProtoDef();\n+// copied from ../../dist/transforms/serializer.js TODO: refactor\n+proto.addType(\"string\", [\"pstring\", {\n+      countType: \"varint\"\n+    }]);\n+\n+\n+// http://wiki.vg/Minecraft_Forge_Handshake\n+proto.addType('FML|HS',\n+  [\n+    'container',\n+    [\n+      {\n+        \"name\": \"discriminator\",\n+        \"type\": \"byte\"\n+      },\n+\n+      // ServerHello",
             "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/326#discussion_r50627388",
@@ -164,7 +164,7 @@
             "path": "examples/client_forge/client_forge.js",
             "position": null,
             "pull_request_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/326",
-            "updated_at": "2016-01-31T19:17:40Z",
+            "updated_at": "2016-02-03T06:21:53Z",
             "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/50627388",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
@@ -199,7 +199,7 @@
                 }
             },
             "body": "agreed, that's what I wanted to do but couldn't figure out how, to do: investigate those references",
-            "commit_id": "70f1883a0c44a7b73c024939a1d7dc8162f57158",
+            "commit_id": "14740447ddcd6652638a7c06fa2f957255c2f221",
             "created_at": "2016-01-23T23:55:36Z",
             "diff_hunk": "@@ -0,0 +1,191 @@\n+var mc = require('minecraft-protocol');\n+var ProtoDef = require('protodef').ProtoDef;\n+\n+if(process.argv.length < 4 || process.argv.length > 6) {\n+  console.log(\"Usage : node echo.js <host> <port> [<name>] [<password>]\");\n+  process.exit(1);\n+}\n+\n+var client = mc.createClient({\n+  forge: true,\n+  host: process.argv[2],\n+  port: parseInt(process.argv[3]),\n+  username: process.argv[4] ? process.argv[4] : \"echo\",\n+  password: process.argv[5]\n+});\n+\n+client.on('connect', function() {\n+  console.info('connected');\n+});\n+client.on('disconnect', function(packet) {\n+  console.log('disconnected: '+ packet.reason);\n+});\n+client.on('chat', function(packet) {\n+  var jsonMsg = JSON.parse(packet.message);\n+  if(jsonMsg.translate == 'chat.type.announcement' || jsonMsg.translate == 'chat.type.text') {\n+    var username = jsonMsg.with[0].text;\n+    var msg = jsonMsg.with[1];\n+    if(username === client.username) return;\n+    client.write('chat', {message: msg});\n+  }\n+});\n+\n+var proto = new ProtoDef();\n+// copied from ../../dist/transforms/serializer.js TODO: refactor\n+proto.addType(\"string\", [\"pstring\", {\n+      countType: \"varint\"\n+    }]);\n+\n+\n+// http://wiki.vg/Minecraft_Forge_Handshake\n+proto.addType('FML|HS',\n+  [\n+    'container',\n+    [\n+      {\n+        \"name\": \"discriminator\",\n+        \"type\": \"byte\"\n+      },\n+\n+      // ServerHello",
             "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/326#discussion_r50627556",
@@ -209,7 +209,7 @@
             "path": "examples/client_forge/client_forge.js",
             "position": null,
             "pull_request_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/326",
-            "updated_at": "2016-01-31T19:17:40Z",
+            "updated_at": "2016-02-03T06:21:53Z",
             "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments/50627556",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
@@ -3178,6 +3178,296 @@
             ],
             "sha": "70f1883a0c44a7b73c024939a1d7dc8162f57158",
             "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/70f1883a0c44a7b73c024939a1d7dc8162f57158"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
+                "events_url": "https://api.github.com/users/deathcap/events{/privacy}",
+                "followers_url": "https://api.github.com/users/deathcap/followers",
+                "following_url": "https://api.github.com/users/deathcap/following{/other_user}",
+                "gists_url": "https://api.github.com/users/deathcap/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/deathcap",
+                "id": 5897956,
+                "login": "deathcap",
+                "organizations_url": "https://api.github.com/users/deathcap/orgs",
+                "received_events_url": "https://api.github.com/users/deathcap/received_events",
+                "repos_url": "https://api.github.com/users/deathcap/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/deathcap/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/deathcap/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/deathcap"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/09ecdcfcffe408908678ac8e19bca051ad8396d6/comments",
+            "commit": {
+                "author": {
+                    "date": "2016-02-03T05:58:00Z",
+                    "email": "deathcap@gmx.co.uk",
+                    "name": "deathcap"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2016-02-03T05:58:00Z",
+                    "email": "deathcap@gmx.co.uk",
+                    "name": "deathcap"
+                },
+                "message": "Merge branch 'master' into forge",
+                "tree": {
+                    "sha": "96822684d158b2fd4596a76135d6b589f2926862",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/96822684d158b2fd4596a76135d6b589f2926862"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/09ecdcfcffe408908678ac8e19bca051ad8396d6"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
+                "events_url": "https://api.github.com/users/deathcap/events{/privacy}",
+                "followers_url": "https://api.github.com/users/deathcap/followers",
+                "following_url": "https://api.github.com/users/deathcap/following{/other_user}",
+                "gists_url": "https://api.github.com/users/deathcap/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/deathcap",
+                "id": 5897956,
+                "login": "deathcap",
+                "organizations_url": "https://api.github.com/users/deathcap/orgs",
+                "received_events_url": "https://api.github.com/users/deathcap/received_events",
+                "repos_url": "https://api.github.com/users/deathcap/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/deathcap/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/deathcap/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/deathcap"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/09ecdcfcffe408908678ac8e19bca051ad8396d6",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/70f1883a0c44a7b73c024939a1d7dc8162f57158",
+                    "sha": "70f1883a0c44a7b73c024939a1d7dc8162f57158",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/70f1883a0c44a7b73c024939a1d7dc8162f57158"
+                },
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/e9d959e219c23840fd439e5fdc5645b4289268e3",
+                    "sha": "e9d959e219c23840fd439e5fdc5645b4289268e3",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/e9d959e219c23840fd439e5fdc5645b4289268e3"
+                }
+            ],
+            "sha": "09ecdcfcffe408908678ac8e19bca051ad8396d6",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/09ecdcfcffe408908678ac8e19bca051ad8396d6"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
+                "events_url": "https://api.github.com/users/deathcap/events{/privacy}",
+                "followers_url": "https://api.github.com/users/deathcap/followers",
+                "following_url": "https://api.github.com/users/deathcap/following{/other_user}",
+                "gists_url": "https://api.github.com/users/deathcap/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/deathcap",
+                "id": 5897956,
+                "login": "deathcap",
+                "organizations_url": "https://api.github.com/users/deathcap/orgs",
+                "received_events_url": "https://api.github.com/users/deathcap/received_events",
+                "repos_url": "https://api.github.com/users/deathcap/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/deathcap/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/deathcap/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/deathcap"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/446870726840c6d98d258d797d0cff0c22f5f779/comments",
+            "commit": {
+                "author": {
+                    "date": "2016-02-03T06:00:11Z",
+                    "email": "deathcap@gmx.co.uk",
+                    "name": "deathcap"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2016-02-03T06:00:11Z",
+                    "email": "deathcap@gmx.co.uk",
+                    "name": "deathcap"
+                },
+                "message": "Merge branch 'master' into forge",
+                "tree": {
+                    "sha": "69f8a09119bfbe6276220d146a7be6f76ebaaad6",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/69f8a09119bfbe6276220d146a7be6f76ebaaad6"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/446870726840c6d98d258d797d0cff0c22f5f779"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
+                "events_url": "https://api.github.com/users/deathcap/events{/privacy}",
+                "followers_url": "https://api.github.com/users/deathcap/followers",
+                "following_url": "https://api.github.com/users/deathcap/following{/other_user}",
+                "gists_url": "https://api.github.com/users/deathcap/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/deathcap",
+                "id": 5897956,
+                "login": "deathcap",
+                "organizations_url": "https://api.github.com/users/deathcap/orgs",
+                "received_events_url": "https://api.github.com/users/deathcap/received_events",
+                "repos_url": "https://api.github.com/users/deathcap/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/deathcap/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/deathcap/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/deathcap"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/446870726840c6d98d258d797d0cff0c22f5f779",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/09ecdcfcffe408908678ac8e19bca051ad8396d6",
+                    "sha": "09ecdcfcffe408908678ac8e19bca051ad8396d6",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/09ecdcfcffe408908678ac8e19bca051ad8396d6"
+                },
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/b0061cdeb72130f1beab6697859ef7317aefcc02",
+                    "sha": "b0061cdeb72130f1beab6697859ef7317aefcc02",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/b0061cdeb72130f1beab6697859ef7317aefcc02"
+                }
+            ],
+            "sha": "446870726840c6d98d258d797d0cff0c22f5f779",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/446870726840c6d98d258d797d0cff0c22f5f779"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
+                "events_url": "https://api.github.com/users/deathcap/events{/privacy}",
+                "followers_url": "https://api.github.com/users/deathcap/followers",
+                "following_url": "https://api.github.com/users/deathcap/following{/other_user}",
+                "gists_url": "https://api.github.com/users/deathcap/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/deathcap",
+                "id": 5897956,
+                "login": "deathcap",
+                "organizations_url": "https://api.github.com/users/deathcap/orgs",
+                "received_events_url": "https://api.github.com/users/deathcap/received_events",
+                "repos_url": "https://api.github.com/users/deathcap/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/deathcap/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/deathcap/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/deathcap"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/9e9a5cb3d8b13ff16d8b073c37b6bc0d720811cf/comments",
+            "commit": {
+                "author": {
+                    "date": "2016-02-03T06:17:37Z",
+                    "email": "deathcap@gmx.co.uk",
+                    "name": "deathcap"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2016-02-03T06:17:37Z",
+                    "email": "deathcap@gmx.co.uk",
+                    "name": "deathcap"
+                },
+                "message": "Integrate Forge support with auto-versioning support",
+                "tree": {
+                    "sha": "4dc525eb66d5e11b695a690903812f8c7947f4c4",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/4dc525eb66d5e11b695a690903812f8c7947f4c4"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/9e9a5cb3d8b13ff16d8b073c37b6bc0d720811cf"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
+                "events_url": "https://api.github.com/users/deathcap/events{/privacy}",
+                "followers_url": "https://api.github.com/users/deathcap/followers",
+                "following_url": "https://api.github.com/users/deathcap/following{/other_user}",
+                "gists_url": "https://api.github.com/users/deathcap/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/deathcap",
+                "id": 5897956,
+                "login": "deathcap",
+                "organizations_url": "https://api.github.com/users/deathcap/orgs",
+                "received_events_url": "https://api.github.com/users/deathcap/received_events",
+                "repos_url": "https://api.github.com/users/deathcap/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/deathcap/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/deathcap/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/deathcap"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/9e9a5cb3d8b13ff16d8b073c37b6bc0d720811cf",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/446870726840c6d98d258d797d0cff0c22f5f779",
+                    "sha": "446870726840c6d98d258d797d0cff0c22f5f779",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/446870726840c6d98d258d797d0cff0c22f5f779"
+                }
+            ],
+            "sha": "9e9a5cb3d8b13ff16d8b073c37b6bc0d720811cf",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/9e9a5cb3d8b13ff16d8b073c37b6bc0d720811cf"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
+                "events_url": "https://api.github.com/users/deathcap/events{/privacy}",
+                "followers_url": "https://api.github.com/users/deathcap/followers",
+                "following_url": "https://api.github.com/users/deathcap/following{/other_user}",
+                "gists_url": "https://api.github.com/users/deathcap/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/deathcap",
+                "id": 5897956,
+                "login": "deathcap",
+                "organizations_url": "https://api.github.com/users/deathcap/orgs",
+                "received_events_url": "https://api.github.com/users/deathcap/received_events",
+                "repos_url": "https://api.github.com/users/deathcap/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/deathcap/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/deathcap/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/deathcap"
+            },
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/14740447ddcd6652638a7c06fa2f957255c2f221/comments",
+            "commit": {
+                "author": {
+                    "date": "2016-02-03T06:21:21Z",
+                    "email": "deathcap@gmx.co.uk",
+                    "name": "deathcap"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2016-02-03T06:21:21Z",
+                    "email": "deathcap@gmx.co.uk",
+                    "name": "deathcap"
+                },
+                "message": "Update var to const/let in forgeHandshake",
+                "tree": {
+                    "sha": "2b4193f6a74ad726a980d7e2dbe143c91953df6f",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/2b4193f6a74ad726a980d7e2dbe143c91953df6f"
+                },
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/14740447ddcd6652638a7c06fa2f957255c2f221"
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
+                "events_url": "https://api.github.com/users/deathcap/events{/privacy}",
+                "followers_url": "https://api.github.com/users/deathcap/followers",
+                "following_url": "https://api.github.com/users/deathcap/following{/other_user}",
+                "gists_url": "https://api.github.com/users/deathcap/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/deathcap",
+                "id": 5897956,
+                "login": "deathcap",
+                "organizations_url": "https://api.github.com/users/deathcap/orgs",
+                "received_events_url": "https://api.github.com/users/deathcap/received_events",
+                "repos_url": "https://api.github.com/users/deathcap/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/deathcap/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/deathcap/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/deathcap"
+            },
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/14740447ddcd6652638a7c06fa2f957255c2f221",
+            "parents": [
+                {
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/9e9a5cb3d8b13ff16d8b073c37b6bc0d720811cf",
+                    "sha": "9e9a5cb3d8b13ff16d8b073c37b6bc0d720811cf",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/9e9a5cb3d8b13ff16d8b073c37b6bc0d720811cf"
+                }
+            ],
+            "sha": "14740447ddcd6652638a7c06fa2f957255c2f221",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/14740447ddcd6652638a7c06fa2f957255c2f221"
         }
     ],
     "commits_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/326/commits",
@@ -3256,9 +3546,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/deathcap/node-minecraft-protocol/pulls{/number}",
-            "pushed_at": "2016-02-02T05:42:58Z",
+            "pushed_at": "2016-02-03T06:21:53Z",
             "releases_url": "https://api.github.com/repos/deathcap/node-minecraft-protocol/releases{/id}",
-            "size": 955,
+            "size": 976,
             "ssh_url": "git@github.com:deathcap/node-minecraft-protocol.git",
             "stargazers_count": 4,
             "stargazers_url": "https://api.github.com/repos/deathcap/node-minecraft-protocol/stargazers",
@@ -3274,7 +3564,7 @@
             "watchers": 4,
             "watchers_count": 4
         },
-        "sha": "70f1883a0c44a7b73c024939a1d7dc8162f57158",
+        "sha": "14740447ddcd6652638a7c06fa2f957255c2f221",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
             "events_url": "https://api.github.com/users/deathcap/events{/privacy}",
@@ -3299,7 +3589,7 @@
     "id": 56986526,
     "issue_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/326",
     "locked": false,
-    "merge_commit_sha": "091d4c7ac831cfe713d4808ae0c3a55da3b767f7",
+    "merge_commit_sha": "f18b85146b0ee57077f75a36963133f240e9cf5a",
     "merged_at": null,
     "milestone": null,
     "number": 326,
@@ -3307,9 +3597,9 @@
     "review_comment_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments{/number}",
     "review_comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/326/comments",
     "state": "open",
-    "statuses_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/statuses/70f1883a0c44a7b73c024939a1d7dc8162f57158",
+    "statuses_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/statuses/14740447ddcd6652638a7c06fa2f957255c2f221",
     "title": "Forge client support",
-    "updated_at": "2016-02-01T09:09:15Z",
+    "updated_at": "2016-02-03T08:03:59Z",
     "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/326",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",

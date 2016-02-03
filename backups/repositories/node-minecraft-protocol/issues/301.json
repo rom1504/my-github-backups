@@ -86,9 +86,65 @@
                 "type": "User",
                 "url": "https://api.github.com/users/rom1504"
             }
+        },
+        {
+            "body": "Would this mean all this code in src/transforms/serializer.js:\r\n\r\n```javascript\r\n\r\n  Object.keys(packets).forEach(function(name) {\r\n    proto.addType(\"packet_\"+name,[\"container\",packets[name].fields]);\r\n  });\r\n\r\n  proto.addType(\"packet\",[\"container\", [\r\n    { \"name\": \"name\", \"type\":[\"mapper\",{\"type\": \"varint\" ,\r\n      \"mappings\":Object.keys(packets).reduce(function(acc,name){\r\n        acc[parseInt(packets[name].id)]=name;\r\n        return acc;\r\n      },{})\r\n    }]},\r\n    { \"name\": \"params\", \"type\": [\"switch\", {\r\n      \"compareTo\": \"name\",\r\n      \"fields\": Object.keys(packets).reduce(function(acc,name){\r\n        acc[name]=\"packet_\"+name;\r\n        return acc;\r\n      },{})\r\n    }]}\r\n  ]]);\r\n```\r\n\r\ncould be replaced with something like one call to proto.addTypes()?",
+            "created_at": "2016-02-03T05:57:14Z",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/issues/301#issuecomment-179027980",
+            "id": 179027980,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/301",
+            "updated_at": "2016-02-03T05:57:14Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/comments/179027980",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
+                "events_url": "https://api.github.com/users/deathcap/events{/privacy}",
+                "followers_url": "https://api.github.com/users/deathcap/followers",
+                "following_url": "https://api.github.com/users/deathcap/following{/other_user}",
+                "gists_url": "https://api.github.com/users/deathcap/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/deathcap",
+                "id": 5897956,
+                "login": "deathcap",
+                "organizations_url": "https://api.github.com/users/deathcap/orgs",
+                "received_events_url": "https://api.github.com/users/deathcap/received_events",
+                "repos_url": "https://api.github.com/users/deathcap/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/deathcap/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/deathcap/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/deathcap"
+            }
+        },
+        {
+            "body": "Yes!\r\n\r\nThat requires some drastic change to the .json though and I need to write a script to do it. Still planning on doing it. (Also got to check the resulting json looks okay)",
+            "created_at": "2016-02-03T07:33:34Z",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/issues/301#issuecomment-179066709",
+            "id": 179066709,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/301",
+            "updated_at": "2016-02-03T07:33:34Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/comments/179066709",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
         }
     ],
-    "comments": 3,
+    "comments": 5,
     "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/301/comments",
     "created_at": "2015-11-09T16:32:15Z",
     "event_data": [
@@ -300,9 +356,10 @@
     "locked": false,
     "milestone": null,
     "number": 301,
+    "repository_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol",
     "state": "open",
     "title": "Consider changing mcdata protocol.json instead of transforming it when reading it",
-    "updated_at": "2015-11-19T15:06:26Z",
+    "updated_at": "2016-02-03T07:33:34Z",
     "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/301",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",

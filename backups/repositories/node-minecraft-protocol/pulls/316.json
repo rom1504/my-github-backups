@@ -22,7 +22,7 @@
             "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/316"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/statuses/d48759d428072654d10eb2d7bd1e2d2e3042cbf4"
+            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/statuses/cf2688d8f89f63727c62eaa480d17f51cc473e99"
         }
     },
     "assignee": null,
@@ -43,6 +43,7 @@
             "contributors_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/contributors",
             "created_at": "2013-01-01T09:17:05Z",
             "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/deployments",
             "description": "Parse and serialize minecraft packets, plus authentication and encryption.",
             "downloads_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/downloads",
             "events_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/events",
@@ -75,8 +76,8 @@
             "mirror_url": null,
             "name": "node-minecraft-protocol",
             "notifications_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/notifications{?since,all,participating}",
-            "open_issues": 29,
-            "open_issues_count": 29,
+            "open_issues": 27,
+            "open_issues_count": 27,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/11053411?v=3",
                 "events_url": "https://api.github.com/users/PrismarineJS/events{/privacy}",
@@ -98,11 +99,11 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls{/number}",
-            "pushed_at": "2016-01-20T07:44:02Z",
+            "pushed_at": "2016-02-02T08:29:03Z",
             "releases_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/releases{/id}",
-            "size": 1023,
+            "size": 1117,
             "ssh_url": "git@github.com:PrismarineJS/node-minecraft-protocol.git",
-            "stargazers_count": 203,
+            "stargazers_count": 205,
             "stargazers_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/stargazers",
             "statuses_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/subscribers",
@@ -111,12 +112,12 @@
             "tags_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/tags",
             "teams_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/teams",
             "trees_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees{/sha}",
-            "updated_at": "2016-01-17T13:00:57Z",
+            "updated_at": "2016-01-23T04:20:31Z",
             "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol",
-            "watchers": 203,
-            "watchers_count": 203
+            "watchers": 205,
+            "watchers_count": 205
         },
-        "sha": "3ba152eba3410f98897a24c54c911938409e9945",
+        "sha": "a6a673a8c80da66cd02cbcd0bd8d9da2c65cce4e",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/11053411?v=3",
             "events_url": "https://api.github.com/users/PrismarineJS/events{/privacy}",
@@ -138,7 +139,7 @@
         }
     },
     "body": "Before the streams refactor, MC packets were sent with the packet length prefix and payload combined in one call. This PR restores this behavior, instead of sending the packet length and payload in two separate `this.push()` calls.\r\n\r\nref: https://github.com/deathcap/wsmc/pull/21#issuecomment-172284334\r\n\r\n(With this change, browserified mineflayer now works with the latest node-minecraft-protocol)",
-    "closed_at": null,
+    "closed_at": "2016-02-01T09:15:19Z",
     "comment_data": [],
     "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/316/comments",
     "commit_data": [
@@ -162,7 +163,7 @@
                 "type": "User",
                 "url": "https://api.github.com/users/deathcap"
             },
-            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/d48759d428072654d10eb2d7bd1e2d2e3042cbf4/comments",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/cf2688d8f89f63727c62eaa480d17f51cc473e99/comments",
             "commit": {
                 "author": {
                     "date": "2016-01-17T02:18:20Z",
@@ -171,16 +172,16 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2016-01-17T02:18:20Z",
+                    "date": "2016-02-01T02:25:14Z",
                     "email": "deathcap@gmx.co.uk",
                     "name": "deathcap"
                 },
                 "message": "Send framed packets in one push()",
                 "tree": {
-                    "sha": "b072b6c920674f9994f8ca1d1765eea5195f4619",
-                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/b072b6c920674f9994f8ca1d1765eea5195f4619"
+                    "sha": "8a111f65b96e3d7cdcd9f0e40ffb0b52a587f194",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/8a111f65b96e3d7cdcd9f0e40ffb0b52a587f194"
                 },
-                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/d48759d428072654d10eb2d7bd1e2d2e3042cbf4"
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/cf2688d8f89f63727c62eaa480d17f51cc473e99"
             },
             "committer": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
@@ -201,16 +202,16 @@
                 "type": "User",
                 "url": "https://api.github.com/users/deathcap"
             },
-            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/d48759d428072654d10eb2d7bd1e2d2e3042cbf4",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/cf2688d8f89f63727c62eaa480d17f51cc473e99",
             "parents": [
                 {
-                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/3ba152eba3410f98897a24c54c911938409e9945",
-                    "sha": "3ba152eba3410f98897a24c54c911938409e9945",
-                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/3ba152eba3410f98897a24c54c911938409e9945"
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/a6a673a8c80da66cd02cbcd0bd8d9da2c65cce4e",
+                    "sha": "a6a673a8c80da66cd02cbcd0bd8d9da2c65cce4e",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/a6a673a8c80da66cd02cbcd0bd8d9da2c65cce4e"
                 }
             ],
-            "sha": "d48759d428072654d10eb2d7bd1e2d2e3042cbf4",
-            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/d48759d428072654d10eb2d7bd1e2d2e3042cbf4"
+            "sha": "cf2688d8f89f63727c62eaa480d17f51cc473e99",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/cf2688d8f89f63727c62eaa480d17f51cc473e99"
         }
     ],
     "commits_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/316/commits",
@@ -233,6 +234,7 @@
             "contributors_url": "https://api.github.com/repos/deathcap/node-minecraft-protocol/contributors",
             "created_at": "2014-01-04T05:44:25Z",
             "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/deathcap/node-minecraft-protocol/deployments",
             "description": "Parse and serialize minecraft packets, plus authentication and encryption.",
             "downloads_url": "https://api.github.com/repos/deathcap/node-minecraft-protocol/downloads",
             "events_url": "https://api.github.com/repos/deathcap/node-minecraft-protocol/events",
@@ -265,8 +267,8 @@
             "mirror_url": null,
             "name": "node-minecraft-protocol",
             "notifications_url": "https://api.github.com/repos/deathcap/node-minecraft-protocol/notifications{?since,all,participating}",
-            "open_issues": 1,
-            "open_issues_count": 1,
+            "open_issues": 0,
+            "open_issues_count": 0,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
                 "events_url": "https://api.github.com/users/deathcap/events{/privacy}",
@@ -288,9 +290,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/deathcap/node-minecraft-protocol/pulls{/number}",
-            "pushed_at": "2016-01-20T08:39:57Z",
+            "pushed_at": "2016-02-02T05:42:58Z",
             "releases_url": "https://api.github.com/repos/deathcap/node-minecraft-protocol/releases{/id}",
-            "size": 877,
+            "size": 955,
             "ssh_url": "git@github.com:deathcap/node-minecraft-protocol.git",
             "stargazers_count": 4,
             "stargazers_url": "https://api.github.com/repos/deathcap/node-minecraft-protocol/stargazers",
@@ -306,7 +308,7 @@
             "watchers": 4,
             "watchers_count": 4
         },
-        "sha": "d48759d428072654d10eb2d7bd1e2d2e3042cbf4",
+        "sha": "cf2688d8f89f63727c62eaa480d17f51cc473e99",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
             "events_url": "https://api.github.com/users/deathcap/events{/privacy}",
@@ -331,17 +333,17 @@
     "id": 56268627,
     "issue_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/316",
     "locked": false,
-    "merge_commit_sha": "25e9ef59d95426992f8d5dccca24a1919143441d",
-    "merged_at": null,
+    "merge_commit_sha": "3fd9be859b67b1d91899d3a685a68edcaeacd338",
+    "merged_at": "2016-02-01T09:15:19Z",
     "milestone": null,
     "number": 316,
     "patch_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/316.patch",
     "review_comment_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments{/number}",
     "review_comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/316/comments",
-    "state": "open",
-    "statuses_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/statuses/d48759d428072654d10eb2d7bd1e2d2e3042cbf4",
-    "title": "[WIP] Send framed packets in one push()",
-    "updated_at": "2016-01-20T14:53:58Z",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/statuses/cf2688d8f89f63727c62eaa480d17f51cc473e99",
+    "title": "Send framed packets in one push()",
+    "updated_at": "2016-02-01T09:15:19Z",
     "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/316",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",

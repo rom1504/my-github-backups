@@ -1,7 +1,7 @@
 {
     "assignee": null,
     "body": "",
-    "closed_at": null,
+    "closed_at": "2016-01-22T10:07:02Z",
     "comment_data": [
         {
             "body": "We are considering moving it to https://github.com/PrismarineJS. Since mineflayer's gitter is already the same as node-minecraft-protocol's gitter and node-minecraft-protocol is in PrismarineJS it makes sense.\r\n\r\n",
@@ -114,12 +114,96 @@
                 "type": "User",
                 "url": "https://api.github.com/users/roblabla"
             }
+        },
+        {
+            "body": "Since moved to https://github.com/PrismarineJS/mineflayer can this be closed?",
+            "created_at": "2016-01-22T07:06:16Z",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/252#issuecomment-173829708",
+            "id": 173829708,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/252",
+            "updated_at": "2016-01-22T07:06:16Z",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/173829708",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
+                "events_url": "https://api.github.com/users/deathcap/events{/privacy}",
+                "followers_url": "https://api.github.com/users/deathcap/followers",
+                "following_url": "https://api.github.com/users/deathcap/following{/other_user}",
+                "gists_url": "https://api.github.com/users/deathcap/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/deathcap",
+                "id": 5897956,
+                "login": "deathcap",
+                "organizations_url": "https://api.github.com/users/deathcap/orgs",
+                "received_events_url": "https://api.github.com/users/deathcap/received_events",
+                "repos_url": "https://api.github.com/users/deathcap/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/deathcap/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/deathcap/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/deathcap"
+            }
+        },
+        {
+            "body": "Yeah closing. We can move some mineflayer-* plugins in prismarinejs later if it is appropriate.",
+            "created_at": "2016-01-22T10:07:02Z",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/252#issuecomment-173867739",
+            "id": 173867739,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/252",
+            "updated_at": "2016-01-22T10:07:02Z",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/173867739",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
         }
     ],
-    "comments": 4,
+    "comments": 6,
     "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/252/comments",
     "created_at": "2015-04-02T15:09:21Z",
-    "event_data": [],
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2016-01-22T10:07:02Z",
+            "event": "closed",
+            "id": 522757290,
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/events/522757290"
+        }
+    ],
     "events_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/252/events",
     "html_url": "https://github.com/PrismarineJS/mineflayer/issues/252",
     "id": 65947093,
@@ -128,9 +212,9 @@
     "locked": false,
     "milestone": null,
     "number": 252,
-    "state": "open",
+    "state": "closed",
     "title": "move mineflayer and other \"offical\" plugins to a organization",
-    "updated_at": "2015-04-15T12:47:19Z",
+    "updated_at": "2016-01-22T10:07:02Z",
     "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/252",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/9436061?v=3",

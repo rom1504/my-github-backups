@@ -48,9 +48,37 @@
                 "type": "User",
                 "url": "https://api.github.com/users/rom1504"
             }
+        },
+        {
+            "body": "Maybe could use the voxel plugins system https://github.com/voxel/voxel-plugins directly? I haven't tried using it for other purposes outside of voxel.js (except in the test suite), but it doesn't have any actual voxel engine dependencies, could possibly be used independently if it makes sense. Or if it could be generalized further, I'd be interested in having something in common for both voxel.js and flying-squid if there is interest.\r\n\r\nThe other main benefit of voxel-plugins besides the loadAfter dependency topological sorting is enable() and disable(); it is modeled somewhat after Bukkit plugins with onEnable/onDisable, except my goal was from the ground up to support enabling/disabling all or most plugins, in order to allow more dynamism during gameplay and development/administration. There are some complications loading arbitrary plugins remotely in the browser (including the browserify build step), but on the server-side I think this would be easier, server administrators could easily /enable or /disable or /reload plugins etc, through this common interface. voxel-plugins also has the notion of plugin configuration, which is just JSON, like you have here: https://github.com/PrismarineJS/prismarine-server/blob/master/example/server.json#L39-L42",
+            "created_at": "2016-01-29T18:11:23Z",
+            "html_url": "https://github.com/PrismarineJS/flying-squid/issues/29#issuecomment-176891973",
+            "id": 176891973,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/29",
+            "updated_at": "2016-01-29T18:11:23Z",
+            "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/comments/176891973",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
+                "events_url": "https://api.github.com/users/deathcap/events{/privacy}",
+                "followers_url": "https://api.github.com/users/deathcap/followers",
+                "following_url": "https://api.github.com/users/deathcap/following{/other_user}",
+                "gists_url": "https://api.github.com/users/deathcap/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/deathcap",
+                "id": 5897956,
+                "login": "deathcap",
+                "organizations_url": "https://api.github.com/users/deathcap/orgs",
+                "received_events_url": "https://api.github.com/users/deathcap/received_events",
+                "repos_url": "https://api.github.com/users/deathcap/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/deathcap/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/deathcap/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/deathcap"
+            }
         }
     ],
-    "comments": 1,
+    "comments": 2,
     "comments_url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/29/comments",
     "created_at": "2015-09-01T19:27:52Z",
     "event_data": [
@@ -148,7 +176,7 @@
     "number": 29,
     "state": "open",
     "title": "Make internal plugins optional",
-    "updated_at": "2016-01-19T22:31:35Z",
+    "updated_at": "2016-01-29T18:11:23Z",
     "url": "https://api.github.com/repos/PrismarineJS/flying-squid/issues/29",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",

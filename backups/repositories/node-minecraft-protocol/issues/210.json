@@ -86,9 +86,37 @@
                 "type": "User",
                 "url": "https://api.github.com/users/roblabla"
             }
+        },
+        {
+            "body": "Some notes on modularization:\r\n\r\nGoals: better support new use cases, e.g websockets, Forge, cross-version, auto-negotiation, browser, and future unexpected usage\r\n\r\nLogical components (basic building blocks):\r\n\r\n* [x] Data/protocol specifications: minecraft-data, node-minecraft-data\r\n* [x] Compressor: src/transforms/compression.js, zlib deflate, threshold\r\n* [x] Framer: src/transforms/framing.js - note: ws disable\r\n* [x] Serializer: src/transforms/serializer.js packet stream\r\n* [ ] Keep-alive: respond to keep-alive packets for server (in this PR)\r\n* [ ] Ping: responds to ping in the server (in this PR)\r\n * [ ] FE01 ping https://github.com/PrismarineJS/node-minecraft-protocol/issues/332\r\n* [ ] Login: handle client logins in the server (in this PR), onEncryptionKeyResponse, loginClient, ursa..\r\n* [ ] Login/handshake client: onEncryptionKeyResponse, yggdrasil, ...\r\n* [ ] Encryption: usually a consequence of handshaking (but not always https://github.com/PrismarineJS/node-minecraft-protocol/issues/289)\r\n* [ ] `set_protocol` client: version, host (changed by FML), port, next state 2\r\n * [ ] Client ping: also uses `set_protocol` but different next state 1\r\n* [ ] `FML|HS` handshake (nmp-forge): change host, handshake on plugin channels\r\n* [ ] Plugin channels: streams, registration, https://github.com/PrismarineJS/node-minecraft-protocol/pull/328\r\n* [ ] DNS SRV resolution (createClient connect)\r\n* [ ] TCP sockets (`net`): usual final endpoint to the stream\r\n\r\nAdvanced usage (compose from above and other components):\r\n\r\n* [ ] Cross-version dynamic https://github.com/PrismarineJS/node-minecraft-protocol/issues/234 (nmp-auto) = client ping (FE01?) +`set_protocol` + `FML|HS`\r\n* [ ] Websocket-compatible = data + compressor + serializer + keepalive; without: framer (ws msgs), TCP, login/handshake (token), encryption (wss://). https://github.com/PrismarineJS/node-minecraft-protocol/pull/320 Client stream / wsmc\r\n* [ ] Browser = websocket-compatible + `websocket-stream`/`worker-stream` (3rd party modules)\r\n* [ ] Web-based Minecraft client = browser + mineflayer + voxel.js (etc.)\r\n* [ ] Proxy = ...\r\n",
+            "created_at": "2016-01-26T05:33:56Z",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/210#issuecomment-174841219",
+            "id": 174841219,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/210",
+            "updated_at": "2016-01-26T05:36:25Z",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/comments/174841219",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5897956?v=3",
+                "events_url": "https://api.github.com/users/deathcap/events{/privacy}",
+                "followers_url": "https://api.github.com/users/deathcap/followers",
+                "following_url": "https://api.github.com/users/deathcap/following{/other_user}",
+                "gists_url": "https://api.github.com/users/deathcap/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/deathcap",
+                "id": 5897956,
+                "login": "deathcap",
+                "organizations_url": "https://api.github.com/users/deathcap/orgs",
+                "received_events_url": "https://api.github.com/users/deathcap/received_events",
+                "repos_url": "https://api.github.com/users/deathcap/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/deathcap/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/deathcap/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/deathcap"
+            }
         }
     ],
-    "comments": 3,
+    "comments": 4,
     "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/210/comments",
     "created_at": "2015-08-06T18:54:10Z",
     "event_data": [],
@@ -108,7 +136,7 @@
     },
     "state": "open",
     "title": "[WIP] Modularize NMP",
-    "updated_at": "2015-10-01T23:26:08Z",
+    "updated_at": "2016-01-26T05:36:25Z",
     "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/210",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/1069318?v=3",

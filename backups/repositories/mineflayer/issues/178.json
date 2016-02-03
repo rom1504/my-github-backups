@@ -338,9 +338,65 @@
                 "type": "User",
                 "url": "https://api.github.com/users/rom1504"
             }
+        },
+        {
+            "body": "As of today, on server us.skyparty.me, digging in a cobblestone genny works exactly once for each block in the genny, and then the bot sees nothing but air, despite the blocks coming back after a short amount of time.\r\n\r\nIS there any way to add a workaround for now? Like manually a\r\n[dig.changeto.js.txt](https://github.com/PrismarineJS/mineflayer/files/102458/dig.changeto.js.txt)\r\ndding some kind of bot.on(\"packetnamehere\") to manually set the block when the bot gets a block update packet?\r\n\r\nIncluded is the code used for the digging\r\n\r\n",
+            "created_at": "2016-01-24T17:40:56Z",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/178#issuecomment-174322882",
+            "id": 174322882,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/178",
+            "updated_at": "2016-01-24T17:40:56Z",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/174322882",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/860229?v=3",
+                "events_url": "https://api.github.com/users/Corgano/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Corgano/followers",
+                "following_url": "https://api.github.com/users/Corgano/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Corgano/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Corgano",
+                "id": 860229,
+                "login": "Corgano",
+                "organizations_url": "https://api.github.com/users/Corgano/orgs",
+                "received_events_url": "https://api.github.com/users/Corgano/received_events",
+                "repos_url": "https://api.github.com/users/Corgano/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Corgano/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Corgano/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Corgano"
+            }
+        },
+        {
+            "body": "You need to wait for the block to come back before digging again.\r\n\r\nSee  https://github.com/PrismarineJS/mineflayer/blob/master/doc/api.md#blockupdatex-y-z-oldblock-newblock",
+            "created_at": "2016-01-24T18:02:42Z",
+            "html_url": "https://github.com/PrismarineJS/mineflayer/issues/178#issuecomment-174325578",
+            "id": 174325578,
+            "issue_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/178",
+            "updated_at": "2016-01-24T18:02:42Z",
+            "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/comments/174325578",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
+                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
+                "followers_url": "https://api.github.com/users/rom1504/followers",
+                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/rom1504",
+                "id": 2346494,
+                "login": "rom1504",
+                "organizations_url": "https://api.github.com/users/rom1504/orgs",
+                "received_events_url": "https://api.github.com/users/rom1504/received_events",
+                "repos_url": "https://api.github.com/users/rom1504/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/rom1504"
+            }
         }
     ],
-    "comments": 12,
+    "comments": 14,
     "comments_url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/178/comments",
     "created_at": "2014-04-21T23:22:43Z",
     "event_data": [
@@ -542,7 +598,7 @@
     "number": 178,
     "state": "open",
     "title": "Incorrect local block information.",
-    "updated_at": "2015-08-21T20:27:39Z",
+    "updated_at": "2016-01-24T18:02:42Z",
     "url": "https://api.github.com/repos/PrismarineJS/mineflayer/issues/178",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/834342?v=3",

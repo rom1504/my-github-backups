@@ -22,7 +22,7 @@
             "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/322"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/statuses/ac0f75105d0eba2660aa242c141323e8b2d6f6d0"
+            "href": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/statuses/942e08667472c2d155ec5f0bd259797e5e6a2746"
         }
     },
     "assignee": null,
@@ -43,6 +43,7 @@
             "contributors_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/contributors",
             "created_at": "2013-01-01T09:17:05Z",
             "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/deployments",
             "description": "Parse and serialize minecraft packets, plus authentication and encryption.",
             "downloads_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/downloads",
             "events_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/events",
@@ -75,8 +76,8 @@
             "mirror_url": null,
             "name": "node-minecraft-protocol",
             "notifications_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/notifications{?since,all,participating}",
-            "open_issues": 29,
-            "open_issues_count": 29,
+            "open_issues": 27,
+            "open_issues_count": 27,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/11053411?v=3",
                 "events_url": "https://api.github.com/users/PrismarineJS/events{/privacy}",
@@ -98,11 +99,11 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls{/number}",
-            "pushed_at": "2016-01-20T07:44:02Z",
+            "pushed_at": "2016-02-02T08:29:03Z",
             "releases_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/releases{/id}",
-            "size": 1023,
+            "size": 1117,
             "ssh_url": "git@github.com:PrismarineJS/node-minecraft-protocol.git",
-            "stargazers_count": 203,
+            "stargazers_count": 205,
             "stargazers_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/stargazers",
             "statuses_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/subscribers",
@@ -111,12 +112,12 @@
             "tags_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/tags",
             "teams_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/teams",
             "trees_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees{/sha}",
-            "updated_at": "2016-01-17T13:00:57Z",
+            "updated_at": "2016-01-23T04:20:31Z",
             "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol",
-            "watchers": 203,
-            "watchers_count": 203
+            "watchers": 205,
+            "watchers_count": 205
         },
-        "sha": "16a5c0fc0d3ed9c36e4a64d121db8e8f53be0838",
+        "sha": "e9d959e219c23840fd439e5fdc5645b4289268e3",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/11053411?v=3",
             "events_url": "https://api.github.com/users/PrismarineJS/events{/privacy}",
@@ -138,7 +139,7 @@
         }
     },
     "body": "similar to https://github.com/PrismarineJS/node-minecraft-protocol/pull/305 , but with babel-preset-es2015\r\n\r\nnicer dist/",
-    "closed_at": null,
+    "closed_at": "2016-02-01T09:31:03Z",
     "comment_data": [],
     "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/322/comments",
     "commit_data": [
@@ -162,77 +163,7 @@
                 "type": "User",
                 "url": "https://api.github.com/users/rom1504"
             },
-            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/19d3982cbcab1bd3f28cc64b52976ecccec8cf7c/comments",
-            "commit": {
-                "author": {
-                    "date": "2015-11-16T15:37:28Z",
-                    "email": "romain.rom1@gmail.com",
-                    "name": "Romain Beaumont"
-                },
-                "comment_count": 0,
-                "committer": {
-                    "date": "2016-01-19T23:51:14Z",
-                    "email": "romain.rom1@gmail.com",
-                    "name": "Romain Beaumont"
-                },
-                "message": "update to babel6 and remove some dependencies",
-                "tree": {
-                    "sha": "38e0062ec18dae885720209d353d25ed7071adff",
-                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/38e0062ec18dae885720209d353d25ed7071adff"
-                },
-                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/19d3982cbcab1bd3f28cc64b52976ecccec8cf7c"
-            },
-            "committer": {
-                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
-                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
-                "followers_url": "https://api.github.com/users/rom1504/followers",
-                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
-                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
-                "gravatar_id": "",
-                "html_url": "https://github.com/rom1504",
-                "id": 2346494,
-                "login": "rom1504",
-                "organizations_url": "https://api.github.com/users/rom1504/orgs",
-                "received_events_url": "https://api.github.com/users/rom1504/received_events",
-                "repos_url": "https://api.github.com/users/rom1504/repos",
-                "site_admin": false,
-                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
-                "type": "User",
-                "url": "https://api.github.com/users/rom1504"
-            },
-            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/19d3982cbcab1bd3f28cc64b52976ecccec8cf7c",
-            "parents": [
-                {
-                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/16a5c0fc0d3ed9c36e4a64d121db8e8f53be0838",
-                    "sha": "16a5c0fc0d3ed9c36e4a64d121db8e8f53be0838",
-                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/16a5c0fc0d3ed9c36e4a64d121db8e8f53be0838"
-                }
-            ],
-            "sha": "19d3982cbcab1bd3f28cc64b52976ecccec8cf7c",
-            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/19d3982cbcab1bd3f28cc64b52976ecccec8cf7c"
-        },
-        {
-            "author": {
-                "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
-                "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
-                "followers_url": "https://api.github.com/users/rom1504/followers",
-                "following_url": "https://api.github.com/users/rom1504/following{/other_user}",
-                "gists_url": "https://api.github.com/users/rom1504/gists{/gist_id}",
-                "gravatar_id": "",
-                "html_url": "https://github.com/rom1504",
-                "id": 2346494,
-                "login": "rom1504",
-                "organizations_url": "https://api.github.com/users/rom1504/orgs",
-                "received_events_url": "https://api.github.com/users/rom1504/received_events",
-                "repos_url": "https://api.github.com/users/rom1504/repos",
-                "site_admin": false,
-                "starred_url": "https://api.github.com/users/rom1504/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/rom1504/subscriptions",
-                "type": "User",
-                "url": "https://api.github.com/users/rom1504"
-            },
-            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/e96f4a346b00c18458b35e6bf3504f0003be2379/comments",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/bad378821caa555c84947753d6693c6b649d7824/comments",
             "commit": {
                 "author": {
                     "date": "2016-01-19T23:53:48Z",
@@ -241,16 +172,16 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2016-01-19T23:53:48Z",
+                    "date": "2016-02-01T09:30:38Z",
                     "email": "romain.rom1@gmail.com",
                     "name": "Romain Beaumont"
                 },
                 "message": "use babel-preset-es2015-node5 instead of babel-preset-es2015, nicer dist/",
                 "tree": {
-                    "sha": "7939bcc6126ae437f3572e062f3d3ea2036cdfa2",
-                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/7939bcc6126ae437f3572e062f3d3ea2036cdfa2"
+                    "sha": "ba062ebc1869ea9585be0828adbc9e3309d7cbc5",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/ba062ebc1869ea9585be0828adbc9e3309d7cbc5"
                 },
-                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/e96f4a346b00c18458b35e6bf3504f0003be2379"
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/bad378821caa555c84947753d6693c6b649d7824"
             },
             "committer": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
@@ -271,16 +202,16 @@
                 "type": "User",
                 "url": "https://api.github.com/users/rom1504"
             },
-            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/e96f4a346b00c18458b35e6bf3504f0003be2379",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/bad378821caa555c84947753d6693c6b649d7824",
             "parents": [
                 {
-                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/19d3982cbcab1bd3f28cc64b52976ecccec8cf7c",
-                    "sha": "19d3982cbcab1bd3f28cc64b52976ecccec8cf7c",
-                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/19d3982cbcab1bd3f28cc64b52976ecccec8cf7c"
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/e9d959e219c23840fd439e5fdc5645b4289268e3",
+                    "sha": "e9d959e219c23840fd439e5fdc5645b4289268e3",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/e9d959e219c23840fd439e5fdc5645b4289268e3"
                 }
             ],
-            "sha": "e96f4a346b00c18458b35e6bf3504f0003be2379",
-            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/e96f4a346b00c18458b35e6bf3504f0003be2379"
+            "sha": "bad378821caa555c84947753d6693c6b649d7824",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/bad378821caa555c84947753d6693c6b649d7824"
         },
         {
             "author": {
@@ -302,7 +233,7 @@
                 "type": "User",
                 "url": "https://api.github.com/users/rom1504"
             },
-            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/ac0f75105d0eba2660aa242c141323e8b2d6f6d0/comments",
+            "comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/942e08667472c2d155ec5f0bd259797e5e6a2746/comments",
             "commit": {
                 "author": {
                     "date": "2016-01-19T23:58:05Z",
@@ -311,16 +242,16 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2016-01-19T23:58:05Z",
+                    "date": "2016-02-01T09:30:38Z",
                     "email": "romain.rom1@gmail.com",
                     "name": "Romain Beaumont"
                 },
                 "message": "requires node5",
                 "tree": {
-                    "sha": "3c0681b674d36d2221be314dd780d84ae8d7fcce",
-                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/3c0681b674d36d2221be314dd780d84ae8d7fcce"
+                    "sha": "c022caab7dc27c502966ec1e8cf7b4c235e014b4",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/trees/c022caab7dc27c502966ec1e8cf7b4c235e014b4"
                 },
-                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/ac0f75105d0eba2660aa242c141323e8b2d6f6d0"
+                "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/git/commits/942e08667472c2d155ec5f0bd259797e5e6a2746"
             },
             "committer": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
@@ -341,16 +272,16 @@
                 "type": "User",
                 "url": "https://api.github.com/users/rom1504"
             },
-            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/ac0f75105d0eba2660aa242c141323e8b2d6f6d0",
+            "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/942e08667472c2d155ec5f0bd259797e5e6a2746",
             "parents": [
                 {
-                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/e96f4a346b00c18458b35e6bf3504f0003be2379",
-                    "sha": "e96f4a346b00c18458b35e6bf3504f0003be2379",
-                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/e96f4a346b00c18458b35e6bf3504f0003be2379"
+                    "html_url": "https://github.com/PrismarineJS/node-minecraft-protocol/commit/bad378821caa555c84947753d6693c6b649d7824",
+                    "sha": "bad378821caa555c84947753d6693c6b649d7824",
+                    "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/bad378821caa555c84947753d6693c6b649d7824"
                 }
             ],
-            "sha": "ac0f75105d0eba2660aa242c141323e8b2d6f6d0",
-            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/ac0f75105d0eba2660aa242c141323e8b2d6f6d0"
+            "sha": "942e08667472c2d155ec5f0bd259797e5e6a2746",
+            "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/commits/942e08667472c2d155ec5f0bd259797e5e6a2746"
         }
     ],
     "commits_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/322/commits",
@@ -373,12 +304,13 @@
             "contributors_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/contributors",
             "created_at": "2015-03-22T01:05:17Z",
             "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/deployments",
             "description": "Parse and serialize minecraft packets, plus authentication and encryption.",
             "downloads_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/downloads",
             "events_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/events",
             "fork": true,
-            "forks": 1,
-            "forks_count": 1,
+            "forks": 0,
+            "forks_count": 0,
             "forks_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/forks",
             "full_name": "rom1504/node-minecraft-protocol",
             "git_commits_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/git/commits{/sha}",
@@ -428,9 +360,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/pulls{/number}",
-            "pushed_at": "2016-01-19T23:59:49Z",
+            "pushed_at": "2016-02-02T08:29:06Z",
             "releases_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/releases{/id}",
-            "size": 824,
+            "size": 878,
             "ssh_url": "git@github.com:rom1504/node-minecraft-protocol.git",
             "stargazers_count": 0,
             "stargazers_url": "https://api.github.com/repos/rom1504/node-minecraft-protocol/stargazers",
@@ -446,7 +378,7 @@
             "watchers": 0,
             "watchers_count": 0
         },
-        "sha": "ac0f75105d0eba2660aa242c141323e8b2d6f6d0",
+        "sha": "942e08667472c2d155ec5f0bd259797e5e6a2746",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
             "events_url": "https://api.github.com/users/rom1504/events{/privacy}",
@@ -471,17 +403,17 @@
     "id": 56544840,
     "issue_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/issues/322",
     "locked": false,
-    "merge_commit_sha": "83aab6b454deb04cb28b2407210595500482b6d8",
+    "merge_commit_sha": "0021f1dc101f570d4dbf01390dae914dba2683fa",
     "merged_at": null,
     "milestone": null,
     "number": 322,
     "patch_url": "https://github.com/PrismarineJS/node-minecraft-protocol/pull/322.patch",
     "review_comment_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/comments{/number}",
     "review_comments_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/322/comments",
-    "state": "open",
-    "statuses_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/statuses/ac0f75105d0eba2660aa242c141323e8b2d6f6d0",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/statuses/942e08667472c2d155ec5f0bd259797e5e6a2746",
     "title": "[WIP] Babel6 node5",
-    "updated_at": "2016-01-19T23:59:49Z",
+    "updated_at": "2016-02-01T09:31:03Z",
     "url": "https://api.github.com/repos/PrismarineJS/node-minecraft-protocol/pulls/322",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2346494?v=3",
